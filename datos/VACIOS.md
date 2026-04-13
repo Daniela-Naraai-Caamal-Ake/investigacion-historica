@@ -18,11 +18,11 @@ Estado posible: `PENDIENTE` · `EN PROCESO` · `RESPONDIDA PARCIALMENTE` · `RES
 
 | Estado | Cantidad |
 |--------|----------|
-| 🔴 PENDIENTE | 52 |
+| 🔴 PENDIENTE | 58 |
 | 🟡 EN PROCESO | 1 |
 | 🟠 RESPONDIDA PARCIALMENTE | 3 |
 | 🟢 RESPONDIDA | 0 |
-| **TOTAL** | **56** |
+| **TOTAL** | **62** |
 
 
 ---
@@ -143,6 +143,15 @@ Estas preguntas son cuellos de botella: sin ellas, capítulos enteros quedan inc
 | **P008-04** | ¿Cuál fue el impacto demográfico específico de la Guerra de Castas en Hopelchén? ¿Cuántas personas murieron… | 008 | Memoria del partido de los Chenes 1868 (citada en Schüren 2013 — buscar original en Archivo General del Estado de Campeche); Nelson Reed — La Guerra de Castas de Yucatán (libro académico clave con datos demográficos) | 🔴 PENDIENTE |
 
 
+### Nodo 009 — Resistencia y Agencia Maya en Hopelchén (1669–2026)
+
+| ID | Pregunta | Nodo | Dónde buscar | Estado |
+|----|----------|------|--------------|--------|
+| **P009-01** | ¿Quiénes eran los bataboob de Hopelchén en 1669? ¿Sus nombres, linajes y relación con las comunidades que g… | 009 | Cogolludo, Diego López de — Historia de Yucatán (1688): buscar referencias a 'bataboob', 'Los Chenes', 'Hopelchén'; Archivo General de Indias (PARES) — Sección Audiencia de México, siglo XVII | 🔴 PENDIENTE |
+| **P009-03** | ¿Cuándo exactamente comenzó la organización Maya Ka'an? ¿Qué comunidades la integran? ¿Cómo se distribuye e… | 009 | Sociedad de Productores de Miel Maya Ka'an — documentos de fundación y estatutos; Goldman Prize dossier 2020 — ficha técnica de la candidatura de Leydy Pech | 🔴 PENDIENTE |
+| **P009-04** | ¿Qué ocurrió después de la victoria de Leydy Pech en 2017? ¿Las comunidades de Hopelchén recuperaron tierra… | 009 | AIDA — actualizaciones del caso Hopelchén post-2017; Semarnat — informes de la mesa permanente de diálogo (2021-2026) | 🔴 PENDIENTE |
+
+
 ---
 
 ## PREGUNTAS DE PRIORIDAD MEDIA-ALTA
@@ -190,6 +199,13 @@ Estas preguntas son cuellos de botella: sin ellas, capítulos enteros quedan inc
 |----|----------|------|--------------|--------|
 | **P008-05** | ¿Cuál es la tasa de emigración de jóvenes desde Hopelchén hacia las ciudades (Campeche, Mérida, Ciudad del … | 008 | Data México — pirámide de edad de Hopelchén comparando 2005 y 2020; INEGI — Censo 2020: migrantes internos por municipio de origen/destino | 🔴 PENDIENTE |
 | **P008-06** | ¿Cuántos menonitas viven actualmente en el municipio de Hopelchén? ¿En qué colonias? ¿Qué porcentaje repres… | 008 | Observatorio Ciudadano — Menonitas arrasan selvas de Campeche: https://obsci.org/menonitas-arrasan-selvas-de-campeche/; PorEsto — datos de colonias menonitas en Hopelchén | 🔴 PENDIENTE |
+
+
+### Nodo 009 — Resistencia y Agencia Maya en Hopelchén (1669–2026)
+
+| ID | Pregunta | Nodo | Dónde buscar | Estado |
+|----|----------|------|--------------|--------|
+| **P009-02** | ¿Qué pasó con Juan de Dios May después del ataque a Hopelchén en 1848? ¿Fue capturado, huyó, murió? ¿Cuál e… | 009 | Reed, Nelson — The Caste War of Yucatan (1964, reedición 2001): índice por nombres; Rugeley, Terry — Yucatan's Maya Peasantry and the Origins of the Caste War (1996) | 🔴 PENDIENTE |
 
 
 ---
@@ -246,6 +262,14 @@ Estas preguntas son cuellos de botella: sin ellas, capítulos enteros quedan inc
 |----|----------|------|--------------|--------|
 | **P008-07** | ¿Qué dice el escritor en lengua maya Romualdo Eleazar Méndez Huchín sobre la pérdida cultural en Hopelchén?… | 008 | Tribuna Campeche — artículos sobre Romualdo Eleazar Méndez Huchín; INALI — catálogo de escritores en lengua indígena | 🔴 PENDIENTE |
 | **P008-08** | ¿Cuántas comunidades del municipio de Hopelchén tienen más del 90% de población indígena como Cancabchén (9… | 008 | INEGI — ITER 2020: datos por localidad para las 170 localidades de Hopelchén; PueblosAmérica — estadísticas individuales por localidad del municipio | 🔴 PENDIENTE |
+
+
+### Nodo 009 — Resistencia y Agencia Maya en Hopelchén (1669–2026)
+
+| ID | Pregunta | Nodo | Dónde buscar | Estado |
+|----|----------|------|--------------|--------|
+| **P009-05** | ¿Existen organizaciones mayas activas en Hopelchén que no sean Maya Ka'an? ¿Redes de comunidades ejidales, … | 009 | INPI (Instituto Nacional de los Pueblos Indígenas) — directorio de organizaciones indígenas en Campeche; CDI / INPI — proyectos productivos financiados en Hopelchén 2000-2026 | 🔴 PENDIENTE |
+| **P009-06** | ¿Cómo se organiza actualmente la meliponicultura de Xunáan Kab en Hopelchén? ¿Cuántas familias la practican… | 009 | SAGARPA / SADER — padrón de apicultores en Hopelchén; CONAPESCA / SADER — volumen y valor de producción de miel en Hopelchén | 🔴 PENDIENTE |
 
 
 ---
