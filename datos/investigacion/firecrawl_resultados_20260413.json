@@ -1,6 +1,6 @@
 {
   "modulo": "firecrawl",
-  "fecha_consulta": "2026-04-13T23:52:43.718389",
+  "fecha_consulta": "2026-04-13T23:56:08.556144",
   "api": "Firecrawl Search API",
   "terminos_fijos": 7,
   "terminos_desde_nodos": 6,
@@ -19,10 +19,10 @@
         "P002-01"
       ],
       "registro_id": "",
-      "estado": "error: FirecrawlClient.search() got an unexpected keyword argument 'lang'",
+      "estado": "error_red: no se pudo conectar a api.firecrawl.dev",
       "total_resultados": 0,
       "resultados": [],
-      "timestamp": "2026-04-13T23:52:30.715191"
+      "timestamp": "2026-04-13T23:55:37.475803"
     },
     {
       "query": "resistencia maya Campeche siglo XIX independencia",
@@ -36,10 +36,10 @@
         "P004-01"
       ],
       "registro_id": "",
-      "estado": "error: FirecrawlClient.search() got an unexpected keyword argument 'lang'",
+      "estado": "error_red: no se pudo conectar a api.firecrawl.dev",
       "total_resultados": 0,
       "resultados": [],
-      "timestamp": "2026-04-13T23:52:31.715426"
+      "timestamp": "2026-04-13T23:55:39.982413"
     },
     {
       "query": "industria chiclera Hopelchén Campeche economía siglo XX",
@@ -51,10 +51,10 @@
         "P005-01"
       ],
       "registro_id": "",
-      "estado": "error: FirecrawlClient.search() got an unexpected keyword argument 'lang'",
+      "estado": "error_red: no se pudo conectar a api.firecrawl.dev",
       "total_resultados": 0,
       "resultados": [],
-      "timestamp": "2026-04-13T23:52:32.715652"
+      "timestamp": "2026-04-13T23:55:42.489011"
     },
     {
       "query": "presidentes municipales Hopelchén Campeche historia política",
@@ -69,10 +69,10 @@
         "P006-09"
       ],
       "registro_id": "",
-      "estado": "error: FirecrawlClient.search() got an unexpected keyword argument 'lang'",
+      "estado": "error_red: no se pudo conectar a api.firecrawl.dev",
       "total_resultados": 0,
       "resultados": [],
-      "timestamp": "2026-04-13T23:52:33.715881"
+      "timestamp": "2026-04-13T23:55:44.995830"
     },
     {
       "query": "menonitas Hopelchén Campeche tierra deforestación soya transgénica",
@@ -84,10 +84,10 @@
         "P007-01"
       ],
       "registro_id": "",
-      "estado": "error: FirecrawlClient.search() got an unexpected keyword argument 'lang'",
+      "estado": "error_red: no se pudo conectar a api.firecrawl.dev",
       "total_resultados": 0,
       "resultados": [],
-      "timestamp": "2026-04-13T23:52:34.716200"
+      "timestamp": "2026-04-13T23:55:47.502612"
     },
     {
       "query": "conocimiento ecológico maya Hopelchén milpa semillas",
@@ -99,10 +99,10 @@
         "P008-01"
       ],
       "registro_id": "",
-      "estado": "error: FirecrawlClient.search() got an unexpected keyword argument 'lang'",
+      "estado": "error_red: no se pudo conectar a api.firecrawl.dev",
       "total_resultados": 0,
       "resultados": [],
-      "timestamp": "2026-04-13T23:52:35.716473"
+      "timestamp": "2026-04-13T23:55:50.009259"
     },
     {
       "query": "Hopelchén Campeche siglo XXI territorio autonomía comunidades mayas",
@@ -115,10 +115,10 @@
         "P009-02"
       ],
       "registro_id": "",
-      "estado": "error: FirecrawlClient.search() got an unexpected keyword argument 'lang'",
+      "estado": "error_red: no se pudo conectar a api.firecrawl.dev",
       "total_resultados": 0,
       "resultados": [],
-      "timestamp": "2026-04-13T23:52:36.716734"
+      "timestamp": "2026-04-13T23:55:52.515921"
     },
     {
       "query": "1900–1950: La economía chiclera en Los Chenes — estructura d Hopelchén 1900",
@@ -128,10 +128,10 @@
       ],
       "preguntas_relacionadas": [],
       "registro_id": "004-C",
-      "estado": "error: FirecrawlClient.search() got an unexpected keyword argument 'lang'",
+      "estado": "error_red: no se pudo conectar a api.firecrawl.dev",
       "total_resultados": 0,
       "resultados": [],
-      "timestamp": "2026-04-13T23:52:37.716975"
+      "timestamp": "2026-04-13T23:55:55.022481"
     },
     {
       "query": "Presidentes municipales de Hopelchén identificados: cadena d 1959",
@@ -141,10 +141,10 @@
       ],
       "preguntas_relacionadas": [],
       "registro_id": "006-A",
-      "estado": "error: FirecrawlClient.search() got an unexpected keyword argument 'lang'",
+      "estado": "error_red: no se pudo conectar a api.firecrawl.dev",
       "total_resultados": 0,
       "resultados": [],
-      "timestamp": "2026-04-13T23:52:38.717237"
+      "timestamp": "2026-04-13T23:55:57.529196"
     },
     {
       "query": "CRUCE DE DATOS: Apellidos del poder en Hopelchén — de la Col 1517",
@@ -154,10 +154,10 @@
       ],
       "preguntas_relacionadas": [],
       "registro_id": "006-G",
-      "estado": "error: FirecrawlClient.search() got an unexpected keyword argument 'lang'",
+      "estado": "error_red: no se pudo conectar a api.firecrawl.dev",
       "total_resultados": 0,
       "resultados": [],
-      "timestamp": "2026-04-13T23:52:39.717471"
+      "timestamp": "2026-04-13T23:56:00.035932"
     },
     {
       "query": "La bibliografía de Schüren (2013) — mapa de fuentes sobre Lo 1923",
@@ -167,10 +167,10 @@
       ],
       "preguntas_relacionadas": [],
       "registro_id": "007-H",
-      "estado": "error: FirecrawlClient.search() got an unexpected keyword argument 'lang'",
+      "estado": "error_red: no se pudo conectar a api.firecrawl.dev",
       "total_resultados": 0,
       "resultados": [],
-      "timestamp": "2026-04-13T23:52:40.717735"
+      "timestamp": "2026-04-13T23:56:02.542855"
     },
     {
       "query": "CRUCE TRANSVERSAL: El patrón de resistencia maya a lo largo  Los Chenes 1669",
@@ -180,10 +180,10 @@
       ],
       "preguntas_relacionadas": [],
       "registro_id": "009-G",
-      "estado": "error: FirecrawlClient.search() got an unexpected keyword argument 'lang'",
+      "estado": "error_red: no se pudo conectar a api.firecrawl.dev",
       "total_resultados": 0,
       "resultados": [],
-      "timestamp": "2026-04-13T23:52:41.717965"
+      "timestamp": "2026-04-13T23:56:05.049373"
     },
     {
       "query": "CRUCE TRANSVERSAL: El control del conocimiento maya en Los C 1562",
@@ -193,10 +193,10 @@
       ],
       "preguntas_relacionadas": [],
       "registro_id": "010-G",
-      "estado": "error: FirecrawlClient.search() got an unexpected keyword argument 'lang'",
+      "estado": "error_red: no se pudo conectar a api.firecrawl.dev",
       "total_resultados": 0,
       "resultados": [],
-      "timestamp": "2026-04-13T23:52:42.718228"
+      "timestamp": "2026-04-13T23:56:07.555977"
     }
   ],
   "nota_metodologica": "Las búsquedas fueron realizadas con la API de Firecrawl. Los resultados incluyen páginas web con contenido relevante para los temas y registros pendientes del proyecto. Verificar y validar manualmente antes de incorporar como fuentes definitivas."
