@@ -14,11 +14,15 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 from utilidades import (
     buscar_en_elementos,
     cargar_json,
+    cargar_markdown,
     contar_por_campo,
+    extraer_texto_pdf,
     filtrar_por_campo,
     formatear_tabla,
     guardar_json,
     listar_archivos_json,
+    listar_archivos_md,
+    listar_archivos_pdf,
     obtener_campo_principal,
     ordenar_por_fecha,
     parsear_fecha,
@@ -300,6 +304,166 @@ class TestFormatearTabla(unittest.TestCase):
 
 
 # ---------------------------------------------------------------------------
+# Pruebas de listar_archivos_md / listar_archivos_pdf
+# ---------------------------------------------------------------------------
+
+class TestListarArchivosMdPdf(unittest.TestCase):
+
+    def setUp(self):
+        self.directorio_temp = tempfile.mkdtemp()
+
+    def test_lista_solo_md(self):
+        for nombre in ["a.md", "b.md", "c.json", "d.pdf"]:
+            open(os.path.join(self.directorio_temp, nombre), "w").close()
+        archivos = listar_archivos_md(self.directorio_temp)
+        nombres = [os.path.basename(a) for a in archivos]
+        self.assertIn("a.md", nombres)
+        self.assertIn("b.md", nombres)
+        self.assertNotIn("c.json", nombres)
+        self.assertNotIn("d.pdf", nombres)
+
+    def test_lista_solo_pdf(self):
+        for nombre in ["a.pdf", "b.json", "c.md"]:
+            open(os.path.join(self.directorio_temp, nombre), "w").close()
+        archivos = listar_archivos_pdf(self.directorio_temp)
+        nombres = [os.path.basename(a) for a in archivos]
+        self.assertIn("a.pdf", nombres)
+        self.assertNotIn("b.json", nombres)
+        self.assertNotIn("c.md", nombres)
+
+    def test_directorio_inexistente_md(self):
+        self.assertEqual(listar_archivos_md("/ruta/inexistente"), [])
+
+    def test_directorio_inexistente_pdf(self):
+        self.assertEqual(listar_archivos_pdf("/ruta/inexistente"), [])
+
+    def test_directorio_vacio_md(self):
+        self.assertEqual(listar_archivos_md(self.directorio_temp), [])
+
+    def test_directorio_vacio_pdf(self):
+        self.assertEqual(listar_archivos_pdf(self.directorio_temp), [])
+
+
+# ---------------------------------------------------------------------------
+# Pruebas de cargar_markdown
+# ---------------------------------------------------------------------------
+
+CONTENIDO_MD = """\
+# Título Principal
+
+Párrafo introductorio.
+
+## Sección Uno
+
+Contenido de la primera sección.
+
+## Sección Dos
+
+Contenido de la segunda sección.
+
+### Subsección 2.1
+
+Texto de subsección.
+"""
+
+
+class TestCargarMarkdown(unittest.TestCase):
+
+    def setUp(self):
+        self.directorio_temp = tempfile.mkdtemp()
+        self.ruta_md = os.path.join(self.directorio_temp, "prueba.md")
+        with open(self.ruta_md, "w", encoding="utf-8") as f:
+            f.write(CONTENIDO_MD)
+
+    def test_extrae_titulo(self):
+        datos = cargar_markdown(self.ruta_md)
+        self.assertEqual(datos["titulo"], "Título Principal")
+
+    def test_cuenta_secciones(self):
+        datos = cargar_markdown(self.ruta_md)
+        # H1, H2, H2, H3 → 4 secciones
+        self.assertEqual(datos["total_secciones"], 4)
+
+    def test_secciones_tienen_estructura(self):
+        datos = cargar_markdown(self.ruta_md)
+        for seccion in datos["secciones"]:
+            self.assertIn("nivel", seccion)
+            self.assertIn("titulo", seccion)
+            self.assertIn("contenido", seccion)
+
+    def test_niveles_correctos(self):
+        datos = cargar_markdown(self.ruta_md)
+        niveles = [s["nivel"] for s in datos["secciones"]]
+        self.assertIn(1, niveles)
+        self.assertIn(2, niveles)
+        self.assertIn(3, niveles)
+
+    def test_contenido_completo(self):
+        datos = cargar_markdown(self.ruta_md)
+        self.assertIn("Título Principal", datos["contenido_completo"])
+        self.assertIn("Sección Uno", datos["contenido_completo"])
+
+    def test_cuenta_palabras(self):
+        datos = cargar_markdown(self.ruta_md)
+        self.assertGreater(datos["total_palabras"], 0)
+
+    def test_titulo_fallback_sin_h1(self):
+        ruta = os.path.join(self.directorio_temp, "sin_h1.md")
+        with open(ruta, "w", encoding="utf-8") as f:
+            f.write("## Solo H2\nContenido.")
+        datos = cargar_markdown(ruta)
+        self.assertEqual(datos["titulo"], "sin_h1")
+
+    def test_archivo_inexistente(self):
+        with self.assertRaises(FileNotFoundError):
+            cargar_markdown(os.path.join(self.directorio_temp, "no_existe.md"))
+
+
+# ---------------------------------------------------------------------------
+# Pruebas de extraer_texto_pdf
+# ---------------------------------------------------------------------------
+
+class TestExtraerTextoPdf(unittest.TestCase):
+
+    def setUp(self):
+        self.directorio_raiz = os.path.dirname(os.path.dirname(__file__))
+        self.directorio_temp = tempfile.mkdtemp()
+
+    def _crear_pdf_minimo(self, nombre="prueba.pdf"):
+        """Crea un PDF mínimo de una página en blanco usando pypdf."""
+        from pypdf import PdfWriter
+        ruta = os.path.join(self.directorio_temp, nombre)
+        writer = PdfWriter()
+        writer.add_blank_page(width=612, height=792)
+        with open(ruta, "wb") as f:
+            writer.write(f)
+        return ruta
+
+    def test_archivo_inexistente(self):
+        with self.assertRaises(FileNotFoundError):
+            extraer_texto_pdf("/tmp/no_existe_12345.pdf")
+
+    def test_pdf_fixture_estructura(self):
+        ruta = self._crear_pdf_minimo()
+        datos = extraer_texto_pdf(ruta)
+        self.assertIn("paginas", datos)
+        self.assertIn("total_paginas", datos)
+        self.assertIn("metadatos", datos)
+        self.assertIn("contenido_completo", datos)
+        self.assertEqual(datos["total_paginas"], 1)
+        for pagina in datos["paginas"]:
+            self.assertIn("numero", pagina)
+            self.assertIn("texto", pagina)
+
+    def test_pdf_real_del_repositorio(self):
+        ruta_pdf = os.path.join(self.directorio_raiz, "05-de-la-nostalgia.pdf")
+        if not os.path.exists(ruta_pdf):
+            self.skipTest("PDF de prueba no encontrado en la raíz del repositorio")
+        datos = extraer_texto_pdf(ruta_pdf)
+        self.assertGreater(datos["total_paginas"], 0)
+
+
+# ---------------------------------------------------------------------------
 # Pruebas de integración — análisis de archivos reales
 # ---------------------------------------------------------------------------
 
@@ -342,6 +506,15 @@ class TestIntegracionArchivosReales(unittest.TestCase):
                         len(elementos), 0,
                         f"'{ruta}' tiene campo '{campo}' pero no contiene elementos",
                     )
+
+    def test_archivos_md_en_datos_son_parseables(self):
+        """Los archivos Markdown en datos/ deben poder cargarse sin errores."""
+        archivos_md = listar_archivos_md(self.directorio_datos)
+        for ruta in archivos_md:
+            with self.subTest(archivo=os.path.basename(ruta)):
+                datos = cargar_markdown(ruta)
+                self.assertIn("titulo", datos)
+                self.assertGreater(datos["total_secciones"], 0)
 
     def test_archivos_canonicos_tienen_campo_principal(self):
         """Los archivos de datos canónicos siempre deben tener campo principal."""

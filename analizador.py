@@ -21,11 +21,15 @@ from datetime import datetime
 from utilidades import (
     buscar_en_elementos,
     cargar_json,
+    cargar_markdown,
     contar_por_campo,
+    extraer_texto_pdf,
     filtrar_por_campo,
     formatear_tabla,
     guardar_json,
     listar_archivos_json,
+    listar_archivos_md,
+    listar_archivos_pdf,
     obtener_campo_principal,
     ordenar_por_fecha,
 )
@@ -76,6 +80,91 @@ def analizar_archivo(ruta_archivo):
     return resumen
 
 
+def analizar_markdown(ruta_archivo):
+    """
+    Carga y analiza el contenido de un archivo Markdown histórico.
+
+    Args:
+        ruta_archivo (str): Ruta al archivo Markdown.
+
+    Returns:
+        dict: Resumen del análisis con secciones y texto completo.
+    """
+    datos = cargar_markdown(ruta_archivo)
+    nombre_archivo = os.path.basename(ruta_archivo)
+
+    return {
+        "archivo": nombre_archivo,
+        "ruta": ruta_archivo,
+        "tipo": "markdown",
+        "coleccion": datos["titulo"],
+        "descripcion": (
+            f"Documento Markdown con {datos['total_secciones']} secciones "
+            f"y {datos['total_palabras']} palabras"
+        ),
+        "version": "N/A",
+        "campo_principal": "secciones",
+        "total_registros": datos["total_secciones"],
+        "campos_disponibles": ["nivel", "titulo", "contenido"],
+        "estadisticas": {"total_palabras": datos["total_palabras"]},
+        "elementos": datos["secciones"],
+        "contenido_completo": datos["contenido_completo"],
+    }
+
+
+def analizar_pdf(ruta_archivo):
+    """
+    Carga y analiza el contenido de un archivo PDF histórico.
+
+    Args:
+        ruta_archivo (str): Ruta al archivo PDF.
+
+    Returns:
+        dict: Resumen del análisis con páginas y metadatos.
+    """
+    datos = extraer_texto_pdf(ruta_archivo)
+    nombre_archivo = os.path.basename(ruta_archivo)
+    titulo = datos["metadatos"].get("Title") or os.path.splitext(nombre_archivo)[0]
+
+    return {
+        "archivo": nombre_archivo,
+        "ruta": ruta_archivo,
+        "tipo": "pdf",
+        "coleccion": titulo,
+        "descripcion": f"Documento PDF con {datos['total_paginas']} páginas",
+        "version": "N/A",
+        "campo_principal": "páginas",
+        "total_registros": datos["total_paginas"],
+        "campos_disponibles": ["numero", "texto"],
+        "estadisticas": {},
+        "elementos": datos["paginas"],
+        "contenido_completo": datos["contenido_completo"],
+    }
+
+
+def analizar_por_tipo(ruta_archivo):
+    """
+    Selecciona y ejecuta el analizador adecuado según la extensión del archivo.
+
+    Args:
+        ruta_archivo (str): Ruta al archivo a analizar.
+
+    Returns:
+        dict: Resumen del análisis.
+
+    Raises:
+        ValueError: Si la extensión del archivo no está soportada.
+    """
+    ext = os.path.splitext(ruta_archivo)[1].lower()
+    if ext == ".json":
+        return analizar_archivo(ruta_archivo)
+    if ext == ".md":
+        return analizar_markdown(ruta_archivo)
+    if ext == ".pdf":
+        return analizar_pdf(ruta_archivo)
+    raise ValueError(f"Formato de archivo no soportado: '{ext}'")
+
+
 def _calcular_estadisticas(elementos):
     """Calcula estadísticas básicas sobre una lista de elementos."""
     estadisticas = {}
@@ -119,6 +208,9 @@ def imprimir_resumen_archivo(resumen):
     """Imprime en consola el resumen de análisis de un archivo."""
     imprimir_separador()
     print(f"📂 Archivo      : {resumen['archivo']}")
+    tipo = resumen.get("tipo", "json")
+    if tipo != "json":
+        print(f"📄 Tipo         : {tipo.upper()}")
     print(f"📚 Colección    : {resumen['coleccion']}")
     print(f"📝 Descripción  : {resumen['descripcion']}")
     print(f"🔖 Versión      : {resumen['version']}")
@@ -141,6 +233,8 @@ def imprimir_resumen_archivo(resumen):
                     print(f"      ... y {len(valores) - 5} más")
             elif isinstance(valores, list):
                 print(f"   {nombre_stat}: {', '.join(valores)}")
+            else:
+                print(f"   {nombre_stat}: {valores}")
 
     # Muestra de datos
     if resumen["elementos"]:
@@ -157,7 +251,7 @@ def imprimir_resumen_archivo(resumen):
 def _seleccionar_campos_muestra(campos_disponibles):
     """Selecciona los campos más relevantes para mostrar en la muestra."""
     preferidos = ["titulo", "nombre", "fecha", "fecha_nacimiento", "categoria",
-                  "tipo", "periodo", "importancia", "lugar"]
+                  "tipo", "periodo", "importancia", "lugar", "numero", "texto"]
     seleccionados = [c for c in preferidos if c in campos_disponibles]
     # Completar con otros campos hasta llegar a 4
     for c in campos_disponibles:
@@ -225,6 +319,8 @@ def generar_reporte(resumenes):
                             f.write(f"    - {val}: {count}\n")
                     elif isinstance(valores, list):
                         f.write(f"  {nombre_stat}: {', '.join(valores)}\n")
+                    else:
+                        f.write(f"  {nombre_stat}: {valores}\n")
             f.write("\n")
 
         f.write("=" * 70 + "\n")
@@ -313,10 +409,13 @@ def main():
     if args.archivos:
         rutas = args.archivos
     else:
-        rutas = listar_archivos_json(DIRECTORIO_DATOS)
+        rutas_json = listar_archivos_json(DIRECTORIO_DATOS)
+        rutas_md = listar_archivos_md(DIRECTORIO_DATOS)
+        rutas_pdf = listar_archivos_pdf(DIRECTORIO_DATOS)
+        rutas = sorted(rutas_json + rutas_md + rutas_pdf)
         if not rutas:
-            print(f"⚠️  No se encontraron archivos JSON en '{DIRECTORIO_DATOS}'.")
-            print("   Coloca tus archivos JSON en la carpeta 'datos/' o pásalos como argumento.")
+            print(f"⚠️  No se encontraron archivos en '{DIRECTORIO_DATOS}'.")
+            print("   Coloca tus archivos JSON, MD o PDF en la carpeta 'datos/' o pásalos como argumento.")
             sys.exit(1)
 
     # Cargar y analizar todos los archivos
@@ -326,16 +425,23 @@ def main():
     print(f"{'=' * 70}")
     print(f"📁 Directorio de datos : {DIRECTORIO_DATOS}")
     print(f"📁 Directorio reportes : {DIRECTORIO_REPORTES}")
-    print(f"📄 Archivos a analizar : {len(rutas)}")
+    n_json = sum(1 for r in rutas if r.lower().endswith(".json"))
+    n_md = sum(1 for r in rutas if r.lower().endswith(".md"))
+    n_pdf = sum(1 for r in rutas if r.lower().endswith(".pdf"))
+    print(f"📄 Archivos a analizar : {len(rutas)} ({n_json} JSON, {n_md} MD, {n_pdf} PDF)")
 
     for ruta in rutas:
         try:
-            resumen = analizar_archivo(ruta)
+            resumen = analizar_por_tipo(ruta)
             resumenes.append(resumen)
         except FileNotFoundError as e:
             print(f"\n❌ Error: {e}")
         except json.JSONDecodeError as e:
             print(f"\n❌ Error al leer '{ruta}': JSON inválido — {e}")
+        except ImportError as e:
+            print(f"\n⚠️  {e}")
+        except ValueError as e:
+            print(f"\n⚠️  {e}")
 
     if not resumenes:
         print("\n❌ No se pudo analizar ningún archivo.")
