@@ -433,7 +433,8 @@ def guardar_citas_reporte(agrupado, ruta_base):
                 f.write(f"### {_CABECERAS_TIPO[tipo]}\n\n")
                 for entrada in por_tipo[tipo]:
                     f.write(f"**[{entrada['subtipo']}]**\n\n")
-                    f.write(f"> {entrada['texto'].replace(chr(10), '\n> ')}\n\n")
+                    texto_md = entrada['texto'].replace('\n', '\n> ')
+                    f.write(f"> {texto_md}\n\n")
                     if entrada["fuente"]:
                         f.write(f"*Fuente: {entrada['fuente']}*\n\n")
 
