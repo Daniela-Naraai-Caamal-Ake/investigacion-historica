@@ -18,6 +18,7 @@
 
 | Archivo | Qué es |
 |---|---|
+| [`DOCUMENTO_FUNDACIONAL.md`](DOCUMENTO_FUNDACIONAL.md) | **Declaración de origen** — por qué empezó este proyecto, vacío bibliográfico, hipótesis inicial, principios éticos y metodológicos |
 | [`HIPOTESIS.md`](HIPOTESIS.md) | Hipótesis canónica del proyecto + versiones históricas V1→V4 + patrón documentado por nodo |
 | [`datos/VACIOS.md`](datos/VACIOS.md) | Mapa unificado de preguntas abiertas — todas las preguntas de los 8 nodos en una tabla con estado y prioridad |
 | [`datos/FICHAS_EJEMPLO.md`](datos/FICHAS_EJEMPLO.md) | Fichas de evidencia con campo `hipotesis_que_afecta` — un ejemplo completo por nodo |
