@@ -29,6 +29,8 @@ jobs:
   firecrawl:
     name: Búsquedas Firecrawl
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
 
     # No ejecutar el job si el secreto no está configurado.
     # La condición evalúa la variable de entorno que se define más abajo;
