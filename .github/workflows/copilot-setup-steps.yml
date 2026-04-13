@@ -1,0 +1,33 @@
+name: "Copilot Setup Steps"
+
+# Se ejecuta automáticamente cuando este archivo cambia (para validación)
+# y permite ejecución manual desde la pestaña Actions.
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/copilot-setup-steps.yml
+  pull_request:
+    paths:
+      - .github/workflows/copilot-setup-steps.yml
+
+jobs:
+  # El job DEBE llamarse `copilot-setup-steps` para que Copilot lo reconozca.
+  copilot-setup-steps:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependencias del proyecto
+        run: pip install -r requirements.txt
