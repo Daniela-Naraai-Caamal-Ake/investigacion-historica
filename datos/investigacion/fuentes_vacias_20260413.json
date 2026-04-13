@@ -1,0 +1,69 @@
+{
+  "herramienta": "buscar_fuentes_vacias.py",
+  "fecha_ejecucion": "2026-04-13T23:10:45.569210",
+  "repositorio": "Hopelchén: 2000 años de historia",
+  "resumen": {
+    "registros_sin_fuente_detectados": 1,
+    "registros_procesados": 1,
+    "total_candidatas_encontradas": 0
+  },
+  "resultados": [
+    {
+      "registro_id": "009-G",
+      "archivo": "HOPELCHEN_NODO_009_Resistencia_Agencia_Maya.json",
+      "nodo_id": "009",
+      "subtitulo": "CRUCE TRANSVERSAL: El patrón de resistencia maya a lo largo de 500 años — formas cambiantes, objetivo constante",
+      "busquedas": [
+        {
+          "motor": "wikipedia_es",
+          "query": "resistencia maya cinco formas documentadas suceden través Los Chenes",
+          "descripcion": "Wikipedia (es) — CRUCE TRANSVERSAL: El patrón de resistencia maya a lo largo ",
+          "estado": "ok",
+          "total_resultados": 0,
+          "resultados": [],
+          "timestamp": "2026-04-13T23:10:40.056509"
+        },
+        {
+          "motor": "wikipedia_en",
+          "query": "Maya resistance cinco formas documentadas suceden través Los Chenes",
+          "descripcion": "Wikipedia (en) — CRUCE TRANSVERSAL: El patrón de resistencia maya a lo largo ",
+          "estado": "ok",
+          "total_resultados": 0,
+          "resultados": [],
+          "timestamp": "2026-04-13T23:10:41.058677"
+        },
+        {
+          "motor": "openlibrary",
+          "query": "Los Chenes resistencia transversal 500 años",
+          "descripcion": "OpenLibrary — CRUCE TRANSVERSAL: El patrón de resistencia maya a lo largo ",
+          "estado": "ok",
+          "total_resultados": 0,
+          "resultados": [],
+          "timestamp": "2026-04-13T23:10:42.060868"
+        },
+        {
+          "motor": "duckduckgo",
+          "query": "resistencia maya cinco formas documentadas suceden través Los Chenes",
+          "descripcion": "DuckDuckGo — CRUCE TRANSVERSAL: El patrón de resistencia maya a lo largo ",
+          "estado": "ok",
+          "total_resultados": 0,
+          "resultados": [],
+          "timestamp": "2026-04-13T23:10:43.062865"
+        },
+        {
+          "motor": "firecrawl",
+          "query": "resistencia maya cinco formas documentadas suceden través Los Chenes",
+          "descripcion": "Firecrawl — CRUCE TRANSVERSAL: El patrón de resistencia maya a lo largo ",
+          "estado": "ok",
+          "total_resultados": 0,
+          "resultados": [],
+          "timestamp": "2026-04-13T23:10:45.569088"
+        }
+      ],
+      "fuentes_candidatas": [],
+      "total_candidatas": 0,
+      "nota": "Estas son fuentes CANDIDATAS encontradas automáticamente. Deben ser verificadas manualmente antes de agregarlas como fuentes definitivas del registro."
+    }
+  ],
+  "nota_metodologica": "Este reporte fue generado automáticamente buscando en Wikipedia (ES/EN), Open Library, DuckDuckGo y Firecrawl (cuando la clave API está disponible). Las fuentes candidatas deben verificarse manualmente antes de incorporarlas al repositorio. Los registros de tipo 'CRUCE TRANSVERSAL' son síntesis analíticas que pueden no tener una única fuente externa directa."
+}

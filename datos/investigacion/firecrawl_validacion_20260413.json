@@ -1,94 +1,24 @@
 {
-  "fecha_consulta": "2026-04-13T22:31:58.743492",
+  "herramienta": "validar_citas_firecrawl",
+  "fecha_consulta": "2026-04-13T23:11:26.550561",
   "api": "Firecrawl",
-  "nota": "Búsquedas planificadas — ejecutar en entorno con acceso a internet",
+  "modo": "fuentes",
+  "nodo_filtro": "009",
+  "limite": 1,
+  "fuentes_faltantes": [
+    {
+      "registro_id": "009-A",
+      "nodo": "",
+      "descripcion": "Bataboob de Hopelchén 1669 — documentación de resistencia post-conquista",
+      "query": "bataboob mayas Hopelchén 1669 resistencia poder local siglo XVII",
+      "estado": "error: 'NoneType' object has no attribute 'status_code'",
+      "total_candidatas": 0,
+      "fuentes_candidatas": [],
+      "timestamp": "2026-04-13T23:11:28.056973"
+    }
+  ],
   "resumen": {
-    "total_busquedas": 14,
-    "urgentes": 8,
-    "generales": 6,
-    "estado": "PENDIENTE — red bloqueada en entorno de CI"
-  },
-  "busquedas_urgentes": [
-    {
-      "pregunta_id": "P002-01",
-      "nodo": "002",
-      "descripcion": "Documento colonial que funda Hopelchén como pueblo de congregación en 1621",
-      "query": "congregación Hopelchén 1621 documento colonial fundación pueblo Yucatán AGI"
-    },
-    {
-      "pregunta_id": "P003-01",
-      "nodo": "003",
-      "descripcion": "Adquisición de haciendas por Pedro Advíncula Lara — título de propiedad",
-      "query": "Pedro Advíncula Lara hacienda Holcatzin Santa Rita Hopelchén Porfiriato título propiedad"
-    },
-    {
-      "pregunta_id": "P004-01",
-      "nodo": "004",
-      "descripcion": "Hacendados de Hopelchén en la lucha antiagraria post-Revolución",
-      "query": "hacendados Hopelchén lucha antiagraria posrevolución Campeche 1920 1940"
-    },
-    {
-      "pregunta_id": "P006-01",
-      "nodo": "006",
-      "descripcion": "Conexión genealógica Aranda-Baranda en el poder político de Hopelchén",
-      "query": "genealogía Aranda Calderón Baranda alcalde Hopelchén poder político Campeche familia"
-    },
-    {
-      "pregunta_id": "P006-09",
-      "nodo": "006",
-      "descripcion": "Parentesco entre Julio Sansores (alcalde Hopelchén) y Layda Sansores (gobernadora)",
-      "query": "Julio Sansores presidente municipal Hopelchén Layda Sansores San Román gobernadora Campeche parentesco"
-    },
-    {
-      "pregunta_id": "P006-07",
-      "nodo": "006",
-      "descripcion": "Continuidad genealógica Lara: hacendado porfiriano → alcalde 2021",
-      "query": "Emilio Lara Calderón alcalde Hopelchén 2021 Pedro Advíncula Lara hacendado porfiriano genealogía"
-    },
-    {
-      "pregunta_id": "P008-01",
-      "nodo": "008",
-      "descripcion": "Datos censales históricos de Hopelchén 1900-1940",
-      "query": "INEGI archivo histórico censo población Hopelchén Campeche 1900 1910 1921 1930 1940"
-    },
-    {
-      "pregunta_id": "P007-01",
-      "nodo": "007",
-      "descripcion": "Obras de Pacheco Blanco y Peña sobre economía de Los Chenes",
-      "query": "Pacheco Blanco 1928 Peña 1942 Los Chenes economía Campeche historia"
-    }
-  ],
-  "busquedas_generales": [
-    {
-      "nodo": "001",
-      "descripcion": "Hallazgos arqueológicos recientes en Los Chenes / Hopelchén",
-      "query": "Hopelchén arqueología prehispánica zona arqueológica Los Chenes hallazgos recientes"
-    },
-    {
-      "nodo": "002",
-      "descripcion": "Encomiendas y evangelización franciscana en Los Chenes, siglo XVI",
-      "query": "encomienda Los Chenes siglo XVI Yucatán tributación maya franciscanos evangelización"
-    },
-    {
-      "nodo": "003",
-      "descripcion": "Sistema de haciendas azucareras y deuda servil en Campeche, siglo XIX",
-      "query": "haciendas azucareras Campeche siglo XIX luneros deuda servil colonialismo"
-    },
-    {
-      "nodo": "005",
-      "descripcion": "Llegada de menonitas a Hopelchén 1987 e impacto en la tierra",
-      "query": "menonitas Hopelchén Campeche llegada 1987 tierra deforestación biodiversidad"
-    },
-    {
-      "nodo": "006",
-      "descripcion": "Presidentes municipales de Hopelchén 1987-2000",
-      "query": "presidentes municipales Hopelchén Campeche 1987 2000 historia política local"
-    },
-    {
-      "nodo": "008",
-      "descripcion": "Datos demográficos actuales de Hopelchén — Censo INEGI 2020",
-      "query": "demografía municipio Hopelchén Campeche población maya 2020 censo INEGI"
-    }
-  ],
-  "ampliacion_nodos": []
+    "Fuentes candidatas encontradas": "0",
+    "Registros sin fuente procesados": "1"
+  }
 }
