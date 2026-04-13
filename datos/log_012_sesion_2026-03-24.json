@@ -1,0 +1,40 @@
+{
+  "META": {
+    "log_id": "LOG_012",
+    "tipo": "INGESTA_RAW_Y_REPORTE",
+    "timestamp": "2026-03-24T00:00:00",
+    "agente": "Claude Sonnet 4.6 — Archivo Vivo",
+    "sesion": "Lectura de 7 archivos MD en /raw/ + auditoría de base de datos"
+  },
+
+  "archivos_leidos": [
+    "AV_NUCLEO.md v2.0",
+    "AV_CONTEXTO.md v2.0",
+    "AV_MAPA.md v2.0",
+    "AV_PERSONAS.md v2.0",
+    "AV_HILOS.md v2.0",
+    "AV_FUENTES.md v2.0",
+    "AV_MAYA.md v2.0"
+  ],
+
+  "base_datos_auditada": [
+    "av_nucleo.json — personajes (P001-P020+), familias, apellidos mayas, hilos transversales",
+    "av_bloques.json — mapa editorial completo A-H con insumos por entrada",
+    "av_fuentes.json — 25 fuentes documentadas + 11 pendientes",
+    "av_conocimiento.json — lugares, términos mayas, investigación global",
+    "av_cronologia.json — línea del tiempo estructurada",
+    "expansion_libro_web_2026-03-22.json — datos de investigación web sesión anterior",
+    "personajes_eventos_expansion_v2.json — expansión de personajes y eventos",
+    "hallazgos_pdfs_sesion_masiva_v3.json — hallazgos de PDFs procesados"
+  ],
+
+  "estado_constatado": {
+    "informacion_estructurada": "BUENA — base de datos bien desarrollada desde sesiones anteriores",
+    "archivos_raw_vs_database": "Los raw files v2.0 están consistentes con la base de datos. No se detectaron contradicciones.",
+    "raw_files_son": "Instrucciones y referencia narrativa — la base de datos es más detallada en todos los puntos",
+    "sesiones_previas": "Logs 001 a 011 documentan trabajo acumulado desde 2026-03-22"
+  },
+
+  "instrucciones_base_cumplidas": "Sí — AV_NUCLEO.md leído y seguido",
+  "siguiente_prioridad": "B12 — Juan de Dios May y Francisco Caamal (EN PROCESO)"
+}

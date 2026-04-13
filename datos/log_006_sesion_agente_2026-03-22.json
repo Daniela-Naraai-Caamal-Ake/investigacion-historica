@@ -1,0 +1,141 @@
+{
+  "META": {
+    "log_id": "LOG_006",
+    "sesion": "Agente autónomo — ingesta + web research + diagnóstico",
+    "fecha": "2026-03-22",
+    "agente": "Claude Sonnet 4.6 (Archivo Vivo Agent)",
+    "operaciones": ["inventario_local", "lectura_archivos_clave", "busqueda_web_INAH", "nueva_informacion_extraida", "actualizacion_database"]
+  },
+
+  "inventario_local": {
+    "raw": {
+      "archivos_json": 24,
+      "archivos_md": 5,
+      "archivos_txt": 2,
+      "archivos_notables": [
+        "ARCHIVO_VIVO_MAESTRO_FINAL.json (219 KB)",
+        "archivo_vivo_completo_2026-03-22.json (67 KB)",
+        "hopelchen_cronologia_integrada.json (2.5 KB)",
+        "CONTEXTO_PARA_NUEVO_CHAT.md (12 KB)",
+        "deep-research-report.md (13 KB)"
+      ],
+      "nota": "conversations7.json y projects2/4/7/8.json contienen solo '[]'"
+    },
+    "database": {
+      "archivos": 12,
+      "tamano_total_kb": 892,
+      "estadisticas_base_historica": {
+        "personajes": 30,
+        "eventos": 61,
+        "lugares": 18,
+        "terminos_mayas": 22,
+        "fuentes": 45
+      }
+    },
+    "sources": {
+      "pdfs_totales": 37,
+      "htmls": 21,
+      "pdfs_leidos_sesiones_anteriores": ["La_guerra_de_Castas.pdf", "Los_misterios_de_Chan_Santa_Cruz.pdf", "Charras.pdf", "Peninsula Peninsula.pdf", "De Zitilchen.pdf"],
+      "pdfs_pendientes_lectura": [
+        "1997_1442 SEGUNDA SECCION.pdf (161 MB) — ALTA PRIORIDAD",
+        "Dialnet-SierraSur-709324.pdf (39 MB)",
+        "los-mayas-antiguos-monografias.pdf (42 MB)",
+        "14-de-como-los-libaneses.pdf (19 MB)",
+        "0865175.pdf (15 MB)",
+        "R05042.pdf (18 MB)",
+        "Primeros años posrevolución Campeche.pdf (1.7 MB)",
+        "feb_art16.pdf (1 MB)",
+        "v24n1a6.pdf (231 KB)"
+      ]
+    }
+  },
+
+  "busqueda_web_resultados": {
+    "query_1": "Hopelchén Campeche historia INAH arqueología zona maya",
+    "query_2": "Hochob Santa Rosa Xtampak zona arqueológica Chenes Campeche investigación",
+    "nuevos_hallazgos": [
+      {
+        "id": "HALL_001",
+        "tipo": "sitio_arqueologico",
+        "nombre": "Valeriana",
+        "datos": "Nuevo sitio maya descubierto 2024. 16.6 km². Periodo Clásico 250-900 dC. Dos núcleos con arquitectura monumental. Publicado en Antiquity. INAH + Tulane + Univ. Norte Arizona + Univ. Houston.",
+        "relevancia_para_hopelchen": "Confirma densidad arqueológica de la región — posible asociación municipal",
+        "url": "https://www.poresto.com/campeche/2024/10/31/inah-confirma-descubrimiento-de-sitio-maya-en-campeche-habria-otro-en-hopelchen.html"
+      },
+      {
+        "id": "HALL_002",
+        "tipo": "sitio_arqueologico",
+        "nombre": "Grutas de Huachabí",
+        "datos": "Municipio Hopelchén, zona Bolonchén de Rejón. Zona arqueológica Miramar. Más de 1km extensión, 20m profundidad. +500 pinturas descubiertas 2012. Cerámica Preclásico-Posclásico + virreinal. Figuras antropomorfas, zoomorfas, caballos, reptiles. Negro + 3 tonos café + arcilla roja. Investigadores: Adriana Velázquez Morlett, Abiud Pizá Chávez, Helena Barba Meinecke.",
+        "relevancia_para_hopelchen": "MUY ALTA — primera vez documentado en database",
+        "url": "https://www.lajornadamaya.mx/campeche/218777/las-cuevas-de-huachabi-y-sus-pinturas-rupestres-mayas-en-campeche"
+      },
+      {
+        "id": "HALL_003",
+        "tipo": "sitio_arqueologico",
+        "nombre": "Tohcok",
+        "datos": "Carretera 261, a 6km al poniente de Hopelchén. Zona transicional Chenes-Puuc. 770-830 dC. Nombre: 'navaja de pedernal'. George Andrews (Oregon 1974/1983). Renée Zapata INAH 1995. Karl Herbert Mayer (austriaco) 1998. Ayuntamiento Hopelchén custodio desde 1995. DESTRUCCIÓN: asfalto de carretera destruyó plataformas prehispánicas.",
+        "relevancia_para_hopelchen": "ALTA — sitio en el municipio, custodio es el Ayuntamiento",
+        "url": "https://lugares.inah.gob.mx/es/zonas-arqueologicas/zonas/opinion/14182-tohcok-14182.html"
+      },
+      {
+        "id": "HALL_004",
+        "tipo": "sitio_arqueologico",
+        "nombre": "Santa Rosa Xtampak — datos completos",
+        "datos": "Xtampak = xlabpak = 'muros viejos' maya. Capital regional Chenes. Preclásico 300-250 aC. Auge 600-900 dC. 8 estelas: 646-911 dC. El Palacio: 44x25x17m, 3 niveles, 40+ aposentos. 30 km². Influencia 400 km². 100+ construcciones. Sacbé. Exploradores: Catherwood+Stephens 1843, Maler ~1890s, Pollock-Carnegie 1930s-40s, Stamps+DeBloois-BYU 1960s, Andrews+Gendrop+Folan+Morales 1980s.",
+        "relevancia_para_hopelchen": "MUY ALTA — capital regional más importante de Los Chenes, municipio Hopelchén",
+        "url": "https://lugares.inah.gob.mx/es/zonas-arqueologicas/zonas/1674-santa-rosa-xtampak.html"
+      },
+      {
+        "id": "HALL_005",
+        "tipo": "libro_clave",
+        "nombre": "Apuntaciones históricas y literarias del Municipio de Hopelchén",
+        "autor": "Mario H. Aranda González",
+        "año": 1985,
+        "editorial": "Programa Cultural de las Fronteras / Ayuntamiento de Hopelchén, Mérida",
+        "importancia": "CRÍTICA — fuente primaria local — NO disponible en colección",
+        "accion": "BUSCAR Y ADQUIRIR",
+        "encontrado_en": "Bibliografía ficha INAH Tohcok"
+      },
+      {
+        "id": "HALL_006",
+        "tipo": "investigacion_academica",
+        "nombre": "Medicina tradicional en Ich Ek",
+        "comunidad": "Ich Ek, Hopelchén",
+        "investigadores": ["Laura Huicochea Gómez", "D. Cahuich-Campos"],
+        "proyecto": "FORDECYT-CONACYT 318714 (2022)",
+        "publicacion": "Glifos INAH Núm. 44, 2025",
+        "relevancia": "ALTA — comunidad no documentada en database"
+      },
+      {
+        "id": "HALL_007",
+        "tipo": "hacienda",
+        "nombre": "San Antonio Yaxché",
+        "fundacion": 1894,
+        "municipio": "Hopelchén",
+        "estado_2023": "Arco en riesgo de colapso — INAH no interviene — denuncia pública",
+        "comisario": "Héctor Evelio Euan Euan"
+      }
+    ]
+  },
+
+  "brechas_criticas_identificadas": [
+    "PDFs grandes no leídos (especialmente 1997_1442 = 161 MB)",
+    "Grutas de Huachabí — ausente del database",
+    "Tohcok — ausente del database",
+    "Valeriana (2024) — ausente del database",
+    "Comunidades Ich Ek y X-Mejía — no documentadas",
+    "Libro Aranda González 1985 — no adquirido",
+    "Comunidad libanesa de Campeche (BLOQUE H) — pdf disponible no leído",
+    "Hacienda San Antonio Yaxché 1894 — no en database"
+  ],
+
+  "plan_expansion_siguiente_sesion": {
+    "paso_1": "Leer PDFs: feb_art16.pdf + v24n1a6.pdf + Primeros años posrevolución",
+    "paso_2": "Leer 14-de-como-los-libaneses.pdf para BLOQUE H",
+    "paso_3": "Búsqueda web: Valeriana 2024 Antiquity + Mario Aranda González 1985",
+    "paso_4": "Búsqueda web: comunidad libanesa Campeche Hopelchén",
+    "paso_5": "Actualizar eventos.json con E062-E068 nuevos eventos descubiertos",
+    "paso_6": "Actualizar base_historica_hopelchen.json con nuevos sitios y personajes"
+  }
+}

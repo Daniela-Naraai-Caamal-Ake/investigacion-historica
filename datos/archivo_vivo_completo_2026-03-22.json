@@ -1,0 +1,999 @@
+{
+  "PROYECTO": {
+    "descripcion": "Archivo completo del proyecto Archivo Vivo — Blog archivovivo5h.blogspot.com sobre Hopelchén, Campeche",
+    "fecha_compilacion": "2026-03-22",
+    "autora": "Daniela Naraai (Daniela Caamal) — dnakesca@gmail.com",
+    "blog": "https://archivovivo5h.blogspot.com",
+    "libro": "Dos Mil Años en Silencio — 25 capítulos sobre Hopelchén, Campeche",
+    "plataformas_libro": [
+      "https://zenodo.org/records/19140910",
+      "ResearchGate",
+      "Academia.edu"
+    ]
+  },
+  "PROTOCOLO_REDACCION": {
+    "pasos": [
+      "1. Investigación profunda en la web",
+      "2. Buscar imagen acorde al tema",
+      "3. Redactar: tono periodístico + emocional + filosófico, citas precisas de fuentes",
+      "4. Presentar aquí para aprobación",
+      "5. Con aprobación, continuar al siguiente",
+      "6. Guardar en base de datos",
+      "7. Al finalizar todos los temas, subir al blog"
+    ],
+    "tono_voz": "Crónica latinoamericana. García Márquez, Poniatowska, Caparrós. La autora habita el texto porque es de ahí. Datos citados con precisión. Momentos de voz propia que surgen del hecho. Jamás dar por hecho que Hopelchén no sabe algo. Preguntas filosóficas que abren, no cierran. Daniela conoce el territorio, creció ahí, recorrió sus comunidades.",
+    "reglas": [
+      "Citar fuentes con rigor: según X estudio de X persona en X año",
+      "No usar frases que den por hecho que Hopelchén no sabe lo que tiene",
+      "Frases filosóficas y emocionales que fluyan naturalmente del hecho",
+      "Fuentes secundarias aceptables si reflejan datos documentados",
+      "Siempre pedir aprobación antes de continuar"
+    ]
+  },
+  "ESTRUCTURA_BLOG": {
+    "bloques": {
+      "A": {
+        "nombre": "Historia y arqueología",
+        "entradas": {
+          "A1": {
+            "titulo": "Cinco pozos y dos mil años: lo que el nombre de tu municipio lleva cargando",
+            "estado": "APROBADA"
+          },
+          "A2": {
+            "titulo": "Hochob: la ciudad donde la entrada al templo era la boca de un dios",
+            "estado": "APROBADA"
+          },
+          "A3": {
+            "titulo": "Dzibilnocac y Santa Rosa Xtampak: las otras dos ciudades mayas del municipio de Hopelchén",
+            "estado": "APROBADA"
+          },
+          "A4": {
+            "titulo": "Teobert Maler: el soldado que usó al Imperio para llegar a las ruinas mayas de Hopelchén",
+            "estado": "APROBADA"
+          },
+          "A5": {
+            "titulo": "La guerra que llegó a Los Chenes: Hopelchén en el centro de la Guerra de Castas",
+            "estado": "APROBADA"
+          },
+          "A6": {
+            "titulo": "Hopelchén y sus guerras: dos mil años de un territorio que nunca ha dejado de ser disputado",
+            "estado": "APROBADA"
+          },
+          "A7": {
+            "titulo": "Los soldados de Los Chenes: la región que puso los cuerpos para todas las guerras del siglo XIX",
+            "estado": "PENDIENTE",
+            "notas": "Guardia Nacional reclutaba indígenas pobres de Los Chenes. Fuente: May González tesis 2010"
+          },
+          "A8": {
+            "titulo": "El archivo que nadie ha abierto: el Archivo Municipal de Hopelchén y lo que guarda",
+            "estado": "PENDIENTE",
+            "notas": "AMH contiene: sindicato chiclero 1937-1941, PNR 1935, formación sindicatos. Fuente: Schüren Berlín"
+          }
+        }
+      },
+      "B": {
+        "nombre": "Los personajes del poder",
+        "entradas": {
+          "B1": {
+            "titulo": "Pantaleón Barrera: el hopelcheneño que gobernó Yucatán, vendió mayas, recibió una medalla de la Emperatriz y firmó su novela con su nombre al revés",
+            "estado": "APROBADA",
+            "etiquetas": "historia, investigacion, politica",
+            "imagen": "El_Descaro.jpg",
+            "vincula_libro": "Capítulos III y V",
+            "notas": "Entrada completa y verificada. Se creó entrada separada para la novela."
+          },
+          "B1-BIS": {
+            "titulo": "Los misterios de Chan Santa Cruz: la única novela que un hopelcheneño escribió en el siglo XIX, y por qué la firmó con su nombre al revés",
+            "estado": "APROBADA",
+            "etiquetas": "historia, investigacion, literatura, politica",
+            "imagen": "La_Prensa.jpg o portada del PDF",
+            "vincula_libro": "Capítulos III y V",
+            "fragmentos_clave": [
+              "Introducción: la sublevación como afrenta a la civilización - escrita por quien la perpetuó",
+              "El velorio de Marcos: los asesinos rezan sobre el muerto que ellos mataron",
+              "La carta de Fernando Estrella: el maya vendido a Cuba que sobrevivió y cambió su nombre",
+              "Análisis final pp.141-144: diagnóstico lúcido de quien explotó el sistema que denuncia",
+              "El vals sin nombre: metáfora de una obra que llora sin poder nombrarse",
+              "La paradoja: Barrera y Fernando Ek - dos hombres que borraron su apellido por razones opuestas"
+            ],
+            "notas": "Incluye sección: cómo llegó la novela a Wisconsin. Patrón Maler/Berlin = Barrera/Wisconsin. Conocimiento sobre Hopelchén preservado por instituciones extranjeras."
+          },
+          "B2": {
+            "titulo": "Pedro Advíncula Lara: el hombre que mandó traer el reloj de Berlín",
+            "estado": "APROBADA",
+            "notas": "Reloj de Berlín 1911. Hacienda Holcatzin, Santa Rita, Boxol, Ucuchil. Jefe político múltiples veces. Murió 19 agosto 1919. Teatro 1902 no sobrevivió. Hilo Berlín-Hopelchén: Maler 1887 + reloj 1911."
+          },
+          "B3": {
+            "titulo": "Olegario Molina Solís: el olegariato - tres generaciones de poder desde Bolonchenticul",
+            "estado": "APROBADA",
+            "notas": "Tres generaciones poder Bolonchenticul. Contrato secreto International Harvester 1902. Olegariato. Muere La Habana 1925. Hilo Cuba: mayas esclavos Los Chenes → Fernando Ek novela Barrera → descendientes Madruga hoy venden carbón. Espejo perfecto."
+          },
+          "B4": {
+            "titulo": "Humberto Lara y Lara: el poeta priísta cuyo nombre está en la biblioteca",
+            "estado": "APROBADA",
+            "notas": "\nAPROBADA. Datos clave:\n- Fragmento real prosa: cuento Pancha la chiclera (Diario del Sureste, 22 nov 1931)\n- Novela En la montaña chiclera: NO digitalizada, existe en bibliotecas universitarias físicas\n- Apellido doble Lara y Lara: confirma familia Lara arraigada 2 generaciones en Hopelchén para 1906\n- Pedro Lara y Lara = presidente municipal Hopelchén (entrevistado 1994 por investigadora alemana Ute Schüren)\n- Conexión directa B4→B6: Raúl Emiliano Lara Baqueiro es alumno/conocido de Humberto Lara y Lara\n- Libro B6: Recuerdos de mi infancia 1935-1938 Hopelchén y Dzibalchén, 124 páginas, Editorial Minaya 2016\n\nVERSIÓN FINAL APROBADA con 3 elementos integrados: fragmento Pancha la chiclera (Avilez Tax blog 1931), paradoja académica (EntreDiversidades 2024), corrección diputado SCJN Digesto 1944-1947."
+          },
+          "B5": {
+            "titulo": "Gerónimo Baqueiro Foster: el musicólogo más importante del sureste que nació en Los Chenes",
+            "estado": "APROBADA",
+            "notas": "Versión final aprobada. Incluye: hilo Berlín-Hopelchén completo (Maler 1887, reloj 1911, pianos ~1940), vínculo Sonido 13 con música microtonal maya, pregunta abierta sobre influencia maya en Carrillo. Entrada E7 creada. Vínculos futuros guardados."
+          },
+          "B5-BIS": {
+            "titulo": "El secreto armónico: lo que Gerónimo Baqueiro Foster escuchó en la música maya de Los Chenes y nadie más había nombrado",
+            "estado": "APROBADA",
+            "notas": "Entrada hermana de B5. Cubre:\n1. El capítulo El secreto armónico y modal de un antiguo aire maya (Colegio de México, 1941/1945)\n2. Fragmento real encontrado: Baqueiro Foster recorría adolescente tierras campechanas, yucatecas y Quintana Roo interrogando músicos y naturales de ciudades, pueblos y solitarios de la selva\n3. Los Xtoles: melodía maya que musicólogo Daniel Ayala Pérez cita como posible vestigio de la música maya prehispánica — basada en escala pentafónica tipo A sin semitonos\n4. Julián Carrillo: quién es, el Sonido 13, Leipzig, Alemania, Hans Sauter\n5. Conexión hipotética: escala maya sin semitonos vs microtonalismo del Sonido 13\n6. INAH 2011: instrumentos prehispánicos mayas emiten escala tipo maya diferente a la occidental\n7. Flauta triple maya: 600 rangos sonoros vs escala occidental de 5/12 notas\n"
+          },
+          "B12": {
+            "titulo": "R. Montalvo y los que no tienen estatua: los políticos de Hopelchén que el siglo XX borró",
+            "estado": "PENDIENTE",
+            "notas": "R. Montalvo representó Hopelchén en asamblea PSAC 1920. Fuente: May González tesis 2010"
+          },
+          "B11": {
+            "titulo": "Los apellidos antes del Porfiriato: Lara, Calderón y Solís en el Congreso de Campeche desde 1871",
+            "estado": "PENDIENTE",
+            "notas": "Digesto SCJN confirma: Benigno Lara Negrón, Miguel Calderón, Arturo Solís — diputados por Hopelchén IV Legislatura 1871-1873"
+          },
+          "B10": {
+            "titulo": "Juan de Dios May y Francisco Caamal: los que resistieron desde adentro",
+            "estado": "PENDIENTE"
+          },
+          "B9": {
+            "titulo": "El Charras: Efraín Calderón Lara y el precio de saber",
+            "estado": "PENDIENTE"
+          },
+          "B8": {
+            "titulo": "Raúl Emiliano Lara Baqueiro: el memorialista olvidado",
+            "estado": "PENDIENTE",
+            "notas": "\nDatos confirmados para B6 - Raúl Emiliano Lara Baqueiro:\n- Libro: Recuerdos de mi infancia 1935-1938 Hopelchén y Dzibalchén, Campeche\n- 124 páginas, Editorial Minaya, 2016\n- Prosa accesible y sencilla, memorias de infancia\n- Vivió en Hopelchén y Dzibalchén antes de trasladarse a Mérida\n- Sus tíos: familia Barrera Lara y familia Baqueiro - apellidos cheneros cruzados\n- Publicado en el Diario del Sureste (el mismo periódico que dirigió Humberto Lara y Lara)\n- Reseñado por Luis Alvarado en septiembre 2017 en Diario del Sureste\n- También mencionado en Punto Medio (nov 2019) en artículo sobre familia Barrera\n- Fuente: Diario del Sureste: https://www.diariodelsureste.com.mx/un-libro-inolvidable/\n- Fuente: Punto Medio: https://puntomedio.mx/los-barrera-memorables-anecdotas-familiares/\n"
+          },
+          "B6": {
+            "titulo": "El hilo de Berlín: tres veces que Hopelchén cruzó el Atlántico",
+            "estado": "APROBADA",
+            "notas": "Cuatro momentos: Maler 1887 (IAI Berlín 2,700 fotos), reloj 1911 (industria berlinesa), pianos ~1940-1957 (Hans Sauter, Baqueiro Foster + Arturo Solís), exposición IAI 15 oct 2024 (Dzehkabtún Hopelchén). Quinto hilo: Termer/Hamburgo. Cita Walter Benjamin. Destino pianos: bodega Chapultepec con botes de aceite."
+          },
+          "B7": {
+            "titulo": "El Sonido 13: la revolución musical que un mexicano hizo y México olvidó",
+            "estado": "APROBADA",
+            "notas": "Sonido 13: navaja + violín 13 julio 1895, cuarto de estudiante CDMX. 4,640 sonidos por octava. Los Xtoles: escala pentafónica tipo A sin semitonos (Sol-La-Si-Re-Mi). Primera aparición 1869 (Mosaico yucateco de José Jacinto Cuevas). Baqueiro Foster: capítulo Colegio México 1941 + artículo Revista Musical Mexicana 1942 pp.11-16. Silvestre Revueltas cita Los Xtoles en La noche de los mayas (1939). Zalaquett UNAM: instrumentos mayas microtonales, flauta triple 600 rangos. Carrillo autofinanciado. Pianos cubiertos de aceite en Chapultepec. Einstein + Stokowski + Cage + Varèse elogiaron el Sonido 13."
+          }
+        }
+      },
+      "C": {
+        "nombre": "El poder y sus mecanismos",
+        "entradas": {
+          "C1": {
+            "titulo": "La línea del tiempo de apellidos 1820-2027",
+            "estado": "PENDIENTE"
+          },
+          "C2": {
+            "titulo": "El cateo a las 4:30am: la noche que irrumpieron en casa del alcalde",
+            "estado": "PENDIENTE"
+          },
+          "C3": {
+            "titulo": "Los 9 millones desviados",
+            "estado": "PENDIENTE"
+          },
+          "C4": {
+            "titulo": "El despojo catastral: cuando el ayuntamiento te quita tu tierra y te demanda por denunciarlo",
+            "estado": "PENDIENTE"
+          },
+          "C5": {
+            "titulo": "Los sueldos vs el ingreso maya",
+            "estado": "PENDIENTE"
+          },
+          "C6": {
+            "titulo": "Cómo funciona el voto en un pueblo pequeño",
+            "estado": "PENDIENTE"
+          },
+          "C7": {
+            "titulo": "El zoológico de partidos: cada animal con su disfraz",
+            "estado": "PENDIENTE"
+          },
+          "C8": {
+            "titulo": "La posrevolución en Hopelchén: las ligas de resistencia que nadie recuerda (1920-1929)",
+            "estado": "PENDIENTE",
+            "notas": "PSAC llegó a todos los municipios. ¿Qué pasó en Hopelchén? Requiere investigación en AMH"
+          },
+          "C9": {
+            "titulo": "El henequén de Los Chenes: la industria que financió a Mérida y arruinó al municipio",
+            "estado": "PENDIENTE",
+            "notas": "Campeche tenía Comisión Reguladora del Henequén subordinada a la yucateca. Colapso 1920s. Conecta B3 con D1"
+          }
+        }
+      },
+      "D": {
+        "nombre": "Ecología y territorio",
+        "entradas": {
+          "D1": {
+            "titulo": "190,000 hectáreas: lo que la selva de Hopelchén perdió entre 2001 y 2024",
+            "estado": "PENDIENTE"
+          },
+          "D2": {
+            "titulo": "Los menonitas y la soya: la extracción sin fin",
+            "estado": "PENDIENTE"
+          },
+          "D3": {
+            "titulo": "Leydy Pech: la apicultora que llevó a Hopelchén ante la CIDH",
+            "estado": "PENDIENTE"
+          },
+          "D4": {
+            "titulo": "El glifosato en el agua y en el cuerpo",
+            "estado": "PENDIENTE"
+          },
+          "D5": {
+            "titulo": "El yeso que sale sin dejar nada",
+            "estado": "PENDIENTE"
+          },
+          "D6": {
+            "titulo": "La montaña chiclera: cuando el 60% de Hopelchén vivía del chicozapote",
+            "estado": "PENDIENTE",
+            "notas": "Fuente clave: Ponce Jiménez, Martha Patricia — La montaña chiclera Campeche: vida cotidiana y trabajo (1900-1950), CIESAS 1990. 60% población activa en chiclerías en años 40"
+          }
+        }
+      },
+      "E": {
+        "nombre": "Educación y cultura",
+        "entradas": {
+          "E1": {
+            "titulo": "Los nombres de las escuelas y lo que no enseñan",
+            "estado": "PENDIENTE"
+          },
+          "E2": {
+            "titulo": "Los niños que no van",
+            "estado": "PENDIENTE"
+          },
+          "E3": {
+            "titulo": "El 70% que se identifica indígena",
+            "estado": "PENDIENTE"
+          },
+          "E4": {
+            "titulo": "67 años como ciudad: lo que cambió y lo que no",
+            "estado": "PENDIENTE"
+          },
+          "E5": {
+            "titulo": "El patrimonio artístico completo de Hopelchén",
+            "estado": "PENDIENTE"
+          },
+          "E6": {
+            "titulo": "Así es mi tierra chenera: los libros que hablan de Hopelchén y nadie conoce",
+            "estado": "PENDIENTE",
+            "notas": "Aranda González (1985), Lara y Lara (En la montaña chiclera), Lara Baqueiro (Recuerdos 1935-1938), Así es mi tierra chenera (Scribd)"
+          },
+          "E7": {
+            "titulo": "El Sonido 13: lo que Julián Carrillo descubrió y los mayas ya sabían",
+            "estado": "PENDIENTE",
+            "notas": "Entrada nueva propuesta. Datos clave:\n- Carrillo descubre en 1895 que hay 16 tonos distintos entre una nota y otra — llama al 13o Sonido 13\n- El microtonalismo ya existía en culturas de India, China, Japón, África y MESOAMÉRICA antes de Carrillo\n- INAH/UNAM 2011: análisis de 125 instrumentos mayas confirma escala musical maya totalmente diferente a la occidental\n- Flautas prehispánicas mayas emiten escalas microtonales. Una flauta triple produjo 600 rangos sonoros distintos\n- Los rangos detectados no corresponden a la música tocada con la escala occidental — expertos definen como posible tipo escala maya\n- Ocarinas mayas de Yucatán en Museo de Etnología de Hamburgo (colección Franz Termer, principios siglo XX)\n- Baqueiro Foster escribió: El secreto armónico y modal de un antiguo aire maya (Colegio de México, 1941)\n- El hopelcheneño que viajó a Alemania a encargar pianos microtonales había estudiado antes la música maya de su tierra\n- VÍNCULO PENDIENTE: confirmar si Carrillo conoció la música maya a través de Baqueiro Foster y si esto influyó en el Sonido 13\n- Fuentes: INAH/UNAM 2011 arqueoacústica, Gaceta UNAM, El Informador, Prensa Libre, Asociación Tikal/Hamburgo"
+          }
+        }
+      },
+      "F": {
+        "nombre": "Prensa y libertad de expresión",
+        "entradas": {
+          "F1": {
+            "titulo": "Los cinco medios que Campeche perdió bajo Sansores",
+            "estado": "PENDIENTE"
+          },
+          "F2": {
+            "titulo": "El caso González Valdez: prohibido ejercer el periodismo",
+            "estado": "PENDIENTE"
+          },
+          "F3": {
+            "titulo": "Los periodistas bajo protección federal",
+            "estado": "PENDIENTE"
+          },
+          "F4": {
+            "titulo": "El Diario del Sureste y Hopelchén: cuando un hopelcheneño dirigía el periódico más poderoso del sureste",
+            "estado": "PENDIENTE",
+            "notas": "Humberto Lara y Lara director 1937-1952. ¿Qué escribió sobre Hopelchén? ¿Qué silenció? Conecta B4 con Bloque F"
+          }
+        }
+      },
+      "G": {
+        "nombre": "Datos nuevos / actualidad",
+        "entradas": {
+          "G1": {
+            "titulo": "La novela Charras de Penguin Random House (2022)",
+            "estado": "PENDIENTE"
+          },
+          "G2": {
+            "titulo": "El Colectivo Maya Los Chenes activo hoy",
+            "estado": "PENDIENTE"
+          },
+          "G3": {
+            "titulo": "La feria vs las abejas muertas",
+            "estado": "PENDIENTE"
+          },
+          "G4": {
+            "titulo": "FamilySearch como herramienta de acción ciudadana",
+            "estado": "PENDIENTE"
+          },
+          "G5": {
+            "titulo": "El hilo de Berlín: tres veces que Hopelchén cruzó el Atlántico",
+            "estado": "PENDIENTE",
+            "notas": "Maler 1887 + reloj 1911 + pianos Sonido 13 ~1940. Requiere confirmar identidad de Arturo Solís."
+          },
+          "G6": {
+            "titulo": "El Sonido 13: la revolución musical que un mexicano hizo y México olvidó",
+            "estado": "PENDIENTE",
+            "notas": "Entrada explicativa. Carrillo en Leipzig (beca Díaz). 4,640 sonidos por octava. 15 pianos en Alemania. Baqueiro Foster como puente hopelcheneño. Posible conexión con escala musical maya."
+          }
+        }
+      },
+      "H": {
+        "nombre": "Los que llegaron de afuera",
+        "entradas": {
+          "H1": {
+            "titulo": "Los libaneses de Hopelchén: los comerciantes que siguieron el chicle y dejaron apellidos",
+            "estado": "PENDIENTE",
+            "notas": "Fuente: Ramírez Carrillo 2012. Familias de Jouhnie vivieron en Hopelchén. Buhoneros siguieron red ferroviaria y campamentos chicleros"
+          },
+          "H2": {
+            "titulo": "Los menonitas: cómo 4,000 personas cambiaron el municipio sin mezclarse con nadie",
+            "estado": "PENDIENTE",
+            "notas": "Dimensión cultural separada de D2 (ecológica)"
+          },
+          "H3": {
+            "titulo": "Los arqueólogos que vinieron a mirar y se llevaron el conocimiento a Berlín",
+            "estado": "PENDIENTE",
+            "notas": "Ampliación de A4 — Maler no fue el único. Andrews, Becquelin, otros arqueólogos extranjeros documentaron Los Chenes"
+          }
+        }
+      }
+    }
+  },
+  "TEXTOS_ENTRADAS_APROBADAS": {
+    "B1": {
+      "titulo": "Pantaleón Barrera: el hopelcheneño que gobernó Yucatán, vendió mayas, recibió una medalla de la Emperatriz y firmó su novela con su nombre al revés",
+      "estado": "APROBADA",
+      "imagen": "El_Descaro.jpg",
+      "etiquetas": [
+        "historia",
+        "investigacion",
+        "politica"
+      ],
+      "vincula_libro": "Caps. III y V",
+      "fuentes_clave": [
+        "Wikipedia Pantaleón Barrera",
+        "El Despertador (venta mayas)",
+        "Al Día News (Dr. Fredy Cabrera Ku ENAH)",
+        "El Cronista (pecio La Unión INAH 2022)",
+        "Revista Bicentenario",
+        "Enciclopedia Literatura México"
+      ],
+      "nota": "Entrada completa redactada y verificada desde sesiones iniciales. Ver B1-BIS para la novela."
+    },
+    "B1-BIS": {
+      "titulo": "Los misterios de Chan Santa Cruz: la única novela que un hopelcheneño escribió en el siglo XIX, y por qué la firmó con su nombre al revés",
+      "estado": "APROBADA",
+      "imagen": "La_Prensa.jpg",
+      "etiquetas": [
+        "historia",
+        "investigacion",
+        "literatura"
+      ],
+      "pdf_disponible": "https://babel.hathitrust.org/cgi/pt?id=wu.89095721726",
+      "datos_clave": [
+        "Seudónimo: Noel Barrera → Barrera al revés = Arrerab → Noel = apellido invertido",
+        "Publicada en Mérida 1864, 157 páginas",
+        "Única novela peninsular del siglo XIX sobre la resistencia maya",
+        "Personaje Fernando Ek: maya enviado como esclavo a Cuba en 1855, escribe desde Bejucal como Fernando Estrella",
+        "El libro llegó a Wisconsin — mismo patrón que Maler y Berlín: conocimiento de Los Chenes viaja al extranjero",
+        "Pantaleón Barrera fue señalado en la venta de mayas yucatecos a Cuba"
+      ]
+    },
+    "B2": {
+      "titulo": "Pedro Advíncula Lara: el hombre que mandó traer el reloj de Berlín",
+      "estado": "APROBADA",
+      "imagen": "El_Descaro.jpg",
+      "etiquetas": [
+        "historia",
+        "investigacion",
+        "politica"
+      ],
+      "vincula_libro": "Cap. III",
+      "datos_clave": [
+        "Nació Hopelchén agosto 1834, hijo de Rita Lara",
+        "Jefe político de Los Chenes múltiples veces (cargo más poderoso del Porfiriato local)",
+        "Haciendas: Holcatzin, Santa Rita, ranchos Boxol y Ucuchil",
+        "Teatro 1902 — no sobrevivió",
+        "Reloj público 1911 — construido en Berlín, instalado el 5 de mayo de 1911",
+        "Murió Hopelchén 19 agosto 1919 (85 años)",
+        "Cronología Histórica de Campeche: Político y Altruista",
+        "Rita Lara era su madre → apellido Lara ya existía antes de él",
+        "Hilo Berlín: mismo año en que Maler fotografió Los Chenes (1887) y décadas después Baqueiro Foster encargaría pianos (1940)"
+      ],
+      "fuentes": [
+        "Cronología Histórica de Campeche p.251 (FlipBuilder)",
+        "Scielo — Los relojes públicos y la unificación social del tiempo en la ciudad de México (Luis Torres Rojo, 2013)",
+        "Dimensión Antropológica INAH — Alemania y México, el papel del imperio alemán en el Porfiriato"
+      ]
+    },
+    "B3": {
+      "titulo": "Olegario Molina Solís: el niño de Bolonchenticul que se convirtió en el rey del henequén y gobernó Yucatán desde La Habana",
+      "estado": "APROBADA",
+      "imagen": "El_Futuro.jpg",
+      "etiquetas": [
+        "historia",
+        "investigacion",
+        "politica"
+      ],
+      "vincula_libro": "Cap. III",
+      "datos_clave": [
+        "Nació 6 marzo 1843 Bolonchenticul (municipio Hopelchén)",
+        "Tres generaciones: abuelo Julián Molina y Bastante (presidente Ayto. Bolonchenticul, encarcelado por Fernando VII), padre Juan Francisco (jefe político), Olegario (gobernador Yucatán + Secretario de Fomento de Díaz)",
+        "Perdió ojo izquierdo a los 5 años por medicamento mal aplicado",
+        "Vendió carbón de adolescente para pagar estudios en Mérida",
+        "1881: funda O. Molina y Compañía",
+        "1902: contrato secreto con International Harvester para deprimir precio del henequén a cambio del monopolio de exportación",
+        "El olegariato: 1902-1911",
+        "John Kenneth Turner en México Bárbaro (1910): sus propiedades abarcan más de 6 millones de hectáreas, un pequeño reino",
+        "Exiliado en La Habana 1911, murió allá 28 abril 1925",
+        "HILO CUBA: mayas de Los Chenes vendidos como esclavos a Cuba (1849-1861) → Fernando Ek en novela de Barrera → descendientes en Madruga hoy venden carbón → Molina muere en La Habana",
+        "Tesis May González confirma: ex-Casta Divina operó bajo Carrillo Puerto en los años 20",
+        "Digesto SCJN: apellidos Lara, Calderón, Solís como diputados por Hopelchén desde la IV Legislatura 1871"
+      ],
+      "fuentes": [
+        "Wikipedia — Olegario Molina",
+        "ECOS CIDE 2025",
+        "Cambridge Core — Corporate Control of a Monocrop Economy",
+        "Project MUSE — peonaje henequenero",
+        "May González, Ángel Omar — tesis doctoral Instituto Mora 2010",
+        "González Oropeza / Cienfuegos Salgado — Digesto Constitucional Mexicano Campeche, SCJN-TEPJF 2010",
+        "La Jornada — mayas vendidos a Cuba",
+        "Yucatán Ahora — descendientes Madruga Cuba"
+      ]
+    },
+    "B4": {
+      "titulo": "Humberto Lara y Lara: el poeta del PRI cuyo nombre está en la biblioteca de Hopelchén",
+      "estado": "APROBADA",
+      "imagen": "Educacion.jpg",
+      "etiquetas": [
+        "historia",
+        "investigacion",
+        "literatura",
+        "politica"
+      ],
+      "vincula_libro": "Caps. IV y VII",
+      "datos_clave": [
+        "Nació Hopelchén 21 octubre 1906, salió con 8 años a Mérida",
+        "Apellido doble confirma familia Lara arraigada 2 generaciones en Hopelchén para 1906",
+        "42 años profesor en Secundaria Agustín Vadillo Cicero",
+        "Director Diario del Sureste 1937-1952",
+        "Secretario particular gobernador César Alayola Barrera",
+        "Oficial mayor bajo Fernando López Cárdenas",
+        "Diputado y operador PRI más de 25 años",
+        "Digesto SCJN: Pedro Lara y Lara — diputado XXXVIII Legislatura 1944-1947",
+        "Canciones: Inútil fuga, Embrujo, La tarde, Mesticita de mi tierra",
+        "Inútil fuga: ...Separados pecamos ante Dios",
+        "Novela En la montaña chiclera — NO digitalizada — en Diario del Sureste por capítulos",
+        "Cuento Pancha la chiclera (Diario del Sureste, 22 nov 1931) — primer texto sobre Los Chenes",
+        "Academia campechana NO lo incluye en corpus de narrativa chiclera (EntreDiversidades, UAC, 2024)",
+        "Conexión B4→B8: Raúl Emiliano Lara Baqueiro fue alumno/conocido de Humberto Lara y Lara",
+        "Medalla Guty Cárdenas 1977, Presea Yucatán 1980",
+        "Murió 8 noviembre 1981 Mérida",
+        "Biblioteca Prof. Humberto Lara y Lara: Calle 23 s/n por Calle 24, Centro Cultural Los Chenes, Hopelchén, CP 24600"
+      ],
+      "fuentes": [
+        "Enciclopedia Yet de Yucatán",
+        "Enciclopedia de la Literatura en México",
+        "Biblioteca Virtual de Yucatán",
+        "Museo de la Canción Yucateca",
+        "Preescolar Humberto Lara y Lara",
+        "Centro Cultural ProHispen",
+        "SIC Secretaría de Cultura",
+        "Revista Universitaria UADY — época de oro canción yucateca",
+        "Avilez Tax, Gilberto — blog (fragmento Pancha la chiclera)",
+        "Vadillo Buenfil — EntreDiversidades UAC 2024",
+        "Digesto Constitucional SCJN 2010",
+        "Diario del Sureste — reseña Lara Baqueiro sept 2017"
+      ]
+    },
+    "B5": {
+      "titulo": "Gerónimo Baqueiro Foster: el hopelcheneño que llegó a la Ciudad de México con siete pesos y se convirtió en la memoria musical de un país",
+      "estado": "APROBADA",
+      "imagen": "Educacion.jpg",
+      "etiquetas": [
+        "historia",
+        "cultura",
+        "investigacion"
+      ],
+      "vincula_libro": "Cap. VII",
+      "datos_clave": [
+        "Fecha en disputa: acta de nacimiento dice 25 enero 1892; fuentes dicen 7 enero 1898. Hopelchén en ambos casos",
+        "Descendiente directo de Cirilo Baqueiro Prevé (Chan Cil) — primer trovador yucateco, mayahablante, chenero",
+        "De adolescente reunió 20 alumnos en Hopelchén — no había piano en el municipio",
+        "1921: llegó a CDMX con 7 pesos",
+        "1922: ingresó al Conservatorio con Julián Carrillo",
+        "Formó parte de Orquesta Sinfónica UNAM, Orquesta Alemana de México",
+        "Catedrático de Historia de la Música en el Conservatorio por 30+ años",
+        "Viajó a Alemania con Julián Carrillo a encargar pianos microtonales (Hans Sauter)",
+        "Arturo Solís (Hopelchén): los alemanes quedaron sorprendidos pues ese sonido no existía",
+        "6,000+ artículos en 60+ medios",
+        "59 tomos de recortes periodísticos encuadernados",
+        "Colección personal: primeras grabaciones de mariachi del mundo (Cuarteto Coculense 1908-1909)",
+        "Curso completo de solfeo: 10 ediciones 1939-1970, enseñado en México, Colombia, Chile y España",
+        "El secreto armónico y modal de un antiguo aire maya — Colegio de México 1941",
+        "Realizó árboles genealógicos de familias de Los Chenes",
+        "Arturo Solís: Gerónimo era más campechano que el pan de cazón y más chenero que el agua de pozo",
+        "Su esposa Eloísa donó el acervo al Cenidim",
+        "Flauta transversa de plata italiana (casa A. Rapone, Milán) entregada a Luis Pérez Sabido en 2016",
+        "Murió 29 mayo 1967 CDMX",
+        "Ninguna calle lleva su nombre en Hopelchén"
+      ],
+      "fuentes": [
+        "Mendoza Castillo — Revista Digital Universitaria UNAM 2006",
+        "González Toraya, Betina — La Jornada Maya 2021",
+        "Wiki Mariachi",
+        "Enciclopedia Yet de Yucatán",
+        "INBA — Julián Carrillo y el Sonido 13",
+        "Proceso — La flauta de Baqueiro Fóster",
+        "Secretaría de Cultura Yucatán — Centro Baqueiro Foster"
+      ]
+    },
+    "B5-BIS": {
+      "titulo": "El secreto armónico: lo que Gerónimo Baqueiro Foster escuchó en la música maya de Los Chenes y nadie más había nombrado",
+      "estado": "APROBADA",
+      "imagen": "Los_Chenes.jpg",
+      "etiquetas": [
+        "historia",
+        "cultura",
+        "investigacion",
+        "musica"
+      ],
+      "vincula_libro": "Cap. VII — hermana de B5",
+      "datos_clave": [
+        "Capítulo El secreto armónico y modal de un antiguo aire maya — Los mayas antiguos, Colegio de México, 1941",
+        "Segunda publicación: Revista Musical Mexicana, n.1, 1942, pp. 11-16 (versión expandida)",
+        "Texto en primera persona: Baqueiro Foster recorrió tierras campechanas de adolescente escuchando a los naturales de la selva",
+        "Los Xtoles: primera aparición documental en 1869 (Mosaico yucateco de José Jacinto Cuevas)",
+        "Baqueiro Foster describió Los Xtoles: una de las más preciosas melodías mayas, de carácter austero y probablemente religioso. Pudiera haber sido un antiguo Himno al Sol",
+        "Escala pentafónica tipo A sin semitonos: Sol, La, Si, Re, Mi",
+        "Silvestre Revueltas cita Los Xtoles en La noche de los mayas (1939)",
+        "INAH-UNAM 2011: instrumentos mayas prehispánicos emiten escala tipo maya diferente a la occidental",
+        "Flauta triple maya: 600 rangos sonoros",
+        "Carrillo: 4,640 sonidos por octava con el Sonido 13",
+        "Centro Baqueiro Foster Mérida: disco compacto La Canción Chenera",
+        "Daniel Ayala Pérez: sus obras completas están en el Centro Baqueiro Foster"
+      ],
+      "fuentes": [
+        "Mendoza Castillo — UNAM 2006",
+        "Brainly — fragmento texto Baqueiro Foster citado por Ayala Pérez",
+        "Secretaría de Cultura Yucatán",
+        "Biblioteca Virtual Miguel de Cervantes — Los mayas antiguos 1941",
+        "INAH — escala musical maya 2011",
+        "Tesis doctoral Posgrado Música UNAM 2024 (PDF 0865175.pdf)",
+        "Boletín UNAM — Zalaquett 2023"
+      ]
+    },
+    "B6": {
+      "titulo": "El hilo de Berlín: cuatro veces que Hopelchén cruzó el Atlántico",
+      "estado": "APROBADA",
+      "imagen": "Los_Chenes.jpg",
+      "etiquetas": [
+        "historia",
+        "investigacion",
+        "cultura"
+      ],
+      "datos_clave": [
+        "MOMENTO 1 — 1887-1910: Teobert Maler fotografia Los Chenes. Archivo IAI Berlín: 2,700 fotografías, 145 carpetas, 12 libros de apuntes, 7 libros con esbozos, 1 manuscrito 3 volúmenes, 230 hojas correspondencia",
+        "MOMENTO 2 — 1911: Pedro Advíncula Lara manda traer reloj de Berlín. Industria alemana de precisión. Plaza Hopelchén, 5 mayo 1911",
+        "MOMENTO 3 — ~1940-1957: Baqueiro Foster (Hopelchén) viaja a Alemania con Carrillo. Pianos Hans Sauter. Medalla de Oro Bruselas 1958. Pianos en bodega Chapultepec con botes de aceite",
+        "MOMENTO 4 — 15 octubre 2024: IAI Berlín inaugura exposición Tras los pasos de Teobert Maler con trabajo arqueológico actual en Dzehkabtún, municipio de Hopelchén",
+        "QUINTO HILO PENDIENTE: Franz Termer llevó instrumentos musicales mayas de la Península al Museo de Etnología de Hamburgo. Colección no completamente estudiada",
+        "Patrón: tecnología alemana de precisión + conocimiento que México no tenía + chenero en el medio",
+        "Cita Walter Benjamin: no hay documento de cultura que no sea a la vez un documento de barbarie",
+        "Casa Sauter fundada 1819 — sigue fabricando pianos microtonales hoy"
+      ],
+      "fuentes": [
+        "IAI Berlín — descripción archivo Maler",
+        "IAI Berlín — exposición oct 2024",
+        "Wikipedia — Teobert Maler",
+        "Wikipedia — Julián Carrillo",
+        "Piano Sauter — historia empresa",
+        "Asociación Tikal — Pacheco Sánchez (Termer/Hamburgo)",
+        "Walter Benjamin — Tesis sobre el concepto de historia, 1940"
+      ]
+    },
+    "B7": {
+      "titulo": "El Sonido 13 y Los Xtoles: lo que Julián Carrillo descubrió con una navaja y los mayas de Los Chenes ya sabían",
+      "estado": "APROBADA",
+      "imagen": "Los_Chenes.jpg",
+      "etiquetas": [
+        "historia",
+        "cultura",
+        "investigacion",
+        "musica"
+      ],
+      "datos_clave": [
+        "13 julio 1895: Julián Carrillo + navaja + violín + condiscípulo Eucario González = 16 sonidos entre Sol y La",
+        "Detonante: clase de acústica del maestro Francisco Ortega y Fonseca sobre Ley de Divisiones de Cuerdas",
+        "Sonido 13: el que cronológicamente siguió a los 12 de la escala occidental",
+        "4,640 sonidos por octava (escala occidental: 12)",
+        "Carrillo becado por Porfirio Díaz en Real Conservatorio de Leipzig",
+        "Los Xtoles: primera aparición 1869 (Mosaico yucateco, José Jacinto Cuevas)",
+        "Baqueiro Foster: análisis en Colegio de México 1941 y Revista Musical Mexicana 1942",
+        "Silvestre Revueltas cita Los Xtoles en La noche de los mayas (1939)",
+        "Escala pentafónica tipo A sin semitonos: Sol, La, Si, Re, Mi",
+        "Mayas: instrumentos prehispánicos emiten escala tipo maya, flauta triple 600 rangos sonoros",
+        "Einstein, Stokowski, Varèse, John Cage elogiaron el Sonido 13",
+        "Carrillo autofinanciado, sin apoyo gubernamental",
+        "Pianos Medalla de Oro Bruselas 1958 → guardados en bodega Chapultepec con botes de aceite",
+        "Piano donado a Francia: usado continuamente. Piano en México: cubierto de aceite",
+        "UNESCO: Registro de la Memoria del Mundo 2016 — partituras de Carrillo",
+        "Casa Sauter sigue fabricando pianos microtonales con 97 teclas"
+      ],
+      "fuentes": [
+        "Sonido13.com — historia oficial con testimonio de Carrillo",
+        "Wikipedia — Julián Carrillo",
+        "Wikipedia — Sonido 13",
+        "INBA — Julián Carrillo",
+        "Boletín UNAM — Zalaquett 2023",
+        "Tesis doctoral Posgrado Música UNAM 2024 (PDF 0865175.pdf)",
+        "La Jornada Maya — testimonio Arturo Solís"
+      ]
+    }
+  },
+  "HILOS_TRANSVERSALES": [
+    "Imperio de Maximiliano - Carlota - Pantaleón Barrera - Teobert Maler (mismo año 1865)",
+    "Hacienda porfiriana de Santa Rosa Xtampak - analizar en Bloque B entradas B2 y B3",
+    "El apellido Barrera: gobernador siglo XIX → jefe jurídico ayuntamiento 2025",
+    "El apellido Calderón: El Charras (combatió el PRI) → Emilio Lara Calderón (gobernó desde el PRI)",
+    "El agua: nombre del municipio (cinco pozos) → glifosato en acuíferos 2016",
+    "La venta de mayas a Cuba → Los Chenes como zona de captura → Fernando Ek en la novela de Barrera",
+    "ALEMANIA-HOPELCHÉN: Tres momentos documentados — (1) Maler 1887 fotografia Los Chenes, archivo en IAI Berlín; (2) Pedro Advíncula manda reloj de Berlín 1911; (3) Baqueiro Foster viaja a Alemania ~1940 con Julián Carrillo a encargar pianos metamorfoseados Hans Sauter para Sonido 13. Patrón: tecnología alemana precisión + conocimiento que México no tenía + chenero en el medio. PENDIENTE: confirmar si Arturo Solís (testimonio La Jornada Maya) es el mismo Arturo Solís de Digesto Constitucional y entrevistas Schüren.",
+    "SONIDO 13 + ESCALA MAYA: Los instrumentos prehispánicos mayas emiten escala que NO corresponde a la occidental (INAH-UNAM, 125 instrumentos analizados, definida como escala tipo maya). Carrillo descubrió en 1895 que entre dos notas existen 16 sonidos distintos. La flauta triple maya produce 600 rangos sonoros. ¿Son los mismos intervalos? Nadie lo ha investigado directamente. Baqueiro Foster publicó El secreto armónico y modal de un antiguo aire maya (Colegio de México, 1941) — ¿lo investigó él? Museo de Etnología de Hamburgo tiene instrumentos mayas de la Península de Yucatán (colección Franz Termer, s. XX) sin estudiar completamente. HIPÓTESIS — no redactar como hecho confirmado."
+  ],
+  "HALLAZGOS_NUEVOS": {
+    "asi_es_mi_tierra_chenera": {
+      "titulo": "Así es mi tierra chenera: un rinconcito del Mayab",
+      "paginas": 77,
+      "disponible": "Scribd: https://www.scribd.com/document/651426066/Asi-Es-Mi-Tierra-Chenera-Un-Rinconcito-Del-Mayab-Listo",
+      "subido_por": "Yanali Concepción Quijano Carrillo",
+      "nota": "Documento sobre identidad chenera. Posible entrada E5 o material de apoyo para entradas del Bloque E"
+    },
+    "apellidos_cheneros_confirmados": {
+      "fuente": "PorEsto, artículo sobre El Charras (2019)",
+      "cita": "Lara, Calderón, Solís, Baqueiro, Barrera son apellidos profundamente cheneros que han gestado combinaciones familiares muy conocidas en toda la península: Lara Calderón, Calderón Lara, Lara Solís, Lara Barrera, Barrera Baqueiro, Lara y Lara son linajes totalmente identificados con Hopelchén",
+      "url": "https://www.poresto.com/yucatan/2019/2/11/recuerdos-de-efrain-calderon-lara-charras.html",
+      "importancia": "Confirma el patrón de apellidos del poder para TODO el Bloque B y el Bloque C"
+    },
+    "pedro_lara_y_lara_alcalde": {
+      "dato": "Pedro Lara y Lara fue Presidente Municipal de Hopelchén en 1994",
+      "fuente": "Bibliografía tesis doctoral Ute Schüren (Freie Universität Berlin): entrevista PLL-12.12.1994 Pedro Lara y Lara, Bürgermeister (Presidente Municipal), Hopelchén",
+      "importancia": "El mismo apellido compuesto de Humberto: Lara y Lara. Conecta el poeta-político con el alcalde de 1994. El patrón del apellido en el poder continúa hasta los 90s"
+    },
+    "libaneses_peninsula": {
+      "titulo": "De cómo los libaneses conquistaron la Península de Yucatán",
+      "autor": "Luis Alfonso Ramírez Carrillo",
+      "editorial": "UNAM-CEPHCIS, 2012",
+      "paginas": 259,
+      "contenido": "Migración libanesa en Campeche (p.121-131), comerciantes en Los Chenes, su papel en la economía chiclera y henequenera. Cubre el período porfiriano hasta principios del siglo XXI",
+      "relevancia_para_blog": "Bloque B y C: los comerciantes libaneses como otro actor de poder en Hopelchén que no se menciona en el libro. Potencial entrada nueva en Bloque C"
+    },
+    "pdf_henequen_haciendas": {
+      "titulo": "Pequeños Productores Henequeneros vs latifundistas Yucatecos",
+      "autor": "Ing. José A. Brito",
+      "fuente": "Biblioteca Miguel Lerdo de Tejada, Secretaría de Hacienda",
+      "contenido": "Análisis del conflicto entre ejidatarios y hacendados henequeneros 1961-1962. Datos sobre concentración de tierras: zona henequenera 1.5 millones has, solo 160,000 cultivadas. Relación directa con el sistema que Olegario Molina administró",
+      "relevancia": "Refuerza datos de B3 (Olegario Molina) y D1 (deforestación/territorio)"
+    },
+    "libaneses_hopelchen_datos": {
+      "fuente": "Ramírez Carrillo, Luis Alfonso — De cómo los libaneses conquistaron la Península de Yucatán (UNAM-CEPHCIS, 2012)",
+      "datos_clave": [
+        "Familias de Jouhnie (Líbano) vivieron años en Hopelchén y dejaron apellidos en el pueblo",
+        "Comerciantes libaneses llegaron a Hopelchén siguiendo la red ferroviaria y la economía chiclera",
+        "Hopelchén aparece en la ruta comercial peninsular junto a Campeche, Dzitbalché, Maxcanú y Chetumal",
+        "Buhoneros libaneses abastecían campamentos chicleros de Los Chenes",
+        "Algunos libaneses participaron en las Ligas de Resistencia del Partido Socialista del Sureste bajo Carrillo Puerto — el mismo partido donde Humberto Lara y Lara era profesor de obreros",
+        "Montejo Baqueiro es autor mencionado en el libro — apellido Baqueiro conecta con Hopelchén"
+      ],
+      "entrada_posible": "Nueva entrada Bloque C o complemento B — Los comerciantes que nadie recuerda: libaneses en Hopelchén",
+      "url_pdf": "/mnt/user-data/uploads/14-___de-como-los-libaneses.pdf"
+    },
+    "correccion_aranda_gonzalez": {
+      "correccion": "El autor de Apuntaciones históricas y literarias del municipio de Hopelchén (1985) es MARIO HEBERTO Aranda González, no Pedro Aranda González",
+      "fuente_correccion": "Artículo EntreDiversidades (UAC, 2024) y bibliografía tesis Schüren (Freie Universität Berlin)",
+      "referencia_completa": "Aranda González, Mario Heberto (1985) Apuntaciones históricas y literarias del municipio de Hopelchén, Campeche. Mérida: Maldonado Editores (Ediciones del Ayuntamiento de Hopelchén, Programa Cultural de las Fronteras)",
+      "importancia": "Este libro es la principal fuente histórica local sobre Hopelchén. Lo citan múltiples investigadores académicos. Es el único libro de historia municipal que existe."
+    },
+    "tesis_schueren_berlin": {
+      "autora": "Ute Schüren",
+      "institucion": "Freie Universität Berlin",
+      "periodo_trabajo_campo": "febrero 1993 a marzo 1998 en Hopelchén, Campeche",
+      "comunidades_visitadas": "Hopelchén, Dzibalchén, Bolonchén, Xcupilcacab, Ich Ek, Katab, Xmejía, Santa Rita Becanchén, Xculoc, Xkanhá, Chunyaxnic, Chanchén, Ukum, Yaxché Akal, Chencoh, Francisco J. Mújica, Rancho Soza, Kancabchén, Xmaben, Huechil, Chunchintok, Iturbide, San Juan Bautista Sahcabchén, El Poste, San Francisco Suctuc, Crucero San Luis, San Antonio Yaxché",
+      "entrevistados_clave_hopelchen": [
+        "Pedro Lara y Lara — Presidente Municipal de Hopelchén (entrevistado 12.12.1994)",
+        "Hugo Lara y Lara — Arquitecto de la región Chenes, Mérida (entrevistado 17.12.1994)",
+        "Jorge Lara Solís — Empresario y ganadero, Hopelchén (entrevistado 1994-1996)",
+        "Arturo Solís Lara — Comerciante, Hopelchén (entrevistado 1996-1998)",
+        "Raimundo Calderón Lara — Comerciante, Hopelchén (entrevistado 1994-1995)",
+        "Indalecio Lara Pech + Onésimo Lara Matos — padre e hijo, ejidatarios, Xcupilcacab (entrevistados múltiples veces)",
+        "Pedro Baqueiro — Empresario, Hopelchén (entrevistado 14.1.1995)",
+        "Alicia Yolanda Lara Te — BANRURAL, Campeche (entrevistada 1995)",
+        "Hermegildo Pérez Lara — Director SARH/SAGAR, Hopelchén (entrevistado 1995-1998)",
+        "Ramón Berzunza Pinto — Historiador, activista del movimiento de maestros rurales (entrevistado múltiples veces)"
+      ],
+      "archivos_consultados": [
+        "Archivo Municipal de Hopelchén (AMH) — correspondencia sindicato chiclero 1937-1941, PNR 1935, formación sindicatos",
+        "Archivo General del Estado de Campeche (AGEC)",
+        "Archivo General del Estado de Yucatán (AGEY)",
+        "Gaceta Municipal Hopelchén"
+      ],
+      "publicaciones_derivadas": [
+        "Schüren 1995 — Neoliberal Policy and the Peasantry in Rural Campeche",
+        "Schüren 1997 — Los mayas pacíficos de los Chenes ayer y hoy: El caso de Xkanhá",
+        "Schüren 2001 — La revolución tardía: Reforma agraria y cambio político en Campeche (1910-1940)",
+        "Schüren s/f — Haciendas y peones en Campeche: Una vista desde los Chenes (1820-1914) [manuscrito no publicado]"
+      ],
+      "importancia_para_blog": "La tesis de Schüren es el estudio más completo sobre Hopelchén 1993-1998. Confirma apellidos del poder: Lara, Calderón Lara, Solís Lara, Baqueiro operando en cargos institucionales y empresariales simultáneamente. Pedro Lara y Lara como alcalde 1994 confirma la continuidad del apellido Lara en el poder hasta los años 90. El Archivo Municipal de Hopelchén existe y tiene documentos del sindicato chiclero 1937-1941."
+    },
+    "cuentistica_chiclera_campechana": {
+      "fuente": "Vadillo Buenfil, Carlos — Bestializados y oprimidos: figuraciones del chiclero en la cuentística campechana del siglo XX (EntreDiversidades, UAC, 2024)",
+      "dato_clave": "La novela de Humberto Lara y Lara (En la montaña chiclera) no está en el corpus analizado — el artículo solo analiza 4 cuentistas: Fausto Vallado Berrón, Joaquín Santella, Juan de la Cabada y Enrique Escalante Escalante (1952-1978). Esto confirma que la novela de Lara y Lara publicada en el Diario del Sureste es prácticamente desconocida en la academia.",
+      "paradoja_clave": "La novela de denuncia social de Humberto Lara y Lara sobre los chicleros es omitida en el estudio académico sobre la cuentística chiclera campechana. El director del Diario del Sureste y diputado del PRI escribió sobre las condiciones infrahumanas de los chicleros — y nadie lo estudia."
+    },
+    "cronologia_p251_confirmada": {
+      "dato": "Página 251 de la Cronología Histórica de Campeche confirma: 19/08/1919 — Fallece en Hopelchén, Campeche el Político y Altruista Pedro Advíncula Lara",
+      "fuente": "Cronología Histórica de Campeche (FlipBuilder), p.251",
+      "nota": "Lo describe como Político y Altruista — misma descripción que ya teníamos. Dato verificado directamente."
+    },
+    "tesis_posrevolucion_campeche": {
+      "titulo": "Los primeros años de la posrevolución en Campeche (1921-1929)",
+      "autor": "Ángel Omar May González",
+      "institucion": "Instituto de Investigaciones Dr. José María Luis Mora, México D.F.",
+      "grado": "Tesis doctoral en Historia Moderna y Contemporánea, agosto 2010",
+      "relevancia_b3_olegario": [
+        "Confirma el contrato secreto Molina-International Harvester: la política era poner precio bajo al henequén; los hacendados tenían seguridad de vender toda su producción pero no era benéfico para medianos y pequeños productores",
+        "La Casta Divina es definida: familias que controlaban el comercio del henequén en Yucatán; el término lo acuñó Salvador Alvarado cuando llegó con las tropas carrancistas",
+        "El sistema sobrevivió después de Díaz: ex-miembros de la Casta Divina formaron el equipo de cabildeo en EUA bajo Carrillo Puerto",
+        "Campeche tenía su propia Comisión Reguladora del Mercado del Henequén — dependiente de la yucateca — lo que confirma que Los Chenes producía henequén dentro del sistema que Molina controlaba"
+      ],
+      "datos_nuevos_chicleros": [
+        "Los chicleros vivían en ciclo de endeudamiento con los contratistas: adelantos, alcoholismo como trampa, peonaje anacrónico",
+        "Con la derogación del peonaje en haciendas en 1914 (gobierno mucelista), el peón encontró en el chicle una vía de escape — pasó de peón de hacienda a chiclero",
+        "Las empresas chicleras sacaban el producto vía Belice para evadir impuestos — el gobierno de Flores intentó reducir impuestos para evitar esta fuga",
+        "El gobierno federal de Obregón presionó para reducir los impuestos a las empresas chicleras — la política federal protegía a las empresas, no a los trabajadores",
+        "Cita fuente clave: Ponce, Montaña, 1990 = Martha Patricia Ponce Jiménez, La montaña chiclera Campeche: vida cotidiana y trabajo (1900-1950), CIESAS — el estudio más completo sobre chicleros en Los Chenes, publicado por CIESAS"
+      ],
+      "dato_guardia_nacional_chenes": "Dato histórico clave: en tiempos del maderismo, el servicio de la Guardia Nacional se había concentrado en la clase más pobre de la región de los Chenes y Hecelchakán, es decir, se utilizaba a la población principalmente indígena. La región de Los Chenes proveía soldados indígenas para las guerras del Estado.",
+      "apellidos_poder_posrevolucion": [
+        "Fernando Enrique Angli Lara — figura política clave del socialismo campechano 1920s (apellido Lara en el poder desde antes del Porfiriato)",
+        "Ignacio Lara — Coronel que derrotó el levantamiento de Castilla en 1913 (mismo apellido, poder militar)",
+        "Lorenzo Barrera — diputado por Hecelchakán XXXVI Legislatura 1940-1942",
+        "Clodoaldo Barrera Durán — en el comité directivo del Partido Socialista Agrario Pro-Campeche 1920"
+      ],
+      "url_pdf": "/mnt/user-data/uploads/Primeros_años_posrevolución_Campeche.pdf"
+    },
+    "digesto_constitucional_campeche": {
+      "titulo": "Digesto Constitucional Mexicano: Campeche",
+      "autores": "Manuel González Oropeza y David Cienfuegos Salgado",
+      "editorial": "Suprema Corte de Justicia de la Nación / Tribunal Electoral del Poder Judicial de la Federación, 2010",
+      "paginas": 798,
+      "dato_clave_pantaleón": "El Digesto Constitucional de la SCJN confirma: las elecciones para gobernador de Yucatán el 6 de agosto de 1857, ante el triunfo de Pantaleón Barrera, fueron el detonante para que Pablo García se levantara en armas en el entonces distrito de Campeche. Fue el momento de confrontación entre los grupos políticos que dominaban la Península.",
+      "dato_clave_pedro_lara_y_lara": "Pedro Lara y Lara aparece como diputado propietario en la XXXVIII Legislatura (1944-1947) del Congreso de Campeche — no en 1935 y 1945 como decía la Enciclopedia Yet. Esto es la fuente más precisa: un documento de la SCJN.",
+      "diputados_hopelchen_siglo_XIX_XX": [
+        "IV Legislatura 1871-1873: Olegario G. Cantón — diputado por Bolonchenticul (apellido Cantón, no Molina)",
+        "Manuel Barbosa — diputado por Hopelchén",
+        "Benigno Lara Negrón — diputado por Hopelchén (apellido LARA en el poder legislativo desde 1870s)",
+        "Miguel Calderón — diputado por Hopelchén (apellido CALDERÓN desde siglo XIX)",
+        "Arturo Solís — diputado por Hopelchén (apellido SOLÍS desde el siglo XIX)",
+        "XXXVIII Legislatura 1944-1947: Pedro Lara y Lara — diputado propietario (Campeche, circunscripción IV)"
+      ],
+      "conclusion_apellidos": "Los apellidos Lara, Calderón y Solís aparecen como diputados por Hopelchén desde la década de 1870. El patrón del poder en Hopelchén no comenzó con el Porfiriato — comenzó antes de 1871 y se extiende hasta hoy. Esto es verificado por la SCJN.",
+      "url_pdf": "/mnt/user-data/uploads/83536.pdf"
+    },
+    "pedro_lara_y_lara_diputado_correccion": {
+      "correccion": "Pedro Lara y Lara fue diputado propietario en la XXXVIII Legislatura 1944-1947 (no en 1935 y 1945 como decía la Enciclopedia Yet). Fuente primaria: Digesto Constitucional Mexicano Campeche, SCJN, 2010, p.44-45.",
+      "nota_adicional": "Puede ser un Pedro Lara y Lara diferente a Humberto Lara y Lara. Ambos llevaban el apellido compuesto — el mismo que Pedro Advíncula Lara heredó a la familia desde el siglo XIX."
+    },
+    "ponce_jimenez_fuente_chicleros": {
+      "titulo": "La montaña chiclera Campeche: vida cotidiana y trabajo (1900-1950)",
+      "autora": "Martha Patricia Ponce Jiménez",
+      "editorial": "CIESAS, Cuadernos de la Casa Chata 172, México D.F., 1990",
+      "importancia": "Es el estudio más completo sobre la vida cotidiana de los chicleros en Los Chenes 1900-1950. La cita Schüren, la cita May González, la cita Vadillo Buenfil. Es la fuente académica central sobre el mundo que Humberto Lara y Lara describió en su novela. Buscar en Hathi Trust o Internet Archive.",
+      "temas_que_cubre": "Condiciones de trabajo, peonaje, endeudamiento, contratistas, vida en los hatos, alimentación, salud, economía chiclera regional"
+    },
+    "los_xtoles_historia_completa": {
+      "dato": "Los Xtoles aparecen anotados por primera vez en 1869 como número de apertura del Mosaico yucateco de José Jacinto Cuevas — 72 años antes del análisis de Baqueiro Foster",
+      "baqueiro_foster_descripcion": "Describió Los Xtoles como una de las más preciosas melodías mayas, de carácter austero y probablemente religioso. Pudiera haber sido un antiguo Himno al Sol. Se tocaba con flautas y trompetas al unísono o alternando.",
+      "impacto": "Silvestre Revueltas cita Los Xtoles textualmente en el tercer movimiento de La noche de los mayas (1939). También en ballets, libros INBA, óperas yucatecas.",
+      "publicaciones_dobles": "Baqueiro Foster publicó el estudio dos veces: (1) capítulo en Los mayas antiguos (Colegio de México, 1941) y (2) artículo expandido en Revista Musical Mexicana, n.1, 1942, pp.11-16",
+      "fuente": "Tesis doctoral posgrado en Música UNAM 2024 (PDF 0865175.pdf subido por Daniela)"
+    },
+    "jose_jacinto_cuevas": {
+      "nombre": "José Jacinto Cuevas",
+      "dato": "Músico yucateco del siglo XIX. En 1869 anotó Los Xtoles como número de apertura de su Mosaico yucateco — primera aparición documental de la melodía maya",
+      "importancia": "Eslabón perdido entre la música maya prehispánica y Baqueiro Foster. Merece entrada propia o mención en B5-BIS y B7",
+      "fuente": "Tesis doctoral posgrado en Música UNAM 2024"
+    },
+    "silvestre_revueltas_xtoles": {
+      "nombre": "Silvestre Revueltas",
+      "dato": "Compositor mexicano. Cita Los Xtoles textualmente en el tercer movimiento de La noche de los mayas (1939) — dos años antes del análisis de Baqueiro Foster en el Colegio de México",
+      "importancia": "Revueltas usó la melodía maya de Los Chenes en una de las obras orquestales más importantes de México. Conexión Hopelchén → música nacional.",
+      "fuente": "Tesis doctoral posgrado en Música UNAM 2024"
+    },
+    "tesis_doctoral_unam_musica_2024": {
+      "descripcion": "Tesis doctoral sobre ópera yucateca, Posgrado en Música UNAM, 2024 (PDF 0865175.pdf)",
+      "datos_clave": [
+        "Los Xtoles: primera aparición 1869, Mosaico yucateco de José Jacinto Cuevas",
+        "Baqueiro Foster publicó análisis de Los Xtoles en 1941 (Colegio de México) y 1942 (Revista Musical Mexicana n.1, pp.11-16)",
+        "La noche de los mayas de Silvestre Revueltas (1939) cita Los Xtoles textualmente",
+        "Los Xtoles influyó en ballets, libros INBA, óperas yucatecas del siglo XX",
+        "Nota al pie 287 confirma las dos publicaciones del secreto armónico"
+      ],
+      "archivo": "PDF 0865175.pdf subido por Daniela en sesión anterior"
+    }
+  },
+  "PERSONAS_FUTURAS_ENTRADAS": [
+    {
+      "nombre": "Daniel Ayala Pérez",
+      "descripcion": "Compositor maya yucateco. Citado por Baqueiro Foster en el Colegio de México. Músico que documentó Los Xtoles como posible vestigio de la música maya prehispánica. Sus obras están preservadas en el Centro Baqueiro Foster en Mérida.",
+      "conexion": "B5-BIS, E5",
+      "fuente": "Brainly/Secretaría de Cultura Yucatán"
+    },
+    {
+      "nombre": "Chan Cil (Cirilo Baqueiro Prevé)",
+      "descripcion": "Primer trovador yucateco documentado. Mayahablante. Abuelo de Gerónimo Baqueiro Foster. Autor de canciones del último cuarto del siglo XIX. El Centro Baqueiro Foster en Mérida ha editado 7 cancioneros de Chan Cil.",
+      "conexion": "B5, B5-BIS, E5",
+      "fuente": "Revista Digital UNAM, Secretaría de Cultura Yucatán"
+    },
+    {
+      "nombre": "Julián Carrillo",
+      "descripcion": "Compositor potosino, indígena. Descubrió el Sonido 13 en 1895 con una navaja y un violín. Becado por Porfirio Díaz en Leipzig. Inventó 4,640 sonidos en una octava. 15 pianos metamorfoseados construidos en Alemania (Hans Sauter). Medalla de Oro Bruselas 1958. Maestro de Baqueiro Foster en el Conservatorio Nacional.",
+      "conexion": "B5, B5-BIS, G5, G6",
+      "fuente": "Wikipedia, INBA, DGCS UNAM"
+    },
+    {
+      "nombre": "Arturo Solís (oriundo Hopelchén)",
+      "descripcion": "Estudioso de la historia local de Hopelchén. Testimonio en La Jornada Maya sobre Baqueiro Foster y el viaje a Alemania. PENDIENTE CONFIRMAR si es el mismo Arturo Solís que aparece en: (a) el Digesto Constitucional como diputado por Hopelchén siglo XIX, (b) las entrevistas de Ute Schüren (Berlín) 1996-1998 como comerciante en Hopelchén.",
+      "conexion": "B5, G5",
+      "fuente": "La Jornada Maya, Digesto SCJN, Schüren tesis Berlín"
+    },
+    {
+      "nombre": "Luis Pérez Sabido",
+      "descripcion": "Musicólogo yucateco. Director del Centro Regional de Investigación Musical Gerónimo Baqueiro Foster en Mérida. Recibió la flauta de plata de Baqueiro Foster en 2016. Fuente primaria sobre la historia de la trova yucateca. Ha estudiado la música de Hopelchén.",
+      "conexion": "B5, B4, B5-BIS",
+      "fuente": "Proceso, La Jornada Maya"
+    },
+    {
+      "nombre": "Hans Sauter",
+      "descripcion": "Fabricante alemán de pianos. Construyó los 15 pianos metamorfoseados del Sonido 13 de Julián Carrillo. Los mismos pianos que Baqueiro Foster (Hopelchén) ayudó a encargar. Empresa de luthería alemana de precisión — misma tradición que produjo el reloj de Berlín de Pedro Advíncula Lara.",
+      "conexion": "B5, B2, G5",
+      "fuente": "Sonido13.com, INBA"
+    },
+    {
+      "nombre": "Franz Termer",
+      "descripcion": "Explorador alemán. Llevó instrumentos musicales mayas de la Península de Yucatán al Museo de Etnología de Hamburgo a principios del siglo XX. Esa colección no ha sido estudiada completamente.",
+      "conexion": "G5, B5-BIS, A4 (hilo Alemania)",
+      "fuente": "Asociación Tikal, artículo Pacheco Sánchez"
+    },
+    {
+      "nombre": "Frederick Catherwood",
+      "descripcion": "Artista y explorador británico. Viajó con John Lloyd Stephens por Yucatán 1841-1842. El libro Los mayas antiguos del Colegio de México (1941) fue publicado para conmemorar el centenario de su exploración. Es en ese mismo libro donde aparece el capítulo de Baqueiro Foster sobre la música maya.",
+      "conexion": "B5-BIS, A4",
+      "fuente": "Biblioteca Virtual Miguel de Cervantes, Colegio de México 1941"
+    },
+    {
+      "nombre": "José Jacinto Cuevas",
+      "descripcion": "Músico yucateco siglo XIX. En 1869 anotó Los Xtoles como número de apertura de su Mosaico yucateco — primera aparición documental de la melodía maya. Eslabón entre música prehispánica y Baqueiro Foster.",
+      "conexion": "B5-BIS, B7",
+      "fuente": "Tesis doctoral UNAM 2024"
+    },
+    {
+      "nombre": "Silvestre Revueltas",
+      "descripcion": "Compositor mexicano. Citó Los Xtoles textualmente en el tercer movimiento de La noche de los mayas (1939) — dos años antes del análisis de Baqueiro Foster. Conecta la música maya de Los Chenes con la música nacional mexicana del siglo XX.",
+      "conexion": "B7, B5-BIS",
+      "fuente": "Tesis doctoral UNAM 2024"
+    },
+    {
+      "nombre": "Francisco Ortega y Fonseca",
+      "descripcion": "Maestro de acústica del Conservatorio Nacional. Su clase el 13 de julio de 1895 sobre la Ley de Divisiones de Cuerdas fue el detonante del descubrimiento del Sonido 13 por Julián Carrillo.",
+      "conexion": "B7",
+      "fuente": "Sonido13.com"
+    },
+    {
+      "nombre": "Eucario González",
+      "descripcion": "Condiscípulo de Julián Carrillo en el Conservatorio. Llevó el arco del violín mientras Carrillo usaba la navaja el 13 julio 1895. Testigo del descubrimiento del Sonido 13.",
+      "conexion": "B7",
+      "fuente": "Sonido13.com"
+    },
+    {
+      "nombre": "Francisca Zalaquett Rock",
+      "descripcion": "Arqueóloga e investigadora del Centro de Estudios Mayas, UNAM. Directora del proyecto Universos Sonoros Mayas. Demostró en laboratorio que el estuco maya era aplicado para estimular la resonancia acústica. Analizó 125 instrumentos prehispánicos mayas.",
+      "conexion": "B5-BIS, B7, A2",
+      "fuente": "Boletín UNAM 2023"
+    }
+  ],
+  "IMAGENES_DISPONIBLES": {
+    "El_Descaro.jpg": "Reloj plaza Hopelchén, Mayo 5 de 1911 - para Pantaleón Barrera / Los apellidos",
+    "Los_Apellidos.jpg": "Hacienda en ruinas - para Los apellidos del poder",
+    "El_Charras.jpg": "Plaza histórica Hopelchén años 40-50 - para El Charras / Historia política",
+    "La_Prensa.jpg": "Iglesia colonial Hopelchén - para Seudoprensa / novela Barrera",
+    "Los_Chenes.jpg": "Ruinas mayas en la selva - para entradas históricas/arqueológicas",
+    "Educacion.jpg": "Pareja traje regional maya - para Arte y cultura / Humberto Lara y Lara",
+    "El_Futuro.jpg": "Iglesia colonial atardecer - para entradas reflexivas / Olegario Molina"
+  },
+  "IMAGENES_URLS_WEB": {
+    "Hochob": "https://elcaminomascorto.com/wp-content/uploads/zona_arqueologica_hochob_07-1024x683.jpg",
+    "Convento_Hopelchen": "https://www.zonaturistica.com/files/atractivos/1884/A4_1884.jpg",
+    "Chicleros": "https://img.lajornadamaya.mx/chicle_24deoct_1830.png",
+    "Menonitas_Hopelchen": "https://es-academic.com/pictures/eswiki/67/Campos_menonitas_de_Hopelch%C3%A9n%2C_Campeche.jpg",
+    "Abejas_meliponas": "https://topyucatan.com/uploads/notas/las-abejas-meliponas-guardianas-de-la-tradicion-maya-y-tesoros-de-la-naturaleza.jpg",
+    "Guerra_Castas_acuarela": "https://www.mexicodesconocido.com.mx/wp-content/uploads/2019/04/6_Acuarelas_2-768x568.jpg",
+    "Plaza_Hopelchen": "https://porelmundomaya.com/wp-content/uploads/2024/09/IMG_20150517_104935-jpg.webp"
+  },
+  "VINCULOS_PENDIENTES": {
+    "hilo_berlin_hopelchen": {
+      "descripcion": "Hilo Berlín/Alemania - Hopelchén a confirmar/ampliar en futuras entradas",
+      "momentos_documentados": [
+        "1887: Teobert Maler fotografía Los Chenes — archivo duerme en Instituto Iberoamericano de Berlín",
+        "1895: Julián Carrillo descubre microtonalismo. Estudia en Leipzig becado por Porfirio Díaz",
+        "1899: Carrillo estudia en Real Conservatorio de Leipzig — misma beca porfiriana que conectó a México con Alemania",
+        "1911: Pedro Advíncula Lara manda traer reloj de Berlín — industria de precisión alemana",
+        "~1940: Baqueiro Foster viaja con Carrillo a Alemania a encargar 15 pianos metamorfoseados a Hans Sauter",
+        "2010: Instrumentos musicales mayas de Yucatán en Museo de Etnología de Hamburgo estudiados por primera vez"
+      ],
+      "patron": "En todos los casos: tecnología/conocimiento alemán + conocimiento que México no tiene sistematizado + un chenero o alguien conectado a Hopelchén en el puente",
+      "pregunta_abierta": "¿Conoció Carrillo la música microtonal maya a través de Baqueiro Foster? ¿Influyó la escala maya en la teoría del Sonido 13?",
+      "fuentes_pendientes": [
+        "Baqueiro Foster, Gerónimo — El secreto armónico y modal de un antiguo aire maya (Colegio de México, 1941)",
+        "Zalaquett, Francisca — Investigación arqueoacústica INAH/UNAM 2011 sobre instrumentos mayas",
+        "Franz Termer collection — Museo de Etnología de Hamburgo, ocarinas y flautas de Yucatán"
+      ]
+    }
+  },
+  "NOVELA_PANTALEON": {
+    "titulo": "Los misterios de Chan Santa Cruz",
+    "autor_real": "Pantaleón Barrera Cámara",
+    "pseudonimo": "Napoleón Trebarra (apellido al revés)",
+    "año": 1864,
+    "editorial": "Imprenta de M. Aldana Rivas, Mérida",
+    "paginas": 157,
+    "disponible": "Hathi Trust Digital Library (PDF subido al blog), Amazon edición facsimilar",
+    "fragmentos_clave": {
+      "introduccion": "La sublevación como afrenta a la civilización - escrita por quien la perpetuó",
+      "velorio_marcos": "Los asesinos (Novelo y Poot) rezan llorando sobre el muerto que ellos mataron. El viejo Carlos los observa: Pobres diablos...",
+      "carta_fernando_estrella": "Fernando Ek, maya vendido a Cuba en 1855, sobrevive, tiene una fábrica de cigarrillos en Bejucal y escribe desde La Habana cambiando su nombre a Fernando Estrella",
+      "vals_sin_nombre": "Martínez compone un vals que hace llorar a todos sin saber por qué. Destroza su clarinete. El vals sin nombre que no puede nombrarse.",
+      "analisis_pp141_144": "Diagnóstico político de la Guerra de Castas: explotación de la ignorancia indígena por gobiernos español y mexicano. Los indios siguen siendo los mismos que encontró la conquista.",
+      "paradoja_central": "Barrera y Fernando Ek hicieron lo mismo: borraron su apellido y empezaron con otro nombre. Uno para esconder lo que hizo. El otro para sobrevivir lo que le hicieron."
+    }
+  },
+  "FUENTES_CLAVE_PROYECTO": {
+    "pdfs_subidos": [
+      "Los_misterios_de_Chan_Santa_Cruz.pdf — novela Barrera 1864, 157 páginas",
+      "17_biblio.pdf — bibliografía tesis Schüren, Freie Universität Berlin (trabajo de campo Hopelchén 1993-1998)",
+      "R05042.pdf — Pequeños Productores Henequeneros vs latifundistas Yucatecos (Ing. José A. Brito, Biblioteca Lerdo de Tejada)",
+      "14-___de-como-los-libaneses.pdf — De cómo los libaneses conquistaron la Península de Yucatán (Ramírez Carrillo, UNAM-CEPHCIS 2012)",
+      "Primeros_años_posrevolución_Campeche.pdf — tesis doctoral Ángel Omar May González, Instituto Mora 2010",
+      "83536.pdf — Digesto Constitucional Mexicano Campeche (SCJN-TEPJF 2010, 798 páginas)",
+      "0865175.pdf — tesis doctoral ópera yucateca, Posgrado Música UNAM 2024 (cita Los Xtoles y Baqueiro Foster)"
+    ],
+    "archivos_en_sistema": [
+      "/home/claude/base_datos_archivo_vivo.json — base de datos principal del proyecto",
+      "/home/claude/novela.txt — texto extraído de la novela de Pantaleón Barrera"
+    ],
+    "google_drive": "https://drive.google.com/file/d/18HRDamEe0IQVnoX8JaDIRJIqU_oM0gZP/view — Los mayas antiguos (Colegio de México, 1941) — 43 MB, pendiente de leer"
+  },
+  "METADATA": {
+    "fecha_compilacion": "2026-03-22",
+    "sesiones_trabajo": "Múltiples sesiones — historial completo en /mnt/transcripts/2026-03-22-10-54-59-archivo-vivo-blog-hopelchen.txt",
+    "entradas_totales": 57,
+    "entradas_aprobadas": 15,
+    "personas_registradas": 13,
+    "hallazgos_registrados": 18,
+    "hilos_transversales": 8,
+    "bloques": [
+      "A (Historia y arqueología)",
+      "B (Los personajes del poder)",
+      "C (El poder y sus mecanismos)",
+      "D (Ecología y territorio)",
+      "E (Educación y cultura)",
+      "F (Prensa y libertad de expresión)",
+      "G (Datos nuevos / actualidad)",
+      "H (Los que llegaron de afuera)"
+    ],
+    "proxima_entrada": "B8 — Raúl Emiliano Lara Baqueiro: el memorialista olvidado",
+    "nota_importante": "El archivo Los mayas antiguos del Colegio de México (1941) está en Google Drive pero pendiente de leer — tiene el capítulo original de Baqueiro Foster sobre Los Xtoles"
+  }
+}

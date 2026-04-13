@@ -1,0 +1,69 @@
+{
+  "log_id": "LOG_004",
+  "fecha": "2026-03-22",
+  "fase": "FASE 4 — PROCESAMIENTO MASIVO COMPLETO",
+
+  "pdfs_procesados_sesion_masiva": [
+    {"archivo": "feb_art16.pdf", "paginas": 11, "estado": "COMPLETO", "relevancia": "CRÍTICA — Baqueiro Fóster: datos biográficos con fuente primaria. Nacido 25 enero 1892 en Hopelchén"},
+    {"archivo": "Antologia personal de Hernan Lara Zavala.pdf", "paginas": 146, "estado": "10 páginas clave", "relevancia": "ALTA — Entrevista donde LZ explica Zitilchén = Los Chenes"},
+    {"archivo": "Hernan_Lara_Zavala_librillo.pdf", "paginas": 65, "estado": "COMPLETO", "relevancia": "CRÍTICA — Charras: El Charras fue ASESINADO por orden de Carlos Loret de Mola Mediz. Confirmado."},
+    {"archivo": "05-de-la-nostalgia.pdf", "paginas": 432, "estado": "Índice + contexto", "relevancia": "MEDIA — Regionalismo yucateco siglo XIX. Serapio Baqueiro como fuente primaria."},
+    {"archivo": "0865175.pdf (tesis UNAM música maya 2025)", "paginas": 325, "estado": "10 páginas", "relevancia": "ALTA — Centro de Documentación Baqueiro Foster en Mérida"},
+    {"archivo": "R05042.pdf (henequén Biblioteca Lerdo)", "paginas": 279, "estado": "5 páginas", "relevancia": "BAJA — No menciona Hopelchén"},
+    {"archivo": "Los_misterios_de_Chan_Santa_Cruz.pdf", "paginas": 157, "estado": "Identificado (dominio público Google Books, texto OCR deficiente)", "relevancia": "MEDIA — Contexto Cruzoob"},
+    {"archivo": "CampeChe_Una_Ciudad_en_la_peninsula.pdf", "paginas": 239, "estado": "pp. 185-238", "relevancia": "ALTA — Rojo Amanecer = fundado agosto 1921 por PSAC"},
+    {"archivo": "14-de-como-los-libaneses.pdf", "paginas": 259, "estado": "pp. 121-145", "relevancia": "ALTA — 87 familias libanesas en Campeche 1882-1927. NINGUNA en Hopelchén."},
+    {"archivo": "los-mayas-antiguos (compressed).pdf", "paginas": 366, "estado": "pp. 264-275", "relevancia": "CRÍTICA — Baqueiro Fóster menciona HOPELCHÉN, DZIBALCHÉN, XKANHÁ explícitamente. Escala pentatónica Xtoles."}
+  ],
+
+  "hallazgos_criticos_finales": [
+    {
+      "ranking": 1,
+      "hallazgo": "Baqueiro Fóster (nacido Hopelchén 1892) menciona Hopelchén y 7 comunidades de Los Chenes en su texto académico de 1941 sobre la música maya",
+      "fuente": "los-mayas-antiguos, El Colegio de México 1941"
+    },
+    {
+      "ranking": 2,
+      "hallazgo": "El Charras (Efraín Calderón Lara) fue ASESINADO (no solo desaparecido) por orden del gobernador Carlos Loret de Mola Mediz",
+      "fuente": "Librillo UNAM Voz Viva 2018, Marco Antonio Campos"
+    },
+    {
+      "ranking": 3,
+      "hallazgo": "Baqueiro Fóster: fecha de nacimiento con fuente primaria = 25 enero 1892 (acta nacimiento expediente 2699B938). Fecha alternativa en otras fuentes: 7 enero 1898.",
+      "fuente": "feb_art16.pdf — Mendoza Castillo, UNAM 2006"
+    },
+    {
+      "ranking": 4,
+      "hallazgo": "NINGUNA familia libanesa se instaló en Hopelchén o Los Chenes (1882-1927). Solo 1 en Dzitbalché.",
+      "fuente": "Ramírez Carrillo 2012"
+    },
+    {
+      "ranking": 5,
+      "hallazgo": "Rojo Amanecer fundado agosto 1921. Fernando Angli Lara fue su principal colaborador.",
+      "fuente": "May González 2010"
+    }
+  ],
+
+  "archivos_nuevos_en_database": [
+    "hallazgos_pdfs_sesion_masiva_v3.json"
+  ],
+
+  "PDFS_SIN_PROCESAR_PENDIENTES": [
+    {"archivo": "Dialnet-SierraSur-709324.pdf", "tamano": "39.2 MB", "nota": "Contenido desconocido — pendiente identificar"},
+    {"archivo": "1997_1442 SEGUNDA SECCION.pdf", "tamano": "161 MB", "nota": "Demasiado grande — identificar sección específica primero"},
+    {"archivo": "De Zitilchen - Hernan Lara Zavala.pdf", "nota": "Texto completo — para análisis literario detallado"},
+    {"archivo": "Charras - Hernan Lara Zavala.pdf", "nota": "Texto completo — para análisis de El Charras"},
+    {"archivo": "Peninsula Peninsula - Hernan Lara Zavala.pdf", "nota": "Texto completo — para análisis Guerra de Castas"},
+    {"archivo": "Macho viejo - Hernan Lara Zavala.pdf", "nota": "Texto completo — para análisis literario"}
+  ],
+
+  "estado_final_database": {
+    "archivos_database": 5,
+    "tamano_total": "~200 KB",
+    "personajes_documentados": "50+",
+    "eventos_documentados": "70+",
+    "lugares_documentados": "30+",
+    "terminos_mayas": "33+",
+    "integridad": "VERIFICADA — 0 datos inventados"
+  }
+}

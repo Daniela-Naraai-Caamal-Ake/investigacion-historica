@@ -1,0 +1,266 @@
+{
+  "META": {
+    "log_id": "LOG_010",
+    "tipo": "AUDITORIA_COMPLETA — PRIMERA ACCION AV_NUCLEO.md",
+    "timestamp": "2026-03-23T12:00:00",
+    "agente": "Claude Sonnet 4.6 — Archivo Vivo",
+    "sesion": "Ejecución protocolo AV_NUCLEO.md",
+    "archivos_auditados": 17,
+    "total_kb_database": 963
+  },
+
+  "A_INFORMACION_ESTRUCTURADA": {
+    "personajes": {
+      "total": 45,
+      "archivos_fuente": ["base_historica_hopelchen.json (P001-P030)", "personajes_eventos_expansion_v2.json (P031-P045)"],
+      "con_ficha_completa": 38,
+      "con_nacimiento_verificado": 18,
+      "con_muerte_verificada": 12,
+      "con_arbol_genealogico": 5,
+      "con_fuentes_documentadas": 42,
+      "estado": "BUENO"
+    },
+    "eventos": {
+      "total": 83,
+      "archivos_fuente": ["eventos.json (E001-E061)", "expansion_libro_web_2026-03-22.json (E062-E083)"],
+      "con_fecha_exacta": 51,
+      "con_fecha_aproximada": 32,
+      "verificados": 68,
+      "sin_verificar": 15,
+      "estado": "BUENO"
+    },
+    "lugares": {
+      "total": 26,
+      "archivos_fuente": ["base_historica_hopelchen.json (L001-L018)", "expansion_libro_web_2026-03-22.json (L019-L026)"],
+      "con_coordenadas": 8,
+      "con_significado_maya": 14,
+      "sin_significado_maya": 12,
+      "estado": "REGULAR — faltan datos etmológicos"
+    },
+    "terminos_mayas": {
+      "total": 35,
+      "archivos_fuente": ["base_historica_hopelchen.json (TM001-TM023)", "av_md_sync_2026-03-23.json (10 nuevos)", "expansion_libro_web_2026-03-22.json (12 nuevos)"],
+      "con_significado_verificado": 28,
+      "pendientes": 7,
+      "estado": "REGULAR — pendientes: XCUPIL, HOLCATZÍN, XTOLES, nombre maya de algunos pueblos"
+    },
+    "fuentes": {
+      "total": 65,
+      "archivos_fuente": ["fuentes.json (F001-F053)", "base_historica_hopelchen.json (fuentes sección)", "bloques_C_a_H_2026-03-23.json"],
+      "alta_confiabilidad": 38,
+      "media_confiabilidad": 20,
+      "baja_confiabilidad": 7,
+      "verificadas_doble_fuente": 41,
+      "pendientes_localizar": 10,
+      "estado": "BUENO"
+    },
+    "hilos_transversales": {
+      "total": 15,
+      "archivos_fuente": ["base_historica_hopelchen.json (HT001-HT011)", "expansion_libro_web_2026-03-22.json (HT012-HT015)"],
+      "documentados_con_nodos": 15,
+      "sin_nodos_completos": 3,
+      "estado": "BUENO"
+    },
+    "apellidos_mayas": {
+      "total": 10,
+      "con_significado_resuelto": 8,
+      "pendientes": 2,
+      "estado": "BUENO — CAAMAL y MAY resueltos esta sesión"
+    },
+    "entradas_blog": {
+      "aprobadas": 19,
+      "en_proceso": 1,
+      "pendientes_con_insumos": 8,
+      "pendientes_sin_insumos": 25,
+      "estado": "ACTIVO"
+    },
+    "legisladores_hopelchen": {
+      "cobertura": "1861-2003",
+      "total_legislaturas": 42,
+      "archivo": "legisladores_hopelchen_1861-2003.json",
+      "estado": "COMPLETO para el período"
+    },
+    "leydy_pech": {
+      "archivo": "leydy_pech_perfil.json",
+      "estado": "COMPLETO — perfil detallado"
+    },
+    "menonitas": {
+      "archivo": "menonitas_hopelchen.json + bloques_C_a_H",
+      "estado": "COMPLETO — historia, colonias, datos deforestación 2001-2025"
+    }
+  },
+
+  "B_INFORMACION_EXISTENTE_NO_ESTRUCTURADA": {
+    "nota": "Información que existe en los archivos de database pero no está integrada en el JSON maestro base_historica_hopelchen.json",
+    "items": [
+      {
+        "dato": "Personajes P031-P045 (15 personajes de expansion_v2.json)",
+        "estado": "En archivo separado — no integrado en base_historica_hopelchen.json",
+        "accion": "INTEGRAR al JSON maestro en próximo ciclo"
+      },
+      {
+        "dato": "Eventos E062-E083 (22 eventos de expansion_libro_web)",
+        "estado": "En archivo separado — no integrado en eventos.json que va hasta E061",
+        "accion": "INTEGRAR"
+      },
+      {
+        "dato": "Bloques C-H (bloques_C_a_H_2026-03-23.json)",
+        "estado": "Datos investigados pero no formateados en esquema JSON maestro",
+        "accion": "ESTRUCTURAR en personajes/eventos/lugares según esquema"
+      },
+      {
+        "dato": "Investigación global (investigacion_global_2026-03-23.json)",
+        "estado": "Datos nuevos (CAAMAL=dos veces, MAY=ciervo, Iturbide=Dzibil-Noh-Aac, etc.) no actualizados en JSON maestro",
+        "accion": "ACTUALIZAR terminos_mayas, lugares en base maestra"
+      },
+      {
+        "dato": "Expansión libros web (expansion_libro_web_2026-03-22.json)",
+        "estado": "5 nuevos personajes, 22 eventos, 8 lugares, 12 términos mayas — en archivo separado",
+        "accion": "INTEGRAR al maestro"
+      },
+      {
+        "dato": "Los 9 millones desviados — Emilio Lara Calderón",
+        "estado": "Dato crítico en personajes_eventos_expansion_v2.json pero no en esquema de eventos.json",
+        "fuente": "Daniela Naraai — Dos mil años de silencio (2026), p. 30",
+        "accion": "Crear evento E_NEW con datos"
+      },
+      {
+        "dato": "San Francisco Suc-Tuc — gobierno autónomo y represión",
+        "estado": "En bloques_C_a_H pero no en eventos.json",
+        "accion": "CREAR evento E_NEW"
+      },
+      {
+        "dato": "Rojo Amanecer vivió hasta 1934 (no 1924)",
+        "estado": "Corrección en log_009 pero no actualizada en base maestra",
+        "accion": "CORREGIR en registro correspondiente"
+      }
+    ]
+  },
+
+  "C_INFORMACION_FALTANTE_COMPLETAMENTE": {
+    "CRITICO_nivel_1": [
+      {
+        "id": "FP002",
+        "dato": "Apellidos exactos de los mayas de Los Chenes vendidos a Cuba 1848-1861",
+        "donde": "Archivo Nacional de Cuba (La Habana)",
+        "por_que_importa": "Conecta el hilo Cuba con apellidos actuales de Hopelchén"
+      },
+      {
+        "id": "FP003",
+        "dato": "Correspondencia de Teobert Maler desde Los Chenes, 1887",
+        "donde": "IAI Berlín — Fondo Maler",
+        "por_que_importa": "Visión interior del explorador en Los Chenes — entra a A4 y B6"
+      },
+      {
+        "id": "FP005",
+        "dato": "Corrido de Jacinto sobre El Charras — grabación o transcripción",
+        "donde": "Archivos musicales Mérida / Cenidim / UADY",
+        "por_que_importa": "Aparece mencionado en la novela Charras — documento histórico vivo"
+      },
+      {
+        "id": "FP010",
+        "dato": "Nombres exactos de los 7 de Bolonchenticul 1849",
+        "donde": "AGEY caja 169, vol.119, exp.24 — citado por Kosichenko 2025",
+        "por_que_importa": "Son el corazón de la entrada B12"
+      }
+    ],
+    "MEDIO_nivel_2": [
+      {
+        "id": "FP004",
+        "dato": "Condecoración de Carlota a Barrera 1865 — documento primario",
+        "donde": "Archivos imperiales Viena / Archivos reales belgas"
+      },
+      {
+        "id": "FP009",
+        "dato": "Decreto Barbachano noviembre 1848 — texto completo",
+        "donde": "AGEY / Colección de leyes yucatecas"
+      },
+      {
+        "id": "FP006",
+        "dato": "Recuerdos de mi infancia 1935-1938 — Raúl Emiliano Lara Baqueiro — texto completo",
+        "donde": "AHEC / fondos familiares"
+      },
+      {
+        "id": "FP007",
+        "dato": "Rojo Amanecer — colección completa 1921-1934",
+        "donde": "AGEC Campeche / CEPHCIS Mérida — físicamente localizados"
+      },
+      {
+        "id": "H1",
+        "dato": "Familias libanesas específicas en Hopelchén",
+        "donde": "Ramírez Carrillo (Historia Mexicana, Colmex) — identificado, no consultado"
+      }
+    ],
+    "BLOQUE_ENTRADAS_VACIAS": {
+      "C1": "Línea del tiempo apellidos del poder — esquema hay, contenido no redactado",
+      "C3": "Los 9 millones desviados — dato existe en expansion_v2 pero sin entrada desarrollada",
+      "C4": "Hiram Aranda 5 escándalos — datos parciales en bloques_C_a_H",
+      "C5": "Despojo catastral — dato Poot Yeh en expansion_v2, sin entrada",
+      "C6": "El voto en pueblo pequeño — sin insumos",
+      "C7": "Zoológico de partidos — sin insumos",
+      "D3": "Leydy Pech Premio Goldman — leydy_pech_perfil.json COMPLETO, entrada no redactada",
+      "D4": "El glifosato — datos en menonitas + leydy_pech, entrada no redactada",
+      "D5": "El yeso — sin insumos",
+      "E1-E6": "Bloque educación — sin estructura desarrollada",
+      "E8": "Corrido de Jacinto — pendiente corrido",
+      "F1-F4": "Bloque prensa — sin estructura",
+      "G1-G4": "Bloque actualidad — datos parciales en expansion_v2",
+      "H1": "Libaneses en Hopelchén — sin datos específicos del municipio",
+      "A7": "Los soldados de Los Chenes — insumos parciales (Kosichenko 2025)",
+      "A8": "El Archivo Municipal — sin insumos más allá de Schüren 1994"
+    }
+  },
+
+  "D_PLAN_EXPANSION_PRIORIDADES": {
+    "PRIORIDAD_1_INMEDIATO": [
+      {
+        "accion": "Integrar archivos separados al JSON maestro",
+        "archivos": ["personajes_eventos_expansion_v2.json", "expansion_libro_web_2026-03-22.json", "bloques_C_a_H_2026-03-23.json"],
+        "estimado": "1 sesión de trabajo"
+      },
+      {
+        "accion": "Actualizar términos mayas con resoluciones de esta sesión",
+        "items": ["CAAMAL = dos veces/dos ocasiones", "MAY = ciervo joven/venado ritual", "Iturbide = Dzibil-Noh-Aac"],
+        "estimado": "30 minutos"
+      },
+      {
+        "accion": "Completar insumos B12 — Juan de Dios May y Francisco Caamal",
+        "pendiente_critico": "Nombres exactos de los 7 de Bolonchenticul (AGEY exp.24)",
+        "disponible_ahora": "Todo lo demás está documentado"
+      }
+    ],
+    "PRIORIDAD_2_PROXIMAS_ENTRADAS": [
+      {
+        "entrada": "D3 — Leydy Pech Premio Goldman",
+        "estado_insumos": "COMPLETOS — leydy_pech_perfil.json tiene todo",
+        "siguiente": "Redacción"
+      },
+      {
+        "entrada": "B-Serapio — el historiador yerno del traficante",
+        "estado_insumos": "COMPLETOS según AV_MAPA",
+        "siguiente": "Redacción"
+      },
+      {
+        "entrada": "B-LZavala — Hernán Lara Zavala",
+        "estado_insumos": "COMPLETOS según AV_MAPA",
+        "siguiente": "Redacción"
+      },
+      {
+        "entrada": "D4 — El glifosato",
+        "estado_insumos": "COMPLETOS — menonitas + Leydy Pech + EPOMEX-UAC",
+        "siguiente": "Redacción"
+      },
+      {
+        "entrada": "C8 — Posrevolución 1920-1929",
+        "estado_insumos": "COMPLETOS — PSAC + Rojo Amanecer + haciendas",
+        "siguiente": "Redacción"
+      }
+    ],
+    "PRIORIDAD_3_INVESTIGACION_PENDIENTE": [
+      "Archivo Nacional Cuba — apellidos mayas Los Chenes",
+      "IAI Berlín — fondo Maler (consulta web directa disponible)",
+      "AGEY digitalizado — exp.24 y decreto Barbachano",
+      "Ramírez Carrillo — libaneses en Campeche (artículo en Historia Mexicana, accesible online)"
+    ]
+  }
+}

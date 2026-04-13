@@ -1,0 +1,428 @@
+{
+  "META": {
+    "archivo": "05_hallazgos_investigacion.json",
+    "descripcion": "Hallazgos de investigación por tema: menonitas, ecología, política contemporánea, prensa, Cuba, música, correcciones críticas verificadas. Datos con fuentes explícitas.",
+    "proyecto": "Archivo Vivo — Hopelchén, Campeche",
+    "autora": "Daniela Naraai Caamal",
+    "consolidado_de": [
+      "database/_sesiones_anteriores/menonitas_hopelchen.json",
+      "database/_sesiones_anteriores/leydy_pech_perfil.json",
+      "database/_sesiones_anteriores/hallazgos_pdfs_sesion_masiva_v3.json",
+      "database/_sesiones_anteriores/pdf_hallazgos_compilados.json",
+      "database/_sesiones_anteriores/investigacion_bloques_B_H_2026-03-30.json",
+      "database/_sesiones_anteriores/investigacion_E_F_G_2026-03-30.json",
+      "database/investigacion_F_prensa_2026-03-31.json",
+      "database/av_nucleo_extension.json (correcciones_criticas)"
+    ],
+    "creado": "2026-04-07"
+  },
+
+  "CORRECCIONES_CRITICAS_VERIFICADAS": {
+    "descripcion": "Datos que han sido corregidos respecto a versiones previas o fuentes secundarias incorrectas. Todos verificados con fuente primaria o académica.",
+    "lista": [
+      {
+        "tema": "Rojo Amanecer — fecha de cierre",
+        "VERSION_INCORRECTA": "1924",
+        "VERSION_CORRECTA": "1934",
+        "explicacion": "1924 es solo el período de estudio del artículo de May González en Signos Históricos 2012. El periódico funcionó 1921-1934.",
+        "fuente": "May González — Signos Históricos, UAM-Iztapalapa, 2012 (SciELO)"
+      },
+      {
+        "tema": "Gerónimo Baqueiro Fóster — fecha de nacimiento",
+        "VERSION_INCORRECTA": "7 enero 1898 (en fuentes secundarias diversas)",
+        "VERSION_CORRECTA": "25 enero 1892",
+        "fuente_primaria": "Acta de nacimiento, expediente 2699B938, Archivo Baqueiro Fóster, Cenidim INBA",
+        "fuente_cita": "Mendoza Castillo, Herlinda — Revista Digital Universitaria UNAM vol.7 num.2, feb 2006: sources/feb_art16.pdf"
+      },
+      {
+        "tema": "Hernán Lara Zavala — primera edición De Zitilchén",
+        "VERSION_INCORRECTA": "2012 (FCE)",
+        "VERSION_CORRECTA": "1981 (FCE). La de 2012 es reedición.",
+        "fuente": "Piña Laynes — Cambios y Permanencias vol.8 num.2, 2017: sources/La_guerra_de_Castas_en_Peninsula_Peninsu.pdf"
+      },
+      {
+        "tema": "Hernán Lara Zavala — primera edición Charras",
+        "VERSION_INCORRECTA": "Alfaguara 2022",
+        "VERSION_CORRECTA": "1990 (primera edición). Alfaguara 2022 es reedición.",
+        "fuente": "Piña Laynes 2017"
+      },
+      {
+        "tema": "Premio Hernán Lara Zavala por Península Península",
+        "VERSION_INCORRECTA": "Solo 'Premio RAE'",
+        "VERSION_CORRECTA": "Premio Iberoamericano de Novela Elena Poniatowska 2009 (Alfaguara) + Premio Real Academia Española 2010. Dos premios.",
+        "fuente": "Suárez Turriza 2013: sources/v24n1a6.pdf"
+      },
+      {
+        "tema": "Seudónimo de Pantaleón Barrera",
+        "VERSION_INCORRECTA": "Noel Á. Arrerab (u otras versiones)",
+        "VERSION_CORRECTA": "Napoleón Trebarra (Trebarra = Barrera al revés)",
+        "fuente": "Portada de Los misterios de Chan Santa Cruz, 1864: sources/Los_misterios_de_Chan_Santa_Cruz.pdf"
+      },
+      {
+        "tema": "Los Xtoles — ¿ritual prehispánico?",
+        "VERSION_INCORRECTA": "Danza ritual prehispánica / música sacra maya",
+        "VERSION_CORRECTA": "Danza de Carnaval. Río Escalante confirmó a Stokowski que Los Xtoles se ejecutan en el Carnaval, no en ninguna ceremonia maya.",
+        "fuente": "Pool Castellanos — tesis doctoral UNAM 2025: sources/0865175.pdf"
+      },
+      {
+        "tema": "MAY — significado del apellido maya",
+        "VERSION_INCORRECTA": "Tabaco (error frecuente en fuentes populares)",
+        "VERSION_CORRECTA": "Ciervo joven / venado ritual / pezuña. El tabaco en maya yucateco = k'uts.",
+        "fuente": "Diccionario Maya Cordemex (1980)"
+      },
+      {
+        "tema": "Xtacumbilxunaán — tipo de formación",
+        "VERSION_INCORRECTA": "Cenote",
+        "VERSION_CORRECTA": "GRUTA (no cenote). 600 metros de extensión, 3 pisos, 40 cámaras. Bolonchén de Rejón.",
+        "fuente": "Wikipedia — Grutas de Xtacumbilxunaán; INAFED"
+      },
+      {
+        "tema": "Benigno Lara Negrón — legislatura",
+        "VERSION_INCORRECTA": "IV Legislatura 1871-1873 (como propietario)",
+        "VERSION_CORRECTA": "XXVII Legislatura 1919-1921 como SUPLENTE (no propietario, no en 1871)",
+        "fuente": "Digesto SCJN Campeche 2010: sources/83536.pdf"
+      },
+      {
+        "tema": "Pedro Lara y Lara — legislatura y municipio",
+        "VERSION_INCORRECTA": "Diputado por Hopelchén en la XXXVIII Legislatura 1944-1947",
+        "VERSION_CORRECTA": "Diputado por el 4° DISTRITO DE CAMPECHE CAPITAL en la L Legislatura 1980-1983. NO aparece como diputado por Hopelchén.",
+        "fuente": "Digesto SCJN Campeche 2010: sources/83536.pdf"
+      },
+      {
+        "tema": "Efraín El Charras — descripción del crimen",
+        "VERSION_INCORRECTA": "Desaparecido / solo secuestrado",
+        "VERSION_CORRECTA": "Secuestrado Y ASESINADO. Causa de muerte: bala en la cabeza después de tortura. Cuerpo encontrado km 101.5.",
+        "fuente": "Campos, Marco Antonio — UNAM Voz Viva VVM-137, 2018: sources/Hernan_Lara_Zavala_librillo.pdf"
+      },
+      {
+        "tema": "Gobernador responsable del asesinato de El Charras",
+        "dato": "Carlos Loret de Mola Mediz, gobernador de Yucatán 1970-1976. Primero intentó cooptarlo, luego ordenó su eliminación.",
+        "fuente": "Campos, Marco Antonio — UNAM Voz Viva VVM-137, 2018"
+      },
+      {
+        "tema": "Huelga post-asesinato de El Charras",
+        "dato": "73 días exactos: 14 febrero al 27 abril 1974",
+        "fuente": "sources/libro_capitulos/XIV.html — Dos mil años en silencio"
+      },
+      {
+        "tema": "Libaneses en Hopelchén",
+        "VERSION_CORRECTA": "NINGUNA familia libanesa se radicó en Hopelchén ni en Los Chenes. La familia más cercana: Badih Sleme en Hecelchakán (1921). Los aboneros libaneses pasaban por Los Chenes pero no residían.",
+        "fuente": "Ramírez Carrillo 1994 — Historia Mexicana vol.43 num.3: historiamexicana.colmex.mx/index.php/RHM/article/view/2268; archivo local: sources/14-...de-como-los-libaneses.pdf (pendiente de revisión completa)"
+      }
+    ]
+  },
+
+  "TEMA_MENONITAS": {
+    "descripcion": "Colonización menonita en Hopelchén — cronología, impacto ecológico, datos verificados",
+    "fuentes_principales": ["PorEsto Campeche 2019, 2021, 2023", "Animal Político 2022", "Global Forest Watch", "sources/libro_capitulos/VI.html"],
+
+    "cronologia": [
+      {"año": "1987", "evento": "Primer grupo llega a Hopelchén. Procedencia: Chihuahua, Durango, Tamaulipas, Zacatecas. Establecimiento en Colonia Nuevo Progreso.", "fuente": "PorEsto, marzo 2019"},
+      {"año": "2004", "evento": "Inicio documentado de soya transgénica en Hopelchén: 196 ha", "fuente": "Dr. Edward Allan Ellis, UV / Animal Político"},
+      {"año": "2005", "evento": "Soya se dispara a 2,315 ha — punto de inflexión de la deforestación", "fuente": "Dr. Ellis, UV"},
+      {"año": "2021", "evento": "Población menonita supera 10,000 en Campeche; ~8,000 en Hopelchén", "fuente": "PorEsto; Página 66"},
+      {"año": "2021 agosto 12", "evento": "Mesas de diálogo Semarnat (titular: Albores) con colonias menonitas. Resultado: Jacob Harder Jr. declaró 'No cambiamos nada'", "fuente": "PorEsto; La Jornada Maya"},
+      {"año": "2023", "evento": "Profepa clausuró más de 700 ha en Hopelchén y Calakmul por tala ilegal", "fuente": "PorEsto 2023"}
+    ],
+
+    "colonias_menonitas": ["Nuevo Progreso", "Santa Fe", "Santa Rosa", "Chavi", "Trinidad", "Nuevo Durango", "Yalnón", "Temporal", "Valle Nuevo", "Las Flores", "Nueva Esperanza"],
+
+    "impacto_agricola": {
+      "cultivos": ["Soya (transgénica, Roundup Ready)", "Maíz", "Sorgo", "Papas", "Chile"],
+      "sistema_siembra": "Soya de temporal — una sola cosecha anual. Alta dependencia de agroquímicos.",
+      "agroquimicos_usados": ["Glifosato", "Malatión", "Cipermetrina", "Fipronil (documentado en muertes de colmenas 2024)"],
+      "deforestacion": {
+        "area_perdida_2001_2024": "190,000 hectáreas de selva (Dr. Ellis, Mongabay nov 2020)",
+        "cinco_veces_promedio_nacional": "Tasa de deforestación en Hopelchén: 5x el promedio nacional (Dr. Ellis 2020)"
+      }
+    },
+
+    "impacto_agua": {
+      "estudio_glifosato_2016": {
+        "autores": "Rendón Von Osten y Dzul-Caamal, EPOMEX-UAC, para el PNUD",
+        "resultado": "Glifosato en agua subterránea de 7 comunidades, en garrafones comerciales y en orina del 68% de campesinos",
+        "concentracion_maxima": "Ich Ek: 1.41 μg/l (supera límites UE para agua subterránea)",
+        "DOI": "10.3390/ijerph14060595"
+      },
+      "situacion_2026": "Comunidades mayas exigen a la SCJN resolver de fondo. IMTA documenta agua no apta para consumo humano."
+    },
+
+    "analfabetismo_menonita": {
+      "dato": "En las colonias menonitas, solo 1 de cada 100 personas puede leer y escribir correctamente en español",
+      "fuente": "IEEA, vía PorEsto dic 2021"
+    },
+
+    "tierras": {
+      "caso_Xmaben": {
+        "descripcion": "Ejido Xmabén (36,000 ha totales) vendió 5,656 ha a menonitas en 1999",
+        "precio_renta": "1,500-2,000 pesos/ha/ciclo (arrendamiento de tierras ejidales)",
+        "fuente": "Torres Mazuera, Gabriela — artículo académico 2020"
+      }
+    }
+  },
+
+  "TEMA_LEYDY_PECH": {
+    "descripcion": "Perfil y lucha de Leydy Pech Martín — datos verificados",
+    "fuentes_principales": ["Goldman Environmental Prize: https://www.goldmanprize.org/recipient/leydy-pech/", "Wikipedia — Leydy Pech", "Proceso 30 nov 2020"],
+
+    "identificacion": {
+      "nombre_completo": "Leydy Araceli Pech Martín",
+      "nacimiento": "c.1965, Ich Ek, municipio de Hopelchén, Campeche",
+      "identidad": "Mujer maya, apicultora, activista indígena"
+    },
+
+    "organizacion": {
+      "nombre": "Koolel-Kab / Muuchkambal",
+      "fundacion": "1995",
+      "tipo": "Cooperativa de agricultura orgánica y agroforestería exclusivamente de mujeres mayas",
+      "abeja_principal": "Melipona beecheii (Xunáan Kab — la dama de la miel) — endémica de la Península, sin aguijón, 3,000+ años de meliponicultura maya"
+    },
+
+    "lucha_juridica_cronologia": [
+      {"año": "2000", "evento": "Inicio del activismo — Monsanto instala primeras parcelas de soya GM en Campeche"},
+      {"año": "2012", "evento": "Gobierno otorga permisos a Monsanto sin consulta previa a comunidades indígenas — violación del Convenio 169 OIT"},
+      {"año": "2015", "evento": "Suprema Corte dicta por unanimidad que el gobierno violó derechos constitucionales. Victoria para Leydy Pech. La siembra ilegal continúa."},
+      {"año": "2020", "evento": "Gana Premio Goldman Environmental Prize. Sigourney Weaver lo presenta en San Francisco. Aunque las victorias legales existían, la siembra ilegal seguía."}
+    ],
+
+    "impacto_colmenas": {
+      "2023_marzo": "4,800 colmenas muertas por plaguicidas en Hopelchén",
+      "2024_enero": "800 colmenas muertas en Suc-Tuc y Crucero de Oxá. ECOSUR confirmó Fipronil como causa principal.",
+      "nota": "Hopelchén es el PRIMER PRODUCTOR DE MIEL de Campeche. Su feria es la Feria de la Miel y el Maíz."
+    }
+  },
+
+  "TEMA_POLITICA_CONTEMPORANEA": {
+    "descripcion": "Datos verificados sobre el municipio en el período 2021-2026",
+    "fuentes": ["sources/libro_capitulos/ (HTML del libro de Dan)", "PorEsto Campeche", "ASECAM 2024"],
+
+    "alcaldes_recientes": [
+      {
+        "nombre": "Emilio Lara Calderón",
+        "periodo": "2021-2024",
+        "coalicion": "PRI-PAN-PRD",
+        "votos": "8,317 (42%)",
+        "hechos_documentados": [
+          "7 enero 2023, 4:30am: cateo de ~20 agentes FGE en su domicilio por presunto vínculo con secuestro",
+          "ASECAM 2024: no transfirió 9+ millones de pesos a juntas municipales en 2023",
+          "Afectadas: Bolonchenticul (3,154,746 pesos), Ukum (2,970,593 pesos), Dzibalchén",
+          "Solicitó licencia para candidatearse a diputado federal plurinominal PRI con apoyo de 'Alito' Moreno"
+        ]
+      },
+      {
+        "nombre": "Hiram Aranda Calderón",
+        "periodo": "2024-2027",
+        "dato": "ÚNICO municipio PRI de los 13 de Campeche",
+        "equipo_notable": {
+          "secretario": "Herminio May Dzib — apellido MAY (el del comandante Juan de Dios May 1848)",
+          "director_juridico": "Leonel Barrera — apellido BARRERA (el de Pantaleón Barrera 1848)"
+        },
+        "escandalo_2025": {
+          "hecho": "Edgar Manuel Poot Yeh (maestro) denunció despojo catastral: pagaba impuestos de su terreno desde 2006; en noviembre 2025 encontró que su título de propiedad había sido DUPLICADO",
+          "acusados": "Aranda Calderón + May Dzib + Barrera",
+          "cargos": "Despojo, falsificación de documentos, abuso de autoridad",
+          "instancia": "FECCECAM (Fiscalía Especializada en Combate a la Corrupción)"
+        }
+      }
+    ],
+
+    "datos_socioeconomicos_2020": {
+      "poblacion": "42,140 habitantes (INEGI Censo 2020)",
+      "pobreza_moderada": "53.1%",
+      "pobreza_extrema": "21.7%",
+      "total_en_pobreza": "74.8%",
+      "rezago_educativo": "12,529 personas en rezago educativo (2,426 analfabetas, 5,412 sin primaria, 4,691 sin secundaria)",
+      "ninos_sin_escuela_6_14": "19.8% — el municipio con MAYOR proporción de niños que no asisten en Campeche. Triplica el promedio estatal.",
+      "menonitas_analfabetismo_espanol": "Solo 1 de cada 100 menonitas puede leer y escribir correctamente en español",
+      "fuentes": "CONEVAL Índice de Rezago Social 2020; INEGI Censo 2020; IEEA vía PorEsto dic 2021"
+    },
+
+    "edificios_publicos_nombres": {
+      "nota": "Los nombres de los edificios públicos revelan qué apellidos el municipio ha decidido honrar",
+      "secundaria": "Dr. Luis Álvarez Buela",
+      "bachillerato": "Gerónimo Baqueiro Foster (el único Baqueiro reconocido localmente)",
+      "hospital": "Dr. Pedro Lara y Lara (alcalde 1994, apellido Lara)",
+      "biblioteca": "Prof. Humberto Lara y Lara (director Diario del Sureste 1937-1952, operador PRI 25 años)",
+      "paseo_principal": "Paseo Efraín Calderón (El Charras — el municipio nombró el paseo principal con el nombre del hombre que el sistema asesinó. Los herederos del sistema gobiernan al final de esa misma calle.)"
+    }
+  },
+
+  "TEMA_LIBERTAD_DE_PRENSA": {
+    "descripcion": "Situación de la prensa en Campeche bajo Layda Sansores — impacto directo en la cobertura de Hopelchén",
+    "gobernadora": "Layda Sansores San Román (2021-2027)",
+    "fuentes": ["La Silla Rota jun 2025", "Proceso jun 2025", "El Universal ene 2026", "Infobae 2025"],
+
+    "medios_cerrados_2021_2026": {
+      "descripcion": "Los cinco únicos medios impresos que existían en Campeche cerraron bajo el gobierno de Sansores",
+      "mecanismo": "Negación de publicidad oficial — los medios dependían en parte de contratos gubernamentales. Al retirarles la pauta, los asfixiaron económicamente.",
+      "medios": ["Tribuna", "Crónica", "El Sur", "Expreso", "Novedades"],
+      "impacto_hopelchen": "Los únicos medios regionales que cubrían Hopelchén desde Campeche capital desaparecieron. Lo que ya era silencio informativo local se convirtió en silencio regional."
+    },
+
+    "caso_gonzalez_valdez": {
+      "periodista": "Jorge Luis González Valdez, 71 años, 50+ años de trayectoria, exdirector de Tribuna",
+      "medidas_agosto_2025": "La jueza Ana Maribel de Atocha Huitz May impone censura previa: TODAS las publicaciones de Tribuna deben ser revisadas por un 'censor' judicial designado antes de publicarse.",
+      "calificacion": "Artículo 19: 'sin precedente en México' — contrario a artículos 6 y 7 constitucionales y al artículo 13 de la Convención Americana sobre DDHH",
+      "declaracion_gobernadora": "Enero 2026: Sansores declara en su programa 'Martes del Jaguar': 'no debería vivir aquí' refiriéndose a González Valdez"
+    },
+
+    "periodistas_bajo_proteccion_federal": [
+      {"nombre": "Luis Armando Mendoza Leciano", "hecho": "7 feb 2023: bomba molotov incendió su automóvil. Bajo protección del MECANISMO."},
+      {"nombre": "Abraham Martínez", "medio": "El Reportero del Crimen", "hecho": "5 demandas del gobierno; agosto 2025: obligado a leer disculpa pública a la gobernadora"}
+    ]
+  },
+
+  "TEMA_HILO_CUBA": {
+    "descripcion": "Todo lo relacionado con la conexión Hopelchén-Cuba — datos verificados",
+    "fuentes": ["Rodríguez Piña 1990", "Álvarez Cuartero 2007 (JSTOR)", "OnCuba News", "Yucatán Ahora"],
+
+    "trafico_mayas_1848_1861": {
+      "numero_personas": "700-2,000 documentadas (rango según fuentes)",
+      "precio_al_erario": "25 pesos por maya capturado",
+      "precio_en_Cuba": "Niños: 60 pesos; Mujeres: 120 pesos; Hombres: 160 pesos",
+      "intermediarios": ["Zangróniz y Hermanos", "Goicouría y Hermanos", "Carlos Tomé (cubano, operaba desde Sisal)", "Francisco Marty y Torrens (catalán)", "Agustín Bolívar (La Habana)"],
+      "origen_Los_Chenes": "Bolonchén, Dzibalchén, Hopelchén, Xcupicalcab, Dzibilnocac — pueblos de Los Chenes como fuentes documentadas de captura",
+      "apellidos_en_Cuba": "Che, Nagua, Cusán — documentados en censo cubano 1861",
+      "vapor_La_Union": "Oct 1860: interceptado con 30 indígenas (niños de 7-10 años incluidos). INAH lo identificó en aguas de Sisal en 2022 — primer naufragio oficial vinculado al tráfico."
+    },
+
+    "denuncias_contemporaneas": {
+      "Melchor_Ocampo_1855": "Condenó el tráfico el 11 octubre 1855 (siete años tarde) como 'infame, execrable, vergonzoso, punible y horrible'",
+      "Benito_Juarez_1861": "Decreto 6 mayo 1861 — prohíbe definitivamente la deportación. 13 años después del decreto Barbachano."
+    },
+
+    "comunidad_Madruga_Cuba": {
+      "ubicacion": "Madruga, municipio, provincia Mayabeque, Cuba",
+      "descripcion": "Aproximadamente 200 personas que descienden de los mayas de Los Chenes deportados 1848-1861",
+      "apellidos_frecuentes": ["Chusco", "Cusán", "Che", "Nagua"],
+      "situacion_actual": "Algunos venden carbón por las mañanas. Los vecinos los llaman 'yucatecos' como insulto. Solo recientemente comenzaron a investigar sus raíces.",
+      "fuente": "Reportaje Yucatán Ahora; Álvarez Cuartero 2007 (JSTOR)"
+    },
+
+    "olegario_molina_Cuba": {
+      "conexion": "Olegario Molina Solís nació en Bolonchenticul (municipio Hopelchén) en 1843. Murió exiliado en La Habana el 28 abril 1925 — la misma isla a donde fueron vendidos los mayas de Los Chenes en 1848-1861.",
+      "ironia": "El hombre más rico que produjo el municipio murió en la misma isla a donde el sistema que él representaba mandó a los mayas como mano de obra barata."
+    }
+  },
+
+  "TEMA_HILO_MUSICAL": {
+    "descripcion": "La cadena musical que va de Los Chenes al mundo — síntesis de hallazgos",
+
+    "secuencia_documentada": [
+      {
+        "fecha": "1869",
+        "hecho": "José Jacinto Cuevas anota por primera vez Los Xtoles en su Mosaico yucateco — primera notación escrita de esta música de Los Chenes",
+        "fuente": "Pool Castellanos, tesis UNAM 2025: sources/0865175.pdf"
+      },
+      {
+        "fecha": "1880",
+        "hecho": "Chan Cil (nacido en la familia chenera de Baqueiro Preve) compone Despedida — considerada la primera canción de la trova yucateca",
+        "fuente": "Wikipedia — Chan Cil"
+      },
+      {
+        "fecha": "1895",
+        "hecho": "Julián Carrillo descubre el Sonido 13 — entre sol y la, 16 sonidos distintos con una navaja",
+        "fuente": "sonido13.com — testimonio del propio Carrillo"
+      },
+      {
+        "fecha": "c.1892-adolescencia",
+        "hecho": "Gerónimo Baqueiro Fóster (nacido en Hopelchén 1892) escucha a los ancianos de Hopelchén, Bolonchenticul, Dzibalchén, Iturbide, Chunchintok, Komchén, Xkanhá y Sahcabchén cantar Los Xtoles. Lo transcribe de oído.",
+        "fuente": "Baqueiro Fóster — Los mayas antiguos, El Colegio de México 1941, pp.264-271: sources/los-mayas-antiguos.pdf"
+      },
+      {
+        "fecha": "1920",
+        "hecho": "Julián Carrillo usa la canción de Chan Cil (¿Te acuerdas?) en la Suite de los Naranjos con la Orquesta Sinfónica Nacional — única obra sinfónica de Carrillo inspirada en música popular",
+        "fuente": "Wikipedia — Chan Cil"
+      },
+      {
+        "fecha": "1925",
+        "hecho": "Baqueiro Fóster llega a la conclusión de que Los Xtoles son armonizables con su propia escala pentatónica — sin necesidad de la escala europea",
+        "fuente": "Baqueiro Fóster 1941 en Los mayas antiguos"
+      },
+      {
+        "fecha": "1939",
+        "hecho": "Silvestre Revueltas usa Los Xtoles en La noche de los mayas — difusión mundial de la música de Los Chenes",
+        "fuente": "Pool Castellanos 2025; múltiples fuentes"
+      },
+      {
+        "fecha": "1941",
+        "hecho": "Baqueiro Fóster publica académicamente el análisis de Los Xtoles en Los mayas antiguos (El Colegio de México). Menciona explícitamente 8 pueblos de Los Chenes.",
+        "fuente": "sources/los-mayas-antiguos-monografias-de-arqueologia-etnografia-y-linguistica-mayas-899329.pdf, pp.264-271"
+      },
+      {
+        "fecha": "c.1940-1957",
+        "hecho": "Carrillo y Baqueiro Fóster viajan a Alemania (Casa Sauter) — encargan pianos microtonales que no existían en ningún catálogo",
+        "fuente": "González Toraya, Betina — La Jornada Maya (testimonio Arturo Solís Lara)"
+      },
+      {
+        "fecha": "1958",
+        "hecho": "Los pianos microtonales ganan la Gran Medalla de Oro en la Exposición Mundial de Bruselas. Regresan a México y son almacenados en bodega de Chapultepec cubiertos de aceite.",
+        "fuente": "Wikipedia — Julián Carrillo; INAH; UNESCO Registro Memoria del Mundo 2016"
+      }
+    ],
+
+    "paradoja_central": "Gerónimo Baqueiro Fóster, nacido en Hopelchén, fue el musicólogo más importante del sureste del siglo XX. El Centro de Documentación de la Universidad de las Artes de Yucatán lleva su nombre. El bachillerato de Hopelchén lleva su nombre. En Hopelchén no hay ninguna calle con su nombre."
+  },
+
+  "TEMA_ARCHIVO_MUNICIPAL": {
+    "descripcion": "Lo que existe en el Archivo Municipal de Hopelchén — identificado por Ute Schüren (FU Berlín) en 1993-1998",
+    "fuente": "Schüren, Ute — tesis doctoral FU Berlín: sources/17_biblio.pdf (lista de archivos consultados)",
+    "secciones_identificadas": [
+      {"sigla": "CSTCS", "descripcion": "Correspondencia del Sindicato de Trabajadores Chicleros, 1937-1941"},
+      {"sigla": "DPNR", "descripcion": "Documentos del Partido Nacional Revolucionario, 1935"},
+      {"sigla": "FS", "descripcion": "Formación de Sindicatos"},
+      {"sigla": "JLC", "descripcion": "Junta Local de los Censos"},
+      {"sigla": "PM", "descripcion": "Presidencia Municipal — correspondencia"},
+      {"sigla": "SC", "descripcion": "Sección de Correspondencia general"},
+      {"sigla": "SE", "descripcion": "Sección Estadística"}
+    ],
+    "estado": "NO consultado en esta investigación — requiere visita física al ayuntamiento de Hopelchén",
+    "dato_relevante": "La sección CSTCS (1937-1941) es la historia laboral de los chicleros de Los Chenes en papel. Humberto Lara y Lara escribía sobre esos mismos chicleros en el Diario del Sureste en el mismo período. Nadie ha unido esos dos hilos."
+  },
+
+  "DATOS_HISTORICOS_CLAVE": {
+    "descripcion": "Datos verificados de alto valor que no encajan en otras categorías",
+    "lista": [
+      {
+        "dato": "1782: 1,463 personas vivían en Hopelchén. Ninguna hablaba español. 161 años después de la Congregación de 1621.",
+        "fuente": "Archivo Histórico de la Diócesis de Campeche — informe de obispos 1782"
+      },
+      {
+        "dato": "1847-1901: La Guerra de Castas duró 54 años. El municipio de Hopelchén perdió el 40% de sus unidades productivas (de 92 haciendas y ranchos, solo sobrevivió el 60%).",
+        "fuente": "Wikipedia — Hopelchén; Baqueiro Preve 1878"
+      },
+      {
+        "dato": "Decreto 27 agosto 1847: quitó derechos ciudadanos a los indios y les prohibió portar armas — los reclutaban militarmente al mismo tiempo.",
+        "fuente": "Ferrer Muñoz — Ius Fugit 1999-2000: sources/10ferrermunoz.pdf; Kosichenko 2025: sources/700747-5268499-1-PB.pdf"
+      },
+      {
+        "dato": "En el Congreso Constituyente del Estado de Campeche (1861), el primer día, los apellidos presentes son: Barrera (propietario) + Baqueiro Lara (suplente). Los mismos linajes que dominarán el municipio 164 años.",
+        "fuente": "Digesto SCJN Campeche 2010, p.29: sources/83536.pdf"
+      },
+      {
+        "dato": "Baqueiro Fóster publicó en Los mayas antiguos (1941): 'aquel canto en sus múltiples versiones oídas, ya sea al danzar y cantar de los Xtoles citadinos o simplemente al cantar de los ancianos de Hopelchén, Bolonchenticul, Dzibalchén, Iturbide, Chunchintok, Komchén, Xkanhá, Sahcabchén.' Un hopelcheneño nombró su municipio en la publicación académica más importante del país en 1941.",
+        "fuente": "Los mayas antiguos, El Colegio de México 1941, p.268: sources/los-mayas-antiguos-monografias-de-arqueologia-etnografia-y-linguistica-mayas-899329.pdf"
+      },
+      {
+        "dato": "El reloj de la plaza de Hopelchén llegó de Berlín el 5 mayo 1911 — el mismo mes que Porfirio Díaz renunció. Aparece en: inscripción del reloj / De Zitilchén (Lara Zavala 1981 p.87) / Recuerdos de mi infancia 1935-1938 (Lara Baqueiro) / Esta investigación.",
+        "fuente": "INAFED; Cronología Histórica de Campeche"
+      },
+      {
+        "dato": "El tráfico de mayas a Cuba (1848-1861) fue denunciado por Melchor Ocampo en 1855 ('infame, execrable') y frenado definitivamente por Juárez en 1861. 13 años duró el tráfico.",
+        "fuente": "Múltiples fuentes; OnCuba News"
+      },
+      {
+        "dato": "Santa Rosa Xtampak fue capital regional de Los Chenes durante 850 años. Hochob fue habitada continuamente desde el año 300 d.C. hasta la Conquista española. Ambas a menos de 40km de la ciudad de Hopelchén. Ambas completamente ignoradas en el libro de historia local de 1985.",
+        "fuente": "INAH — fichas oficiales; Mediateca INAH; Aranda González 1985 (por ausencia)"
+      },
+      {
+        "dato": "La única tesis de licenciatura sobre Hopelchén como municipio: Uc Moreno, Jorge Alberto — 'Semblanza de un municipio: Hopelchén', UAC, 7 enero 1993.",
+        "fuente": "database/_sesiones_anteriores/investigacion_global_2026-03-23.json"
+      },
+      {
+        "dato": "En 2024, Hopelchén fue el único municipio gobernado por el PRI entre los 13 municipios de Campeche.",
+        "fuente": "Periodismo local y nacional, junio 2024"
+      }
+    ]
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "log_id": "LOG_002",
+  "fecha": "2026-03-22",
+  "fase": "FASE 2 — PROCESAMIENTO DE PDFs",
+  "agente": "Claude — Agente Autónomo de Investigación Histórica",
+
+  "pdf_procesado": {
+    "archivo": "La_guerra_de_Castas_en_Peninsula_Peninsu.pdf",
+    "tamano": "287 KB",
+    "paginas": 19,
+    "tipo": "Artículo académico",
+    "titulo_completo": "La guerra de Castas en Península, Península, de Hernán Lara Zavala: el diálogo entre el discurso literario y el histórico",
+    "autora": "Alma Alicia Piña Laynes",
+    "institucion": "Universidad Autónoma de Campeche — Facultad de Humanidades",
+    "publicacion": "Revista Cambios y Permanencias, Vol. 8, Núm. 2, pp. 522–539",
+    "issn": "2027-5528",
+    "año": 2017,
+    "recibido": "1 octubre 2017",
+    "aceptado": "1 noviembre 2017"
+  },
+
+  "hallazgos_extraidos": [
+    {
+      "id": "HAL_PDF01",
+      "hallazgo": "Charras es de 1990, no solo 2022",
+      "detalle": "La primera edición de la novela Charras de Hernán Lara Zavala es de 1990 (citada en el artículo). La edición Alfaguara 2022 es una reedición/nueva versión. Importante para la entrada B11.",
+      "fuente": "Piña Laynes — UAC 2017, nota al pie 3",
+      "impacto": "Corregir en base de datos — P016 y entrada B11"
+    },
+    {
+      "id": "HAL_PDF02",
+      "hallazgo": "De Zitilchén es de 1981 (no solo 2012)",
+      "detalle": "El artículo cita De Zitilchén como de 1981. La edición FCE 2012 es una reedición. La obra tiene raíces desde los años 80.",
+      "fuente": "Piña Laynes — UAC 2017, nota al pie 3",
+      "impacto": "Corregir en base de datos — P016"
+    },
+    {
+      "id": "HAL_PDF03",
+      "hallazgo": "Madre de Hernán Lara Zavala era campechana",
+      "detalle": "El artículo precisa: 'los padres del narrador son oriundos de la península (padre yucateco y madre campechana)'. La base anterior solo documentaba que el padre era de Hopelchén. La madre era campechana.",
+      "fuente": "Piña Laynes — UAC 2017, nota al pie 3",
+      "impacto": "Ampliar ficha P016"
+    },
+    {
+      "id": "HAL_PDF04",
+      "hallazgo": "Premio Alfaguara 2010 — no solo Premio RAE 2010",
+      "detalle": "La novela Península, Península ganó el Premio Alfaguara 2010 (no solo 'Premio RAE' como aparece en la base). El artículo lo cita: 'Su novela, Península, Península (2008), premio Alfaguara 2010'.",
+      "fuente": "Piña Laynes — UAC 2017",
+      "impacto": "Corregir denominación del premio en P016"
+    },
+    {
+      "id": "HAL_PDF05",
+      "hallazgo": "Líderes de la rebelión maya confirmados con nombres completos",
+      "detalle": "Manuel Antonio Ay (ahorcado en Valladolid), Cecilio Chí, Jacinto Pat — los tres líderes que iniciaron la rebelión maya. Ay fue condenado al descubrir una carta de Cecilio Chí.",
+      "fuente": "Piña Laynes — UAC 2017 (citando Lara, 2008, p. 85)",
+      "impacto": "Agregar como personajes históricos en E011 y nueva entrada de personajes"
+    },
+    {
+      "id": "HAL_PDF06",
+      "hallazgo": "Justo Sierra O'Reilly y los EE.UU. durante la Guerra de Castas",
+      "detalle": "Santiago Méndez encomendó a J.S.O. buscar ayuda de otros países para aplacar la rebelión maya a cambio de la soberanía de Yucatán. Publicó 'Diario de nuestro viaje a los Estados Unidos' (Conaculta, 2002). Las palabras exactas de J.S.O. sobre los indios mayas son de extrema violencia ('Yo quisiera hoy que desapareciera esa raza maldita').",
+      "fuente": "Piña Laynes — UAC 2017 (citando Sierra O'Reilly, Conaculta 2002, p. 56)",
+      "impacto": "Ampliar ficha P026 (Justo Sierra O'Reilly)"
+    },
+    {
+      "id": "HAL_PDF07",
+      "hallazgo": "Jacinto Pat — líder maya — su argumento en la novela",
+      "detalle": "En la novela, Jacinto Pat responde a J.S.O.: 'Ustedes han abusado de nosotros desde siempre. Nos hicieron trabajar de sol a sol y hasta que nos necesitaron fue que nos dieron armas para defender a la Península.' (Lara, 2008, p. 173). Este argumento resume la injusticia estructural que provocó la Guerra de Castas.",
+      "fuente": "Piña Laynes — UAC 2017 (citando Lara, 2008, p. 173)",
+      "impacto": "Usar en entradas A5, B12 — contexto de la Guerra de Castas"
+    },
+    {
+      "id": "HAL_PDF08",
+      "hallazgo": "El 'Libro de Viajes' de Lara Zavala sobre la Península — 1998",
+      "detalle": "Hernán Lara Zavala también publicó 'Viaje al corazón de la península' (1998) — libro de viajes sobre Yucatán. Confirma la conexión continua y personal del autor con la región.",
+      "fuente": "Piña Laynes — UAC 2017, nota al pie 3",
+      "impacto": "Agregar a bibliografía P016 — Lara Zavala"
+    },
+    {
+      "id": "HAL_PDF09",
+      "hallazgo": "El proceso histórico de la Guerra de Castas documentado académicamente",
+      "detalle": "Los federalistas al mando de Santiago Imán armaron a los mayas para combatir el centralismo (1839–1843). Lograda la independencia, se intentó desarmarlos. Los mayas, que ya habían conocido las armas, se rebelaron en 1847–1848. La promesa de exacciones civiles, militares y religiosas nunca se cumplió.",
+      "fuente": "Piña Laynes — UAC 2017",
+      "impacto": "Enriquecer eventos E011, E010 y la entrada A5 del blog"
+    },
+    {
+      "id": "HAL_PDF10",
+      "hallazgo": "Nueva fuente académica sobre Lara Zavala: Suárez Turriza 2013",
+      "detalle": "Tatiana Suárez Turriza (2013): 'Península, península; el Yucatán del siglo XIX en la memoria del novelista contemporáneo'. Revista Literatura Mexicana, 34(1), 111–129. Otra fuente académica sobre Lara Zavala que se puede consultar.",
+      "fuente": "Bibliografía del artículo de Piña Laynes",
+      "impacto": "Agregar a fuentes disponibles para entradas B11, B-LZavala"
+    },
+    {
+      "id": "HAL_PDF11",
+      "hallazgo": "Otras novelas sobre la Guerra de Castas identificadas",
+      "detalle": "Además de Lara Zavala y Suárez Caamal, hay otras novelas: 'Ascención Tun' (1980) de Silvia Molina, y 'El llamado de los Tunk'ules' (2011) de Marisol Ceh Moo. El corpus de novelas sobre la Guerra de Castas tiene al menos 4 obras.",
+      "fuente": "Piña Laynes — UAC 2017",
+      "impacto": "Para entrada B12 — contexto literario de la Guerra de Castas"
+    }
+  ],
+
+  "fuente_nueva_registrada": {
+    "id": "F027",
+    "tipo": "articulo_academico",
+    "titulo": "La guerra de Castas en Península, Península, de Hernán Lara Zavala: el diálogo entre el discurso literario y el histórico",
+    "autora": "Alma Alicia Piña Laynes",
+    "institucion": "Universidad Autónoma de Campeche — Facultad de Humanidades",
+    "publicacion": "Revista Cambios y Permanencias, Vol. 8, Núm. 2, 2017, pp. 522–539",
+    "issn": "2027-5528",
+    "archivo_local": "sources/La_guerra_de_Castas_en_Peninsula_Peninsu.pdf",
+    "relevancia": "ALTA — Confirma datos de Lara Zavala, documenta contexto histórico de la Guerra de Castas, identifica a J.S.O. y los líderes mayas"
+  },
+
+  "correcciones_aplicadas": [
+    {
+      "campo": "P016 — Hernán Lara Zavala — obras",
+      "antes": "Charras (Alfaguara, 2022) — como si fuera primera edición",
+      "despues": "Charras — primera edición 1990; reedición Alfaguara 2022",
+      "fuente": "Piña Laynes UAC 2017"
+    },
+    {
+      "campo": "P016 — De Zitilchén — primera edición",
+      "antes": "De Zitilchén (FCE, 2012)",
+      "despues": "De Zitilchén — primera edición 1981; reedición FCE 2012",
+      "fuente": "Piña Laynes UAC 2017"
+    },
+    {
+      "campo": "P016 — Premio de Península Península",
+      "antes": "Premio RAE 2010",
+      "despues": "Premio Alfaguara 2010",
+      "fuente": "Piña Laynes UAC 2017"
+    }
+  ],
+
+  "estado": "COMPLETADO",
+  "proximo_pdf": "Primeros años posrevolución Campeche.pdf"
+}

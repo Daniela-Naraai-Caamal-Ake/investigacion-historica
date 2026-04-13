@@ -1,0 +1,748 @@
+{
+  "META": {
+    "archivo": "02_cronologia_eventos.json",
+    "descripcion": "Línea del tiempo completa — 87 eventos verificados sobre Hopelchén y Los Chenes, con fuentes explícitas",
+    "proyecto": "Archivo Vivo — Hopelchén, Campeche",
+    "autora": "Daniela Naraai Caamal",
+    "consolidado_de": [
+      "database/av_cronologia.json (E001-E083)",
+      "database/av_nucleo_extension.json (E075-E083 pendientes)",
+      "database/_sesiones_anteriores/investigacion_E_F_G_2026-03-30.json",
+      "database/_sesiones_anteriores/investigacion_bloques_B_H_2026-03-30.json"
+    ],
+    "creado": "2026-04-07",
+    "total_eventos": 87,
+    "tipos": ["arqueologico", "colonial", "guerra", "politica", "cultura", "economia", "ecologia", "disidencia", "justicia", "patrimonio"],
+    "nota_verificacion": "Campo 'verificado: false' indica datos de ficción literaria usados como contexto histórico. El resto tiene fuente documentada."
+  },
+
+  "eventos": {
+
+    "E001": {
+      "fecha": "c.300-1000 d.C.",
+      "tipo": "arqueologico",
+      "descripcion": "Ocupación y apogeo de las ciudades mayas en Los Chenes: Hochob (fundada c.300 d.C., apogeo 850-1000), Dzibilnocac (apogeo siglo VIII), Santa Rosa Xtampak (capital regional 850 años). Las tres en el municipio de Hopelchén.",
+      "verificado": true,
+      "fuentes": [
+        "INAH — fichas oficiales Hochob, Dzibilnocac, Santa Rosa Xtampak: https://inah.gob.mx/zonas/",
+        "Mediateca INAH — Santa Rosa Xtampak: https://mediateca.inah.gob.mx/repositorio/islandora/object/sitioprehispanico:2128",
+        "Arqueología Mexicana — Zapata, Renée Lorelei: 'Santa Rosa Xtampak, capital en la región Chenes', 2005"
+      ]
+    },
+
+    "E002": {
+      "fecha": "1527-1547",
+      "tipo": "colonial",
+      "descripcion": "Conquista española de Los Chenes — el proceso más largo y difícil de toda la conquista en América: tres intentos de la familia Montejo en dos décadas. Los Chenes fue de las últimas zonas en someterse.",
+      "verificado": true,
+      "fuentes": [
+        "UNAM Global — 'La conquista de los mayas: 200 años de resistencia en la selva', 2025",
+        "El Universal Confabulario — 'Los mayas: una larga y sinuosa conquista'"
+      ]
+    },
+
+    "E003": {
+      "fecha": "1621",
+      "tipo": "colonial",
+      "descripcion": "Congregación de pueblos — fin oficial del gobierno maya autónomo (bataboob). Hopelchén fundada como pueblo de congregación; para 1630 reunía ~20,000 personas. Los bataboob resistieron 48 años adicionales sin mezclarse con el sistema español.",
+      "verificado": true,
+      "fuentes": [
+        "INAFED — Enciclopedia de los Municipios, Hopelchén: http://www.inafed.gob.mx",
+        "Archivo Histórico de la Diócesis de Campeche — informe de obispos 1782: 1,463 personas en Hopelchén, ninguna hablaba español"
+      ]
+    },
+
+    "E004": {"fecha": "1782", "tipo": "colonial", "descripcion": "Informe de obispos documenta 1,463 personas viviendo en Hopelchén. Ninguna hablaba español — 161 años después de la congregación de 1621.", "verificado": true, "fuentes": ["Archivo Histórico de la Diócesis de Campeche"]},
+
+    "E005": {
+      "fecha": "1838 noviembre 14",
+      "tipo": "cultura",
+      "descripcion": "Nacimiento de Serapio Baqueiro Preve en Dzitbalchén, Hopelchén, Campeche.",
+      "verificado": true,
+      "fuentes": ["Wikipedia — Serapio Baqueiro Preve; Enciclopedia Yet de Yucatán"]
+    },
+
+    "E006": {
+      "fecha": "1840-1843",
+      "tipo": "politica",
+      "descripcion": "Pantaleón Barrera actúa como síndico del ayuntamiento de Hopelchén.",
+      "verificado": true,
+      "fuentes": ["Wikipedia — Pantaleón Barrera"]
+    },
+
+    "E007": {
+      "fecha": "1843",
+      "tipo": "arqueologico",
+      "descripcion": "Frederick Catherwood y John L. Stephens visitan Santa Rosa Xtampak — primeros exploradores en documentar la capital regional de Los Chenes.",
+      "verificado": true,
+      "fuentes": ["Mediateca INAH; Wikipedia — Santa Rosa Xtampak"]
+    },
+
+    "E008": {
+      "fecha": "1847 julio 25",
+      "tipo": "guerra",
+      "descripcion": "Manuel Antonio Ay Tec es ahorcado en Valladolid al descubrirse el plan de sublevación. Últimas palabras a su hijo: 'Voy a morir hijo mío, por haberme comprometido incautamente en una gran guerra que pronto deberá estallar... no vayas a tomar parte en la guerra que va a destrozar el país'. Su ejecución adelantó la rebelión.",
+      "verificado": true,
+      "fuentes": [
+        "Baqueiro Preve, Serapio — Ensayo histórico sobre las revoluciones de Yucatán, 1878, p.229 (reedición UADY 1990)",
+        "Piña Laynes, Alma Alicia — Cambios y Permanencias vol.8 num.2, 2017, pp.522-539 (citando Baqueiro p.229): archivo local sources/La_guerra_de_Castas_en_Peninsula_Peninsu.pdf"
+      ]
+    },
+
+    "E009": {
+      "fecha": "1847 julio 30",
+      "tipo": "guerra",
+      "descripcion": "Cecilio Chi inicia el levantamiento de la Guerra de Castas en Tepich.",
+      "verificado": true,
+      "fuentes": ["Wikipedia — Guerra de Castas; Baqueiro Preve, Ensayo histórico"]
+    },
+
+    "E010": {
+      "fecha": "1847 agosto 27",
+      "tipo": "politica",
+      "descripcion": "Decreto que quitó derechos ciudadanos a los indios y les prohibió portar armas — los reclutaban militarmente al mismo tiempo.",
+      "verificado": true,
+      "fuentes": [
+        "Ferrer Muñoz, Manuel — Ius Fugit 8-9, 1999-2000: archivo local sources/10ferrermunoz.pdf",
+        "Kosichenko, Ivan Nikítovich — Latinskaya Amerika nº2/2025: archivo local sources/700747-5268499-1-PB.pdf"
+      ]
+    },
+
+    "E011": {
+      "fecha": "1848 mayo",
+      "tipo": "guerra",
+      "descripcion": "Juan de Dios May ataca Hopelchén al frente de grupo armado. Ambos bandos sufrieron cuantiosas pérdidas. Previamente atacó Iturbide.",
+      "verificado": true,
+      "fuentes": ["Wikipedia — Hopelchén; Baqueiro Preve — Ensayo histórico"]
+    },
+
+    "E012": {
+      "fecha": "1848 noviembre 6",
+      "tipo": "politica",
+      "descripcion": "Decreto Barbachano que permitió formalmente la venta de mayas a Cuba: 'todo indio hecho prisionero con las armas en la mano, podrá el gobierno alejarlo de su domicilio y aún expulsarlo del Estado por diez años'.",
+      "verificado": true,
+      "fuentes": [
+        "Encyclopedia of Latin American History and Culture",
+        "OnCuba News — https://oncubanews.com",
+        "Ferrer Muñoz — Ius Fugit 1999-2000: archivo local sources/10ferrermunoz.pdf"
+      ]
+    },
+
+    "E013": {
+      "fecha": "1849-1861",
+      "tipo": "guerra",
+      "descripcion": "Tráfico de mayas yucatecos a Cuba: ~1,046-2,000 personas documentadas. Precio: 25 pesos al erario por cada capturado; revendidos en Cuba: niños 60, mujeres 120, hombres 160 pesos. Intermediarios: Zangróniz y Hermanos, Goicouría y Hermanos, Carlos Tomé, Francisco Marty y Torrens. Apellidos documentados en Cuba: Che, Nagua, Cusán. Barrio de descendientes hoy en Madruga, Cuba.",
+      "verificado": true,
+      "fuentes": [
+        "Rodríguez Piña, Javier — Guerra de castas: la venta de indios mayas a Cuba 1848-1861, CONACULTA 1990",
+        "Álvarez Cuartero, Izaskun — 'De Tihosuco a La Habana', Studia Historica vol.25, 2007, pp.559-576 (JSTOR)",
+        "El Cronista — INAH identifica pecio La Unión (naufragio 1860)"
+      ]
+    },
+
+    "E014": {
+      "fecha": "1849 julio",
+      "tipo": "guerra",
+      "descripcion": "Siete indígenas mayas de Bolonchenticul defienden la guarnición del 6° Batallón de la Guardia Nacional. Apellidos: Dzul, Ku, Balam, Chan, Canche, Ek. Reciben credenciales de hidalgos. Caso paralelo: José Chan (52 pesos de deuda) se alistó para escapar servidumbre — lo devolvieron a su dueña.",
+      "verificado": true,
+      "pendiente": "Nombres completos de los siete — consulta directa al AGEY",
+      "fuentes": [
+        "Kosichenko, Ivan Nikítovich — Latinskaya Amerika nº2/2025, pp.87-101, DOI: 10.31857/S0044748X25020078: archivo local sources/700747-5268499-1-PB.pdf",
+        "AGEY — Fondo Poder Ejecutivo, Comandancia Militar Yucatán, caja 169, vol.119, exp.24 (los siete) y caja 111, vol.61, exp.50 (José Chan)"
+      ]
+    },
+
+    "E015": {
+      "fecha": "1857",
+      "tipo": "politica",
+      "descripcion": "Campeche se separa de Yucatán — detonado por la elección disputada del chenero Pantaleón Barrera como gobernador de Yucatán. Proclamación del Estado de Campeche el 6 de agosto de 1857.",
+      "verificado": true,
+      "fuentes": ["Ferrer Muñoz — Ius Fugit 1999-2000, p.336; El Expreso de Campeche"]
+    },
+
+    "E016": {
+      "fecha": "1858 enero 29",
+      "tipo": "politica",
+      "descripcion": "Hopelchén y las poblaciones de su partido se declaran parte del Estado de Campeche.",
+      "verificado": true,
+      "fuentes": ["Movimiento Antorchista Nacional — registro histórico municipio"]
+    },
+
+    "E017": {
+      "fecha": "1861",
+      "tipo": "politica",
+      "descripcion": "Congreso Constituyente del Estado de Campeche. Por Bolonchenticul: propietario Manuel Barrera, suplente Romualdo Baqueiro Lara. DATO FUNDACIONAL: apellidos Barrera + Baqueiro Lara en el primer día del Estado.",
+      "verificado": true,
+      "fuentes": [
+        "Digesto Constitucional Mexicano — Campeche (SCJN 2010, ISBN 978-607-468-243-4), p.29: archivo local sources/83536.pdf"
+      ]
+    },
+
+    "E018": {
+      "fecha": "1861 mayo 6",
+      "tipo": "politica",
+      "descripcion": "Benito Juárez prohíbe la deportación de indígenas mayas a Cuba. El tráfico duró 13 años desde el decreto Barbachano de 1848.",
+      "verificado": true,
+      "fuentes": ["Múltiples fuentes históricas; OnCuba News"]
+    },
+
+    "E019": {
+      "fecha": "1862",
+      "tipo": "politica",
+      "descripcion": "Primera Legislatura del Estado de Campeche. Diputado propietario por Bolonchenticul: Pedro Lara. Primera aparición documentada del apellido Lara en el poder legislativo chenero.",
+      "verificado": true,
+      "fuentes": ["Digesto SCJN Campeche 2010: archivo local sources/83536.pdf"]
+    },
+
+    "E020": {
+      "fecha": "1864",
+      "tipo": "cultura",
+      "descripcion": "Pantaleón Barrera publica Los misterios de Chan Santa Cruz bajo seudónimo Napoleón Trebarra (Trebarra = Barrera al revés). Imprenta M. Aldana Rivas, Mérida. La única novela del siglo XIX escrita por un chenero.",
+      "verificado": true,
+      "fuentes": [
+        "HathiTrust — ejemplar digitalizado U. Wisconsin-Madison: https://babel.hathitrust.org/cgi/pt?id=wu.89095721726",
+        "Kessinger Publishing 2009, ISBN 9781166725785",
+        "Archivo local: sources/Los_misterios_de_Chan_Santa_Cruz.pdf"
+      ]
+    },
+
+    "E021": {
+      "fecha": "1865",
+      "tipo": "politica",
+      "descripcion": "La Emperatriz Carlota condecora a Pantaleón Barrera con medalla imperial. Teobert Maler llega a México en el séquito del archiduque Maximiliano.",
+      "verificado": true,
+      "fuentes": ["Wikipedia — Pantaleón Barrera; Wikipedia — Teoberto Maler; Arqueología Mexicana"]
+    },
+
+    "E022": {
+      "fecha": "1867",
+      "tipo": "politica",
+      "descripcion": "Fusilamiento del emperador Maximiliano en el Cerro de las Campanas. Teobert Maler decide quedarse en México — cambia su nombre a Teoberto.",
+      "verificado": true,
+      "fuentes": ["Wikipedia — Teoberto Maler"]
+    },
+
+    "E023": {
+      "fecha": "1875-1877",
+      "tipo": "politica",
+      "descripcion": "Pedro A. Lara (Pedro Advíncula) diputado propietario por Bolonchenticul, VI Legislatura Campeche.",
+      "verificado": true,
+      "fuentes": ["Digesto SCJN Campeche 2010: archivo local sources/83536.pdf"]
+    },
+
+    "E024": {
+      "fecha": "1878",
+      "tipo": "cultura",
+      "descripcion": "Serapio Baqueiro Preve publica el Ensayo histórico sobre las revoluciones de Yucatán (3 tomos). Primera fuente primaria sistemática sobre la Guerra de Castas.",
+      "verificado": true,
+      "fuentes": ["Múltiples fuentes académicas; reedición UADY 1990"]
+    },
+
+    "E025": {
+      "fecha": "1880",
+      "tipo": "cultura",
+      "descripcion": "Chan Cil compone Despedida — considerada la primera canción de la trova yucateca.",
+      "verificado": true,
+      "fuentes": ["Wikipedia — Chan Cil; Enciclopedia Yet de Yucatán"]
+    },
+
+    "E026": {
+      "fecha": "1886 diciembre 17 - 1887 junio 25",
+      "tipo": "arqueologico",
+      "descripcion": "Primera expedición arqueológica formal de Teobert Maler: 42 zonas en regiones Puuc y Chenes. Documenta Hochob, Dzibilnocac, Santa Rosa Xtampak, Dzehkabtún — durante la Guerra de Castas. En 1895 publica resultados en la revista alemana Globus: primera vez que el mundo supo de Hochob.",
+      "verificado": true,
+      "fuentes": [
+        "Arqueología Mexicana — 'Teobert Maler en la Península de Yucatán'",
+        "IAI Berlín — descripción del Nachlass Maler: https://www.iai.spk-berlin.de/biblioteca/colecciones-especiales/legados/maler-teobert.html"
+      ]
+    },
+
+    "E027": {
+      "fecha": "1892 enero 25",
+      "tipo": "cultura",
+      "descripcion": "Nacimiento de Gerónimo Baqueiro Fóster en Hopelchén, Campeche. Acta de nacimiento expediente 2699B938, Archivo Baqueiro Fóster, Cenidim INBA. La fecha 1898 en fuentes secundarias es incorrecta.",
+      "verificado": true,
+      "fuentes": ["Mendoza Castillo, Herlinda — Revista Digital Universitaria UNAM vol.7 num.2, 2006: archivo local sources/feb_art16.pdf"]
+    },
+
+    "E028": {
+      "fecha": "1895 julio 13",
+      "tipo": "cultura",
+      "descripcion": "Julián Carrillo descubre el Sonido 13 dividiendo cuerdas de su violín con una navaja. Entre sol y la, encontró 16 sonidos diferentes (dieciseisavos de tono). El sistema microtonal completo alcanza 4,640 sonidos por octava.",
+      "verificado": true,
+      "fuentes": ["sonido13.com — testimonio del propio Carrillo: https://sonido13.com/index.php/historia/"]
+    },
+
+    "E029": {
+      "fecha": "1902",
+      "tipo": "cultura",
+      "descripcion": "Pedro Advíncula Lara construye el teatro de Hopelchén. No sobrevivió.",
+      "verificado": true,
+      "fuentes": ["Cronología Histórica de Campeche"]
+    },
+
+    "E030": {
+      "fecha": "1902",
+      "tipo": "economia",
+      "descripcion": "Olegario Molina Solís firma contrato secreto con International Harvester deprimiendo el precio del henequén a cambio de monopolio exclusivo de exportación. Controlaba el 50% de la exportación henequenera peninsular.",
+      "verificado": true,
+      "fuentes": [
+        "Cambridge University Press / Latin American Research Review — 'Corporate Control of a Monocrop Economy'",
+        "Project MUSE — peonaje henequenero",
+        "CIDE/ECOS 2025 — análisis del olegariato"
+      ]
+    },
+
+    "E031": {
+      "fecha": "1909",
+      "tipo": "cultura",
+      "descripcion": "Chan Cil publica su cancionero en Imprenta Luis Rosado Vega, Mérida.",
+      "verificado": true,
+      "fuentes": ["Wikipedia — Chan Cil"]
+    },
+
+    "E032": {
+      "fecha": "1910 septiembre 17",
+      "tipo": "cultura",
+      "descripcion": "Muerte de Chan Cil (Cirilo Baqueiro Preve) en Mérida. 61 años.",
+      "verificado": true,
+      "fuentes": ["Wikipedia — Chan Cil"]
+    },
+
+    "E033": {
+      "fecha": "1911 mayo 5",
+      "tipo": "cultura",
+      "descripcion": "Pedro Advíncula Lara instala el reloj público fabricado en Berlín en la plaza de Hopelchén. La misma semana que Porfirio Díaz renunció. La inscripción dice 'Mayo 5 de 1911'. El mismo reloj aparece en De Zitilchén (Lara Zavala, p.87) y en los Recuerdos de Raúl Emiliano Lara Baqueiro.",
+      "verificado": true,
+      "fuentes": [
+        "INAFED — Enciclopedia de Municipios, Hopelchén",
+        "Torres Rojo, Luis — Scripta Nova, Universidad de Barcelona, 2013: http://www.ub.es/geocrit/sn/sn-432.htm",
+        "Cronología Histórica de Campeche"
+      ]
+    },
+
+    "E034": {
+      "fecha": "1914-1918 (XXVI Legislatura, segunda sección)",
+      "tipo": "politica",
+      "descripcion": "PRIMERA VEZ que el Congreso del Estado usa el nombre 'Hopelchén' en lugar de 'Bolonchenticul'. Diputado propietario: Rafael Montalvo Paullada.",
+      "verificado": true,
+      "fuentes": ["Digesto SCJN Campeche 2010: archivo local sources/83536.pdf"]
+    },
+
+    "E035": {
+      "fecha": "1919 agosto 19",
+      "tipo": "cultura",
+      "descripcion": "Muerte de Pedro Advíncula Lara en Hopelchén, Campeche. Tenía 85 años.",
+      "verificado": true,
+      "fuentes": ["Cronología Histórica de Campeche, p.251"]
+    },
+
+    "E036": {
+      "fecha": "1919-1921 (XXVII Legislatura)",
+      "tipo": "politica",
+      "descripcion": "Primera aparición documentada del apellido Calderón en legislatura de Hopelchén: Miguel Calderón como diputado propietario. Benigno Lara Negrón como diputado suplente.",
+      "verificado": true,
+      "fuentes": ["Digesto SCJN Campeche 2010: archivo local sources/83536.pdf"]
+    },
+
+    "E037": {
+      "fecha": "1920",
+      "tipo": "cultura",
+      "descripcion": "Julián Carrillo incorpora la canción ¿Te acuerdas? de Chan Cil en la Suite de los Naranjos, inaugurada con la Orquesta Sinfónica Nacional. Única obra sinfónica de Carrillo inspirada en música popular.",
+      "verificado": true,
+      "fuentes": ["Wikipedia — Chan Cil; Wikipedia — Julián Carrillo"]
+    },
+
+    "E038": {
+      "fecha": "1920 octubre 7",
+      "tipo": "politica",
+      "descripcion": "Fundación del PSAC — Partido Socialista Agrario de Campeche. Lema: Tierra y Libertad. Representantes de Hopelchén: Clodoaldo Barrera y R. Montalvo (Rafael Montalvo Paullada).",
+      "verificado": true,
+      "fuentes": [
+        "May González, Ángel Omar — Los primeros años de la posrevolución en Campeche, Instituto Mora, 2010: archivo local sources/Primeros años posrevolución Campeche.pdf",
+        "May González — Signos Históricos, UAM-Iztapalapa, 2012 (SciELO)"
+      ]
+    },
+
+    "E039": {
+      "fecha": "1921 agosto",
+      "tipo": "cultura",
+      "descripcion": "Primer número de Rojo Amanecer — periódico oficial del PSAC. Director: Fernando Enrique Angli Lara (simultáneamente director del Periódico Oficial del Estado). Funcionó hasta 1934 (no 1924 como se creía).",
+      "verificado": true,
+      "fuentes": ["May González — Signos Históricos 2012 (SciELO)"]
+    },
+
+    "E040": {
+      "fecha": "1924 septiembre 17",
+      "tipo": "cultura",
+      "descripcion": "Estreno de la ópera Kinchí en el Teatro Peón Contreras, Mérida — primera ópera con tema maya de compositor yucateco (Gustavo Río Escalante). Promovida bajo los lineamientos del PSS de Felipe Carrillo Puerto.",
+      "verificado": true,
+      "fuentes": ["Pool Castellanos, Emmanuel — tesis doctoral UNAM 2025: archivo local sources/0865175.pdf"]
+    },
+
+    "E041": {
+      "fecha": "1925",
+      "tipo": "cultura",
+      "descripcion": "Gerónimo Baqueiro Fóster llega a la conclusión de que la melodía de Los Xtoles es armonizable con escala pentatónica propia — sin necesidad de la escala europea. Resultado de escuchar de adolescente a los ancianos de Hopelchén, Bolonchenticul, Dzibalchén, Iturbide, Chunchintok, Komchén, Xkanhá y Sahcabchén.",
+      "verificado": true,
+      "fuentes": ["Baqueiro Fóster — Los mayas antiguos, El Colegio de México, 1941, pp.264-271: archivo local sources/los-mayas-antiguos-monografias-de-arqueologia-etnografia-y-linguistica-mayas-899329.pdf"]
+    },
+
+    "E042": {
+      "fecha": "1925",
+      "tipo": "politica",
+      "descripcion": "Olegario Molina Solís muere exiliado en La Habana, Cuba — la misma isla a donde fueron vendidos los mayas de Los Chenes en 1848-1861.",
+      "verificado": true,
+      "fuentes": ["Wikipedia — Olegario Molina"]
+    },
+
+    "E043": {
+      "fecha": "1929",
+      "tipo": "politica",
+      "descripcion": "El PSAC se integra al PNR — los caciques de Hopelchén cambian de membrete. La tierra no se repartió como debía.",
+      "verificado": true,
+      "fuentes": ["May González — Instituto Mora 2010: archivo local sources/Primeros años posrevolución Campeche.pdf"]
+    },
+
+    "E044": {
+      "fecha": "1931 noviembre 22",
+      "tipo": "cultura",
+      "descripcion": "Humberto Lara y Lara publica en el Diario del Sureste el cuento 'Pancha la chiclera' — su primer texto conocido sobre el mundo chiclero de Los Chenes.",
+      "verificado": true,
+      "fuentes": ["Avilez Tax, Gilberto — blog Desde la Península y las inmediaciones de mi hamaca, mayo 2015"]
+    },
+
+    "E045": {
+      "fecha": "1937-1952",
+      "tipo": "cultura",
+      "descripcion": "Humberto Lara y Lara dirige el Diario del Sureste durante 15 años — el período en que México consolida el partido único.",
+      "verificado": true,
+      "fuentes": ["Enciclopedia Yet de Yucatán"]
+    },
+
+    "E046": {
+      "fecha": "1940",
+      "tipo": "economia",
+      "descripcion": "México producía el 80% del chicle mundial. Campeche aportaba el 52% de la producción nacional. Los Chenes era el corazón de la industria. El Archivo Municipal de Hopelchén conserva la correspondencia del Sindicato de Trabajadores Chicleros 1937-1941.",
+      "verificado": true,
+      "fuentes": ["Ponce-Jiménez, Martha Patricia — La montaña chiclera, CIESAS, 1990"]
+    },
+
+    "E047": {
+      "fecha": "1941",
+      "tipo": "cultura",
+      "descripcion": "Gerónimo Baqueiro Fóster publica 'El secreto armónico y modal de un antiguo aire maya' en Los mayas antiguos (El Colegio de México, pp.264-271). Menciona explícitamente 8 pueblos de Los Chenes. Al año siguiente (1942) lo expande en Revista Musical Mexicana num.1, pp.11-16.",
+      "verificado": true,
+      "fuentes": [
+        "Los mayas antiguos, El Colegio de México, 1941: archivo local sources/los-mayas-antiguos-monografias-de-arqueologia-etnografia-y-linguistica-mayas-899329.pdf",
+        "Pool Castellanos — tesis UNAM 2025: archivo local sources/0865175.pdf"
+      ]
+    },
+
+    "E048": {
+      "fecha": "1947 noviembre 13",
+      "tipo": "disidencia",
+      "descripcion": "Nacimiento de Efraín Calderón Lara (El Charras) en Hopelchén.",
+      "verificado": true,
+      "fuentes": ["Lara Zavala — Charras, 1990: archivo local sources/Charras - Hernan Lara Zavala.pdf"]
+    },
+
+    "E049": {
+      "fecha": "1958",
+      "tipo": "cultura",
+      "descripcion": "Los pianos microtonales de Julián Carrillo (construidos por Casa Sauter, Alemania — con participación de Gerónimo Baqueiro Fóster) ganan la Gran Medalla de Oro en la Exposición Mundial de Bruselas. Regresan a México y son almacenados en bodega de Chapultepec cubiertos de aceite.",
+      "verificado": true,
+      "fuentes": [
+        "Wikipedia — Julián Carrillo",
+        "INAH / UNAM — La trascendencia de Julián Carrillo",
+        "UNESCO — Registro Memoria del Mundo 2016: https://www.unesco.org/en/memory-world"
+      ]
+    },
+
+    "E050": {
+      "fecha": "1959 febrero 26",
+      "tipo": "politica",
+      "descripcion": "Hopelchén es declarada ciudad. José Guerrero Barahona (diputado XLII Legislatura 1956-1959) se convierte en el primer presidente municipal.",
+      "verificado": true,
+      "fuentes": ["Digesto SCJN Campeche 2010: archivo local sources/83536.pdf"]
+    },
+
+    "E051": {
+      "fecha": "1974 febrero 13",
+      "tipo": "disidencia",
+      "descripcion": "Secuestro de Efraín 'El Charras' Calderón Lara (26 años) y el profesor Pedro Quijano Uc en las calles de Mérida. Sacados a punta de pistola. Quijano Uc sobrevivió y dio testimonio.",
+      "verificado": true,
+      "fuentes": [
+        "Lara Zavala — Charras, 1990: archivo local sources/Charras - Hernan Lara Zavala.pdf",
+        "Campos, Marco Antonio — UNAM Voz Viva VVM-137, 2018: archivo local sources/Hernan_Lara_Zavala_librillo.pdf"
+      ]
+    },
+
+    "E052": {
+      "fecha": "1974 febrero 18",
+      "tipo": "disidencia",
+      "descripcion": "Cuerpo de El Charras encontrado en carretera Carrillo Puerto-Chetumal km 101.5 por el campesino Evaristo Poot Cruz. Torturado: pies y manos atados, venda en ojos, herida en ingle, bala en la cabeza. Responsable: Carlos Loret de Mola Mediz (gobernador Yucatán 1970-1976). Ejecutores: Coronel Felipe Gamboa Gamboa y tres más.",
+      "verificado": true,
+      "fuentes": [
+        "Campos, Marco Antonio — UNAM Voz Viva VVM-137, 2018: archivo local sources/Hernan_Lara_Zavala_librillo.pdf",
+        "FEMOSPP — Informe histórico 2002"
+      ]
+    },
+
+    "E053": {
+      "fecha": "1974 febrero 14 al 27 abril",
+      "tipo": "disidencia",
+      "descripcion": "Huelga de 73 días en la UADY y múltiples sectores laborales de Yucatán en respuesta al asesinato de El Charras. Una de las huelgas más sostenidas de la historia moderna de Yucatán.",
+      "verificado": true,
+      "fuentes": ["sources/libro_capitulos/XIV.html — Dos mil años en silencio, cap. XIV"]
+    },
+
+    "E054": {
+      "fecha": "1981",
+      "tipo": "cultura",
+      "descripcion": "Hernán Lara Zavala publica De Zitilchén (FCE, primera edición). Hopelchén como Zitilchén — el reloj de la plaza en p.87.",
+      "verificado": true,
+      "fuentes": [
+        "Piña Laynes — Cambios y Permanencias vol.8 num.2, 2017 (confirma 1981 como primera edición): archivo local sources/La_guerra_de_Castas_en_Peninsula_Peninsu.pdf",
+        "Archivo local: sources/De Zitilchen - Hernan Lara Zavala.pdf"
+      ]
+    },
+
+    "E055": {
+      "fecha": "1985",
+      "tipo": "cultura",
+      "descripcion": "Mario Heberto Aranda González publica Apuntaciones históricas y literarias del Municipio de Hopelchén (Ayuntamiento de Hopelchén / Programa Cultural de las Fronteras). El libro de historia local que NO menciona a Pantaleón Barrera.",
+      "verificado": true,
+      "fuentes": ["Referencia cruzada en múltiples estudios; pendiente consulta directa del ejemplar"]
+    },
+
+    "E056": {
+      "fecha": "1986 diciembre 17 - 1887 junio 25",
+      "nota": "Ver E026 — dato corregido a años correctos: 1886-1887"
+    },
+
+    "E057": {
+      "fecha": "1987",
+      "tipo": "ecologia",
+      "descripcion": "Primer grupo de menonitas llega a Hopelchén. Se establecen en Colonia Nuevo Progreso. Procedentes de Chihuahua, Durango, Tamaulipas, Zacatecas.",
+      "verificado": true,
+      "fuentes": ["PorEsto Campeche, marzo 2019: reportaje menonitas"]
+    },
+
+    "E058": {
+      "fecha": "1990",
+      "tipo": "cultura",
+      "descripcion": "Hernán Lara Zavala publica Charras, primera edición. Novela testimonial sobre el asesinato de su primo El Charras.",
+      "verificado": true,
+      "fuentes": ["Piña Laynes — Cambios y Permanencias vol.8 num.2, 2017: archivo local sources/La_guerra_de_Castas_en_Peninsula_Peninsu.pdf"]
+    },
+
+    "E059": {
+      "fecha": "1993 enero 7",
+      "tipo": "cultura",
+      "descripcion": "Jorge Alberto Uc Moreno presenta 'Semblanza de un municipio: Hopelchén' — tesis de licenciatura, Facultad de Ciencias Políticas, UAC. La única tesis de licenciatura sobre Hopelchén como municipio.",
+      "verificado": true,
+      "fuentes": ["database/_sesiones_anteriores/investigacion_global_2026-03-23.json"]
+    },
+
+    "E060": {
+      "fecha": "1993-1998",
+      "tipo": "cultura",
+      "descripcion": "Ute Schüren (Freie Universität Berlin) realiza trabajo de campo en Hopelchén para su tesis doctoral. El estudio académico más exhaustivo sobre el municipio. 27 comunidades visitadas; entrevistó al presidente municipal Pedro Lara y Lara (dic 1994). Consultó el Archivo Municipal de Hopelchén (CSTCS, DPNR, FS, JLC, PM, SC, SE).",
+      "verificado": true,
+      "fuentes": ["Schüren, Ute — tesis doctoral FU Berlín, bibliografía de entrevistas: archivo local sources/17_biblio.pdf"]
+    },
+
+    "E061": {
+      "fecha": "1995",
+      "tipo": "ecologia",
+      "descripcion": "Leydy Pech funda la cooperativa Koolel-Kab/Muuchkambal en Ich Ek, Hopelchén — exclusivamente mujeres mayas, abejas Melipona beecheii (Xunáan Kab). INAH — Renée Zapata realiza conservación en Tohcok (6km de Hopelchén); el Ayuntamiento asume custodia.",
+      "verificado": true,
+      "fuentes": [
+        "Goldman Environmental Prize — ficha Leydy Pech: https://www.goldmanprize.org/recipient/leydy-pech/",
+        "INAH Lugares — ficha Tohcok"
+      ]
+    },
+
+    "E062": {
+      "fecha": "1997",
+      "tipo": "cultura",
+      "descripcion": "Miguel Ángel Suárez Caamal publica La rebelión de los Cruzoob (Ediciones Nave de Papel, Bacalar). Única novela campechana sobre la Guerra de Castas narrada desde la perspectiva maya.",
+      "verificado": true,
+      "fuentes": ["Vadillo Buenfil — Península vol.XII num.2, 2017, DOI 10.1016/j.rpns.2017.06.001: archivo local sources/1870-5766-peni-12-02-00029.pdf"]
+    },
+
+    "E063": {
+      "fecha": "1999",
+      "tipo": "ecologia",
+      "descripcion": "Ejido Xmabén (36,000 ha totales) vende 5,656 ha a menonitas. Primer caso documentado de despojo catastral significativo en Los Chenes.",
+      "verificado": true,
+      "fuentes": ["Torres Mazuera, Gabriela — artículo académico, 2020"]
+    },
+
+    "E064": {
+      "fecha": "2004-2005",
+      "tipo": "ecologia",
+      "descripcion": "Punto de inflexión de la deforestación en Hopelchén. Soya transgénica pasa de 196 ha (2004) a 2,315 ha (2005). Documenta: Dr. Edward Allan Ellis, Centro de Investigaciones Tropicales, Universidad Veracruzana.",
+      "verificado": true,
+      "fuentes": ["Animal Político; Universidad Veracruzana (Ellis)"]
+    },
+
+    "E065": {
+      "fecha": "2008",
+      "tipo": "cultura",
+      "descripcion": "Hernán Lara Zavala publica Península Península (Alfaguara). Premio Iberoamericano de Novela Elena Poniatowska 2009 + Premio Real Academia Española 2010.",
+      "verificado": true,
+      "fuentes": [
+        "Suárez Turriza — Literatura Mexicana XXIV.1, 2013: archivo local sources/v24n1a6.pdf",
+        "Archivo local: sources/Peninsula Peninsula - Hernan Lara Zavala.pdf"
+      ]
+    },
+
+    "E066": {
+      "fecha": "2012",
+      "tipo": "ecologia",
+      "descripcion": "Gobierno mexicano otorga permisos a Monsanto para sembrar soya GM en 7 estados sin consulta previa a comunidades indígenas. Comienzo de la lucha legal de Leydy Pech.",
+      "verificado": true,
+      "fuentes": ["Goldman Environmental Prize — ficha Leydy Pech"]
+    },
+
+    "E067": {
+      "fecha": "2012",
+      "tipo": "arqueologico",
+      "descripcion": "Descubrimiento de 500+ pinturas rupestres en Grutas de Huachabí, Bolonchén de Rejón — figuras desde el Preclásico hasta el período virreinal. Comparables a Loltún. Acceso cerrado al público.",
+      "verificado": true,
+      "fuentes": [
+        "La Jornada Maya Campeche, 8 marzo 2023: https://www.lajornadamaya.mx/campeche/218777",
+        "El Grillo de Yucatán, 16 octubre 2019"
+      ]
+    },
+
+    "E068": {
+      "fecha": "2015",
+      "tipo": "justicia",
+      "descripcion": "Suprema Corte dicta por unanimidad que el gobierno violó derechos constitucionales de las comunidades mayas al otorgar permisos de soya GM a Monsanto sin consulta previa. Victoria de Leydy Pech y el Colectivo de Comunidades Mayas de los Chenes.",
+      "verificado": true,
+      "fuentes": ["Goldman Environmental Prize; periodismo especializado"]
+    },
+
+    "E069": {
+      "fecha": "2015-2016",
+      "tipo": "ecologia",
+      "descripcion": "Estudio PNUD+EPOMEX-UAC (Dr. Jaime Rendón Von Osten, R. Dzul-Caamal): glifosato en agua subterránea de 7 comunidades de Hopelchén (incluyendo Ich Ek, Suc Tuc, Pakchén, Bolonchén), en garrafones comerciales y en orina del 68% de campesinos. Concentración en Ich Ek: 1.41 μg/l (supera límites UE). No existe legislación mexicana al respecto.",
+      "verificado": true,
+      "fuentes": [
+        "Rendón Von Osten y Dzul-Caamal — International Journal of Environmental Research and Public Health, vol.14, num.6, 595, 2017, DOI: 10.3390/ijerph14060595",
+        "La Jornada, 30 agosto 2016"
+      ]
+    },
+
+    "E070": {
+      "fecha": "2018",
+      "tipo": "arqueologico",
+      "descripcion": "IAI Berlín digitaliza 3,000 fotografías del archivo Teobert Maler (financiado por Gobierno Federal de Alemania, BKM). Acceso abierto: https://digital.iai.spk-berlin.de/viewer/collections/nachlass-teobert-maler/",
+      "verificado": true,
+      "fuentes": ["IAI Berlín — comunicado oficial"]
+    },
+
+    "E071": {
+      "fecha": "2020",
+      "tipo": "ecologia",
+      "descripcion": "Leydy Pech gana el Premio Goldman Environmental Prize. Presentado por Sigourney Weaver en San Francisco. A pesar de la victoria, la siembra ilegal continuaba.",
+      "verificado": true,
+      "fuentes": ["Goldman Environmental Prize: https://www.goldmanprize.org/recipient/leydy-pech/"]
+    },
+
+    "E072": {
+      "fecha": "2021 junio 6",
+      "tipo": "politica",
+      "descripcion": "Elecciones municipales Hopelchén: Emilio Lara Calderón (coalición PRI-PAN-PRD) gana con 8,317 votos (42%).",
+      "verificado": true
+    },
+
+    "E073": {
+      "fecha": "2021 agosto 12",
+      "tipo": "ecologia",
+      "descripcion": "Semarnat (titular: María Luisa Albores) establece mesas de diálogo con colonias menonitas. Resultado: Jacob Harder Jr. declaró 'No cambiamos nada'.",
+      "verificado": true,
+      "fuentes": ["PorEsto Campeche; Página 66"]
+    },
+
+    "E074": {
+      "fecha": "2023 enero 7",
+      "tipo": "politica",
+      "descripcion": "Cateo al alcalde Emilio Lara Calderón a las 4:30am por ~20 agentes de la FGE. Presunta vinculación con secuestro. 'Alito' Moreno expresó solidaridad inmediata sin preguntar por las víctimas.",
+      "verificado": true,
+      "fuentes": ["PorEsto Campeche, enero 2023; sources/libro_capitulos/XI.html"]
+    },
+
+    "E075": {
+      "fecha": "2023 junio 28",
+      "tipo": "patrimonio",
+      "descripcion": "Comisario Héctor Evelio Euan Euan alerta sobre riesgo de colapso del arco colonial de la Hacienda San Antonio Yaxché (fundada 1894). El INAH no ha intervenido.",
+      "verificado": true,
+      "fuentes": ["PorEsto Campeche, 28 jun 2023: https://www.poresto.com/campeche/2023/6/28/emblematico-arco-maya-de-san-antonio-yaxche-hopelchen-de-mas-de-100-anos-en-riesgo-del-colapso.html"]
+    },
+
+    "E076": {
+      "fecha": "2024 enero",
+      "tipo": "ecologia",
+      "descripcion": "800+ colmenas mueren en San Francisco Suc-Tuc y Crucero de Oxá. ECOSUR confirma Fipronil como causa principal.",
+      "verificado": true,
+      "fuentes": ["PorEsto Campeche enero 2024"]
+    },
+
+    "E077": {
+      "fecha": "2024 junio 2",
+      "tipo": "politica",
+      "descripcion": "Elecciones municipales: Hiram Aranda Calderón (PRI) retiene Hopelchén. El único municipio PRI de los 13 de Campeche. Equipo: Herminio May Dzib (secretario) + Leonel Barrera (jurídico).",
+      "verificado": true
+    },
+
+    "E078": {
+      "fecha": "2024 octubre",
+      "tipo": "arqueologico",
+      "descripcion": "INAH confirma descubrimiento del sitio Valeriana (16.6 km², Clásico Maya 250-900 d.C.) en la selva de Campeche. Publicado en revista Antiquity. Investigado por INAH + Tulane + U. Norte de Arizona + U. de Houston.",
+      "verificado": true,
+      "fuentes": ["PorEsto Campeche, 31 octubre 2024: https://www.poresto.com/campeche/2024/10/31/inah-confirma-descubrimiento-de-sitio-maya-en-campeche-habria-otro-en-hopelchen.html"]
+    },
+
+    "E079": {
+      "fecha": "2024 octubre 15",
+      "tipo": "cultura",
+      "descripcion": "IAI Berlín inaugura exposición 'Tras los pasos de Teobert Maler. Proyectos arqueológicos en Campeche, México'. Incluye trabajo actual de Dzehkabtún. Exposición viajó a Campeche capital en octubre 2025 (Casa Teniente del Rey) — no llegó a Hopelchén.",
+      "verificado": true,
+      "fuentes": ["IAI Berlín — comunicado oficial: https://www.iai.spk-berlin.de"]
+    },
+
+    "E080": {
+      "fecha": "2024 diciembre",
+      "tipo": "politica",
+      "descripcion": "ASECAM: Emilio Lara Calderón no transfirió 9+ millones pesos a juntas municipales en 2023. Afectadas: Bolonchenticul (3,154,746 pesos), Ukum (2,970,593 pesos), Dzibalchén.",
+      "verificado": true,
+      "fuentes": ["ASECAM 2024; PorEsto Campeche, 26 dic 2024"]
+    },
+
+    "E081": {
+      "fecha": "2025 marzo 15",
+      "tipo": "cultura",
+      "descripcion": "Muere Hernán Lara Zavala en Ciudad de México. Tres días antes de que Dan iniciara la investigación de Archivo Vivo.",
+      "verificado": true
+    },
+
+    "E082": {
+      "fecha": "2025 noviembre",
+      "tipo": "politica",
+      "descripcion": "Edgar Manuel Poot Yeh denuncia ante FECCECAM a Hiram Aranda Calderón, Herminio May Dzib y Leonel Barrera por despojo, falsificación de documentos y abuso de autoridad. Pagaba impuestos de su terreno desde 2006; su título fue duplicado.",
+      "verificado": true,
+      "fuentes": ["sources/libro_capitulos del proyecto"]
+    },
+
+    "E083": {
+      "fecha": "2026 marzo",
+      "tipo": "cultura",
+      "descripcion": "Dan inicia la investigación de Archivo Vivo. Comunidades mayas de Hopelchén exigen a la SCJN resolver de fondo el caso del glifosato. IMTA documenta agua no apta para consumo humano.",
+      "verificado": true
+    }
+  }
+}

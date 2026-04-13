@@ -1,0 +1,518 @@
+{
+  "META": {
+    "archivo": "03_fuentes_bibliograficas.json",
+    "descripcion": "Todas las fuentes verificadas del proyecto — libros, artículos académicos, PDFs locales, archivos primarios, periodismo, fuentes web — con datos completos de acceso",
+    "proyecto": "Archivo Vivo — Hopelchén, Campeche",
+    "autora": "Daniela Naraai Caamal",
+    "consolidado_de": [
+      "database/av_fuentess.json",
+      "database/av_registro_pdfs.json",
+      "database/av_nucleo_extension.json (fuentes_nuevas_para_av_fuentes)",
+      "database/_sesiones_anteriores/fuentes.json",
+      "database/_sesiones_anteriores/hallazgos_pdfs_sesion_masiva_v3.json"
+    ],
+    "creado": "2026-04-07",
+    "total_fuentes": 49,
+    "nota_pdfs": "Los PDFs locales están en C:/Users/Oscar/Desktop/mcp-projects/Archivo Vivo/sources/ . Los marcados 'procesado' ya fueron leídos y sus datos están en la base. Los 'pendientes' no han sido leídos completamente."
+  },
+
+  "fuentes_primarias": {
+
+    "FP01_Ensayo_Baqueiro": {
+      "id": "F001",
+      "tipo": "libro_primario",
+      "titulo": "Ensayo histórico sobre las revoluciones de Yucatán desde el año 1840 hasta 1864",
+      "autor": "Serapio Baqueiro Preve",
+      "año_original": "1878 (3 tomos: tomo I 1871, tomo II 1873, tomo III 1884)",
+      "reedicion": "Universidad Autónoma de Yucatán (UADY), 1990",
+      "idioma": "Español",
+      "confiabilidad": "alta",
+      "verificado": true,
+      "datos_clave_extraidos": [
+        "Ataque de Juan de Dios May a Hopelchén, mayo 1848",
+        "Últimas palabras de Manuel Antonio Ay Tec a su hijo, p.229",
+        "Tratados de Tzucacab, abril 1848",
+        "Descripción de Iturbide antes y después del ataque maya"
+      ],
+      "nota": "La fuente primaria más citada sobre la Guerra de Castas. Autor nació en Dzitbalchén, Hopelchén. Perspectiva criolla."
+    },
+
+    "FP02_Digesto_SCJN": {
+      "id": "F012",
+      "tipo": "libro_institucional",
+      "titulo": "Digesto Constitucional Mexicano — Campeche",
+      "autores": "Manuel González Oropeza y David Cienfuegos Salgado",
+      "editorial": "Suprema Corte de Justicia de la Nación (SCJN) / TEPJF",
+      "año": "2010",
+      "paginas": "798",
+      "ISBN": "978-607-468-243-4",
+      "archivo_local": "sources/83536.pdf",
+      "estado_pdf": "procesado",
+      "idioma": "Español",
+      "confiabilidad": "alta",
+      "verificado": true,
+      "datos_clave_extraidos": [
+        "Constituyente 1861: Manuel Barrera (propietario) + Romualdo Baqueiro Lara (suplente) por Bolonchenticul",
+        "I Legislatura 1862: Pedro Lara (propietario) por Bolonchenticul — primera aparición apellido Lara",
+        "VI Legislatura 1875-1877: Pedro A. Lara (propietario) por Bolonchenticul",
+        "XXVI Legislatura 1914-1918 (2ª): PRIMERA VEZ nombre 'Hopelchén' en lugar de 'Bolonchenticul'",
+        "XXVII Legislatura 1919-1921: Benigno Lara Negrón (suplente) + Miguel Calderón (propietario, primera aparición apellido Calderón)",
+        "XLII Legislatura 1956-1959: José Guerrero Barahona — diputado y luego primer presidente municipal al declararse ciudad",
+        "L Legislatura 1980-1983: Pedro Lara y Lara como diputado por el 4° DISTRITO DE CAMPECHE CAPITAL (NO por Hopelchén)",
+        "LV Legislatura 1994-1997: Emilio Lara Solís (propietario Hopelchén)",
+        "Lista completa 1861-2003 en database/_sesiones_anteriores/legisladores_hopelchen_1861-2003.json"
+      ]
+    },
+
+    "FP03_AGEY_Bolonchenticul": {
+      "id": "F016",
+      "tipo": "archivo_primario",
+      "institucion": "Archivo General del Estado de Yucatán (AGEY)",
+      "fondo": "Poder Ejecutivo, Comandancia Militar de Yucatán, sección milicia",
+      "expediente": "Caja 169, vol.119, exp.24",
+      "descripcion": "'Relación de los indígenas de Bolonchenticul que considera acreedores de que se les libre sus credenciales de hidalgos'",
+      "año": "julio 1849",
+      "confiabilidad": "alta",
+      "verificado": true,
+      "citado_por": "Kosichenko 2025 (F007)",
+      "datos_parciales": "Apellidos de los siete: Dzul, Ku, Balam, Chan, Canche, Ek. Nombres propios completos PENDIENTES de consulta directa."
+    },
+
+    "FP04_AGEY_JoseChan": {
+      "tipo": "archivo_primario",
+      "institucion": "Archivo General del Estado de Yucatán (AGEY)",
+      "fondo": "Poder Ejecutivo, Comandancia Militar",
+      "expediente": "Caja 111, vol.61, exp.50",
+      "año": "1848",
+      "descripcion": "Caso José Chan (siervo deudor, 52 pesos) y María Jesús Herrera",
+      "datos": "José Chan se alistó como voluntario en la Guardia Nacional para escapar su condición de servidumbre — devuelto a su dueña",
+      "citado_por": "Kosichenko 2025 (F007)"
+    },
+
+    "FP05_Boletin_Yucatan_1848": {
+      "id": "F023",
+      "tipo": "fuente_primaria_periodica",
+      "titulo": "Boletín Oficial del Gobierno de Yucatán",
+      "fechas": "Mayo-junio 1848",
+      "URL": "https://hndm.iib.unam.mx/consulta/publicacion/visualizar/558075be7d1e63c9fea1a3d3",
+      "datos": "~2,000 mayas de Mérida en la Guardia Nacional para mayo 1848; Juan de Dios May mencionado",
+      "confiabilidad": "alta"
+    },
+
+    "FP06_Misterios_Barrera": {
+      "id": "F014",
+      "tipo": "libro_primario_literario",
+      "titulo": "Los misterios de Chan Santa Cruz: Historia verdadera con episodios de novela",
+      "autor": "Pantaleón Barrera (seudónimo: Napoleón Trebarra)",
+      "año": "1864",
+      "editorial": "Imprenta de M. Aldana Rivas, Mérida",
+      "acceso_digital": "HathiTrust (ejemplar U. Wisconsin-Madison): https://babel.hathitrust.org/cgi/pt?id=wu.89095721726",
+      "edicion_facsimilar": "Kessinger Publishing 2009, ISBN 9781166725785",
+      "archivo_local": "sources/Los_misterios_de_Chan_Santa_Cruz.pdf",
+      "estado_pdf": "pendiente análisis completo",
+      "datos_clave_extraidos": [
+        "Personaje Fernando Ek llega a Cuba deportado y cambia su apellido a Fernando Estrella (castellanización exacta de EK = estrella en maya)",
+        "Seudónimo Trebarra = Barrera al revés"
+      ]
+    },
+
+    "FP07_Registro_Parroquial_Hopelchen": {
+      "tipo": "archivo_primario",
+      "institucion": "Parroquia de San Antonio de Padua, Hopelchén",
+      "acceso": "FamilySearch (catalog/500346): https://www.familysearch.org/search/catalog/500346",
+      "disponible_desde": "1852",
+      "descripcion": "Registros de bautizos, matrimonios y defunciones. Muestra apellidos mayas en la práctica totalidad de los registros del siglo XIX."
+    }
+  },
+
+  "libros_academicos": {
+
+    "LA01_Kosichenko_2025": {
+      "id": "F007",
+      "tipo": "articulo_academico",
+      "titulo_original": "Майяские волонтеры на службе Национальной гвардии Юкатана (Voluntarios mayas en la Guardia Nacional de Yucatán, 1847-1851)",
+      "autor": "Ivan Nikítovich Kosichenko",
+      "institucion": "Centro de Estudios Mesoamericanos Yuri Knórosov, Universidad Estatal de Humanidades de Rusia (RGGU), Moscú",
+      "publicacion": "Latinskaya Amerika (Латинская Америка), nº 2/2025, pp.87-101",
+      "DOI": "10.31857/S0044748X25020078",
+      "idioma": "Ruso",
+      "archivo_local": "sources/700747-5268499-1-PB.pdf",
+      "estado_pdf": "procesado",
+      "confiabilidad": "alta",
+      "datos_clave_extraidos": [
+        "Los siete de Bolonchenticul: AGEY caja 169, vol.119, exp.24",
+        "José Chan: siervo deudor (52 pesos) que se alistó para escapar servidumbre — devuelto",
+        "Apellidos cambiados: Sostenes Dzul se registró como 'Estrella'; Francisco Pech como 'Pérez'",
+        "~2,000 voluntarios mayas en Guardia Nacional de Mérida para mayo 1848",
+        "Decreto 27 agosto 1847: quitó derechos ciudadanos a los indios, les prohibió portar armas",
+        "Método: el apellido maya es el marcador más confiable para identificar 'indios' en documentos siglo XIX"
+      ]
+    },
+
+    "LA02_Ferrer_Munoz_1999": {
+      "id": "F008",
+      "tipo": "articulo_academico",
+      "titulo": "La independencia de México vivida en la periferia: el caso de Yucatán",
+      "autor": "Manuel Ferrer Muñoz",
+      "institucion": "Instituto de Investigaciones Jurídicas, UNAM",
+      "publicacion": "Ius Fugit. Revista de Estudios Histórico-Jurídicos de la Corona de Aragón",
+      "volumen": "8-9",
+      "año": "1999-2000",
+      "paginas": "321-355",
+      "archivo_local": "sources/10ferrermunoz.pdf",
+      "estado_pdf": "procesado",
+      "URL_editorial": "https://ifc.dpz.es/recursos/publicaciones/23/68/14ferrermunoz.pdf",
+      "confiabilidad": "alta",
+      "datos_clave_extraidos": [
+        "CONFIRMADO: 'Serapio Baqueiro Preve nació en el partido de Hopelchén' — p.337",
+        "Serapio casado con hija de Pantaleón Barrera — matrimonio con Emilia Barrera",
+        "Sistema deuda (colcabo'ob/luneros): mecanismo que mantenía mayas atados a haciendas",
+        "Decreto agosto 1847: retiró derechos ciudadanos a indios",
+        "Justo Sierra O'Reilly: 'Yo quisiera hoy que desapareciera esa raza maldita' (diario, 1848)"
+      ]
+    },
+
+    "LA03_MayGonzalez_2010": {
+      "id": "F019",
+      "tipo": "tesis_doctoral",
+      "titulo": "Los primeros años de la posrevolución en Campeche (1921-1929)",
+      "autor": "Ángel Omar May González",
+      "director": "Dra. María del Carmen Collado Herrera",
+      "institucion": "Instituto de Investigaciones Dr. José María Luis Mora, México",
+      "año": "2010",
+      "paginas": "374",
+      "archivo_local": "sources/Primeros años posrevolución Campeche.pdf",
+      "estado_pdf": "procesado",
+      "confiabilidad": "alta",
+      "datos_clave_extraidos": [
+        "PSAC fundado 7 oct 1920 — fundadores: Ramón Félix Flores, Fernando Angli Lara, Ángel Castillo Lanz, Clodoaldo Barrera",
+        "Clodoaldo Barrera y R. Montalvo (Rafael Montalvo Paullada): representantes de Hopelchén",
+        "Rojo Amanecer: agosto 1921 - 1934 (no 1924)",
+        "Fernando Enrique Angli Lara: director simultáneo de Rojo Amanecer y del Periódico Oficial",
+        "Hopelchén: principal foco de lucha antiagraria en Campeche — finalmente derrotada",
+        "El socialismo campechano buscaba cooperación de clases, no enfrentamiento"
+      ]
+    },
+
+    "LA04_Mendoza_Castillo_2006": {
+      "tipo": "articulo_academico",
+      "titulo": "Gerónimo Baqueiro Fóster y su legado documental",
+      "autor": "Mendoza Castillo, Herlinda",
+      "cargo": "Responsable del Archivo Baqueiro Fóster, Cenidim INBA",
+      "publicacion": "Revista Digital Universitaria, UNAM",
+      "volumen": "vol.7, num.2",
+      "fecha": "10 febrero 2006",
+      "ISSN": "1067-6079",
+      "URL": "http://www.revista.unam.mx/vol.7/num2/art16/feb_art16.pdf",
+      "archivo_local": "sources/feb_art16.pdf",
+      "estado_pdf": "procesado",
+      "confiabilidad": "alta",
+      "datos_clave_extraidos": [
+        "Acta de nacimiento expediente 2699B938 confirma 25 enero 1892 como fecha de nacimiento de Baqueiro Fóster en Hopelchén",
+        "Abuelo musical: Cirilo Baqueiro Prevé 'Chan Cil'",
+        "Archivo personal donado al Cenidim: 4,052 expedientes, 32,859 documentos (1854-1985)",
+        "Obra pedagógica: Curso completo de solfeo, 10 ediciones 1939-1970, Ricordi Americana",
+        "11 seudónimos periodísticos confirmados",
+        "Más de 6,000 artículos en 60+ diarios y revistas"
+      ]
+    },
+
+    "LA05_VadilloBuenfil_2017": {
+      "id": "F009",
+      "tipo": "articulo_academico",
+      "titulo": "La Guerra de Castas en La rebelión de los Cruzoob, de Miguel Ángel Suárez Caamal: de la veracidad histórica a la ficción novelesca",
+      "autor": "Carlos Vadillo Buenfil",
+      "institucion": "Universidad Autónoma de Campeche",
+      "publicacion": "Península",
+      "volumen": "vol.XII, num.2",
+      "año": "2017",
+      "paginas": "29-48",
+      "DOI": "10.1016/j.rpns.2017.06.001",
+      "ISSN": "1870-5766",
+      "acceso": ["SciELO", "Redalyc", "Dialnet", "ScienceDirect"],
+      "archivo_local": "sources/1870-5766-peni-12-02-00029.pdf",
+      "estado_pdf": "procesado",
+      "confiabilidad": "alta",
+      "datos_clave_extraidos": [
+        "Lista completa de novelas sobre la Guerra de Castas",
+        "Suárez Caamal: nacido Calkiní, Campeche, 2 junio 1953",
+        "Justo Sierra O'Reilly en El Fénix: 'Esta raza debe ser sojuzgada severamente'"
+      ]
+    },
+
+    "LA06_PinaLaynes_2017": {
+      "tipo": "articulo_academico",
+      "titulo": "La Guerra de Castas en Península Península: del acontecimiento histórico a la ficción novelesca",
+      "autor": "Piña Laynes, Alma Alicia",
+      "institucion": "Universidad Autónoma de Campeche",
+      "publicacion": "Cambios y Permanencias",
+      "volumen": "vol.8, num.2",
+      "año": "2017",
+      "paginas": "522-539",
+      "editorial": "Universidad Industrial de Santander",
+      "archivo_local": "sources/La_guerra_de_Castas_en_Peninsula_Peninsu.pdf",
+      "estado_pdf": "procesado",
+      "confiabilidad": "alta",
+      "datos_clave_extraidos": [
+        "Primera edición De Zitilchén: 1981 FCE (no 2012)",
+        "Primera edición Charras: 1990 (no 2022)",
+        "Madre de Lara Zavala era campechana; padre yucateco",
+        "Premio de Península Península: Elena Poniatowska 2009 (Alfaguara)",
+        "Corpus completo de novelas sobre la Guerra de Castas"
+      ]
+    },
+
+    "LA07_SuarezTurriza_2013": {
+      "id": "F010",
+      "tipo": "articulo_academico",
+      "titulo": "Península, Península; el Yucatán del siglo XIX en la memoria del novelista contemporáneo",
+      "autor": "Suárez Turriza, Tatiana",
+      "institucion": "CEPHCIS, UNAM",
+      "publicacion": "Literatura Mexicana",
+      "volumen": "XXIV.1",
+      "año": "2013",
+      "paginas": "111-129",
+      "archivo_local": "sources/v24n1a6.pdf",
+      "estado_pdf": "procesado",
+      "confiabilidad": "alta"
+    },
+
+    "LA08_RodriguezLozano_HISPADOC": {
+      "tipo": "articulo_critico",
+      "titulo": "El proceso narrativo de Hernán Lara Zavala",
+      "autor": "Rodríguez Lozano, Miguel G.",
+      "institucion": "Instituto de Investigaciones Filológicas, UNAM",
+      "publicacion": "HISPADOC",
+      "archivo_local": "sources/Hispadoc-ElProcesoNarrativoDeHernanLaraZavala-9494632.pdf",
+      "estado_pdf": "procesado",
+      "datos_clave_extraidos": [
+        "Hernán Lara Zavala nació en 1946 en Ciudad de México (según HISPADOC) — discrepancia con 1947 en otras fuentes",
+        "Primera edición De Zitilchén: 1981",
+        "Zitilchén: 'en la mojonera Puc, en la exacta intersección de los estados de Campeche, Yucatán y Quintana Roo'"
+      ]
+    },
+
+    "LA09_TaracenaArriola_2019": {
+      "tipo": "libro_academico",
+      "titulo": "De la nostalgia por la memoria a la memoria nostálgica: La prensa literaria y la construcción del regionalismo yucateco en el siglo XIX",
+      "autor": "Taracena Arriola, Arturo",
+      "institucion": "UNAM/CEPHCIS, Mérida",
+      "año": "2019",
+      "ISBN": "978-607-30-2352-8",
+      "archivo_local": "sources/05-de-la-nostalgia.pdf",
+      "estado_pdf": "procesado",
+      "confiabilidad": "alta",
+      "nota": "Serapio Baqueiro Preve es la principal fuente histórica citada para el período de la Guerra de Castas en el siglo XIX yucateco"
+    },
+
+    "LA10_PoolCastellanos_2025": {
+      "tipo": "tesis_doctoral",
+      "titulo": "Kinchí, Xunan tunich y Dignidad maya: Representaciones de 'lo maya' en la ópera yucateca, 1924-1934",
+      "autor": "Pool Castellanos, Emmanuel",
+      "institucion": "Facultad de Música, UNAM",
+      "año": "2025",
+      "archivo_local": "sources/0865175.pdf",
+      "estado_pdf": "procesado",
+      "confiabilidad": "alta",
+      "datos_clave_extraidos": [
+        "Ópera Kinchí estrenada 17 septiembre 1924, Teatro Peón Contreras, Mérida (compositor: Gustavo Río Escalante)",
+        "Promovida bajo lineamientos del PSS de Felipe Carrillo Puerto",
+        "Río Escalante confirmó a Stokowski que Los Xtoles se ejecutan en el Carnaval — NO en ceremonias prehispánicas",
+        "Centro de Documentación Gerónimo Baqueiro Fóster en la Universidad de las Artes de Yucatán"
+      ]
+    },
+
+    "LA11_PonceJimenez_1990": {
+      "id": "F020",
+      "tipo": "libro_academico",
+      "titulo": "La montaña chiclera. Campeche: vida cotidiana y trabajo (1900-1950)",
+      "autor": "Ponce-Jiménez, Martha Patricia",
+      "editorial": "CIESAS",
+      "año": "1990",
+      "confiabilidad": "alta",
+      "datos_clave_extraidos": [
+        "1940: México producía el 80% del chicle mundial; Campeche aportaba el 52%",
+        "Los Chenes era el corazón de la industria chiclera",
+        "8 consorcios norteamericanos con concesiones en Hopelchén"
+      ]
+    },
+
+    "LA12_AlvarezCuartero_2007": {
+      "id": "F026",
+      "tipo": "articulo_academico",
+      "titulo": "De Tihosuco a La Habana: mayas yucatecos en Cuba (1848-1861)",
+      "autor": "Álvarez Cuartero, Izaskun",
+      "publicacion": "Studia Historica: Historia Contemporánea",
+      "volumen": "vol.25",
+      "año": "2007",
+      "paginas": "559-576",
+      "acceso": "JSTOR",
+      "confiabilidad": "alta",
+      "verificado": true,
+      "relevancia": "Apellidos exactos de mayas vendidos a Cuba — clave para hilo Cuba"
+    },
+
+    "LA13_RendonVonOsten_2017": {
+      "tipo": "articulo_cientifico",
+      "titulo": "Glyphosate Residues in Groundwater, Drinking Water and Urine of Subsistence Farmers from Intensive Agriculture Localities: A Survey in Hopelchén, Campeche, México",
+      "autores": ["Rendón Von Osten, Jaime", "Dzul-Caamal, R."],
+      "institucion": "EPOMEX, Universidad Autónoma de Campeche",
+      "publicacion": "International Journal of Environmental Research and Public Health",
+      "volumen": "vol.14, num.6",
+      "articulo": "595",
+      "año": "2017",
+      "DOI": "10.3390/ijerph14060595",
+      "encargo": "Programa de Manejo de Riesgos del PNUD (ONU)",
+      "confiabilidad": "alta",
+      "verificado": true,
+      "datos_clave_extraidos": [
+        "Glifosato en agua subterránea de 7 comunidades (Ich Ek, Suc Tuc, Pakchén, Bolonchén y otras)",
+        "Glifosato en garrafones comerciales de agua",
+        "Glifosato en orina del 68% de campesinos estudiados",
+        "Concentración más alta: Ich Ek, 1.41 μg/l (supera límites máximos UE para agua subterránea)",
+        "México no tiene legislación que regule estos límites"
+      ]
+    },
+
+    "LA14_RodriguezPina_1990": {
+      "id": "F030",
+      "tipo": "libro",
+      "titulo": "Guerra de castas: la venta de indios mayas a Cuba, 1848-1861",
+      "autor": "Rodríguez Piña, Javier",
+      "editorial": "CONACULTA",
+      "año": "1990",
+      "ISBN": "9789682928185",
+      "confiabilidad": "alta",
+      "estado": "No digitalizado — buscar en bibliotecas universitarias",
+      "datos_clave_extraidos": [
+        "700-2,000 mayas deportados a Cuba 1848-1861",
+        "25 pesos por maya capturado al erario yucateco",
+        "Revendidos en La Habana: niños 60 pesos, mujeres 120, hombres 160"
+      ]
+    },
+
+    "LA15_RamirezCarrillo_1994": {
+      "id": "F018",
+      "tipo": "articulo_academico",
+      "titulo": "De buhoneros a empresarios: la inmigración libanesa en el sureste de México",
+      "autor": "Ramírez Carrillo, Luis Alfonso",
+      "publicacion": "Historia Mexicana, El Colegio de México",
+      "volumen": "vol.43, num.3",
+      "año": "1994",
+      "paginas": "451-486",
+      "URL": "https://historiamexicana.colmex.mx/index.php/RHM/article/view/2268",
+      "confiabilidad": "alta",
+      "verificado": true,
+      "datos_clave_extraidos": [
+        "87 familias libanesas en Campeche 1882-1927 — NINGUNA en Hopelchén",
+        "La familia libanesa más cercana a Hopelchén: Badih Sleme en Hecelchakán (1921)",
+        "Conclusión: la penetración libanesa en Los Chenes fue mínima o inexistente"
+      ]
+    }
+  },
+
+  "pdfs_locales": {
+    "nota": "Ubicación: C:/Users/Oscar/Desktop/mcp-projects/Archivo Vivo/sources/",
+
+    "libros_lara_zavala": [
+      {"archivo": "De Zitilchen - Hernan Lara Zavala.pdf", "titulo": "De Zitilchén", "año_primera_edicion": "1981 (FCE)", "estado": "procesado", "datos": "Hopelchén como Zitilchén; reloj plaza p.87; Holcatzín; Milo Ek"},
+      {"archivo": "Charras - Hernan Lara Zavala.pdf", "titulo": "Charras", "año_primera_edicion": "1990", "estado": "procesado", "datos": "Cantina Samuel Cervera p.18; 9 sindicatos; km 101.5; Evaristo Poot Cruz; padre de El Charras p.19"},
+      {"archivo": "Peninsula Peninsula - Hernan Lara Zavala.pdf", "titulo": "Península Península", "año": "2008", "estado": "procesado", "datos": "Miss Bell 15 feb 1847; Holcatzín p.40-41; Benigno Lara p.89; Juan de Dios May p.92; Baile Verde Barrera+Baqueiro p.18"},
+      {"archivo": "Macho viejo - Hernan Lara Zavala.pdf", "estado": "pendiente", "nota": "Verificar referencias a Hopelchén"},
+      {"archivo": "Antologia personal de Hernan Lara Zavala - Hernan Lara Zavala.pdf", "estado": "pendiente"}
+    ],
+
+    "fuentes_academicas_procesadas": [
+      {"archivo": "700747-5268499-1-PB.pdf", "fuente": "Kosichenko 2025 — Voluntarios mayas", "estado": "procesado"},
+      {"archivo": "10ferrermunoz.pdf", "fuente": "Ferrer Muñoz — Ius Fugit 1999-2000", "estado": "procesado"},
+      {"archivo": "1870-5766-peni-12-02-00029.pdf", "fuente": "Vadillo Buenfil 2017 — La rebelión de los Cruzoob", "estado": "procesado"},
+      {"archivo": "v24n1a6.pdf", "fuente": "Suárez Turriza 2013 — Análisis Península Península", "estado": "procesado"},
+      {"archivo": "05-de-la-nostalgia.pdf", "fuente": "Taracena Arriola — UNAM/CEPHCIS 2019", "estado": "procesado"},
+      {"archivo": "La_guerra_de_Castas_en_Peninsula_Peninsu.pdf", "fuente": "Piña Laynes 2017", "estado": "procesado"},
+      {"archivo": "83536.pdf", "fuente": "Digesto Constitucional SCJN — Campeche 2010", "estado": "procesado"},
+      {"archivo": "feb_art16.pdf", "fuente": "Mendoza Castillo 2006 — Baqueiro Fóster UNAM", "estado": "procesado"},
+      {"archivo": "los-mayas-antiguos-monografias-de-arqueologia-etnografia-y-linguistica-mayas-899329.pdf", "fuente": "Los mayas antiguos, El Colegio de México, 1941", "estado": "procesado_parcial", "nota": "Solo pp.264-271 (capítulo Baqueiro Fóster)"},
+      {"archivo": "Hispadoc-ElProcesoNarrativoDeHernanLaraZavala-9494632.pdf", "fuente": "Rodríguez Lozano — HISPADOC", "estado": "procesado"},
+      {"archivo": "0865175.pdf", "fuente": "Pool Castellanos, UNAM 2025 — tesis ópera yucateca", "estado": "procesado"},
+      {"archivo": "17_biblio.pdf", "fuente": "Schüren FU Berlín — bibliografía de entrevistas 1993-1998", "estado": "procesado"},
+      {"archivo": "Primeros años posrevolución Campeche.pdf", "fuente": "May González 2010 — Instituto Mora (tesis doctoral)", "estado": "procesado"},
+      {"archivo": "Hernan_Lara_Zavala_librillo.pdf", "fuente": "Campos, Marco Antonio — UNAM Voz Viva VVM-137, 2018", "estado": "procesado"},
+      {"archivo": "Dos mil años de silencio.pdf", "fuente": "Caamal, Daniela Naraai — libro en preparación", "DOI": "https://doi.org/10.5281/zenodo.19140910", "estado": "procesado"}
+    ],
+
+    "fuentes_academicas_pendientes": [
+      {"archivo": "14-...de-como-los-libaneses.pdf", "fuente": "Ramírez Carrillo — UNAM/CEPHCIS 2012 — libaneses en Campeche", "estado": "pendiente", "prioridad": "alta"},
+      {"archivo": "CampeChe_Una_C_iU_da_d_e_n_la_penins_Ula (1).pdf", "fuente": "May González — contexto histórico regional", "estado": "pendiente"},
+      {"archivo": "Dialnet-SierraSur-709324.pdf", "fuente": "Dialnet — posible relación Justo Sierra O'Reilly", "estado": "pendiente"},
+      {"archivo": "R05042.pdf", "fuente": "Archivo económico — recortes prensa henequén c.1949-1955 (Lisandro Lara)", "estado": "procesado_parcial"},
+      {"archivo": "PfDyihmsiwwUWFBtCnsyA0NQSQWxzbwjwYYhtPJx.pdf", "fuente": "Antología ADO GL 4, 2012 (incluye texto de Lara Zavala)", "estado": "procesado"},
+      {"archivo": "1997_1442 SEGUNDA SECCION.pdf", "fuente": "Periódico Oficial Campeche 1997 — 161MB", "estado": "pendiente", "nota": "Muy grande — leer en rangos específicos"},
+      {"archivo": "31YU2016ED081.pdf", "estado": "pendiente", "nota": "Pendiente identificar contenido"},
+      {"archivo": "Los_misterios_de_Chan_Santa_Cruz.pdf", "fuente": "Barrera 1864 — novela completa", "estado": "pendiente_análisis_completo"}
+    ]
+  },
+
+  "fuentes_web_verificadas": [
+    {"nombre": "Goldman Environmental Prize — Leydy Pech", "URL": "https://www.goldmanprize.org/recipient/leydy-pech/", "confiabilidad": "alta"},
+    {"nombre": "IAI Berlín — Colección Teobert Maler", "URL": "https://www.iai.spk-berlin.de/biblioteca/colecciones-especiales/legados/maler-teobert.html", "confiabilidad": "alta"},
+    {"nombre": "IAI Berlín — Colección digital Maler", "URL": "https://digital.iai.spk-berlin.de/viewer/collections/nachlass-teobert-maler/", "confiabilidad": "alta"},
+    {"nombre": "HathiTrust — Los misterios de Chan Santa Cruz", "URL": "https://babel.hathitrust.org/cgi/pt?id=wu.89095721726", "confiabilidad": "alta"},
+    {"nombre": "Sonido 13 — historia oficial Julián Carrillo", "URL": "https://sonido13.com/index.php/historia/", "confiabilidad": "alta"},
+    {"nombre": "UNESCO — Registro Memoria del Mundo — Julián Carrillo 2016", "URL": "https://www.unesco.org/en/memory-world", "confiabilidad": "alta"},
+    {"nombre": "INAH — Zonas arqueológicas", "URL": "https://inah.gob.mx/zonas/", "confiabilidad": "alta"},
+    {"nombre": "Enciclopedia Yet de Yucatán", "URL": "https://enciclopediayet.com", "confiabilidad": "alta"},
+    {"nombre": "ELEM — Enciclopedia de la Literatura en México", "URL": "https://www.elem.mx", "confiabilidad": "alta"},
+    {"nombre": "Revista Digital Universitaria UNAM — Mendoza Castillo 2006", "URL": "http://www.revista.unam.mx/vol.7/num2/art16/feb_art16.pdf", "confiabilidad": "alta"},
+    {"nombre": "INAFED — Enciclopedia Municipios, Hopelchén", "URL": "http://www.inafed.gob.mx/work/enciclopedia/EMM04campeche/municipios/04006a.html", "confiabilidad": "alta"},
+    {"nombre": "FamilySearch — Parroquia Hopelchén", "URL": "https://www.familysearch.org/search/catalog/500346", "confiabilidad": "alta"},
+    {"nombre": "Boletín UNAM — Zalaquett Rock, Universos Sonoros Mayas, 2023", "URL": "https://www.dgcs.unam.mx/boletin/bdboletin/2023_986.html", "confiabilidad": "alta"},
+    {"nombre": "PorEsto Campeche — Valeriana, oct 2024", "URL": "https://www.poresto.com/campeche/2024/10/31/inah-confirma-descubrimiento-de-sitio-maya-en-campeche-habria-otro-en-hopelchen.html", "confiabilidad": "media"},
+    {"nombre": "La Jornada Maya — Grutas de Huachabí, 2023", "URL": "https://www.lajornadamaya.mx/campeche/218777/las-cuevas-de-huachabi-y-sus-pinturas-rupestres-mayas-en-campeche", "confiabilidad": "alta"},
+    {"nombre": "CIDE/ECOS — Olegario Molina a 100 años", "URL": "https://ecos.cide.edu", "confiabilidad": "alta"}
+  ],
+
+  "archivos_primarios_pendientes": {
+    "AGEY": {
+      "descripcion": "Archivo General del Estado de Yucatán, Mérida",
+      "expedientes_prioritarios": [
+        "Caja 169, vol.119, exp.24 — Los siete de Bolonchenticul 1849 (nombres exactos pendientes)",
+        "Caja 111, vol.61, exp.50 — José Chan y María Jesús Herrera 1848",
+        "Boletín Oficial Gobierno Yucatán mayo-junio 1848"
+      ]
+    },
+    "AGEC": {
+      "descripcion": "Archivo General del Estado de Campeche",
+      "expedientes_prioritarios": [
+        "Fondo PSAC — correspondencia Hopelchén 1920-1929",
+        "Rojo Amanecer 1921-1934 — colección completa"
+      ]
+    },
+    "AMH": {
+      "descripcion": "Archivo Municipal de Hopelchén",
+      "secciones_identificadas_por_Schüren": [
+        "CSTCS — Correspondencia Sindicato Trabajadores Chicleros 1937-1941",
+        "DPNR — Documentos PNR 1935",
+        "FS — Formación de Sindicatos",
+        "JLC — Junta Local de los Censos",
+        "PM — Presidencia Municipal",
+        "SC — Sección de Correspondencia",
+        "SE — Sección Estadística"
+      ],
+      "estado": "No consultado en esta investigación — consulta física pendiente"
+    },
+    "Cenidim_INBA": {
+      "descripcion": "Centro Nacional de Investigación, Documentación e Información Musical, INBA, Ciudad de México",
+      "expediente": "2699B938 — Acta de nacimiento Gerónimo Baqueiro Fóster (25 enero 1892, Hopelchén)",
+      "estado": "Citado por Mendoza Castillo 2006; pendiente consulta directa del original"
+    },
+    "Archivo_Nacional_Cuba": {
+      "descripcion": "La Habana, Cuba",
+      "busquedas_prioritarias": [
+        "Registros de entrada de contratados yucatecos 1848-1861",
+        "Apellidos Che, Nagua, Cusán en registros coloniales",
+        "Documentos del vapor México y otros barcos del tráfico"
+      ],
+      "estado": "Pendiente consulta"
+    }
+  }
+}

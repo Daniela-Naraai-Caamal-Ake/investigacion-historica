@@ -1,0 +1,595 @@
+{
+  "META": {
+    "archivo": "01_personajes.json",
+    "descripcion": "Personajes históricos, contemporáneos e investigadores relacionados con Hopelchén / Los Chenes — consolidado y deduplicado",
+    "proyecto": "Archivo Vivo — Hopelchén, Campeche",
+    "autora": "Daniela Naraai Caamal",
+    "consolidado_de": [
+      "database/av_nucleo.json",
+      "database/av_nucleo_extension.json",
+      "database/_sesiones_anteriores/base_historica_hopelchen.json",
+      "database/_sesiones_anteriores/hallazgos_pdfs_sesion_masiva_v3.json",
+      "database/_sesiones_anteriores/investigacion_bloques_B_H_2026-03-30.json",
+      "database/_sesiones_anteriores/leydy_pech_perfil.json"
+    ],
+    "creado": "2026-04-07",
+    "total_personajes": 50,
+    "nota_deduplicacion": "P034 en av_nucleo_extension era actualización de P011 — integrado. base_historica_hopelchen.json contenía personajes P001-P030 con ligeras variaciones de formato; se priorizó la versión más detallada."
+  },
+
+  "linajes_familiares": {
+    "FAM001_Lara": {
+      "tipo": "poder_politico",
+      "periodo": "1861–presente (164 años documentados)",
+      "fuente_primaria": "Digesto Constitucional Mexicano — Campeche (SCJN 2010, ISBN 978-607-468-243-4), archivo local: sources/83536.pdf",
+      "linea_cronologica": [
+        {"año": "1862", "nombre": "Pedro Lara", "cargo": "Diputado propietario Bolonchenticul, I Legislatura Campeche"},
+        {"año": "1875-1877", "nombre": "Pedro A. Lara (Pedro Advíncula)", "cargo": "Diputado propietario Bolonchenticul, VI Legislatura"},
+        {"año": "1902-1910", "nombre": "Emilio Lara Sánchez", "cargo": "Diputado suplente Bolonchenticul, XX-XXII Legislaturas (tres períodos consecutivos)"},
+        {"año": "1908-1912", "nombre": "Pedro Lara Sánchez", "cargo": "Diputado suplente Bolonchenticul, XXIII-XXIV Legislaturas"},
+        {"año": "1914-1918", "nombre": "Fernando Angli Lara", "cargo": "Director simultáneo de Rojo Amanecer y del Periódico Oficial del Estado"},
+        {"año": "1919-1921", "nombre": "Benigno Lara Negrón", "cargo": "Diputado suplente Hopelchén, XXVII Legislatura"},
+        {"año": "1937-1940", "nombre": "José Lara B.", "cargo": "Diputado propietario Hopelchén, XXXV Legislatura"},
+        {"año": "1937-1952", "nombre": "Humberto Lara y Lara", "cargo": "Director del Diario del Sureste; operador PRI 25 años"},
+        {"año": "1980-1983", "nombre": "Pedro Lara y Lara", "cargo": "Diputado 4° distrito Campeche capital, L Legislatura (NO por Hopelchén)"},
+        {"año": "1994", "nombre": "Pedro Lara y Lara", "cargo": "Presidente Municipal Hopelchén — entrevistado por Ute Schüren (FU Berlín), 12 dic 1994"},
+        {"año": "1994-1997", "nombre": "Emilio Lara Solís", "cargo": "Diputado propietario Hopelchén, LV Legislatura"},
+        {"año": "1997-2000", "nombre": "Jorge Lara López", "cargo": "Diputado propietario Hopelchén, LVI Legislatura"},
+        {"año": "2021-2024", "nombre": "Emilio Lara Calderón", "cargo": "Alcalde Hopelchén"}
+      ]
+    },
+    "FAM002_Baqueiro": {
+      "tipo": "intelectual_cultural",
+      "origen": "Dzitbalchén, municipio de Hopelchén",
+      "periodo": "1838–presente",
+      "nota": "La familia intelectual más importante producida por el municipio — completamente invisible en él",
+      "arbol_genealogico": [
+        {"generacion": 1, "nombre": "Serapio Baqueiro Preve (1838-1900)", "rol": "Historiador de la Guerra de Castas; gobernador provisional Yucatán 1883"},
+        {"generacion": 1, "nombre": "Cirilo Baqueiro Preve 'Chan Cil' (1848-1910)", "rol": "Patriarca de la trova yucateca"},
+        {"generacion": 2, "nombre": "Serapio Baqueiro Barrera (1865-1940)", "rol": "Poeta modernista; periodista Diario del Sureste"},
+        {"generacion": 2, "nombre": "Gerónimo Baqueiro Fóster (1892-1967)", "rol": "Musicólogo; primer académico que documentó música maya"},
+        {"generacion": 3, "nombre": "Oswaldo Baqueiro Anduze (1902-1945)", "rol": "Historiador; cofundador Diario del Sureste 1932"},
+        {"generacion": 4, "nombre": "Oswaldo Baqueiro López", "rol": "Director Diario del Sureste; Medalla al Periodismo Cultural Yucatán"}
+      ]
+    },
+    "FAM003_Barrera": {
+      "tipo": "poder_politico",
+      "periodo": "1840–presente",
+      "linea_cronologica": [
+        {"año": "1840-1843", "nombre": "Pantaleón Barrera", "cargo": "Síndico Hopelchén"},
+        {"año": "1848", "nombre": "Pantaleón Barrera", "cargo": "Firmó decreto venta mayas a Cuba"},
+        {"año": "1861", "nombre": "Manuel Barrera", "cargo": "Diputado propietario Bolonchenticul, Congreso Constituyente"},
+        {"año": "1877-1880", "nombre": "Demetrio Barrera", "cargo": "Diputado Bolonchenticul (propietario y suplente)"},
+        {"año": "1920", "nombre": "Clodoaldo Barrera", "cargo": "Cofundador PSAC"},
+        {"año": "2024", "nombre": "Leonel Barrera", "cargo": "Director jurídico Ayuntamiento Hopelchén"}
+      ],
+      "fuente": "Digesto SCJN 2010, sources/83536.pdf"
+    },
+    "FAM005_Calderon": {
+      "tipo": "mixto",
+      "linea": [
+        {"año": "1919-1921", "nombre": "Miguel Calderón", "cargo": "Diputado propietario Hopelchén — primera aparición del apellido en legislatura"},
+        {"año": "1947-1974", "nombre": "Efraín Calderón Lara 'El Charras'", "cargo": "Sindicalista; asesinado"},
+        {"año": "2009", "nombre": "Luis Alberto Calderón Barrera", "cargo": "Diputado — tres apellidos del siglo XIX en un nombre del XXI"},
+        {"año": "2021", "nombre": "Emilio Lara Calderón", "cargo": "Alcalde — fusión Lara + Calderón"},
+        {"año": "2024", "nombre": "Hiram Aranda Calderón", "cargo": "Alcalde actual"}
+      ]
+    }
+  },
+
+  "personajes": {
+
+    "P001": {
+      "nombre": "Pantaleón Barrera Cámara",
+      "periodo": "c.1810–c.1870",
+      "origen": "Hopelchén, Campeche",
+      "roles": ["Síndico ayuntamiento Hopelchén 1840-1843", "Gobernador Yucatán (dos períodos)", "Traficante de mayas a Cuba", "Novelista (seudónimo Napoleón Trebarra)"],
+      "hechos_verificados": [
+        "1848: Participó en o fue cómplice del decreto Barbachano que permitió venta de mayas a Cuba",
+        "1849-1861: ~1,046-2,000 mayas documentados enviados a Cuba; precios: 25 pesos al erario, revendidos niños 60, mujeres 120, hombres 160 pesos",
+        "1857: Su elección como gobernador de Yucatán desencadenó la separación de Campeche como estado",
+        "1858 enero 29: Hopelchén se declara parte del nuevo Estado de Campeche",
+        "1864: Publicó Los misterios de Chan Santa Cruz bajo seudónimo Napoleón Trebarra (Trebarra = Barrera al revés)",
+        "1865: Carlota le otorgó medalla imperial",
+        "Informe Juan Suárez Navarro 1861 lo señala entre funcionarios implicados en tráfico de mayas"
+      ],
+      "fuentes": [
+        {"tipo": "fuente_primaria", "descripcion": "Informe Juan Suárez Navarro al gobierno federal, 1861"},
+        {"tipo": "novela", "titulo": "Los misterios de Chan Santa Cruz", "año": 1864, "disponible_en": "HathiTrust: https://babel.hathitrust.org/cgi/pt?id=wu.89095721726", "ISBN_facsimilar": "9781166725785 (Kessinger Publishing 2009)", "archivo_local": "sources/Los_misterios_de_Chan_Santa_Cruz.pdf"},
+        {"tipo": "libro", "autor": "Ferrer Muñoz, Manuel", "titulo": "La independencia de México: el caso de Yucatán", "publicacion": "Ius Fugit 8-9, 1999-2000", "archivo_local": "sources/10ferrermunoz.pdf"},
+        {"tipo": "articulo", "autor": "Vadillo Buenfil, Carlos", "publicacion": "Península vol.XII num.2, 2017", "DOI": "10.1016/j.rpns.2017.06.001", "archivo_local": "sources/1870-5766-peni-12-02-00029.pdf"}
+      ]
+    },
+
+    "P002": {
+      "nombre": "Serapio Baqueiro Preve",
+      "nacimiento": {"fecha": "14 noviembre 1838", "lugar": "Dzitbalchén, Hopelchén, Campeche", "verificado": true},
+      "muerte": {"fecha": "17 marzo 1900", "lugar": "Mérida, Yucatán", "verificado": true},
+      "roles": ["Historiador", "Abogado", "Magistrado", "Gobernador provisional Yucatán 1883", "Director Escuela Normal"],
+      "hechos_verificados": [
+        "Hijo adoptivo del Coronel Cirilo Baqueiro Cámara (military anti-maya)",
+        "Hermano mayor de Chan Cil (trovador Cirilo Baqueiro Preve)",
+        "Estudió en Seminario Conciliar San Ildefonso, Mérida",
+        "Casado con hija de Pantaleón Barrera — Emilia Barrera (confirmado: Ferrer Muñoz, Ius Fugit p.337)",
+        "Sostenía que los indios eran 'el obstáculo más insuperable para la civilización'",
+        "Miembro Sociedad Literaria La Concordia junto con Olegario Molina Solís"
+      ],
+      "obra_principal": {
+        "titulo": "Ensayo histórico sobre las revoluciones de Yucatán desde el año 1840 hasta 1864",
+        "año": "1878 (3 tomos: 1871, 1873, 1884)",
+        "reedicion": "UADY, 1990",
+        "importancia": "Primera fuente primaria sistemática sobre la Guerra de Castas — fuente más citada sobre el período"
+      },
+      "fuentes": [
+        {"tipo": "articulo", "autor": "Ferrer Muñoz, Manuel", "publicacion": "Ius Fugit 8-9, 1999-2000, p.337", "archivo_local": "sources/10ferrermunoz.pdf"},
+        {"tipo": "enciclopedia", "nombre": "Enciclopedia Yet de Yucatán", "URL": "https://enciclopediayet.com"},
+        {"tipo": "libro", "autor": "Taracena Arriola, Arturo", "titulo": "De la nostalgia por la memoria a la memoria nostálgica", "editorial": "UNAM/CEPHCIS, 2019", "ISBN": "978-607-30-2352-8", "archivo_local": "sources/05-de-la-nostalgia.pdf"}
+      ]
+    },
+
+    "P003": {
+      "nombre": "Cirilo Baqueiro Preve",
+      "apodo": "Chan Cil",
+      "nacimiento": {"fecha": "24 diciembre 1848 (bautizado 3 enero 1849)", "lugar": "San Francisco de Campeche", "verificado": true},
+      "muerte": {"fecha": "17 septiembre 1910", "lugar": "Mérida, Yucatán", "verificado": true},
+      "roles": ["Patriarca de la trova yucateca", "Compositor", "Violinista autodidacta"],
+      "hechos_verificados": [
+        "Hermano menor de Serapio Baqueiro Preve — ambos hijos adoptivos del Cnel. Cirilo Baqueiro Cámara",
+        "Canciones principales: Despedida (1880 — primera canción trova yucateca), ¿Te acuerdas?, La mestiza, Ko'oten x-boox",
+        "1909: publicó cancionero en Imprenta Luis Rosado Vega",
+        "1920: Julián Carrillo usó su canción ¿Te acuerdas? en la Suite de los Naranjos con la Orquesta Sinfónica Nacional",
+        "1985: Ayuntamiento Mérida instituyó Presea Chan Cil en su honor",
+        "2007: ICY publicó Cancionero Chan Cil con CD",
+        "Sus restos en Monumento a los Creadores de la Canción Yucateca, Cementerio General Mérida",
+        "Sala dedicada en el Museo de la Canción Yucateca (fundado por su nieta Rosario Cáceres Baqueiro)"
+      ],
+      "fuentes": [
+        {"tipo": "web", "URL": "https://es.wikipedia.org/wiki/Chan_Cil"},
+        {"tipo": "enciclopedia", "nombre": "Enciclopedia Yet de Yucatán"},
+        {"tipo": "libro_academico", "titulo": "Los mayas antiguos", "editorial": "El Colegio de México, 1941", "nota": "Gerónimo Baqueiro Fóster lo documenta", "archivo_local": "sources/los-mayas-antiguos-monografias-de-arqueologia-etnografia-y-linguistica-mayas-899329.pdf"}
+      ]
+    },
+
+    "P004": {
+      "nombre": "Gerónimo Baqueiro Fóster",
+      "nacimiento": {"fecha": "25 enero 1892", "lugar": "Hopelchén, Campeche", "verificado": true, "fuente_primaria": "Acta de nacimiento, expediente 2699B938, Archivo Baqueiro Fóster, Cenidim INBA"},
+      "muerte": {"fecha": "29 mayo 1967", "lugar": "Ciudad de México", "verificado": true},
+      "nota_fecha": "La fecha de 1898 que circula en fuentes secundarias es INCORRECTA — el acta dice 1892",
+      "roles": ["Musicólogo", "Crítico musical", "Catedrático Conservatorio Nacional 30+ años", "Inspector SEP"],
+      "hechos_verificados": [
+        "1921: llegó a Ciudad de México con siete pesos",
+        "1922: ingresó al Conservatorio Nacional — estudió con Julián Carrillo",
+        "Publicó más de 6,000 artículos en 60+ diarios y revistas 1923-1967",
+        "Obra pedagógica: Curso completo de solfeo (10 ediciones 1939-1970, Ricordi Americana) — usada en México, Colombia, Chile, España",
+        "Obra de referencia: Historia de la música en México, SEP/INBA, 1964",
+        "1941: Capítulo 'El secreto armónico y modal de un antiguo aire maya' en Los mayas antiguos (El Colegio de México, pp.264-271). Menciona explícitamente a Hopelchén, Bolonchenticul, Dzibalchén, Iturbide, Chunchintok, Komchén, Xkanhá, Sahcabchén",
+        "1925: llegó a la conclusión de que Los Xtoles son armonizables con escala pentatónica propia — sin escala europea",
+        "Viajó a Alemania con Julián Carrillo a encargar pianos microtonales (Casa Sauter)",
+        "Archivo personal donado al Cenidim: 4,052 expedientes, 32,859 documentos (1854-1985)",
+        "Seudónimos periodísticos: Aristógenes, Blondel de Nesle, Chilam Balam de Tenochtitlan, Demóstenes, Igor Moreno, Isaac el Mosulí, Marco Lucien, S. Verni Gual, Severo Rocafuerte, Fr. Abel Quiroz Gotes, El espectador",
+        "Sin calle en Hopelchén. El bachillerato del municipio lleva su nombre."
+      ],
+      "fuentes": [
+        {"tipo": "articulo_academico", "autor": "Mendoza Castillo, Herlinda", "titulo": "Gerónimo Baqueiro Fóster y su legado documental", "publicacion": "Revista Digital Universitaria UNAM, vol.7 num.2, 10 feb 2006", "URL": "http://www.revista.unam.mx/vol.7/num2/art16/feb_art16.pdf", "archivo_local": "sources/feb_art16.pdf"},
+        {"tipo": "libro_academico", "titulo": "Los mayas antiguos", "editorial": "El Colegio de México, 1941", "archivo_local": "sources/los-mayas-antiguos-monografias-de-arqueologia-etnografia-y-linguistica-mayas-899329.pdf"},
+        {"tipo": "tesis_doctoral", "autor": "Pool Castellanos, Emmanuel", "titulo": "Kinchí, Xunan tunich y Dignidad maya", "institucion": "Facultad de Música, UNAM, 2025", "archivo_local": "sources/0865175.pdf"}
+      ]
+    },
+
+    "P005": {
+      "nombre": "Julián Carrillo",
+      "nacimiento": {"fecha": "28 enero 1875", "lugar": "Ahualulco, San Luis Potosí", "verificado": true},
+      "muerte": {"fecha": "9 septiembre 1965", "lugar": "Ciudad de México", "verificado": true},
+      "roles": ["Compositor", "Violinista", "Descubridor del Sonido 13", "Pionero de la microtonalidad"],
+      "hechos_verificados": [
+        "13 julio 1895: descubrió el Sonido 13 dividiendo cuerdas de violín con navaja en Ciudad de México",
+        "Becado por Porfirio Díaz para estudiar en el Real Conservatorio de Leipzig",
+        "1920: incorporó canción de Chan Cil (¿Te acuerdas?) en la Suite de los Naranjos",
+        "Viajó a Alemania con Gerónimo Baqueiro Fóster — encargaron pianos Casa Sauter",
+        "1958: pianos microtonales ganaron Gran Medalla de Oro, Exposición Mundial Bruselas",
+        "Los pianos regresaron a México y fueron almacenados en bodega de Chapultepec cubiertos de aceite",
+        "2016: UNESCO inscribió su archivo en el Registro de la Memoria del Mundo"
+      ],
+      "fuentes": [
+        {"tipo": "web_oficial", "URL": "https://sonido13.com/index.php/historia/"},
+        {"tipo": "web", "URL": "https://es.wikipedia.org/wiki/Juli%C3%A1n_Carrillo"},
+        {"tipo": "registro_internacional", "nombre": "UNESCO Registro de la Memoria del Mundo 2016", "URL": "https://www.unesco.org/en/memory-world"}
+      ]
+    },
+
+    "P006": {
+      "nombre": "Olegario Molina Solís",
+      "nacimiento": {"fecha": "6 marzo 1843", "lugar": "Bolonchenticul (municipio Hopelchén), Campeche", "verificado": true},
+      "muerte": {"fecha": "28 abril 1925", "lugar": "La Habana, Cuba", "verificado": true},
+      "roles": ["Empresario", "Político", "Gobernador Yucatán 1902-1906", "Secretario de Fomento México (gabinete Díaz 1907-1911)", "Monopolizador del henequén peninsular"],
+      "hechos_verificados": [
+        "De adolescente vendió carbón en Mérida para costear estudios",
+        "Estudió en Seminario San Ildefonso — mismo que Serapio Baqueiro Preve",
+        "Miembro Sociedad Literaria La Concordia junto con Baqueiro Preve",
+        "1881: fundó O. Molina y Compañía",
+        "1902: firmó contrato SECRETO con International Harvester deprimiendo precio del henequén a cambio de monopolio exclusivo de exportación",
+        "Controlaba el 50% de la exportación de henequén peninsular",
+        "Término acuñado por Gral. Salvador Alvarado: el 'olegariato' — dominio de 1902 a 1911",
+        "John Kenneth Turner (México Bárbaro, 1910): 'sus propiedades abarcan más de 6 millones de hectáreas'",
+        "Hacia 1911 se exilió en La Habana ante la Revolución — murió ahí en 1925",
+        "Conexión Cuba: murió en la misma isla a donde fueron vendidos los mayas de Los Chenes en 1848-1861"
+      ],
+      "fuentes": [
+        {"tipo": "web", "URL": "https://es.wikipedia.org/wiki/Olegario_Molina"},
+        {"tipo": "articulo_academico", "titulo": "Corporate Control of a Monocrop Economy", "publicacion": "Latin American Research Review, Cambridge University Press"},
+        {"tipo": "libro", "autor": "Turner, John Kenneth", "titulo": "México Bárbaro", "año": "1910"},
+        {"tipo": "analisis", "fuente": "CIDE/ECOS — A cien años de la muerte de Olegario Molina Solís, 2025", "URL": "https://ecos.cide.edu"}
+      ]
+    },
+
+    "P007": {
+      "nombre": "Pedro Advíncula Lara",
+      "nacimiento": {"fecha": "agosto 1834", "lugar": "Hopelchén, Campeche", "verificado": true, "nota": "Nombre Advíncula = San Pedro ad Víncula, festividad 1 de agosto"},
+      "muerte": {"fecha": "19 agosto 1919", "lugar": "Hopelchén, Campeche", "verificado": true},
+      "roles": ["Jefe político Los Chenes (múltiples períodos)", "Hacendado porfiriano", "Diputado al Congreso de Campeche"],
+      "propiedades": ["Hacienda Holcatzín (modelo de hacienda en Península Península de Lara Zavala)", "Ranchos Boxol y Ucuchil", "Hacienda Santa Rita"],
+      "hechos_verificados": [
+        "Diputado propietario Bolonchenticul VI Legislatura Campeche 1875-1877 (Digesto SCJN 2010 — como 'Pedro A. Lara')",
+        "1902: financió construcción del teatro de Hopelchén",
+        "5 mayo 1911: instaló el reloj público de fabricación alemana en la plaza de Hopelchén",
+        "Hacienda Holcatzín: producía caña, henequén, aguardiente y ron",
+        "La hacienda Holcatzín es el modelo de la hacienda de don Quintín Silvestre en Península Península (Lara Zavala, 2008)"
+      ],
+      "fuentes": [
+        {"tipo": "registro_legislativo", "fuente": "Digesto Constitucional Mexicano — Campeche (SCJN 2010)", "ISBN": "978-607-468-243-4", "archivo_local": "sources/83536.pdf"},
+        {"tipo": "cronologia", "fuente": "Cronología Histórica de Campeche", "datos": "Teatro 1902; fallecimiento 19 agosto 1919"},
+        {"tipo": "enciclopedia", "fuente": "INAFED — Enciclopedia de Municipios", "URL": "http://www.inafed.gob.mx"},
+        {"tipo": "novela_con_referencia_historica", "autor": "Lara Zavala, Hernán", "titulo": "Península Península", "año": 2008, "archivo_local": "sources/Peninsula Peninsula - Hernan Lara Zavala.pdf"}
+      ]
+    },
+
+    "P008": {
+      "nombre": "Teobert Maler",
+      "nacimiento": {"fecha": "12 enero 1842", "lugar": "Roma, Italia (padre alemán)", "verificado": true},
+      "muerte": {"fecha": "22 noviembre 1917", "lugar": "Mérida, Yucatán", "verificado": true},
+      "roles": ["Fotógrafo arqueológico", "Explorador", "Ex-soldado imperial", "Documentalista maya"],
+      "hechos_verificados": [
+        "1864: llegó a México en el séquito de Maximiliano de Habsburgo",
+        "1867: al caer el Imperio, decidió quedarse — cambió nombre de Teobert a Teoberto",
+        "1884: heredó fortuna e invirtió todo en equipo fotográfico para exploración maya",
+        "17 dic 1886 - 25 jun 1887: primera expedición arqueológica formal — 42 zonas visitadas incluyendo Hochob, Dzibilnocac, Santa Rosa Xtampak, Dzehkabtún. Fue durante la Guerra de Castas.",
+        "1895: publicó hallazgos en revista alemana Globus — primera vez que el mundo supo de Hochob",
+        "Archivo depositado en IAI Berlín: ~2,700 fotografías en 145 carpetas, 7 libros de apuntes, 12 libros de campo, 1 manuscrito (publicado como Península Yucatán, ed. Prem, 1997), ~230 hojas correspondencia",
+        "2018: IAI digitalizó 3,000 fotografías — acceso abierto en https://digital.iai.spk-berlin.de/viewer/collections/nachlass-teobert-maler/",
+        "Murió solo y pobre en Mérida. Pidió ser enterrado en Yucatán."
+      ],
+      "fuentes": [
+        {"tipo": "archivo_institucional", "nombre": "IAI Berlín — Colección Teobert Maler", "URL": "https://www.iai.spk-berlin.de/biblioteca/colecciones-especiales/legados/maler-teobert.html"},
+        {"tipo": "coleccion_digital", "URL": "https://digital.iai.spk-berlin.de/viewer/collections/nachlass-teobert-maler/"},
+        {"tipo": "revista", "nombre": "Arqueología Mexicana", "articulos": ["El legado de Teobert Maler", "Teobert Maler en la Península de Yucatán"]},
+        {"tipo": "web", "URL": "https://es.wikipedia.org/wiki/Teoberto_Maler"},
+        {"tipo": "enciclopedia", "nombre": "Enciclopedia Yet de Yucatán", "URL": "https://enciclopediayet.com/maler-teobert/"}
+      ]
+    },
+
+    "P009": {
+      "nombre": "Juan de Dios May",
+      "periodo": "activo 1847-1850",
+      "origen": "Los Chenes, Campeche / Yucatán",
+      "roles": ["Comandante maya, Guerra de Castas"],
+      "hechos_verificados": [
+        "Mayo 1848: atacó Hopelchén al frente de grupo armado — ambos bandos sufrieron cuantiosas pérdidas",
+        "Previamente atacó Iturbide",
+        "Apellido May = ciervo joven/venado ritual (Cordemex 1980)"
+      ],
+      "fuentes": [
+        {"tipo": "libro_primario", "autor": "Baqueiro Preve, Serapio", "titulo": "Ensayo histórico sobre las revoluciones de Yucatán", "año": 1878},
+        {"tipo": "web", "URL": "https://es.wikipedia.org/wiki/Hopelch%C3%A9n"}
+      ]
+    },
+
+    "P010": {
+      "nombre": "Francisco Caamal",
+      "periodo": "activo 1847-1850",
+      "roles": ["Comandante maya, Guerra de Castas — área de Los Chenes"],
+      "hechos_verificados": [
+        "Uno de los líderes principales en la región de Los Chenes durante la Guerra de Castas",
+        "Apellido Caamal = 'dos veces / lo que ocurre por segunda vez' (Cordemex 1980)"
+      ],
+      "fuentes": [
+        {"tipo": "articulo_academico", "autor": "Kosichenko, Ivan Nikítovich", "titulo": "Voluntarios mayas en la Guardia Nacional de Yucatán (1847-1851)", "publicacion": "Latinskaya Amerika, nº 2/2025, pp.87-101", "DOI": "10.31857/S0044748X25020078", "archivo_local": "sources/700747-5268499-1-PB.pdf"}
+      ]
+    },
+
+    "P011": {
+      "nombre": "Efraín Calderón Lara",
+      "apodo": "El Charras",
+      "nacimiento": {"fecha": "13 noviembre 1947", "lugar": "Hopelchén, Campeche", "verificado": true},
+      "muerte": {"fecha": "18 febrero 1974", "lugar": "Carretera Carrillo Puerto-Chetumal, km 101.5", "verificado": true, "causa": "Secuestrado, torturado y asesinado con bala en la cabeza"},
+      "roles": ["Sindicalista", "Líder estudiantil", "Fundador de 9 sindicatos independientes"],
+      "hechos_verificados": [
+        "Fundó 9 sindicatos fuera del control del PRI — nombró el primero 'Jacinto Canek'",
+        "Padre: Efraín Calderón — uno de los hombres más prósperos de Hopelchén (maíz, apicultura, aserraderos)",
+        "Madre: Adda Lara — apellido Lara",
+        "13 febrero 1974: secuestrado junto al profesor Pedro Quijano Uc en calles de Mérida",
+        "Pedro Quijano Uc sobrevivió — su testimonio confirmó el secuestro",
+        "Responsable: Carlos Loret de Mola Mediz, gobernador Yucatán 1970-1976 (fuente: librillo UNAM Voz Viva, Campos 2018)",
+        "Ejecutores identificados: Coronel Felipe Gamboa Gamboa y tres más (Chan López, Marrufo, Cicero) — procesados y liberados",
+        "14 febrero - 27 abril 1974: huelga de 73 días en respuesta al crimen",
+        "Su caso está en el informe FEMOSPP (2002) — 600+ desapariciones forzadas 1968-1982",
+        "HOY: El Paseo principal de Hopelchén lleva su nombre. La calle termina frente al ayuntamiento de los herederos del sistema que lo mató.",
+        "2 noviembre 1973: cantina de Samuel Cervera junto al cine de Hopelchén — último regreso al pueblo documentado"
+      ],
+      "fuentes": [
+        {"tipo": "novela_testimonial", "autor": "Lara Zavala, Hernán", "titulo": "Charras", "año_primera_edicion": "1990", "reedicion": "Alfaguara 2022", "archivo_local": "sources/Charras - Hernan Lara Zavala.pdf"},
+        {"tipo": "librillo_academico", "autor": "Campos, Marco Antonio", "editorial": "UNAM Voz Viva, VVM-137, septiembre 2018", "archivo_local": "sources/Hernan_Lara_Zavala_librillo.pdf"},
+        {"tipo": "informe_gubernamental", "nombre": "FEMOSPP — Informe histórico sobre la 'guerra sucia' 1968-1982", "año": 2002},
+        {"tipo": "periodismo", "fuente": "PorEsto — Recuerdos de Efraín Calderón Lara 'Charras'", "año": 2019, "URL": "https://www.poresto.com/yucatan/2019/2/11/recuerdos-de-efrain-calderon-lara-charras.html"}
+      ]
+    },
+
+    "P012": {
+      "nombre": "Hernán Lara Zavala",
+      "nacimiento": {"fecha": "1946 (según HISPADOC) / 1947 (según otras fuentes)", "lugar": "Ciudad de México", "verificado": true, "nota": "Discrepancia de un año en fuentes — padre yucateco, madre campechana"},
+      "muerte": {"fecha": "15 marzo 2025", "lugar": "Ciudad de México", "verificado": true},
+      "roles": ["Novelista", "Cuentista", "Ensayista", "Catedrático UNAM"],
+      "hechos_verificados": [
+        "Pasó veranos de infancia y adolescencia en Hopelchén — municipio del padre",
+        "Primo de Efraín 'El Charras' Calderón Lara",
+        "Obras sobre Hopelchén: De Zitilchén (FCE, 1981), Charras (1990), Península Península (Alfaguara, 2008)",
+        "Premio Iberoamericano de Novela Elena Poniatowska 2009 (Alfaguara)",
+        "Premio de la Real Academia Española 2010 (Península Península)",
+        "Doctorado Honoris Causa UAC agosto 2015",
+        "Murió 3 días antes de que comenzara esta investigación"
+      ],
+      "fuentes": [
+        {"tipo": "tres_novelas", "obras": [
+          {"titulo": "De Zitilchén", "año": 1981, "editorial": "FCE", "archivo_local": "sources/De Zitilchen - Hernan Lara Zavala.pdf"},
+          {"titulo": "Charras", "año": 1990, "reedicion": "Alfaguara 2022", "archivo_local": "sources/Charras - Hernan Lara Zavala.pdf"},
+          {"titulo": "Península Península", "año": 2008, "editorial": "Alfaguara", "archivo_local": "sources/Peninsula Peninsula - Hernan Lara Zavala.pdf"}
+        ]},
+        {"tipo": "articulo_academico", "autor": "Suárez Turriza, Tatiana", "titulo": "Península, Península; el Yucatán del siglo XIX en la memoria del novelista contemporáneo", "publicacion": "Literatura Mexicana XXIV.1, UNAM/CEPHCIS, 2013, pp.111-129", "archivo_local": "sources/v24n1a6.pdf"},
+        {"tipo": "articulo_academico", "autor": "Rodríguez Lozano, Miguel G.", "titulo": "El proceso narrativo de Hernán Lara Zavala", "publicacion": "HISPADOC, UNAM", "archivo_local": "sources/Hispadoc-ElProcesoNarrativoDeHernanLaraZavala-9494632.pdf"},
+        {"tipo": "articulo_academico", "autor": "Piña Laynes, Alma Alicia", "publicacion": "Cambios y Permanencias vol.8 num.2, 2017, pp.522-539", "archivo_local": "sources/La_guerra_de_Castas_en_Peninsula_Peninsu.pdf"}
+      ]
+    },
+
+    "P013": {
+      "nombre": "Leydy Araceli Pech Martín",
+      "nacimiento": {"año": "c.1965", "lugar": "Ich Ek, municipio de Hopelchén, Campeche", "nota": "Ich Ek = Ojo de estrella en maya"},
+      "roles": ["Apicultora", "Activista indígena maya", "Ganadora Premio Goldman Ambiental 2020"],
+      "hechos_verificados": [
+        "Fundó cooperativa Koolel-Kab/Muuchkambal en 1995 (exclusivamente mujeres mayas, Ich Ek)",
+        "Abeja principal: Melipona beecheii (Xunáan Kab — la dama de la miel)",
+        "Desde año 2000: combate introducción de soya transgénica Monsanto/Bayer en Hopelchén",
+        "2012: gobierno mexicano otorgó permisos a Monsanto sin consulta previa a comunidades — ilegal",
+        "Logró fallo de la Suprema Corte ordenando consulta previa a comunidades mayas antes de siembra",
+        "2020: ganó Premio Goldman Ambiental (Sigourney Weaver lo presentó)",
+        "Estudio PNUD+EPOMEX (2016): glifosato en agua y orina de residentes de Ich Ek — concentración 1.41 μg/l, supera límites UE",
+        "Apellido Pech = garrapata (Cordemex 1980). Francisco Pech cambió a 'Pérez' en 1847. Leydy Pech lo reivindica en 2020."
+      ],
+      "fuentes": [
+        {"tipo": "premio_internacional", "nombre": "Goldman Environmental Prize 2020", "URL": "https://www.goldmanprize.org/recipient/leydy-pech/"},
+        {"tipo": "estudio_cientifico", "autores": "Rendón Von Osten, Jaime y Dzul-Caamal, R.", "titulo": "Glyphosate Residues in Groundwater, Drinking Water and Urine of Subsistence Farmers from Intensive Agriculture Localities: A Survey in Hopelchén, Campeche, México", "publicacion": "International Journal of Environmental Research and Public Health, vol.14, num.6, 595, 2017", "DOI": "10.3390/ijerph14060595"},
+        {"tipo": "periodismo", "fuente": "Proceso — entrevista Leydy Pech, 30 nov 2020"}
+      ]
+    },
+
+    "P014": {
+      "nombre": "Humberto Lara y Lara",
+      "nacimiento": {"fecha": "21 octubre 1906", "lugar": "Hopelchén, Campeche", "verificado": true},
+      "muerte": {"fecha": "8 noviembre 1981", "lugar": "Mérida, Yucatán", "verificado": true},
+      "roles": ["Periodista", "Poeta", "Político PRI", "Compositor trova yucateca"],
+      "hechos_verificados": [
+        "1914: salió de Hopelchén a los 8 años para estudiar en Mérida — nunca regresó a vivir",
+        "Director Diario del Sureste 1937-1952",
+        "Secretario particular gobernador César Alayola Barrera",
+        "Asesor de gobierno PRI por más de 25 años",
+        "Fundó editorial Zamná; fue director Revista Fomento; corresponsal United Press y Tiempo",
+        "Canciones: Inútil fuga (con Arturo Cámara Tappan), Embrujo, Debo a tus manos, La tarde",
+        "Publicó cuento 'Pancha la chiclera' en Diario del Sureste, 22 nov 1931",
+        "Novela serializada 'En la montaña chiclera' — no digitalizada, no estudiada por la academia campechana",
+        "1977: Medalla Guty Cárdenas; 1980: Presea Yucatán + Medalla Ignacio Manuel Altamirano",
+        "La Biblioteca Prof. Humberto Lara y Lara del Centro Cultural Los Chenes de Hopelchén lleva su nombre (Calle 23 s/n por Calle 24)"
+      ],
+      "fuentes": [
+        {"tipo": "enciclopedia", "nombre": "Enciclopedia Yet de Yucatán", "URL": "https://enciclopediayet.com/lara-y-lara-humberto/"},
+        {"tipo": "enciclopedia", "nombre": "Enciclopedia de la Literatura en México (ELEM)", "URL": "https://www.elem.mx"},
+        {"tipo": "sistema_cultural", "nombre": "SIC Secretaría de Cultura — Biblioteca Prof. Humberto Lara y Lara", "URL": "https://sic.cultura.gob.mx"},
+        {"tipo": "registro_legislativo", "fuente": "Digesto SCJN Campeche 2010", "archivo_local": "sources/83536.pdf"}
+      ]
+    },
+
+    "P017": {
+      "nombre": "Romualdo Baqueiro Lara",
+      "periodo": "activo 1861",
+      "hechos_verificados": [
+        "Congreso Constituyente del Estado de Campeche 1861: diputado SUPLENTE por Bolonchenticul",
+        "Propietario ese año: Manuel Barrera",
+        "Dato fundacional: apellidos Barrera + Baqueiro Lara en el primer día del Estado de Campeche",
+        "Abandonó su escaño para tomar las armas en defensa del nuevo Estado"
+      ],
+      "fuentes": [
+        {"tipo": "registro_legislativo", "fuente": "Digesto Constitucional Mexicano — Campeche (SCJN 2010), p.29", "archivo_local": "sources/83536.pdf"}
+      ]
+    },
+
+    "P018": {
+      "nombre": "Rafael Montalvo Paullada",
+      "periodo": "activo 1914-1920",
+      "roles": ["Diputado Hopelchén", "Representante de Hopelchén en fundación PSAC"],
+      "hechos_verificados": [
+        "XXVI Legislatura primera sección (1914-1916): diputado suplente Bolonchenticul",
+        "XXVI Legislatura segunda sección (1914-1918): diputado PROPIETARIO — primera vez que los registros del Congreso usan el nombre 'Hopelchén' en lugar de 'Bolonchenticul'",
+        "7 octubre 1920: representante de Hopelchén en la fundación del PSAC"
+      ],
+      "fuentes": [
+        {"tipo": "registro_legislativo", "fuente": "Digesto SCJN Campeche 2010", "archivo_local": "sources/83536.pdf"},
+        {"tipo": "tesis_doctoral", "autor": "May González, Ángel Omar", "institucion": "Instituto Mora, 2010", "archivo_local": "sources/Primeros años posrevolución Campeche.pdf"}
+      ]
+    },
+
+    "P019": {
+      "nombre": "Clodoaldo Barrera",
+      "periodo": "activo 1920",
+      "roles": ["Cofundador PSAC", "Representante de Hopelchén"],
+      "hechos_verificados": [
+        "7 octubre 1920: cofundó el Partido Socialista Agrario de Campeche con lema Tierra y Libertad",
+        "Relación familiar con Pantaleón Barrera: pendiente verificación en fuentes primarias"
+      ],
+      "fuentes": [
+        {"tipo": "tesis_doctoral", "autor": "May González, Ángel Omar", "publicacion": "Instituto Mora, 2010", "archivo_local": "sources/Primeros años posrevolución Campeche.pdf"}
+      ]
+    },
+
+    "P020": {
+      "nombre": "Miguel Ángel Suárez Caamal",
+      "nacimiento": {"fecha": "2 junio 1953", "lugar": "Calkiní, Campeche", "verificado": true},
+      "roles": ["Escritor", "Maestro de español", "Tallerista literario"],
+      "residencia": "Dziuché, Quintana Roo — maestro de secundaria",
+      "hechos_verificados": [
+        "Obras: La noche de los osos y otros relatos (1988), La rebelión de los Cruzoob (1997), Jacinto Tun, El tío Justo",
+        "La rebelión de los Cruzoob: única novela campechana sobre la Guerra de Castas narrada desde la perspectiva maya",
+        "Becas: FECA Quintana Roo 1994 y 1995",
+        "Apellido Caamal: Francisco Caamal (comandante 1848) → Suárez Caamal (novelista 1997) → Daniela Naraai Caamal (investigadora 2026) = 178 años"
+      ],
+      "fuentes": [
+        {"tipo": "enciclopedia", "nombre": "ELEM.mx entrada autor 130368"},
+        {"tipo": "articulo_academico", "autor": "Vadillo Buenfil, Carlos", "publicacion": "Península vol.XII num.2, 2017", "DOI": "10.1016/j.rpns.2017.06.001", "archivo_local": "sources/1870-5766-peni-12-02-00029.pdf"}
+      ]
+    },
+
+    "P031": {
+      "nombre": "Emilio Lara Calderón",
+      "tipo": "contemporaneo-politico",
+      "periodo": "alcalde 2021-2024",
+      "origen": "Hopelchén",
+      "hechos_verificados": [
+        "Ganó alcaldía 2021 — coalición PRI-PAN-PRD, 8,317 votos (42%)",
+        "7 enero 2023 4:30am: cateo por presunto secuestro",
+        "ASECAM 2024: 9+ millones pesos no transferidos a juntas municipales (Bolonchenticul, Ukum, Dzibalchén)",
+        "Solicitó licencia para candidatearse a diputado federal plurinominal PRI"
+      ],
+      "fuentes": ["sources/libro_capitulos/XI.html", "PorEsto dic 2024", "ASECAM 2024"]
+    },
+
+    "P032": {
+      "nombre": "Hiram Aranda Calderón",
+      "tipo": "contemporaneo-politico",
+      "periodo": "alcalde 2024-2027",
+      "hechos_verificados": [
+        "Ganó 2 junio 2024 — único municipio PRI de los 13 de Campeche",
+        "Equipo: Herminio May Dzib (secretario — apellido MAY) + Leonel Barrera (jurídico — apellido BARRERA)",
+        "Noviembre 2025: denuncia de despojo catastral de Edward Manuel Poot Yeh"
+      ]
+    },
+
+    "P033": {
+      "nombre": "Edward Manuel Poot Yeh",
+      "tipo": "contemporaneo-disidente",
+      "periodo": "activo 2025",
+      "hechos_verificados": [
+        "Maestro; pagaba impuestos de su terreno desde 2006",
+        "Noviembre 2025: título de propiedad DUPLICADO generado por equipo del alcalde",
+        "Denuncia ante FECCECAM: Aranda Calderón + May Dzib + Barrera — despojo, falsificación documentos, abuso de autoridad"
+      ]
+    },
+
+    "P035": {
+      "nombre": "Iken Paap",
+      "tipo": "investigador-internacional",
+      "origen": "Alemania — Berlín",
+      "institucion": "IAI Berlín",
+      "rol": "Arqueóloga — directora proyecto Dzehkabtún (IAI Berlín + INAH co-dirección Antonio Benavides Castillo)",
+      "hechos_verificados": [
+        "Dirige proyecto arqueológico en Dzehkabtún, municipio Hopelchén desde 2012",
+        "15 octubre 2024: exposición IAI Berlín 'Tras los pasos de Teobert Maler'",
+        "Octubre 2025: exposición llegó a Campeche capital (Casa Teniente del Rey) — no a Hopelchén",
+        "Publica en Routledge y revistas especializadas internacionales",
+        "Los habitantes a 8 km del sitio no saben que el proyecto existe"
+      ]
+    },
+
+    "P037": {
+      "nombre": "Manuel Antonio Ay Tec",
+      "periodo": "c.1810-1847",
+      "tipo": "historico-militar-maya",
+      "hechos_verificados": [
+        "25 julio 1847: ahorcado en Valladolid — descubierto el plan de sublevación maya",
+        "Últimas palabras a su hijo (documentadas por Serapio Baqueiro Preve, Ensayo histórico p.229): 'Voy a morir hijo mío, por haberme comprometido incautamente en una gran guerra que pronto deberá estallar... no vayas a tomar parte en la guerra que va a destrozar el país'",
+        "Su ejecución adelantó la rebelión — los mayas atacaron antes de estar listos"
+      ],
+      "fuentes": [
+        {"tipo": "libro_primario", "autor": "Baqueiro Preve, Serapio", "titulo": "Ensayo histórico sobre las revoluciones de Yucatán", "año": 1878, "pagina": "229"}
+      ]
+    },
+
+    "P039": {
+      "nombre": "Oswaldo Baqueiro Anduze",
+      "nacimiento": {"fecha": "12 mayo 1902", "lugar": "Mérida, Yucatán", "verificado": true},
+      "muerte": {"fecha": "16 junio 1945", "lugar": "Ciudad de México", "verificado": true, "nota": "Murió a los 43 años"},
+      "roles": ["Novelista", "Ensayista", "Historiador", "Periodista", "Cofundador Diario del Sureste 1932"],
+      "genealogia": "Nieto de Serapio Baqueiro Preve; sobrino nieto de Chan Cil",
+      "obras": [
+        "Geografía sentimental de Mérida (1937)",
+        "La maya y el problema de la cultura indígena (1938)",
+        "Los mayas: fin de una cultura (inconcluso)"
+      ],
+      "hechos_verificados": [
+        "Formado por la Liga de Resistencia Central del PSS",
+        "1932: editor fundador del Diario del Sureste",
+        "Elogio póstumo (Chaco 4ever Books): 'uno de sus más grandes ensayistas... Pensaba Oswaldo en una cultura yucateca y no en una cultura yucatanense, sofisticada y baladí'",
+        "La paradoja: su abuelo llamó a los mayas 'obstáculo'; él escribió sobre el fin de su cultura como pérdida"
+      ],
+      "fuentes": [
+        {"tipo": "web", "URL": "https://es.wikipedia.org/wiki/Oswaldo_Baqueiro_Anduze"},
+        {"tipo": "enciclopedia", "nombre": "Enciclopedia Yet de Yucatán"}
+      ]
+    },
+
+    "P042": {
+      "nombre": "Pedro Quijano Uc",
+      "periodo": "activo 1974",
+      "rol": "Profesor — secuestrado junto con El Charras el 13 febrero 1974. SOBREVIVIENTE.",
+      "hechos_verificados": [
+        "13 febrero 1974: secuestrado junto con Efraín 'El Charras' Calderón Lara mientras caminaban por calles de Mérida",
+        "Sacados a punta de pistola",
+        "SOBREVIVIÓ — El Charras no",
+        "Su testimonio es el documento más directo del crimen"
+      ],
+      "fuentes": [{"tipo": "libro", "autor": "Caamal, Daniela Naraai", "titulo": "Dos mil años en silencio", "capitulo": "XIV", "archivo_local": "sources/libro_capitulos/XIV.html"}]
+    },
+
+    "P044": {
+      "nombre": "Débora Pavón",
+      "periodo": "activa 1921-1923",
+      "origen": "Champotón, Campeche",
+      "rol": "Presidenta Liga Feminista Champotón; colaboradora Rojo Amanecer",
+      "hechos_verificados": [
+        "Una de las líderes más visibles del movimiento feminista campechano del período socialista",
+        "Colaboró en Rojo Amanecer (órgano oficial PSAC, 1921-1934)",
+        "La Liga Feminista de Champotón era base del PSAC — dato ausente de narrativa histórica estándar"
+      ],
+      "fuentes": [{"tipo": "libro", "autor": "May González, Ángel Omar", "titulo": "Los primeros años de la posrevolución en Campeche", "editorial": "Instituto Mora, 2010", "archivo_local": "sources/Primeros años posrevolución Campeche.pdf"}]
+    },
+
+    "P045": {
+      "nombre": "Faustino Che Chan",
+      "periodo": "activo 1995",
+      "origen": "Hopelchén",
+      "rol": "Líder apicultor — Unión de Apicultores Indígenas Cheneros",
+      "hechos_verificados": [
+        "Representante de la Unión de Apicultores Indígenas Cheneros, Hopelchén",
+        "Entrevistado por Ute Schüren (FU Berlín) el 31 marzo 1995",
+        "Antecedente directo de la organización de Leydy Pech 25 años después"
+      ],
+      "fuentes": [{"tipo": "tesis", "autor": "Schüren, Ute", "institucion": "FU Berlín", "nota": "Lista de entrevistas", "archivo_local": "sources/17_biblio.pdf"}]
+    },
+
+    "P049": {
+      "nombre": "Carlos Loret de Mola Mediz",
+      "periodo": "Gobernador Yucatán 1970-1976",
+      "hechos_verificados": [
+        "Ordenó secuestro y asesinato de Efraín 'El Charras' Calderón Lara, febrero 1974",
+        "Primero intentó cooptarlo ofreciéndole un cargo — El Charras rechazó",
+        "Nunca fue procesado"
+      ],
+      "fuentes": [{"tipo": "librillo", "autor": "Campos, Marco Antonio", "editorial": "UNAM Voz Viva VVM-137, 2018", "archivo_local": "sources/Hernan_Lara_Zavala_librillo.pdf"}]
+    }
+  }
+}

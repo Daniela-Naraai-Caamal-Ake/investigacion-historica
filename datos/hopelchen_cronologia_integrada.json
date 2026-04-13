@@ -1,0 +1,72 @@
+{
+    "titulo": "Cronología y análisis histórico de Hopelchén (integrado)",
+    "ultima_actualizacion": "2026-03-22 16:45:13.545668",
+    "contexto": {
+        "lugar": "Hopelchén, Campeche, México",
+        "descripcion": "Región maya con continuidad histórica desde época prehispánica hasta la actualidad, atravesada por procesos de explotación, conflicto y transformación."
+    },
+    "etapas": [
+        {
+            "nombre": "Base cultural maya",
+            "fuente_literaria": "De Zitilchén",
+            "caracteristicas": [
+                "Vida en el monte",
+                "Milpa, caza y apicultura",
+                "Mitos (Xtabay)",
+                "Relación espiritual con la naturaleza"
+            ],
+            "interpretacion": "Representa la base cultural real de comunidades mayas en la región."
+        },
+        {
+            "nombre": "Sistema de explotación (siglo XIX)",
+            "caracteristicas": [
+                "Peonaje por deuda",
+                "Despojo territorial",
+                "Control de población indígena"
+            ],
+            "actores": [
+                "Pantaleón Barrera Cámara"
+            ],
+            "interpretacion": "Estructura de dominación sobre población maya."
+        },
+        {
+            "nombre": "Guerra de Castas",
+            "caracteristicas": [
+                "Rebelión indígena",
+                "Violencia regional",
+                "Territorio de tránsito (Hopelchén)"
+            ],
+            "interpretacion": "Resultado directo de desigualdad estructural."
+        },
+        {
+            "nombre": "Transformación moderna",
+            "fuente_literaria": "Charras",
+            "caracteristicas": [
+                "Corrupción política",
+                "Represión",
+                "Deforestación",
+                "Cambio territorial"
+            ],
+            "interpretacion": "Persistencia de desigualdad en nuevas formas."
+        }
+    ],
+    "lugares_clave": [
+        "Cenote Xtacunbilxunan"
+    ],
+    "proyecto": {
+        "nombre": "ARCHIVO VIVO",
+        "descripcion": "Plataforma para investigación, archivo y publicación de contenido social, político e histórico.",
+        "creador": {
+            "nombre": "Dan",
+            "email": "cheneandopodcast@gmail.com"
+        }
+    },
+    "conclusion": {
+        "ideas": [
+            "Hopelchén forma parte de una continuidad histórica de conflicto",
+            "La desigualdad es estructural",
+            "Existe resistencia cultural maya",
+            "El territorio sigue transformándose"
+        ]
+    }
+}

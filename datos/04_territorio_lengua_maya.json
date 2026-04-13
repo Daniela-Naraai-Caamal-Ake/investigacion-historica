@@ -1,0 +1,405 @@
+{
+  "META": {
+    "archivo": "04_territorio_lengua_maya.json",
+    "descripcion": "Lugares geográficos, sitios arqueológicos, términos mayas verificados, y registro legislativo completo de Hopelchén/Bolonchenticul 1861-2003",
+    "proyecto": "Archivo Vivo — Hopelchén, Campeche",
+    "autora": "Daniela Naraai Caamal",
+    "consolidado_de": [
+      "database/av_conocimiento.json",
+      "database/av_conocimiento_extension.json",
+      "database/av_nucleo_extension.json (vocabulario_maya_resuelto)",
+      "database/_sesiones_anteriores/legisladores_hopelchen_1861-2003.json",
+      "database/_sesiones_anteriores/investigacion_global_2026-03-23.json"
+    ],
+    "creado": "2026-04-07"
+  },
+
+  "toponimica": {
+    "L01_Hopelchen": {
+      "nombre_espanol": "Hopelchén",
+      "nombre_maya": "Ho'peel chen",
+      "significado_desglosado": "ho = cinco / peel = grupo (sufijo de conteo) / chen = pozo. LUGAR DE LOS CINCO POZOS.",
+      "tipo": "cabecera_municipal",
+      "estado": "Campeche, México",
+      "coordenadas": "19°44'N, 89°51'O",
+      "altitud": "56 metros sobre nivel del mar",
+      "datos_demograficos": {
+        "poblacion_1630": "~20,000 (tras congregación de pueblos 1621)",
+        "poblacion_1782": "1,463 (informe de obispos — ninguna hablaba español)",
+        "poblacion_1847": "~5,000 (dato Lara Zavala, Península Península)",
+        "poblacion_preGuerra_Castas": "más de 25,000",
+        "poblacion_2020": "42,140 (INEGI Censo 2020)"
+      },
+      "hitos": [
+        "1621: fundada como pueblo de congregación colonial",
+        "1959 febrero 26: declarada ciudad",
+        "1914-1918 (XXVI Legislatura): primera vez que los registros del Congreso usan el nombre 'Hopelchén' en lugar de 'Bolonchenticul'"
+      ],
+      "fuentes": ["INAFED — Enciclopedia de Municipios: http://www.inafed.gob.mx", "Digesto SCJN Campeche 2010"]
+    },
+
+    "L02_Bolonchenticul": {
+      "nombre_espanol": "Bolonchenticul / Bolonchén de Rejón",
+      "nombre_maya": "Bolonchén",
+      "significado": "bolon = nueve (también: muchos/abundante, número sagrado maya) / chen = pozo. LUGAR DE LOS NUEVE POZOS.",
+      "tipo": "localidad",
+      "municipio": "Hopelchén",
+      "distancia_hopelchen": "34 km",
+      "historia_nombre": [
+        "1861-1914: nombre oficial en documentos del Congreso — 'Bolonchenticul'",
+        "1882: se denominó 'de Blengio'",
+        "1896: 'de Montalvo'",
+        "1955: tomó el nombre 'de Rejón' en honor a Manuel Crescencio García Rejón y Alcalá — promotor del juicio de amparo en México, nacido aquí"
+      ],
+      "nota": "Manuel Crescencio García Rejón y Alcalá nació en Bolonchenticul — Digesto SCJN 2010, p.24",
+      "fuentes": ["Digesto SCJN Campeche 2010, p.24"]
+    },
+
+    "L03_Los_Chenes": {
+      "nombre": "Los Chenes",
+      "significado_maya": "Chenes = plural de chen (pozo). LOS POZOS.",
+      "tipo": "región",
+      "descripcion": "Región de Campeche en la frontera entre Yucatán, Campeche y Quintana Roo. Caracterizada por su estilo arquitectónico maya (estilo Chenes) y sus fuentes de agua subterránea.",
+      "comunidades": ["Hopelchén", "Dzibalchén", "Bolonchén de Rejón", "Iturbide", "Xcupil", "Xmabén", "Ich-Ek", "Pakchén", "San Benigno", "Holcatzín", "Chencó", "Xkanhá", "Tepich", "Chunchintok", "Komchén", "Sahcabchén"],
+      "nota_identidad": "El demónimo correcto es CHENERO / CHENERA. No 'hopelcheneño/a'."
+    },
+
+    "L04_Dzitbalchen": {
+      "nombre_espanol": "Dzibalchén",
+      "nombre_maya_original": "Dzitbalchén",
+      "significado": "dzib = escritura / al = en / chen = pozo. DONDE ESTÁ ESCRITO EL POZO.",
+      "tipo": "localidad",
+      "municipio": "Hopelchén",
+      "importancia": "Lugar de nacimiento de Serapio Baqueiro Preve (1838) y de su hermano Chan Cil (según datos familiares — Chan Cil nació en Campeche capital pero el linaje es de esta comunidad)"
+    },
+
+    "L05_Iturbide": {
+      "nombre_espanol": "Iturbide",
+      "nombre_maya_original": "Dzibil-Noh-Aac",
+      "significado_maya": "Tortuga grande escrita / escrito en la gran tortuga (dzibil = escrito, noh = grande, aac = tortuga)",
+      "tipo": "comisaría",
+      "municipio": "Hopelchén",
+      "historia": [
+        "1822: Agustín de Iturbide autorizó edificación de un asiento criollo sobre el pueblo maya preexistente. Habitado originalmente por los XIUES e indios fugitivos de encomiendas.",
+        "1868: el gobernador Joaquín Baranda construyó el fuerte-monumento El Cuyo sobre vestigios arqueológicos mayas",
+        "La zona arqueológica Dzibilnocac está en esta localidad — el nombre colonial borra el maya pero no el lugar"
+      ],
+      "fuentes": ["Enciclopedia Yet de Yucatán — Iturbide"]
+    },
+
+    "L06_Ich_Ek": {
+      "nombre_maya": "Ich Ek",
+      "significado_maya": "Ojo de estrella (ich = ojo, ek = estrella/lucero)",
+      "tipo": "comunidad",
+      "municipio": "Hopelchén",
+      "importancia": [
+        "Lugar de nacimiento de Leydy Pech Martín (c.1965)",
+        "EPOMEX-UAC documentó la concentración de glifosato más alta del estudio (1.41 μg/l) en esta comunidad",
+        "Cooperativa Koolel-Kab/Muuchkambal fundada aquí en 1995"
+      ]
+    },
+
+    "L07_Hacienda_Holcatzin": {
+      "nombre": "Hacienda Holcatzín",
+      "tipo": "hacienda_historica",
+      "municipio": "Hopelchén",
+      "propietario_historico": "Pedro Advíncula Lara",
+      "produccion": "Caña de azúcar, henequén, aguardiente y ron (dato: Lara Zavala, Península Península, pp.40-41)",
+      "en_literatura": "Modelo de la hacienda de don Quintín Silvestre en Península Península (Lara Zavala, 2008). La familia Lara Zavala usó el nombre real de la hacienda de su propia familia política en la ficción."
+    },
+
+    "L08_Xkanha": {
+      "nombre_maya": "Xkanhá",
+      "significado": "x = locativo / kan = amarillo o serpiente / há = agua. LUGAR DEL AGUA AMARILLA / LUGAR DE LA SERPIENTE AMARILLA.",
+      "tipo": "comunidad",
+      "municipio": "Hopelchén",
+      "importancia": [
+        "En Península Península (Lara Zavala): comunidad donde los rebeldes mayas compraban armas en 1847 (p.89)",
+        "Gerónimo Baqueiro Fóster escuchó a los ancianos cantar Los Xtoles en Xkanhá en su adolescencia",
+        "Documentada por Ute Schüren (FU Berlín) — artículo específico: 'Los mayas pacíficos de los Chenes ayer y hoy: El caso de Xkanhá', 1997"
+      ]
+    }
+  },
+
+  "zonas_arqueologicas": {
+    "ZA01_Hochob": {
+      "nombre": "Hochob",
+      "significado_maya": "Donde hay abundancia de mazorcas / lugar donde se corta el maíz",
+      "municipio": "Hopelchén",
+      "periodo_ocupacion": "c.300 d.C. — hasta la conquista española",
+      "apogeo": "850-1000 d.C.",
+      "estilo": "Chenes",
+      "rasgo_principal": "La puerta de entrada al templo principal ES la boca abierta del dios Itzamná — las fauces mismas como umbral",
+      "exploracion": "Teobert Maler (1887) — publicó en Globus 1895: primera noticia al mundo",
+      "acceso": "Carretera 261 → desvío Chenkó → 4km terracería. Entrada: 75 pesos (domingos gratis para mexicanos). 8am-5pm.",
+      "fuentes": ["INAH — ficha oficial: https://inah.gob.mx/zonas/zona-arqueologica-hochob", "Wikipedia — Hochob"]
+    },
+
+    "ZA02_Dzibilnocac": {
+      "nombre": "Dzibilnocac",
+      "significado_maya": "dzib = escritura / il = locativo / noc = pared / ac = blanca/tortuga. BÓVEDA PINTADA / ESCRITURA EN LA PARED BLANCA.",
+      "municipio": "Hopelchén",
+      "ubicacion": "Localidad de Iturbide (Vicente Guerrero)",
+      "periodo_ocupacion": "c.300 a.C. — hasta la conquista",
+      "apogeo": "600-900 d.C. (especialmente siglo VIII)",
+      "rasgo_principal": "Estructura A-1: 10 aposentos abovedados, dos torres extremas, una central — portadas zoomorfas con fauces de Itzamná. Dos estelas: años 731 y 764.",
+      "primera_documentacion": "Catherwood y Stephens, 1842",
+      "exploracion_fotografica": "Teobert Maler, mayo 1887",
+      "acceso": "Localidad de Iturbide, municipio Hopelchén. Entrada libre. 8am-5pm.",
+      "fuentes": ["INAH — ficha oficial: https://inah.gob.mx/zonas/zona-arqueologica-dzibilnocac", "Wikipedia — Dzibilnocac"]
+    },
+
+    "ZA03_Santa_Rosa_Xtampak": {
+      "nombre": "Santa Rosa Xtampak",
+      "significado_maya": "Xtampak = muros viejos. Santa Rosa: nombre de hacienda porfiriana superpuesta al sitio.",
+      "municipio": "Hopelchén",
+      "importancia": "CAPITAL REGIONAL DE LOS CHENES DURANTE 850 AÑOS",
+      "periodo_hegemonia": "c.300 d.C. - c.1000 d.C.",
+      "rasgo_principal": "Palacio: 44 habitaciones + DOS escaleras interiores (extraordinariamente raro en arquitectura maya) + 8 estelas con fechas 646-911 d.C. Recibía jadeíta de Guatemala, obsidiana del centro de México, sal de la costa.",
+      "primera_documentacion": "Catherwood y Stephens, 1843",
+      "exploracion_fotografica": "Teobert Maler, 1887",
+      "investigacion_actual": "Proyecto arqueológico IAI Berlín — Iken Paap (directora) + Antonio Benavides Castillo (INAH). Expuesto en Berlin oct 2024 y Campeche oct 2025.",
+      "acceso": "Desde Hopelchén: carretera Bolonchén 2km → desvío oriental → 32km pavimentado. Entrada: 80 pesos nacionales / 145 pesos tarifa general. 8am-5pm.",
+      "fuentes": ["INAH — ficha oficial: https://lugares.inah.gob.mx/es/zonas-arqueologicas/zonas/1674-santa-rosa-xtampak.html", "Mediateca INAH: https://mediateca.inah.gob.mx/repositorio/islandora/object/sitioprehispanico:2128"]
+    },
+
+    "ZA04_Tohcok": {
+      "nombre": "Tohcok",
+      "nombre_maya": "Tacóh",
+      "significado_maya": "La preciosa navaja de pedernal / El lugar de la navaja de pedernal",
+      "municipio": "Hopelchén",
+      "ubicacion": "6km al poniente de Hopelchén sobre Carretera Federal 261",
+      "coordenadas": "19°46'13\"N, 89°52'30\"O",
+      "periodo": "770-830 d.C.",
+      "estilo": "Transicional Chenes-Puuc",
+      "historia_investigacion": [
+        "Edwin Shook y Tatiana Proskouriakoff (1951) — primera documentación formal",
+        "George Andrews, Univ. Oregon (1974/1983) — croquis Estructura 1",
+        "Renée Zapata, INAH (1995) — conservación Edificio 1",
+        "Karl Herbert Mayer (Austria, 1998) — esculturas antes desconocidas",
+        "Ayuntamiento de Hopelchén asumió custodia desde 1995"
+      ],
+      "alerta_patrimonio": "El asfaltado de la carretera Campeche-Hopelchén destruyó varias plataformas prehispánicas SIN evaluación patrimonial. Las pinturas murales registradas a mediados del siglo XX ya no existen.",
+      "fuentes": ["INAH Lugares — ficha Tohcok: https://lugares.inah.gob.mx/es/zonas-arqueologicas/zonas/opinion/14182-tohcok-14182.html", "Aranda González 1985"]
+    },
+
+    "ZA05_Dzehkabtun": {
+      "nombre": "Dzehkabtún",
+      "tipo": "zona_arqueologica",
+      "municipio": "Hopelchén",
+      "investigacion_actual": "Proyecto IAI Berlín — Dra. Iken Paap (directora) + Antonio Benavides Castillo (INAH codirector). Publicaciones en Routledge.",
+      "acceso_al_conocimiento": "Los habitantes a 8km del sitio no saben que el proyecto existe (dato: Dos mil años en silencio)",
+      "exposicion_Berlin": "IAI Berlín inauguró exposición sobre Dzehkabtún y el trabajo de Maler el 15 oct 2024. Llegó a Campeche capital oct 2025 (Casa Teniente del Rey). No llegó a Hopelchén."
+    },
+
+    "ZA06_Valeriana": {
+      "nombre": "Valeriana",
+      "tipo": "sitio_arqueologico",
+      "municipio": "Campeche (posiblemente Hopelchén)",
+      "periodo": "Clásico Maya 250-900 d.C.",
+      "extension": "16.6 km²",
+      "descubrimiento": "2024",
+      "publicacion": "Revista Antiquity",
+      "instituciones": ["INAH", "Tulane University (EEUU)", "Universidad del Norte de Arizona (EEUU)", "Universidad de Houston (EEUU)"],
+      "descripcion": "Plazas cerradas, calzada amplia, edificios piramidales, juego de pelota, embalse de arroyo, Grupo E (asociado con época Preclásica)",
+      "fuentes": ["PorEsto Campeche, 31 oct 2024: https://www.poresto.com/campeche/2024/10/31/inah-confirma-descubrimiento-de-sitio-maya-en-campeche-habria-otro-en-hopelchen.html"]
+    },
+
+    "ZA07_Grutas_Huachabi": {
+      "nombre": "Grutas de Huachabí",
+      "tipo": "cueva_arqueologica",
+      "municipio": "Hopelchén",
+      "ubicacion": "Bolonchén de Rejón — zona arqueológica Miramar",
+      "descubrimiento": "2012",
+      "pinturas_rupestres": "+500 pinturas. Figuras desde el Preclásico hasta el período virreinal. Colores: negro, tres tonos de café, arcilla roja. Figuras: antropomorfas, zoomorfas, caballos, reptiles, ciempiés, peces.",
+      "comparacion": "Comparables a Grutas de Loltún — posiblemente más importantes",
+      "estado_acceso": "Cerrado al público. INAH prepara imágenes y videos.",
+      "fuentes": ["La Jornada Maya Campeche, 8 marzo 2023: https://www.lajornadamaya.mx/campeche/218777", "El Grillo de Yucatán, 16 oct 2019"]
+    },
+
+    "ZA08_Xtacumbilxunaán": {
+      "nombre": "Xtacumbilxunaán",
+      "significado_maya": "La doncella escondida / la mujer escondida dentro (x = prefijo femenino, tac = escondida, umb = adentro, il = locativo, xunaan = señora/mujer)",
+      "CORRECCION_CRITICA": "ES UNA GRUTA, NO UN CENOTE. El cenote en maya = dzonot (de donde viene la palabra española).",
+      "tipo": "gruta",
+      "municipio": "Hopelchén",
+      "ubicacion": "Ejido de Bolonchén de Rejón, a 34 km de la ciudad de Hopelchén",
+      "extension": "600 metros, 3 pisos, 40 cámaras",
+      "importancia_maya": "Lugar sagrado para los mayas — recolectaban agua de lluvia en sus cámaras subterráneas",
+      "fuentes": ["Wikipedia — Grutas de Xtacumbilxunaán"]
+    }
+  },
+
+  "vocabulario_maya_verificado": {
+    "fuente_principal": "Diccionario Maya Cordemex, Alfredo Barrera Vázquez (ed.), Mérida: Ediciones Cordemex, 1980. Fuente de referencia estándar del maya yucateco.",
+
+    "apellidos_mayas": {
+      "CAAMAL": {
+        "forma_maya": "ka'amal",
+        "significado": "DOS VECES / LO QUE OCURRE POR SEGUNDA VEZ",
+        "etimologia": "ka'a (dos) + -máal (clasificador numeral para contar veces o unidades)",
+        "castellanizacion": "Caamal → Cámara",
+        "circulo": "Francisco Caamal (comandante 1848) → Miguel Ángel Suárez Caamal (novelista 1997) → Daniela Naraai Caamal (investigadora 2026) = 178 años"
+      },
+      "MAY": {
+        "forma_maya": "may",
+        "significado": "CIERVO JOVEN / VENADO RITUAL / PEZUÑA",
+        "CORRECCION": "MAY ≠ TABACO. Tabaco en maya yucateco = k'uts. Error común en fuentes populares.",
+        "frecuencia": "46,879 personas en Yucatán (INE 2016) — 4to apellido maya más frecuente",
+        "portadores_relevantes": "Juan de Dios May (comandante 1848), Herminio May Dzib (secretario ayuntamiento Hopelchén 2024)"
+      },
+      "POOT": {
+        "forma_maya": "poot",
+        "significado": "AGUJEREAR, HORADAR, PERFORAR. También: variedad de araña de patas grandes color amarillo.",
+        "portadores_relevantes": "Crescencio Poot (comandante Cruzoob), Evaristo Poot Cruz (encontró cuerpo de El Charras 1974), Edgar Manuel Poot Yeh (despojado catastral 2025)"
+      },
+      "EK": {
+        "forma_maya": "ek",
+        "significado_1": "Estrella, lucero. También: palo de tinte (Haematoxylum campechianum)",
+        "significado_2": "Negro (ek = negro, como en Ek Balam = jaguar negro)",
+        "castellanizacion": "Ek → Estrella",
+        "nota_literaria": "En Los misterios de Chan Santa Cruz (Barrera 1864): Fernando Ek llega a Cuba y firma sus cartas como Fernando Estrella — la traducción exacta del maya al español",
+        "nota_historica": "Kosichenko 2025: Sostenes Dzul se registró en la Guardia Nacional como 'Sostenes Estrella' — usando la traducción de EK"
+      },
+      "DZUL": {
+        "forma_maya": "dzul",
+        "significado": "EXTRANJERO, FORASTERO",
+        "castellanizacion": "Dzul → Caballero",
+        "uso_historico": "¡Mueran los dzuloob! — grito de la Guerra de Castas. División conceptual maya: uinicob (personas/mayas) vs dzuloob (extranjeros/invasores)"
+      },
+      "CHI": {
+        "forma_maya": "chi",
+        "significado": "BOCA de personas y ciertos frutos; brocal; orilla; Nance (Malpighia glabra)",
+        "nota": "El mismo apellido divide posiciones en la guerra: Cecilio Chi (líder insurrección) vs Juan Chi (cacique pro-gobierno)"
+      },
+      "BALAM": {
+        "forma_maya": "balam",
+        "significado": "JAGUAR — el animal sagrado más importante de la cosmología maya"
+      },
+      "PECH": {
+        "forma_maya": "pech",
+        "significado": "GARRAPATA",
+        "circulo": "1848: Francisco Pech se registra como 'Pérez' — borra su apellido. 2020: Leydy Pech gana Premio Goldman — lo reivindica. 172 años."
+      },
+      "KU": {
+        "forma_maya": "ku",
+        "significado": "Deidad, morada de lo sagrado"
+      },
+      "BALAM_KANUL": {
+        "nota": "Apellidos compuestos mayas en documentos históricos cheneros — Candelario Balam documentado en AGEY 1849 (Kosichenko 2025)"
+      }
+    },
+
+    "terminos_culturales": {
+      "CHEN": {
+        "forma_maya": "chen / chéen",
+        "significado": "POZO, CAVERNA, AGUADA, FUENTE DE AGUA SUBTERRÁNEA",
+        "en_toponimos": "Hopelchén, Bolonchén, Dzibalchén, Kancabchén — toda la región Los Chenes"
+      },
+      "BATAB_BATABOOB": {
+        "singular": "batab",
+        "plural": "bataboob",
+        "significado": "GOBERNANTE LOCAL MAYA AUTÓNOMO. Del maya: bata (hacha) + b (sufijo agente) = el del hacha",
+        "historia": "Resistieron la Congregación colonial de 1621 por 48 años adicionales. Sus apellidos (Poot, Chi, Caamal, May) encabezan la Guerra de Castas en 1847."
+      },
+      "XUNAAN_KAB": {
+        "forma_maya": "Xunáan Kab",
+        "significado": "LA DAMA DE LA MIEL",
+        "referencia": "Abeja Melipona beecheii — endémica de la Península, sin aguijón, domesticada por los mayas 3,000+ años. Símbolo del activismo de Leydy Pech."
+      },
+      "XTOLES": {
+        "forma_maya": "Ix tol / Ixtol / ah taahl itol",
+        "significado": "TRUHÁN, MOHARRACHO, REPRESENTANTE, COMEDIANTE RITUAL. 'ah' = género masculino; 'taah' = farsa/representación; 'Ixtol' = el sujeto y su carácter.",
+        "descripcion_musical": "Danza de las cintas / Danza de los Xtoles. Escala pentafónica Sol-La-Si-Re-Mi SIN semitonos.",
+        "CORRECCION": "NO es música prehispánica de ritual religioso. Río Escalante confirmó a Stokowski que Los Xtoles se ejecutan en el Carnaval.",
+        "primera_notacion": "1869, José Jacinto Cuevas, Mosaico yucateco",
+        "publicacion_academica": "Baqueiro Fóster — Los mayas antiguos, El Colegio de México, 1941, pp.264-271"
+      },
+      "HOLPOP": {
+        "significado": "CANTOR PRINCIPAL MAYA. A su cargo: atabales e instrumentos musicales. 'Entona y enseña lo que se ha de cantar'. Era venerado y tenía asiento en la Iglesia.",
+        "fuente": "Baqueiro Fóster 1941, citando Dr. Pedro Sánchez de Aguilar (Valladolid, 1555)"
+      },
+      "BALDZAM": {
+        "significado": "FARSANTE que representaba fábulas e historias antiguas. 'Graciosísimo en los chistes'. Diferente de los Xtoles: no tiene que ver con música ni danza.",
+        "fuente": "Baqueiro Fóster 1941, Los mayas antiguos, p.273"
+      },
+      "CRUZOOB": {
+        "maya": "Cruzoob",
+        "significado": "LAS CRUCES (cruz español + -oob plural maya)",
+        "descripcion": "Mayas rebeldes seguidores de la Cruz Parlante durante y después de la Guerra de Castas. Resistieron en el oriente peninsular hasta principios del siglo XX."
+      },
+      "DZUL_DZULOOB": {
+        "maya": "dzul / dzuloob",
+        "significado": "EXTRANJERO/S, FORASTERO/S, INVASOR/ES. Opuesto a uinicob (personas/mayas).",
+        "uso_GC": "¡Mueran los dzuloob! — grito de la Guerra de Castas"
+      },
+      "MACEHUAL_MACEHUALOB": {
+        "maya": "macehual / macehualob",
+        "significado": "Hombre del común, campesino. Los mayas comunes (vs caciques). Nombre con que los Cruzoob se autodefinían."
+      },
+      "TUNKUL": {
+        "forma_maya": "tunkul / tankul",
+        "significado": "TAMBOR de madera hueca maya con dos aperturas longitudinales, se toca con palillos de goma. Diego de Landa: 'sonido pesado y triste'.",
+        "fuente": "Landa, Cogolludo, Baqueiro Fóster 1941"
+      },
+      "CHILAM_BALAM": {
+        "significado": "EL SACERDOTE JAGUAR / EL JAGUAR INTÉRPRETE (chilam = intérprete/profeta, balam = jaguar)",
+        "descripcion": "Los Libros del Chilam Balam: textos mayas coloniales en caracteres latinos. Versiones: de Chumayel, de Maní, de Tizimín."
+      },
+      "ICH_EK": {
+        "maya": "Ich Ek",
+        "significado": "OJO DE ESTRELLA (ich = ojo, ek = estrella)"
+      },
+      "DZIBIL_NOH_AAC": {
+        "maya": "Dzibil-Noh-Aac",
+        "significado": "TORTUGA GRANDE ESCRITA / ESCRITO EN LA GRAN TORTUGA",
+        "referencia": "Nombre original de Iturbide, comisaría de Hopelchén"
+      }
+    }
+  },
+
+  "registro_legislativo_1861_2003": {
+    "fuente": "Digesto Constitucional Mexicano — Campeche (SCJN 2010, ISBN 978-607-468-243-4, p.29 y ss.): archivo local sources/83536.pdf",
+    "nota": "El municipio de Bolonchenticul corresponde al actual municipio de Hopelchén. Se rastrearon especialmente los apellidos Lara, Barrera, Calderón, Baqueiro, Solís, May.",
+    "dato_fundacional": "Congreso Constituyente 1861 — por Bolonchenticul: Manuel BARRERA (propietario), Romualdo BAQUEIRO LARA (suplente). Los dos linajes centrales del proyecto en el primer día del Estado.",
+    "hito_nombre_hopelchen": "XXVI Legislatura 1914-1918 (2ª sección): PRIMERA VEZ que aparece 'Hopelchén' en lugar de 'Bolonchenticul'. Diputado: Rafael Montalvo Paullada.",
+
+    "diputados_por_hopelchen_bolonchenticul": [
+      {"legislatura": "Constituyente 1861", "propietario": "Manuel BARRERA", "suplente": "Romualdo BAQUEIRO LARA"},
+      {"legislatura": "I — 1862", "propietario": "Pedro LARA"},
+      {"legislatura": "VI — 1875-1877", "propietario": "Pedro A. LARA (Pedro Advíncula)"},
+      {"legislatura": "VII — 1877-1878", "propietario": "Demetrio BARRERA"},
+      {"legislatura": "IX — 1880-1882", "suplente": "Demetrio BARRERA"},
+      {"legislatura": "XX — 1902-1904", "suplente": "Emilio LARA Sánchez"},
+      {"legislatura": "XXI — 1904-1906", "suplente": "Emilio LARA Sánchez"},
+      {"legislatura": "XXII — 1906-1908", "suplente": "Emilio LARA Sánchez"},
+      {"legislatura": "XXIII — 1908-1910", "suplente": "Pedro LARA Sánchez"},
+      {"legislatura": "XXIV — 1910-1912", "suplente": "Pedro LARA Sánchez"},
+      {"legislatura": "XXVI — 1914-1916", "suplente": "Rafael Montalvo Paullada"},
+      {"legislatura": "XXVI — 1914-1918 (2ª sección)", "propietario": "Rafael Montalvo Paullada", "nota": "PRIMERA VEZ: municipio identificado como 'Hopelchén'"},
+      {"legislatura": "XXVII — 1919-1921", "propietario": "Andrés Lezama", "suplente": "Benigno LARA Negrón"},
+      {"legislatura": "XXVII — 1919-1921 (2ª)", "propietario": "Miguel CALDERÓN", "nota": "PRIMERA aparición apellido Calderón en legislatura"},
+      {"legislatura": "XXIX — 1923-1925", "suplente": "Arturo SOLÍS"},
+      {"legislatura": "XXXV — 1937-1940", "propietario": "José LARA B."},
+      {"legislatura": "XLI — 1953-1956", "propietario": "José A. BAQUEIRO Rodríguez"},
+      {"legislatura": "XLII — 1956-1959", "propietario": "José Guerrero Barahona", "nota": "Primer presidente municipal al declararse ciudad Hopelchén 1959"},
+      {"legislatura": "XLIII — 1959-1962", "propietario": "Manuel J. SOLÍS"},
+      {"legislatura": "L — 1980-1983", "nota": "Pedro LARA y Lara: diputado por el 4° DISTRITO DE CAMPECHE CAPITAL (NO por Hopelchén)"},
+      {"legislatura": "LIV — 1992-1994", "propietario": "Manuel Azael Ayuso BARRERA"},
+      {"legislatura": "LV — 1994-1997", "propietario": "Emilio LARA SOLÍS"},
+      {"legislatura": "LVI — 1997-2000", "propietario": "Jorge LARA López"},
+      {"legislatura": "LVII — 2000-2003", "propietario": "Blanca Rosalinda Bernés Chan"}
+    ]
+  },
+
+  "investigadores_activos_en_hopelchen": {
+    "descripcion": "Académicos con investigación activa o reciente sobre el municipio — posibles contactos",
+    "listado": [
+      {"nombre": "Iken Paap", "institucion": "IAI Berlín", "tema": "Arqueología Dzehkabtún", "contacto_via": "IAI Berlin"},
+      {"nombre": "Antonio Benavides Castillo", "institucion": "INAH", "tema": "Arqueología Los Chenes (codirector Dzehkabtún)"},
+      {"nombre": "Edward Allan Ellis", "institucion": "Centro de Investigaciones Tropicales, Universidad Veracruzana", "tema": "Deforestación Hopelchén desde 2004", "publicacion": "Citado en Mongabay nov 2020"},
+      {"nombre": "Jaime Rendón Von Osten", "institucion": "EPOMEX, Universidad Autónoma de Campeche", "tema": "Glifosato en agua y orina de residentes — estudio PNUD 2016"},
+      {"nombre": "Ute Schüren", "institucion": "Freie Universität Berlin (1993-1998)", "tema": "Historia agraria y social del municipio — la tesis más exhaustiva sobre Hopelchén", "obra": "Tesis doctoral FU Berlín; artículos derivados 1995-2001"}
+    ]
+  }
+}
