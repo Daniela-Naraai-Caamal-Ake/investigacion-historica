@@ -51,6 +51,7 @@ jobs:
       - name: Buscar fuentes para registros sin cita
         env:
           FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
+          FIRECRAWL_WEBHOOK_SECRET: ${{ secrets.FIRECRAWL_WEBHOOK_SECRET }}
         run: |
           if [ -z "$FIRECRAWL_API_KEY" ]; then
             echo "⚠  FIRECRAWL_API_KEY no configurada — omitiendo búsquedas reales."
@@ -69,6 +70,7 @@ jobs:
       - name: Validar citas y ampliar nodos
         env:
           FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
+          FIRECRAWL_WEBHOOK_SECRET: ${{ secrets.FIRECRAWL_WEBHOOK_SECRET }}
         run: |
           if [ -z "$FIRECRAWL_API_KEY" ]; then
             echo "⚠  FIRECRAWL_API_KEY no configurada — omitiendo búsquedas reales."
