@@ -771,39 +771,32 @@ def modulo_firecrawl() -> None:
         print(f"    Query: {query}")
 
         try:
-            resp = app.search(query, limit=5, lang="es", country="mx")
-            docs = getattr(resp, "data", None)
-            if docs is None:
-                docs = resp if isinstance(resp, list) else []
+            resp = app.search(query, limit=5)
+            # La API actual devuelve SearchData con campo .web (lista de SearchResultWeb)
+            docs = getattr(resp, "web", None) or []
+            if not docs and isinstance(resp, list):
+                docs = resp
 
             resultados: list[dict] = []
             for doc in docs:
                 if hasattr(doc, "model_dump"):
                     doc_dict = doc.model_dump()
                 elif hasattr(doc, "__dict__"):
-                    doc_dict = doc.__dict__
+                    doc_dict = vars(doc)
                 else:
                     doc_dict = dict(doc) if isinstance(doc, dict) else {}
 
-                metadata = doc_dict.get("metadata") or {}
-                if isinstance(metadata, dict):
-                    titulo = (metadata.get("title", "")
-                              or metadata.get("og:title", ""))
-                    descripcion_res = (
-                        metadata.get("description", "")
-                        or metadata.get("og:description", "")
-                    )
-                else:
-                    titulo = ""
-                    descripcion_res = ""
-
+                # SearchResultWeb tiene url, title, description directamente
+                titulo = doc_dict.get("title") or doc_dict.get("metadata", {}).get("title", "")
+                descripcion_res = doc_dict.get("description") or doc_dict.get("metadata", {}).get("description", "")
                 url = doc_dict.get("url", "")
+
                 if not titulo and not url:
                     continue
 
                 entrada_resultado: dict = {"titulo": titulo, "url": url}
                 if descripcion_res:
-                    entrada_resultado["descripcion"] = descripcion_res[:300]
+                    entrada_resultado["descripcion"] = str(descripcion_res)[:300]
                 markdown = doc_dict.get("markdown") or ""
                 if markdown:
                     entrada_resultado["extracto"] = markdown[:400]
@@ -826,14 +819,27 @@ def modulo_firecrawl() -> None:
             })
 
         except Exception as exc:
-            print(f"     ⚠  Error en búsqueda: {exc}")
+            # Detectar errores de conexión de red en la cadena de causas
+            causa = exc
+            es_red = False
+            while causa is not None:
+                if isinstance(causa, (OSError, ConnectionError)):
+                    es_red = True
+                    break
+                causa = getattr(causa, "__cause__", None) or getattr(causa, "__context__", None)
+            if es_red:
+                msg_error = "error_red: no se pudo conectar a api.firecrawl.dev"
+                print(f"     ⚠  Error de red — sin acceso a api.firecrawl.dev")
+            else:
+                msg_error = f"error: {exc}"
+                print(f"     ⚠  Error en búsqueda: {exc}")
             busquedas.append({
                 "query": query,
                 "descripcion": item.get("descripcion", ""),
                 "nodos_relacionados": item.get("nodos_relacionados", []),
                 "preguntas_relacionadas": item.get("preguntas_relacionadas", []),
                 "registro_id": item.get("registro_id", ""),
-                "estado": f"error: {exc}",
+                "estado": msg_error,
                 "total_resultados": 0,
                 "resultados": [],
                 "timestamp": datetime.now().isoformat(),
