@@ -1,0 +1,266 @@
+{
+  "META": {
+    "archivo": "av_nucleo_extension.json",
+    "descripcion": "Extensión de av_nucleo.json — personajes P031-P050, correcciones, términos vocabulario. Leer SIEMPRE junto con av_nucleo.json.",
+    "version": "2.0",
+    "creado": "2026-03-30",
+    "actualizado": "2026-03-31",
+    "cambios_v2": "P042-P050 añadidos. Correcciones ampliadas. Vocabulario maya expandido con nuevos términos. Riesgo R01 resuelto: A6 título confirmado."
+  },
+
+  "personajes": {
+
+    "P031": {"nombre": "Emilio Lara Calderón", "tipo": "contemporaneo-politico", "periodo": "alcalde 2021-2024", "origen": "Hopelchén", "rol": "Alcalde 2021-2024; diputado federal plurinominal PRI 2024", "hechos_clave": ["Ganó alcaldía 2021 — coalición PRI-PAN-PRD, 8,317 votos (42%)", "7 enero 2023 4:30am: cateo por presunto secuestro", "ASECAM 2024: 9+ millones pesos no transferidos a juntas municipales (Bolonchenticul, Ukum, Dzibalchén)", "Solicitó licencia → candidato a diputado federal plurinominal"], "entradas": ["C2", "C3"], "fuentes": ["Dos mil años en silencio cap. XI", "PorEsto dic 2024", "ASECAM 2024"], "actualizado": "2026-03-30"},
+
+    "P032": {"nombre": "Hiram Aranda Calderón", "tipo": "contemporaneo-politico", "periodo": "alcalde 2024-2027", "hechos_clave": ["Ganó 2 jun 2024 — único municipio PRI de los 13 de Campeche", "Equipo: Herminio May Dzib (secretario) + Leonel Barrera (jurídico) — apellidos MAY y BARRERA del siglo XIX", "Nov 2025: denuncia despojo catastral de Edward Manuel Poot Yeh"], "entradas": ["C4", "C5", "G-Hiram"], "actualizado": "2026-03-30"},
+
+    "P033": {"nombre": "Edward Manuel Poot Yeh", "tipo": "contemporaneo-disidente", "periodo": "activo 2025", "rol": "Maestro; denunciante de corrupción catastral 2025", "hechos_clave": ["Pagaba impuestos de su terreno desde 2006", "Nov 2025: título de propiedad DUPLICADO generado por el equipo del alcalde", "Denuncia FECCECAM: Aranda Calderón + May Dzib + Barrera — despojo, falsificación documentos, abuso de autoridad"], "entradas": ["C5", "G-Hiram"], "actualizado": "2026-03-30"},
+
+    "P034_El_Charras_actualizado": {"nombre": "Efraín 'El Charras' Calderón Lara — ACTUALIZACIÓN P011", "nota": "Ver P011 en av_nucleo.json para datos base.", "datos_nuevos_v2": {"Pedro_Quijano_Uc": "Profesor secuestrado JUNTO con El Charras la noche del 13 feb 1974. Sobrevivió. Su testimonio confirmó el secuestro.", "huelga_73_dias": "14 febrero al 27 abril 1974 = 73 días. La huelga no se silenció con su muerte.", "FEMOSPP_2002": "El caso de El Charras está en el registro de más de 600 desapariciones forzadas documentadas por la FEMOSPP en la 'guerra sucia' 1968-1982.", "Paseo_Efrain_Calderon": "La calle principal de Hopelchén lleva su nombre HOY en 2026. La ironía: los herederos del sistema que lo mató gobiernan al final de la misma calle.", "Efrain_tenia_26_años": "26 años cuando fue asesinado.", "sindicato_gasolineros": "Sindicato de gasolineros 'Efraín Calderón' — lleva su nombre — sigue funcionando junto con Jacinto Canek y trabajadores manuales UADY.", "novela_Charras_p18": "Cantina de Samuel Cervera, junto al cine. Apellidos confirmados textualmente: Villamonte, Canto, Calderón, Solís, Baqueiro.", "novela_Charras_p19": "Padre de El Charras = 'uno de los hombres más prósperos de Hopelchén': compra-venta maíz, apicultura, aserraderos.", "novela_estructura": "18 capítulos. Cap. II = voz del cuñado Nicolín. Cap. IV = segunda persona. Cap. X = carta pública de familiares."}, "actualizado": "2026-03-31"},
+
+    "P035": {"nombre": "Iken Paap", "tipo": "investigador-internacional", "periodo": "activo 2010s-2020s", "origen": "Alemania — Berlín", "rol": "Arqueóloga; directora proyecto Dzehkabtún (IAI Berlín + INAH)", "entradas": ["A4", "H3"], "actualizado": "2026-03-30"},
+
+    "P036": {"nombre": "Ramón Félix Flores", "tipo": "historico-politico", "periodo": "gobernador 1921-1923", "rol": "Primer gobernador PSAC, Campeche", "entradas": ["C8"], "actualizado": "2026-03-30"},
+
+    "P037": {"nombre": "Manuel Antonio Ay Tec", "tipo": "historico-militar-maya", "periodo": "c.1810-1847", "hechos_clave": ["25 julio 1847: ahorcado por descubrir el plan de sublevación", "Últimas palabras a su hijo: 'Voy a morir hijo mío, por haberme comprometido incautamente en una gran guerra que pronto deberá estallar... no vayas a tomar parte en la guerra que va a destrozar el país'", "Su ejecución adelantó la rebelión — los mayas atacaron antes de estar listos"], "entradas": ["B12", "A5"], "actualizado": "2026-03-30"},
+
+    "P038": {"nombre": "Jacinto Pat", "tipo": "historico-militar-maya", "rol": "Líder maya Guerra de Castas", "fuentes": ["Piña Laynes 2017", "Lara Zavala 2008 p.173"], "actualizado": "2026-03-30"},
+
+    "P039": {"nombre": "Oswaldo Baqueiro Anduze", "tipo": "historico-intelectual", "nacimiento": "12 mayo 1902, Mérida", "muerte": "16 junio 1945, Ciudad de México", "hechos_clave": ["Nieto de Serapio Baqueiro Preve", "1932: editor fundador del Diario del Sureste", "Obras: Geografía sentimental de Mérida (1937), La maya y el problema de la cultura indígena (1938)"], "entradas": ["B-Oswaldo"], "actualizado": "2026-03-30"},
+
+    "P040": {"nombre": "Ángel Castillo Lanz", "tipo": "historico-politico", "periodo": "gobernador 1923-1927", "hechos_clave": ["Cofundador PSAC 1920", "Gobernó 1923-1927 — 'hombre fuerte' de Campeche hasta 1939", "Eliminado políticamente por Héctor Pérez Martínez en el cardenismo (1939)"], "entradas": ["C8"], "actualizado": "2026-03-30"},
+
+    "P041": {"nombre": "Raimundo Calderón Lara", "tipo": "local-testimonial", "periodo": "activo 1994-1995", "hechos_clave": ["Comerciante en Hopelchén", "Entrevistado 4 veces por Ute Schüren (1994-1995)", "Apellido CALDERÓN LARA — los dos apellidos del poder en una persona"], "fuentes": ["Schüren FU Berlin, 17_biblio.pdf"], "actualizado": "2026-03-30"},
+
+    "P042": {
+      "nombre": "Pedro Quijano Uc",
+      "tipo": "historico-disidente",
+      "periodo": "activo 1974",
+      "origen": "Yucatán",
+      "rol": "Profesor; secuestrado junto con El Charras la noche del 13 de febrero de 1974. Sobreviviente.",
+      "hechos_clave": [
+        "La noche del 13 feb 1974: secuestrado junto con Efraín 'El Charras' Calderón Lara mientras caminaban por las calles de Mérida",
+        "Sacados a punta de pistola. Llevados a lugar desconocido.",
+        "SOBREVIVIÓ al secuestro — El Charras no.",
+        "Su testimonio confirmó el secuestro y las circunstancias.",
+        "Dato único: no solo El Charras fue secuestrado esa noche. Quijano Uc es testigo vivo del crimen."
+      ],
+      "conexion": "Su supervivencia es el documento vivo más directo del asesinato de El Charras.",
+      "entradas": ["B11"],
+      "fuentes": ["Daniela Naraai — Dos mil años en silencio, cap. XIV", "sources/libro_capitulos/XIV.html"],
+      "actualizado": "2026-03-31"
+    },
+
+    "P043": {
+      "nombre": "Lisandro Lara",
+      "tipo": "hacendado-productor",
+      "periodo": "activo ~1949-1955",
+      "origen": "Hopelchén, Campeche",
+      "rol": "Productor agropecuario; representante de Hopelchén en reunión sobre fomento del henequén",
+      "hechos_clave": [
+        "Asistió como representante de Hopelchén a la reunión convocada por el gobernador Manuel López Hernández (1949-1955) para fomentar el cultivo del henequén en Los Chenes",
+        "Reunión en la Sala de Actos del Palacio de Gobierno de Campeche",
+        "Apellido Lara activo como propietario agropecuario en Hopelchén en los años 1950"
+      ],
+      "conexion_historica": "El apellido Lara no era solo político — era también económico. En la misma época que Humberto Lara y Lara dirigía el Diario del Sureste (1937-1952), Lisandro Lara representaba los intereses agrícolas de Hopelchén.",
+      "entradas": ["C1", "C9"],
+      "fuentes": ["R05042.pdf — recorte de El Nacional, c.1949-1955"],
+      "actualizado": "2026-03-31"
+    },
+
+    "P044": {
+      "nombre": "Débora Pavón",
+      "tipo": "historico-activista-feminista",
+      "periodo": "activa 1921-1923",
+      "origen": "Champotón, Campeche",
+      "rol": "Presidenta de la Liga Feminista de Champotón; colaboradora de Rojo Amanecer",
+      "hechos_clave": [
+        "Una de las líderes más visibles del movimiento feminista campechano del período socialista",
+        "Colaboró en el periódico Rojo Amanecer (órgano oficial del PSAC, 1921-1934)",
+        "La Liga Feminista de Champotón era una de las organizaciones de base del PSAC"
+      ],
+      "conexion": "El socialismo campechano del PSAC incluía una dimensión feminista organizada — dato ausente de la narrativa histórica estándar sobre el período.",
+      "entradas": ["C8", "F-RojoAmanecer"],
+      "fuentes": ["May González, CampeChe Una Ciudad en la Península, 2010"],
+      "actualizado": "2026-03-31"
+    },
+
+    "P045": {
+      "nombre": "Faustino Che Chan",
+      "tipo": "local-testimonial",
+      "periodo": "activo 1995",
+      "origen": "Hopelchén",
+      "rol": "Líder apicultor; Unión de Apicultores Indígenas Cheneros",
+      "hechos_clave": [
+        "Representante de la Unión de Apicultores Indígenas Cheneros en Hopelchén",
+        "Entrevistado por Ute Schüren el 31 marzo 1995",
+        "Apellido doble CHE + CHAN — ambos apellidos mayas de la región"
+      ],
+      "conexion_historica": "La apicultura indígena chenera organizada en 1995 es el antecedente directo de la crisis que documentaría Leydy Pech 25 años después. El mismo territorio, la misma abeja, el mismo conflicto.",
+      "entradas": ["D3", "D4"],
+      "fuentes": ["Schüren FU Berlin, 17_biblio.pdf"],
+      "actualizado": "2026-03-31"
+    },
+
+    "P046": {
+      "nombre": "Pedro Lara y Lara",
+      "tipo": "politico-contemporaneo",
+      "periodo": "Presidente Municipal 1994",
+      "origen": "Hopelchén",
+      "rol": "Alcalde/Presidente Municipal de Hopelchén en diciembre 1994",
+      "hechos_clave": [
+        "Entrevistado por Ute Schüren el 12 diciembre 1994 como 'Bürgermeister' (Presidente Municipal)",
+        "Apellido compuesto Lara y Lara — la continuidad documentada del linaje en el poder municipal",
+        "Activo durante el período en que Schüren realizó su investigación de campo"
+      ],
+      "nota": "Distinto del Pedro Lara y Lara diputado (XXXVIII Legislatura 1944-1947). Mismo patrón de apellido, distinta generación.",
+      "entradas": ["C1"],
+      "fuentes": ["Schüren FU Berlin, 17_biblio.pdf"],
+      "actualizado": "2026-03-31"
+    },
+
+    "P047": {
+      "nombre": "Hugo Lara y Lara",
+      "tipo": "profesionista",
+      "periodo": "activo 1994",
+      "origen": "Hopelchén / Mérida",
+      "rol": "Arquitecto de la región Chenes; radicado en Mérida",
+      "hechos_clave": ["Entrevistado por Schüren el 17 dic 1994"],
+      "nota": "El apellido Lara activo también como profesionista liberal fuera del municipio.",
+      "fuentes": ["Schüren FU Berlin, 17_biblio.pdf"],
+      "actualizado": "2026-03-31"
+    },
+
+    "P048": {
+      "nombre": "Jorge Lara Solís",
+      "tipo": "empresario",
+      "periodo": "activo 1994-1996",
+      "origen": "Hopelchén",
+      "rol": "Empresario y ganadero",
+      "hechos_clave": ["Entrevistado por Schüren: 6 dic 1994, 12 ene 1995, 5 mar 1996", "Apellido Lara Solís = los dos apellidos del poder juntos"],
+      "fuentes": ["Schüren FU Berlin, 17_biblio.pdf"],
+      "actualizado": "2026-03-31"
+    },
+
+    "P049": {
+      "nombre": "Carlos Loret de Mola Mediz",
+      "tipo": "historico-politico",
+      "periodo": "Gobernador de Yucatán 1970-1976",
+      "rol": "Gobernador que ordenó el secuestro y asesinato de El Charras",
+      "hechos_clave": [
+        "Gobernó Yucatán 1970-1976",
+        "Primero intentó cooptar a Efraín Calderón Lara ofreciéndole un cargo",
+        "Al ser rechazado, ordenó su secuestro y asesinato en febrero de 1974",
+        "Nunca rindió cuentas. Nunca fue procesado."
+      ],
+      "fuentes": ["Hernan_Lara_Zavala_librillo.pdf — Marco Antonio Campos, UNAM 2018", "Daniela Naraai — Dos mil años en silencio cap. XIV"],
+      "entradas": ["B11"],
+      "actualizado": "2026-03-31"
+    },
+
+    "P050": {
+      "nombre": "Samuel Cervera",
+      "tipo": "local-testimonial",
+      "periodo": "activo ~1973",
+      "origen": "Hopelchén",
+      "rol": "Cantinero de Hopelchén; dueño de la cantina mencionada en la novela Charras",
+      "hechos_clave": [
+        "Dueño de la cantina de Samuel Cervera, junto al cine de Hopelchén — mencionada en Charras p.18 de Lara Zavala",
+        "El 2 de noviembre de 1973, El Charras llegó a Hopelchén y fue a esa cantina a abrazar a amigos y familiares",
+        "Nombre real confirmado textualmente en la novela — no es seudónimo ficticio"
+      ],
+      "conexion": "La cantina de Samuel Cervera es el único espacio físico real de Hopelchén confirmado textualmente en la novela Charras. El espacio existe. El encuentro existió.",
+      "entradas": ["B11"],
+      "fuentes": ["Lara Zavala — Charras (1990/2022), p. 18"],
+      "actualizado": "2026-03-31"
+    }
+  },
+
+  "eventos_nuevos_pendientes_integrar_en_cronologia": {
+    "instruccion": "Estos eventos aún no están en av_cronologia.json v1.1. Integrar en próxima actualización.",
+    "E075": {"fecha": "1858 enero 29", "evento": "Hopelchén y sus pueblos se declaran parte del Estado de Campeche — formalización definitiva de la separación.", "fuente": "Movimiento Antorchista Nacional + A6.md"},
+    "E076": {"fecha": "1924 septiembre 17", "evento": "Estreno de Kinchí en el Teatro Peón Contreras, Mérida — primera ópera con tema maya de compositor yucateco (Gustavo Río Escalante). Promovida bajo los lineamientos del PSS de Felipe Carrillo Puerto.", "fuente": "Pool Castellanos 2025, 0865175.pdf"},
+    "E077": {"fecha": "1925", "evento": "Gerónimo Baqueiro Fóster (nacido en Hopelchén) llega a la conclusión de que la melodía de Los Xtoles es armonizable con sus propios elementos pentatónicos — sin necesidad de la escala europea.", "fuente": "Baqueiro Fóster 1941, Los mayas antiguos"},
+    "E078": {"fecha": "1974 febrero 14", "evento": "Al día siguiente del secuestro de El Charras: estudiantes y obreros yucatecos inician huelga que duraría 73 días (hasta 27 abril 1974). Una de las huelgas más sostenidas de la historia moderna de Yucatán.", "fuente": "Daniela Naraai — Dos mil años en silencio cap. XIV"},
+    "E079": {"fecha": "1843", "evento": "Frederick Catherwood y John L. Stephens visitan Santa Rosa Xtampak — primeros en documentar la que sería la capital regional de Los Chenes durante 850 años.", "fuente": "nuevos_hallazgos_web_2026-03-22.json"},
+    "E080": {"fecha": "1894", "evento": "Fundación de la Hacienda San Antonio Yaxché, municipio de Hopelchén — hacienda ganadera con arco colonial construido por españoles con mano de obra maya.", "fuente": "PorEsto jun 2023"},
+    "E081": {"fecha": "1995", "evento": "INAH — Renée Zapata realiza temporada de conservación en Tohcok (zona arqueológica a 6km de Hopelchén). El Ayuntamiento de Hopelchén asume la custodia desde ese año.", "fuente": "INAH Lugares — ficha Tohcok"},
+    "E082": {"fecha": "2002", "evento": "La FEMOSPP estimó más de 600 desapariciones forzadas y 275 casos de tortura documentados en la 'guerra sucia' 1968-1982. El caso de Efraín 'El Charras' Calderón Lara figura en ese registro.", "fuente": "FEMOSPP 2002"},
+    "E083": {"fecha": "2023 junio 28", "evento": "El comisario Héctor Evelio Euan Euan alerta sobre el riesgo de colapso del arco emblemático de la hacienda San Antonio Yaxché. INAH no ha intervenido.", "fuente": "PorEsto 28 jun 2023"}
+  },
+
+  "lugares_nuevos_pendientes_integrar": {
+    "instruccion": "Estos lugares no están en av_conocimiento.json activo. Integrar.",
+    "L019": {"nombre": "Dzehkabtún", "tipo": "zona arqueológica", "municipio": "Hopelchén", "nota": "Proyecto IAI Berlín — Iken Paap + Benavides Castillo"},
+    "L020": {"nombre": "Nocuchich", "tipo": "zona arqueológica", "municipio": "Hopelchén"},
+    "L021": {"nombre": "Tabasqueño", "tipo": "zona arqueológica", "municipio": "Hopelchén"},
+    "L022": {"nombre": "San Francisco Suc-Tuc", "tipo": "comunidad", "municipio": "Hopelchén"},
+    "L023": {"nombre": "Crucero de Oxá", "tipo": "comunidad", "municipio": "Hopelchén"},
+    "L024": {"nombre": "Colonia Nuevo Progreso", "tipo": "colonia menonita", "municipio": "Hopelchén", "nota": "Primera 1987"},
+    "L025": {"nombre": "Archivo Histórico Diócesis Campeche", "tipo": "archivo", "nota": "1782: 1,463 hab. en Hopelchén, ninguno hablaba español"},
+    "L026": {"nombre": "Rancho Boxol", "tipo": "rancho", "municipio": "Hopelchén", "nota": "Predio de Pedro Advíncula Lara"},
+    "L027": {"nombre": "Ich Ek", "tipo": "comunidad", "municipio": "Hopelchén", "nota": "Nacimiento Leydy Pech. Ich Ek = Ojo de estrella"},
+    "L028": {"nombre": "Hacienda Holcatzín", "tipo": "hacienda_historica", "nota": "Propiedad Pedro Advíncula Lara. Producía caña, henequén, aguardiente, ron."},
+    "L029": {"nombre": "Tohcok", "tipo": "zona_arqueologica", "municipio": "Hopelchén", "nota": "A 6km al poniente de Hopelchén sobre Carretera 261. Nombre = 'La preciosa navaja de pedernal'. Estilo Chenes-Puuc. 770-830 d.C. Custodia del Ayuntamiento desde 1995."},
+    "L030": {"nombre": "Grutas de Huachabí", "tipo": "cueva_arqueologica", "municipio": "Hopelchén", "nota": "Bolonchén de Rejón. +500 pinturas rupestres. Descubiertas 2012. Cerradas al público. Comparables a Loltún."},
+    "L031": {"nombre": "San Antonio Yaxché", "tipo": "hacienda_colonial", "municipio": "Hopelchén", "nota": "Fundada 1894. Arco colonial en riesgo de colapso 2023."},
+    "L032": {"nombre": "Cantina de Samuel Cervera", "tipo": "espacio_historico", "municipio": "Hopelchén", "nota": "Junto al cine de Hopelchén. Confirmada textualmente en Charras p.18 (Lara Zavala, 1990). El Charras estuvo ahí el 2 nov 1973."}
+  },
+
+  "vocabulario_maya_resuelto": {
+    "nota": "Todos confirmados por el Diccionario Maya Cordemex (1980) salvo indicación contraria.",
+    "CAAMAL": {"forma_maya": "ka'amal", "significado": "Dos ocasiones / dos veces / lo que ocurre por segunda vez", "castellanizacion": "Caamal → Cámara", "estado": "RESUELTO", "circulo_historico": "Francisco Caamal (1848) → Suárez Caamal (1997) → Dan Caamal (2026) = 178 años. El apellido significa exactamente lo que hace: lo que vuelve a ocurrir."},
+    "MAY": {"forma_maya": "may", "significado": "Ciervo joven / venado ritual / pezuña", "nota": "MAY ≠ tabaco. Tabaco en maya yucateco = k'uts. Error resuelto definitivamente.", "estado": "RESUELTO"},
+    "POOT": {"forma_maya": "poot", "significado": "Agujerear, horadar, perforar. También: variedad de araña de patas grandes color amarillo.", "estado": "RESUELTO"},
+    "EK": {"forma_maya": "ek / ek'", "significado_1": "Estrella, lucero. También: palo de tinte (Haematoxylum campechianum).", "significado_2": "Negro (ek = negro en maya yucateco). Ek Balam = jaguar negro.", "nota_CRITICA": "EK tiene DOS palabras distintas en maya con la misma escritura colonial: ek' (negro) y ek (estrella/palo de tinte). En el nombre 'Milo Ek' de De Zitilchén, el apellido puede ser cualquiera de las dos. La castellanización de Fernando Ek → Fernando Estrella usa el significado de ESTRELLA.", "castellanizacion": "Ek → Estrella", "estado": "EXPANDIDO — dos significados confirmados"},
+    "DZUL": {"forma_maya": "dzul", "significado": "Extranjero, forastero", "castellanizacion": "Dzul → Caballero", "estado": "RESUELTO"},
+    "CHI": {"forma_maya": "chi", "significado": "Boca de personas y ciertos frutos; brocal; orilla; Nance (Malpighia glabra)", "estado": "CONFIRMADO"},
+    "BALAM": {"forma_maya": "balam", "significado": "Jaguar — el animal sagrado más importante de la cosmología maya", "estado": "CONFIRMADO"},
+    "PECH": {"forma_maya": "pech", "significado": "Garrapata", "circulo": "1848: Francisco Pech borra su apellido. 2020: Leydy Pech gana Premio Goldman. 172 años.", "estado": "CONFIRMADO"},
+    "ITURBIDE_nombre_maya": {"nombre_original": "Dzibil-Noh-Aac", "significado": "Tortuga grande escrita / escrito en la gran tortuga", "estado": "RESUELTO"},
+    "XUNAAN_KAB": {"forma_maya": "Xunáan Kab", "significado": "La dama de la miel", "referencia": "Abeja Melipona beecheii — domesticada por los mayas 3,000+ años", "estado": "CONFIRMADO"},
+    "ICH_EK": {"forma_maya": "Ich Ek", "significado": "Ojo de estrella", "referencia": "Nacimiento de Leydy Pech, municipio Hopelchén", "estado": "CONFIRMADO"},
+    "XTOLES": {"forma_maya": "Ix tol / Ixtol / ah taahl itol", "significado": "Truhán, moharracho, representante, comediante. 'ah' = género masculino; 'taah' = farsa/representación; 'Ixtol' = el sujeto y su carácter.", "descripcion_musical": "Danza de las cintas / Danza de los Xtoles. Escala pentafónica Sol-La-Si-Re-Mi SIN semitonos. NO es música prehispánica ritual — es de Carnaval (Río Escalante confirmó a Stokowski).", "primera_notacion": "1869, José Jacinto Cuevas, Mosaico yucateco", "publicacion_academica": "Baqueiro Fóster, Los mayas antiguos, El Colegio de México, 1941", "estado": "RESUELTO"},
+    "HOLPOP": {"significado": "Cantor principal maya. A su cargo: atabales e instrumentos musicales. 'Entona y enseña lo que se ha de cantar'. Venerado; asiento en la Iglesia.", "fuente": "Baqueiro Fóster 1941 citando Dr. Pedro Sánchez de Aguilar (Valladolid, 1555)"},
+    "BALDZAM": {"significado": "Farsante que representaba fábulas e historias antiguas. Diferente de los Xtoles: no tiene que ver con música ni danza. 'Graciosísimo en los chistes'. Por metáfora: el que se hace chistoso.", "fuente": "Baqueiro Fóster 1941, Los mayas antiguos p.273"},
+    "HOLCANOKOT_BATELOKOT": {"significado": "Bailes de guerra mayas. Holcan=guerrero+okot=danza; Baatel=batalla+okot=danza. La Danza de los Xtoles pudo ser uno de estos.", "fuente": "Baqueiro Fóster 1941, Los mayas antiguos p.274"},
+    "TUNKUL": {"forma_maya": "tunkul / tankul", "significado": "Tambor de madera hueca maya con dos aperturas longitudinales, se toca con palillos de goma. Sonido 'pesado y triste' (Diego de Landa).", "fuente": "Landa, Cogolludo, Baqueiro Fóster, Pool Castellanos 2025"},
+    "DZUL_DZULOOB": {"forma_maya": "dzul / dzuloob", "significado": "Extranjero, forastero, invasor. División conceptual maya: mayas (uinicob) vs. dzuloob.", "uso_GC": "¡Mueran los dzuloob! — grito de la Guerra de Castas"},
+    "UINIC_UINICOB": {"forma_maya": "uinic / uinicob", "significado": "Persona, ser humano, hombre. En contexto GC: los mayas frente a los dzuloob."},
+    "MACEHUAL_MACEHUALOB": {"forma_maya": "macehual / macehualob", "significado": "Hombre del común, campesino. Los mayas comunes (vs. caciques). Nombre con que los Cruzoob se autodefinían."},
+    "CHILAM_BALAM": {"significado": "El sacerdote jaguar / el jaguar que es intérprete (chilam=intérprete, balam=jaguar). Textos mayas coloniales en caracteres latinos. Versiones: de Chumayel, de Maní, de Tizimín."},
+    "JARANA": {"significado": "Baile tradicional yucateco — mezcla de influencias mayas, españolas y africanas", "uso_proyecto": "Baile Verde 1847 en Península Península"},
+    "XTABENTUN": {"significado": "Enredadera de agua — planta (Turbina corymbosa) usada para hacer el licor sagrado maya. 'Flor de Xtabentún' en De Zitilchén como metáfora.", "uso_proyecto": "Licor mencionado en De Zitilchén"},
+    "XKANHA_significado": {"topónimo": "Xkanhá", "significado": "Lugar del agua amarilla / lugar de la serpiente amarilla (x=locativo, kan=amarillo/serpiente, há=agua)", "uso_proyecto": "Comunidad donde compraban armas 1847 (Península Península p.89). Baqueiro Fóster escuchó a los ancianos cantar Los Xtoles ahí."},
+    "XTACUMBILXUNAÁN_corrección": {"nota": "ES UNA GRUTA, NO UN CENOTE", "significado": "La doncella escondida / la mujer escondida dentro", "descripcion": "Gruta en ejido de Bolonchén de Rejón, municipio de Hopelchén. 600 metros de extensión, 3 pisos, 40 cámaras. A 34 km de la ciudad de Hopelchén.", "estado": "CORREGIDO — v2.0"}
+  },
+
+  "fuentes_nuevas_para_av_fuentes": {
+    "ALVAREZCU2007": {"titulo": "De Tihosuco a La Habana", "autor": "Álvarez Cuartero", "publicacion": "Studia Historica 25, 2007", "acceso": "JSTOR", "relevancia": "Apellidos exactos de mayas vendidos a Cuba — Hilo Cuba, B1, B12", "prioridad": "ALTA"},
+    "SCHUEREN1995": {"titulo": "Neoliberal Policy and the Peasantry in Rural Campeche", "autor": "Ute Schüren", "año": 1995, "nota": "Artículo derivado de su tesis FU Berlín"},
+    "SCHUEREN1997": {"titulo": "Los mayas pacíficos de los Chenes ayer y hoy: El caso de Xkanhá", "autor": "Ute Schüren", "año": 1997, "nota": "Artículo que documenta la comunidad de Xkanhá en detalle"},
+    "SCHUEREN2001": {"titulo": "La revolución tardía: Reforma agraria y cambio político en Campeche (1910-1940)", "autor": "Ute Schüren", "año": 2001, "nota": "Artículo derivado de su tesis — clave para C8"},
+    "SCHUEREN_SinF": {"titulo": "Haciendas y peones en Campeche: Una vista desde los Chenes (1820-1914)", "autor": "Ute Schüren", "año": "sin fecha", "nota": "Manuscrito no publicado — el más específico sobre Hopelchén en el Porfiriato"},
+    "UC_MORENO1993": {"titulo": "Semblanza de un municipio: Hopelchén", "autor": "Jorge Alberto Uc Moreno", "tipo": "Tesis de licenciatura, Facultad de Ciencias Políticas, UAC, 7 enero 1993", "nota": "La ÚNICA tesis de licenciatura sobre Hopelchén como municipio"},
+    "ZAVALA_RAMOS1990": {"titulo": "Plantas medicinales de la región de Los Chenes", "autor": "Francisco T. Zavala Ramos", "editorial": "INI, Centro Coordinador Indigenista Maya, Hopelchén, 1990", "nota": "La única compilación de plantas medicinales de Los Chenes"}
+  },
+
+  "correcciones_criticas": {
+    "Rojo_Amanecer_cierre": "1934 (no 1924 — 1924 es solo el período estudiado por May González)",
+    "LZavala_nacimiento": "1946 según HISPADOC / 1947 según AV_PERSONAS.md — discrepancia sin resolver",
+    "DeZitilchen_1a_edicion": "1981 FCE (no 2012 — esa es reedición)",
+    "Charras_1a_edicion": "1990 (Alfaguara 2022 es reedición)",
+    "Premio_LZavala_CORREGIDO": "Premio Iberoamericano de Novela Elena Poniatowska 2009 (Alfaguara). Real Academia Española 2010 también. El libro fue publicado en 2008.",
+    "A6_titulo_RESUELTO": "Hopelchén y sus guerras: dos mil años de un territorio que nunca ha dejado de ser disputado — R01 CERRADO",
+    "Barrera_seudonimo_DEFINITIVO": "Napoleón Trebarra — no Noel Á. Arrerab. R03 CERRADO.",
+    "Baqueiro_Foster_nacimiento_DEFINITIVO": "25 enero 1892 — confirmado por acta (expediente 2699B938, Cenidim INBA). La fecha 1898 en fuentes secundarias es INCORRECTA.",
+    "Los_Xtoles_NO_prehispanicos": "Río Escalante confirmó a Stokowski que Los Xtoles se ejecutan en el Carnaval pero en ninguna ceremonia maya.",
+    "Libaneses_Hopelchen_CERO": "Ninguna familia libanesa se radicó en Hopelchén según Ramírez Carrillo 2014. La familia más cercana es en Hecelchakán. H1 debe ajustarse: los libaneses pasaban como aboneros pero no residían.",
+    "El_Charras_asesinado_NO_desaparecido": "Fue SECUESTRADO Y ASESINADO (no solo desaparecido). Causa de muerte: una bala en la cabeza después de días de tortura.",
+    "Gobernador_responsable_Charras": "Carlos Loret de Mola Mediz, gobernador de Yucatán 1970-1976.",
+    "Xtacumbilxunaán_es_GRUTA": "Es GRUTA (no cenote). 600 metros, 3 pisos, 40 cámaras. En ejido de Bolonchén de Rejón, a 34 km de Hopelchén.",
+    "Huelga_El_Charras": "73 días: del 14 febrero al 27 abril 1974.",
+    "Hopelchen_declaro_ser_Campeche": "29 enero 1858 — Hopelchén y sus pueblos se declararon parte del Estado de Campeche.",
+    "Pedro_Quijano_Uc": "Sobrevivió el secuestro del 13 febrero 1974 junto con El Charras. Su testimonio confirmó el crimen."
+  }
+}

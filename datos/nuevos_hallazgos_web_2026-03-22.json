@@ -1,0 +1,248 @@
+{
+  "META": {
+    "titulo": "Nuevos hallazgos web — Sesión agente 2026-03-22",
+    "proyecto": "ARCHIVO VIVO",
+    "queries_ejecutadas": [
+      "Hopelchén Campeche historia INAH arqueología zona maya",
+      "Hochob Santa Rosa Xtampak zona arqueológica Chenes Campeche investigación"
+    ],
+    "fecha": "2026-03-22",
+    "total_nuevos_sitios": 3,
+    "total_nuevos_eventos_propuestos": 7,
+    "total_nuevas_fuentes": 9
+  },
+
+  "sitios_arqueologicos_nuevos": [
+    {
+      "id": "L_NEW_001",
+      "nombre": "Grutas de Huachabí",
+      "tipo": "cueva_arqueologica",
+      "municipio": "Hopelchén",
+      "ubicacion_especifica": "Bolonchén de Rejón — zona arqueológica Miramar",
+      "coordenadas_aprox": "noroeste del municipio de Hopelchén",
+      "profundidad": "aprox. 20 metros",
+      "extension": "más de 1 kilómetro",
+      "pinturas_rupestres": {
+        "cantidad": "+500 pinturas",
+        "descubrimiento": 2012,
+        "periodos": [
+          "Preclásico",
+          "Clásico Temprano 200-600 dC",
+          "Clásico Tardío y Terminal 600-1050 dC",
+          "Posclásico 1050-1521 dC",
+          "Colonial/Virreinal"
+        ],
+        "tipos": ["figuras antropomorfas", "figuras zoomorfas", "caballos", "reptiles", "ciempiés", "serpientes", "peces", "motivos abstractos"],
+        "colores": ["negro", "tres tonos de café", "arcilla roja"]
+      },
+      "ceramica": "Fragmentos desde Preclásico",
+      "comparacion": "Comparables a Grutas de Loltún (Yucatán) — posiblemente más importantes",
+      "investigadores": [
+        "Adriana Velázquez Morlett — Directora Centro INAH Campeche",
+        "Abiud Pizá Chávez — Subdirección de Arqueología Subacuática INAH Península",
+        "Helena Barba Meinecke — Directora Arqueología Subacuática Peninsular INAH"
+      ],
+      "estado_acceso": "Cerrado al público — difícil acceso (2019). INAH prepara imágenes y videos.",
+      "fuentes": [
+        "La Jornada Maya — Campeche, 8 marzo 2023",
+        "El Grillo de Yucatán, 16 octubre 2019"
+      ],
+      "entrada_blog_propuesta": "A — nueva entrada sobre cuevas rupestres"
+    },
+    {
+      "id": "L_NEW_002",
+      "nombre": "Tohcok",
+      "tipo": "zona_arqueologica",
+      "municipio": "Hopelchén",
+      "ubicacion": "A 6km al poniente de Hopelchén sobre carretera asfaltada Campeche-Hopelchén. La Carretera Federal 261 atraviesa el sitio.",
+      "coordenadas": "19° 46' 13\" N, 89° 52' 30\" O",
+      "periodo_principal": "770-830 dC",
+      "estilo_arquitectonico": "Transicional Chenes-Puuc",
+      "nombre_maya": "Tacóh",
+      "significado": "'La preciosa navaja de pedernal' o 'El lugar de la navaja de pedernal'",
+      "historia_investigacion": [
+        "Edwin Shook y Tatiana Proskouriakoff (1951) — acuñaron nombre Tohcok",
+        "George Andrews (Univ. Oregon) — primera visita 1974, croquis Estructura 1 (1983)",
+        "Renée Zapata (INAH) — temporada de conservación Edificio 1 (1995)",
+        "Karl Herbert Mayer (austriaco) — esculturas antes desconocidas (1998)",
+        "Ayuntamiento de Hopelchén — custodia y limpieza desde 1995"
+      ],
+      "destruccion_patrimonial": "Asfaltado de carretera Campeche-Hopelchén destruyó varias plataformas prehispánicas — no se evaluó impacto patrimonial",
+      "pinturas_murales": "Registradas a mediados del siglo XX — ya no existen en la actualidad",
+      "referencias_bibliograficas": [
+        "Aranda González, Mario H. (1985) — Apuntaciones históricas y literarias del Municipio de Hopelchén",
+        "Barrera Vázquez, Alfredo et al. (1980) — Diccionario Maya Cordemex",
+        "Pollock, Harry E.D. (1980) — The Puuc",
+        "Proskouriakoff, Tatiana (1965)"
+      ],
+      "fuentes": ["INAH Lugares — ficha Tohcok"],
+      "entrada_blog": "A3 — puede complementarse"
+    },
+    {
+      "id": "L_NEW_003",
+      "nombre": "Valeriana",
+      "tipo": "sitio_arqueologico",
+      "departamento": "Campeche (posiblemente municipio de Hopelchén)",
+      "origen_nombre": "Laguna Valeriana cercana",
+      "periodo": "Clásico Maya 250-900 dC",
+      "extension": "16.6 km²",
+      "descripcion": "Dos núcleos principales con arquitectura monumental: plazas cerradas, calzada amplia, edificios piramidales, juego de pelota, embalse (represa de arroyo), Grupo E (asociado con época preclásica)",
+      "descubrimiento": "2024",
+      "publicacion_cientifica": "Antiquity (revista)",
+      "instituciones": [
+        "INAH — Secretaría de Cultura México",
+        "Tulane University (EEUU)",
+        "Universidad del Norte de Arizona (EEUU)",
+        "Universidad de Houston (EEUU)"
+      ],
+      "fuentes": [
+        "PorEsto Campeche, 31 octubre 2024"
+      ],
+      "entrada_blog_propuesta": "A — nueva entrada o ampliación A1/A3"
+    }
+  ],
+
+  "eventos_propuestos_nuevos": [
+    {
+      "id_propuesto": "E062",
+      "fecha": "2012",
+      "titulo": "Descubrimiento de 500+ pinturas rupestres en Grutas de Huachabí",
+      "descripcion": "Descubrimiento de más de 500 pinturas rupestres en las cuevas de Huachabí, municipio de Hopelchén, en la zona de Bolonchén de Rejón. Figuras antropomorfas, zoomorfas, caballos, reptiles y motivos abstractos, en colores negro, café y arcilla roja. Cerámica desde el Preclásico hasta el periodo virreinal. Comparables a las Grutas de Loltún.",
+      "tipo": "arqueologico",
+      "lugar": "Grutas de Huachabí, Bolonchén de Rejón, Hopelchén"
+    },
+    {
+      "id_propuesto": "E063",
+      "fecha": "2024",
+      "titulo": "INAH confirma descubrimiento de Valeriana — nuevo sitio maya en Campeche",
+      "descripcion": "El INAH confirma el descubrimiento del sitio arqueológico Valeriana (16.6 km²) en la selva de Campeche, con arquitectura monumental del Clásico Maya (250-900 dC). Investigadores del INAH junto con Tulane, U. Norte de Arizona y U. de Houston. Publicado en la revista Antiquity.",
+      "tipo": "arqueologico",
+      "lugar": "Campeche (posiblemente municipio Hopelchén)"
+    },
+    {
+      "id_propuesto": "E064",
+      "fecha": "1843",
+      "titulo": "Catherwood y Stephens visitan Santa Rosa Xtampak",
+      "descripcion": "Los exploradores Frederick Catherwood y John L. Stephens son los primeros en documentar Santa Rosa Xtampak, futura capital regional de Los Chenes. Visita que marca el inicio de la arqueología moderna en la región.",
+      "tipo": "arqueologico",
+      "lugar": "Santa Rosa Xtampak, municipio Hopelchén"
+    },
+    {
+      "id_propuesto": "E065",
+      "fecha": "1894",
+      "titulo": "Fundación de la Hacienda San Antonio Yaxché",
+      "descripcion": "Fundación de la hacienda ganadera San Antonio Yaxché en el municipio de Hopelchén. Construida con piedra, madera, hierro y tierra. Incluye camino empedrado, casa grande, dos pozos/norias y arco emblemático trabajado por españoles con ayuda de mayas.",
+      "tipo": "economico",
+      "lugar": "San Antonio Yaxché, Hopelchén"
+    },
+    {
+      "id_propuesto": "E066",
+      "fecha": "1951",
+      "titulo": "Shook y Proskouriakoff acuñan el nombre Tohcok",
+      "descripcion": "Edwin Shook y Tatiana Proskouriakoff registran oficialmente el nombre Tohcok para el sitio arqueológico ubicado a 6km al poniente de Hopelchén sobre la Carretera 261. Zona de estilo transicional Chenes-Puuc.",
+      "tipo": "arqueologico",
+      "lugar": "Tohcok, municipio Hopelchén"
+    },
+    {
+      "id_propuesto": "E067",
+      "fecha": "1995",
+      "titulo": "INAH — conservación Tohcok; Ayuntamiento de Hopelchén asume custodia",
+      "descripcion": "La arqueóloga Renée Zapata del INAH realiza temporada de conservación del Edificio 1 de Tohcok. Desde esta fecha el Ayuntamiento de Hopelchén se hace cargo de la limpieza y custodia de la zona arqueológica.",
+      "tipo": "arqueologico",
+      "lugar": "Tohcok, municipio Hopelchén"
+    },
+    {
+      "id_propuesto": "E068",
+      "fecha": "2023",
+      "titulo": "Arco colonial de San Antonio Yaxché en riesgo — INAH no responde",
+      "descripcion": "El comisario municipal Héctor Evelio Euan Euan alerta sobre el riesgo de colapso del arco emblemático de la hacienda San Antonio Yaxché (fundada 1894). El INAH no ha intervenido los montículos mayas ni el arco colonial. Los pobladores amenazan con restaurarlo por cuenta propia.",
+      "tipo": "contemporaneo",
+      "lugar": "San Antonio Yaxché, Hopelchén"
+    }
+  ],
+
+  "fuentes_nuevas": [
+    {
+      "id": "F_NEW_001",
+      "tipo": "web_periodico",
+      "titulo": "INAH confirma descubrimiento de Valeriana",
+      "fuente": "PorEsto Campeche",
+      "fecha": "2024-10-31",
+      "url": "https://www.poresto.com/campeche/2024/10/31/inah-confirma-descubrimiento-de-sitio-maya-en-campeche-habria-otro-en-hopelchen.html",
+      "confiabilidad": 0.85
+    },
+    {
+      "id": "F_NEW_002",
+      "tipo": "web_inah_oficial",
+      "titulo": "INAH Lugares — Tohcok zona arqueológica",
+      "fuente": "INAH",
+      "url": "https://lugares.inah.gob.mx/es/zonas-arqueologicas/zonas/opinion/14182-tohcok-14182.html",
+      "confiabilidad": 0.98
+    },
+    {
+      "id": "F_NEW_003",
+      "tipo": "web_periodico",
+      "titulo": "Cuevas de Huachabí — pinturas rupestres",
+      "fuente": "La Jornada Maya Campeche",
+      "fecha": "2023-03-08",
+      "url": "https://www.lajornadamaya.mx/campeche/218777/las-cuevas-de-huachabi-y-sus-pinturas-rupestres-mayas-en-campeche",
+      "confiabilidad": 0.9
+    },
+    {
+      "id": "F_NEW_004",
+      "tipo": "web_periodico",
+      "titulo": "Arqueólogos INAH revelan pinturas Huachabí",
+      "fuente": "El Grillo de Yucatán",
+      "fecha": "2019-10-16",
+      "url": "https://grillodeyucatan.com/2019/10/16/arqueologos-del-inah-revelan-pinturas-rupestres-en-las-grutas-de-huachabi/",
+      "confiabilidad": 0.88
+    },
+    {
+      "id": "F_NEW_005",
+      "tipo": "web_inah_oficial",
+      "titulo": "INAH — Santa Rosa Xtampak datos completos",
+      "fuente": "INAH Lugares",
+      "url": "https://lugares.inah.gob.mx/es/zonas-arqueologicas/zonas/1674-santa-rosa-xtampak.html",
+      "confiabilidad": 0.99
+    },
+    {
+      "id": "F_NEW_006",
+      "tipo": "revista_academica",
+      "titulo": "Medicina tradicional en Ich Ek, Hopelchén — Patrimonio biocultural",
+      "autores": ["Laura Huicochea Gómez", "D. Cahuich-Campos"],
+      "revista": "Glifos (INAH)",
+      "numero": 44,
+      "año": 2025,
+      "url": "https://revistas.inah.gob.mx/index.php/glifos/article/view/22939",
+      "confiabilidad": 0.97
+    },
+    {
+      "id": "F_NEW_007",
+      "tipo": "libro",
+      "titulo": "Apuntaciones históricas y literarias del Municipio de Hopelchén",
+      "autor": "Mario H. Aranda González",
+      "año": 1985,
+      "editorial": "Programa Cultural de las Fronteras / Ayuntamiento de Hopelchén",
+      "lugar_edicion": "Mérida",
+      "estado": "NO ADQUIRIDO — buscar en INAH, UNAM, Univ. Autónoma de Campeche",
+      "confiabilidad": 1.0
+    },
+    {
+      "id": "F_NEW_008",
+      "tipo": "web_periodico",
+      "titulo": "Arco colonial San Antonio Yaxché en riesgo",
+      "fuente": "PorEsto Campeche",
+      "fecha": "2023-06-28",
+      "url": "https://www.poresto.com/campeche/2023/6/28/emblematico-arco-maya-de-san-antonio-yaxche-hopelchen-de-mas-de-100-anos-en-riesgo-del-colapso.html",
+      "confiabilidad": 0.82
+    },
+    {
+      "id": "F_NEW_009",
+      "tipo": "mediateca_inah",
+      "titulo": "Santa Rosa Xtampak — Mediateca INAH",
+      "fuente": "Mediateca INAH",
+      "url": "https://mediateca.inah.gob.mx/repositorio/islandora/object/sitioprehispanico:2128",
+      "confiabilidad": 0.99
+    }
+  ]
+}

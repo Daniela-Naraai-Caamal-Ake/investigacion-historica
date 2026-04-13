@@ -1,0 +1,243 @@
+{
+  "META": {
+    "archivo": "av_conocimiento_extension.json",
+    "descripcion": "Extensión de av_conocimiento.json — lugares L019-L026, vocabulario maya resuelto, términos nuevos. Leer SIEMPRE junto con av_conocimiento.json.",
+    "version": "1.0",
+    "creado": "2026-03-30",
+    "integrado_de": [
+      "_sesiones_anteriores/investigacion_global_2026-03-23.json",
+      "_sesiones_anteriores/personajes_eventos_expansion_v2.json",
+      "_sesiones_anteriores/bloques_C_a_H_2026-03-23.json",
+      "_sesiones_anteriores/entradas_sin_insumos_2026-03-23.json"
+    ]
+  },
+
+  "lugares_nuevos": {
+    "L019": {
+      "nombre_espanol": "Dzehkabtún",
+      "nombre_maya": "Dzehkabtún",
+      "tipo": "zona_arqueologica",
+      "municipio": "Hopelchén",
+      "descripcion": "Sitio arqueológico. Visitado por Teobert Maler en 1887. Objeto del proyecto arqueológico IAI Berlín dirigido por Iken Paap y Antonio Benavides Castillo. Publicaciones en Routledge. Los habitantes a 8 km no saben de estas investigaciones.",
+      "entradas": ["A4", "H3"]
+    },
+    "L020": {
+      "nombre_espanol": "Nocuchich",
+      "tipo": "zona_arqueologica",
+      "municipio": "Hopelchén",
+      "descripcion": "Visitado por Teobert Maler en 1889. En riesgo de desaparecer por la deforestación menonita.",
+      "entradas": ["A4"]
+    },
+    "L021": {
+      "nombre_espanol": "Tabasqueño",
+      "tipo": "zona_arqueologica",
+      "municipio": "Hopelchén",
+      "descripcion": "Sitio arqueológico del corpus de Maler en Los Chenes.",
+      "entradas": ["A4"]
+    },
+    "L022": {
+      "nombre_espanol": "San Francisco Suc-Tuc",
+      "tipo": "comunidad",
+      "municipio": "Hopelchén",
+      "descripcion": "Comunidad del municipio. Dic 2016: eligió gobierno autónomo por usos y costumbres ante corrupción de la comisaria ejidal. Represión policial antimotines 17 dic 2016. Detenidos: Diego Armando Poot Pech, José Alfredo Poot Aguayo y Sergio Echazarreta Ucán. Ene 2024: 800 colmenas muertas por plaguicidas.",
+      "entradas": ["D4", "G-SucTuc"]
+    },
+    "L023": {
+      "nombre_espanol": "Crucero de Oxá",
+      "tipo": "comunidad",
+      "municipio": "Hopelchén",
+      "descripcion": "Comunidad del municipio. Enero 2024: 800 colmenas muertas por plaguicidas (fipronil confirmado por ECOSUR junto con Suc-Tuc).",
+      "entradas": ["D4"]
+    },
+    "L024": {
+      "nombre_espanol": "Colonia Nuevo Progreso",
+      "tipo": "colonia_menonita",
+      "municipio": "Hopelchén",
+      "descripcion": "Primera colonia menonita en Los Chenes, fundada en 1987. Punto de inicio de la transformación agroindustrial del municipio. Procedentes de Chihuahua, Durango, Tamaulipas, Zacatecas.",
+      "entradas": ["D2", "H2"]
+    },
+    "L025": {
+      "nombre_espanol": "Archivo Histórico de la Diócesis de Campeche",
+      "tipo": "archivo_institución",
+      "descripcion": "Contiene fondos parroquiales del siglo XVIII de Hopelchén. Clave: en 1782 el obispo visitante documentó 1,463 habitantes en Hopelchén — NINGUNO hablaba español. Dato para entradas E1-E6.",
+      "entradas": ["E-ChanCil", "B-Serapio"]
+    },
+    "L026": {
+      "nombre_espanol": "Rancho Boxol",
+      "tipo": "rancho",
+      "municipio": "Hopelchén",
+      "descripcion": "Uno de los predios de Pedro Advíncula Lara (junto con Ucuchil, hacienda Santa Rita y hacienda Holcatzín). Lugar de memoria oral sobre el Porfiriato.",
+      "personajes": ["P007"],
+      "entradas": ["B2"]
+    },
+    "L027": {
+      "nombre_espanol": "Ich Ek",
+      "nombre_maya": "Ich Ek",
+      "significado_maya": "Ojo de estrella",
+      "tipo": "comunidad",
+      "municipio": "Hopelchén",
+      "descripcion": "Lugar de nacimiento de Leydy Pech (c.1965). Comunidad donde se fundó la cooperativa Koolel-Kab/Muuchkambal (1995). EPOMEX-UAC documentó glifosato en sangre y orina de residentes (2016).",
+      "personajes": ["P013"],
+      "entradas": ["D3", "D4"]
+    },
+    "L028": {
+      "nombre_espanol": "Hacienda Holcatzín",
+      "tipo": "hacienda_historica",
+      "municipio": "Hopelchén",
+      "descripcion": "Hacienda del Porfiriato propiedad de Pedro Advíncula Lara. Producía caña de azúcar, henequén, aguardiente y ron (Lara Zavala, Península Península). La maestra posrevolucionaria de De Zitilchén venía a organizar a los peones de esta hacienda cuando fue violada y abandonada en el camino (C8-BIS). Es el modelo de la hacienda de don Quintín Silvestre en Península Península.",
+      "personajes": ["P007"],
+      "entradas": ["B2", "C8-BIS", "C9"]
+    }
+  },
+
+  "terminos_mayas_resueltos": {
+    "nota": "Todos confirmados por el Diccionario Maya Cordemex, Alfredo Barrera Vázquez (1980). RESUELTOS definitivamente en sesión 2026-03-23. Ver investigacion_global_2026-03-23.json para detalle.",
+
+    "CAAMAL": {
+      "forma_maya": "ka'amal",
+      "significado": "Dos ocasiones / dos veces / lo que ocurre por segunda vez",
+      "etimologia": "ka'a (dos) + -máal (clasificador numeral para contar veces o unidades)",
+      "castellanizacion": "Caamal → Cámara",
+      "frecuencia": "Apellido presente en toda la Península",
+      "estado": "RESUELTO",
+      "circulo_historico": "Francisco Caamal (comandante 1848) → Miguel Ángel Suárez Caamal (novelista 1997) → Daniela Naraai Caamal (investigadora 2026) = 178 años. El apellido significa exactamente eso: lo que ocurre dos veces, lo que se repite."
+    },
+
+    "MAY": {
+      "forma_maya": "may",
+      "significado": "Ciervo joven / venado ritual / pezuña",
+      "CORRECCION_DEFINITIVA": "MAY ≠ tabaco. Tabaco en maya yucateco = k'uts (k'uts). Error corregido.",
+      "castellanizacion": "No documentada en Cordemex",
+      "frecuencia": "46,879 personas en Yucatán — 4to apellido maya más frecuente (INE 2016)",
+      "estado": "RESUELTO",
+      "portadores_historicos": "Juan de Dios May (comandante 1848), Herminio May Dzib (secretario ayuntamiento 2024)"
+    },
+
+    "POOT": {
+      "forma_maya": "poot",
+      "significado": "Agujerear, horadar, perforar. También: variedad de araña de patas grandes y de color amarillo.",
+      "estado": "RESUELTO",
+      "portadores_historicos": "Crescencio Poot (comandante Cruzoob), Florentino Poot (GC), Evaristo Poot Cruz (encontró cuerpo El Charras 1974), Edgar Manuel Poot Yeh (despojado catastral 2025)"
+    },
+
+    "EK": {
+      "forma_maya": "ek",
+      "significado": "Estrella, lucero. También: palo de tinte (Haematoxylum campechianum).",
+      "castellanizacion": "Ek → Estrella",
+      "dato_literario": "En Los Misterios de Chan Santa Cruz (Barrera 1864): Fernando Ek llega a Cuba y cambia su apellido a Fernando Estrella — la traducción exacta del maya al español.",
+      "dato_historico": "Kosichenko 2025: Sostenes Dzul se registró en la Guardia Nacional como 'Sostenes Estrella' — usando la traducción de EK, no de DZUL.",
+      "estado": "RESUELTO"
+    },
+
+    "DZUL": {
+      "forma_maya": "dzul",
+      "significado": "Extranjero, forastero. Persona que viene de fuera.",
+      "castellanizacion": "Dzul → Caballero",
+      "nota": "La castellanización de DZUL a Caballero transfiere connotaciones positivas — exactamente el mecanismo documentado por Kosichenko 2025.",
+      "estado": "RESUELTO"
+    },
+
+    "CHI": {
+      "forma_maya": "chi",
+      "significado": "Boca de personas y ciertos frutos; brocal; orilla; Nance (Malpighia glabra)",
+      "nota": "El mismo apellido Chi divide la guerra: Cecilio Chi (insurrección 1847) + Juan Chi (pro-gobierno). Ni la etnia ni el apellido determinaban la posición política.",
+      "estado": "CONFIRMADO"
+    },
+
+    "BALAM": {
+      "forma_maya": "balam",
+      "significado": "Jaguar — el animal sagrado más importante de la cosmología maya",
+      "estado": "CONFIRMADO"
+    },
+
+    "PECH": {
+      "forma_maya": "pech",
+      "significado": "Garrapata",
+      "circulo": "1848: Francisco Pech se registra como Pérez — borra su apellido. 2020: Leydy Pech gana Premio Goldman — lo reivindica. 172 años.",
+      "estado": "CONFIRMADO"
+    }
+  },
+
+  "terminos_especiales_proyecto": {
+    "HO_CHEEN": {
+      "maya": "Ho'peel chen",
+      "castellano": "Hopelchén",
+      "significado": "Lugar de los cinco pozos",
+      "dato_editorial": "La misma caliza que guarda el agua de los cinco pozos (ho'chén) es la que las minas del Tren Maya quieren extraer. El nombre del pueblo lleva dentro la descripción del conflicto del siglo XXI."
+    },
+    "DZIBIL_NOH_AAC": {
+      "maya": "Dzibil-Noh-Aac",
+      "castellano": "Iturbide (comisaría de Hopelchén)",
+      "significado": "Tortuga grande escrita / escrito en la gran tortuga",
+      "historia": "En 1822 Agustín de Iturbide autorizó un asiento criollo en el pueblo maya Dzibilnocac preexistente. 1868: el cuartel El Cuyo fue construido sobre vestigios arqueológicos mayas del mismo lugar. El nombre colonial borra el nombre maya pero no el lugar.",
+      "fuente": "Enciclopedia Yet — Iturbide"
+    },
+    "XUNAAN_KAB": {
+      "maya": "Xunáan Kab",
+      "significado": "La dama de la miel",
+      "referencia": "Nombre maya de la abeja Melipona beecheii — endémica de la Península, sin aguijón, domesticada por los mayas por al menos 3,000 años. Símbolo del activismo de Leydy Pech.",
+      "entradas": ["D3"]
+    },
+    "PLAUTDIETSCH": {
+      "idioma": "Bajo alemán menonita",
+      "descripcion": "Lengua de los menonitas en Hopelchén — mezcla de bajo alemán medieval, dialectos prusianos y holandés. Los menonitas de Los Chenes hablan entre sí en Plautdietsch y raramente en español.",
+      "entradas": ["D2", "H2"]
+    },
+    "BATAB_BATABOOB": {
+      "maya_singular": "batab",
+      "maya_plural": "bataboob",
+      "significado": "Gobernante local maya autónomo. Del maya: bata (hacha) + b (sufijo agente) = el del hacha.",
+      "historia": "Resistieron la Congregación colonial de 1621 por 48 años adicionales (hasta 1669). Sus apellidos (Poot, Chi, Caamal, May) encabezan la Guerra de Castas en 1847.",
+      "entradas": ["A5", "A7", "B12"]
+    },
+    "CRUZOOB": {
+      "maya": "Cruzoob",
+      "significado": "Las cruces",
+      "descripcion": "Mayas rebeldes que mantenían el culto de la Cruz Parlante durante y después de la Guerra de Castas. Protagonistas de La rebelión de los Cruzoob (Suárez Caamal 1997). Resistieron en el oriente peninsular (hoy Quintana Roo) hasta principios del siglo XX.",
+      "entradas": ["B-SuarezCaamal", "B12"]
+    },
+    "LIGAS_DE_RESISTENCIA": {
+      "descripcion": "Organizaciones sociales del PSAC posrevolucionario para movilizar y controlar bases populares en Campeche (1921-1929)",
+      "mecanismo": "Conectaban al gobernador socialista con campesinos y trabajadores. A cambio de favores directos del gobierno: lealtad política. El sistema clientelar del siglo XXI tiene su antecedente exacto aquí.",
+      "entradas": ["C8"]
+    },
+    "ABONO_LIBANES": {
+      "descripcion": "Sistema de crédito a domicilio introducido por los migrantes libaneses en la Península — el precio final era 3-4 veces el original. No existía antes de su llegada.",
+      "impacto": "Primer sistema de crédito al consumidor para peones recién liberados de haciendas henequeneras. El chiclero volvía del monte con pesos — el libanés lo esperaba en el pueblo.",
+      "entradas": ["H1"]
+    },
+    "SASCABERA": {
+      "descripcion": "Cantera de caliza porosa utilizada como material de construcción. El Tren Maya detonó una explosión de sascaberas en la Península — más de 60 nuevos bancos de material en Umán + 326 en el resto (2018-2025).",
+      "conexion": "La roca caliza que forma las sascaberas es la misma que forma los pozos del nombre Hopelchén.",
+      "entradas": ["D5"]
+    }
+  },
+
+  "investigadores_activos_en_hopelchen": {
+    "nota": "Personas con investigación activa sobre el municipio o región — útiles para consulta o verificación",
+    "Iken_Paap": {
+      "institución": "IAI Berlín",
+      "tema": "Arqueología Dzehkabtún",
+      "contacto": "Via IAI Berlin"
+    },
+    "Antonio_Benavides_Castillo": {
+      "institución": "INAH",
+      "tema": "Arqueología Los Chenes"
+    },
+    "Edward_Allan_Ellis": {
+      "institución": "Centro de Investigaciones Tropicales, Universidad Veracruzana",
+      "tema": "Deforestación Hopelchén — desde 2004",
+      "referencia": "Documentó el punto de inflexión 2005 (soya: 196 ha → 2,315 ha)"
+    },
+    "Jaime_Rendon_Von_Osten": {
+      "institución": "EPOMEX, Universidad Autónoma de Campeche",
+      "tema": "Glifosato en agua y sangre de residentes de Hopelchén",
+      "publicacion_clave": "2016 — estudio PNUD+EPOMEX"
+    },
+    "Maria_Luisa_Albores": {
+      "institución": "SEMARNAT (titular en 2021-2022)",
+      "tema": "Mesas de diálogo con menonitas",
+      "dato": "Organizó acuerdo agosto 2021 con menonitas — incumplido"
+    }
+  }
+}

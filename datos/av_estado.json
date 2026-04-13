@@ -1,0 +1,96 @@
+{
+  "META": {
+    "archivo": "av_estado.json",
+    "version": "5.0",
+    "actualizado": "2026-03-31 — cierre de sesión"
+  },
+
+  "resumen_ejecutivo": {
+    "entradas_aprobadas": 22,
+    "entradas_recuperar_desde_cero": 3,
+    "borradores_activos": 0,
+    "entradas_pendientes_con_insumos": 31,
+    "entradas_pendientes_sin_insumos": 3,
+    "eventos_cronologia": 87,
+    "personajes_nucleares": 50,
+    "archivos_database_activos": 11
+  },
+
+  "entradas_aprobadas_completas": [
+    "A1", "A2", "A3", "A4", "A5", "A6",
+    "B1", "B1-BIS", "B2", "B3", "B4", "B5", "B5-BIS",
+    "B6", "B7", "B8", "B12",
+    "B-Serapio", "B-LZavala", "B-Oswaldo",
+    "PRÓLOGO", "QUÉ ES ARCHIVO VIVO"
+  ],
+
+  "lo_que_se_hizo_esta_sesion": {
+    "entradas_escritas_y_aprobadas": [
+      "B-Serapio — Serapio Baqueiro Preve: el historiador que era yerno del traficante",
+      "B-LZavala — Hernán Lara Zavala: el escritor que murió mientras investigábamos",
+      "B-Oswaldo — Oswaldo Baqueiro Anduze: el nieto que escribió sobre el fin de lo que el abuelo llamó obstáculo"
+    ],
+    "revisiones_y_actualizaciones_bloque_A": [
+      "A1 — Añadido: 1782, 1,463 hab. ninguno hablaba español",
+      "A2 — Añadidos: Tohcok, Grutas Huachabí, Centro Baqueiro Fóster Mérida, Iken Paap",
+      "A3 — Añadidos: Valeriana 2024, Huachabí; cierre con 6 sitios y cero en libros locales",
+      "A4 — Añadido: Centro Documentación Baqueiro Fóster, exposición Maler sin llegar a Hopelchén",
+      "A5 — Añadido: Manuel Antonio Ay Tec 25 jul 1847 + palabras al hijo; los siete de Bolonchenticul",
+      "A6 — Título confirmado R01 CERRADO; 29 enero 1858; 1782; despojo catastral 2025 en siglo XXI"
+    ],
+    "base_de_datos_actualizada": [
+      "av_nucleo_extension.json → v2.0: P042-P050, 12 términos mayas, 18 correcciones",
+      "av_cronologia.json → v1.2: 87 eventos E001-E087",
+      "av_bloques.json → v2.4: 22 aprobadas",
+      "av_estado.json → v5.0",
+      "rescate_sesiones_completo.json: datos únicos de todos los archivos de sesión",
+      "riesgos_pendientes.md → v2.0: R01, R03, R04 cerrados"
+    ],
+    "revision_exhaustiva_todas_las_carpetas": [
+      "raw/_versiones_anteriores/ — MAESTRO_FINAL (3).json: datos únicos rescatados",
+      "entradas/aprobadas/A6.md — título confirmado",
+      "sources/libro_capitulos/XIV.html — Pedro Quijano Uc, huelga 73 días, Paseo Efraín Calderón",
+      "raw/AV_PERSONAS.md — árbol genealógico completo, Samuel Cervera real",
+      "raw/AV_MAYA.md — EK = dos significados, XTABENTÚN, CHENCOH",
+      "logs/riesgos_pendientes.md — Álvarez Cuartero (2007) como fuente nueva Hilo Cuba"
+    ]
+  },
+
+  "correcciones_definitivas_confirmadas": {
+    "A6_titulo": "Hopelchén y sus guerras: dos mil años de un territorio que nunca ha dejado de ser disputado",
+    "Barrera_seudonimo": "Napoleón Trebarra (no Noel Á. Arrerab)",
+    "Baqueiro_Foster_nacimiento": "25 enero 1892 — acta expediente 2699B938",
+    "El_Charras_causa_muerte": "Secuestrado y asesinado — 26 años — gobernador responsable: Carlos Loret de Mola Mediz",
+    "Pedro_Quijano_Uc": "Sobrevivió el secuestro del 13 febrero 1974 — testigo clave",
+    "Huelga_El_Charras": "73 días: 14 febrero al 27 abril 1974",
+    "Premio_LZavala": "Premio Elena Poniatowska 2009 + Premio RAE 2010",
+    "Los_Xtoles": "Son de Carnaval — no ritual prehispánico",
+    "Libaneses_Hopelchen": "CERO familias radicadas. Solo aboneros itinerantes.",
+    "EK_significado": "DOS palabras: ek (estrella/palo de tinte) y ek' (negro)",
+    "Xtacumbilxunaán": "GRUTA (no cenote) — 600m, 3 pisos, 40 cámaras",
+    "Hopelchen_1858": "29 enero 1858 — declaración formal de pertenecer al Estado de Campeche",
+    "Hopelchen_1782": "1,463 hab. en Hopelchén en 1782 — NINGUNO hablaba español"
+  },
+
+  "pendientes_sin_insumos": {
+    "C-nuevo": "Mario y Otto Lara — primer autobús 1939. No encontrado en web. Requiere AHEC o testimonios orales.",
+    "E8": "Corrido de Jacinto sobre El Charras. Existe (Charras novela) pero no se localizó texto ni grabación.",
+    "A8": "Archivo Municipal de Hopelchén. Requiere visita física."
+  },
+
+  "fuentes_prioritarias_localizar_proxima_sesion": [
+    "Álvarez Cuartero (2007) — De Tihosuco a La Habana — Studia Historica 25 — JSTOR — clave Hilo Cuba",
+    "Rodríguez Piña (1990) — Guerra de castas: la venta de indios mayas a Cuba — CONACULTA",
+    "Mario H. Aranda González (1985) — Apuntaciones históricas del Municipio de Hopelchén",
+    "Schüren (1997) — Los mayas pacíficos de los Chenes: El caso de Xkanhá",
+    "FamilySearch catalog/500346 — San Antonio de Padua Hopelchén desde 1852"
+  ],
+
+  "proximas_entradas_redactar": [
+    "B-SuarezCaamal — insumos completos",
+    "E-ChanCil — insumos completos",
+    "D3 — Leydy Pech — insumos completos",
+    "F-RojoAmanecer — insumos completos",
+    "C8 — posrevolución — insumos completos"
+  ]
+}

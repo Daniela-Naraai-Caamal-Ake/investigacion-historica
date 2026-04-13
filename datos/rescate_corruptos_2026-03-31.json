@@ -1,0 +1,400 @@
+{
+  "META": {
+    "archivo": "rescate_corruptos_2026-03-31.json",
+    "descripcion": "Extracción sistemática de TODO lo encontrado en los 4 archivos CORRUPTO.md que NO existe en los activos. B8/B9/B10/B11 son idénticos: mismo volcado de base de datos del 22 marzo 2026, 19,014 caracteres cada uno.",
+    "ejecutado": "2026-03-31",
+    "fuente_original": "entradas/recuperar/B8_CORRUPTO.md = B9_CORRUPTO.md = B10_CORRUPTO.md = B11_CORRUPTO.md"
+  },
+
+  "HALLAZGO_CRITICO_1_TITULOS_ENTRADA": {
+    "nota": "Los bloques E1-E6, F1-F4 y G1-G4 NO son 'pendiente sin definir'. Dan ya tenía títulos específicos desde el inicio del proyecto. Los corruptos los preservaron.",
+
+    "E1_E6_titulos_originales": {
+      "E1": "Los nombres de las escuelas",
+      "E2": "Los niños que no van",
+      "E3": "El 70% que se identifica indígena",
+      "E4": "Los 67 años como ciudad",
+      "E5": "El patrimonio artístico completo",
+      "E6": "Así es mi tierra chenera: los libros que nadie conoce",
+      "nota": "E6 conecta con la fuente 'Refubium FU Berlin — Así mi tierra chenera' listada en los corruptos"
+    },
+
+    "F1_F4_titulos_originales": {
+      "F1": "Los cinco medios cerrados bajo Sansores",
+      "F2": "El caso González Valdez",
+      "F3": "Los periodistas bajo protección federal",
+      "F4": "El Diario del Sureste y Humberto Lara y Lara",
+      "nota": "F1 habla de medios cerrados bajo la gobernadora Sansores — investigación pendiente. F2 'González Valdez' — ¿quién es? Pendiente identificar. F3 periodistas bajo protección MECANISMO."
+    },
+
+    "G1_G4_titulos_originales": {
+      "G1": "La novela Charras de Penguin 2022",
+      "G2": "El Colectivo Maya activo",
+      "G3": "La feria vs las abejas muertas",
+      "G4": "FamilySearch como herramienta de acción",
+      "nota_G1": "Penguin 2022 = reedición Alfaguara 2022 (Alfaguara pertenece a Penguin Random House). El ángulo: la reedición comercial masiva de la novela que documenta el asesinato de un sindicalista de Hopelchén.",
+      "nota_G2": "El Colectivo de Comunidades Mayas de los Chenes — activo en 2026 — es el que documentó la deforestación y apoya a Leydy Pech.",
+      "nota_G3": "La feria anual de Hopelchén vs la muerte de abejas en los apiarios — el espectáculo vs la catástrofe ecológica real.",
+      "nota_G4": "FamilySearch como herramienta de investigación genealógica para rastrear apellidos mayas y líneas del poder — uso práctico ciudadano."
+    }
+  },
+
+  "HALLAZGO_CRITICO_2_DATOS_FACTUALES": {
+    "apellidos_mayas_vendidos_cuba_1861": {
+      "dato": "En el censo de 1861 sobre mayas vendidos a Cuba, aparecen apellidos: Che, Nagua, Cusán",
+      "fuente_en_corrupto": "Hilo Cuba — registro de apellidos del censo 1861",
+      "contexto": "El número total documentado: ~1,046 personas. Apellidos específicos Che, Nagua, Cusán no estaban en los activos.",
+      "entradas_relevantes": ["B1", "B12", "B3"],
+      "verificar_en": "FP001 Rodríguez Piña 1990 / Archivo Nacional de Cuba"
+    },
+
+    "descendientes_olegario_molina_cuba": {
+      "dato": "Los descendientes de Olegario Molina Solís están en Madruga, Cuba, vendiendo carbón — exactamente como hacía Olegario de niño antes de enriquecerse",
+      "contexto": "Olegario fue a Cuba exiliado y murió allá en 1925. Su familia permanece en la misma isla a donde él envió a los mayas. El victimario y la víctima en el mismo destino.",
+      "entradas_relevantes": ["B3"],
+      "ya_en_activos": "parcialmente — av_nucleo.json P006 menciona la muerte exiliado en Cuba, pero no el dato de los descendientes vendiendo carbón"
+    },
+
+    "emilio_lara_calderon_destruccion_camaras": {
+      "dato": "Durante el cateo de 7 enero 2023, se registró destrucción de cámaras",
+      "contexto": "Detalle adicional al cateo no registrado en C2 de av_bloques.json",
+      "entradas_relevantes": ["C2"]
+    },
+
+    "olegariato_concepto": {
+      "dato": "El control de Olegario Molina Solís sobre el henequén era llamado 'el olegariato'",
+      "entradas_relevantes": ["B3"],
+      "ya_en_activos": "no confirmado en av_nucleo.json P006"
+    },
+
+    "humberto_lara_novelista_chiclero": {
+      "dato": "Humberto Lara y Lara fue también novelista — escribió sobre la época chiclera",
+      "nota": "av_nucleo.json lo lista como 'poeta' y 'director Diario del Sureste'. El dato de novelista chiclero es nuevo y debe verificarse.",
+      "entradas_relevantes": ["B4", "D6"]
+    },
+
+    "chan_cil_bisabuelo_geronimo": {
+      "dato": "Chan Cil sería bisabuelo de Gerónimo Baqueiro Foster según los corruptos",
+      "alerta": "VERIFICAR — Esta afirmación necesita confirmación. Chan Cil murió en 1910. Gerónimo Baqueiro Foster nació en 1898. La relación biológica directa es improbable (serían de la misma generación aproximadamente). Puede ser relación adoptiva, de la misma familia extendida, o el árbol genealógico tiene pasos intermedios no listados.",
+      "lo_verificado": "Gerónimo Baqueiro Foster SÍ estudió la música de Chan Cil y la publicó. La conexión intelectual/musical es real. La genealógica directa: pendiente de verificar."
+    },
+
+    "tesis_ute_schüren_berlin": {
+      "dato": "Tesis Ute Schüren (Berlín, 1993-98) — descrita como 'el estudio más completo sobre Hopelchén'",
+      "titulo_sugerido": "Posiblemente relacionada con 'Así mi tierra chenera' de Refubium FU Berlín",
+      "entradas_relevantes": ["A8", "C8"],
+      "donde_buscar": "Refubium FU Berlin: https://refubium.fu-berlin.de/ — buscar Schüren + Hopelchén",
+      "nota": "Ute Schüren fue investigadora alemana que realizó trabajo de campo en Los Chenes en los 90s. Entrevistó a Raimundo Calderón Lara 4 veces (1994-1995)."
+    },
+
+    "refubium_fu_berlin_asi_mi_tierra_chenera": {
+      "dato": "Existe en el repositorio Refubium FU Berlin un documento titulado 'Así mi tierra chenera'",
+      "url_buscar": "https://refubium.fu-berlin.de/",
+      "entradas_relevantes": ["E6"],
+      "nota": "'Así mi tierra chenera' podría ser el título de la tesis Schüren o de un documento relacionado. Es la fuente señalada para E6."
+    },
+
+    "cooperativa_leydy_pech_13_mujeres": {
+      "dato": "La cooperativa Koolel-Kab/Muuchkambal fue fundada por 13 mujeres mayas",
+      "verificar": "leydy_pech_perfil.json dice 'Leydy y otras mujeres' en 1995. El número 13 específico necesita confirmación.",
+      "entradas_relevantes": ["D3"]
+    }
+  },
+
+  "HALLAZGO_CRITICO_3_FUENTES_FALTANTES": {
+    "nota": "Estas fuentes aparecen en los corruptos como usadas en entradas aprobadas pero NO están en av_fuentes.json activo (que tiene F001-F025). Son fuentes verificadas de sesiones anteriores que se perdieron al generar el volcado.",
+
+    "fuentes_para_bloques_A": [
+      {
+        "titulo": "Revista Arqueología Mexicana — Teobert Maler (diciembre 2024)",
+        "tipo": "revista_academica",
+        "usado_en": ["A4"],
+        "donde": "arqueologiamexicana.mx"
+      },
+      {
+        "titulo": "Carlos Tello Díaz — En la selva",
+        "tipo": "libro",
+        "usado_en": ["A4"],
+        "nota": "Obra de Tello Díaz sobre los mayas y la selva — verificar edición"
+      },
+      {
+        "titulo": "Memorica México — archivo fotográfico Maler",
+        "tipo": "archivo_digital",
+        "usado_en": ["A4"],
+        "donde": "memoriamexicana.unam.mx o similar"
+      },
+      {
+        "titulo": "Ministerio Federal de Relaciones Exteriores Alemania — ficha Teobert Maler",
+        "tipo": "fuente_institucional",
+        "usado_en": ["A4"]
+      },
+      {
+        "titulo": "Asociación Tikal — primeros exploradores mayas",
+        "tipo": "web_especializada",
+        "usado_en": ["A4", "B7"]
+      },
+      {
+        "titulo": "Hola Tulum — arqueología peninsular",
+        "tipo": "web",
+        "usado_en": ["A1", "A2"]
+      },
+      {
+        "titulo": "Yucatan Magazine — Santa Rosa Xtampak",
+        "tipo": "divulgacion",
+        "usado_en": ["A3"]
+      }
+    ],
+
+    "fuentes_para_bloque_B": [
+      {
+        "titulo": "ECOS del CIDE 2025 — análisis sobre Olegario Molina Solís",
+        "tipo": "análisis_academico",
+        "usado_en": ["B3"],
+        "donde": "cide.edu — publicación ECOS"
+      },
+      {
+        "titulo": "Latin American Research Review (Cambridge) — Corporate Control and agrarian capitalism in Yucatan",
+        "tipo": "revista_academica",
+        "usado_en": ["B3"],
+        "donde": "Cambridge University Press"
+      },
+      {
+        "titulo": "Project MUSE — peonaje henequenero en Yucatán",
+        "tipo": "revista_academica",
+        "usado_en": ["B3"],
+        "donde": "muse.jhu.edu"
+      },
+      {
+        "titulo": "Blog Gilberto Avilez Tax — análisis crítico de Baqueiro Preve",
+        "tipo": "blog_especializado",
+        "usado_en": ["B4", "B-Serapio"],
+        "nota": "Documenta la controversia Reed vs. Rubio Mañé sobre el Ensayo de Baqueiro"
+      },
+      {
+        "titulo": "Enciclopedia de la Literatura en México (ELEM)",
+        "tipo": "enciclopedia_academica",
+        "usado_en": ["B4", "B5"],
+        "donde": "elem.mx"
+      },
+      {
+        "titulo": "Centro Cultural ProHispen",
+        "tipo": "institucional",
+        "usado_en": ["B4"]
+      },
+      {
+        "titulo": "Museo de la Canción Yucateca — ficha Humberto Lara y Lara / Chan Cil",
+        "tipo": "institucional",
+        "usado_en": ["B4", "E-ChanCil"]
+      },
+      {
+        "titulo": "Revista Digital Universitaria UNAM — Mendoza Castillo — análisis Gerónimo Baqueiro Foster",
+        "tipo": "revista_academica",
+        "usado_en": ["B5"]
+      },
+      {
+        "titulo": "Wiki Mariachi — ficha Gerónimo Baqueiro Foster",
+        "tipo": "web_especializada",
+        "usado_en": ["B5"]
+      },
+      {
+        "titulo": "La Jornada Maya — testimonio Arturo Solís y Betina González Toraya",
+        "tipo": "periodistica",
+        "usado_en": ["B5", "B6", "B7"],
+        "nota": "Arturo Solís: oriundo de Hopelchén, viajó a Alemania con Baqueiro Foster y Carrillo — testigo directo. Betina González Toraya: también fuente."
+      },
+      {
+        "titulo": "HathiTrust / Universidad de Wisconsin — Los misterios de Chan Santa Cruz (Barrera, 1864, 156 pp.)",
+        "tipo": "archivo_digital",
+        "usado_en": ["B1-BIS"],
+        "nota": "El PDF local sources/Los_misterios_de_Chan_Santa_Cruz.pdf puede ser esta misma copia. Verificar."
+      },
+      {
+        "titulo": "Arqueología Mexicana — Tráfico de indios mayas a Cuba 1848-1861",
+        "tipo": "revista_academica",
+        "usado_en": ["B1"]
+      }
+    ],
+
+    "fuentes_para_bloque_B7_arqueoacustica": [
+      {
+        "titulo": "Gaceta de la UNAM — Francisca Zalaquett Rock — 125 instrumentos prehispánicos mayas",
+        "tipo": "gaceta_institucional",
+        "notas": "Estudió que la escala musical maya es diferente a la occidental"
+      },
+      {
+        "titulo": "Sonido13.com — sitio oficial de Julián Carrillo",
+        "tipo": "web_oficial",
+        "usado_en": ["B6", "B7"]
+      },
+      {
+        "titulo": "Xataka México — análisis del Sonido 13 de Julián Carrillo",
+        "tipo": "divulgacion",
+        "usado_en": ["B7"]
+      },
+      {
+        "titulo": "Jorge Velazco (musicólogo) — sobre los pianos microtonales de Carrillo mudos 50 años",
+        "tipo": "fuente_especializada",
+        "usado_en": ["B7"]
+      },
+      {
+        "titulo": "UNESCO — Registro Memoria del Mundo 2016 (Sonido 13 de Julián Carrillo)",
+        "tipo": "institucional",
+        "usado_en": ["B7"],
+        "nota": "Confirma que el archivo del Sonido 13 está en el Registro UNESCO de Memoria del Mundo"
+      },
+      {
+        "titulo": "TecScience / Gustavo Navas — arqueoacústica en templos prehispánicos",
+        "tipo": "divulgacion_cientifica",
+        "usado_en": ["B7"]
+      },
+      {
+        "titulo": "Revista Española de Etnomusicología — efectos acústicos en Tulum (pirámide alerta meteorológica)",
+        "tipo": "revista_academica",
+        "usado_en": ["B7"]
+      }
+    ],
+
+    "fuente_critica_schüren": {
+      "titulo": "Tesis / investigación Ute Schüren sobre Hopelchén",
+      "año_aproximado": "1993-1998",
+      "institucion": "Freie Universität Berlin",
+      "descripcion": "Descrita en los corruptos como 'el estudio más completo sobre Hopelchén'. Schüren realizó trabajo de campo en Los Chenes. Entrevistó a Raimundo Calderón Lara (comerciante, apellido compuesto del poder) 4 veces entre 1994-1995. El documento puede estar en Refubium FU Berlin.",
+      "url_buscar": "https://refubium.fu-berlin.de/",
+      "palabras_clave_busqueda": "Schüren Hopelchén Chenes",
+      "usado_en": ["A8", "C8"],
+      "prioridad": "ALTA — es la fuente académica más completa sobre el municipio y está en acceso libre en Berlín"
+    }
+  },
+
+  "HALLAZGO_CRITICO_4_PERSONAJES_VERIFICAR": {
+    "nota": "Estos personajes aparecen en los corruptos pero necesitan verificación contra av_nucleo.json y av_nucleo_extension.json",
+
+    "Arturo_Solis": {
+      "descripcion": "Oriundo de Hopelchén. Viajó a Alemania con Gerónimo Baqueiro Foster y Julián Carrillo. Testigo directo del viaje y de la demostración del Sonido 13.",
+      "fuente_testimonio": "La Jornada Maya",
+      "entradas": ["B5", "B6", "B7"],
+      "verificar_en": "av_nucleo.json — ¿está como personaje?"
+    },
+
+    "Betina_Gonzalez_Toraya": {
+      "descripcion": "Fuente de La Jornada Maya sobre Gerónimo Baqueiro Foster / Hopelchén. Citada junto con Arturo Solís.",
+      "entradas": ["B5"],
+      "verificar_en": "av_nucleo.json"
+    },
+
+    "Julian_Molina_y_Bastante": {
+      "descripcion": "Bisabuelo de Olegario Molina Solís. Fue encarcelado por el rey Fernando VII.",
+      "relevancia": "La familia Molina ya tenía historia de persecución antes de Olegario — el contexto del por qué Olegario acumuló poder.",
+      "entradas": ["B3"],
+      "verificar_en": "av_nucleo.json P006"
+    },
+
+    "Hans_Sauter": {
+      "descripcion": "Fabricante alemán de pianos microtonales para Julián Carrillo. Empresa Sauter, fundada en 1819, Spaichingen, Alemania.",
+      "relevancia": "El hilo Berlín/Alemania: quien construyó los instrumentos que materializaron el Sonido 13.",
+      "entradas": ["B6", "B7"],
+      "verificar_en": "av_nucleo.json"
+    },
+
+    "Jose_Jacinto_Cuevas": {
+      "descripcion": "Músico yucateco que anotó Los Xtoles por primera vez en 1869 en el libro 'Mosaico yucateco'. Primera transcripción escrita de la música que Chan Cil transmitía oralmente.",
+      "entradas": ["B7"],
+      "verificar_en": "av_nucleo.json"
+    },
+
+    "Francisco_Ortega_y_Fonseca": {
+      "descripcion": "Maestro de acústica de Julián Carrillo en el Conservatorio Nacional. Fue quien, al plantearle un ejercicio teórico, desencadenó el descubrimiento del Sonido 13.",
+      "entradas": ["B7"],
+      "verificar_en": "av_nucleo.json"
+    },
+
+    "Francisca_Zalaquett_Rock": {
+      "descripcion": "Arqueóloga UNAM. Estudió 125 instrumentos musicales prehispánicos mayas y confirmó que la escala musical maya es diferente a la occidental. Fuente para la entrada de arqueoacústica.",
+      "entradas": ["B7"],
+      "verificar_en": "av_nucleo.json"
+    },
+
+    "Daniel_Ayala_Perez": {
+      "descripcion": "Músico yucateco. Analizó Los Xtoles de Chan Cil y confirmó que usa una escala pentafónica tipo A sin semitonos. Citó el trabajo de Baqueiro Foster. Conexión directa entre el análisis académico y la música maya de Los Chenes.",
+      "entradas": ["B7"],
+      "verificar_en": "av_nucleo.json"
+    },
+
+    "Silvestre_Revueltas": {
+      "descripcion": "Compositor mexicano. Usó Los Xtoles de Chan Cil en el 3er movimiento de La noche de los mayas (1939). La música de Hopelchén llegó a la sala de conciertos más importante de México sin que Hopelchén lo supiera.",
+      "entradas": ["B7"],
+      "verificar_en": "av_nucleo.json"
+    }
+  },
+
+  "HALLAZGO_CRITICO_5_DATOS_TECNICOS_BLOG": {
+    "nota": "Datos operativos del blog que estaban en los corruptos y que pueden no estar registrados formalmente",
+    "blog_url": "archivovivo5h.blogspot.com",
+    "email_autora": "cheneandopodcast@gmail.com / daniela_caamal@hotmail.com",
+    "analytics": "G-31PXZPMV2J",
+    "adsense": "ca-pub-5179519097772983",
+    "paypal": "paypal.me/Danicaamal999",
+    "licencia": "CC BY-NC-ND 4.0",
+    "plataformas": ["Zenodo (DOI)", "ResearchGate", "Academia.edu"],
+    "frase_goethe": "Lo que es que traigo aquí adentro",
+    "nota_reglas": "Dan ya conoce todos los lugares — NO escribir como si no los conociera. NO usar frases como 'Hopelchén no sabe lo que tiene'."
+  },
+
+  "HALLAZGO_CRITICO_6_IMAGENES_DAN": {
+    "nota": "Mapa completo de las 7 imágenes propias de Dan con descripción exacta de qué muestran — más detallado que lo que está en av_bloques.json",
+    "imagenes": {
+      "El_Descaro.jpg": {
+        "muestra": "El reloj de la plaza — 'Mayo 5 de 1911' visible en la inscripción, iglesia al fondo",
+        "asignado": ["B1", "B2"],
+        "nota": "Es la imagen más 'dura' del proyecto — el reloj que Pedro Advíncula Lara trajo de Berlín como símbolo del poder porfiriano"
+      },
+      "Los_Apellidos.jpg": {
+        "muestra": "Hacienda en ruinas, chimenea desmoronada, arcos caídos",
+        "asignado": ["C1"],
+        "nota": "La arquitectura del poder que se cae — pero cuyos apellidos siguen en pie"
+      },
+      "El_Charras.jpg": {
+        "muestra": "Plaza de Hopelchén histórica, blanco y negro, años 40-50",
+        "asignado": ["B11", "C — política"],
+        "nota": "La plaza donde El Charras creció antes de organizar sindicatos"
+      },
+      "La_Prensa.jpg": {
+        "muestra": "Iglesia colonial de Hopelchén, luz de tarde",
+        "asignado": ["B1-BIS", "F"],
+        "nota": "La iglesia que sigue siendo el edificio más fotogénico del municipio"
+      },
+      "Los_Chenes.jpg": {
+        "muestra": "Ruinas mayas en la selva, paredes de piedra",
+        "asignado": ["A", "B5-BIS", "B6", "B7"],
+        "nota": "Las ruinas que Maler fotografió en 1887 y que siguen sin calle en Hopelchén"
+      },
+      "Educacion.jpg": {
+        "muestra": "Pareja en traje regional maya, palapa, piñata",
+        "asignado": ["B4"],
+        "nota": "Para Humberto Lara y Lara — el contraste entre la imagen folclórica y el poder real"
+      },
+      "El_Futuro.jpg": {
+        "muestra": "Iglesia colonial al atardecer, palmera, cielo dramático",
+        "asignado": ["B3", "cierres reflexivos"],
+        "nota": "La imagen de cierre — entre la belleza y la pregunta sin responder"
+      }
+    }
+  },
+
+  "ACCION_REQUERIDA": {
+    "URGENTE_actualizar_av_bloques": "Reemplazar 'pendiente_sin_definir' en E1-E6, F1-F4, G1-G4 con los títulos reales",
+    "URGENTE_investigar": [
+      "Tesis Ute Schüren en Refubium FU Berlin — buscar: https://refubium.fu-berlin.de/ con términos Schüren + Hopelchén",
+      "F1: 5 medios cerrados bajo Sansores — verificar cuáles son",
+      "F2: El caso González Valdez — identificar quién es",
+      "F3: Periodistas bajo protección federal en Hopelchén — verificar MECANISMO"
+    ],
+    "PENDIENTE_verificar": [
+      "Chan Cil como bisabuelo de Gerónimo Baqueiro Foster — árbol genealógico exacto",
+      "Humberto Lara y Lara como 'novelista chiclero' — verificar obra",
+      "13 mujeres fundadoras de Koolel-Kab — verificar número",
+      "Dato 'destrucción cámaras' en cateo enero 2023"
+    ],
+    "PENDIENTE_añadir_a_av_fuentes": "26 fuentes listadas en HALLAZGO_CRITICO_3 — añadir como F026-F051"
+  }
+}

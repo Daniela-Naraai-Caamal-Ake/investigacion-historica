@@ -1,0 +1,679 @@
+{
+  "META": {
+    "archivo": "av_nucleo.json",
+    "descripcion": "Personajes, familias, apellidos mayas e hilos transversales — Archivo Vivo",
+    "proyecto": "Archivo Vivo",
+    "autora": "Daniela Naraai Caamal",
+    "version": "1.0",
+    "creado": "2026-03-24",
+    "actualizado": "2026-03-24"
+  },
+
+  "personajes": {
+    "P001": {
+      "nombre": "Pantaleón Barrera Cámara",
+      "nacimiento": {"fecha": "pendiente", "lugar": "Hopelchén, Campeche", "verificado": false},
+      "muerte": {"fecha": "pendiente", "lugar": "pendiente", "verificado": false},
+      "periodo": "c.1810–c.1870",
+      "origen_municipal": "Hopelchén",
+      "rol": "Gobernador Yucatán ×2; traficante de mayas a Cuba; novelista (Napoleón Trebarra); carlotista",
+      "familia": "FAM003",
+      "hechos_clave": [
+        "Síndico del ayuntamiento de Hopelchén 1840-1843",
+        "Decreto que permitió venta y tráfico de mayas a Cuba (1848)",
+        "1849-1861: ~1,046-2,000 mayas documentados enviados a Cuba",
+        "1865: Carlota lo condecora con medalla imperial",
+        "Escribió novela firmada como Napoleón Trebarra (anagrama imperfecto)",
+        "La novela Los misterios de Chan Santa Cruz está en HathiTrust y ediciones facsimilares — antes se creía solo en Wisconsin",
+        "Aparece en Península Península en el Baile Verde 1847"
+      ],
+      "entradas_blog": ["B1", "B1-BIS"],
+      "fuentes": ["F001", "F008", "F009"],
+      "conexiones": ["P002 (yerno Serapio Baqueiro)", "P019 (posible parentesco Clodoaldo Barrera)"],
+      "pendientes": ["Fecha exacta nacimiento y muerte", "Verificar relación con Clodoaldo Barrera"],
+      "actualizado": "2026-03-24"
+    },
+    "P002": {
+      "nombre": "Serapio Baqueiro Preve",
+      "nacimiento": {"fecha": "14 noviembre 1838", "lugar": "Dzitbalchén, Hopelchén, Campeche", "verificado": true},
+      "muerte": {"fecha": "17 marzo 1900", "lugar": "Mérida, Yucatán", "verificado": true},
+      "origen_municipal": "Hopelchén",
+      "rol": "Historiador; abogado; gobernador provisional Yucatán 1883; primer historiador sistemático de la Guerra de Castas",
+      "familia": "FAM002",
+      "hechos_clave": [
+        "Hermano mayor de Chan Cil (Cirilo Baqueiro Preve)",
+        "Padre adoptivo: Coronel Cirilo Baqueiro Cámara — militar que peleó contra los mayas",
+        "Estudió en el Seminario Conciliar de San Ildefonso, Mérida",
+        "Casado con hija de Pantaleón Barrera (el traficante)",
+        "Obra principal: Ensayo histórico sobre las revoluciones de Yucatán (1878, 3 tomos: 1871, 1873, 1884)",
+        "Otras obras: Reseña geográfica histórica de Yucatán (1881), Historia del Seminario San Ildefonso (1894)",
+        "Cargos: juez, fiscal de Hacienda, magistrado, diputado, gobernador provisional 1883, director Escuela Normal",
+        "Sostenía que los indios eran obstáculo para la civilización — contradicción brutal",
+        "Su hijo Serapio Baqueiro Barrera (1865-1940): periodista-poeta modernista",
+        "Su nieto: Oswaldo Baqueiro Anduze — historiador y periodista",
+        "Su bisnieto: Oswaldo Baqueiro López — periodista"
+      ],
+      "entradas_blog": ["B-Serapio"],
+      "fuentes": ["F001", "F008"],
+      "conexiones": ["P003 (hermano Chan Cil)", "P001 (suegro Pantaleón Barrera)", "P017 (Romualdo Baqueiro Lara)"],
+      "pendientes": ["Verificar dato 'yerno del traficante' en fuentes primarias AGEY"],
+      "actualizado": "2026-03-24"
+    },
+    "P003": {
+      "nombre": "Cirilo Baqueiro Preve",
+      "apodo": "Chan Cil",
+      "nacimiento": {"fecha": "24 diciembre 1848 (bautizado 3 enero 1849)", "lugar": "San Francisco de Campeche", "verificado": true},
+      "muerte": {"fecha": "17 septiembre 1910", "lugar": "Mérida, Yucatán", "verificado": true},
+      "origen_municipal": "Hopelchén",
+      "rol": "Patriarca de la trova yucateca; compositor; trovador",
+      "familia": "FAM002",
+      "hechos_clave": [
+        "Hermano menor de Serapio — encontrado en la puerta de la casa del Coronel Cirilo Baqueiro Cámara",
+        "Apodo Chan Cil = Cirilito en maya",
+        "Instrumentos: violín, guitarra, mandolina — autodidacta",
+        "Canciones principales: ¿Te acuerdas?, Despedida (1880), La mestiza, Ko'oten x-boox",
+        "Despedida (1880) considerada la primera canción de la trova yucateca",
+        "Reconocido en EE.UU., América Central y Cuba durante el Porfiriato",
+        "Publicó su cancionero en Imprenta Luis Rosado Vega, 1909",
+        "2007: Instituto de Cultura de Yucatán publica Cancionero de Chan Cil (con CD)",
+        "Sus restos en el Monumento a los Creadores de la Canción Yucateca, Cementerio General Mérida",
+        "Sala dedicada en el Museo de la Canción Yucateca (fundado por su nieta Rosario Cáceres Baqueiro)",
+        "Presea Chan Cil — instituida por Ayuntamiento de Mérida desde 1985"
+      ],
+      "entradas_blog": ["B8", "E-ChanCil"],
+      "fuentes": ["F006"],
+      "conexiones": ["P002 (hermano Serapio)", "P004 (Gerónimo Baqueiro Foster documentó su música)", "P005 (Julián Carrillo usó su canción)"],
+      "actualizado": "2026-03-24"
+    },
+    "P004": {
+      "nombre": "Gerónimo Baqueiro Foster",
+      "nacimiento": {"fecha": "pendiente", "lugar": "Hopelchén, Campeche", "verificado": false},
+      "muerte": {"fecha": "pendiente", "lugar": "pendiente", "verificado": false},
+      "origen_municipal": "Hopelchén",
+      "rol": "Musicólogo; investigador Conservatorio Nacional; primer académico que documentó música maya",
+      "familia": "FAM002",
+      "hechos_clave": [
+        "Llegó con siete pesos a la Ciudad de México",
+        "Publicó más de 6,000 artículos sobre música",
+        "Capítulo en Los Mayas Antiguos, El Colegio de México, 1941 (pp.264-271)",
+        "Anotó Los Xtoles en 1869 — los publicó académicamente en 1941",
+        "Viajó a Alemania con Julián Carrillo",
+        "Sin calle en Hopelchén"
+      ],
+      "entradas_blog": ["B5", "B5-BIS"],
+      "fuentes": ["F006"],
+      "conexiones": ["P003 (Chan Cil — documentó su música)", "P005 (Julián Carrillo — viajaron juntos a Alemania)"],
+      "pendientes": ["Fechas exactas nacimiento y muerte", "Relación familiar exacta con línea Baqueiro"],
+      "actualizado": "2026-03-24"
+    },
+    "P005": {
+      "nombre": "Julián Carrillo",
+      "nacimiento": {"fecha": "28 enero 1875", "lugar": "Ahualulco, San Luis Potosí", "verificado": true},
+      "muerte": {"fecha": "9 septiembre 1965", "lugar": "México", "verificado": true},
+      "rol": "Compositor; inventor del Sonido 13; pionero de la microtonalidad",
+      "hechos_clave": [
+        "13 julio 1895: descubre el Sonido 13 dividiendo cuerdas de violín con navaja",
+        "1920: usó canción de Chan Cil en la Sinfónica Nacional",
+        "Pianos microtonales guardados en bodega de Chapultepec cubiertos de aceite — nadie los toca",
+        "Viajó a Alemania con Gerónimo Baqueiro Foster"
+      ],
+      "entradas_blog": ["B7"],
+      "conexiones": ["P003 (Chan Cil — usó su canción)", "P004 (Baqueiro Foster — viaje Alemania)"],
+      "actualizado": "2026-03-24"
+    },
+    "P006": {
+      "nombre": "Olegario Molina Solís",
+      "nacimiento": {"fecha": "pendiente", "lugar": "Bolonchenticul, Hopelchén", "verificado": false},
+      "muerte": {"fecha": "1925", "lugar": "La Habana, Cuba", "verificado": true},
+      "origen_municipal": "Hopelchén",
+      "rol": "Empresario henequenero; El olegariato; Secretario de Fomento con Porfirio Díaz",
+      "familia": "FAM004",
+      "hechos_clave": [
+        "Nació en Bolonchenticul — el pueblo de los nueve pozos",
+        "Firmó contrato secreto con International Harvester 1902 — controló precio del henequén peninsular",
+        "Murió exiliado en Cuba — la misma isla a donde fueron vendidos los mayas de Hopelchén en 1848",
+        "Su familia sigue en Cuba (Madruga)"
+      ],
+      "entradas_blog": ["B3"],
+      "conexiones": ["HIL001 (Hilo Cuba)", "HIL004 (Hilo Apellidos del Poder)"],
+      "actualizado": "2026-03-24"
+    },
+    "P007": {
+      "nombre": "Pedro Advíncula Lara",
+      "nacimiento": {"fecha": "pendiente", "lugar": "Hopelchén", "verificado": false},
+      "muerte": {"fecha": "pendiente", "lugar": "pendiente", "verificado": false},
+      "origen_municipal": "Hopelchén",
+      "rol": "Jefe político porfiriano de Los Chenes; instaló el reloj de Berlín",
+      "familia": "FAM001",
+      "hechos_clave": [
+        "Propietario de la hacienda Holcatzín, ranchos Boxol y Ucuchil, hacienda Santa Rita",
+        "1902: construyó un teatro en Hopelchén",
+        "El reloj de Berlín fabricado alrededor de 1910, instalado en la plaza el 5 de mayo de 1911",
+        "La inscripción dice Mayo 5 de 1911",
+        "Mismo reloj descrito en De Zitilchén (Lara Zavala) y en memorias de Raúl Emiliano Lara Baqueiro",
+        "HALLAZGO: don Quintín Silvestre en Península Península (ficción) es el hacendado de Holcatzín — Lara Zavala usó el nombre real de la hacienda de su propia familia"
+      ],
+      "entradas_blog": ["B2"],
+      "conexiones": ["HIL002 (Hilo Berlín)", "HIL004 (Hilo Apellidos del Poder)"],
+      "actualizado": "2026-03-24"
+    },
+    "P008": {
+      "nombre": "Teobert Maler",
+      "nacimiento": {"fecha": "12 enero 1842", "lugar": "Stuttgart, Alemania", "verificado": true},
+      "muerte": {"fecha": "22 noviembre 1917", "lugar": "Mérida, Yucatán", "verificado": true},
+      "rol": "Fotógrafo y arqueólogo austriaco; primero en fotografiar sistemáticamente Los Chenes",
+      "hechos_clave": [
+        "Llegó a México en 1865 con el séquito de Maximiliano",
+        "Decidió quedarse después del fusilamiento del emperador (1867)",
+        "Exploró Los Chenes en 1887",
+        "Su archivo está en el IAI de Berlín",
+        "Exposición IAI Berlín 2024 sobre su trabajo",
+        "Fotografió Hochob, Dzibilnocac, Santa Rosa Xtampak"
+      ],
+      "entradas_blog": ["A4", "B6"],
+      "conexiones": ["HIL002 (Hilo Berlín)", "HIL003 (Hilo Imperio Maximiliano)"],
+      "pendientes": ["Correspondencia desde Los Chenes 1887 — IAI Berlín"],
+      "actualizado": "2026-03-24"
+    },
+    "P009": {
+      "nombre": "Juan de Dios May",
+      "nacimiento": {"fecha": "pendiente", "lugar": "Los Chenes", "verificado": false},
+      "muerte": {"fecha": "pendiente", "lugar": "pendiente", "verificado": false},
+      "origen_municipal": "Hopelchén",
+      "rol": "Comandante maya de la Guerra de Castas en Los Chenes",
+      "apellido": "APE001",
+      "hechos_clave": [
+        "Mayo 1848: ataca Hopelchén al frente de grupo armado",
+        "Anteriormente atacó Iturbide",
+        "Aparece en Península Península pág.92 (Lara Zavala)",
+        "Documentado en Boletín Oficial del Gobierno de Yucatán mayo-junio 1848",
+        "Sin estatua, sin calle, sin mención en libros locales"
+      ],
+      "entradas_blog": ["B12"],
+      "fuentes": ["F001", "F004", "F007"],
+      "conexiones": ["HIL007 (Hilo Bataboob)", "P013 (Leydy Pech — mismos apellidos, misma tierra, 175 años)"],
+      "pendientes": ["Fecha y lugar exacto de nacimiento y muerte", "Rastreo de descendientes"],
+      "actualizado": "2026-03-24"
+    },
+    "P010": {
+      "nombre": "Francisco Caamal",
+      "nacimiento": {"fecha": "pendiente", "lugar": "Los Chenes", "verificado": false},
+      "muerte": {"fecha": "pendiente", "lugar": "pendiente", "verificado": false},
+      "origen_municipal": "Hopelchén",
+      "rol": "Líder maya de Los Chenes durante la Guerra de Castas",
+      "apellido": "APE002",
+      "hechos_clave": [
+        "Activo en la región 1847-1848",
+        "Mismo apellido de Dan (Daniela Naraai Caamal)",
+        "Sin estatua, sin calle, sin mención en libros locales"
+      ],
+      "entradas_blog": ["B12"],
+      "conexiones": ["HIL007 (Hilo Bataboob)", "APE002 (apellido Caamal — círculo de 175 años)"],
+      "pendientes": ["Fechas exactas", "Documentación en fuentes primarias"],
+      "actualizado": "2026-03-24"
+    },
+    "P011": {
+      "nombre": "Efraín Calderón Lara",
+      "apodo": "El Charras",
+      "nacimiento": {"fecha": "13 noviembre 1947", "lugar": "Hopelchén", "verificado": true},
+      "muerte": {"fecha": "14 febrero 1974", "lugar": "Carretera Carrillo Puerto-Chetumal km 101.5", "verificado": true},
+      "origen_municipal": "Hopelchén",
+      "rol": "Líder sindical; fundador de 9 sindicatos independientes; víctima de crimen de estado",
+      "familia": "FAM005",
+      "hechos_clave": [
+        "Apodo: por las charrascas — cicatrices de accidentes de infancia",
+        "Padre: Efraín Calderón — comerciante, apicultor, aserradero",
+        "Madre: Adda Lara — el apellido del poder en Hopelchén",
+        "Hermano: José Calderón Lara (líder estudiantil UADY)",
+        "Cuñado: Juan Nicolín (Secretaría de Hacienda Mérida)",
+        "Estudió leyes en la UADY (no terminó)",
+        "Primer sindicato: choferes urbanos Jacinto Canek",
+        "Fundó 9 sindicatos — tres siguen en funciones: Jacinto Canek, Efraín Calderón, trabajadores manuales UADY",
+        "Rechazó oferta de cargo del gobernador Loret de Mola",
+        "Secuestrado 13 febrero 1974",
+        "Cuerpo encontrado 18 febrero 1974 por campesino Evaristo Poot Cruz",
+        "Torturado: pies y manos atados, venda en ojos, herida en ingle",
+        "Asesinos: Coronel Felipe Gamboa Gamboa et al. — todos liberados antes de cumplir pena",
+        "El teatro de la UADY llevó su nombre — luego lo quitaron",
+        "La placa en la avenida: puesta y quitada"
+      ],
+      "entradas_blog": ["B11"],
+      "fuentes": ["F003", "F015"],
+      "conexiones": ["P012 (primo Hernán Lara Zavala)", "FAM001 (apellido Lara por su madre)"],
+      "actualizado": "2026-03-24"
+    },
+    "P012": {
+      "nombre": "Hernán Lara Zavala",
+      "nacimiento": {"fecha": "1947", "lugar": "Ciudad de México", "verificado": false},
+      "muerte": {"fecha": "15 marzo 2025", "lugar": "Ciudad de México", "verificado": true},
+      "rol": "Escritor; novelista; académico UNAM; primo de El Charras",
+      "familia": "FAM001",
+      "hechos_clave": [
+        "Padre: Hernán Lara y Lara — de Hopelchén",
+        "Pasaba veranos en Hopelchén visitando abuelos",
+        "Primo de El Charras (Efraín Calderón Lara)",
+        "De Zitilchén (1981, reed. FCE 2012) — Hopelchén como Zitilchén",
+        "Charras (1990, reed. Alfaguara 2022) — novela testimonial del asesinato de su primo",
+        "Península Península (2008) — Premio RAE 2010",
+        "Murió 15 marzo 2025 — tres días antes de que Dan iniciara esta investigación"
+      ],
+      "entradas_blog": ["B11", "B-LZavala"],
+      "fuentes": ["F002", "F003", "F004"],
+      "conexiones": ["P011 (primo El Charras)", "P015 (padre Humberto Lara y Lara)", "FAM001"],
+      "actualizado": "2026-03-24"
+    },
+    "P013": {
+      "nombre": "Leydy Araceli Pech Martín",
+      "nacimiento": {"fecha": "c.1965", "lugar": "Ich Ek, Hopelchén, Campeche", "verificado": false},
+      "origen_municipal": "Hopelchén",
+      "rol": "Apicultora maya; activista ambiental; Premio Goldman Environmental Prize 2020",
+      "apellido": "APE006",
+      "hechos_clave": [
+        "Fundó cooperativa Koolel-Kab/Muuchkambal en 1995 — mujeres mayas apicultoras",
+        "Especie: Melipona beecheii (Xunáan Kab — la dama de la miel) — sin aguijón, endémica",
+        "Luchó contra soya transgénica Monsanto/Bayer con glifosato",
+        "2015: Suprema Corte dictaminó por unanimidad que gobierno violó derechos al no consultar a mayas",
+        "Premio Goldman 2020 — presentado por Sigourney Weaver",
+        "A pesar de victorias legales, siembra ilegal continuaba al momento del premio",
+        "GLIFOSATO encontrado en agua subterránea, sangre y orina de mujeres y niños de Hopelchén (EPOMEX-UAC 2016)"
+      ],
+      "entradas_blog": ["D3"],
+      "conexiones": ["P009 (Juan de Dios May — mismos apellidos, misma tierra, 175 años)", "HIL010 (Hilo Tierra)"],
+      "actualizado": "2026-03-24"
+    },
+    "P014": {
+      "nombre": "Benigno Lara Negrón",
+      "nacimiento": {"fecha": "pendiente", "lugar": "Hopelchén", "verificado": false},
+      "muerte": {"fecha": "pendiente", "lugar": "pendiente", "verificado": false},
+      "origen_municipal": "Hopelchén",
+      "rol": "Congreso de Campeche 1871; XXVII Legislatura 1919-1921 como suplente",
+      "familia": "FAM001",
+      "entradas_blog": ["B9"],
+      "actualizado": "2026-03-24"
+    },
+    "P015": {
+      "nombre": "Humberto Lara y Lara",
+      "nacimiento": {"fecha": "pendiente", "lugar": "Hopelchén", "verificado": false},
+      "muerte": {"fecha": "pendiente", "lugar": "pendiente", "verificado": false},
+      "origen_municipal": "Hopelchén",
+      "rol": "Poeta; director Diario del Sureste 1937-1952; diputado PRI",
+      "familia": "FAM001",
+      "hechos_clave": [
+        "Director del periódico más importante del sureste durante 15 años",
+        "Padre de Hernán Lara y Lara; abuelo literario de Hernán Lara Zavala"
+      ],
+      "entradas_blog": ["B4"],
+      "conexiones": ["P012 (hijo literario Hernán Lara Zavala)"],
+      "pendientes": ["Localizar y documentar sus poemas"],
+      "actualizado": "2026-03-24"
+    },
+    "P016": {
+      "nombre": "Raúl Emiliano Lara Baqueiro",
+      "nacimiento": {"fecha": "pendiente", "lugar": "Hopelchén", "verificado": false},
+      "muerte": {"fecha": "pendiente", "lugar": "pendiente", "verificado": false},
+      "origen_municipal": "Hopelchén",
+      "rol": "Memorialista; apellido doble que conecta las dos familias del proyecto",
+      "familia": "FAM001",
+      "hechos_clave": [
+        "Recuerdos de mi infancia 1935-1938 — texto sobre Hopelchén",
+        "Describe el reloj de la plaza instalado por Pedro Advíncula Lara",
+        "Tres generaciones viendo el mismo reloj, tres textos distintos",
+        "Apellido doble: Lara (poder) + Baqueiro (música/historia)"
+      ],
+      "entradas_blog": ["B8"],
+      "conexiones": ["FAM001 (Lara)", "FAM002 (Baqueiro)", "HIL002 (Hilo Berlín)"],
+      "pendientes": ["Localizar texto original Recuerdos de mi infancia — AHEC / fondos familiares"],
+      "actualizado": "2026-03-24"
+    },
+    "P017": {
+      "nombre": "Romualdo Baqueiro Lara",
+      "nacimiento": {"fecha": "pendiente", "lugar": "Bolonchenticul, Hopelchén", "verificado": false},
+      "muerte": {"fecha": "pendiente", "lugar": "pendiente", "verificado": false},
+      "origen_municipal": "Hopelchén",
+      "rol": "Diputado suplente Constituyente de Campeche 1861; representó a Bolonchenticul",
+      "familia": "FAM002",
+      "hechos_clave": [
+        "Suplente de Manuel Barrera en el Congreso Constituyente 1861",
+        "Abandonó escaño para defender militarmente el nuevo estado",
+        "Primer registro del apellido Lara-Baqueiro en documentos oficiales de Campeche",
+        "Dato fundacional: apellidos Barrera + Baqueiro Lara en el primer día del Estado"
+      ],
+      "entradas_blog": ["B9"],
+      "fuentes": ["F012_legisladores"],
+      "actualizado": "2026-03-24"
+    },
+    "P018": {
+      "nombre": "Mora Nagert",
+      "nacimiento": {"fecha": "pendiente", "lugar": "Hopelchén", "verificado": false},
+      "muerte": {"fecha": "pendiente", "lugar": "pendiente", "verificado": false},
+      "origen_municipal": "Hopelchén",
+      "rol": "Intelectual socialista; publicó en Rojo Amanecer 1921-1924",
+      "hechos_clave": [
+        "Publicó El verdadero socialismo en Rojo Amanecer",
+        "Describió el socialismo como el sol de la redención y el porvenir de los pueblos",
+        "Uno de los borrados del siglo XX de Hopelchén",
+        "Sin estatua, sin calle, sin mención"
+      ],
+      "entradas_blog": ["B10", "F-RojoAmanecer"],
+      "fuentes": ["F011"],
+      "actualizado": "2026-03-24"
+    },
+    "P019": {
+      "nombre": "Clodoaldo Barrera",
+      "nacimiento": {"fecha": "pendiente", "lugar": "Hopelchén", "verificado": false},
+      "muerte": {"fecha": "pendiente", "lugar": "pendiente", "verificado": false},
+      "origen_municipal": "Hopelchén",
+      "rol": "Cofundador del PSAC 7 octubre 1920",
+      "hechos_clave": [
+        "Lema: Tierra y Libertad",
+        "Representante de Hopelchén en asamblea constitutiva del PSAC"
+      ],
+      "entradas_blog": ["B10"],
+      "fuentes": ["F011"],
+      "conexiones": ["P001 (¿parentesco con Pantaleón Barrera? — pendiente verificación)"],
+      "pendientes": ["Verificar relación con Pantaleón Barrera"],
+      "actualizado": "2026-03-24"
+    },
+    "P020": {
+      "nombre": "Miguel Ángel Suárez Caamal",
+      "nacimiento": {"fecha": "1953", "lugar": "Calkiní, Campeche", "verificado": true},
+      "rol": "Escritor campechano; autor de La rebelión de los Cruzoob (1997)",
+      "apellido": "APE002",
+      "hechos_clave": [
+        "Apellido Caamal — el mismo de Francisco Caamal (1848) y de Dan",
+        "La rebelión de los Cruzoob: única novela campechana sobre la Guerra de Castas",
+        "Nadie la ha leído",
+        "Analizada por Vadillo Buenfil en Península 2017"
+      ],
+      "entradas_blog": ["B-SuarezCaamal"],
+      "fuentes": ["F005", "F009"],
+      "actualizado": "2026-03-24"
+    }
+  },
+
+  "familias": {
+    "FAM001": {
+      "apellido_principal": "Lara",
+      "tipo": "poder_politico",
+      "miembros": ["P007", "P014", "P015", "P016", "P012", "P011"],
+      "periodo_activo": "1861-presente",
+      "rol_en_hopelchen": "Control político y económico ininterrumpido — 164 años documentados",
+      "linea_documentada": [
+        "1861: Pedro Lara (I Legislatura Campeche)",
+        "1871: Benigno Lara Negrón (Congreso Campeche)",
+        "1875-1877: Pedro A. Lara (diputado Bolonchenticul)",
+        "1902-1910: Emilio y Pedro Lara Sánchez (suplentes)",
+        "1911: Pedro Advíncula Lara (jefe político porfiriano, instala reloj)",
+        "1914-1918: Fernando Angli Lara (director Rojo Amanecer Y Periódico Oficial simultáneamente)",
+        "1919-1921: Benigno Lara Negrón (suplente Hopelchén)",
+        "1937-1952: Humberto Lara y Lara (director Diario del Sureste)",
+        "1937-1940: José Lara B. (diputado Hopelchén)",
+        "1974: Adda Lara (madre de El Charras)",
+        "1980-1983: Pedro Lara y Lara (diputado Campeche capital)",
+        "1994-1997: Emilio Lara Solís (diputado Hopelchén)",
+        "1996-2000: Jorge Lara López (diputado Hopelchén)",
+        "2021: Emilio Lara Calderón (alcalde Hopelchén)"
+      ],
+      "nota": "El apellido Lara aparece en el poder de Hopelchén de forma ininterrumpida desde 1861"
+    },
+    "FAM002": {
+      "apellido_principal": "Baqueiro",
+      "tipo": "intelectual_cultural",
+      "miembros": ["P002", "P003", "P004", "P016", "P017"],
+      "periodo_activo": "1838-presente",
+      "rol_en_hopelchen": "Historia, música, periodismo — la familia intelectual más importante del municipio, completamente invisible en él",
+      "origen_apellido": "Gallego-español (vaqueiro = vaquero, pastor)"
+    },
+    "FAM003": {
+      "apellido_principal": "Barrera",
+      "tipo": "poder_politico",
+      "miembros": ["P001", "P019"],
+      "periodo_activo": "1840-presente",
+      "linea_documentada": [
+        "1840-1843: Pantaleón Barrera (síndico Hopelchén)",
+        "1848: Pantaleón Barrera (decreto venta mayas)",
+        "1861: Manuel Barrera (Congreso Constituyente Campeche)",
+        "1877-1880: Demetrio Barrera (diputado Bolonchenticul)",
+        "1920: Clodoaldo Barrera (cofundador PSAC)",
+        "HOY: Leonel Barrera (jurídico ayuntamiento Hopelchén)"
+      ]
+    },
+    "FAM004": {
+      "apellido_principal": "Molina",
+      "tipo": "poder_economico",
+      "miembros": ["P006"],
+      "periodo_activo": "1850-1925",
+      "nota": "Familia sigue en Cuba (Madruga) — exiliados desde 1925"
+    },
+    "FAM005": {
+      "apellido_principal": "Calderón",
+      "tipo": "mixto",
+      "miembros": ["P011"],
+      "periodo_activo": "1919-presente",
+      "linea_documentada": [
+        "1919-1921: Miguel Calderón (diputado Hopelchén — primera aparición)",
+        "1947-1974: Efraín Calderón Lara (El Charras)",
+        "2009: Luis Alberto Calderón Barrera (diputado — tres apellidos del siglo XIX en un nombre del XXI)",
+        "2021: Emilio Lara Calderón (alcalde — Lara + Calderón juntos)",
+        "2024: Hiram Aranda Calderón (alcalde actual)"
+      ]
+    }
+  },
+
+  "apellidos_mayas": {
+    "APE001": {
+      "apellido": "May",
+      "origen": "maya",
+      "significado_verificado": "Ciervo joven / venado ritual",
+      "nota": "MAY = ciervo/venado. NO es tabaco (tabaco en maya = k'uts). RESUELTO.",
+      "fuente": "Diccionario Maya Cordemex, Alfredo Barrera Vázquez (1980)",
+      "frecuencia": "46,879 personas en Yucatán (INE 2016) — 4to apellido maya más frecuente",
+      "portadores_historicos": ["P009 — Juan de Dios May, comandante 1848"],
+      "portadores_actuales": ["Herminio May Dzib (secretario ayuntamiento Hopelchén 2024)", "Juan de Dios May Che (presidente ejidal que rentó tierras a menonitas — apellido May, misma tierra)"],
+      "castellanizacion": "pendiente investigación"
+    },
+    "APE002": {
+      "apellido": "Caamal",
+      "origen": "maya",
+      "significado_verificado": "Dos ocasiones / dos veces / lo que ocurre por segunda vez",
+      "etimologia": "De ka'a (dos) y -máal (clasificador numeral para contar veces)",
+      "castellanizacion": "Caamal → Cámara",
+      "fuente": "Diccionario Maya Cordemex (1980) — confirmado por múltiples fuentes",
+      "circulo": "Francisco Caamal (comandante 1848) + Suárez Caamal (novelista 1997) + Dan Caamal (investigadora 2026) = 175 años. El apellido significa: lo que ocurre dos veces.",
+      "portadores_historicos": ["P010 — Francisco Caamal, líder Los Chenes 1848"],
+      "portadores_actuales": ["P020 — Miguel Ángel Suárez Caamal", "Dan — Daniela Naraai Caamal"]
+    },
+    "APE003": {
+      "apellido": "Poot",
+      "origen": "maya",
+      "significado_verificado": "Agujerear, horadar, perforar. Variedad de araña de patas grandes y color amarillo.",
+      "fuente": "Diccionario Maya Cordemex",
+      "portadores_historicos": ["Crescencio Poot — comandante Cruzoob post-1850", "Florentino Poot — líder guerra de castas"],
+      "portadores_actuales": ["Evaristo Poot Cruz — campesino que encontró cuerpo de El Charras 1974", "Edgar Manuel Poot Yeh — ciudadano despojado de terreno por ayuntamiento 2025"]
+    },
+    "APE004": {
+      "apellido": "Chi",
+      "origen": "maya",
+      "significado_verificado": "Boca de personas y de ciertos frutos; brocal; orilla; Nance (Malpighia glabra)",
+      "fuente": "Diccionario Maya Cordemex",
+      "nota": "El mismo apellido Chi divide a los mayas en la guerra: Cecilio Chi lidera la insurrección, Juan Chi defiende al gobierno. Ni la etnia ni el apellido garantizaban la posición política.",
+      "portadores_historicos": ["Cecilio Chi — líder insurrección 1847", "Juan Chi — cacique pro-gobierno 1848"]
+    },
+    "APE005": {
+      "apellido": "Dzul",
+      "origen": "maya",
+      "significado_verificado": "Extranjero, forastero. En español se traduce como Caballero.",
+      "fuente": "Diccionario Maya Cordemex",
+      "nota": "DZUL → Caballero (traducción al registro civil). Quienes cambiaban su apellido buscaban transferir connotaciones positivas de un apellido castellano — exactamente lo que documenta Kosichenko 2025.",
+      "portadores_historicos": ["Sostenes Dzul — registrado como Estrella en Guardia Nacional (Kosichenko 2025)", "Dámaso Dzul — veterano 1822 (Kosichenko 2025)"]
+    },
+    "APE006": {
+      "apellido": "Pech",
+      "origen": "maya",
+      "significado_verificado": "Garrapata",
+      "fuente": "Diccionario Maya Cordemex",
+      "circulo": "1848: Francisco Pech se registra como Pérez — borra su identidad. 2020: Leydy Pech gana Premio Goldman — la reivindica. 172 años de distancia.",
+      "portadores_historicos": ["Francisco Pech — registrado como Pérez en Guardia Nacional 1848"],
+      "portadores_actuales": ["P013 — Leydy Pech, Premio Goldman 2020"]
+    },
+    "APE007": {
+      "apellido": "Ek",
+      "origen": "maya",
+      "significado_verificado": "Estrella, lucero. Palo de tinte.",
+      "fuente": "Diccionario Maya Cordemex / La Jornada Maya",
+      "nota": "EK se traduce al español como Estrella — exactamente como Fernando Ek en la novela de Barrera (1864) al llegar a Cuba: Fernando Ek → Fernando Estrella.",
+      "portadores_en_ficcion": ["Milo Ek — joven maya que estudia inglés en De Zitilchén"]
+    },
+    "APE008": {
+      "apellido": "Balam",
+      "origen": "maya",
+      "significado_verificado": "Jaguar — el animal sagrado más importante de la cosmología maya",
+      "portadores_historicos": ["Candelario Balam — solicitó exoneración del servicio por ceguera (AGEY, Kosichenko 2025)"]
+    }
+  },
+
+  "hilos_transversales": {
+    "HIL001": {
+      "nombre": "Hilo Cuba",
+      "descripcion": "Lo que salió de Hopelchén hacia Cuba y nunca regresó",
+      "nodos": [
+        "1848: Pantaleón Barrera firma decreto que permite venta de mayas",
+        "1849-1861: ~1,046-2,000 mayas enviados a Cuba — precio: 25 pesos al erario, revendidos niños 60, mujeres 120, hombres 160 pesos",
+        "1860: barco La Unión descubierto en Campeche con 29 mayas",
+        "1861 mayo 6: Benito Juárez prohíbe deportación de indígenas mayas",
+        "1861 septiembre 26: naufragio frente a Sisal — primer naufragio de esclavos mayas",
+        "1868: El Espíritu Público (Campeche) reproduce nota Comercio de sangre — vapor México con 172 indios",
+        "1925: Olegario Molina Solís muere exiliado en La Habana",
+        "HOY: Descendientes de mayas de Hopelchén en Madruga, Cuba"
+      ],
+      "personajes": ["P001", "P006"],
+      "entradas": ["B1", "B3", "B12"],
+      "pendientes": ["Apellidos exactos de los 1,046 mayas — Archivo Nacional Cuba", "Apellidos Che, Nagua, Cusán de Los Chenes en registros cubanos"],
+      "fuentes_a_consultar": ["Archivo Nacional de Cuba (La Habana)", "Álvarez Cuartero — De Tihosuco a La Habana, Studia Historica 25 (2007) pp.559-576 — ACCESIBLE en JSTOR"]
+    },
+    "HIL002": {
+      "nombre": "Hilo Berlín",
+      "descripcion": "Cuatro momentos en que Hopelchén cruzó el Atlántico hacia Alemania y nadie lo sabe",
+      "nodos": [
+        "1865: Teobert Maler llega a México con Maximiliano (Austria/Alemania)",
+        "1887: Maler fotografía Los Chenes — sus fotos en el IAI de Berlín",
+        "c.1910: El reloj de la plaza fabricado en Berlín",
+        "1911: Pedro Advíncula Lara lo instala — Mayo 5 de 1911",
+        "c.1940: Julián Carrillo + Gerónimo Baqueiro Foster viajan a Berlín",
+        "2024: Exposición IAI Berlín sobre archivo Maler"
+      ],
+      "personajes": ["P008", "P007", "P004", "P005"],
+      "entradas": ["A4", "B2", "B6", "B8"],
+      "pendientes": ["Correspondencia Maler desde Los Chenes 1887 — IAI Berlin", "Fabricante del reloj — registros exportación alemanes 1900-1915"]
+    },
+    "HIL003": {
+      "nombre": "Hilo Imperio Maximiliano",
+      "descripcion": "El Imperio fallido que dejó huellas en Hopelchén",
+      "nodos": [
+        "1865: Carlota condecora a Pantaleón Barrera con medalla imperial",
+        "1865: Teobert Maler llega a México en el séquito de Maximiliano",
+        "1865-1867: Maler decide quedarse después del fusilamiento",
+        "1838-1883: Serapio Baqueiro Preve combate el Imperio con su pluma"
+      ],
+      "contradiccion": "Carlota premia al traficante de mayas (Barrera). El historiador nacido en el municipio (Serapio) combate el Imperio. El fotógrafo imperial (Maler) termina documentando las ruinas mayas que el Imperio ignoró.",
+      "personajes": ["P001", "P008", "P002"],
+      "entradas": ["B1", "A4", "B-Serapio"],
+      "pendientes": ["La condecoración de Carlota a Barrera 1865 — Archivos imperiales Viena/Bruselas"]
+    },
+    "HIL004": {
+      "nombre": "Hilo Apellidos del Poder",
+      "descripcion": "La misma familia, en el poder, generación tras generación — 164 años ininterrumpidos",
+      "nodos": "Ver FAM001 (Lara), FAM003 (Barrera), FAM005 (Calderón)",
+      "hallazgo": "El sistema no cambia. Los apellidos cambian de combinación pero el mismo entramado familiar controla el municipio desde 1861 hasta hoy.",
+      "dato_actual": "El ayuntamiento 2024: Hiram Aranda Calderón (alcalde), Herminio May Dzib (secretario — apellido May del comandante 1848), Leonel Barrera (jurídico — apellido Barrera de Pantaleón 1848)",
+      "entradas": ["B2", "B4", "B8", "B9", "B10", "B11", "C1"]
+    },
+    "HIL005": {
+      "nombre": "Hilo Silencio",
+      "descripcion": "El patrón sistemático de no reconocer la grandeza local — no es olvido, es política",
+      "casos": [
+        "Pantaleón Barrera: no aparece en el libro de historia local de 1985",
+        "Gerónimo Baqueiro Foster: sin calle en Hopelchén",
+        "Pianos de Julián Carrillo: en bodega de Chapultepec, cubiertos de aceite",
+        "La novela de Barrera (Napoleón Trebarra): en HathiTrust — nadie en Hopelchén la leyó",
+        "Santa Rosa Xtampak: enterrada bajo nombre de hacienda hasta hace poco",
+        "El Charras: la placa puesta y quitada, el teatro que cambió de nombre",
+        "Serapio Baqueiro Preve: sin reconocimiento en su municipio natal"
+      ],
+      "argumento": "Recordar implica reconocer quiénes construyeron el poder y cómo. Y los apellidos de los que lo construyeron siguen en el ayuntamiento.",
+      "entradas": ["Todos los bloques — es el hilo maestro"]
+    },
+    "HIL006": {
+      "nombre": "Hilo Musical",
+      "descripcion": "La cadena de música que va de Los Chenes al mundo — nadie sabe que empezó en Hopelchén",
+      "nodos": [
+        "Siglo XIX: Chan Cil (Dzitbalchén) — patriarca trova yucateca",
+        "1869: Los Xtoles anotados por primera vez por Baqueiro Foster",
+        "1880: Despedida — primera canción de la trova yucateca",
+        "1895: Julián Carrillo descubre el Sonido 13",
+        "1920: Carrillo usa canción de Chan Cil en Sinfónica Nacional",
+        "1939: Silvestre Revueltas usa Los Xtoles en La noche de los mayas",
+        "c.1940: Carrillo + Baqueiro Foster viajan a Alemania",
+        "1941: Baqueiro Foster publica Los Xtoles en Los Mayas Antiguos",
+        "HOY: Los pianos en bodega. Sin calle para Baqueiro Foster."
+      ],
+      "personajes": ["P003", "P004", "P005"],
+      "entradas": ["B5", "B5-BIS", "B7", "B8", "E-ChanCil"]
+    },
+    "HIL007": {
+      "nombre": "Hilo Bataboob",
+      "descripcion": "El gobierno maya autónomo que resistió dos siglos y cuyos apellidos siguen en el municipio",
+      "nodos": [
+        "Pre-conquista: bataboob = gobernantes mayas locales autónomos",
+        "1546: Conquista española",
+        "1621: Congregación de pueblos — fin oficial del gobierno maya",
+        "1621-1669: Los bataboob resisten 48 años adicionales",
+        "1847-1848: Los mismos apellidos (Poot, Chi, Caamal, May) encabezan la Guerra de Castas en Los Chenes",
+        "1848: Juan de Dios May ataca Hopelchén; Francisco Caamal lidera en Los Chenes",
+        "1849: Siete mayas de Bolonchenticul defienden su pueblo — reciben credenciales de hidalgos",
+        "2020: Leydy Pech pelea por las mismas tierras"
+      ],
+      "pregunta_central": "Los apellidos con los que Hopelchén se llama a sí mismo todos los días son los apellidos de los que nunca dejaron de pelear por su tierra.",
+      "personajes": ["P009", "P010", "P013"],
+      "entradas": ["A5", "A7", "B12", "D3"]
+    },
+    "HIL008": {
+      "nombre": "Hilo Posrevolución",
+      "descripcion": "Lo que la Revolución prometió y no llegó a Hopelchén",
+      "nodos": [
+        "1910-1920: Revolución Mexicana",
+        "7 oct 1920: Fundación PSAC — Clodoaldo Barrera y R. Montalvo (Hopelchén)",
+        "1921-1934: Rojo Amanecer — periódico socialista (no solo hasta 1924 como se creía)",
+        "Fernando Angli Lara: director del Rojo Amanecer Y del Periódico Oficial simultáneamente",
+        "1929: el PSAC se integra al PNR — los caciques cambian de membrete",
+        "Los hacendados de Hopelchén fueron el principal foco de lucha antiagraria en Campeche — finalmente derrotados",
+        "De Zitilchén: maestra de Holcatzín violada y abandonada al ir a organizar campesinos — nadie la recuerda"
+      ],
+      "personajes": ["P018", "P019"],
+      "entradas": ["B10", "C8", "C8-BIS", "F-RojoAmanecer"]
+    },
+    "HIL009": {
+      "nombre": "Hilo Baqueiro",
+      "descripcion": "La familia intelectual más importante de Hopelchén — completamente invisible en el municipio",
+      "arbol": "Serapio Baqueiro Preve (1838) → hermano Chan Cil → documentado por Gerónimo Baqueiro Foster → usado por Julián Carrillo → Silvestre Revueltas. Romualdo Baqueiro Lara (1861) → Raúl Emiliano Lara Baqueiro → Hernán Lara Zavala",
+      "personajes": ["P002", "P003", "P004", "P005", "P016", "P017", "P012"],
+      "entradas": ["B5", "B5-BIS", "B7", "B8", "B-Serapio", "E-ChanCil"]
+    },
+    "HIL010": {
+      "nombre": "Hilo Tierra",
+      "descripcion": "La pregunta que no cambia en 2,000 años: ¿de quién es esta tierra?",
+      "nodos": [
+        "Pre-conquista: tierras comunales mayas",
+        "1546-1700s: encomiendas y haciendas — despojo legal",
+        "1800s: liberalismo — privatización de tierras comunales",
+        "1847-1848: Guerra de Castas — los mayas pelean por la tierra",
+        "1920s-30s: reparto agrario prometido, resistido por hacendados de Hopelchén",
+        "1987+: menonitas llegan — nuevas colonias, deforestación",
+        "2004-2005: soya transgénica se dispara — punto de inflexión deforestación",
+        "2015-2020: Leydy Pech gana en la Suprema Corte",
+        "2025: Profepa clausuró más de 700 ha en Hopelchén y Calakmul por tala ilegal menonita"
+      ],
+      "entradas": ["A1", "B12", "C5", "D1", "D2", "D3", "D4", "D5", "D6"]
+    }
+  }
+}

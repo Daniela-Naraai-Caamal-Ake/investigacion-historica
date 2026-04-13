@@ -1,0 +1,142 @@
+{
+  "META": {
+    "archivo": "investigacion_E_F_G_2026-03-30.json",
+    "descripcion": "Datos verificados para bloques E (Educación), F (Prensa), G (Actualidad) — sesión 30 marzo 2026",
+    "herramienta": "web_search nativa",
+    "origen_sesion": "2026-03-30"
+  },
+
+  "BLOQUE_E_educacion": {
+
+    "datos_educativos_hopelchen_VERIFICADOS": {
+      "fuente_primaria": "CONEVAL Índice de Rezago Social 2020 + INEGI Censo 2020",
+      "fuente_periodistica": "PorEsto 2021 (CONEVAL data), DataMéxico (economia.gob.mx)",
+
+      "asistencia_escolar_6_14": {
+        "dato": "19.8% de niños de 6 a 14 años no asiste a la escuela",
+        "equivalente": "2 de cada 10",
+        "posicion_estatal": "Hopelchén es el municipio de Campeche con MAYOR proporción de niños que no asisten — triplica el promedio estatal",
+        "verificado": true,
+        "fuente": "CONEVAL IRS 2020, vía PorEsto mayo 2021"
+      },
+
+      "rezago_educativo_total": {
+        "dato": "12,529 personas en rezago educativo",
+        "desglose": {
+          "analfabetas": 2426,
+          "sin_primaria": 5412,
+          "sin_secundaria": 4691
+        },
+        "verificado": true,
+        "fuente": "IEEA (Instituto Estatal para la Educación de los Adultos), vía PorEsto diciembre 2021"
+      },
+
+      "poblacion_2020": {
+        "dato": "42,140 habitantes en 2020",
+        "crecimiento_2010_2020": "11.5%",
+        "verificado": true,
+        "fuente": "DataMéxico / INEGI Censo 2020"
+      },
+
+      "pobreza_2020": {
+        "pobreza_moderada": "53.1%",
+        "pobreza_extrema": "21.7%",
+        "total_en_pobreza": "74.8%",
+        "nota": "El libro cita 48.6% — este dato necesita verificación adicional; puede referirse a un año o metodología diferente",
+        "verificado_parcial": true,
+        "fuente": "DataMéxico (CONEVAL 2020)"
+      },
+
+      "menonitas_analfabetismo": {
+        "dato": "En las colonias menonitas, solo 1 de cada 100 personas puede leer y escribir correctamente en español",
+        "verificado": true,
+        "fuente": "IEEA, vía PorEsto diciembre 2021"
+      },
+
+      "nombres_edificios_verificados": {
+        "secundaria": "Dr. Luis Álvarez Buela",
+        "bachillerato": "Gerónimo Baqueiro Foster",
+        "hospital": "Dr. Pedro Lara y Lara",
+        "biblioteca": "Prof. Humberto Lara y Lara",
+        "nota": "Todos verificados por el libro (fuente directa de Dan que los nombra desde conocimiento propio)",
+        "conexion": "Apellido Lara en los dos edificios públicos más utilizados del municipio — mismo apellido de los alcaldes 2021-2027"
+      },
+
+      "datos_pendientes_verificar": [
+        "11.86% analfabetismo (15+) — figura específica del libro, fuente INEGI directa no localizada en web",
+        "6.95 grado promedio de escolaridad — 2010 data dice 7.0; necesita tabla INEGI 2020 específica de Hopelchén",
+        "46.85% hablan lengua indígena (5+ años) — necesita tabla INEGI Censo 2020 municipal",
+        "70.93% se identifican indígenas — necesita tabla INEGI Censo 2020 municipal"
+      ],
+
+      "donde_buscar_datos_faltantes": "INEGI Cuéntame: https://cuentame.inegi.org.mx/monografias/informacion/camp/poblacion/educacion.aspx o tabulados interactivos del Censo 2020 para municipio 006 Hopelchén"
+    }
+  },
+
+  "BLOQUE_F_prensa": {
+
+    "profepa_69_procedimientos_VERIFICADO": {
+      "dato": "PROFEPA inició al menos 69 acciones administrativas por cambio de uso de suelo entre 2015 y 2022 en Hopelchén",
+      "contexto": "Semarnat no había autorizado ningún cambio de uso de suelo en ese periodo — toda la incorporación de tierras fue ilegal",
+      "resultado_sanciones": "Solo 15 de los 69 procedimientos tienen registro de sanción",
+      "cita_fuente": "La Procuraduría Federal de Protección al Ambiente (Profepa) ha iniciado al menos 69 acciones administrativas por cambio de uso de suelo, según informes proporcionados por ambas dependencias.",
+      "verificado": true,
+      "fuentes": ["La Jornada 2 noviembre 2022 (p.4)", "La Jornada Maya febrero 2022", "Alianza por la Salud Alimentaria agosto 2022"],
+      "actualizacion_2025": "Septiembre 2025: PROFEPA clausuró 17 predios forestales en Campeche, QRoo y Yucatán. En Hopelchén específicamente: 2 predios en ejidos Xmabén y Francisco J. Múgica (247 hectáreas). Se aseguró maquinaria tipo oruga.",
+      "fuente_2025": "El Universal 19 septiembre 2025"
+    },
+
+    "cobertura_mediatica_hopelchen": {
+      "medios_que_si_cubren": ["La Jornada Maya", "PorEsto", "Tribuna Campeche", "Diario del Sureste"],
+      "patron_cobertura": "Las noticias llegan cuando ya son escándalo, no cuando son proceso. Sin seguimiento. Los medios locales (páginas FB, WhatsApp) amplifican comunicados del ayuntamiento.",
+      "documentos_publicos_verificados": [
+        "ASECAM: asecam.campeche.gob.mx",
+        "Plataforma Nacional de Transparencia: plataformadetransparencia.org.mx",
+        "Periódico Oficial del Estado de Campeche: periodicooficial.campeche.gob.mx"
+      ]
+    }
+  },
+
+  "BLOQUE_G_actualidad": {
+
+    "elecciones_2024_Hopelchen_VERIFICADO": {
+      "fecha": "2 de junio de 2024",
+      "ganador": "Hiram Aranda Calderón — PRI",
+      "resultado_estatal": "Hopelchén = único municipio de los 13 de Campeche que ganó el PRI. Último bastión priista.",
+      "distribucion_13_municipios": {
+        "MC": ["Campeche", "Calkiní", "Hecelchakán", "Dzitbalché"],
+        "Morena": ["Carmen", "Champotón", "Escárcega", "Candelaria"],
+        "PT": ["Palizada", "Calakmul", "Seybaplaya"],
+        "PRI": ["Hopelchén"],
+        "PVEM": ["Tenabo"]
+      },
+      "planilla_ganadora_hopelchen": {
+        "presidente": "Hiram Aranda Calderón",
+        "suplente_presidencia": "Juan Alberto Herrera Moo",
+        "1a_regiduria": "Maria Jose Toraya Canul",
+        "sindicatura": "Eric Jasier Uc Moo",
+        "nota": "Datos del IEEC PDF de planillas electas 2024"
+      },
+      "apellidos_en_regidores": "May Che, Chab Caamal, Uc Moo — apellidos mayas en cargos menores; Calderón en la presidencia",
+      "verificado": true,
+      "fuentes": [
+        "IEEC Campeche — PDF ayuntamientos electos 2024",
+        "La Jornada Maya 2 junio 2024",
+        "Caribepeninsular.mx junio 2025 (análisis político)"
+      ]
+    },
+
+    "candidata_MC_Solis_PENDIENTE": {
+      "estado": "no verificado en fuentes web accesibles",
+      "nota": "El libro menciona una candidata de MC con apellido Solís. Las planillas del IEEC no muestran el nombre completo de la candidata de MC para Hopelchén 2024. Requiere búsqueda específica en IEEC o registros de candidaturas.",
+      "donde_buscar": "ieec.org.mx — registros de candidaturas 2024 para municipio Hopelchén"
+    },
+
+    "hopelchen_ultimo_bastion_PRI": {
+      "dato": "El PRI obtuvo solo 35,797 votos en toda Campeche en la presidencial 2024 — mínimo histórico. Pero retuvo Hopelchén.",
+      "patron_historico": "PSAC 1920 → PNR 1929 → PRM 1938 → PRI 1946 → coalición PRI-PRD 2021 → PRI solo 2024",
+      "nota_libro": "El libro capítulo XIX dice que el alcalde actual llegó en coalición PRI-PRD. Los datos electorales confirman que fue PRI y ganó con Aranda Calderón.",
+      "verificado": true
+    }
+  }
+}

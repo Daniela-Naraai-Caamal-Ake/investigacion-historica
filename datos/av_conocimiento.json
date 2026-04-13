@@ -1,0 +1,380 @@
+{
+  "META": {
+    "archivo": "av_conocimiento.json",
+    "descripcion": "Lugares, términos mayas e investigación global — Archivo Vivo",
+    "proyecto": "Archivo Vivo",
+    "autora": "Daniela Naraai Caamal",
+    "version": "1.0",
+    "creado": "2026-03-24"
+  },
+
+  "lugares": {
+    "L001": {
+      "nombre_espanol": "Hopelchén",
+      "nombre_maya": "Ho'peel chen",
+      "significado": "Lugar de los cinco pozos (ho = cinco, peel = grupo, chen = pozo)",
+      "tipo": "cabecera_municipal",
+      "estado": "Campeche, México",
+      "coordenadas": "19°44'N, 89°51'O",
+      "altitud": "56 metros sobre nivel del mar",
+      "poblacion_1847": "~5,000 habitantes (dato Lara Zavala, Península Península)",
+      "eventos_asociados": ["E006", "E011", "E031", "E035", "E046", "E047"],
+      "personajes_asociados": ["P001", "P007", "P009", "P011"],
+      "nota": "Declarada ciudad el 26 de febrero de 1959"
+    },
+    "L002": {
+      "nombre_espanol": "Bolonchenticul / Bolonchén de Rejón",
+      "nombre_maya": "Bolonchén",
+      "significado": "Lugar de los nueve pozos (bolon = nueve, chen = pozo). Bolon también significa muchos/abundante en sentido sagrado.",
+      "tipo": "localidad",
+      "municipio": "Hopelchén",
+      "distancia_hopelchen": "34 km",
+      "historia_nombre": "En 1882 se llamó de Blengio, en 1896 de Montalvo, en 1955 tomó el nombre de Rejón en honor a Manuel Crescencio García Rejón y Alcalá — promotor del juicio de amparo en México, nacido aquí.",
+      "personajes_asociados": ["P006", "P017"],
+      "eventos_asociados": ["E015", "E017"]
+    },
+    "L003": {
+      "nombre_espanol": "Los Chenes",
+      "nombre_maya": "Chenes",
+      "significado": "Los pozos (chenes = plural de chen = pozo)",
+      "tipo": "region",
+      "descripcion": "Región de Campeche en la frontera entre Yucatán, Campeche y Quintana Roo. Caracterizada por su estilo arquitectónico maya (estilo Chenes) y sus fuentes de agua subterránea.",
+      "comunidades": ["Hopelchén", "Dzibalchén", "Bolonchén de Rejón", "Iturbide", "Xcupil", "Xmabén", "Ich-Ek", "Pakchén", "San Benigno", "Holcatzín", "Chencó", "Xkanhá", "Tepich"]
+    },
+    "L004": {
+      "nombre_espanol": "Dzibalchén",
+      "nombre_maya": "Dzitbalchén",
+      "significado": "Donde está escrito el pozo (dzib = escritura, al = en, chen = pozo)",
+      "tipo": "localidad",
+      "municipio": "Hopelchén",
+      "personajes_asociados": ["P002", "P003"],
+      "nota": "Lugar de nacimiento de Serapio Baqueiro Preve y Chan Cil"
+    },
+    "L005": {
+      "nombre_espanol": "Hochob",
+      "nombre_maya": "Hochob",
+      "significado": "Donde hay abundancia de mazorcas / lugar donde se corta el maíz",
+      "tipo": "zona_arqueologica",
+      "municipio": "Hopelchén",
+      "descripcion": "Zona arqueológica famosa por la fachada-monstruo donde la entrada al templo es la boca de Itzamná",
+      "explorador": "Teobert Maler (1887)",
+      "entradas": ["A2"]
+    },
+    "L006": {
+      "nombre_espanol": "Dzibilnocac",
+      "nombre_maya": "Dzibilnocac",
+      "significado": "Escritura en la pared blanca (dzib = escritura, il = locativo, noc = pared, ac = blanca/tortuga)",
+      "tipo": "zona_arqueologica",
+      "municipio": "Hopelchén",
+      "explorador": "Teobert Maler (1887)",
+      "entradas": ["A3"]
+    },
+    "L007": {
+      "nombre_espanol": "Santa Rosa Xtampak",
+      "nombre_maya": "Xtampak",
+      "tipo": "zona_arqueologica",
+      "municipio": "Hopelchén",
+      "descripcion": "Capital regional de Los Chenes. Enterrada bajo nombre de hacienda hasta hace poco.",
+      "explorador": "Catherwood y Stephens (1843 — primeros en documentarla); Teobert Maler (1887)",
+      "entradas": ["A3"]
+    },
+    "L008": {
+      "nombre_espanol": "Xtacumbilxunaán",
+      "nombre_maya": "Xtacumbilxunaán",
+      "significado": "La doncella escondida / la mujer escondida dentro (x = prefijo femenino, tac = escondida, umb = adentro, il = locativo, xunaan = señora/mujer)",
+      "tipo": "gruta",
+      "municipio": "Hopelchén",
+      "ubicacion": "Bolonchén de Rejón",
+      "extension": "600 metros",
+      "nota": "NO es cenote — es gruta. Lugar sagrado maya."
+    },
+    "L009": {
+      "nombre_espanol": "Iturbide",
+      "nombre_maya_original": "Dzibil-Noh-Aac",
+      "significado_maya": "Tortuga grande escrita / escrito en la gran tortuga",
+      "tipo": "localidad",
+      "municipio": "Hopelchén",
+      "historia": "En 1822 Agustín de Iturbide autorizó la edificación de un asiento criollo sobre el pueblo maya preexistente. Habitado originalmente por los XIUES y por indios fugitivos de encomiendas. En 1868 el gobernador Joaquín Baranda construyó el fuerte-monumento El Cuyo sobre vestigios arqueológicos mayas.",
+      "entradas": ["A3"]
+    },
+    "L010": {
+      "nombre_espanol": "Grutas de Huachabí",
+      "tipo": "cueva_arqueologica",
+      "municipio": "Hopelchén",
+      "ubicacion": "Bolonchén de Rejón — zona arqueológica Miramar",
+      "profundidad": "~20 metros",
+      "extension": "más de 1 kilómetro",
+      "pinturas": "+500 pinturas rupestres descubiertas en 2012. Desde el Preclásico hasta el período virreinal.",
+      "estado": "Cerrado al público — difícil acceso",
+      "nota": "Comparables a las Grutas de Loltún — posiblemente más importantes",
+      "entradas": ["A — nueva entrada potencial"]
+    },
+    "L011": {
+      "nombre_espanol": "Tohcok",
+      "nombre_maya": "Tacóh",
+      "significado": "La preciosa navaja de pedernal / lugar de la navaja de pedernal",
+      "tipo": "zona_arqueologica",
+      "municipio": "Hopelchén",
+      "ubicacion": "6km al poniente de Hopelchén sobre carretera 261",
+      "periodo": "770-830 d.C.",
+      "estilo": "Transicional Chenes-Puuc",
+      "nota": "El asfaltado de la carretera Campeche-Hopelchén destruyó varias plataformas prehispánicas sin evaluación patrimonial",
+      "custodia": "Ayuntamiento de Hopelchén desde 1995"
+    },
+    "L012": {
+      "nombre_espanol": "Valeriana",
+      "tipo": "zona_arqueologica",
+      "municipio": "Campeche (posiblemente Hopelchén)",
+      "extension": "16.6 km²",
+      "periodo": "Clásico Maya 250-900 d.C.",
+      "descubrimiento": "2024",
+      "publicacion": "Revista Antiquity",
+      "instituciones": ["INAH", "Tulane University", "Universidad Norte de Arizona", "Universidad de Houston"],
+      "entradas": ["A — nueva entrada potencial"]
+    },
+    "L013": {
+      "nombre_espanol": "Ich Ek",
+      "nombre_maya": "Ich Ek",
+      "significado": "Ojo de estrella",
+      "tipo": "localidad",
+      "municipio": "Hopelchén",
+      "nota": "Lugar de nacimiento de Leydy Pech Martín",
+      "personajes_asociados": ["P013"]
+    },
+    "L014": {
+      "nombre_espanol": "Xmabén",
+      "tipo": "ejido_localidad",
+      "municipio": "Hopelchén",
+      "descripcion": "Ejido con 36,000 ha totales. En 1999 menonitas compraron 5,656 ha — primer caso documentado de despojo catastral significativo.",
+      "entradas": ["D2"]
+    },
+    "L015": {
+      "nombre_espanol": "Holcatzín",
+      "tipo": "hacienda_localidad",
+      "municipio": "Hopelchén",
+      "propietario_historico": "Pedro Advíncula Lara",
+      "nota": "La hacienda Holcatzín de Pedro Advíncula Lara es el modelo real de la hacienda de don Quintín Silvestre en Península Península (Lara Zavala). Producía caña, henequén, aguardiente y ron.",
+      "en_ficcion": "Don Quintín Silvestre (Península Península) es el hacendado de Holcatzín — Lara Zavala usó el nombre real de la hacienda de su propia familia política.",
+      "entradas": ["C8-BIS"]
+    }
+  },
+
+  "terminos_mayas": {
+    "T001": {
+      "termino": "chen / chéen",
+      "variantes": ["ch'en"],
+      "significado": "pozo, caverna, aguada, fuente de agua subterránea",
+      "en_toponimos": ["L001 (Hopelchén)", "L002 (Bolonchén)", "L004 (Dzibalchén)"],
+      "familia_lexica": "chenes, chenero",
+      "nota": "Chenera = de Los Chenes — identidad de Dan",
+      "fuente": "Diccionario Maya Cordemex 1980"
+    },
+    "T002": {
+      "termino": "ho / hó",
+      "significado": "cinco. También nombre maya de Mérida (Ho = lugar de cinco, por las cinco pirámides sobre las que se construyó)",
+      "en_toponimos": ["L001 (Hopelchén: ho + peel + chen = cinco grupos de pozos)"],
+      "fuente": "Diccionario Maya Cordemex 1980"
+    },
+    "T003": {
+      "termino": "bolón / bolon",
+      "significado": "nueve. También significa muchos/abundante en sentido sagrado (el nueve es número sagrado maya)",
+      "en_toponimos": ["L002 (Bolonchén = nueve pozos / muchos pozos)"],
+      "fuente": "Diccionario Maya Cordemex 1980"
+    },
+    "T004": {
+      "termino": "dzib / dzibil",
+      "significado": "escritura, lo escrito, jeroglífico",
+      "en_toponimos": ["L004 (Dzibalchén)", "L006 (Dzibilnocac)", "L009 (Iturbide — Dzibil-Noh-Aac)"],
+      "fuente": "Diccionario Maya Cordemex 1980"
+    },
+    "T005": {
+      "termino": "batab",
+      "plural": "bataboob",
+      "significado": "gobernante local maya, jefe de pueblo (bata = hacha, b = sufijo de agente = el del hacha)",
+      "contexto": "Los bataboob resistieron 48 años después de 1621 sin mezclarse con el sistema español. Sus apellidos (Poot, Chi, Caamal, May) encabezan la Guerra de Castas.",
+      "en_hilos": ["HIL007"],
+      "fuente": "Diccionario Maya Cordemex 1980"
+    },
+    "T006": {
+      "termino": "dzul",
+      "plural": "dzuloob",
+      "significado": "extranjero, forastero, invasor. En español: Caballero.",
+      "contexto": "Término usado por los mayas para referirse a los no-mayas. División conceptual: uinicob vs dzuloob.",
+      "en_fuentes": ["F005 (La rebelión de los Cruzoob)"],
+      "fuente": "Diccionario Maya Cordemex 1980"
+    },
+    "T007": {
+      "termino": "uinic",
+      "plural": "uinicob",
+      "significado": "persona, ser humano. En contexto de la Guerra de Castas: los mayas.",
+      "fuente": "Diccionario Maya Cordemex 1980"
+    },
+    "T008": {
+      "termino": "macehual",
+      "plural": "macehualob",
+      "significado": "hombre del común, campesino, persona del pueblo. En el siglo XIX: los mayas comunes, no los caciques.",
+      "fuente": "Diccionario Maya Cordemex 1980"
+    },
+    "T009": {
+      "termino": "cruzoob",
+      "significado": "las cruces (cruz = español; -oob = plural maya). También: los seguidores de la Cruz Parlante.",
+      "contexto": "Los Cruzoob = facción maya que siguió combatiendo hasta 1901. Chan Santa Cruz = su ciudad sagrada.",
+      "fuente": "Diccionario Maya Cordemex 1980"
+    },
+    "T010": {
+      "termino": "chilam balam",
+      "significado": "el sacerdote jaguar / el jaguar que es intérprete (chilam = intérprete/profeta, balam = jaguar)",
+      "contexto": "Los Libros del Chilam Balam: textos mayas coloniales escritos en caracteres latinos que preservaron el conocimiento maya. Hay varios según el pueblo: de Chumayel, de Maní, de Tizimín.",
+      "fuente": "Diccionario Maya Cordemex 1980"
+    },
+    "T011": {
+      "termino": "xtoles / x'toles",
+      "significado": "pendiente investigación etimológica",
+      "contexto": "Canciones tradicionales mayas de Los Chenes. Anotadas por Baqueiro Foster en 1869. Publicadas en Los Mayas Antiguos 1941. Usadas por Revueltas en La noche de los mayas 1939.",
+      "pendiente": "Significado del nombre — búsqueda en Cordemex y fuentes especializadas"
+    },
+    "T012": {
+      "termino": "chan",
+      "significado": "pequeño en maya yucateco",
+      "en_toponimos": ["Chan Santa Cruz = pequeña santa cruz"],
+      "fuente": "Diccionario Maya Cordemex 1980"
+    },
+    "T013": {
+      "termino": "dzonot",
+      "significado": "cavidad con agua — origen de la palabra española cenote",
+      "nota": "Xtacumbilxunaán NO es cenote — es gruta. Distinción importante para el proyecto.",
+      "fuente": "Diccionario Maya Cordemex 1980"
+    },
+    "T014": {
+      "termino": "henequén",
+      "significado": "Agave fourcroydes — planta de fibra dura. El oro verde yucateco.",
+      "contexto": "Base de la economía porfiriana. Las haciendas de Los Chenes producían caña, henequén, maíz, ganado.",
+      "entradas": ["B3", "C9"]
+    },
+    "T015": {
+      "termino": "milpa",
+      "significado": "campo de cultivo maya; sistema de siembra rotativa (maíz + frijol + calabaza — la trilogía sagrada maya)",
+      "contexto": "Las milpas de los mayas de Los Chenes eran expropiadas por los hacendados — causa de la guerra",
+      "entradas": ["A1", "D"]
+    },
+    "T016": {
+      "termino": "xunáan kab",
+      "significado": "la dama de la miel",
+      "contexto": "Nombre maya de la Melipona beecheii — abeja sin aguijón domesticada por los mayas. La abeja de Leydy Pech. Meliponicultura tiene al menos 3,000 años de tradición en la Península.",
+      "personajes": ["P013"],
+      "entradas": ["D3"]
+    },
+    "T017": {
+      "termino": "jarana",
+      "significado": "baile tradicional yucateco (mezcla maya + española + africana)",
+      "en_fuentes": ["F004 — en el Baile Verde 1847 de Península Península"]
+    },
+    "T018": {
+      "termino": "plautdietsch",
+      "nota": "No es maya — es el idioma menonita: mezcla de bajo alemán, dialectos prusianos y holandés. Incluido por su relevancia en el contexto actual de Hopelchén.",
+      "entradas": ["D2", "H2"]
+    }
+  },
+
+  "investigacion_global": {
+    "ALEMANIA": {
+      "IAI_Berlin": {
+        "nombre": "Ibero-Amerikanisches Institut, Berlín",
+        "relevancia": "Archivo Teobert Maler; fotos originales Los Chenes; correspondencia desde Yucatán",
+        "estado": "Identificado — pendiente consulta directa",
+        "busquedas_prioritarias": [
+          "Fondo Maler: cartas desde Los Chenes 1887",
+          "Negativos fotográficos: Hochob, Dzibilnocac, Santa Rosa Xtampak",
+          "Publicaciones alemanas sobre la Guerra de Castas",
+          "Registros del reloj fabricado para Hopelchén (si hay rastro)"
+        ],
+        "exposicion_2024": "Exposición IAI 2024 sobre el trabajo de Teobert Maler"
+      }
+    },
+    "CUBA": {
+      "Archivo_Nacional_Cuba": {
+        "nombre": "Archivo Nacional de Cuba, La Habana",
+        "relevancia": "Registros de mayas yucatecos vendidos 1848-1861",
+        "estado": "Pendiente consulta",
+        "busquedas_prioritarias": [
+          "Registros de entrada de contratados yucatecos 1848-1861",
+          "Apellidos: Che, Nagua, Cusán, May, Caamal en registros coloniales",
+          "Documentos del vapor México y otros barcos del tráfico",
+          "Rastro de descendientes en Madruga"
+        ]
+      },
+      "Comunidad_Madruga": {
+        "descripcion": "Descendientes de mayas de Hopelchén — familia Molina Solís también en Cuba",
+        "estado": "Pendiente trabajo de campo"
+      }
+    },
+    "RUSIA": {
+      "Centro_Knorosov": {
+        "nombre": "Centro de Estudios Mesoamericanos Yuri Knórosov (RGGU, Moscú)",
+        "relevancia": "Investigación maya activa; artículo Kosichenko 2025 sobre voluntarios mayas en la Guardia Nacional",
+        "estado": "CONSULTADO — datos ya integrados en base",
+        "datos_extraidos": [
+          "Los siete de Bolonchenticul (AGEY exp.24, caja 169)",
+          "José Chan: sirviente deudor que se alista para escapar servidumbre (52 pesos)",
+          "Mayas con apellidos españoles falsos: Sostenes Dzul como Estrella, Francisco Pech como Pérez",
+          "~2,000 voluntarios mayas en Guardia Nacional solo de Mérida para mayo 1848"
+        ],
+        "fuente": "F007 — Kosichenko 2025"
+      }
+    },
+    "ESTADOS_UNIDOS": {
+      "HathiTrust": {
+        "descripcion": "Novela de Pantaleón Barrera disponible en HathiTrust y ediciones facsimilares comerciales",
+        "url": "https://babel.hathitrust.org/cgi/pt?id=wu.89095721726",
+        "estado": "RESUELTO — ya no es solo accesible en Wisconsin",
+        "dato_nuevo": "Disponible en Amazon, AbeBooks, Kessinger Publishing (2009) — ISBN 9781166725785"
+      },
+      "TULANE_University": {
+        "nombre": "Tulane University Latin American Library",
+        "relevancia": "Colección peninsular; publicaciones siglo XIX; colaboró en descubrimiento Valeriana",
+        "estado": "Pendiente consulta"
+      },
+      "TOZZER_Harvard": {
+        "nombre": "Tozzer Library, Harvard",
+        "relevancia": "Colección maya; archivo fotográfico; fotografías de Los Chenes anteriores a Maler",
+        "estado": "Pendiente consulta"
+      }
+    },
+    "ESPAÑA": {
+      "Archivo_General_Indias": {
+        "nombre": "Archivo General de Indias, Sevilla",
+        "relevancia": "Período colonial; encomiendas en Los Chenes; congregación de 1621",
+        "estado": "Pendiente consulta",
+        "busquedas": ["Registros de encomiendas en el partido de Los Chenes siglo XVI-XVII", "Documentos sobre la congregación de 1621", "Nombres de los bataboob pre-conquista en Los Chenes"]
+      }
+    },
+    "BELGICA_AUSTRIA": {
+      "Archivos_Imperiales": {
+        "descripcion": "Archivos imperiales Viena / Archivos reales belgas Bruselas",
+        "relevancia": "Correspondencia de Maximiliano y Carlota sobre Yucatán; la condecoración de Carlota a Pantaleón Barrera 1865",
+        "estado": "Pendiente consulta"
+      }
+    },
+    "MEXICO_LOCAL": {
+      "AGEY": {
+        "nombre": "Archivo General del Estado de Yucatán",
+        "expedientes_identificados": [
+          "Caja 169, vol.119, exp.24 — Los siete de Bolonchenticul 1849",
+          "Caja 111, vol.61, exp.50 — José Chan y María Jesús Herrera 1848",
+          "Boletín Oficial del Gobierno de Yucatán mayo-junio 1848 — cobertura voluntarios mayas"
+        ],
+        "estado": "Identificado — pendiente consulta directa para nombres exactos de los siete"
+      },
+      "AHEC": {
+        "nombre": "Archivo Histórico del Estado de Campeche",
+        "relevancia": "Rojo Amanecer 1921-1934; Recuerdos de mi infancia de Raúl Emiliano Lara Baqueiro",
+        "estado": "Pendiente consulta"
+      },
+      "Hemeroteca_UNAM": {
+        "nombre": "Hemeroteca Nacional Digital México (UNAM)",
+        "url_boletines": "https://hndm.iib.unam.mx/consulta/publicacion/visualizar/558075be7d1e63c9fea1a3d3",
+        "estado": "Accesible online"
+      }
+    }
+  }
+}

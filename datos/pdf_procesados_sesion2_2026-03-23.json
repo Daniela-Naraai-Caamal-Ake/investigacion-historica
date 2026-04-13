@@ -1,0 +1,282 @@
+{
+  "META": {
+    "fecha": "2026-03-23",
+    "sesion": "SESION 2 — Procesamiento masivo restante",
+    "total_pdfs_procesados": 12,
+    "agente": "Claude — Archivo Vivo"
+  },
+
+  "PDF_01_feb_art16": {
+    "archivo": "feb_art16.pdf",
+    "tipo": "Artículo académico / UNAM Revista Digital",
+    "autor": "Herlinda Mendoza Castillo",
+    "publicacion": "Revista Digital Universitaria, Vol. 7 Núm. 2, 10 febrero 2006, ISSN 1067-6079",
+    "tema": "Gerónimo Baqueiro Fóster y su legado documental",
+    "HALLAZGO_CRITICO_1": {
+      "dato": "CONFIRMADO POR ACTA DE NACIMIENTO (expediente 2699B938 del Archivo Baqueiro Fóster): Gerónimo Baqueiro Fóster nació en HOPELCHÉN, CAMPECHE, el 25 de enero de 1892. Murió en la Ciudad de México el 29 de mayo de 1967.",
+      "nota": "El artículo señala que 'diversas fuentes de consulta anotan el 7 de enero de 1898', pero la fecha confirmada por el acta de nacimiento es el 25 de enero de 1892. Esta discrepancia de fechas ha sido fuente de confusión bibliográfica. La fecha de 1892 está respaldada por el acta."
+    },
+    "HALLAZGO_2": {
+      "dato": "Gerónimo Baqueiro Fóster descendía directamente del trovador yucateco Cirilo Baqueiro Prevé, también llamado 'Chan Cil'. Cirilo Baqueiro Prevé fue autor de 'preciosas canciones del último cuarto del siglo XIX y primeros años del siglo XX'. Esto confirma la conexión familiar: Cirilo Baqueiro Prevé (trovador) → Gerónimo Baqueiro Fóster (musicólogo, de Hopelchén)."
+    },
+    "HALLAZGO_3": {
+      "dato": "Obra clave de Gerónimo Baqueiro Fóster: 'El secreto armónico y modal de un antiguo aire maya', capítulo en 'Los mayas antiguos: arqueología y etnografía por un grupo de especialistas', publicado por El Colegio de México en 1941."
+    },
+    "HALLAZGO_4": {
+      "dato": "El archivo personal de Baqueiro Fóster fue donado al CENIDIM-INBA en 1983. Contiene: 13.50 metros lineales de documentos, 4,052 expedientes, 32,859 documentos totales, fechas extremas 1854-1985. Incluye más de 6,000 artículos periodísticos en 60 diarios y revistas de todo el país, más los archivos del Diario del Sureste (el mismo periódico que publicaba artículos sobre Campeche en los 1960s)."
+    },
+    "HALLAZGO_5": {
+      "dato": "En 1944, Baqueiro Fóster fue comisionado para apoyar la organización del Conservatorio de Yucatán. Confirma vinculación institucional con la Península incluso desde la Ciudad de México."
+    }
+  },
+
+  "PDF_02_Hernan_Lara_Zavala_librillo": {
+    "archivo": "Hernan_Lara_Zavala_librillo.pdf",
+    "tipo": "Libretto de colección Voz Viva de México / UNAM",
+    "editor": "Marco Antonio Campos",
+    "publicacion": "UNAM — Colección Voz Viva de México VVM-137, primera edición CD, septiembre 2018",
+    "HALLAZGO_CRITICO_1": {
+      "dato": "CONFIRMADO Y AMPLIADO: La novela Charras (1990) es 'acerca de un líder estudiantil sindical (Efraín Calderón Lara), SECUESTRADO Y ASESINADO en 1974 por orden del gobernador CARLOS LORET DE MOLA MEDIZ, quien primero trató de cooptarlo'. El nombre del gobernador responsable es Carlos Loret de Mola Mediz.",
+      "importancia": "Esto confirma los datos del libro de Daniela Naraai: El Charras fue asesinado (no solo desaparecido). El responsable fue Carlos Loret de Mola Mediz. El modelo del 'hijo del sistema que combatió al sistema' termina con su asesinato por orden del sistema."
+    },
+    "HALLAZGO_2": {
+      "dato": "Marco Antonio Campos confirma que Lara Zavala publicó su primer libro 'a los treinta y cinco años', con De Zitilchén en 1981. Esto confirma que nació alrededor de 1946."
+    },
+    "HALLAZGO_3": {
+      "dato": "Zitilchén en palabras de Marco Antonio Campos: 'un pueblo imaginario que puede parecerse a un pueblo real de la península: mucho de Campeche, algo de Yucatán'. En Zitilchén: 'unas cuantas familias preservan desesperadamente los apellidos y el estado de cosas, y una mayoría —indios mayas con un linaje tan antiguo como la tierra— sostiene, como infame mano de obra, la economía del pueblo en aserraderos, en apiarios, en campos henequeneros, en la siembra del maíz, en la explotación de chicle.'"
+    },
+    "HALLAZGO_4": {
+      "dato": "En agosto de 2015, Lara Zavala recibió un Doctorado Honoris Causa por la Universidad Autónoma de Campeche."
+    },
+    "HALLAZGO_5": {
+      "dato": "Premios de Lara Zavala: Premio Latinoamericano de Narrativa Colima (El mismo cielo, 1987), Premio Nacional de Literatura José Fuentes Mares (Después del amor, 1995), Premio Iberoamericano de Novela 'Elena Poniatowska' 2009 (Península Península), Premio Real Academia Española 2010 (Península Península). — NOTA: El premio correcto es 'Elena Poniatowska', NO 'Premio RAE' como se creía anteriormente."
+    }
+  },
+
+  "PDF_03_los_mayas_antiguos_pp264_271": {
+    "archivo": "los-mayas-antiguos...pdf",
+    "tipo": "Capítulo en libro colectivo",
+    "autor_capitulo": "Gerónimo Baqueiro Fóster",
+    "titulo_capitulo": "El secreto armónico y modal de un antiguo aire maya",
+    "publicacion": "Los mayas antiguos: monografías de arqueología, etnografía y lingüística mayas / por un grupo de especialistas. El Colegio de México, 1941",
+    "paginas": "264-271 (en el PDF)",
+    "HALLAZGO_EXTRAORDINARIO": {
+      "dato": "Gerónimo Baqueiro Fóster, en primera persona, menciona directamente haber escuchado Los Xtoles en Hopelchén: 'al danzar y cantar de los Xtoles citadinos o simplemente al cantar de los ANCIANOS DE HOPELCHÉN, BOLONCHENTICUL, DZIBALCHÉN, ITURBIDE, CHUNCHINTOK, KOMCHÉN, XKANHÁ, SAHCABCHÉN y de los poblados tendidos a lo largo de las vías férreas del sur, este y oeste de la península.' El músico nacido en Hopelchén escuchó la melodía maya más antigua documentada en su propio pueblo natal y en los pueblos vecinos del municipio durante su adolescencia.",
+      "importancia": "Este es el vínculo personal más directo entre Baqueiro Fóster y Hopelchén en un texto académico publicado (1941). Confirma que Los Xtoles se cantaban en Hopelchén, Bolonchenticul (hoy Bolonchén de Rejón), Dzibalchén, Iturbide, Chunchintok, Komchén, Xkanhá y Sahcabchén. Estos son exactamente los pueblos del municipio de Hopelchén.",
+      "fuente_exacta": "Baqueiro Fóster, 'El secreto armónico y modal de un antiguo aire maya', Los mayas antiguos, El Colegio de México, 1941, p. 264 del PDF"
+    },
+    "HALLAZGO_2": {
+      "dato": "Identidad de dos trovadores yucatecos: 'Huay cuc' = Fermín Pastrana / 'Chan cil' = Cirilo Baqueiro (abuelo de Gerónimo). Ambos cantaban la 'trova italianizante' de Mérida antes de que se adoptara el bambuco colombiano y los aires cubanos."
+    },
+    "HALLAZGO_3": {
+      "dato": "La escala musical de Los Xtoles es pentafónica (5 sonidos, sin semitonos). Baqueiro Fóster la analizó en 1925 en el Conservatorio. Es la misma escala de Egipto, Sumeria, China, Asiria y Babilonia. La tristeza de la melodía se debe a las notas largas que los indios cantan 'en disminuyendo'."
+    }
+  },
+
+  "PDF_04_R05042_prensa_henequen": {
+    "archivo": "R05042.pdf",
+    "tipo": "Recortes de prensa — Biblioteca Miguel Lerdo de Tejada (SHCP)",
+    "contenido": "Artículos sobre henequén yucateco y campechano, ~1940s-1960s",
+    "HALLAZGO_CRITICO_HOPELCHEN": {
+      "dato": "Artículo de 'El Nacional' (corresponsal Jaime CON...): 'CAMPECHE, Camp., 8 de junio. — Por invitación que les hizo el Gobernador del Estado, ayer se reunieron en la Sala de Actos de Palacio, los señores LISANDRO LARA, DE HOPELCHÉN, Francisco Ortegón, Ramiro Ortíz, Saturnino Vera, Fernando Herrera de Hecelchakán; licenciado Alonso Arrigunaga, de Mérida, Gonzalo Berzunza, representando a su padre don Refugio Berzunza, de Calkiní, Álvaro García de Bécal...'",
+      "contexto": "El gobernador era el licenciado Manuel López Hernández (gobernó 1949-1955). Convocó a los productores de henequén para fomentar el cultivo 'en los municipios del Camino Real y en el de HOPELCHÉN'.",
+      "importancia": "Lisandro Lara, de Hopelchén, representaba al municipio en una reunión sobre fomento henequenero. El apellido Lara en Hopelchén activo en los años 1949-1955 como hacendado/productor agropecuario. La figura de Berzunza de Calkiní también presente."
+    },
+    "HALLAZGO_2": {
+      "dato": "Artículo de Bernardo Ponce en 'Perspectiva' (Yucatán, 12 de mayo de 1961): contexto sobre la crisis henequenera. Las tierras del municipio de Hopelchén incluidas en la zona de expansión henequenera de Campeche."
+    },
+    "HALLAZGO_3": {
+      "dato": "El artículo de 1937/38 (Ing. José A. Brito): Historia de la explotación henequenera en Yucatán desde 1844. En 1937, resolución del ejido henequenero: cada hacienda quedó con 150 Hs de plantíos y 150 Hs incultos = 300 Hs totales de pequeña propiedad henequenera. Texto del Acuerdo presidencial de 8 agosto 1937, punto V (expropriación parcial para ejidos industriales)."
+    }
+  },
+
+  "PDF_05_CampeChe_Una_Ciudad": {
+    "archivo": "CampeChe_Una_C_iU_da_d_e_n_la_penins_Ula (1).pdf",
+    "tipo": "Libro colectivo — Gobierno del Estado de Campeche",
+    "editora": "Ivett García",
+    "publicacion": "Colección Bicentenario Campeche Solidario, Campeche, 2010",
+    "contenido_relevante": "Artículo de Ángel Omar May González sobre Rojo Amanecer",
+    "HALLAZGO_1_ROJO_AMANECER": {
+      "dato": "Rojo Amanecer fue fundado en AGOSTO DE 1921. Primer número: agosto 1921. Vida editorial: 1921-1934. Oficinas: esquina de las calles Pablo García y Colón, centro histórico de Campeche. El periódico respaldaba la candidatura de Ramón Félix Flores y luego al gobierno socialista. Publicaba en 4 páginas, 4 columnas.",
+      "fuente_exacta": "May González, 'Rojo Amanecer', en García (ed.), Campeche, una ciudad en la península, 2010, pp. 211-238"
+    },
+    "HALLAZGO_2_PSAC": {
+      "dato": "Fundadores del PSAC (octubre 1920): Ramón Félix Flores, Clodoaldo Barrera, Ángel Castillo Lanz, Guillermo Ferrer Vega, Eduardo Mena Córdova, Manuel A. Segovia, Enrique Araos, Rojas Morano. Lema: 'Tierra y Libertad' (zapatista).",
+      "importancia": "CLODOALDO BARRERA aparece aquí como fundador del PSAC — apellido Barrera en la política del partido socialista de Campeche desde su fundación en 1920."
+    },
+    "HALLAZGO_3_COLABORADORES": {
+      "dato": "Fernando Angli Lara: escritor del Rojo Amanecer, integrante destacado del socialismo campechano, contendiente a relevar a Félix Flores en el gobierno. Débora Pavón: Presidenta de la Liga Feminista de Champotón, una de las líderes más visibles del feminismo campechano de los años 1920."
+    },
+    "HALLAZGO_4_MALECON": {
+      "dato": "Gobernador Benjamín Romero Esquivel (1931-1935): construyó el primer malecón campechano 'Justo Sierra' a orillas del mar. El gobernador socialista que gobernó tras la crisis de Castillo Lanz dejó esta obra urbana.",
+      "gobernadores_mencionados": ["Manuel Rivera (1913-1914)", "Benjamín Romero Esquivel (1931-1935)", "Héctor Pérez Martínez (1939-1943)", "Eduardo Lavalle Urbina (1944-1949)", "Alberto Trueba Urbina (1955-1961)", "José Ortiz Ávila (1961-1967)", "Eugenio Echeverría Castellot (1979-1985)", "Abelardo Carrillo Zavala (1985-1991)", "Salomón Azar García (1991-1997)", "Antonio González Curi (1997-2003)"]
+    }
+  },
+
+  "PDF_06_libaneses_peninsula": {
+    "archivo": "14-...de-como-los-libaneses.pdf",
+    "tipo": "Libro académico",
+    "autor": "Luis Alfonso Ramírez Carrillo",
+    "publicacion": "CEPHCIS-UNAM, Mérida, 2014 (1ª ed. 2012)",
+    "HALLAZGO_HOPELCHEN": {
+      "dato": "NO hay mención directa de Hopelchén como destino de inmigrantes libaneses. Los pueblos del municipio de Campeche mencionados como destinos: Campeche (capital, 52%), Ciudad del Carmen (17%), Palizada, Escárcega, Calkiní (1 familia: Elías Daguer Abraham), Seybaplaya, Tenabo, HECELCHAKÁN (1 familia: Badih Sleme, 1921, de Jounieh-Ssarba), Dzitbalché.",
+      "nota": "Hecelchakán es el municipio adyacente a Hopelchén. La influencia libanesa en la región Los Chenes fue mínima y se concentró en Hecelchakán, no en Hopelchén mismo."
+    },
+    "HALLAZGO_CAMPECHE": {
+      "dato": "88 familias libanesas en Campeche, 1882-1927. Las 29 familias de Amiun (Líbano) eligieron Campeche como destino preferencial. Apellidos predominantes: Azar, Selem, Abraham, Gantus. En 1920 llegaron varias familias de Amiun al mismo tiempo. Cabalán Macari Tayun (de Zgharta): industrial más poderoso de Yucatán 1930-1950, con negocios en Campeche (ingenio azucarero 'La Joya')."
+    }
+  },
+
+  "PDF_07_opera_yucateca_Pool": {
+    "archivo": "0865175.pdf",
+    "tipo": "Tesis doctoral",
+    "autor": "Emmanuel Pool Castellanos",
+    "institucion": "UNAM, Facultad de Música, 2025",
+    "HALLAZGO_SERAPIO_BAQUEIRO_BARRERA": {
+      "dato": "Serapio Baqueiro Barrera (músico, no el historiador): escribió la letra de la zarzuela 'El collar de zafiros' para el compositor Gustavo Río Escalante en 1917. Esto confirma que existía un Serapio Baqueiro Barrera activo en la vida musical yucateca en 1917.",
+      "nota": "Este puede ser un descendiente de Serapio Baqueiro Preve (el historiador, nacido ~1837) o una confusión de apellidos. Los apellidos Baqueiro y Barrera aparecen combinados en múltiples contextos del proyecto."
+    },
+    "HALLAZGO_M_BARRERA_COPISTA": {
+      "dato": "Las partichelas de la ópera Kinchí de Gustavo Río Escalante (1934) llevan el nombre del copista: 'M. Barrera'. El apellido Barrera aparece como copista musical en Mérida en 1934.",
+      "fuente": "Pool Castellanos 2025, p. 201 del PDF (página de la tesis)"
+    },
+    "HALLAZGO_BAQUEIRO_FOSTER_XTOLES_1942": {
+      "dato": "Gerónimo Baqueiro Fóster publicó: 'El secreto armónico y modal de un antiguo aire maya', Revista Musical Mexicana, n.1, 1942, pp. 11-16 (versión separada del capítulo de 1941). Allí escribió que Xtoles 'pudiera haber sido un antiguo Himno al Sol'. Luego en La canción popular de Yucatán (1850-1950), 1970, p. 8, escribe sobre los instrumentos mayas."
+    },
+    "HALLAZGO_GUSTAVO_RIO_ESCALANTE": {
+      "dato": "Gustavo Río Escalante (1880-1963): compositor yucateco, nacido en familia acomodada no aristócrata. Obras: ópera Kinchí (1924, revisada 1934), Xtabay (1928), El xoch/La lechuza (1947). Fue Director de Cultura Estética durante el gobierno de Álvaro Torre Díaz (1926-1930). Fundó la Escuela Oficial de Música del Estado de Yucatán. Archivo en Centro de Documentación Gerónimo Baqueiro Fóster, Universidad de las Artes de Yucatán (UNAY)."
+    },
+    "HALLAZGO_XTOLES_NO_PREHISPANICO": {
+      "dato": "El propio Gustavo Río Escalante confirmó en conversación con Leopold Stokowski que Los Xtoles 'se ejecuta en el Carnaval pero en ninguna ceremonia maya' — corroborando que NO es una melodía prehispánica sino de origen incierto, aunque usa escala pentafónica."
+    }
+  },
+
+  "PDF_08_nostalgia_por_la_memoria": {
+    "archivo": "05-de-la-nostalgia.pdf",
+    "tipo": "Libro académico",
+    "autor": "Arturo Taracena Arriola",
+    "publicacion": "CEPHCIS-UNAM, Mérida, 2019",
+    "HALLAZGO_CONTEXTO": {
+      "dato": "Libro sobre la prensa literaria yucateca del siglo XIX (El Museo Yucateco, El Registro Yucateco) y la construcción del regionalismo. Contexto histórico: revolución federalista de Santiago Imán (1839), coyuntura separatista yucateca (1841-1849), rebelión maya (1847-1848).",
+      "relevancia": "Este libro cubre el mismo período que la novela Península Península de Lara Zavala. Contextualiza el ambiente intelectual donde circuló Justo Sierra O'Reilly y Serapio Baqueiro Preve. El Museo Yucateco (fundado ~1841) fue el periódico literario que usó Sierra O'Reilly para difundir sus ideas."
+    },
+    "HALLAZGO_2": {
+      "dato": "Publicaciones clave del siglo XIX yucateco: El Museo Yucateco (c.1841-1843) y El Registro Yucateco (c.1844-1849), órganos del regionalismo yucateco con participación de Sierra O'Reilly, Baqueiro Preve y otros."
+    }
+  },
+
+  "correcciones_criticas_nuevas": [
+    {
+      "error": "Premio de Península Península se llama 'Premio RAE 2010'",
+      "correcto": "El premio se llama 'Premio Iberoamericano de Novela Elena Poniatowska 2009' (por Alfaguara) y 'Premio Real Academia Española 2010'. El libro fue publicado en 2008.",
+      "fuente": "Hernan_Lara_Zavala_librillo.pdf (UNAM 2018)"
+    },
+    {
+      "error": "Efraín El Charras Calderón Lara 'desapareció en 1974'",
+      "correcto": "El Charras fue SECUESTRADO Y ASESINADO en 1974 por orden del gobernador Carlos Loret de Mola Mediz. No fue solo desaparecido.",
+      "fuente": "Hernan_Lara_Zavala_librillo.pdf, p. 17"
+    },
+    {
+      "error": "Gerónimo Baqueiro Fóster nació en 1898",
+      "correcto": "Según acta de nacimiento (expediente 2699B938, Archivo Baqueiro Fóster): nació el 25 de enero de 1892 en HOPELCHÉN, CAMPECHE. La fecha de 1898 circula en fuentes secundarias pero el acta dice 1892.",
+      "fuente": "Mendoza Castillo, Revista Digital Universitaria UNAM, febrero 2006, basada en el acta de nacimiento"
+    },
+    {
+      "error": "Charras primera edición 1990 era desconocida",
+      "correcto": "Confirmado: Charras primera edición 1990, Alfaguara 2022 es reedición.",
+      "fuente": "Múltiples fuentes"
+    }
+  ],
+
+  "personajes_nuevos_confirmados": [
+    {
+      "nombre": "Lisandro Lara",
+      "tipo": "productor-hacendado",
+      "origen": "Hopelchén, Campeche",
+      "periodo": "activo ~1949-1955",
+      "rol": "Productor de henequén del municipio de Hopelchén. Asistió a la reunión convocada por el gobernador Manuel López Hernández para fomentar el cultivo del agave.",
+      "fuente": "R05042.pdf — recorte de El Nacional"
+    },
+    {
+      "nombre": "Carlos Loret de Mola Mediz",
+      "tipo": "politico-gobernador",
+      "origen": "Yucatán",
+      "periodo": "gobernador de Yucatán en 1974",
+      "rol": "Gobernador de Yucatán responsable del asesinato de Efraín 'El Charras' Calderón Lara en 1974. Primero trató de cooptarlo, luego ordenó su secuestro y muerte.",
+      "fuente": "Hernan_Lara_Zavala_librillo.pdf (Marco Antonio Campos, 2018)"
+    },
+    {
+      "nombre": "Débora Pavón",
+      "tipo": "activista-feminista",
+      "origen": "Champotón, Campeche",
+      "periodo": "activa 1921-1923",
+      "rol": "Presidenta de la Liga Feminista de Champotón, una de las líderes más visibles del movimiento feminista campechano del PSAC. Colaboró en Rojo Amanecer.",
+      "fuente": "May González en CampeChe una Ciudad, 2010"
+    },
+    {
+      "nombre": "Clodoaldo Barrera",
+      "tipo": "politico-socialista",
+      "origen": "Campeche",
+      "periodo": "activo 1920-1921",
+      "rol": "Cofundador del Partido Socialista Agrario de Campeche (PSAC) en octubre de 1920.",
+      "fuente": "May González en CampeChe una Ciudad, 2010"
+    },
+    {
+      "nombre": "Fernando Angli Lara",
+      "tipo": "periodista-politico",
+      "origen": "Campeche",
+      "periodo": "activo 1921-1927",
+      "rol": "Colaborador y escritor de Rojo Amanecer, integrante del socialismo campechano, contendiente para relevar a Félix Flores en el gobierno del estado. Apellido compuesto ANGLI LARA.",
+      "fuente": "May González en CampeChe una Ciudad, 2010"
+    }
+  ],
+
+  "eventos_nuevos_confirmados": [
+    {
+      "fecha": "Agosto 1921",
+      "evento": "Fundación del periódico Rojo Amanecer — órgano del PSAC",
+      "lugar": "Campeche, Campeche",
+      "descripcion": "Primer número de Rojo Amanecer, fundado para promover la candidatura de Ramón Félix Flores. Oficinas en calle Pablo García esquina con Colón. Vida editorial 1921-1934.",
+      "fuente": "May González, CampeChe una Ciudad, 2010"
+    },
+    {
+      "fecha": "1892",
+      "evento": "Nacimiento de Gerónimo Baqueiro Fóster en Hopelchén",
+      "descripcion": "El 25 de enero de 1892 nació en Hopelchén, Campeche, el musicólogo más importante de México en el siglo XX, descendiente del trovador Cirilo Baqueiro Prevé ('Chan Cil').",
+      "fuente": "Acta de nacimiento, expediente 2699B938, Archivo Baqueiro Fóster, CENIDIM"
+    },
+    {
+      "fecha": "1941",
+      "evento": "Publicación de 'El secreto armónico y modal de un antiguo aire maya'",
+      "lugar": "Ciudad de México",
+      "descripcion": "Gerónimo Baqueiro Fóster publica en el libro 'Los mayas antiguos' (El Colegio de México) el capítulo sobre Los Xtoles, mencionando explícitamente a Hopelchén, Bolonchenticul, Dzibalchén, Iturbide, Chunchintok, Komchén, Xkanhá y Sahcabchén como los lugares donde escuchó esta melodía en su adolescencia.",
+      "fuente": "Baqueiro Fóster, Los mayas antiguos, 1941, pp. 264-271"
+    },
+    {
+      "fecha": "~1949-1955",
+      "evento": "Reunión de productores de henequén en Campeche para fomento del agave en Los Chenes",
+      "lugar": "Sala de Actos del Palacio de Gobierno, Campeche",
+      "descripcion": "El gobernador Manuel López Hernández convocó a productores del estado para orientar el fomento del henequén en los municipios del Camino Real y Hopelchén. Lisandro Lara asistió en representación de Hopelchén.",
+      "fuente": "El Nacional, recorte en R05042.pdf"
+    }
+  ],
+
+  "terminos_mayas_nuevos": [
+    {
+      "termino": "Xtoles / Xloles",
+      "variantes": "Danza de las cintas, Danza de los Xtoles, Los Xloles",
+      "definicion": "Comparsa carnavalesca yucateca con sus integrantes caracterizados como mayas precortesianos. La melodía es pentafónica (5 notas, sin semitonos), catalogada como 'maya antigua' desde el siglo XIX aunque no hay prueba de origen prehispánico. Se bailaba en el Carnaval de Mérida. Baqueiro Fóster la escuchó en Hopelchén, Bolonchenticul, Dzibalchén, Iturbide, Chunchintok, Komchén, Xkanhá y Sahcabchén.",
+      "primera_notacion": "1869, José Jacinto Cuevas, Mosaico yucateco"
+    },
+    {
+      "termino": "Tunkul / Tankul",
+      "definicion": "Instrumento musical maya precortesiano: tambor de madera hueca con dos aperturas longitudinales, se toca con palillos de goma. Su sonido es 'pesado y triste' según Diego de Landa. Presente en zonas de Los Chenes.",
+      "fuentes": "Landa, Cogolludo, Baqueiro Fóster, Pool Castellanos 2025"
+    },
+    {
+      "termino": "Máshreq / Máshrek",
+      "definicion": "En árabe: 'lugar por donde sale el sol', el Levante. Zona de origen de los inmigrantes libaneses y sirios a la Península: comprende el actual Líbano, Siria y Palestina.",
+      "contexto_campeche": "613 familias del Máshreq llegaron a la Península de Yucatán entre 1880 y 1930, principalmente de 66 pueblos de Líbano y Siria. En Campeche: 87 familias, principalmente de Amiun (Líbano)."
+    }
+  ]
+}

@@ -1,0 +1,322 @@
+{
+  "META": {
+    "archivo": "av_md_sync_2026-03-23.json",
+    "descripcion": "Sincronización de datos de archivos MD /raw/ a /database/ — sesión 2026-03-23",
+    "origen_sesion": "2026-03-23T00:00:00",
+    "archivos_leidos": [
+      "AV_NUCLEO.md v2.0",
+      "AV_CONTEXTO.md v2.0",
+      "AV_MAPA.md v2.0",
+      "AV_PERSONAS.md v2.0",
+      "AV_HILOS.md v2.0",
+      "AV_FUENTES.md v2.0",
+      "AV_MAYA.md v2.0"
+    ],
+    "agente": "Claude Sonnet 4.6 — Archivo Vivo"
+  },
+
+  "fuentes_pendientes_localizacion": [
+    {
+      "id": "FP001",
+      "descripcion": "Novela de Pantaleón Barrera — edición completa",
+      "titulo": "Los misterios de Chan Santa Cruz (Napoleón Trebarra)",
+      "donde_buscar": "Universidad de Wisconsin — colección digital",
+      "prioridad": "ALTA",
+      "estado": "pendiente"
+    },
+    {
+      "id": "FP002",
+      "descripcion": "Registros de mayas vendidos a Cuba con apellidos de Los Chenes",
+      "donde_buscar": "Archivo Nacional de Cuba, La Habana",
+      "prioridad": "ALTA",
+      "estado": "pendiente"
+    },
+    {
+      "id": "FP003",
+      "descripcion": "Correspondencia de Teobert Maler desde Los Chenes 1887",
+      "donde_buscar": "IAI Berlin — Fondo Maler",
+      "prioridad": "ALTA",
+      "estado": "pendiente"
+    },
+    {
+      "id": "FP004",
+      "descripcion": "Condecoración de Carlota a Barrera 1865 — documento",
+      "donde_buscar": "Archivos imperiales Viena / Archivos reales belgas Bruselas",
+      "prioridad": "MEDIA",
+      "estado": "pendiente"
+    },
+    {
+      "id": "FP005",
+      "descripcion": "Corrido de Jacinto sobre El Charras — grabación o transcripción",
+      "donde_buscar": "Archivos musicales Mérida / Cenidim",
+      "prioridad": "ALTA",
+      "estado": "pendiente"
+    },
+    {
+      "id": "FP006",
+      "descripcion": "Recuerdos de mi infancia 1935-1938 — Raúl Emiliano Lara Baqueiro",
+      "donde_buscar": "AHEC / fondos familiares",
+      "prioridad": "MEDIA",
+      "estado": "pendiente"
+    },
+    {
+      "id": "FP007",
+      "descripcion": "Periódico Rojo Amanecer 1921-1924 — colección completa",
+      "donde_buscar": "Hemeroteca Campeche",
+      "prioridad": "MEDIA",
+      "estado": "pendiente"
+    },
+    {
+      "id": "FP008",
+      "descripcion": "Registro civil: nacimiento Serapio Baqueiro Preve, Dzitbalchén",
+      "donde_buscar": "Archivo parroquial Dzitbalchén",
+      "prioridad": "MEDIA",
+      "estado": "pendiente"
+    },
+    {
+      "id": "FP009",
+      "descripcion": "Decreto Barbachano noviembre 1848 — texto completo",
+      "donde_buscar": "AGEY / Colección de leyes",
+      "prioridad": "ALTA",
+      "estado": "pendiente"
+    },
+    {
+      "id": "FP010",
+      "descripcion": "Nombres exactos de los siete de Bolonchenticul 1849",
+      "donde_buscar": "AGEY caja 169, vol.119, exp.24",
+      "prioridad": "ALTA",
+      "fuente_referencia": "Kosichenko 2025 cita el expediente pero no lista los 7 nombres completos",
+      "estado": "pendiente"
+    }
+  ],
+
+  "actualizaciones_diccionario_maya": [
+    {
+      "termino": "CHEN / CHÉEN",
+      "variantes": ["chen", "chenes", "ch'e'en"],
+      "significado": "pozo, caverna, aguada, fuente de agua subterránea",
+      "usos_toponomicos": [
+        "Los Chenes = Los Pozos",
+        "Hopelchén = lugar de los cinco pozos (Ho + peel + chen)",
+        "Bolonchén = lugar de los nueve pozos (bolon + chen)",
+        "Dzibalchén = donde está escrito el pozo (dzib + al + chen)"
+      ],
+      "nota_editorial": "Identidad de Dan: chenera = de Los Chenes",
+      "estado": "expandido — v2.0 MD"
+    },
+    {
+      "termino": "BATAB / BATABOOB",
+      "significado": "gobernante local maya; jefe de pueblo o cacique — del hacha (bata=hacha, b=sufijo agente)",
+      "plural": "bataboob",
+      "contexto_historico": "1621-1669: los bataboob resistieron 48 años sin mezclarse con el sistema español",
+      "conexion_proyecto": "Sus apellidos (Poot, Chi, Caamal, May) encabezan la Guerra de Castas",
+      "estado": "expandido — v2.0 MD"
+    },
+    {
+      "termino": "DZUL / DZULOOB",
+      "significado": "extranjero, forastero, invasor, persona de afuera",
+      "contexto": "División conceptual del mundo maya: mayas vs dzuloob",
+      "uso_en_proyecto": "La rebelión de los Cruzoob: ¡Mueran los dzuloob!",
+      "estado": "NUEVO — no en TM001-TM023"
+    },
+    {
+      "termino": "UINIC / UINICOB",
+      "significado": "persona, ser humano, hombre — en contexto GdC: los mayas (vs dzuloob)",
+      "estado": "NUEVO — no en TM001-TM023"
+    },
+    {
+      "termino": "MACEHUAL / MACEHUALOB",
+      "significado": "hombre del común, campesino — los mayas comunes (vs caciques)",
+      "uso": "los macehualob de Chan Santa Cruz",
+      "estado": "NUEVO — no en TM001-TM023"
+    },
+    {
+      "termino": "CRUZOOB",
+      "significado": "las cruces / seguidores de la Cruz Parlante (cruz español + -oob plural maya)",
+      "contexto": "Facción maya que combatió hasta 1901; Chan Santa Cruz como ciudad sagrada",
+      "estado": "NUEVO — no en TM001-TM023"
+    },
+    {
+      "termino": "CHILAM BALAM",
+      "significado": "el sacerdote jaguar / el jaguar que es intérprete (chilam=intérprete, balam=jaguar)",
+      "descripcion": "Textos mayas coloniales en caracteres latinos que preservaron conocimiento maya",
+      "variantes": "de Chumayel, de Maní, de Tizimín",
+      "estado": "NUEVO — no en TM001-TM023"
+    },
+    {
+      "termino": "XTOLES / X'TOLES",
+      "significado_etim": "pendiente de investigación etimológica",
+      "descripcion": "Escala pentáfona maya Sol-La-Si-Re-Mi SIN semitonos",
+      "documentacion": "Anotadas por Gerónimo Baqueiro Foster en 1869; publicadas Colegio de México 1941",
+      "uso_musical": "Usadas por Silvestre Revueltas en La noche de los mayas (1939)",
+      "estado": "EXPANDIDO — v2.0 MD agrega etimología pendiente"
+    },
+    {
+      "termino": "JARANA",
+      "significado": "baile tradicional yucateco — mezcla de influencias mayas, españolas y africanas",
+      "uso_proyecto": "Baile Verde 1847 en Península Península",
+      "estado": "NUEVO — no en TM001-TM023"
+    },
+    {
+      "termino": "HENEQUÉN",
+      "significado": "Agave fourcroydes — oro verde yucateco",
+      "contexto_proyecto": "Las haciendas de Los Chenes; Olegario Molina lo controló peninsularmente",
+      "estado": "NUEVO — no en TM001-TM023"
+    }
+  ],
+
+  "actualizaciones_apellidos_mayas": [
+    {
+      "apellido": "MAY",
+      "significado_probable": "venado — puede relacionarse también con tabaco (may = tabaco en maya)",
+      "investigar": "¿venado o tabaco? — verificar en diccionarios coloniales",
+      "presencia_historica": [
+        "1847-1848: Juan de Dios May — comandante en Los Chenes",
+        "2012: Ángel Omar May González — historiador/investigador"
+      ],
+      "prioridad_investigacion": "ALTA — significado exacto pendiente",
+      "estado": "expandido"
+    },
+    {
+      "apellido": "CAAMAL",
+      "significado_probable": "pendiente — posiblemente relacionado con caan (cielo/serpiente) + mal (sufijo)",
+      "circulo_completo": "Francisco Caamal (1848) → Miguel Ángel Suárez Caamal (1997) → Daniela Naraai Caamal (2026)",
+      "prioridad_investigacion": "ALTA — significado exacto pendiente",
+      "investigar": "Diccionarios coloniales; distribución siglo XIX en Los Chenes",
+      "estado": "expandido"
+    },
+    {
+      "apellido": "POOT",
+      "significado_probable": "pendiente — linaje noble preconquista",
+      "presencia_historica": [
+        "1848: Florentino Poot — líder maya",
+        "1867: Crescencio Poot — comandante Cruzoob",
+        "1974: Evaristo Poot Cruz — campesino que encontró cuerpo de El Charras"
+      ],
+      "estado": "expandido"
+    },
+    {
+      "apellido": "CHI",
+      "significado_probable": "boca en maya yucateco",
+      "dato_perturbador": "El mismo apellido divide: Cecilio Chi lidera la insurrección, Juan Chi defiende al gobierno",
+      "estado": "expandido"
+    },
+    {
+      "apellido": "PECH",
+      "significado": "garrapata en maya yucateco",
+      "circulo": "Francisco Pech (1848, borra identidad en GN) → Leydy Pech (2020, reivindica identidad)",
+      "distancia": "172 años",
+      "estado": "expandido"
+    },
+    {
+      "apellido": "EK",
+      "significado": "negro en maya yucateco",
+      "presencia": "Milo Ek (De Zitilchén); Sebastián Ek (1848, pidió cambiar apellido a español)",
+      "estado": "expandido"
+    },
+    {
+      "apellido": "BALAM",
+      "significado": "jaguar — animal sagrado maya",
+      "presencia": "1848-1851: Candelario Balam — veterano pedía desmovilización",
+      "estado": "expandido"
+    }
+  ],
+
+  "actualizaciones_hilos_transversales": [
+    {
+      "id": "HT_NEW_001",
+      "nombre": "HILO CUBA — detalle expandido",
+      "nodos_a_agregar": [
+        "1868: El Espíritu Público (Campeche) reproduce nota 'Comercio de sangre' — vapor México con 172 indios yucatecos hacia Cuba",
+        "HOY: Descendientes de mayas de Hopelchén en Madruga, Cuba"
+      ],
+      "fuente_nueva": "Rodríguez Piña, Javier (1990) — Guerra de castas: la venta de indios mayas a Cuba 1848-1861, CONACULTA",
+      "investigacion_pendiente": "Archivo Nacional de Cuba — registros de entrada mayas 1848-1861"
+    },
+    {
+      "id": "HT_NEW_002",
+      "nombre": "HILO TIERRA — actualización",
+      "descripcion": "La pregunta que no cambia en 2,000 años: ¿de quién es esta tierra?",
+      "nodos_cronologicos": [
+        "Pre-conquista: tierras comunales mayas",
+        "1546-1700s: encomiendas y haciendas — despojo legal",
+        "1800s: liberalismo — privatización de tierras comunales",
+        "1847-1848: Guerra de Castas — los mayas pelean por la tierra",
+        "1920s-30s: reparto agrario prometido, resistido por hacendados",
+        "1990s-2000s: menonitas llegan — nuevas 190,000 hectáreas",
+        "2015-2020: soya transgénica — nuevo despojo",
+        "2020: Leydy Pech gana en la Suprema Corte",
+        "HOY: la misma pregunta"
+      ]
+    },
+    {
+      "id": "HT_NEW_003",
+      "nombre": "HILO POSREVOLUCIÓN — detalle De Zitilchén",
+      "dato_critico": "En De Zitilchén (ficción sobre Hopelchén): una maestra fue a organizar a los campesinos de Holcatzín. Fue violada y abandonada en el camino. Nadie la recuerda. Solo queda la ficción de Lara Zavala (C8-BIS).",
+      "entrada_pendiente": "C8-BIS"
+    }
+  ],
+
+  "estado_entradas_blog_actualizado": {
+    "aprobadas": 19,
+    "en_proceso": 1,
+    "en_proceso_lista": ["B12 — Juan de Dios May, Francisco Caamal y los siete de Bolonchenticul"],
+    "pendientes_con_insumos": 8,
+    "pendientes_con_insumos_lista": [
+      "B-Serapio",
+      "B-LZavala",
+      "B-SuarezCaamal",
+      "B-Oswaldo",
+      "B-GuerraCastas",
+      "B-Bolonchenticul",
+      "A7",
+      "A8"
+    ],
+    "pendientes_sin_insumos": "~25",
+    "proxima_redaccion_sugerida": "B12 (EN PROCESO)",
+    "orden_siguiente": ["B-Serapio", "B-LZavala", "E-ChanCil", "C8", "D3"]
+  },
+
+  "preguntas_investigacion_abiertas": [
+    {
+      "pregunta": "¿Cuáles son los apellidos exactos de los 1,046 mayas vendidos a Cuba?",
+      "fuente": "Archivo Nacional Cuba",
+      "urgencia": "Alta"
+    },
+    {
+      "pregunta": "¿Existe rastro del reloj de Berlín en registros de exportación alemanes?",
+      "fuente": "IAI Berlin / Staatsarchiv",
+      "urgencia": "Media"
+    },
+    {
+      "pregunta": "¿Hay correspondencia de Carlota que mencione la condecoración a Barrera?",
+      "fuente": "Archivos imperiales Viena/Bruselas",
+      "urgencia": "Alta"
+    },
+    {
+      "pregunta": "¿Quiénes son exactamente los siete de Bolonchenticul (1849)?",
+      "fuente": "AGEY caja 169, vol.119, exp.24",
+      "urgencia": "Alta"
+    },
+    {
+      "pregunta": "¿Qué significa exactamente CAAMAL en maya?",
+      "fuente": "Diccionario Maya Cordemex / Diccionario de Motul",
+      "urgencia": "Alta"
+    },
+    {
+      "pregunta": "¿MAY significa venado o tabaco?",
+      "fuente": "Diccionarios coloniales",
+      "urgencia": "Alta"
+    },
+    {
+      "pregunta": "¿Cuál es el nombre maya original de Iturbide?",
+      "fuente": "Documentos coloniales AGEY",
+      "urgencia": "Media"
+    },
+    {
+      "pregunta": "¿Hay descendientes identificables de los mayas vendidos en Madruga (Cuba)?",
+      "fuente": "Archivos Cuba + trabajo de campo",
+      "urgencia": "Media"
+    }
+  ]
+}

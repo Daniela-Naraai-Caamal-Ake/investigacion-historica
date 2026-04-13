@@ -1,0 +1,562 @@
+{
+  "META": {
+    "fecha": "2026-03-22",
+    "proyecto": "ARCHIVO VIVO — Hopelchén, Campeche, México",
+    "total_fuentes": 53,
+    "nota": "Incluye fuentes web de .firecrawl/search-hopelchen-historia.json y fuentes académicas/documentales ya conocidas del proyecto",
+    "nota_actualizacion": "Actualizado PASO 6: añadidas 11 nuevas fuentes de searches adicionales (Hochob, Guerra Castas, Menonitas, Baqueiro)."
+  },
+  "fuentes": [
+    {
+      "id": "F001",
+      "tipo": "web",
+      "titulo": "Hopelchén - Indefos (Instituto de Desarrollo y Formación Social de Campeche)",
+      "autor": "Instituto de Desarrollo y Formación Social",
+      "año": "2017",
+      "url": "https://indefos.gob.mx/portal/hopelchen/",
+      "confiabilidad": 0.85,
+      "notas": "Portal oficial del gobierno de Campeche. Reseña histórica del municipio. Confiabilidad alta por ser fuente gubernamental oficial.",
+      "web_raw_id": "WEB001"
+    },
+    {
+      "id": "F002",
+      "tipo": "web",
+      "titulo": "Municipio de Hopelchén Campeche - Por el Mundo Maya",
+      "autor": "",
+      "año": "2024",
+      "url": "https://porelmundomaya.com/campeche/municipios/hopelchen/",
+      "confiabilidad": 0.55,
+      "notas": "Portal turístico. Información general sobre el municipio, atractivos turísticos y zonas arqueológicas. Confiabilidad media.",
+      "web_raw_id": "WEB002"
+    },
+    {
+      "id": "F003",
+      "tipo": "web",
+      "titulo": "HISTORIA | Hopelchén - Wix.com (ISC José A. Miss H.)",
+      "autor": "ISC José A. Miss H.",
+      "año": "",
+      "url": "https://elgatito2.wixsite.com/hopelchen/historia",
+      "confiabilidad": 0.45,
+      "notas": "Sitio personal/blog con historia del municipio. Contiene información sobre la Guerra de Castas y nombres de pozos mayas de Bolonchenticul. Confiabilidad media-baja por ser blog personal.",
+      "web_raw_id": "WEB003"
+    },
+    {
+      "id": "F004",
+      "tipo": "web",
+      "titulo": "Hopelchén: Tradición, historia y riqueza cultural - Canal 13 Campeche (Facebook)",
+      "autor": "Canal 13 Campeche",
+      "año": "2025",
+      "url": "https://www.facebook.com/canal13campeche/videos/videonota-hopelch%C3%A9n-tradici%C3%B3n-historia-y-riqueza-cultural-en-el-coraz%C3%B3n-de-campe/857101333876050/",
+      "confiabilidad": 0.35,
+      "notas": "Video de canal de televisión local en Facebook. Sin contenido markdown disponible para extracción.",
+      "web_raw_id": "WEB004"
+    },
+    {
+      "id": "F005",
+      "tipo": "web",
+      "titulo": "Centro INAH Campeche - Título de Villa a Hopelchén (Facebook)",
+      "autor": "Centro INAH Campeche",
+      "año": "2024",
+      "url": "https://www.facebook.com/CentroINAHCampeche/posts/centroinahcampeche-efem%C3%A9ridenacionalt%C3%ADtulo-de-villa-al-pueblo-de-hopelch%C3%A9nel-12-/676916937809014/",
+      "confiabilidad": 0.75,
+      "notas": "Post oficial del Centro INAH Campeche sobre el Título de Villa a Hopelchén con el nombre de Lorenzo de Zavala. Sin contenido markdown disponible.",
+      "web_raw_id": "WEB005"
+    },
+    {
+      "id": "F006",
+      "tipo": "web",
+      "titulo": "Hopelchén - Visit Mexico",
+      "autor": "Secretaría de Turismo de México",
+      "año": "2024",
+      "url": "https://visitmexico.com/en/destino/18173/eshopelchenenhopelchen",
+      "confiabilidad": 0.65,
+      "notas": "Portal oficial de turismo del gobierno de México. Información general sobre el municipio, mencionando la zona Puuc-Chenes y sitios arqueológicos cercanos.",
+      "web_raw_id": "WEB006"
+    },
+    {
+      "id": "F007",
+      "tipo": "web",
+      "titulo": "Hopelchén: Tradición, historia y riqueza cultural - Instagram Reel",
+      "autor": "",
+      "año": "2025",
+      "url": "https://www.instagram.com/reel/DTLo7gMgcBG/",
+      "confiabilidad": 0.3,
+      "notas": "Reel de Instagram. Sin contenido textual disponible. Baja utilidad para investigación histórica.",
+      "web_raw_id": "WEB007"
+    },
+    {
+      "id": "F008",
+      "tipo": "web",
+      "titulo": "Ven a conocer Hopelchén - República Peninsular (Facebook)",
+      "autor": "República Peninsular",
+      "año": "2025",
+      "url": "https://www.facebook.com/RepublicaPeninsular/videos/ven-a-conocer-hopelch%C3%A9n-un-destino-aut%C3%A9ntico-para-descubrir-recorrer-y-disfrutar/925194769895168/",
+      "confiabilidad": 0.35,
+      "notas": "Video de Facebook de medio de comunicación regional. Sin contenido textual disponible.",
+      "web_raw_id": "WEB008"
+    },
+    {
+      "id": "F009",
+      "tipo": "web",
+      "titulo": "Poblaciones de Hopelchén, Campeche - Telepaisa",
+      "autor": "Telepaisa",
+      "año": "2024",
+      "url": "http://www.telepaisa.com/index.php?action=municipio&mid=2447",
+      "confiabilidad": 0.65,
+      "notas": "Portal informativo con datos históricos extensos sobre el municipio. Incluye cronología, personajes ilustres, War of Castes, Conjura de Yaxché 1915. Fuente de referencia secundaria con datos valiosos.",
+      "web_raw_id": "WEB009"
+    },
+    {
+      "id": "F010",
+      "tipo": "web",
+      "titulo": "Historia de Hopelchén Campeche - Mi Municipio",
+      "autor": "",
+      "año": "2024",
+      "url": "https://mimunicipio.com.mx/historia/campeche/hopelchen",
+      "confiabilidad": 0.55,
+      "notas": "Portal de información municipal. Datos históricos básicos sobre Hopelchén. Fuente secundaria.",
+      "web_raw_id": "WEB010"
+    },
+    {
+      "id": "F011",
+      "tipo": "pdf",
+      "titulo": "Gerónimo Baqueiro Fóster: Musicólogo campechano del siglo XX",
+      "autor": "Mendoza Castillo",
+      "año": "2006",
+      "url": "https://www.revistas.unam.mx/index.php/rmm/article/view/feb_art16",
+      "confiabilidad": 0.9,
+      "notas": "Artículo académico de la UNAM sobre Baqueiro Fóster. Fuente primaria para datos biográficos del musicólogo. Archivo: feb_art16.pdf"
+    },
+    {
+      "id": "F012",
+      "tipo": "libro",
+      "titulo": "Los mayas antiguos (capítulo: El secreto armónico y modal de un antiguo aire maya, pp. 264-271)",
+      "autor": "Gerónimo Baqueiro Fóster",
+      "año": "1941",
+      "url": "",
+      "confiabilidad": 0.95,
+      "notas": "Capítulo en volumen colectivo publicado por El Colegio de México. Sobre la escala pentatónica maya (Los Xtoles). Fuente primaria de alta confiabilidad."
+    },
+    {
+      "id": "F013",
+      "tipo": "libro",
+      "titulo": "Los misterios de Chan Santa Cruz",
+      "autor": "Pantaleón Barrera Cámara",
+      "año": "1864",
+      "url": "https://catalog.hathitrust.org/Record/wu.89095721726",
+      "confiabilidad": 0.85,
+      "notas": "Primera novela de Campeche. Disponible en HathiTrust Digital Library (wu.89095721726). Fuente primaria del siglo XIX."
+    },
+    {
+      "id": "F014",
+      "tipo": "libro",
+      "titulo": "Charras",
+      "autor": "Hernán Lara Zavala",
+      "año": "1990",
+      "url": "",
+      "confiabilidad": 0.9,
+      "notas": "Novela corta sobre Efraín Calderón Lara. Alfaguara 2022 (edición revisada). Edición original 1990. Leída directamente (págs. 18-21). Fuente literaria de alta confiabilidad histórica."
+    },
+    {
+      "id": "F015",
+      "tipo": "libro",
+      "titulo": "Península Península (Premio RAE 2010)",
+      "autor": "Hernán Lara Zavala",
+      "año": "2010",
+      "url": "",
+      "confiabilidad": 0.9,
+      "notas": "Novela. Leída directamente (págs. 18, 89, 92). Menciona explícitamente a Pantaleón Barrera, Cirilo Baqueiro, Hopelchén. Premio Real Academia Española."
+    },
+    {
+      "id": "F016",
+      "tipo": "libro",
+      "titulo": "De Zitilchén (FCE 2012)",
+      "autor": "Hernán Lara Zavala",
+      "año": "2012",
+      "url": "",
+      "confiabilidad": 0.9,
+      "notas": "Novela. Leída directamente (págs. 87-90). Fondo de Cultura Económica. Describe Hopelchén/Zitilchén y la familia Baqueiro."
+    },
+    {
+      "id": "F017",
+      "tipo": "libro",
+      "titulo": "Digesto Constitucional Mexicano — Campeche",
+      "autor": "Manuel González Oropeza y David Cienfuegos Salgado",
+      "año": "2010",
+      "url": "",
+      "confiabilidad": 1,
+      "notas": "Publicado por la SCJN (Suprema Corte de Justicia de la Nación). ISBN 978-607-468-243-4. 798 pp. Fuente primaria para legisladores de Hopelchén 1861-2003."
+    },
+    {
+      "id": "F018",
+      "tipo": "tesis",
+      "titulo": "Tesis doctoral sobre chicleros de Los Chenes (17_biblio.pdf)",
+      "autor": "Ingo Schüren",
+      "año": "1998",
+      "url": "",
+      "confiabilidad": 0.9,
+      "notas": "Tesis doctoral en la Freie Universität Berlin. Trabajo de campo en Hopelchén 1993-1998. Entrevistas a chicleros y Pedro Lara y Lara. El libro 'Así es mi tierra chenera' aparece en su bibliografía."
+    },
+    {
+      "id": "F019",
+      "tipo": "articulo",
+      "titulo": "Glyphosate Runoff and Its Fate from Tropical Agricultural Fields to the Coastal Ecosystem in Hopelchén, Campeche, Mexico",
+      "autor": "Jaime Rendón Von Osten y R. Dzul-Caamal",
+      "año": "2017",
+      "url": "https://www.mdpi.com/1660-4601/14/6/595",
+      "confiabilidad": 0.95,
+      "notas": "Publicado en International Journal of Research in Public Health (IJRPH). Estudio del EPOMEX-UAC a petición del PNUD. Detectó glifosato en 7 comunidades de Hopelchén."
+    },
+    {
+      "id": "F020",
+      "tipo": "web",
+      "titulo": "INAH — Ficha oficial Zona Arqueológica Hochob",
+      "autor": "INAH (Instituto Nacional de Antropología e Historia)",
+      "año": "2024",
+      "url": "https://www.inah.gob.mx/zonas/111-zona-arqueologica-hochob",
+      "confiabilidad": 0.95,
+      "notas": "Ficha oficial del INAH sobre la zona arqueológica de Hochob. Fuente primaria gubernamental."
+    },
+    {
+      "id": "F021",
+      "tipo": "web",
+      "titulo": "INAH — Ficha oficial Zona Arqueológica Dzibilnocac",
+      "autor": "INAH (Instituto Nacional de Antropología e Historia)",
+      "año": "2024",
+      "url": "https://www.inah.gob.mx/zonas/97-zona-arqueologica-dzibilnocac",
+      "confiabilidad": 0.95,
+      "notas": "Ficha oficial del INAH sobre la zona arqueológica de Dzibilnocac. Fuente primaria gubernamental."
+    },
+    {
+      "id": "F022",
+      "tipo": "articulo",
+      "titulo": "Teobert Maler en Los Chenes — número especial",
+      "autor": "Revista Arqueología Mexicana",
+      "año": "2010",
+      "url": "https://arqueologiamexicana.mx",
+      "confiabilidad": 0.9,
+      "notas": "Artículo académico sobre el explorador fotógrafo Teobert Maler y su trabajo en Los Chenes."
+    },
+    {
+      "id": "F023",
+      "tipo": "libro",
+      "titulo": "Dos Mil Años en Silencio",
+      "autor": "Daniela Naraai (Daniela Caamal)",
+      "año": "2026",
+      "url": "https://doi.org/10.5281/zenodo.19140910",
+      "confiabilidad": 0.9,
+      "notas": "Libro publicado en Zenodo bajo licencia CC BY-NC-ND 4.0. 25 capítulos. DOI: https://doi.org/10.5281/zenodo.19140910. Blog: archivovivo5h.blogspot.com. Fuente primaria del proyecto."
+    },
+    {
+      "id": "F024",
+      "tipo": "libro",
+      "titulo": "Recuerdos de mi infancia 1935-1938",
+      "autor": "Raúl Emiliano Lara Baqueiro",
+      "año": "2016",
+      "url": "",
+      "confiabilidad": 0.8,
+      "notas": "Memorias personales sobre la infancia en Hopelchén. Menciona el reloj con golondrinas de la plaza."
+    },
+    {
+      "id": "F025",
+      "tipo": "libro",
+      "titulo": "La maya y el problema de la cultura indígena",
+      "autor": "Oswaldo Baqueiro Anduze",
+      "año": "1938",
+      "url": "",
+      "confiabilidad": 0.85,
+      "notas": "Obra de uno de los redactores fundadores del Diario del Sureste (1932). Análisis de la cultura indígena maya."
+    },
+    {
+      "id": "F026",
+      "tipo": "periodico",
+      "titulo": "El Nacional — columnas de Gerónimo Baqueiro Fóster (1947-1967)",
+      "autor": "Gerónimo Baqueiro Fóster",
+      "año": "1967",
+      "url": "",
+      "confiabilidad": 0.85,
+      "notas": "Más de 6,000 artículos publicados en El Nacional (1947-1967). Archivo en CENIDIM INBA (4,052 expedientes, 32,859 documentos)."
+    },
+    {
+      "id": "F027",
+      "tipo": "libro",
+      "titulo": "Curso completo de solfeo",
+      "autor": "Gerónimo Baqueiro Fóster",
+      "año": "1939",
+      "url": "",
+      "confiabilidad": 0.9,
+      "notas": "Editorial Ricordi Americana. 10 ediciones entre 1939 y 1970. Texto de referencia de educación musical en México durante décadas."
+    },
+    {
+      "id": "F028",
+      "tipo": "libro",
+      "titulo": "Historia de la música en México",
+      "autor": "Gerónimo Baqueiro Fóster",
+      "año": "1964",
+      "url": "",
+      "confiabilidad": 0.9,
+      "notas": "Publicado por la SEP/INBA. Obra de referencia definitiva sobre la música en México."
+    },
+    {
+      "id": "F029",
+      "tipo": "web",
+      "titulo": "INAFED — Enciclopedia de los Municipios de México — Hopelchén",
+      "autor": "INAFED (Instituto Nacional para el Federalismo y el Desarrollo Municipal)",
+      "año": "2010",
+      "url": "http://www.inafed.gob.mx/work/enciclopedia/EMM04campeche/municipios/04006a.html",
+      "confiabilidad": 0.9,
+      "notas": "Fuente gubernamental oficial. Enciclopedia de municipios publicada por INAFED. Alta confiabilidad."
+    },
+    {
+      "id": "F030",
+      "tipo": "articulo",
+      "titulo": "Hernán Lara Zavala — librillo UNAM Voz Viva VVM-137",
+      "autor": "Marco Antonio Campos",
+      "año": "2018",
+      "url": "",
+      "confiabilidad": 0.85,
+      "notas": "Archivo: Hernan_Lara_Zavala_librillo.pdf. Texto sobre la obra de Hernán Lara Zavala publicado por la UNAM."
+    },
+    {
+      "id": "F031",
+      "tipo": "libro",
+      "titulo": "ARCHIVO_VIVO_MAESTRO_FINAL.json — base de datos interna del proyecto",
+      "autor": "Daniela Naraai (Daniela Caamal)",
+      "año": "2026",
+      "url": "",
+      "confiabilidad": 0.85,
+      "notas": "Archivo maestro del proyecto Archivo Vivo. Consolidación de múltiples fuentes. Base de datos interna."
+    },
+    {
+      "id": "F032",
+      "tipo": "articulo",
+      "titulo": "EntreDiversidades — artículo sobre Mario Heberto Aranda González",
+      "autor": "EntreDiversidades",
+      "año": "2020",
+      "url": "https://entrediversidades.unach.mx",
+      "confiabilidad": 0.8,
+      "notas": "Revista académica. Corrección del nombre de Pedro Aranda González a Mario Heberto Aranda González."
+    },
+    {
+      "id": "F033",
+      "tipo": "web",
+      "titulo": "Wikipedia — Dzibilnocac",
+      "autor": "Wikipedia",
+      "año": "2024",
+      "url": "https://es.wikipedia.org/wiki/Dzibilnocac",
+      "confiabilidad": 0.65,
+      "notas": "Artículo de Wikipedia sobre la zona arqueológica. Datos básicos verificables. Confiabilidad media."
+    },
+    {
+      "id": "F034",
+      "tipo": "web",
+      "titulo": "Asociación Tikal — Stephens y Catherwood",
+      "autor": "Asociación Tikal",
+      "año": "2020",
+      "url": "https://www.asociaciontikal.com",
+      "confiabilidad": 0.7,
+      "notas": "Portal de divulgación arqueológica maya. Datos sobre la expedición de Stephens y Catherwood."
+    },
+    {
+      "id": "F035",
+      "tipo": "web",
+      "titulo": "Hola Tulum — Santa Rosa Xtampak y zona Chenes",
+      "autor": "Hola Tulum",
+      "año": "2023",
+      "url": "https://www.holatulum.com",
+      "confiabilidad": 0.5,
+      "notas": "Portal turístico. Información sobre zonas arqueológicas de Los Chenes. Confiabilidad media-baja."
+    },
+    {
+      "id": "F036",
+      "tipo": "web",
+      "titulo": "IAI Berlín — Instituto Iberoamericano, exposición Teobert Maler 2024",
+      "autor": "Institut für Auslandsbeziehungen / IAI Berlín",
+      "año": "2024",
+      "url": "https://www.iai.spk-berlin.de",
+      "confiabilidad": 0.9,
+      "notas": "Instituto de investigación alemán que alberga el archivo fotográfico de Teobert Maler (2,700+ fotografías). Exposición 'Tras los pasos de Teobert Maler' inaugurada en octubre 2024."
+    },
+    {
+      "id": "F037",
+      "tipo": "libro",
+      "titulo": "hopelchen_cronologia_integrada.json — archivo de proyecto",
+      "autor": "Daniela Naraai (Daniela Caamal)",
+      "año": "2026",
+      "url": "",
+      "confiabilidad": 0.8,
+      "notas": "Archivo interno del proyecto. Cronología integrada de Hopelchén."
+    },
+    {
+      "id": "F038",
+      "tipo": "libro",
+      "titulo": "personajes_eventos_expansion_v2.json — archivo de proyecto",
+      "autor": "Daniela Naraai (Daniela Caamal)",
+      "año": "2026",
+      "url": "",
+      "confiabilidad": 0.8,
+      "notas": "Archivo interno del proyecto. Base de datos de personajes y eventos expandida."
+    },
+    {
+      "id": "F039",
+      "tipo": "libro",
+      "titulo": "hallazgos_pdfs_sesion_masiva_v3.json — archivo de proyecto",
+      "autor": "Daniela Naraai (Daniela Caamal)",
+      "año": "2026",
+      "url": "",
+      "confiabilidad": 0.8,
+      "notas": "Archivo interno del proyecto. Hallazgos de sesión de análisis masivo de PDFs."
+    },
+    {
+      "id": "F040",
+      "tipo": "libro",
+      "titulo": "legisladores_hopelchen_1861-2003.json — archivo de proyecto",
+      "autor": "Daniela Naraai (Daniela Caamal)",
+      "año": "2026",
+      "url": "",
+      "confiabilidad": 0.85,
+      "notas": "Archivo interno del proyecto. Lista de legisladores de Hopelchén/Bolonchenticul 1861-2003 extraída del Digesto SCJN."
+    },
+    {
+      "id": "F041",
+      "tipo": "libro",
+      "titulo": "menonitas_hopelchen.json — archivo de proyecto",
+      "autor": "Daniela Naraai (Daniela Caamal)",
+      "año": "2026",
+      "url": "",
+      "confiabilidad": 0.8,
+      "notas": "Archivo interno del proyecto sobre comunidades menonitas en Hopelchén."
+    },
+    {
+      "id": "F042",
+      "tipo": "web",
+      "titulo": "CENIDIM INBA — Archivo Gerónimo Baqueiro Fóster",
+      "autor": "Centro Nacional de Investigación, Documentación e Información Musical",
+      "año": "2024",
+      "url": "https://cenidim.inba.gob.mx",
+      "confiabilidad": 0.95,
+      "notas": "Archivo personal de Baqueiro Fóster: 4,052 expedientes y 32,859 documentos (1854-1985). Fuente primaria institucional."
+    },
+    {
+      "id": "F043",
+      "tipo": "web",
+      "titulo": "Hochob — Lugares INAH (ficha oficial)",
+      "autor": "INAH — Zona Arqueológica de Hochob",
+      "año": "2024",
+      "url": "https://lugares.inah.gob.mx/es/node/4408",
+      "confiabilidad": 0.97,
+      "notas": "Ficha oficial del INAH para la Zona Arqueológica de Hochob. Incluye horarios, precios, acceso, imágenes. Fuente primaria gubernamental de máxima confiabilidad.",
+      "web_raw_id": "WEB011"
+    },
+    {
+      "id": "F044",
+      "tipo": "web",
+      "titulo": "Hochob — SIC Cultura (ficha)",
+      "autor": "SIC — Sistema de Información Cultural, Secretaría de Cultura México",
+      "año": "2024",
+      "url": "https://sic.cultura.gob.mx/ficha.php?table=zona_arqueologica&table_id=11",
+      "confiabilidad": 0.95,
+      "notas": "Ficha del Sistema de Información Cultural del gobierno de México. Datos sobre Hochob como zona arqueológica.",
+      "web_raw_id": "WEB012"
+    },
+    {
+      "id": "F045",
+      "tipo": "web",
+      "titulo": "Hochob — Wikipedia",
+      "autor": "Wikipedia",
+      "año": "2024",
+      "url": "https://es.wikipedia.org/wiki/Hochob",
+      "confiabilidad": 0.65,
+      "notas": "Artículo de Wikipedia sobre Hochob. Datos: construcción 300-1000 d.C., apogeo 850-1000 d.C., descubrimiento occidental 1887 (Teobert Maler). Estilo Chenes. Confiabilidad media.",
+      "web_raw_id": "WEB013"
+    },
+    {
+      "id": "F046",
+      "tipo": "articulo",
+      "titulo": "Los chicleros mayas de los Chenes, Campeche — Revistas INAH Glifos",
+      "autor": "Teresa Ramayo Lanz",
+      "año": "2020",
+      "url": "https://revistas.inah.gob.mx/index.php/glifos/article/download/19617/21023/41950",
+      "confiabilidad": 0.92,
+      "notas": "Artículo académico publicado en revista Glifos del INAH. Sobre la economía chiclera en Los Chenes post-Guerra de Castas. Incluye historia de los mayas pacíficos del sur y su relación con el territorio.",
+      "web_raw_id": "WEB018"
+    },
+    {
+      "id": "F047",
+      "tipo": "articulo",
+      "titulo": "Apoyando la lucha de apicultores mayas contra el cultivo de soya genéticamente modificada — AIDA",
+      "autor": "AIDA (Asociación Interamericana para la Defensa del Ambiente)",
+      "año": "2022",
+      "url": "https://aida-americas.org/es/apoyando-la-lucha-de-apicultores-mayas-contra-el-cultivo-de-soya-geneticamente-modificada",
+      "confiabilidad": 0.85,
+      "notas": "Informe de ONG internacional sobre la lucha de apicultores mayas de Hopelchén contra la soya transgénica y el glifosato de Monsanto. Perspectiva de derechos humanos e indígenas.",
+      "web_raw_id": "WEB021"
+    },
+    {
+      "id": "F048",
+      "tipo": "periodico",
+      "titulo": "En Hopelchén, Campeche, las soluciones en comunidad hacen frente al glifosato — Animal Político / Yahoo Noticias",
+      "autor": "Animal Político",
+      "año": "2022",
+      "url": "https://es-us.noticias.yahoo.com/hopelch%C3%A9n-campeche-soluciones-comunidad-frente-115025427.html",
+      "confiabilidad": 0.8,
+      "notas": "Reportaje de Animal Político sobre el Colectivo de Comunidades Mayas de los Chenes y la lucha contra los plaguicidas. Caso de colmenas muertas en Bolonchén de Rejón (2015) por fumigación de cultivos de sandía.",
+      "web_raw_id": "WEB022"
+    },
+    {
+      "id": "F049",
+      "tipo": "periodico",
+      "titulo": "Agroindustria menonita pone en riesgo la apicultura en Campeche",
+      "autor": "Mongabay Latam",
+      "año": "2021",
+      "url": "https://es.mongabay.com/2021",
+      "confiabilidad": 0.82,
+      "notas": "Artículo de Mongabay Latam (periodismo ambiental especializado) sobre el impacto de la agroindustria menonita en la apicultura maya de Campeche.",
+      "web_raw_id": "WEB023"
+    },
+    {
+      "id": "F050",
+      "tipo": "periodico",
+      "titulo": "Expansión menonita en Campeche y QR — La Jornada de Oriente",
+      "autor": "La Jornada de Oriente",
+      "año": "2023",
+      "url": "https://www.lajornadadeoriente.com.mx/puebla/expansion-menonita-en-campeche-y-qr-reporte/",
+      "confiabilidad": 0.78,
+      "notas": "Reportaje sobre la expansión territorial de las colonias menonitas en Campeche y Quintana Roo. Medio de comunicación establecido.",
+      "web_raw_id": "WEB024"
+    },
+    {
+      "id": "F051",
+      "tipo": "periodico",
+      "titulo": "Buscan Frenar Uso de Glifosato en Cultivos de Campeche — N+",
+      "autor": "N+ Noticias",
+      "año": "2023",
+      "url": "https://www.nmas.com.mx",
+      "confiabilidad": 0.75,
+      "notas": "Nota informativa sobre la lucha para frenar el uso de glifosato en Campeche, vinculado a cultivos menonitas.",
+      "web_raw_id": "WEB025"
+    },
+    {
+      "id": "F052",
+      "tipo": "web",
+      "titulo": "Gerónimo Baqueiro Fóster — Wikipedia",
+      "autor": "Wikipedia",
+      "año": "2024",
+      "url": "https://es.wikipedia.org/wiki/Ger%C3%B3nimo_Baqueiro_F%C3%B3ster",
+      "confiabilidad": 0.65,
+      "notas": "Artículo Wikipedia sobre Baqueiro Fóster. Confirma nacimiento 1892 Hopelchén. Descendiente de Chan Cil. Estudió con Julián Carrillo. Confiabilidad media (la disputa de fecha 1892 vs 1898 la consigna).",
+      "web_raw_id": "WEB026"
+    },
+    {
+      "id": "F053",
+      "tipo": "periodico",
+      "titulo": "Gerónimo Baqueiro Foster, más campechano que el pan de cazón — La Jornada Maya",
+      "autor": "Betina González Toraya / ADN Yucatán",
+      "año": "2021",
+      "url": "https://www.lajornadamaya.mx/opinion/182112/geronimo-baqueiro-foster-mas-campechano-que-el-pan-de-cazon-y-mas-chenero-que-el-agua-de-pozo",
+      "confiabilidad": 0.72,
+      "notas": "Artículo de La Jornada Maya sobre Baqueiro Fóster. Indica nacimiento 7 enero 1898, padres Teodosia Foster Villafaña y Francisco José Baqueiro Maldonado. Su primer maestro fue su primo Laureano Baqueiro. A los 14 años aprendió guitarra con Manuel Aranda, «padre de la música en la región de los Chenes».",
+      "web_raw_id": "WEB030"
+    }
+  ]
+}

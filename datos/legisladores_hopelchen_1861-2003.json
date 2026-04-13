@@ -1,0 +1,159 @@
+{
+  "META": {
+    "titulo": "Diputados de Hopelchén y Bolonchenticul — Legislaturas de Campeche 1861–2003",
+    "fuente": "Digesto Constitucional Mexicano — Campeche (SCJN 2010, 798 pp.)",
+    "autores": "Manuel González Oropeza y David Cienfuegos Salgado",
+    "isbn": "978-607-468-243-4",
+    "archivo_local": "sources/83536.pdf",
+    "fecha_extraccion": "2026-03-22",
+    "nota": "El municipio de Bolonchenticul corresponde al actual municipio de Hopelchén. Los apellidos rastreados son los del entramado histórico del proyecto Archivo Vivo."
+  },
+
+  "dato_critico_1861": {
+    "descripcion": "CONFIRMADO: Congreso Constituyente del Estado de Campeche, 1861",
+    "datos": "i (Distrito Bolonchenticul) — Propietario: MANUEL BARRERA — Suplente: ROMUALDO BAQUEIRO LARA",
+    "importancia": "Romualdo Baqueiro Lara confirma el apellido compuesto BAQUEIRO+LARA en el primer día del Estado de Campeche, como SUPLENTE del diputado Manuel Barrera. Los dos linajes centrales del proyecto (Baqueiro y Lara) unidos desde 1861, y con el apellido Barrera como propietario.",
+    "fuente": "Digesto SCJN Campeche 2010, p. 29 (Congreso Constituyente 1861)"
+  },
+
+  "dato_critico_bolonchenticul": {
+    "descripcion": "Bolonchenticul es el lugar de nacimiento de Manuel Crescencio García Rejón y Alcalá (promotor del juicio de amparo en México). En 1882 se denominó 'de Blengio', en 1896 'de Montalvo' y en 1955 se le puso el nombre de 'de Rejón'.",
+    "fuente": "Digesto SCJN Campeche 2010, p. 24"
+  },
+
+  "linea_del_tiempo_legisladores_hopelchen_bolonchenticul": [
+    {
+      "legislatura": "Congreso Constituyente 1861",
+      "municipio": "Bolonchenticul",
+      "propietario": "Manuel Barrera",
+      "suplente": "Romualdo Baqueiro Lara",
+      "nota": "DATO FUNDACIONAL: apellidos Barrera + Baqueiro Lara en el primer día del Estado"
+    },
+    {"legislatura": "I Legislatura 1862", "municipio": "Bolonchenticul", "propietario": "Pedro Lara", "suplente": "Luciano Sánchez", "nota": "Apellido Lara en Bolonchenticul desde la primera legislatura"},
+    {"legislatura": "I Legislatura 1862 (2o)", "municipio": "Bolonchenticul", "propietario": "Demetrio Sevilla", "suplente": "José F. Ricalde"},
+    {"legislatura": "II Legislatura 1867-1869", "municipio": "Bolonchenticul", "propietario": "Enrique Frémont", "suplente": "Manuel Cervera y Molina"},
+    {"legislatura": "III Legislatura 1869-1871", "municipio": "Bolonchenticul", "propietario": "Santiago Martínez Zorraquín", "suplente": "Olegario G. Cantón"},
+    {"legislatura": "IV Legislatura 1871-1873", "municipio": "Bolonchenticul", "propietario": "Pedro Ramos Quintana", "suplente": "Salvador Dondé"},
+    {"legislatura": "V Legislatura 1873-1875", "municipio": "Bolonchenticul", "propietario": "Leocadio Preve", "suplente": "Ángel A. Gaudiana"},
+    {"legislatura": "VI Legislatura 1875-1877", "municipio": "Bolonchenticul", "propietario": "Pedro A. Lara", "suplente": "Marcelo Molina", "nota": "Apellido Lara en Bolonchenticul — segunda aparición"},
+    {"legislatura": "VII Legislatura 1877-1878", "municipio": "Bolonchenticul", "propietario": "Demetrio Barrera", "suplente": "Ramiro Roca Cicero", "nota": "Apellido Barrera"},
+    {"legislatura": "VIII Legislatura 1878-1880", "municipio": "Bolonchenticul", "propietario": "José E. Urbina", "suplente": "Leocadio Prevé"},
+    {"legislatura": "IX Legislatura 1880-1882", "municipio": "Bolonchenticul", "propietario": "Manuel L. Castellanos", "suplente": "Demetrio Barrera", "nota": "Demetrio Barrera como suplente"},
+    {"legislatura": "X Legislatura 1882-1884", "municipio": "Bolonchenticul", "propietario": "Salvador Dondé", "suplente": "Marcial Romero"},
+    {"legislatura": "XI Legislatura 1884-1886", "municipio": "Bolonchenticul", "propietario": "José Trinidad López", "suplente": "Ramiro Cícero"},
+    {"legislatura": "XII Legislatura 1886-1888", "municipio": "Bolonchenticul", "propietario": "José Méndez E.", "suplente": "José Asunción Mendoza"},
+    {"legislatura": "XIII Legislatura 1888-1890", "municipio": "Bolonchenticul", "propietario": "Salvador Espínola", "suplente": "Valentín Orozco"},
+    {"legislatura": "XIV Legislatura 1890-1892", "municipio": "Bolonchenticul", "propietario": "José G. Pérez", "suplente": "Ricardo Mena"},
+    {"legislatura": "XV Legislatura 1892-1894", "municipio": "Bolonchenticul", "propietario": "Juan E. Angli", "suplente": "José A. Mendoza"},
+    {"legislatura": "XVI Legislatura 1894-1896", "municipio": "Bolonchenticul", "propietario": "José G. Pérez", "suplente": "Rogelio Rodríguez"},
+    {"legislatura": "XVII Legislatura 1896-1898", "municipio": "Bolonchenticul", "propietario": "Gustavo Mac-Gregor", "suplente": "Onecíforo Durán"},
+    {"legislatura": "XVIII Legislatura 1898-1900", "municipio": "Bolonchenticul", "propietario": "Gustavo Mac-Gregor", "suplente": "Manuel Barbosa"},
+    {"legislatura": "XIX Legislatura 1900-1902", "municipio": "Bolonchenticul", "propietario": "Leandro Caballero García", "suplente": "Rogelio Rodríguez"},
+    {"legislatura": "XX Legislatura 1902-1904", "municipio": "Bolonchenticul", "propietario": "Felipe Medina Suárez", "suplente": "Emilio Lara Sánchez", "nota": "Emilio Lara Sánchez — apellido Lara como suplente"},
+    {"legislatura": "XXI Legislatura 1904-1906", "municipio": "Bolonchenticul", "propietario": "Eduardo Alfaro", "suplente": "Emilio Lara Sánchez", "nota": "Emilio Lara Sánchez suplente por segunda vez"},
+    {"legislatura": "XXII Legislatura 1906-1908", "municipio": "Bolonchenticul", "propietario": "Eduardo Alfaro", "suplente": "Emilio Lara Sánchez", "nota": "Emilio Lara Sánchez suplente por tercera vez"},
+    {"legislatura": "XXIII Legislatura 1908-1910", "municipio": "Bolonchenticul", "propietario": "Eduardo Alfaro I.", "suplente": "Pedro Lara Sánchez", "nota": "Pedro Lara Sánchez — apellido Lara"},
+    {"legislatura": "XXIV Legislatura 1910-1912", "municipio": "Bolonchencitul", "propietario": "Eduardo Alfaro L.", "suplente": "Pedro Lara Sánchez", "nota": "Pedro Lara Sánchez suplente dos veces"},
+    {"legislatura": "XXV Legislatura 1912-1914", "municipio": "Bolonchenticul", "propietario": "Julián E. Quintero", "suplente": "Manuel Rojas Morano"},
+    {"legislatura": "XXVI Legislatura 1914-1916", "municipio": "Bolonchenticul", "propietario": "Manuel Lavalle Barret", "suplente": "Rafael Montalvo Paullada"},
+    {"legislatura": "XXVI Legislatura 1914-1918 (2ª)", "municipio": "Hopelchén", "propietario": "Rafael Montalvo Paullada", "suplente": "Manuel Barbosa M.", "nota": "PRIMERA VEZ con el nombre 'Hopelchén' (en lugar de Bolonchenticul) como municipio del distrito"},
+    {"legislatura": "XXVII Legislatura 1919-1921", "municipio": "Hopelchén", "propietario": "Andrés Lezama", "suplente": "Benigno Lara Negrón", "nota": "Apellido Lara en Hopelchén"},
+    {"legislatura": "XXVII Legislatura 1919-1921 (2ª)", "municipio": "Hopelchén", "propietario": "Miguel Calderón", "suplente": "", "nota": "Apellido Calderón en Hopelchén — primera aparición documentada en legislatura"},
+    {"legislatura": "XXVIII Legislatura 1921-1923", "municipio": "Hopelchén", "propietario": "Manuel A. Segovia", "suplente": "Víctor Vázquez Marina"},
+    {"legislatura": "XXIX Legislatura 1923-1925", "municipio": "Hopelchén", "propietario": "Ignacio Reyes Ortega", "suplente": "Arturo Solís", "nota": "Arturo Solís como suplente"},
+    {"legislatura": "XXX Legislatura 1925-1927", "municipio": "Hopelchén", "propietario": "Manuel Segovia", "suplente": ""},
+    {"legislatura": "XXXI Legislatura 1927-1929", "municipio": "Hopelchén", "propietario": "Gregorio Sansores", "suplente": "Eusebio de Ocampo"},
+    {"legislatura": "XXXII Legislatura 1929-1931", "municipio": "Hopelchén", "propietario": "Alejo Aguilar C.", "suplente": ""},
+    {"legislatura": "XXXIII Legislatura 1931-1934", "municipio": "Hopelchén", "propietario": "Manuel A. Segovia", "suplente": "José A. Centurión"},
+    {"legislatura": "XXXIV Legislatura 1934-1937", "municipio": "Hopelchén", "propietario": "Julio Novelo Margerer", "suplente": "Ricardo Castillo F."},
+    {"legislatura": "XXXV Legislatura 1937-1940", "municipio": "Hopelchén", "propietario": "José Lara B.", "suplente": "Avelino Aké", "nota": "Apellido Lara"},
+    {"legislatura": "XXXVI Legislatura 1940-1942", "municipio": "Hopelchén", "propietario": "Pedro Gaspar Pazos Pavón", "suplente": "Florencio Quijano Ávila"},
+    {"legislatura": "XXXVII Legislatura 1942-1944", "municipio": "Hopelchén", "propietario": "Cástulo Polanco", "suplente": "Maximiliano Toroya Alvarado"},
+    {
+      "legislatura": "XXXVIII Legislatura 1944-1947",
+      "municipio": "Hopelchén",
+      "propietario": "Pedro Gaspar Pazos Pavón",
+      "suplente": "Ricardo Ávila Briceño",
+      "nota": "DATO CONFIRMADO Y CORREGIDO: En esta legislatura (1944-1947) NO aparece Pedro Lara y Lara como diputado por Hopelchén. Aparece como 4to distrito de Campeche capital en la L Legislatura (1980-1983)."
+    },
+    {"legislatura": "XXXIX Legislatura 1947-1950", "municipio": "Hopelchén", "propietario": "Luciano Toroya Pérez", "suplente": "Francisco I. Rodríguez Ucán"},
+    {"legislatura": "XL Legislatura 1950-1953", "municipio": "Hopelchén", "propietario": "Hipólito Canto Brito", "suplente": "Lucas Evangelista Dzib"},
+    {"legislatura": "XLI Legislatura 1953-1956", "municipio": "Hopelchén", "propietario": "José A. Baqueiro Rodríguez", "suplente": "Ernesto Sánchez Ortiz", "nota": "Apellido Baqueiro"},
+    {"legislatura": "XLII Legislatura 1956-1959", "municipio": "Hopelchén", "propietario": "José Guerrero Barahona", "suplente": "José Lucas Evangelista Dzib", "nota": "José Guerrero Barahona fue también el primer presidente municipal cuando Hopelchén fue declarada ciudad en 1959"},
+    {"legislatura": "XLIII Legislatura 1959-1962", "municipio": "Hopelchén", "propietario": "Manuel J. Solís", "suplente": "Jorge Alpuche", "nota": "Apellido Solís"},
+    {"legislatura": "XLIV Legislatura 1962-1965", "municipio": "Hopelchén", "propietario": "Luis A. Ortiz Cervera", "suplente": "Francisco R. Tzec Cahuich"},
+    {"legislatura": "XLV Legislatura 1965-1968", "municipio": "Hopelchén", "propietario": "Juan Ojeda Hernández", "suplente": "José Cruz López"},
+    {"legislatura": "XLVI Legislatura 1968-1971", "municipio": "Hopelchén", "propietario": "Luciano Tzec Cahuich", "suplente": "Tomás Chan"},
+    {"legislatura": "XLVII Legislatura 1971-1974", "municipio": "Hopelchén", "propietario": "Mario Aranda González", "suplente": "José María Poot Us", "nota": "Apellido Aranda — posible relación con Mario Heberto Aranda González (historiador local)"},
+    {"legislatura": "XLVIII Legislatura 1974-1977", "municipio": "Hopelchén", "propietario": "Marcial Huchín Chablé", "suplente": "Manlio Alpuche Navarrete"},
+    {"legislatura": "XLIX Legislatura 1977-1980", "municipio": "Hopelchén", "propietario": "Manuel Cervera Novelo", "suplente": "Jesús Ayuso Barrera"},
+    {
+      "legislatura": "L Legislatura 1980-1983",
+      "municipio": "Campeche (4to distrito)",
+      "propietario": "Pedro Lara y Lara",
+      "suplente": "Arcadio Chan Pech",
+      "nota": "AQUÍ está Pedro Lara y Lara en la legislatura — en el 4to DISTRITO DE CAMPECHE CAPITAL (no de Hopelchén). Esto explica la confusión anterior. Siendo diputado por Campeche capital y presidente municipal de Hopelchén en diferentes períodos."
+    },
+    {"legislatura": "LI Legislatura 1983-1986", "municipio": "Hopelchén", "propietario": "Romualdo E. Méndez Huchín", "suplente": "Desiderio Ortegón Cahuich"},
+    {"legislatura": "LII Legislatura 1986-1989", "municipio": "Hopelchén", "propietario": "Enrique González Vargas", "suplente": "Carmen Rosado Sánchez"},
+    {"legislatura": "LIII Legislatura 1989-1992", "municipio": "Hopelchén", "propietario": "Maximiliano Toraya Toraya", "suplente": "Hidalgo Tzec Hass"},
+    {"legislatura": "LIV Legislatura 1992-1994", "municipio": "Hopelchén", "propietario": "Manuel Azael Ayuso Barrera", "suplente": "Addy Tzeck Medina"},
+    {
+      "legislatura": "LV Legislatura 1994-1997",
+      "municipio": "Hopelchén",
+      "propietario": "Emilio Lara Solís",
+      "suplente": "Marcial Dzib Ku",
+      "nota": "Apellido Lara Solís — los dos apellidos del entramado juntos en el nombre del diputado"
+    },
+    {"legislatura": "LVI Legislatura 1997-2000", "municipio": "Hopelchén", "propietario": "Jorge Lara López", "suplente": "Blanca Rosalina Bernés Chan", "nota": "Apellido Lara"},
+    {"legislatura": "LVII Legislatura 2000-2003", "municipio": "Hopelchén", "propietario": "Blanca Rosalinda Bernés Chan", "suplente": "Conrado Dovalí Figueroa Sánchez"}
+  ],
+
+  "hallazgos_criticos": [
+    {
+      "id": "DC001",
+      "hallazgo": "CORRECCIÓN IMPORTANTE: Pedro Lara y Lara aparece en la L Legislatura (1980-1983) como diputado por el 4to DISTRITO DE CAMPECHE CAPITAL (no por Hopelchén). La tesis de Schüren lo entrevistó como Presidente Municipal de Hopelchén en 1994. Son períodos y cargos distintos.",
+      "fuente": "Digesto SCJN 2010, L Legislatura"
+    },
+    {
+      "id": "DC002",
+      "hallazgo": "El apellido BARRERA aparece como diputado por Bolonchenticul desde 1861 (Manuel Barrera, Congreso Constituyente) y en 1877-1878 (Demetrio Barrera). El patrón de continuidad del apellido en el poder está documentado desde el primer día del Estado.",
+      "fuente": "Digesto SCJN 2010, legislaturas 1861-1878"
+    },
+    {
+      "id": "DC003",
+      "hallazgo": "El apellido LARA aparece como diputado por Bolonchenticul/Hopelchén en: 1862 (Pedro Lara), 1875-1877 (Pedro A. Lara), 1902-1910 (Emilio Lara Sánchez y Pedro Lara Sánchez como suplentes), 1919-1921 (Benigno Lara Negrón), 1937-1940 (José Lara B.), 1980-1983 (Pedro Lara y Lara en Campeche capital), 1994-1997 (Emilio Lara Solís).",
+      "fuente": "Digesto SCJN 2010, múltiples legislaturas"
+    },
+    {
+      "id": "DC004",
+      "hallazgo": "El apellido CALDERÓN aparece en Hopelchén en 1919-1921 (Miguel Calderón como diputado propietario) — confirmando la raíz del apellido en la política de Hopelchén desde el período posrevolucionario.",
+      "fuente": "Digesto SCJN 2010, XXVII Legislatura 1919-1921"
+    },
+    {
+      "id": "DC005",
+      "hallazgo": "El apellido SOLÍS aparece en Hopelchén en 1923-1925 (Arturo Solís como suplente) y 1959-1962 (Manuel J. Solís como diputado propietario). Arturo Solís es el mismo que Schüren entrevistó como comerciante en 1996-1998 (Arturo Solís Lara).",
+      "fuente": "Digesto SCJN 2010, XXIX y XLIII Legislaturas"
+    },
+    {
+      "id": "DC006",
+      "hallazgo": "DATO NUEVO — José Guerrero Barahona fue diputado por Hopelchén en la XLII Legislatura (1956-1959) y luego fue el PRIMER PRESIDENTE MUNICIPAL cuando Hopelchén fue declarada ciudad el 26 de febrero de 1959. La misma persona en ambos roles.",
+      "fuente": "Digesto SCJN 2010, XLII Legislatura + PorEsto.com 2026"
+    },
+    {
+      "id": "DC007",
+      "hallazgo": "DATO NUEVO — Primera aparición de 'Hopelchén' (en lugar de Bolonchenticul) como nombre del municipio del distrito en la XXVI Legislatura segunda sección (1914-1918). Rafael Montalvo Paullada fue el primer diputado con el municipio identificado como 'Hopelchén'.",
+      "fuente": "Digesto SCJN 2010, XXVI Legislatura 1914-1918"
+    },
+    {
+      "id": "DC008",
+      "hallazgo": "Manuel Crescencio García Rejón y Alcalá — promotor del juicio de amparo en México — nació en Bolonchenticul (municipio de Hopelchén). En 1955 el municipio tomó el nombre de 'Bolonchén de Rejón' en su honor. Murió en 1849.",
+      "fuente": "Digesto SCJN 2010, p. 24"
+    },
+    {
+      "id": "DC009",
+      "hallazgo": "Cristina Lara fue la primera representante mujer en la legislatura de Campeche: diputada SUPLENTE en la XXV Legislatura (1912-1914) por el distrito de Champotón. Apellido Lara en la política campechana.",
+      "fuente": "Digesto SCJN 2010, nota al pie p. 18"
+    }
+  ]
+}

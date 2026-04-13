@@ -1,0 +1,452 @@
+{
+  "META": {
+    "titulo": "Hallazgos extraídos de PDFs — Archivo Vivo",
+    "fecha_procesamiento": "2026-03-22",
+    "pdfs_procesados": 12,
+    "pdfs_pendientes": ["0865175.pdf", "83536.pdf", "31YU2016ED081.pdf", "R05042.pdf", "los-mayas-antiguos.pdf", "CampeChe_Una_Ciudad.pdf", "Dialnet-SierraSur.pdf", "05-de-la-nostalgia.pdf", "14-de-como-los-libaneses.pdf", "1997_1442.pdf"]
+  },
+
+  "pdf_01": {
+    "archivo": "La_guerra_de_Castas_en_Peninsula_Peninsu.pdf",
+    "tipo": "Artículo académico",
+    "autor": "Alma Alicia Piña Laynes",
+    "institucion": "Universidad Autónoma de Campeche — Facultad de Humanidades",
+    "publicacion": "Revista Cambios y Permanencias, Vol. 8, Núm. 2, 2017, pp. 522–539",
+    "tema": "Análisis de la novela Península Península como novela histórica de la Guerra de Castas",
+    "hallazgos": [
+      {
+        "id": "H001",
+        "tipo": "correccion_critica",
+        "dato": "Charras primera edición: 1990 (no 2022). La edición Alfaguara 2022 es reedición.",
+        "fuente_exacta": "Piña Laynes 2017, nota al pie 3"
+      },
+      {
+        "id": "H002",
+        "tipo": "correccion_critica",
+        "dato": "De Zitilchén primera edición: 1981 (no 2012). La FCE 2012 es reedición.",
+        "fuente_exacta": "Piña Laynes 2017, nota al pie 3"
+      },
+      {
+        "id": "H003",
+        "tipo": "personaje_nuevo",
+        "dato": "Madre de Hernán Lara Zavala era CAMPECHANA. Padre yucateco. Ambos padres peninsulares.",
+        "fuente_exacta": "Piña Laynes 2017, nota al pie 3"
+      },
+      {
+        "id": "H004",
+        "tipo": "correccion_critica",
+        "dato": "El premio de Península Península es Premio ALFAGUARA 2010 (no solo 'Premio RAE').",
+        "fuente_exacta": "Piña Laynes 2017"
+      },
+      {
+        "id": "H005",
+        "tipo": "personaje_historico",
+        "dato": "Manuel Antonio Ay: caudillo maya de Chichimilá, ahorcado el 25 de julio de 1847. Sus palabras a su hijo: 'Voy a morir hijo mío... no vayas a tomar parte en la guerra que va a destrozar el país'. Primera víctima maya represaliada. Su ejecución desencadenó la rebelión.",
+        "fuente_exacta": "Piña Laynes 2017 (citando Baqueiro 1990a, p. 229)"
+      },
+      {
+        "id": "H006",
+        "tipo": "contexto_historico",
+        "dato": "Causa de la Guerra de Castas según la historiografía: los federalistas armaron a los mayas para combatir el centralismo (1839-1843). Lograda la independencia de Yucatán, intentaron desarmarlos. Los mayas, con armas y entrenamiento, se rebelaron. Las promesas de exenciones nunca se cumplieron.",
+        "fuente_exacta": "Piña Laynes 2017"
+      },
+      {
+        "id": "H007",
+        "tipo": "novelas_guerra_castas",
+        "dato": "Corpus completo de novelas sobre la Guerra de Castas: La conjura de Xinun (1958, Ermilo Abreu Gómez), Ascensión Tun (1981, Silvia Molina), La rebelión de los Cruzoob (1997, Miguel Ángel Suárez Caamal), Península Península (2008, Lara Zavala), El llamado de los Tunk'ules (2011, Marisol Ceh Moo).",
+        "fuente_exacta": "Piña Laynes 2017"
+      },
+      {
+        "id": "H008",
+        "tipo": "justo_sierra_oreilly",
+        "dato": "Justo Sierra O'Reilly durante la Guerra de Castas: escribió 'Yo quisiera hoy que desapareciera esa raza maldita'. Publicado en 'Diario de nuestro viaje a los Estados Unidos' (Conaculta, 2002, p. 56). Este mismo personaje es ficcionalizado como intelectual preocupado por la memoria histórica en Península Península.",
+        "fuente_exacta": "Piña Laynes 2017 (citando Sierra O'Reilly, Conaculta 2002, p. 56)"
+      },
+      {
+        "id": "H009",
+        "tipo": "fuente_nueva",
+        "dato": "Suárez Turriza, Tatiana (2013): 'Península, península; el Yucatán del siglo XIX en la memoria del novelista contemporáneo'. Revista Literatura Mexicana, 34(1), 111–129. = archivo v24n1a6.pdf.",
+        "fuente_exacta": "Bibliografía Piña Laynes 2017"
+      }
+    ]
+  },
+
+  "pdf_02": {
+    "archivo": "1870-5766-peni-12-02-00029.pdf",
+    "tipo": "Artículo académico",
+    "autor": "Carlos Vadillo Buenfil",
+    "institucion": "Universidad Autónoma de Campeche",
+    "publicacion": "Península, Vol. XII, núm. 2, julio-diciembre 2017, pp. 29–48",
+    "tema": "La novela La rebelión de los Cruzoob de Miguel Ángel Suárez Caamal",
+    "hallazgos": [
+      {
+        "id": "H010",
+        "tipo": "personaje_historico",
+        "dato": "Manuel Antonio Ay Tec: caudillo maya de Chichimilá. Palabras a su hijo el 25 de julio de 1847: 'Voy a morir hijo mío, por haberme comprometido incautamente en una gran guerra...' Fue uno de los primeros mayas represaliados, su ejecución desencadenó la rebelión.",
+        "fuente_exacta": "Vadillo Buenfil 2017 (citando Baqueiro 1990a, p. 229)"
+      },
+      {
+        "id": "H011",
+        "tipo": "contexto_historico",
+        "dato": "Causas socioeconómicas de la Guerra de Castas: hacendados yucatecos despojaron tierras comunales mayas para satisfacer demandas capitalistas. Los mayas defendían su propiedad ancestral. Además, impuestos excesivos y promesas incumplidas de las guerras internas (1840s). Desde 1840 constantes desavenencias entre liberales y conservadores que usaban a los indios como soldados.",
+        "fuente_exacta": "Vadillo Buenfil 2017"
+      },
+      {
+        "id": "H012",
+        "tipo": "context_literario",
+        "dato": "Miguel Ángel Suárez Caamal: nacido en Calkiní, Campeche, 1953. La rebelión de los Cruzoob (1997) es la única novela campechana centrada en la perspectiva de los vencidos mayas (los Cruzoob y su Cruz Parlante).",
+        "fuente_exacta": "Vadillo Buenfil 2017"
+      },
+      {
+        "id": "H013",
+        "tipo": "cita_directa_historica",
+        "dato": "General Juan Suárez y Navarro en marzo de 1861 (informe a Benito Juárez): describió la guerra maya como 'guerra desnaturalizada que ha inundado de sangre la Península, que ha arruinado la fortuna pública y privada, y que ha convertido la parte central del Estado en un montón de ruinas'.",
+        "fuente_exacta": "Vadillo Buenfil 2017 (citando Suárez 1993, p. 155)"
+      }
+    ]
+  },
+
+  "pdf_03": {
+    "archivo": "v24n1a6.pdf",
+    "tipo": "Artículo académico",
+    "autor": "Tatiana Suárez Turriza",
+    "institucion": "Centro Peninsular en Humanidades y Ciencias Sociales, UNAM",
+    "publicacion": "Literatura Mexicana XXIV.1, 2013, pp. 111–129",
+    "tema": "Análisis de Península, Península y su diálogo con la tradición literaria decimonónica",
+    "hallazgos": [
+      {
+        "id": "H014",
+        "tipo": "analisis_literario",
+        "dato": "La novela Península, Península 'tematiza la reabsorción del pasado en el presente, en específico de la memoria histórica y literaria decimonónica peninsular'.",
+        "fuente_exacta": "Suárez Turriza 2013, p. 112"
+      },
+      {
+        "id": "H015",
+        "tipo": "cita_autor",
+        "dato": "Lara Zavala en Península Península: 'Quienes nos acercamos a la historia para ubicar novelas en un tiempo pasado no hacemos sino aprovechar otra época para reflexionar sobre el presente.' (p. 79).",
+        "fuente_exacta": "Suárez Turriza 2013 (citando Lara 2008, p. 79)"
+      }
+    ]
+  },
+
+  "pdf_04": {
+    "archivo": "10ferrermunoz.pdf",
+    "tipo": "Artículo académico",
+    "autor": "Manuel Ferrer Muñoz",
+    "institucion": "Instituto de Investigaciones Jurídicas, UNAM",
+    "publicacion": "Ius Fugit, 8-9, 1999-2000, pp. 321-355",
+    "tema": "La independencia de México vivida en la periferia: El caso de Yucatán",
+    "hallazgos": [
+      {
+        "id": "H016",
+        "tipo": "dato_clave_confirmado",
+        "dato": "CONFIRMADO con fuente primaria: 'Serapio Baqueiro Preve nació en el partido de Hopelchén, que más tarde quedaría integrado en el estado de Campeche, pero no tardó en vincularse a Mérida, en cuyo seminario conciliar de San Ildefonso cursó los estudios de bachillerato, y donde contrajo matrimonio con una hija del destacado político Pantaleón Barrera.'",
+        "fuente_exacta": "Ferrer Muñoz, Ius Fugit 1999-2000, p. 337"
+      },
+      {
+        "id": "H017",
+        "tipo": "pantale_on_barrera_politico",
+        "dato": "Pantaleón Barrera editaba el periódico 'La Pelota' en Yucatán durante los años 40-50 del siglo XIX. Periódico político.",
+        "fuente_exacta": "Ferrer Muñoz 1999-2000, p. 339"
+      },
+      {
+        "id": "H018",
+        "tipo": "contexto_historico",
+        "dato": "En agosto de 1857, Justo Sierra O'Reilly escribió al jefe político de Campeche sobre 'la revuelta que había desencadenado tras la irregular elección de Pantaleón Barrera como gobernador'. Sierra O'Reilly expresó su posición republicana en esa carta.",
+        "fuente_exacta": "Ferrer Muñoz 1999-2000, p. 336"
+      },
+      {
+        "id": "H019",
+        "tipo": "baqueiro_obra_confirmada",
+        "dato": "Serapio Baqueiro Preve: 'Ensayo histórico sobre las revoluciones de Yucat‡n desde el año de 1840 hasta 1864', 5 vols., Mérida, Universidad Autónoma de Yucatán, 1990. Fuente primaria sobre independencia y Guerra de Castas. Ferrer Muñoz la cita extensamente como fuente histórica.",
+        "fuente_exacta": "Ferrer Muñoz 1999-2000 (múltiples citas)"
+      },
+      {
+        "id": "H020",
+        "tipo": "evento_historico",
+        "dato": "15 septiembre 1821: Junta de autoridades civiles, militares y eclesiásticas en Mérida proclamó la emancipación de España. Dos días después (17 septiembre), Campeche expresó su adhesión. Primer 'cisma en la península' entre Mérida y Campeche.",
+        "fuente_exacta": "Ferrer Muñoz 1999-2000, pp. 325-326"
+      },
+      {
+        "id": "H021",
+        "tipo": "evento_historico",
+        "dato": "6 septiembre 1824: Tres diputados presentaron al Congreso general una proposición para dividir la península de Yucatán en dos entidades con capitales en Campeche y Mérida. Primera manifestación formal del conflicto que llevaría a la creación del Estado de Campeche.",
+        "fuente_exacta": "Ferrer Muñoz 1999-2000, p. 330"
+      }
+    ]
+  },
+
+  "pdf_05": {
+    "archivo": "17_biblio.pdf",
+    "tipo": "Bibliografía de tesis doctoral",
+    "autor": "Ute Schüren",
+    "institucion": "Freie Universität Berlin",
+    "periodo": "Trabajo de campo 1993-1998",
+    "hallazgos": [
+      {
+        "id": "H022",
+        "tipo": "personas_entrevistadas_hopelchen",
+        "dato": "Lista completa de personas entrevistadas en Hopelchén y municipio durante 1993-1998:",
+        "personas": [
+          "Pedro Lara y Lara — Bürgermeister (Presidente Municipal), Hopelchén. Entrevistado: 12.12.1994",
+          "Hugo Lara y Lara — Architekt (Arquitecto de la región Chenes), Mérida. Entrevistado: 17.12.1994",
+          "Jorge Lara Solís — Unternehmer und Viehzüchter (empresario y ganadero), Hopelchén. Entrevistado: 6.12.1994, 12.1.1995, 5.3.1996",
+          "Arturo Solís Lara — Händler (comerciante), Hopelchén. Entrevistado: 8.3.1996, 17.3.1998",
+          "Raimundo Calderón Lara — Händler (comerciante), Hopelchén. Entrevistado: 6.5.1994, 21.5.1994, 15.1.1995, 27.1.1995",
+          "Pedro Baqueiro — Unternehmer (empresario), Hopelchén. Entrevistado: 14.1.1995",
+          "Hermegildo Pérez Lara — Direktor des SARH/SAGAR, Hopelchén. Entrevistado: 28.3.1995, 27.2.1996, 12.3.1998",
+          "Alicia Yolanda Lara Te — BANRURAL, Campeche. Entrevistada: 6.4.1995",
+          "Indalecio Lara Pech — Einwohner (habitante), Xcupilcacab. Entrevistado: 24.9.1994",
+          "Onésimo Lara Matos — Einwohner (habitante), Xcupilcacab. Entrevistado múltiples veces 1994-1998",
+          "Manuel Barrera Villamonte — Hotelangestellter, Milpa-Bauer und Imker (empleado hotel, milpero y apicultor), Hopelchén. Entrevistado 7 veces 1994-1995",
+          "Manuel Cervera — Comisario Ejidal, Hopelchén. Entrevistado: 13.2.1996, 11.3.1996",
+          "Ramón Berzunza Pinto — Historiador, activista movimiento maestros rurales, Mérida/Dzitbalché. Entrevistado múltiples veces",
+          "Faustino Che Chan — Unión de Apicultores Indígenas Cheneros, Hopelchén. Entrevistado: 31.3.1995",
+          "José Demetrio Duran Caamal — ehemaliger Chiclero (ex chiclero), Dzibalchén. Entrevistado: 12.3.1996",
+          "Gonzalo Herrera — ehemaliger Chiclero (ex chiclero), Dzibalchén. Entrevistado: 15.3.1998"
+        ],
+        "fuente_exacta": "Schüren FU Berlin, 17_biblio.pdf — lista de entrevistas"
+      },
+      {
+        "id": "H023",
+        "tipo": "archivos_consultados",
+        "dato": "Archivos consultados por Schüren: AMH (Archivo Municipal de Hopelchén) — contiene: CSTCS (Correspondencia Sindicato Trabajadores Chicleros 1937-1941), DPNR (PNR 1935), FS (Formación Sindicatos), JLC (Junta Local de los Censos), PM (Presidencia Municipal), SC (Sección Correspondencia), SE (Sección Estadística). También: AGEC, AGEY, ARANC, ASARH.",
+        "fuente_exacta": "Schüren FU Berlin, 17_biblio.pdf — lista de archivos"
+      },
+      {
+        "id": "H024",
+        "tipo": "comunidades_visitadas",
+        "dato": "27 comunidades visitadas en el municipio de Hopelchén: Ich Ek, Chanchén, Santa Rita Becanchén, Ukum, Xcupilcacab, Rancho Soza, Yaxché Akal, Katab, Chencoh, Francisco J. Mújica, San Juan Bautista Sahcabchén, Kancabchén, Xmaben, Bolonchén, Huechil, Chunchintok, Iturbide, Hopelchén, Dzibalchén, Xculoc, San Antonio Yaxché, Xkanhá, El Poste, San Francisco Suctuc, Chunyaxnic, Crucero San Luis, Xmejía.",
+        "fuente_exacta": "Schüren FU Berlin, 17_biblio.pdf — survey dates"
+      },
+      {
+        "id": "H025",
+        "tipo": "apellidos_poder_confirmados",
+        "dato": "Apellidos del poder de Hopelchén confirmados como activos en 1993-1998 por Schüren: LARA (Presidente Municipal, arquitecto, ganadero, ejidatarios), SOLÍS LARA (comerciante), CALDERÓN LARA (comerciante), PÉREZ LARA (director SARH), BAQUEIRO (empresario), BARRERA VILLAMONTE (hoteles, milpa, apicultura).",
+        "fuente_exacta": "Schüren FU Berlin, 17_biblio.pdf"
+      }
+    ]
+  },
+
+  "pdf_06": {
+    "archivo": "700747-5268499-1-PB.pdf",
+    "tipo": "Artículo histórico en ruso",
+    "autor": "Iván Nikítovich Kosichenko",
+    "institucion": "Centro Mesoamericano Yuri Knórosov, RGGU Moscú",
+    "publicacion": "Латинская Америка, №2, 2025, pp. 87-101",
+    "tema": "Voluntarios mayas en la Guardia Nacional de Yucatán (1847-1851)",
+    "hallazgos": [
+      {
+        "id": "H026",
+        "tipo": "dato_clave",
+        "dato": "Documento clave del AGEY: 'Relación de los indígenas de Bolonchenticul que considera acreedores de que se les libre sus credenciales de hidalgos'. (AGEY, Poder Ejecutivo, Comandancia militar de Yucatán, milicia, caja 169, vol. 119, exp. 24). Este es el documento que confirma los 7 mayas de Bolonchenticul.",
+        "fuente_exacta": "Kosichenko 2025, referencia 37 al AGEY"
+      },
+      {
+        "id": "H027",
+        "tipo": "contexto_juridico",
+        "dato": "El gobierno yucateco PROHIBIÓ a los indios poseer armas o servir en el ejército desde el inicio de la guerra (1847). Sin embargo, reconoció a quienes se presentaron voluntariamente y prometió el título de hidalgo con privilegios fiscales si permanecían hasta el fin de la guerra.",
+        "fuente_exacta": "Kosichenko 2025"
+      },
+      {
+        "id": "H028",
+        "tipo": "metodologia_identidad",
+        "dato": "Método de identificación de indígenas en documentos históricos del siglo XIX: el apellido maya es el marcador más confiable de pertenencia al grupo jurídico 'indios' (basado en Dumont). Los apellidos como Dzul, Ku, Balam, Chan, Canche, Ek = mayas.",
+        "fuente_exacta": "Kosichenko 2025 (citando Dumont)"
+      }
+    ]
+  },
+
+  "pdf_07": {
+    "archivo": "Hispadoc-ElProcesoNarrativoDeHernanLaraZavala-9494632.pdf",
+    "tipo": "Artículo crítico literario",
+    "autor": "Miguel G. Rodríguez Lozano",
+    "institucion": "Instituto de Investigaciones Filológicas, UNAM",
+    "tema": "El proceso narrativo de Hernán Lara Zavala",
+    "hallazgos": [
+      {
+        "id": "H029",
+        "tipo": "dato_biografico",
+        "dato": "Hernán Lara Zavala nació en 1946 en la Ciudad de México (NO en Hopelchén). Pasó tiempo en 'la ciudad de su padre: Campeche'. Publicó su primer libro De Zitilchén en 1981.",
+        "fuente_exacta": "Rodríguez Lozano, HISPADOC"
+      },
+      {
+        "id": "H030",
+        "tipo": "cita_lara_zavala",
+        "dato": "Lara Zavala declaró: 'Yo nací y crecí en la ciudad de México, pero tuve esa veta por la frecuencia de mis viajes [a la Península]'. También: 'Yo no quería caer en lo que estaban haciendo los compañeros de mi generación (la novela urbana de Narvarte, San Rafael...)'.",
+        "fuente_exacta": "Rodríguez Lozano, HISPADOC (citando Torres, 'Esta narrativa', p. 142)"
+      },
+      {
+        "id": "H031",
+        "tipo": "obras_completas",
+        "dato": "Obras de Lara Zavala al momento del artículo: tres libros de cuentos (De Zitilchén, El mismo cielo, Después del amor), una novela (Charras), dos libros de ensayo (Las novelas en el Quijote, Contra el ángel).",
+        "fuente_exacta": "Rodríguez Lozano, HISPADOC"
+      }
+    ]
+  },
+
+  "pdf_08": {
+    "archivo": "Dos mil años de silencio.pdf",
+    "tipo": "Libro publicado — obra propia de Daniela Naraai Caamal Aké",
+    "autor": "Daniela Naraaí Caamal Aké",
+    "paginas": 173,
+    "doi": "https://doi.org/10.5281/zenodo.19140910",
+    "fecha_creacion": "20 marzo 2026",
+    "estructura": [
+      "Intro: El pueblo que no sabe lo que sabe",
+      "I: El mundo Chenes antes de la conquista (500 a.C.–1000 d.C.)",
+      "II: La conquista y el siglo del casi olvido (1517-1800)",
+      "III: El siglo de las haciendas y los apellidos que no se van (1800-1910)",
+      "IV: El chicle, la música y la memoria (1910-1960)",
+      "V: La ciudad, el apellido que no se va y la historia que se compra (1959-2024)",
+      "VI: El yeso, las abejas y los menonitas: la extracción sin fin (siglo XXI)",
+      "VII–XXI: Educación, sociedad, política, prensa, disidentes, partidos",
+      "Conclusión: Hopelchén, el Macondo de Campeche"
+    ],
+    "hallazgos": [
+      {
+        "id": "H032",
+        "tipo": "personaje_contemporaneo",
+        "dato": "Emilio Lara Calderón: alcalde de Hopelchén. El 7 de enero de 2023, 20 agentes irrumpieron a las 4:30 AM en su casa por investigación de secuestro. En 2024, la Auditoría Superior de Campeche determinó que desvió más de 9 millones de pesos destinados a juntas municipales de Bolonchén, Ukum y Dzibalchén. Luego solicitó licencia y se candidateó a diputado federal plurinominal por el PRI con el apoyo de 'Alito' Moreno Cárdenas.",
+        "fuente_exacta": "Daniela Naraai, Dos mil años de silencio, p. 30"
+      },
+      {
+        "id": "H033",
+        "tipo": "personaje_contemporaneo",
+        "dato": "Hiram Aranda Calderón: alcalde de Hopelchén (sucesor). En noviembre de 2025, Edward Manuel Poot Yeh presentó denuncia formal ante la Fiscalía Anticorrupción por despojo, manipulación del catastro y falsificación de documentos. La acusación: títulos de propiedad duplicados para despojar a Poot Yeh de un terreno que pagaba desde 2006. Respuesta del alcalde: contradenuncia por calumnias.",
+        "fuente_exacta": "Daniela Naraai, Dos mil años de silencio, p. 31"
+      },
+      {
+        "id": "H034",
+        "tipo": "personaje_contemporaneo",
+        "dato": "Edward Manuel Poot Yeh: maestro. Víctima de despojo catastral por el ayuntamiento de Hopelchén (2025). Presentó denuncia formal. También mencionado en el contexto de prensa: sus preguntas ignoradas por la pseudoprensa local.",
+        "fuente_exacta": "Daniela Naraai, Dos mil años de silencio, pp. 31, 101"
+      },
+      {
+        "id": "H035",
+        "tipo": "dato_maler_nuevo",
+        "dato": "Maler visitó: Dzehkabtún en 1887, Hochob en 1887, Nocuchich en 1889, Tabasqueño, Dzibilnocac y Santa Rosa Xtampak (entre 1886 y 1892). El Nachlass Maler en IAI Berlín: más de 2,700 fotografías, 15 libretas de campo, 145 bocetos y planos, ~370 páginas de notas. Digitalizados en 2018: digital.iai.spk-berlin.de. La exposición 'Tras los pasos de Teobert Maler' llegó a Campeche capital en octubre de 2025. Hopelchén NO fue informado.",
+        "fuente_exacta": "Daniela Naraai, Dos mil años de silencio, p. 32"
+      },
+      {
+        "id": "H036",
+        "tipo": "dato_nuevo_arqueologia",
+        "dato": "Proyecto arqueológico Dzehkabtún: dirigido desde Berlín por la Dra. Iken Paap, con codirección mexicana de Antonio Benavides Castillo. Publicaciones en Routledge y revistas especializadas internacionales. Los habitantes a 8 km del sitio no saben que ese trabajo existe.",
+        "fuente_exacta": "Daniela Naraai, Dos mil años de silencio, p. 32"
+      },
+      {
+        "id": "H037",
+        "tipo": "dato_menonitas",
+        "dato": "Colonización menonita en Hopelchén: iniciada en los años 1980 con la Colonia Nuevo Progreso. Aproximadamente 7,000 menonitas habitan hoy la zona. Entre 2015 y 2022, PROFEPA abrió 69 procedimientos por cambio ilegal de uso de suelo en Hopelchén — más que en cualquier otro municipio de Campeche.",
+        "fuente_exacta": "Daniela Naraai, Dos mil años de silencio, p. 34"
+      },
+      {
+        "id": "H038",
+        "tipo": "dato_abejas",
+        "dato": "Muerte de colmenas por plaguicidas: en enero de 2024, murieron al menos 800 colmenas en San Francisco Suc-Tuc y Crucero de Oxá. En marzo de 2023, habían muerto 4,800 colmenas. Hopelchén es el PRIMER PRODUCTOR DE MIEL de Campeche. Su feria se llama 'Feria de la Miel y el Maíz'.",
+        "fuente_exacta": "Daniela Naraai, Dos mil años de silencio, p. 34"
+      },
+      {
+        "id": "H039",
+        "tipo": "dato_yeso",
+        "dato": "Yeso en Hopelchén: depósitos documentados por el Servicio Geológico Mexicano (yeso fibroso, granular, masivo). El depósito más grande, cerca de Dzibalchén y Chencoh: potencial estimado de 26 millones de metros cúbicos. Sale del municipio. No queda en él.",
+        "fuente_exacta": "Daniela Naraai, Dos mil años de silencio, p. 33"
+      },
+      {
+        "id": "H040",
+        "tipo": "personaje_disidente",
+        "dato": "Efraín 'El Charras' Calderón Lara: hijo del sistema que combatió al sistema. Organizó 9 sindicatos en un año. La noche del 13 de febrero de 1974 fue un evento clave. Lideró una huelga que duró 73 días. Hoy existe el 'Paseo Efraín Calderón' en Hopelchén — 'la ironía más perfecta de Hopelchén'.",
+        "fuente_exacta": "Daniela Naraai, Dos mil años de silencio, cap. XIV, p. 116-123"
+      },
+      {
+        "id": "H041",
+        "tipo": "archivo_genealogico",
+        "dato": "Registros parroquiales de San Antonio de Padua de Hopelchén desde 1852 están disponibles en FamilySearch.org (catalog/500346). Informe de obispos de 1782: 1,463 personas vivían en Hopelchén y NINGUNA hablaba español.",
+        "fuente_exacta": "Daniela Naraai, Dos mil años de silencio, p. 40"
+      },
+      {
+        "id": "H042",
+        "tipo": "haciendas",
+        "dato": "Haciendas mencionadas en la memoria viva: Hacienda Holcatzín y Hacienda Santa Rita. Abuelos que vienen de los ranchos de Boxol y Yaxché conocen esa historia. Los apellidos Lara eran los patrones antes de ser presidentes municipales.",
+        "fuente_exacta": "Daniela Naraai, Dos mil años de silencio, p. 40"
+      },
+      {
+        "id": "H043",
+        "tipo": "proyeccion_futuro",
+        "dato": "Proyección documentada por Daniela: En 10 años (si continúa deforestación menonita), Hopelchén habrá perdido entre 30-40% de su cobertura forestal. Las ruinas de Dzehkabtún, Hochob, Nocuchich y decenas de sitios no explorados serán convertidas en campos de transgénicos. En 20 años, el agua de los cinco pozos podría ser inutilizable por agroquímicos. En 30 años, si no se documenta a los abuelos, esa memoria desaparecerá.",
+        "fuente_exacta": "Daniela Naraai, Dos mil años de silencio, pp. 37-38"
+      }
+    ]
+  },
+
+  "pdf_09": {
+    "archivo": "Primeros años posrevolución Campeche.pdf",
+    "tipo": "Tesis doctoral",
+    "autor": "Ángel Omar May González",
+    "institucion": "Instituto de Investigaciones Dr. José María Luis Mora",
+    "año": 2010,
+    "paginas": 374,
+    "director": "Dra. María del Carmen Collado Herrera",
+    "tema": "La posrevolución en Campeche 1921-1929: el PSAC y la construcción del Estado",
+    "hallazgos": [
+      {
+        "id": "H044",
+        "tipo": "evento_fundacion_psac",
+        "dato": "Fundación del PSAC: inicialmente 'partido Pro-Campeche', luego en 1920 fundaron el Partido Socialista Agrario de Campeche (PSAC). Fundadores: Ramón Félix Flores, Fernando Enrique Angli Lara, Ángel Castillo Lanz, Santiago Hernández Maldonado, Ulises Sansores.",
+        "fuente_exacta": "May González 2010, p. XX (Introducción)"
+      },
+      {
+        "id": "H045",
+        "tipo": "evento_historico",
+        "dato": "1921: El PSAC se unió al Partido Socialista de Yucatán (de Felipe Carrillo Puerto) para formar el Partido Socialista del Sureste — durante el Segundo Congreso Obrero en Izamal.",
+        "fuente_exacta": "May González 2010, p. XXI"
+      },
+      {
+        "id": "H046",
+        "tipo": "personaje_historico",
+        "dato": "Ramón Félix Flores: gobernador de Campeche noviembre 1921 a 1923. Primer gobierno del PSAC. Desarrolló ligas de resistencia como bases de poder.",
+        "fuente_exacta": "May González 2010, Capítulo III"
+      },
+      {
+        "id": "H047",
+        "tipo": "personaje_historico",
+        "dato": "Ángel Castillo Lanz: gobernador de Campeche 1923-1927 (Champotón). Se convirtió en 'hombre fuerte' de Campeche. Trabajó para adhesión del PSAC al PNR. Su dominio político duró hasta 1939.",
+        "fuente_exacta": "May González 2010, Capítulo IV-VI"
+      },
+      {
+        "id": "H048",
+        "tipo": "periodicos_epoca",
+        "dato": "Periódicos que cubrían Campeche en 1921-1929: Rojo Amanecer (vocero oficial PSAC), Periódico Oficial del Estado, El Diario del Sureste (periodismo independiente, solo existe para 1925), La Revista de Yucatán, Diario de Yucatán, El Universal, Excélsior, El Demócrata.",
+        "fuente_exacta": "May González 2010, p. XVI-XVII"
+      },
+      {
+        "id": "H049",
+        "tipo": "fotografia_historica",
+        "dato": "Fotografía incluida en la tesis: 'Mitin político de Ángel Castillo Lanz en el Cine-Teatro Renacimiento (1927). Fotografía cortesía de Jorge Tún. Dzitbalché, Campeche.' Confirma que en 1927 había actividad política documentada en Dzitbalché (municipio Hopelchén).",
+        "fuente_exacta": "May González 2010, p. 11 de la tesis"
+      },
+      {
+        "id": "H050",
+        "tipo": "contexto_historico",
+        "dato": "El socialismo campechano propuso: incorporación de masas populares (corporativismo), atención a problemática social sin perjudicar economía, creación de pequeña propiedad, colaboración de clases antes que enfrentamiento. Era 'socialismo que buscaba la cooperación'. El reparto agrario en Campeche fue mucho menor que en otras partes del país.",
+        "fuente_exacta": "May González 2010, p. XXII"
+      }
+    ]
+  },
+
+  "pdf_10": {
+    "archivo": "PfDyihmsiwwUWFBtCnsyA0NQSQWxzbwjwYYhtPJx.pdf",
+    "tipo": "Antología literaria",
+    "editorial": "ADO GL / Para Leer en Libertad A.C.",
+    "año": 2012,
+    "autores_incluidos": ["Óscar de la Borbolla", "Josefina Estrada", "Saúl Ibargoyen", "Hernán Lara Zavala", "Vicente Leñero", "Rosa Nissán", "Ignacio Padilla", "Elisa Ramírez", "José Luis Zárate"],
+    "hallazgos": [
+      {
+        "id": "H051",
+        "tipo": "texto_lara_zavala",
+        "dato": "Hernán Lara Zavala incluido en la Antología ADO GL 4 (2012) con el texto 'El infierno tan temido' (pp. 41-54). Confirma su actividad literaria activa en 2012.",
+        "fuente_exacta": "Antología ADO GL 4, 2012, índice"
+      }
+    ]
+  }
+}

@@ -1,0 +1,452 @@
+{
+  "META": {
+    "nombre": "Personajes Históricos Hopelchén — Expansión con PDFs",
+    "fecha": "2026-03-22",
+    "version": "2.0",
+    "nuevos_personajes": 15,
+    "fuentes": "PDFs procesados en sesión 2026-03-22"
+  },
+
+  "personajes_nuevos": [
+    {
+      "id": "P031",
+      "nombre": "Emilio Lara Calderón",
+      "tipo": "contemporaneo-politico",
+      "periodo": "activo 2020s",
+      "origen": "Hopelchén, Campeche",
+      "rol": ["Alcalde de Hopelchén"],
+      "hechos_clave": [
+        "Alcalde de Hopelchén — gobierno en ejercicio hasta 2023",
+        "7 enero 2023: 20 agentes de la Agencia Estatal de Investigaciones irrumpieron a las 4:30 AM en su casa por investigación de secuestro",
+        "2024: Auditoría Superior del Estado de Campeche determinó que desvió más de 9 millones de pesos destinados a juntas municipales de Bolonchén, Ukum y Dzibalchén",
+        "Solicitó licencia definitiva del cargo para candidatearse como diputado federal plurinominal por el PRI",
+        "Favorecido por Alejandro 'Alito' Moreno Cárdenas (dirigente nacional PRI)"
+      ],
+      "conexion_historica": "El apellido Calderón lleva décadas en el poder político de Hopelchén. El Charras (Efraín Calderón Lara) combatió al sistema desde adentro. Emilio Lara Calderón lo perpetúa.",
+      "fuentes": ["Daniela Naraai — Dos mil años de silencio (2026), p. 30"]
+    },
+    {
+      "id": "P032",
+      "nombre": "Hiram Aranda Calderón",
+      "tipo": "contemporaneo-politico",
+      "periodo": "activo 2025",
+      "origen": "Hopelchén, Campeche",
+      "rol": ["Alcalde de Hopelchén (sucesor de Emilio Lara Calderón)"],
+      "hechos_clave": [
+        "Alcalde de Hopelchén en 2025",
+        "Noviembre 2025: Edward Manuel Poot Yeh presentó denuncia formal ante la Fiscalía Anticorrupción por despojo, manipulación catastral y falsificación de documentos",
+        "Acusación: su equipo generó títulos de propiedad duplicados para despojar a Poot Yeh de un terreno que pagaba desde 2006",
+        "Respuesta: interpuso una contradenuncia por calumnias contra el ciudadano que lo denunció"
+      ],
+      "fuentes": ["Daniela Naraai — Dos mil años de silencio (2026), p. 31"]
+    },
+    {
+      "id": "P033",
+      "nombre": "Edward Manuel Poot Yeh",
+      "tipo": "contemporaneo-disidente",
+      "periodo": "activo 2025",
+      "origen": "Hopelchén, Campeche",
+      "rol": ["Maestro", "Denunciante de corrupción catastral"],
+      "hechos_clave": [
+        "Maestro en Hopelchén",
+        "Noviembre 2025: presentó denuncia formal ante la Fiscalía Anticorrupción contra el alcalde Hiram Aranda Calderón por despojo y manipulación catastral",
+        "Pagaba impuestos de su terreno desde 2006 — se lo despojaron mediante títulos duplicados",
+        "Sus preguntas al alcalde ignoradas por la prensa local (pseudoprensa)"
+      ],
+      "conexion_historica": "Apellido Poot Yeh — apellido maya. El mismo patrón de despojo documentado desde el siglo XIX (Barrera, haciendas, Porfiriato) continúa en 2025 con instrumentos modernos (catastro digital).",
+      "fuentes": ["Daniela Naraai — Dos mil años de silencio (2026), pp. 31, 101"]
+    },
+    {
+      "id": "P034",
+      "nombre": "Efraín 'El Charras' Calderón Lara",
+      "tipo": "historico-disidente",
+      "periodo": "activo 1970s",
+      "origen": "Hopelchén, Campeche",
+      "rol": ["Sindicalista", "Disidente", "Hijo del sistema que combatió al sistema"],
+      "hechos_clave": [
+        "Apellido: Calderón Lara — lleva el peso de los dos apellidos del poder de Hopelchén",
+        "Organizó 9 sindicatos en un año en Hopelchén",
+        "13 de febrero de 1974: noche clave en su historia (detalles pendientes de documentar)",
+        "Lideró una huelga que duró 73 días",
+        "Hoy existe el 'Paseo Efraín Calderón' en Hopelchén — Daniela lo llama 'la ironía más perfecta de Hopelchén'"
+      ],
+      "conexion_historica": "Efraín Calderón Lara combatió al sistema PRI que su propio apellido familiar representaba. El MISMO apellido que Emilio Lara Calderón (alcalde acusado de corrupción) y Raimundo Calderón Lara (comerciante entrevistado por Schüren).",
+      "fuentes": ["Daniela Naraai — Dos mil años de silencio (2026), pp. 116-123"]
+    },
+    {
+      "id": "P035",
+      "nombre": "Iken Paap",
+      "tipo": "investigador-internacional",
+      "periodo": "activo 2010s-2020s",
+      "origen": "Alemania — Berlín",
+      "rol": ["Arqueóloga", "Directora del proyecto Dzehkabtún (desde Berlín)"],
+      "hechos_clave": [
+        "Dirige el proyecto arqueológico Dzehkabtún desde Berlín",
+        "Codirección mexicana: Antonio Benavides Castillo",
+        "Publicaciones en Routledge (editorial más prestigiosa del mundo) y revistas especializadas internacionales",
+        "Los habitantes a 8 km del sitio no saben que ese trabajo existe"
+      ],
+      "fuentes": ["Daniela Naraai — Dos mil años de silencio (2026), p. 32"]
+    },
+    {
+      "id": "P036",
+      "nombre": "Antonio Benavides Castillo",
+      "tipo": "investigador",
+      "periodo": "activo 2010s-2020s",
+      "origen": "México",
+      "rol": ["Arqueólogo", "Codirector mexicano del proyecto Dzehkabtún"],
+      "fuentes": ["Daniela Naraai — Dos mil años de silencio (2026), p. 32"]
+    },
+    {
+      "id": "P037",
+      "nombre": "Ramón Félix Flores",
+      "tipo": "historico-politico",
+      "periodo": "activo 1919-1939+",
+      "origen": "Campeche",
+      "rol": [
+        "Primer gobernador del PSAC en Campeche (noviembre 1921–1923)",
+        "Fundador del Comité Obregonista estatal (1919)",
+        "Hombre fuerte del socialismo campechano"
+      ],
+      "hechos_clave": [
+        "Cofundó el PSAC en 1920 junto con Castillo Lanz, Angli Lara, Hernández Maldonado",
+        "Gobernó Campeche noviembre 1921 a 1923",
+        "Desarrolló ligas de resistencia como base de poder",
+        "Su gobierno fue interrumpido por la rebelión delahuertista de 1923",
+        "Bajo la influencia de Felipe Carrillo Puerto (Partido Socialista del Sureste)"
+      ],
+      "fuentes": ["May González 2010, Tesis Instituto Mora"]
+    },
+    {
+      "id": "P038",
+      "nombre": "Ángel Castillo Lanz",
+      "tipo": "historico-politico",
+      "periodo": "1923-1939",
+      "origen": "Champotón, Campeche",
+      "rol": [
+        "Gobernador de Campeche 1923-1927",
+        "Hombre fuerte detrás de los gobiernos estatales hasta 1939"
+      ],
+      "hechos_clave": [
+        "Gobernador de Campeche 1923-1927",
+        "Trabajó para la adhesión del PSAC al PNR (1929)",
+        "Acusado de traicionar el socialismo de Félix Flores y Carrillo Puerto",
+        "Su dominio político duró hasta 1939, cuando fue eliminado por el gobernador Héctor Pérez Martínez (sexenio cardenista)"
+      ],
+      "fuentes": ["May González 2010, Tesis Instituto Mora"]
+    },
+    {
+      "id": "P039",
+      "nombre": "Manuel Antonio Ay Tec",
+      "tipo": "historico-militar-maya",
+      "periodo": "c. 1810-1847",
+      "origen": "Chichimilá, Yucatán",
+      "rol": ["Caudillo maya", "Primer represaliado de la Guerra de Castas"],
+      "hechos_clave": [
+        "Caudillo maya de Chichimilá",
+        "Ahorcado el 25 de julio de 1847 por el juez de Valladolid al descubrir una carta de Cecilio Chí en la que planeaban atacar una población blanca",
+        "Últimas palabras a su hijo: 'Voy a morir hijo mío, por haberme comprometido incautamente en una gran guerra que pronto deberá estallar contra los blancos... no vayas a tomar parte en la guerra que va a destrozar el país'",
+        "Su ejecución fue el detonante de la rebelión maya generalizada"
+      ],
+      "fuentes": [
+        "Vadillo Buenfil 2017 (citando Baqueiro 1990a, p. 229)",
+        "Piña Laynes 2017 (citando Lara, 2008, p. 85)"
+      ]
+    },
+    {
+      "id": "P040",
+      "nombre": "Cecilio Chí",
+      "tipo": "historico-militar-maya",
+      "periodo": "siglo XIX",
+      "origen": "Yucatán",
+      "rol": ["Líder maya — Guerra de Castas"],
+      "hechos_clave": [
+        "Uno de los tres grandes líderes que iniciaron la rebelión maya",
+        "La carta de Chí encontrada a Manuel Antonio Ay Tec detonó la ejecución de Ay y la rebelión generalizada"
+      ],
+      "fuentes": ["Piña Laynes 2017", "Vadillo Buenfil 2017"]
+    },
+    {
+      "id": "P041",
+      "nombre": "Jacinto Pat",
+      "tipo": "historico-militar-maya",
+      "periodo": "siglo XIX",
+      "origen": "Yucatán",
+      "rol": ["Líder maya — Guerra de Castas"],
+      "hechos_clave": [
+        "Uno de los tres grandes líderes de la rebelión maya (junto con Cecilio Chí y Manuel Antonio Ay)",
+        "En la novela Península Península: en entrevista con el padre Vela, Jacinto Pat respondió al discurso de Sierra O'Reilly: 'Ustedes han abusado de nosotros desde siempre... hasta que nos necesitaron fue que nos dieron armas'"
+      ],
+      "fuentes": ["Piña Laynes 2017 (citando Lara, 2008, p. 173)"]
+    },
+    {
+      "id": "P042",
+      "nombre": "Ramón Berzunza Pinto",
+      "tipo": "historico-cultural",
+      "periodo": "activo 1993-1998 (en tesis Schüren)",
+      "origen": "Mérida / Dzitbalché",
+      "rol": [
+        "Historiador",
+        "Activista del movimiento de maestros rurales de Campeche",
+        "Exfuncionario de gobierno"
+      ],
+      "hechos_clave": [
+        "Entrevistado múltiples veces por Ute Schüren (1994-1998) en Mérida, Hopelchén y Dzitbalché",
+        "Conocedor profundo de la historia política de Los Chenes y Campeche"
+      ],
+      "fuentes": ["Schüren FU Berlin, 17_biblio.pdf"]
+    },
+    {
+      "id": "P043",
+      "nombre": "Manuel Barrera Villamonte",
+      "tipo": "historico-local",
+      "periodo": "activo 1994-1995",
+      "origen": "Hopelchén, Campeche",
+      "rol": ["Empleado de hotel", "Milpero", "Apicultor"],
+      "hechos_clave": [
+        "Entrevistado 7 veces por Schüren (agosto 1994 – mayo 1995)",
+        "Apellido Barrera — rama del mismo apellido histórico de Hopelchén en el sector popular"
+      ],
+      "fuentes": ["Schüren FU Berlin, 17_biblio.pdf"]
+    },
+    {
+      "id": "P044",
+      "nombre": "José Demetrio Duran Caamal",
+      "tipo": "historico-local",
+      "periodo": "activo 1996",
+      "origen": "Dzibalchén, municipio de Hopelchén",
+      "rol": ["Ex chiclero de Dzibalchén"],
+      "hechos_clave": [
+        "Entrevistado por Schüren el 12.3.1996 en Dzibalchén",
+        "Ex chiclero — testigo directo de la economía chiclera de Los Chenes",
+        "Apellido Caamal — el mismo apellido de Francisco Caamal, comandante maya de 1848"
+      ],
+      "fuentes": ["Schüren FU Berlin, 17_biblio.pdf"]
+    },
+    {
+      "id": "P045",
+      "nombre": "Raimundo Calderón Lara",
+      "tipo": "historico-local",
+      "periodo": "activo 1994-1995",
+      "origen": "Hopelchén, Campeche",
+      "rol": ["Comerciante"],
+      "hechos_clave": [
+        "Entrevistado 4 veces por Schüren (1994-1995)",
+        "Lleva apellido compuesto CALDERÓN LARA — los dos apellidos del entramado del poder",
+        "Era comerciante, no político — rama 'común' de los apellidos del poder"
+      ],
+      "fuentes": ["Schüren FU Berlin, 17_biblio.pdf"]
+    }
+  ],
+
+  "eventos_nuevos": [
+    {
+      "id": "E053",
+      "fecha": "25 julio 1847",
+      "evento": "Ahorcamiento de Manuel Antonio Ay Tec — detonante de la Guerra de Castas",
+      "lugar": "Valladolid, Yucatán",
+      "descripcion": "El juez de Valladolid condena a muerte a Manuel Antonio Ay Tec al descubrir una carta de Cecilio Chí. Sus últimas palabras a su hijo: 'Voy a morir hijo mío, por haberme comprometido incautamente en una gran guerra... no vayas a tomar parte.' Su ejecución desencadenó la rebelión generalizada.",
+      "fuentes": ["Baqueiro 1990a, p. 229", "Vadillo Buenfil 2017", "Piña Laynes 2017"]
+    },
+    {
+      "id": "E054",
+      "fecha": "15 septiembre 1821",
+      "evento": "Proclamación de la independencia de España por Yucatán",
+      "lugar": "Mérida, Yucatán",
+      "descripcion": "Junta de autoridades civiles, militares y eclesiásticas proclamó la emancipación de España. Dos días después Campeche expresó su adhesión (17 sept.). Primer 'cisma en la península' entre Mérida y Campeche.",
+      "fuentes": ["Ferrer Muñoz, Ius Fugit 1999-2000"]
+    },
+    {
+      "id": "E055",
+      "fecha": "6 septiembre 1824",
+      "evento": "Primera propuesta formal de dividir la Península en dos estados",
+      "lugar": "Ciudad de México — Congreso General",
+      "descripcion": "Tres diputados propusieron dividir la Península de Yucatán en dos entidades (Campeche y Mérida). No prosperó pero fue la primera manifestación formal del conflicto que llevaría a la separación en 1857.",
+      "fuentes": ["Ferrer Muñoz, Ius Fugit 1999-2000, p. 330"]
+    },
+    {
+      "id": "E056",
+      "fecha": "Noviembre 1921",
+      "evento": "Primer gobierno del PSAC — Ramón Félix Flores gobernador de Campeche",
+      "lugar": "Campeche",
+      "descripcion": "Primer gobierno emanado del Partido Socialista Agrario de Campeche. Flores gobernó hasta 1923. Desarrolló ligas de resistencia y una política reformista moderada bajo influencia de Carrillo Puerto.",
+      "fuentes": ["May González 2010, Tesis Instituto Mora"]
+    },
+    {
+      "id": "E057",
+      "fecha": "Años 1980",
+      "evento": "Inicio de la colonización menonita en Hopelchén — Colonia Nuevo Progreso",
+      "lugar": "Hopelchén, Campeche",
+      "descripcion": "La colonización menonita en Los Chenes inició con la Colonia Nuevo Progreso en los años 1980. Hoy hay ~7,000 menonitas en la zona. Entre 2015 y 2022, PROFEPA abrió 69 procedimientos por cambio ilegal de uso de suelo en Hopelchén — más que en cualquier otro municipio de Campeche.",
+      "fuentes": ["Daniela Naraai — Dos mil años de silencio (2026), p. 34"]
+    },
+    {
+      "id": "E058",
+      "fecha": "7 enero 2023",
+      "evento": "Cateo a las 4:30 AM — casa del alcalde Emilio Lara Calderón",
+      "lugar": "Hopelchén, Campeche",
+      "descripcion": "20 agentes de la Agencia Estatal de Investigaciones irrumpen a las 4:30 de la madrugada en la casa del alcalde por investigación de secuestro.",
+      "fuentes": ["Daniela Naraai — Dos mil años de silencio (2026), p. 30"]
+    },
+    {
+      "id": "E059",
+      "fecha": "Marzo 2023",
+      "evento": "Mueren 4,800 colmenas por plaguicidas en Hopelchén",
+      "lugar": "Hopelchén, Campeche",
+      "descripcion": "4,800 colmenas murieron por plaguicidas agrícolas en el municipio.",
+      "fuentes": ["Daniela Naraai — Dos mil años de silencio (2026), p. 34"]
+    },
+    {
+      "id": "E060",
+      "fecha": "2024",
+      "evento": "Auditoría documenta desvío de 9 millones de pesos — exalcalde Emilio Lara Calderón",
+      "lugar": "Campeche / Hopelchén",
+      "descripcion": "La Auditoría Superior del Estado de Campeche determina que el exalcalde Emilio Lara Calderón desvió más de 9 millones de pesos destinados a las juntas municipales de Bolonchén, Ukum y Dzibalchén — las comunidades más alejadas y vulnerables del municipio.",
+      "fuentes": ["Daniela Naraai — Dos mil años de silencio (2026), p. 30"]
+    },
+    {
+      "id": "E061",
+      "fecha": "Enero 2024",
+      "evento": "Mueren 800 colmenas en San Francisco Suc-Tuc y Crucero de Oxá",
+      "lugar": "San Francisco Suc-Tuc y Crucero de Oxá, municipio Hopelchén",
+      "descripcion": "Al menos 800 colmenas murieron por plaguicidas agrícolas — continuación del patrón documentado en 2023.",
+      "fuentes": ["Daniela Naraai — Dos mil años de silencio (2026), p. 34"]
+    },
+    {
+      "id": "E062",
+      "fecha": "Octubre 2025",
+      "evento": "Exposición de Teobert Maler llega a Campeche capital — NO a Hopelchén",
+      "lugar": "Campeche capital",
+      "descripcion": "La exposición 'Tras los pasos de Teobert Maler' (inaugurada en Berlín octubre 2024) llega a Campeche capital en octubre de 2025. Hopelchén — el municipio que Maler documentó — no fue informado.",
+      "fuentes": ["Daniela Naraai — Dos mil años de silencio (2026), p. 32"]
+    },
+    {
+      "id": "E063",
+      "fecha": "Noviembre 2025",
+      "evento": "Denuncia formal contra alcalde Hiram Aranda Calderón por despojo catastral",
+      "lugar": "Hopelchén, Campeche",
+      "descripcion": "Edward Manuel Poot Yeh presenta denuncia ante la Fiscalía Anticorrupción por manipulación del catastro. El alcalde responde con contradenuncia por calumnias.",
+      "fuentes": ["Daniela Naraai — Dos mil años de silencio (2026), p. 31"]
+    }
+  ],
+
+  "lugares_nuevos": [
+    {
+      "id": "L019",
+      "nombre": "Dzehkabtún",
+      "tipo": "zona arqueológica",
+      "estado": "Campeche — municipio de Hopelchén",
+      "descripcion": "Sitio arqueológico visitado por Teobert Maler en 1887. Objeto del proyecto arqueológico Dzehkabtún dirigido por la Dra. Iken Paap (Berlín) y Antonio Benavides Castillo. Publicaciones en Routledge. Los habitantes a 8 km no saben de estas investigaciones.",
+      "fuentes": ["Daniela Naraai — Dos mil años de silencio (2026), p. 32"]
+    },
+    {
+      "id": "L020",
+      "nombre": "Nocuchich",
+      "tipo": "zona arqueológica",
+      "estado": "Campeche — municipio de Hopelchén",
+      "descripcion": "Sitio arqueológico visitado por Teobert Maler en 1889. Mencionado en la lista de sitios que pueden desaparecer por la deforestación menonita.",
+      "fuentes": ["Daniela Naraai — Dos mil años de silencio (2026), pp. 32, 38"]
+    },
+    {
+      "id": "L021",
+      "nombre": "Tabasqueño",
+      "tipo": "zona arqueológica",
+      "estado": "Campeche — municipio de Hopelchén",
+      "descripcion": "Sitio arqueológico visitado por Teobert Maler. Parte del corpus de sitios cheneros documentados por Maler.",
+      "fuentes": ["Daniela Naraai — Dos mil años de silencio (2026), p. 32"]
+    },
+    {
+      "id": "L022",
+      "nombre": "San Francisco Suc-Tuc",
+      "tipo": "comunidad",
+      "estado": "Campeche — municipio de Hopelchén",
+      "descripcion": "Comunidad del municipio. En enero de 2024, murieron 800 colmenas por plaguicidas. Mencionada en la tesis de Schüren (1998) como San Francisco Suctuc.",
+      "fuentes": ["Daniela Naraai 2026", "Schüren FU Berlin 17_biblio.pdf"]
+    },
+    {
+      "id": "L023",
+      "nombre": "Crucero de Oxá",
+      "tipo": "comunidad",
+      "estado": "Campeche — municipio de Hopelchén",
+      "descripcion": "Comunidad del municipio. En enero de 2024, murieron 800 colmenas por plaguicidas agrícolas junto con San Francisco Suc-Tuc.",
+      "fuentes": ["Daniela Naraai — Dos mil años de silencio (2026), p. 34"]
+    },
+    {
+      "id": "L024",
+      "nombre": "Colonia Nuevo Progreso",
+      "tipo": "colonia-menonita",
+      "estado": "Campeche — municipio de Hopelchén",
+      "descripcion": "Primera colonia menonita en Los Chenes, fundada en los años 1980. Punto de inicio de la transformación agroindustrial del municipio que llevó a 7,000 menonitas habitando la zona actualmente.",
+      "fuentes": ["Daniela Naraai — Dos mil años de silencio (2026), p. 34"]
+    },
+    {
+      "id": "L025",
+      "nombre": "Archivo Histórico de la Diócesis de Campeche",
+      "tipo": "archivo-institución",
+      "descripcion": "Contiene fondos parroquiales del siglo XVIII de Hopelchén. Incluye reportes de obispos que visitaron Hopelchén en 1782 y documentaron que 1,463 personas vivían ahí y NINGUNA hablaba español.",
+      "fuentes": ["Daniela Naraai — Dos mil años de silencio (2026), p. 40"]
+    },
+    {
+      "id": "L026",
+      "nombre": "Rancho Boxol",
+      "tipo": "rancho-comunidad",
+      "estado": "Campeche — municipio de Hopelchén",
+      "descripcion": "Rancho del municipio de Hopelchén. Mencionado como lugar donde viven abuelos que conocen la historia oral de las haciendas y el período posrevolucionario.",
+      "fuentes": ["Daniela Naraai — Dos mil años de silencio (2026), p. 38"]
+    }
+  ],
+
+  "terminos_nuevos": [
+    {
+      "id": "TM024",
+      "termino": "Hidalgo",
+      "significado": "Título nobiliario español con privilegios fiscales",
+      "contexto": "En 1849, 7 mayas de Bolonchenticul que combatieron del lado del gobierno yucateco recibieron 'credenciales de hidalgos' con privilegios fiscales. El gobierno prometió este título a los voluntarios mayas que permanecieran hasta el fin de la guerra.",
+      "fuentes": ["Kosichenko 2025", "Ferrer Muñoz 1999-2000"]
+    },
+    {
+      "id": "TM025",
+      "termino": "Ligas de resistencia",
+      "significado": "Organizaciones sociales y políticas del PSAC para movilizar y controlar las bases populares en Campeche posrevolucionario",
+      "contexto": "Base de poder del gobierno socialista campechano (1921-1929). Conectaban al gobierno con campesinos y trabajadores. Ramón Félix Flores las desarrolló como instrumentos de poder.",
+      "fuentes": ["May González 2010"]
+    },
+    {
+      "id": "TM026",
+      "termino": "Macondo de Campeche",
+      "significado": "Metáfora de Hopelchén como pueblo condenado a repetir sus ciclos históricos sin aprender",
+      "contexto": "Daniela Naraai usa esta metáfora de García Márquez para describir Hopelchén: 'las mismas guerras se repiten, los mismos coroneles heredan los mismos vicios, la historia avanza en círculos perfectos'.",
+      "fuentes": ["Daniela Naraai — Dos mil años de silencio (2026), p. 36-37"]
+    },
+    {
+      "id": "TM027",
+      "termino": "Cruzoob",
+      "significado": "En maya: 'las cruces'. Nombre de los mayas rebeldes que mantenían el culto de la Cruz Parlante durante y después de la Guerra de Castas. También llamados 'mayas pacíficos' en algunos documentos.",
+      "contexto": "Los Cruzoob mantuvieron su resistencia en el oriente de la Península (hoy Quintana Roo) hasta principios del siglo XX. Miguel Ángel Suárez Caamal los protagoniza en su novela La rebelión de los Cruzoob (1997).",
+      "fuentes": ["Vadillo Buenfil 2017"]
+    }
+  ],
+
+  "correcciones_nuevas": [
+    {
+      "error": "Hernán Lara Zavala nació en 1942",
+      "correcto": "Nació en 1946 (según Rodríguez Lozano, HISPADOC). La fecha 1942 circula en otras fuentes. Verificar con acta.",
+      "fuente": "Rodríguez Lozano — HISPADOC"
+    },
+    {
+      "error": "De Zitilchén FCE 2012 es primera edición",
+      "correcto": "Primera edición: 1981. FCE 2012 es reedición.",
+      "fuente": "Piña Laynes 2017; Rodríguez Lozano HISPADOC"
+    },
+    {
+      "error": "Charras Alfaguara 2022 es primera edición",
+      "correcto": "Primera edición: 1990. Alfaguara 2022 es reedición.",
+      "fuente": "Piña Laynes 2017"
+    },
+    {
+      "error": "Premio Alfaguara de Península Península se llama 'Premio RAE'",
+      "correcto": "El premio correcto es Premio Alfaguara 2010.",
+      "fuente": "Piña Laynes 2017"
+    }
+  ]
+}
