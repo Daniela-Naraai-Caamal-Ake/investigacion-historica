@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
 """
-Analizador de Datos Históricos en formato JSON
-===============================================
+Analizador de Datos Históricos en formato JSON, Markdown y PDF
+===============================================================
 Herramienta para cargar, explorar y analizar colecciones de datos históricos
-almacenados en archivos JSON.
+almacenados en archivos JSON, Markdown y PDF.
 
 Uso:
     python analizador.py                        # Analiza todos los archivos en datos/
     python analizador.py archivo.json           # Analiza un archivo específico
     python analizador.py --buscar "término"     # Busca un término en todos los datos
     python analizador.py --reporte              # Genera un reporte completo en reportes/
+    python analizador.py --periodos             # Extrae y organiza todo por período histórico
 """
 
 import argparse
