@@ -17,6 +17,8 @@ from utilidades import (
     cargar_json,
     cargar_markdown,
     contar_por_campo,
+    detectar_duplicados,
+    exportar_csv,
     extraer_citas_textos_contextos,
     extraer_texto_pdf,
     filtrar_por_campo,
@@ -25,6 +27,7 @@ from utilidades import (
     listar_archivos_json,
     listar_archivos_md,
     listar_archivos_pdf,
+    normalizar_id_fuente,
     obtener_campo_principal,
     ordenar_por_fecha,
     parsear_fecha,
@@ -638,6 +641,206 @@ class TestAgruparCitasPorCategoria(unittest.TestCase):
 
     def test_lista_vacia(self):
         self.assertEqual(agrupar_citas_por_categoria([]), {})
+
+
+# ---------------------------------------------------------------------------
+# Pruebas de normalizar_id_fuente
+# ---------------------------------------------------------------------------
+
+class TestNormalizarIdFuente(unittest.TestCase):
+
+    def test_detecta_fids_simples(self):
+        ids = normalizar_id_fuente("Según [F001] y F023, el evento ocurrió.")
+        self.assertIn("F001", ids)
+        self.assertIn("F023", ids)
+
+    def test_detecta_fxids(self):
+        ids = normalizar_id_fuente("Ver FX003 y FX012 para más detalle.")
+        self.assertIn("FX003", ids)
+        self.assertIn("FX012", ids)
+
+    def test_normaliza_a_mayusculas(self):
+        ids = normalizar_id_fuente("f001 y fx002")
+        self.assertIn("F001", ids)
+        self.assertIn("FX002", ids)
+
+    def test_sin_duplicados(self):
+        ids = normalizar_id_fuente("F001 aparece aquí y F001 también aquí.")
+        self.assertEqual(ids.count("F001"), 1)
+
+    def test_texto_sin_ids(self):
+        ids = normalizar_id_fuente("Un texto sin ningún identificador de fuente.")
+        self.assertEqual(ids, [])
+
+    def test_texto_no_string(self):
+        ids = normalizar_id_fuente(None)
+        self.assertEqual(ids, [])
+
+    def test_orden_alfabetico(self):
+        ids = normalizar_id_fuente("F023, F001, FX001")
+        self.assertEqual(ids, sorted(ids))
+
+
+# ---------------------------------------------------------------------------
+# Pruebas de detectar_duplicados
+# ---------------------------------------------------------------------------
+
+class TestDetectarDuplicados(unittest.TestCase):
+
+    def test_detecta_duplicados_simples(self):
+        elementos = [
+            {"id": "001", "titulo": "A"},
+            {"id": "002", "titulo": "B"},
+            {"id": "001", "titulo": "C"},
+        ]
+        dups = detectar_duplicados(elementos, "id")
+        self.assertIn("001", dups)
+        self.assertEqual(len(dups["001"]), 2)
+
+    def test_sin_duplicados(self):
+        elementos = [
+            {"id": "001", "titulo": "A"},
+            {"id": "002", "titulo": "B"},
+        ]
+        dups = detectar_duplicados(elementos, "id")
+        self.assertEqual(dups, {})
+
+    def test_campo_inexistente_ignorado(self):
+        elementos = [{"titulo": "A"}, {"titulo": "A"}]
+        dups = detectar_duplicados(elementos, "id")
+        self.assertEqual(dups, {})
+
+    def test_lista_vacia(self):
+        dups = detectar_duplicados([], "id")
+        self.assertEqual(dups, {})
+
+    def test_todos_duplicados(self):
+        elementos = [{"cat": "x"}, {"cat": "x"}, {"cat": "x"}]
+        dups = detectar_duplicados(elementos, "cat")
+        self.assertIn("x", dups)
+        self.assertEqual(len(dups["x"]), 3)
+
+
+# ---------------------------------------------------------------------------
+# Pruebas de exportar_csv
+# ---------------------------------------------------------------------------
+
+class TestExportarCsv(unittest.TestCase):
+
+    def setUp(self):
+        self.directorio_temp = tempfile.mkdtemp()
+
+    def test_crea_archivo(self):
+        ruta = os.path.join(self.directorio_temp, "salida.csv")
+        exportar_csv(EVENTOS_PRUEBA, ruta)
+        self.assertTrue(os.path.exists(ruta))
+
+    def test_contiene_cabecera(self):
+        ruta = os.path.join(self.directorio_temp, "salida.csv")
+        exportar_csv(EVENTOS_PRUEBA, ruta)
+        with open(ruta, encoding="utf-8") as f:
+            primera_linea = f.readline()
+        self.assertIn("titulo", primera_linea)
+        self.assertIn("fecha", primera_linea)
+
+    def test_contiene_datos(self):
+        ruta = os.path.join(self.directorio_temp, "salida.csv")
+        exportar_csv(EVENTOS_PRUEBA, ruta)
+        contenido = open(ruta, encoding="utf-8").read()
+        self.assertIn("Independencia de México", contenido)
+
+    def test_lista_convertida_a_cadena(self):
+        elementos = [{"id": "1", "personajes": ["Hidalgo", "Allende"]}]
+        ruta = os.path.join(self.directorio_temp, "lista.csv")
+        exportar_csv(elementos, ruta)
+        contenido = open(ruta, encoding="utf-8").read()
+        self.assertIn("Hidalgo", contenido)
+
+    def test_error_lista_vacia(self):
+        ruta = os.path.join(self.directorio_temp, "vacio.csv")
+        with self.assertRaises(ValueError):
+            exportar_csv([], ruta)
+
+    def test_crea_directorio_si_no_existe(self):
+        ruta = os.path.join(self.directorio_temp, "subdir", "datos.csv")
+        exportar_csv(EVENTOS_PRUEBA, ruta)
+        self.assertTrue(os.path.exists(ruta))
+
+    def test_retorna_ruta(self):
+        ruta = os.path.join(self.directorio_temp, "ret.csv")
+        resultado = exportar_csv(EVENTOS_PRUEBA, ruta)
+        self.assertEqual(resultado, ruta)
+
+
+# ---------------------------------------------------------------------------
+# Pruebas del analizador — nuevos flags CLI
+# ---------------------------------------------------------------------------
+
+class TestAnalizadorNuevosFlags(unittest.TestCase):
+    """Pruebas para los nuevos modos de analizador.py: --completitud,
+    --fuentes-sin-usar y --exportar-md."""
+
+    def setUp(self):
+        self.directorio_raiz = os.path.dirname(os.path.dirname(__file__))
+        self.directorio_temp = tempfile.mkdtemp()
+        # Importar el módulo analizador con el sys.path ya configurado
+        import importlib
+        import analizador as _analizador
+        self.analizador = _analizador
+
+    def test_completitud_ejecuta_sin_error(self):
+        """mostrar_completitud() debe ejecutarse sin lanzar excepciones."""
+        import io
+        import contextlib
+        buf = io.StringIO()
+        with contextlib.redirect_stdout(buf):
+            self.analizador.mostrar_completitud()
+        salida = buf.getvalue()
+        self.assertIn("COMPLETITUD", salida)
+
+    def test_fuentes_sin_usar_ejecuta_sin_error(self):
+        """mostrar_fuentes_sin_usar() debe ejecutarse sin lanzar excepciones."""
+        import io
+        import contextlib
+        buf = io.StringIO()
+        with contextlib.redirect_stdout(buf):
+            self.analizador.mostrar_fuentes_sin_usar()
+        salida = buf.getvalue()
+        self.assertIn("FUENTES SIN USAR", salida)
+
+    def test_exportar_md_genera_archivo(self):
+        """exportar_resultados_md() debe crear un archivo .md con contenido."""
+        import types
+        import io
+        import contextlib
+
+        # Crear un resumen mínimo
+        resumenes = [{
+            "archivo": "test.json",
+            "coleccion": "Prueba",
+            "descripcion": "test",
+            "version": "1.0",
+            "campo_principal": "eventos",
+            "total_registros": 1,
+            "campos_disponibles": ["titulo", "fecha"],
+            "estadisticas": {},
+            "elementos": [{"titulo": "Evento X", "fecha": "2000-01-01"}],
+            "ruta": "",
+        }]
+        args = types.SimpleNamespace(
+            buscar=None,
+            completitud=False,
+            vacios=False,
+        )
+        ruta_out = os.path.join(self.directorio_temp, "export_test.md")
+        buf = io.StringIO()
+        with contextlib.redirect_stdout(buf):
+            ruta_ret = self.analizador.exportar_resultados_md(resumenes, args, ruta_out)
+        self.assertTrue(os.path.exists(ruta_out))
+        self.assertEqual(ruta_ret, ruta_out)
+        contenido = open(ruta_out, encoding="utf-8").read()
+        self.assertIn("Prueba", contenido)
+        self.assertIn("Exportación", contenido)
 
 
 if __name__ == "__main__":

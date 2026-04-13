@@ -27,6 +27,7 @@ import re
 import subprocess
 import sys
 import textwrap
+from datetime import datetime
 from pathlib import Path
 from typing import Any
 
@@ -768,41 +769,251 @@ def ensure_gitkeep(directory: Path) -> None:
         gitkeep.touch()
 
 
+# ─── Validación de IDs de fuentes (F###) en nodos ────────────────────────────
+
+def validate_source_ids(chicago_map: dict[str, str]) -> list[str]:
+    """
+    Verifica que los IDs de fuente mencionados como texto ``F###`` o ``FX###``
+    dentro de los registros de los nodos existen en el catálogo cargado.
+
+    Args:
+        chicago_map: Diccionario {id: chicago_citation_string} devuelto por
+                     :func:`generate_catalog`.
+
+    Returns:
+        list[str]: Lista de advertencias (vacía si todo está bien).
+    """
+    import re as _re
+    patron = _re.compile(r'\bF(?:X)?[0-9]{1,4}\b', _re.IGNORECASE)
+    ids_catalogo = {k.upper() for k in chicago_map}
+    advertencias: list[str] = []
+
+    for nodo_path in sorted(DATOS_HOPELCHEN.glob("HOPELCHEN_NODO_*.json")):
+        try:
+            data = load_json(nodo_path)
+        except (OSError, json.JSONDecodeError):
+            continue
+        texto_nodo = json.dumps(data, ensure_ascii=False)
+        ids_en_nodo = {m.upper() for m in patron.findall(texto_nodo)}
+        # Sólo reportar los que parecen ser referencias intencionadas a fuentes
+        # (presentes como valor standalone, ej. "F001", no como substrings de URLs)
+        for fid in sorted(ids_en_nodo):
+            if fid not in ids_catalogo:
+                advertencias.append(
+                    f"{nodo_path.name}: referencia a '{fid}' no encontrada en el catálogo"
+                )
+    return advertencias
+
+
+# ─── Mapa de citas cruzadas ───────────────────────────────────────────────────
+
+MAPA_CITAS_HEADER = """\
+# Mapa de Citas — Índice Cruzado de Fuentes
+
+> Generado por: `tools/generar_redaccion.py`  
+> Muestra qué fuentes (F###) aparecen en cada archivo de `trabajo/` y `mapa/`.
+
+---
+
+"""
+
+
+def generate_mapa_citas(chicago_map: dict[str, str]) -> None:
+    """
+    Genera ``fuentes/mapa_citas.md`` con un índice cruzado: para cada F### del
+    catálogo lista los archivos de trabajo/ y mapa/ que lo citan.
+
+    Args:
+        chicago_map: Diccionario {id: chicago_citation_string} devuelto por
+                     :func:`generate_catalog`.
+    """
+    import re as _re
+    patron = _re.compile(r'\bF(?:X)?[0-9]{1,4}\b', _re.IGNORECASE)
+
+    # {fid_upper: set of relative paths}
+    citas: dict[str, set[str]] = {}
+
+    directorios_buscar = [ROOT / "trabajo", ROOT / "mapa"]
+    for directorio in directorios_buscar:
+        if not directorio.exists():
+            continue
+        for ruta in sorted(directorio.rglob("*.md")):
+            try:
+                texto = ruta.read_text(encoding="utf-8")
+            except OSError:
+                continue
+            ruta_rel = str(ruta.relative_to(ROOT))
+            for m in patron.findall(texto):
+                fid = m.upper()
+                citas.setdefault(fid, set()).add(ruta_rel)
+
+    # Ordenar IDs
+    def _sort_key(fid: str) -> tuple:
+        m = re.match(r"([A-Z]+)(\d+)", fid)
+        if m:
+            return (m.group(1), int(m.group(2)))
+        return (fid, 0)
+
+    ids_catalogo = sorted(chicago_map.keys(), key=_sort_key)
+    ids_catalogo_upper = {k.upper() for k in chicago_map}
+    ids_fuera = sorted(
+        (fid for fid in citas if fid not in ids_catalogo_upper),
+        key=_sort_key,
+    )
+
+    lineas = [MAPA_CITAS_HEADER]
+    lineas.append(f"**Total fuentes en catálogo:** {len(ids_catalogo)}  \n")
+    lineas.append(f"**Fuentes con al menos una cita:** {len(citas)}  \n\n")
+    lineas.append("---\n\n")
+
+    lineas.append("## Fuentes del catálogo y sus citas\n\n")
+    for fid in ids_catalogo:
+        # Use the chicago citation as the description (truncated)
+        chicago = chicago_map.get(fid, "")
+        titulo = chicago[:60] if chicago else fid
+        archivos = sorted(citas.get(fid.upper(), []))
+        if archivos:
+            lineas.append(f"### {fid} — {titulo}\n\n")
+            for a in archivos:
+                lineas.append(f"- `{a}`\n")
+            lineas.append("\n")
+        else:
+            lineas.append(f"### {fid} — {titulo}\n\n")
+            lineas.append("_Sin citas detectadas en trabajo/ ni mapa/_\n\n")
+
+    if ids_fuera:
+        lineas.append("---\n\n")
+        lineas.append("## IDs citados pero sin entrada en el catálogo\n\n")
+        for fid in ids_fuera:
+            archivos = sorted(citas[fid])
+            lineas.append(f"- **{fid}** → {', '.join(f'`{a}`' for a in archivos)}\n")
+        lineas.append("\n")
+
+    write_file(FUENTES_DIR / "mapa_citas.md", "".join(lineas))
+
+
+# ─── Log de cambios ──────────────────────────────────────────────────────────
+
+def _log_cambios(archivos_generados: list[str]) -> None:
+    """Registra en logs/generar_redaccion.log los archivos modificados."""
+    log_path = ROOT / "datos" / "logs" / "generar_redaccion.log"
+    log_path.parent.mkdir(parents=True, exist_ok=True)
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    with open(log_path, "a", encoding="utf-8") as f:
+        f.write(f"\n[{timestamp}] Ejecución de generar_redaccion.py\n")
+        for archivo in archivos_generados:
+            f.write(f"  ✓ {archivo}\n")
+
+
 # ─── Main ─────────────────────────────────────────────────────────────────────
 
+def _construir_parser() -> "argparse.ArgumentParser":
+    import argparse as _argparse
+    parser = _argparse.ArgumentParser(
+        description="Genera archivos de redacción anotada para la investigación histórica.",
+        formatter_class=_argparse.RawDescriptionHelpFormatter,
+    )
+    parser.add_argument(
+        "--nodo",
+        metavar="ID",
+        help="Regenera solo el nodo con este ID (ej: 001, 003). "
+             "Si se omite, regenera todos los nodos.",
+    )
+    parser.add_argument(
+        "--sin-validacion",
+        action="store_true",
+        help="Omite la validación de datos (validar_datos.py) antes de generar.",
+    )
+    return parser
+
+
 def main() -> None:
+    parser = _construir_parser()
+    args = parser.parse_args()
+
     print("\n=== Pipeline: validar → generar → actualizar vacíos ===\n")
 
     # ─── Paso 0: Validar datos ───────────────────────────────────────────────
-    print("0. Validando datos...")
-    validar_script = ROOT / "tools" / "validar_datos.py"
-    if validar_script.exists():
-        resultado = subprocess.run(
-            [sys.executable, str(validar_script), "--silencioso"],
-            capture_output=True, text=True,
-        )
-        # Imprimir salida del validador (sin líneas vacías redundantes)
-        for linea in resultado.stdout.splitlines():
-            if linea.strip():
-                print(f"   {linea}")
-        if resultado.returncode != 0:
-            print("\n   ❌  La validación encontró errores. Corrígelos antes de generar.")
-            print("       Ejecuta: python tools/validar_datos.py")
-            sys.exit(1)
+    if not args.sin_validacion:
+        print("0. Validando datos...")
+        validar_script = ROOT / "tools" / "validar_datos.py"
+        if validar_script.exists():
+            resultado = subprocess.run(
+                [sys.executable, str(validar_script), "--silencioso"],
+                capture_output=True, text=True,
+            )
+            # Imprimir salida del validador (sin líneas vacías redundantes)
+            for linea in resultado.stdout.splitlines():
+                if linea.strip():
+                    print(f"   {linea}")
+            if resultado.returncode != 0:
+                print("\n   ❌  La validación encontró errores. Corrígelos antes de generar.")
+                print("       Ejecuta: python tools/validar_datos.py")
+                sys.exit(1)
+        else:
+            print("   ⚠  validar_datos.py no encontrado — se omite la validación.")
     else:
-        print("   ⚠  validar_datos.py no encontrado — se omite la validación.")
+        print("0. Validación omitida (--sin-validacion).")
 
     print("\n1. Catálogo de fuentes...")
-    generate_catalog()
+    id_map = generate_catalog()
+
+    # ─── Validación F### ─────────────────────────────────────────────────────
+    if id_map:
+        advertencias = validate_source_ids(id_map)
+        if advertencias:
+            print(f"\n   ⚠  {len(advertencias)} referencia(s) a IDs de fuente no encontrada(s):")
+            for adv in advertencias:
+                print(f"      • {adv}")
+        else:
+            print("   ✅ Todos los IDs de fuente referenciados están en el catálogo.")
+
+    archivos_generados: list[str] = ["fuentes/catalogo_fuentes.md"]
 
     print("\n2. Archivos por período...")
-    entries = generate_periods()
+    if args.nodo:
+        # Modo individual: regenerar solo el nodo solicitado
+        nodo_id_buscado = args.nodo.lstrip("0") or "0"  # normalizar "001" → "1"
+        nodo_files = sorted(DATOS_HOPELCHEN.glob("HOPELCHEN_NODO_*.json"))
+        encontrado = False
+        entries: list[tuple[str, str, str, str]] = []
+        for nf in nodo_files:
+            data = load_json(nf)
+            nid = data.get("nodo_id", "")
+            # Comparar ignorando ceros iniciales
+            if nid.lstrip("0") == nodo_id_buscado or nid == args.nodo:
+                file_slug, content = process_nodo(nf)
+                titulo = data.get("titulo", nf.stem)
+                rango = data.get("rango_temporal", "")
+                write_file(TRABAJO_DIR / f"{file_slug}.md", content)
+                entries.append((file_slug, titulo, rango, nf.name))
+                archivos_generados.append(f"trabajo/periodos/{file_slug}.md")
+                encontrado = True
+                break
+        if not encontrado:
+            print(f"   ❌ No se encontró nodo con ID '{args.nodo}'.")
+            sys.exit(1)
+    else:
+        entries = generate_periods()
+        for file_slug, titulo, rango, filename in entries:
+            archivos_generados.append(f"trabajo/periodos/{file_slug}.md")
 
     print("\n3. Mapa de personajes...")
     generate_personajes()
+    archivos_generados.append("mapa/personajes.md")
 
     print("\n4. Índice...")
-    generate_indice(entries)
+    if not args.nodo:
+        generate_indice(entries)
+        archivos_generados.append("trabajo/indice.md")
+    else:
+        print("   (omitido en modo --nodo)")
+
+    # ─── Mapa de citas ───────────────────────────────────────────────────────
+    if id_map and not args.nodo:
+        print("\n4b. Mapa de citas cruzadas...")
+        generate_mapa_citas(id_map)
+        archivos_generados.append("fuentes/mapa_citas.md")
 
     # Ensure fuentes/pdf/ has a .gitkeep so it appears in git
     pdf_dir = FUENTES_DIR / "pdf"
@@ -813,28 +1024,31 @@ def main() -> None:
         print(f"  ✓ fuentes/pdf/.gitkeep")
 
     # ─── Paso 5: Actualizar vacíos ───────────────────────────────────────────
-    print("\n5. Actualizando VACIOS.md...")
-    actualizar_script = ROOT / "tools" / "actualizar_vacios.py"
-    if actualizar_script.exists():
-        resultado = subprocess.run(
-            [sys.executable, str(actualizar_script)],
-            capture_output=True, text=True,
-        )
-        for linea in resultado.stdout.splitlines():
-            if linea.strip():
-                print(f"   {linea}")
-        if resultado.returncode != 0:
-            print("   ⚠  actualizar_vacios.py retornó error (no es crítico).")
-    else:
-        print("   ⚠  actualizar_vacios.py no encontrado — se omite.")
+    if not args.nodo:
+        print("\n5. Actualizando VACIOS.md...")
+        actualizar_script = ROOT / "tools" / "actualizar_vacios.py"
+        if actualizar_script.exists():
+            resultado = subprocess.run(
+                [sys.executable, str(actualizar_script)],
+                capture_output=True, text=True,
+            )
+            for linea in resultado.stdout.splitlines():
+                if linea.strip():
+                    print(f"   {linea}")
+            if resultado.returncode != 0:
+                print("   ⚠  actualizar_vacios.py retornó error (no es crítico).")
+            else:
+                archivos_generados.append("datos/VACIOS.md")
+        else:
+            print("   ⚠  actualizar_vacios.py no encontrado — se omite.")
+
+    # ─── Log de cambios ──────────────────────────────────────────────────────
+    _log_cambios(archivos_generados)
 
     print("\n=== Listo ===\n")
     print("Archivos generados:")
-    print("  fuentes/catalogo_fuentes.md")
-    print("  trabajo/periodos/*.md")
-    print("  trabajo/indice.md")
-    print("  mapa/personajes.md")
-    print("  datos/VACIOS.md")
+    for a in archivos_generados:
+        print(f"  {a}")
 
 
 if __name__ == "__main__":

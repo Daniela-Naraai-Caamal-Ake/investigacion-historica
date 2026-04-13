@@ -10,14 +10,17 @@ Uso:
     python analizador.py archivo.json           # Analiza un archivo específico
     python analizador.py --buscar "término"     # Busca un término en todos los datos
     python analizador.py --reporte              # Genera un reporte completo en reportes/
-    python analizador.py --periodos             # Extrae y organiza todo por período histórico
     python analizador.py --vacios               # Lista preguntas PENDIENTE por prioridad
     python analizador.py --cruzar "término"     # Cruza un término en todos los nodos con conexion_hipotesis
+    python analizador.py --completitud          # Muestra % preguntas respondidas por nodo
+    python analizador.py --fuentes-sin-usar     # Lista fuentes del catálogo no citadas en trabajo/
+    python analizador.py --exportar-md out.md   # Exporta el análisis a un archivo Markdown
 """
 
 import argparse
 import json
 import os
+import re
 import sys
 from datetime import datetime
 
@@ -27,6 +30,8 @@ from utilidades import (
     cargar_json,
     cargar_markdown,
     contar_por_campo,
+    detectar_duplicados,
+    exportar_csv,
     extraer_citas_textos_contextos,
     extraer_texto_pdf,
     filtrar_por_campo,
@@ -35,6 +40,7 @@ from utilidades import (
     listar_archivos_json,
     listar_archivos_md,
     listar_archivos_pdf,
+    normalizar_id_fuente,
     obtener_campo_principal,
     ordenar_por_fecha,
 )
@@ -672,6 +678,266 @@ def cruzar_termino(termino: str) -> None:
 
 
 # ---------------------------------------------------------------------------
+# Completitud: % de preguntas resueltas por nodo
+# ---------------------------------------------------------------------------
+
+def mostrar_completitud() -> None:
+    """
+    Para cada nodo, muestra el porcentaje de preguntas respondidas vs.
+    pendientes, cruzando HOPELCHEN_NODO_*.json con HOPELCHEN_PREGUNTAS_*.json.
+    """
+    import glob as _glob
+
+    # Mapear nodo_id → archivo de preguntas
+    patron_preguntas = os.path.join(DIRECTORIO_HOPELCHEN, "HOPELCHEN_PREGUNTAS_*.json")
+    archivos_preguntas: dict[str, str] = {}
+    for ruta in sorted(_glob.glob(patron_preguntas)):
+        try:
+            datos = cargar_json(ruta)
+        except (FileNotFoundError, json.JSONDecodeError):
+            continue
+        nodo_ref = datos.get("nodo_referencia", datos.get("nodo_origen", ""))
+        if nodo_ref:
+            archivos_preguntas[str(nodo_ref)] = ruta
+        # También mapear por número de archivo (ej: "001" de PREGUNTAS_001_...)
+        nombre = os.path.basename(ruta)
+        match_num = re.search(r'HOPELCHEN_PREGUNTAS_(\d+)', nombre)
+        if match_num:
+            archivos_preguntas[match_num.group(1)] = ruta
+
+    patron_nodos = os.path.join(DIRECTORIO_HOPELCHEN, "HOPELCHEN_NODO_*.json")
+    archivos_nodos = sorted(_glob.glob(patron_nodos))
+
+    print(f"\n{'=' * 70}")
+    print("   COMPLETITUD — PREGUNTAS POR NODO")
+    print(f"{'=' * 70}")
+
+    total_preguntas = 0
+    total_respondidas = 0
+
+    for ruta_nodo in archivos_nodos:
+        try:
+            nodo = cargar_json(ruta_nodo)
+        except (FileNotFoundError, json.JSONDecodeError):
+            continue
+
+        nodo_id = nodo.get("nodo_id", "?")
+        titulo = nodo.get("titulo", os.path.basename(ruta_nodo))[:55]
+
+        # Buscar archivo de preguntas correspondiente
+        ruta_preguntas = archivos_preguntas.get(nodo_id)
+        if ruta_preguntas is None:
+            # Intento por número de nodo en nombre del archivo
+            nombre_nodo = os.path.basename(ruta_nodo)
+            match_num = re.search(r'HOPELCHEN_NODO_(\d+)', nombre_nodo)
+            if match_num:
+                ruta_preguntas = archivos_preguntas.get(match_num.group(1))
+
+        if ruta_preguntas is None:
+            print(f"\n  📂 Nodo {nodo_id} — {titulo}")
+            print("     ⚠ Sin archivo de preguntas asociado")
+            continue
+
+        preguntas = _extraer_preguntas_de_archivo(ruta_preguntas)
+        n_total = len(preguntas)
+        if n_total == 0:
+            continue
+
+        n_respondidas = sum(
+            1 for p in preguntas
+            if p.get("estado", "").upper().startswith("RESPONDIDA")
+        )
+        n_en_proceso = sum(
+            1 for p in preguntas
+            if p.get("estado", "").lower().startswith("en proceso")
+        )
+        n_pendientes = n_total - n_respondidas - n_en_proceso
+        pct = round(n_respondidas / n_total * 100)
+
+        total_preguntas += n_total
+        total_respondidas += n_respondidas
+
+        # Barra de progreso visual (20 chars)
+        barra_llena = round(pct / 5)
+        barra = "█" * barra_llena + "░" * (20 - barra_llena)
+
+        print(f"\n  📂 Nodo {nodo_id} — {titulo}")
+        print(f"     [{barra}] {pct:3d}%  "
+              f"✅ {n_respondidas} resp.  🟡 {n_en_proceso} en proc.  🔴 {n_pendientes} pend.  "
+              f"({n_total} total)")
+
+    total_pct = round(total_respondidas / total_preguntas * 100) if total_preguntas else 0
+    barra_llena = round(total_pct / 5)
+    barra_total = "█" * barra_llena + "░" * (20 - barra_llena)
+
+    print(f"\n{'─' * 70}")
+    print(f"  TOTAL  [{barra_total}] {total_pct:3d}%  "
+          f"({total_respondidas}/{total_preguntas} preguntas respondidas)")
+    print(f"{'=' * 70}\n")
+
+
+# ---------------------------------------------------------------------------
+# Fuentes sin usar: IDs del catálogo que no aparecen en ningún nodo/trabajo
+# ---------------------------------------------------------------------------
+
+def mostrar_fuentes_sin_usar() -> None:
+    """
+    Detecta fuentes registradas en el catálogo (03_fuentes_bibliograficas.json)
+    que no están citadas en ningún archivo de trabajo/ ni de datos/.
+    """
+    import glob as _glob
+
+    # 1. Recopilar todos los F### del catálogo
+    ruta_fuentes = os.path.join(
+        os.path.dirname(__file__), "..", "datos", "curated",
+        "03_fuentes_bibliograficas.json"
+    )
+    ruta_fuentes = os.path.normpath(ruta_fuentes)
+
+    ids_catalogo: set[str] = set()
+    if os.path.exists(ruta_fuentes):
+        try:
+            datos_fuentes = cargar_json(ruta_fuentes)
+        except (FileNotFoundError, json.JSONDecodeError):
+            datos_fuentes = {}
+
+        def _colectar_ids(obj):
+            if isinstance(obj, dict):
+                fid = obj.get("id", "")
+                if fid:
+                    ids_catalogo.add(str(fid).upper())
+                for v in obj.values():
+                    _colectar_ids(v)
+            elif isinstance(obj, list):
+                for item in obj:
+                    _colectar_ids(item)
+
+        for key, val in datos_fuentes.items():
+            if key == "META":
+                continue
+            _colectar_ids(val)
+    else:
+        print("  ⚠ No se encontró 03_fuentes_bibliograficas.json")
+
+    if not ids_catalogo:
+        print("  ⚠ No se encontraron IDs de fuentes en el catálogo.")
+        return
+
+    # 2. Buscar qué F### aparecen en archivos de trabajo/ y datos/
+    directorio_trabajo = os.path.normpath(
+        os.path.join(os.path.dirname(__file__), "..", "trabajo")
+    )
+    directorio_mapa = os.path.normpath(
+        os.path.join(os.path.dirname(__file__), "..", "mapa")
+    )
+
+    ids_usados: dict[str, set[str]] = {}  # fid -> set de archivos donde aparece
+
+    def _escanear_texto(texto, origen):
+        for fid in normalizar_id_fuente(texto):
+            ids_usados.setdefault(fid, set()).add(origen)
+
+    for patron_dir in [directorio_trabajo, directorio_mapa, DIRECTORIO_DATOS]:
+        for ext in (".md", ".json"):
+            for ruta in _glob.glob(os.path.join(patron_dir, "**", f"*{ext}"),
+                                    recursive=True):
+                try:
+                    with open(ruta, "r", encoding="utf-8") as f:
+                        _escanear_texto(f.read(), os.path.basename(ruta))
+                except OSError:
+                    pass
+
+    # 3. Comparar
+    sin_usar = sorted(ids_catalogo - set(ids_usados.keys()))
+    usadas = sorted(ids_catalogo & set(ids_usados.keys()))
+
+    print(f"\n{'=' * 70}")
+    print(f"   FUENTES SIN USAR — {len(sin_usar)} de {len(ids_catalogo)} no citadas")
+    print(f"{'=' * 70}")
+
+    if sin_usar:
+        print("\n  🔴 IDs registrados en el catálogo pero sin cita en trabajo/ ni datos/:\n")
+        for fid in sin_usar:
+            print(f"     • {fid}")
+    else:
+        print("\n  ✅ Todas las fuentes del catálogo están citadas al menos una vez.")
+
+    if usadas:
+        print(f"\n  ✅ {len(usadas)} fuente(s) con al menos una cita detectada.")
+
+    print(f"\n{'=' * 70}\n")
+
+
+# ---------------------------------------------------------------------------
+# Exportar a Markdown
+# ---------------------------------------------------------------------------
+
+def exportar_resultados_md(resumenes, args, ruta_salida) -> str:
+    """
+    Exporta el análisis actual (resúmenes, búsqueda, completitud) a Markdown.
+
+    Args:
+        resumenes (list[dict]): Resúmenes de archivos ya analizados.
+        args: Objeto de argumentos parseados (argparse.Namespace).
+        ruta_salida (str): Ruta del archivo Markdown de salida.
+
+    Returns:
+        str: Ruta al archivo generado.
+    """
+    import io
+    import contextlib
+
+    lineas = [
+        "# Exportación — Analizador de Investigación Histórica\n",
+        f"\n> Generado: {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}\n\n",
+        "---\n\n",
+    ]
+
+    # Resúmenes de archivos
+    lineas.append("## Resumen de archivos\n\n")
+    for r in resumenes:
+        lineas.append(f"### {r['coleccion']}\n\n")
+        lineas.append(f"| Campo | Valor |\n|---|---|\n")
+        lineas.append(f"| **Archivo** | `{r['archivo']}` |\n")
+        lineas.append(f"| **Total registros** | {r['total_registros']} |\n")
+        campos_str = ", ".join(r["campos_disponibles"][:8])
+        if len(r["campos_disponibles"]) > 8:
+            campos_str += f"… (+{len(r['campos_disponibles']) - 8})"
+        lineas.append(f"| **Campos** | {campos_str} |\n\n")
+
+    # Resultados de búsqueda, si aplica
+    if args.buscar:
+        lineas.append(f"## Resultados de búsqueda: «{args.buscar}»\n\n")
+        for r in resumenes:
+            resultados = buscar_en_elementos(r["elementos"], args.buscar)
+            if resultados:
+                lineas.append(f"### {r['coleccion']} — {len(resultados)} resultado(s)\n\n")
+                for elem in resultados:
+                    lineas.append("```json\n")
+                    lineas.append(json.dumps(elem, ensure_ascii=False, indent=2))
+                    lineas.append("\n```\n\n")
+
+    # Capturar salida de completitud y vacíos si se solicitó
+    for bandera, funcion in [("completitud", mostrar_completitud), ("vacios", mostrar_vacios)]:
+        if getattr(args, bandera, False):
+            buf = io.StringIO()
+            with contextlib.redirect_stdout(buf):
+                funcion()
+            salida = buf.getvalue()
+            titulo_seccion = "Completitud" if bandera == "completitud" else "Vacíos / Preguntas pendientes"
+            lineas.append(f"## {titulo_seccion}\n\n```\n{salida}\n```\n\n")
+
+    directorio = os.path.dirname(ruta_salida)
+    if directorio and not os.path.exists(directorio):
+        os.makedirs(directorio)
+
+    with open(ruta_salida, "w", encoding="utf-8") as f:
+        f.writelines(lineas)
+
+    return ruta_salida
+
+
+# ---------------------------------------------------------------------------
 # Punto de entrada principal
 # ---------------------------------------------------------------------------
 
@@ -729,6 +995,21 @@ def construir_parser():
         "--cruzar", "-x",
         metavar="TÉRMINO",
         help="Busca un término en todos los registros de los nodos y muestra conexion_hipotesis",
+    )
+    parser.add_argument(
+        "--completitud",
+        action="store_true",
+        help="Muestra el porcentaje de preguntas respondidas vs. pendientes por nodo",
+    )
+    parser.add_argument(
+        "--fuentes-sin-usar",
+        action="store_true",
+        help="Lista fuentes del catálogo que no están citadas en ningún archivo de trabajo/",
+    )
+    parser.add_argument(
+        "--exportar-md",
+        metavar="RUTA",
+        help="Exporta los resultados del análisis a un archivo Markdown en RUTA",
     )
     return parser
 
@@ -839,14 +1120,27 @@ def main():
     # Mostrar vacíos (preguntas pendientes)
     if args.vacios:
         mostrar_vacios()
-        return
 
     # Cruzar término en registros de nodos
     if args.cruzar:
         cruzar_termino(args.cruzar)
-        return
 
-    print("\n✔ Análisis completado.\n")
+    # Completitud: preguntas respondidas por nodo
+    if args.completitud:
+        mostrar_completitud()
+
+    # Fuentes sin usar en el catálogo
+    if args.fuentes_sin_usar:
+        mostrar_fuentes_sin_usar()
+
+    # Exportar a Markdown
+    if args.exportar_md:
+        ruta_out = exportar_resultados_md(resumenes, args, args.exportar_md)
+        print(f"\n✅ Resultados exportados a Markdown: {ruta_out}")
+
+    if not any([args.vacios, args.cruzar, args.completitud,
+                args.fuentes_sin_usar, args.exportar_md]):
+        print("\n✔ Análisis completado.\n")
 
 
 if __name__ == "__main__":

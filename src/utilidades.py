@@ -512,6 +512,99 @@ def agrupar_citas_por_categoria(citas):
     return dict(sorted(agrupado.items()))
 
 
+def normalizar_id_fuente(texto):
+    """
+    Extrae y normaliza todos los IDs de fuente del tipo ``F###`` o ``FX###``
+    presentes en un texto.
+
+    Args:
+        texto (str): Cadena de texto donde buscar identificadores de fuente.
+
+    Returns:
+        list[str]: Lista de IDs encontrados en mayúsculas, sin duplicados y
+                   ordenados alfabéticamente.  Por ejemplo: ['F001', 'FX003'].
+    """
+    if not isinstance(texto, str):
+        return []
+    patron = re.compile(r'\bF(?:X)?[0-9]{1,4}\b', re.IGNORECASE)
+    ids = {m.upper() for m in patron.findall(texto)}
+    return sorted(ids)
+
+
+def detectar_duplicados(elementos, campo):
+    """
+    Detecta registros duplicados en una colección JSON según un campo clave.
+
+    Args:
+        elementos (list[dict]): Lista de registros a analizar.
+        campo (str): Nombre del campo cuyo valor se usa para detectar duplicados.
+
+    Returns:
+        dict[str, list[dict]]: Diccionario ``{valor: [registros]}``.
+            Solo incluye entradas donde el valor aparece más de una vez.
+    """
+    conteo = {}
+    for elem in elementos:
+        valor = elem.get(campo)
+        if valor is None:
+            continue
+        clave = str(valor)
+        conteo.setdefault(clave, []).append(elem)
+    return {k: v for k, v in conteo.items() if len(v) > 1}
+
+
+def exportar_csv(elementos, ruta):
+    """
+    Exporta una lista de registros a un archivo CSV.
+
+    Los valores que sean listas se convierten a cadenas separadas por punto y
+    coma.  Si todos los registros comparten las mismas claves, se usan como
+    cabecera; de lo contrario, se usa la unión de todas las claves.
+
+    Args:
+        elementos (list[dict]): Lista de registros a exportar.
+        ruta (str): Ruta destino del archivo CSV (se crea si no existe).
+
+    Returns:
+        str: Ruta al archivo creado.
+
+    Raises:
+        ValueError: Si la lista de elementos está vacía.
+    """
+    import csv
+
+    if not elementos:
+        raise ValueError("La lista de elementos está vacía; no hay nada que exportar.")
+
+    # Unión ordenada de todas las claves
+    campos = list(dict.fromkeys(k for elem in elementos for k in elem.keys()))
+
+    directorio = os.path.dirname(ruta)
+    if directorio and not os.path.exists(directorio):
+        os.makedirs(directorio)
+
+    with open(ruta, "w", encoding="utf-8", newline="") as archivo:
+        escritor = csv.DictWriter(
+            archivo,
+            fieldnames=campos,
+            extrasaction="ignore",
+            restval="",
+        )
+        escritor.writeheader()
+        for elem in elementos:
+            fila = {}
+            for campo in campos:
+                valor = elem.get(campo, "")
+                if isinstance(valor, list):
+                    valor = "; ".join(str(v) for v in valor)
+                elif isinstance(valor, dict):
+                    valor = json.dumps(valor, ensure_ascii=False)
+                fila[campo] = valor
+            escritor.writerow(fila)
+
+    return ruta
+
+
 def formatear_tabla(elementos, campos=None, ancho_col=25):
     """
     Formatea una lista de elementos como una tabla de texto.
