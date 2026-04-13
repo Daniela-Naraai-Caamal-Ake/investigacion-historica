@@ -379,6 +379,137 @@ def extraer_texto_pdf(ruta_archivo):
     }
 
 
+def extraer_citas_textos_contextos(datos, categoria_default="Sin categoría", longitud_minima=50):
+    """
+    Extrae citas largas, textos y contextos de un objeto JSON con sus fuentes.
+
+    Reconoce tres tipos de contenido:
+      - ``cita``: campos cuyo nombre contiene "cita" (p. ej. ``cita_directa``,
+        ``cita_clave``, ``cita_relevante``).
+      - ``texto``: campos con nombre ``texto_completo_transcript``,
+        ``texto_decreto`` u otros que empiecen por ``texto_``, así como
+        ``descripcion`` cuando su contenido supera ``longitud_minima * 2``.
+      - ``contexto``: campos con nombre exacto ``contexto``.
+
+    Args:
+        datos (dict): Diccionario con los datos JSON cargados.
+        categoria_default (str): Categoría a asignar cuando no se encuentra
+            ningún descriptor en el objeto raíz.
+        longitud_minima (int): Longitud mínima (en caracteres) para considerar
+            un texto como cita larga o contexto relevante.
+
+    Returns:
+        list[dict]: Lista de entradas, cada una con las claves:
+            ``categoria``, ``tipo``, ``subtipo``, ``texto``, ``fuente``,
+            ``origen``.
+    """
+    # Detectar la categoría principal del documento
+    categoria_raiz = (
+        datos.get("titulo")
+        or datos.get("coleccion")
+        or datos.get("nodo_id")
+        or categoria_default
+    )
+
+    resultados = []
+
+    # Nombres de campo que se tratan como "cita"
+    _CITA_PREFIJOS = ("cita",)
+    # Nombres de campo que se tratan como "texto"
+    _TEXTO_EXACTOS = {"texto_completo_transcript", "texto_decreto"}
+    _TEXTO_PREFIJOS = ("texto_",)
+
+    def _es_cita(nombre):
+        nl = nombre.lower()
+        return any(nl.startswith(p) for p in _CITA_PREFIJOS)
+
+    def _es_texto(nombre):
+        nl = nombre.lower()
+        return nl in _TEXTO_EXACTOS or any(nl.startswith(p) for p in _TEXTO_PREFIJOS)
+
+    def _es_contexto(nombre):
+        return nombre.lower() == "contexto"
+
+    def _resolver_fuente(obj):
+        """Busca el campo de fuente más cercano dentro del mismo objeto."""
+        if not isinstance(obj, dict):
+            return None
+        for clave in ("fuente", "fuente_academica", "fuente_primaria",
+                      "fuente_secundaria", "referencia", "autor", "fuentes"):
+            val = obj.get(clave)
+            if val is None:
+                continue
+            if isinstance(val, str) and val:
+                return val
+            if isinstance(val, list):
+                partes = [str(v) for v in val if isinstance(v, (str, int, float)) and str(v)]
+                if partes:
+                    return "; ".join(partes[:3])
+        return None
+
+    def _recorrer(obj, path, categoria_local):
+        if isinstance(obj, dict):
+            fuente_local = _resolver_fuente(obj)
+            for nombre, valor in obj.items():
+                ruta_campo = f"{path}.{nombre}"
+
+                if isinstance(valor, str) and len(valor) >= longitud_minima:
+                    tipo = None
+                    if _es_cita(nombre):
+                        tipo = "cita"
+                    elif _es_texto(nombre):
+                        tipo = "texto"
+                    elif _es_contexto(nombre):
+                        tipo = "contexto"
+                    elif nombre.lower() == "descripcion" and len(valor) >= longitud_minima * 2:
+                        tipo = "texto"
+
+                    if tipo:
+                        resultados.append({
+                            "categoria": categoria_local,
+                            "tipo": tipo,
+                            "subtipo": nombre,
+                            "texto": valor,
+                            "fuente": fuente_local,
+                            "origen": ruta_campo,
+                        })
+                elif isinstance(valor, (dict, list)):
+                    # Refinar la categoría usando el subtítulo del registro
+                    cat_hijo = categoria_local
+                    if isinstance(valor, dict):
+                        cat_hijo = (
+                            valor.get("subtitulo")
+                            or valor.get("titulo")
+                            or categoria_local
+                        )
+                    _recorrer(valor, ruta_campo, cat_hijo)
+
+        elif isinstance(obj, list):
+            for i, item in enumerate(obj):
+                _recorrer(item, f"{path}[{i}]", categoria_local)
+
+    _recorrer(datos, "", categoria_raiz)
+    return resultados
+
+
+def agrupar_citas_por_categoria(citas):
+    """
+    Agrupa una lista de entradas de citas por su campo ``categoria``.
+
+    Args:
+        citas (list[dict]): Lista producida por :func:`extraer_citas_textos_contextos`.
+
+    Returns:
+        dict[str, list[dict]]: Diccionario ``{categoria: [entradas]}``,
+            ordenado por nombre de categoría.
+    """
+    agrupado = {}
+    for entrada in citas:
+        cat = entrada["categoria"]
+        agrupado.setdefault(cat, []).append(entrada)
+    return dict(sorted(agrupado.items()))
+
+
 def formatear_tabla(elementos, campos=None, ancho_col=25):
     """
     Formatea una lista de elementos como una tabla de texto.
