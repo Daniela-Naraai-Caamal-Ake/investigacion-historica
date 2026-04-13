@@ -1,17 +1,142 @@
 {
   "repositorio": "Hopelchén: 2000 años de historia",
   "archivo_id": "PREGUNTAS-006",
-  "titulo": "Preguntas Abiertas e Iteraciones Pendientes — Derivadas del Nodo 006: Genealogía del Poder Político Local (1959–2026)",
+  "titulo": "Preguntas Abiertas e Iteraciones Pendientes — Derivadas del Nodo 006: Genealogía del Poder Político Local en Hopelchén (1959–2026)",
   "nodo_origen": "006 — La Genealogía del Poder Político Local en Hopelchén (1959–2026): Apellidos, Nepotismo, Filiaciones y Continuidad",
-  "fecha_generacion": "2026-04-08",
+  "fecha_generacion": "2026-04-13",
+  "nota_consolidacion": "Archivo consolidado 2026-04-13: fusión de PREGUNTAS_006_Poder_Politico.json (2026-04-03) y PREGUNTAS_006_PoderPolitico.json (2026-04-08). Los IDs P006-01..P006-08 son los originales referenciados en datos/VACIOS.md y deben preservarse. P006-09..P006-11 son preguntas nuevas del segundo archivo.",
   "estado": "Activo — pendiente de investigación",
 
-  "preguntas_urgentes": [
+  "preguntas": [
 
     {
       "pregunta_id": "P006-01",
+      "pregunta": "¿Existe conexión genealógica entre Hiram Aranda Calderón (alcalde 2024-2027), Mario Heberto Aranda González (cronista 1985) y la familia Baranda que controló Campeche desde la Colonia hasta el Porfiriato?",
+      "contexto": "El apellido Aranda/Baranda aparece en: Pedro Sainz de Baranda (Real Hacienda colonial, siglo XVIII), Joaquín Baranda (gobernador y ministro porfiriano, inauguró telégrafo en Hopelchén 1870), Mario Heberto Aranda González (monografía histórica de Hopelchén, 1985) e Hiram Aranda Calderón (alcalde 2024-2027). Si la conexión es real, representaría más de 300 años de presencia del mismo linaje en el poder campechano.",
+      "tipo": "Genealogía / Poder / Historia larga",
+      "fuentes_a_consultar": [
+        "Registro Civil del Estado de Campeche — actas con apellido Aranda/Baranda",
+        "Archivo Notarial de Campeche — testamentos y escrituras de la familia Baranda, siglos XIX-XX",
+        "Aranda González (1985) — datos biográficos del autor",
+        "Rotonda de los Hombres Ilustres — expediente de Joaquín Baranda y descendientes"
+      ],
+      "prioridad": "URGENTE — Alta",
+      "conexion_hipotesis": "Confirmar o descartar la continuidad genealógica del apellido Aranda/Baranda en el poder de Hopelchén desde el Porfiriato hasta 2024.",
+      "estado": "PENDIENTE"
+    },
+
+    {
+      "pregunta_id": "P006-02",
+      "pregunta": "¿Quiénes fueron los presidentes municipales de Hopelchén entre 1970 y 2018? ¿Sus nombres, apellidos, partidos, períodos y relación con la llegada de menonitas (1987) y la reforma al Art. 27 (1992)?",
+      "contexto": "Hay un vacío de 48 años en el registro de presidentes municipales. Los alcaldes de 1987-1992 supervisaron la llegada de los primeros menonitas y la reforma que permitió arrendar tierras ejidales — los dos eventos que originaron el despojo contemporáneo.",
+      "tipo": "Poder / Historia política / Control territorial",
+      "fuentes_a_consultar": [
+        "Periódico Oficial del Estado de Campeche — archivo histórico: periodicooficial.campeche.gob.mx",
+        "Instituto Electoral del Estado de Campeche (IEEC) — registros electorales históricos",
+        "Aranda González (1985) — puede tener lista de presidentes hasta 1985",
+        "Hemeroteca Campeche — El Sur, Novedades, circa 1970-2018"
+      ],
+      "prioridad": "Alta",
+      "conexion_hipotesis": "El presidente municipal de 1987-1992 es el eslabón político más importante faltante en la cadena del despojo contemporáneo de Hopelchén.",
+      "estado": "EN PROCESO"
+    },
+
+    {
+      "pregunta_id": "P006-03",
+      "pregunta": "¿Cuál fue el resultado de la investigación de la Fiscalía General del Estado de Campeche sobre el presunto secuestro en el domicilio de Emilio Lara Calderón (7 enero 2023)? ¿Hubo detenidos, víctimas identificadas o archivamiento?",
+      "contexto": "El operativo con 20 agentes ministeriales a las 4:30 am en la casa del alcalde priista generó una confrontación política nacional PRI vs. Morena-Campeche, pero el seguimiento periodístico sobre el resultado real de la investigación es escaso.",
+      "tipo": "Poder / Escándalo / Justicia",
+      "fuentes_a_consultar": [
+        "Fiscalía General del Estado de Campeche — expedientes públicos",
+        "Tribuna Campeche — seguimiento del caso desde enero 2023",
+        "La Jornada Maya Campeche — archivos 2023"
+      ],
+      "prioridad": "Media-Alta",
+      "conexion_hipotesis": "Si la investigación fue archivada sin consecuencias, confirma que el sistema judicial campechano opera como herramienta política más que como garantía de justicia.",
+      "estado": "PENDIENTE"
+    },
+
+    {
+      "pregunta_id": "P006-04",
+      "pregunta": "¿Cuál es el estado actual de la denuncia de Edgar Manuel Poot Yeh contra Hiram Aranda Calderón y Herminio May Dzib por abuso de poder, manipulación del sistema catastral y falsificación de documentos (noviembre 2025)?",
+      "contexto": "La denuncia fue presentada ante la Fiscalía Anticorrupción. La manipulación catastral es potencialmente el mecanismo más directo de despojo de tierras en la actualidad: modificar registros para favorecer transacciones ilegales sobre ejidos.",
+      "tipo": "Corrupción / Tierra / Justicia activa",
+      "fuentes_a_consultar": [
+        "Fiscalía Anticorrupción del Estado de Campeche",
+        "Tribuna Campeche — seguimiento desde noviembre 2025",
+        "Periódico Oficial del Estado de Campeche — resoluciones"
+      ],
+      "prioridad": "Alta — situación activa",
+      "conexion_hipotesis": "Si se confirma la manipulación catastral, conecta el poder político municipal directamente con el despojo territorial de tierras ejidales.",
+      "estado": "PENDIENTE"
+    },
+
+    {
+      "pregunta_id": "P006-05",
+      "pregunta": "¿Quién es la persona que recibe directamente los fondos del FAIS para obra pública en Hopelchén, saltando al municipio? ¿A qué red política está vinculada?",
+      "contexto": "En diciembre de 2025, el propio alcalde Hiram Aranda denunció ante el Congreso estatal que el FAIS entrega recursos a una persona específica bajo el esquema de Comité de Obras comunitarias, sin pasar por el municipio.",
+      "tipo": "Corrupción / Recursos federales / Red de poder",
+      "fuentes_a_consultar": [
+        "Congreso del Estado de Campeche — actas de sesión diciembre 2025",
+        "SHCP — padrón de beneficiarios del FAIS en Hopelchén (datos.gob.mx)",
+        "Tribuna Campeche — cobertura de la denuncia"
+      ],
+      "prioridad": "Alta",
+      "conexion_hipotesis": "Si los recursos FAIS van a una red Morena en un municipio PRI, revela que el conflicto político entre élites nacionales tiene consecuencias directas en el territorio de Hopelchén.",
+      "estado": "PENDIENTE"
+    },
+
+    {
+      "pregunta_id": "P006-06",
+      "pregunta": "¿Qué vínculos existen entre los presidentes municipales de Hopelchén (2018-2026) y los menonitas, las empresas de soya o los contratistas agroindustriales que operan en el municipio?",
+      "contexto": "La expansión de soya transgénica y la invasión de tierras ejidales requirieron cambios de uso de suelo, contratos y permisos que involucran a autoridades locales. ¿Los presidentes municipales bloquearon, ignoraron o facilitaron estos procesos?",
+      "tipo": "Corrupción / Tierra / Agroindustria",
+      "fuentes_a_consultar": [
+        "RAN — contratos de arrendamiento ejidal en Hopelchén 2010-2026",
+        "Aserca — padrón de subsidios agrícolas en Hopelchén",
+        "Animal Político — investigación SPR menonitas en Campeche",
+        "La Jornada Maya Campeche — reportajes sobre menonitas y autoridades locales"
+      ],
+      "prioridad": "Alta — central para la hipótesis",
+      "conexion_hipotesis": "Si los presidentes municipales facilitaron el despojo, se cierra el círculo del ciclo extractivo: poder político local → complicidad con capital externo → despojo de tierras mayas.",
+      "estado": "RESPONDIDA PARCIALMENTE — registro 006-G documenta estructuralmente que la hegemonía PRI 1959-2021 coincide con la llegada de menonitas (1987) y reforma Art. 27 (1992). Complicidad activa no documentada con fuente primaria."
+    },
+
+    {
+      "pregunta_id": "P006-07",
+      "pregunta": "¿Existe continuidad genealógica entre Pedro Advíncula Lara (jefe político-hacendado porfiriano de Los Chenes) y Emilio Lara Calderón (presidente municipal 2021-2024, diputado federal 2024-2027)?",
+      "contexto": "Pedro Advíncula Lara fue simultáneamente el mayor hacendado identificado de Hopelchén y jefe político de Los Chenes durante el Porfiriato — el prototipo del poder político+económico concentrado. Emilio Lara Calderón es 'oriundo de Hopelchén'. ¿Son de la misma familia?",
+      "tipo": "Genealogía / Poder / Historia larga",
+      "fuentes_a_consultar": [
+        "Registro Civil de Hopelchén — árboles genealógicos del apellido Lara",
+        "Aranda González (1985) — posibles menciones a la familia Lara",
+        "Ficha biográfica de Emilio Lara Calderón en la Cámara de Diputados — datos familiares",
+        "Archivo Municipal de Hopelchén — registros de la familia Advíncula Lara"
+      ],
+      "prioridad": "Media-Alta",
+      "conexion_hipotesis": "Si hay continuidad genealógica Advíncula Lara → Emilio Lara, la misma familia controlará Hopelchén como hacendados-jefes políticos porfirianos Y como diputados federales del siglo XXI.",
+      "estado": "RESPONDIDA PARCIALMENTE — legisladores_hopelchen_1861-2003.json: el apellido Lara aparece en el poder desde 1862 hasta 2024. Confirmación genealógica directa requiere Registro Civil."
+    },
+
+    {
+      "pregunta_id": "P006-08",
+      "pregunta": "¿Quién fue el presidente municipal de Hopelchén durante 1987-1992 — período en que llegaron los primeros menonitas y se reformó el Artículo 27 constitucional?",
+      "contexto": "Este es el eslabón político más crítico faltante en el repositorio. El presidente municipal de esos años tomó posición ante ambas transformaciones: la llegada de colonos religiosos extranjeros con prácticas agrícolas destructivas, y la reforma legal que permitiría arrendar tierras ejidales. Su identidad es el origen político del despojo contemporáneo.",
+      "tipo": "Poder / Historia / Tierra / Menonitas — eslabón faltante",
+      "fuentes_a_consultar": [
+        "Periódico Oficial del Estado de Campeche — ediciones 1987-1993: periodicooficial.campeche.gob.mx",
+        "IEEC — registros electorales municipales Campeche 1988-1992",
+        "Hemeroteca El Sur de Campeche — circa 1987-1992"
+      ],
+      "prioridad": "URGENTE — Alta",
+      "conexion_hipotesis": "Identificar a este funcionario cierra el eslabón político que conecta el inicio del despojo contemporáneo (llegada de menonitas + reforma ejidal) con el sistema de poder local de Hopelchén.",
+      "estado": "RESPONDIDA PARCIALMENTE — registro 006-A: Enrique González Vargas ('Don Lico') en funciones en 1984; Julio Alberto Sansores Sansores es probable ~1992-1995. El presidente de 1987-1990 es González Vargas o un sucesor no identificado. Requiere IEEC para nombre exacto."
+    },
+
+    {
+      "pregunta_id": "P006-09",
       "pregunta": "¿Existe parentesco entre Julio Alberto Sansores Sansores (ex-presidente municipal de Hopelchén, mencionado en acta IEEC 2006) y Layda Sansores San Román (gobernadora de Campeche 2021-2027)?",
-      "contexto": "El documento electoral del IEEC de 2006 lista a 'JULIO ALBERTO SANSORES SANSORES' como presidente o candidato a presidente municipal de Hopelchén en un período anterior a esa fecha. La gobernadora actual de Campeche es Layda Sansores San Román (Morena). El apellido Sansores es campechano. Si existe parentesco, el conflicto político PRI-Morena en Hopelchén adquiere una dimensión de fractura familiar interna: la gobernadora que presionó al alcalde priista Emilio Lara Calderón y que recibió denuncias de ejidatarios contra menonitas podría tener raíces familiares en el mismo municipio que administra. Esto también afectaría la lectura del conflicto entre Sansores y el aparato priista chenero.",
+      "contexto": "El documento electoral del IEEC de 2006 lista a 'JULIO ALBERTO SANSORES SANSORES' como presidente o candidato a presidente municipal de Hopelchén en un período anterior a esa fecha. La gobernadora actual de Campeche es Layda Sansores San Román (Morena). Si existe parentesco, el conflicto político PRI-Morena en Hopelchén adquiere una dimensión de fractura familiar interna.",
       "tipo": "Genealogía / Poder político / Regional",
       "fuentes_a_consultar": [
         "Wikipedia — Layda Sansores San Román (sección familia y origen)",
@@ -20,113 +145,39 @@
         "Entrevistas o perfiles periodísticos de Layda Sansores que mencionen su familia de origen"
       ],
       "prioridad": "URGENTE",
-      "conexion_hipotesis": "Si se confirma parentesco, el ciclo de élites que controlan Hopelchén no se rompe con el cambio de partido — simplemente una rama familiar distinta (Sansores-Morena) reemplaza a otra (Lara-PRI) en el control del poder sobre el municipio. El instrumento político cambia, la estructura familiar permanece."
+      "conexion_hipotesis": "Si se confirma parentesco, el ciclo de élites que controlan Hopelchén no se rompe con el cambio de partido — simplemente una rama familiar distinta (Sansores-Morena) reemplaza a otra (Lara-PRI) en el control del poder sobre el municipio.",
+      "estado": "PENDIENTE"
     },
 
     {
-      "pregunta_id": "P006-02",
-      "pregunta": "¿Existe parentesco entre Mario Heberto Aranda González (autor de 'Apuntaciones históricas y literarias del municipio de Hopelchén', 1985) e Hiram Aranda Calderón (alcalde de Hopelchén 2024-2027)?",
-      "contexto": "El apellido ARANDA aparece tanto en el único historiador local identificado del municipio (Mario Heberto Aranda González, 1985) como en el actual alcalde (Hiram Aranda Calderón, electo junio 2024). La monografía de Aranda González es la fuente histórica local de mayor prioridad en todo el repositorio — aún sin consultar. Si el autor es pariente del alcalde actual, la única historia oficial local conocida de Hopelchén fue escrita desde el punto de vista de la familia que hoy ocupa la presidencia municipal. Eso no invalida la fuente, pero obliga a leerla con conciencia del contexto de clase y poder de quien la escribió.",
-      "tipo": "Genealogía / Narrativa histórica / Poder local",
-      "fuentes_a_consultar": [
-        "Aranda González, Mario Heberto — Apuntaciones históricas y literarias del municipio de Hopelchén (1985) — leer la introducción y el 'sobre el autor'",
-        "Biblioteca del Estado de Campeche — datos del autor",
-        "Periódico Oficial del Estado de Campeche — búsqueda del apellido Aranda en Hopelchén",
-        "Entrevistas o notas periodísticas locales sobre el alcalde Hiram Aranda Calderón"
-      ],
-      "prioridad": "URGENTE",
-      "conexion_hipotesis": "La hipótesis central del proyecto es que la narrativa histórica ha sido construida por élites de poder. Si el único historiador local conocido de Hopelchén pertenece a la misma familia que gobierna el municipio hoy, eso es evidencia directa de la hipótesis en su dimensión más íntima y local."
-    },
-
-    {
-      "pregunta_id": "P006-03",
+      "pregunta_id": "P006-10",
       "pregunta": "¿Qué cambios de uso de suelo autorizó cada administración municipal de Hopelchén entre 1987 y 2024? ¿En qué períodos se otorgaron permisos que permitieron la deforestación menonita y la siembra de soya transgénica?",
-      "contexto": "La deforestación de 153,809 hectáreas en 20 años y la expansión menonita desde 1987 requirieron autorizaciones de cambio de uso de suelo a nivel municipal y estatal. Los presidentes municipales son quienes firman o avalan esas autorizaciones. Identificar en qué administraciones específicas se otorgaron permisos clave conectaría directamente a los alcaldes priistas con el despojo ambiental y agrario documentado en el Nodo 005.",
+      "contexto": "La deforestación de 153,809 hectáreas en 20 años y la expansión menonita desde 1987 requirieron autorizaciones de cambio de uso de suelo a nivel municipal y estatal. Los presidentes municipales son quienes firman o avalan esas autorizaciones.",
       "tipo": "Territorio / Tierra / Poder municipal / Agroindustria",
       "fuentes_a_consultar": [
         "Registro Agrario Nacional (RAN) — cambios de uso de suelo en Hopelchén por año",
         "Semarnat — expedientes de cambio de uso de suelo en municipio de Hopelchén",
         "Periódico Oficial del Estado de Campeche — decretos de cambio de uso de suelo",
-        "Global Forest Watch — cronología de deforestación por año en Hopelchén (comparar con períodos de gobierno municipal)"
+        "Global Forest Watch — cronología de deforestación por año en Hopelchén"
       ],
       "prioridad": "URGENTE",
-      "conexion_hipotesis": "Si los permisos de deforestación y expansión agroindustrial se otorgaron sistemáticamente durante las administraciones priistas de Hopelchén, el PRI local no es solo el partido que gobernó el municipio durante 62 años — es el habilitador político directo del ciclo extractivo contemporáneo."
+      "conexion_hipotesis": "Si los permisos de deforestación y expansión agroindustrial se otorgaron sistemáticamente durante las administraciones priistas de Hopelchén, el PRI local no es solo el partido que gobernó el municipio durante 62 años — es el habilitador político directo del ciclo extractivo contemporáneo.",
+      "estado": "PENDIENTE"
     },
 
     {
-      "pregunta_id": "P006-04",
-      "pregunta": "¿Cuál es la lista completa de presidentes municipales de Hopelchén desde la Independencia del municipio (1915) hasta 1959? ¿Y de 1959 a 1998?",
-      "contexto": "La cadena de presidentes municipales reconstruida en el Nodo 006 tiene vacíos importantes: 1915-1959 (44 años) y 1959-1998 (39 años, con solo dos nombres identificados: Guerrero Barahona en 1959 y 'Don Lico' González Vargas en 1984). La historia del poder municipal de Hopelchén en el siglo XX casi no existe en fuentes digitales accesibles. Llenar estos vacíos es esencial para rastrear si la hegemonía de los apellidos Lara, Baranda, España, Sansores es continua o intermitente.",
-      "tipo": "Poder político / Lista histórica / Siglo XX",
-      "fuentes_a_consultar": [
-        "Archivo Municipal de Hopelchén — Calle 20 x 19 No. 119, Hopelchén, C.P. 24600",
-        "Periódico Oficial del Estado de Campeche — archivo histórico: periodicooficial.campeche.gob.mx",
-        "Aranda González (1985) — la monografía local debería incluir esta lista",
-        "IEEC — actas electorales históricas desde 1960",
-        "Biblioteca del Estado de Campeche — hemeroteca de periódicos locales"
-      ],
-      "prioridad": "Alta",
-      "conexion_hipotesis": "Sin la lista completa de presidentes municipales no se puede rastrear la transmisión del poder político local a través del siglo XX. Los períodos vacíos son los más importantes: ¿quién gobernó Hopelchén durante la Reforma Agraria (1930-1950)? ¿Durante el auge chiclero? ¿Eran parientes de los hacendados antiagrarios?"
-    },
-
-    {
-      "pregunta_id": "P006-05",
-      "pregunta": "¿Qué investigación o proceso judicial existe sobre el cateo al domicilio del alcalde Emilio Lara Calderón en enero de 2023, supuestamente relacionado con presunto secuestro?",
-      "contexto": "En la madrugada del 7 de enero de 2023, unos 20 agentes de la Fiscalía del Estado (FGE) irrumpieron en el domicilio del alcalde Emilio Lara Calderón en una investigación por presunto secuestro de personas del sexo masculino. El alcalde acusó violación a sus derechos; la Fiscalía afirmó que actuó con consentimiento. El PRI nacional salió a defenderlo ('Alito' Moreno). El caso fue archivado o no tuvo resolución pública conocida. ¿Quiénes eran las personas presuntamente secuestradas? ¿Se resolvió el caso? ¿Hubo relación con redes criminales en el municipio?",
-      "tipo": "Poder / Escándalo / Seguridad / Crimen organizado",
-      "fuentes_a_consultar": [
-        "Fiscalía General del Estado de Campeche — comunicados sobre el caso",
-        "La Jornada — noticias de Hopelchén 2023",
-        "Milenio / Infobae — seguimiento del caso enero 2023",
-        "PorEsto Campeche — cobertura local del evento"
-      ],
-      "prioridad": "Alta",
-      "conexion_hipotesis": "Si el alcalde priista de Hopelchén estaba vinculado a actividades de privación ilegal de libertad, el patrón de impunidad y complicidad del poder político local con el crimen organizado representa una nueva dimensión del control del territorio — ya no solo económica sino también violenta. La hipótesis se extiende: el poder no solo controla la tierra, también controla los cuerpos."
-    },
-
-    {
-      "pregunta_id": "P006-06",
+      "pregunta_id": "P006-11",
       "pregunta": "¿Quién es Efraín Calderón Lara 'Charras'? ¿Cuándo y por qué fue asesinado? ¿Cuál era su relación exacta con los linajes Calderón y Lara de Hopelchén?",
-      "contexto": "Los artículos de PorEsto (2019) y Yucatán Cultura (2021) lo describen como miembro de la familia 'Calderón Lara' de Hopelchén — la misma que produce presidentes municipales priistas — y como sindicalista que fue 'asesinado por la reacción'. Sus ideas políticas lo acercaron a Felipe Carrillo Puerto (mártir socialista yucateco). Su madre era 'Doña Adda Lara viuda de Calderón'. El hecho de que un miembro del linaje de poder de Hopelchén fuera asesinado por sus posiciones políticas de izquierda es un dato extraordinario que indica fracturas internas en la élite local.",
+      "contexto": "Los artículos de PorEsto (2019) y Yucatán Cultura (2021) lo describen como miembro de la familia 'Calderón Lara' de Hopelchén — la misma que produce presidentes municipales priistas — y como sindicalista que fue 'asesinado por la reacción'. El hecho de que un miembro del linaje de poder de Hopelchén fuera asesinado por sus posiciones políticas de izquierda es un dato extraordinario que indica fracturas internas en la élite local.",
       "tipo": "Resistencia / Genealogía / Fractura interna de élite / Violencia política",
       "fuentes_a_consultar": [
         "PorEsto — 'Recuerdos de Efraín Calderón Lara Charras' (Feb 2019): https://www.poresto.com/yucatan/2019/2/11/recuerdos-de-efrain-calderon-lara-charras.html",
         "Yucatán Cultura — 'Efraín Calderón Lara Charras: ¡Asesinado por la reacción!' (Feb 2021): https://yucatancultura.com/asesinado-efrain-calderon-charras/",
-        "Archivos sindicales de Yucatán — siglo XX",
-        "Hemeroteca del Diario del Sureste (donde trabajó Humberto Lara y Lara, periodista chenero)"
+        "Archivos sindicales de Yucatán — siglo XX"
       ],
       "prioridad": "Alta",
-      "conexion_hipotesis": "El asesinato de Efraín Calderón Lara demuestra que la élite chenera no es un bloque homogéneo — produce tanto figuras de poder priista como disidentes asesinados. Esta fractura interna es evidencia de que las redes familiares de poder también tienen sus propios conflictos y sus propias víctimas. La historia del poder en Hopelchén no es solo la historia de sus presidentes municipales sino también la de quienes dentro de esas mismas familias se opusieron al sistema y pagaron el precio."
-    },
-
-    {
-      "pregunta_id": "P006-07",
-      "pregunta": "¿Cuál es la relación de los presidentes municipales de Hopelchén con la llegada y expansión de las colonias menonitas desde 1987? ¿Hubo acuerdos, ventas o arrendamientos de tierras municipales o ejidales que involucraran al ayuntamiento como facilitador?",
-      "contexto": "Las colonias menonitas llegaron a Hopelchén desde 1987, durante el período de hegemonía priista absoluta en el municipio. Para 2021, más de 12,000 menonitas habitaban 18 colonias en Campeche. La expansión requirió adquirir o arrendar tierras ejidales. El mecanismo legal fue la reforma al Artículo 27 (1992), pero su aplicación local dependió de autoridades municipales y ejidales. ¿Hubo complicidad activa del ayuntamiento priista de Hopelchén en facilitar la llegada y expansión menonita?",
-      "tipo": "Territorio / Menonitas / Poder municipal / Despojo",
-      "fuentes_a_consultar": [
-        "RAN (Registro Agrario Nacional) — contratos de arrendamiento ejidal en Hopelchén desde 1992",
-        "Gabriela Torres-Mazuera — investigaciones académicas sobre despojo ejidal en Hopelchén",
-        "Animal Político — Sembrando Deforestación: https://panel.animalpolitico.com/sembrando-deforestacion-en-mexico/soya.html",
-        "Observatorio Ciudadano — Menonitas arrasan selvas de Campeche: https://obsci.org/menonitas-arrasan-selvas-de-campeche/"
-      ],
-      "prioridad": "Alta",
-      "conexion_hipotesis": "Si el ayuntamiento priista de Hopelchén facilitó activamente la expansión menonita, se confirma que el despojo contemporáneo de tierras mayas no fue solo obra de fuerzas externas (menonitas, agroindustria) sino que contó con complicidad política local directa — el mismo patrón de colaboracionismo documentado desde los Tutul Xiúes en el siglo XVI."
-    },
-
-    {
-      "pregunta_id": "P006-08",
-      "pregunta": "¿Qué posición tomó la alcaldesa Sandy Baas Cauich (2018-2021) respecto al conflicto de las comunidades mayas con los transgénicos y los menonitas durante su gestión?",
-      "contexto": "Sandy Baas Cauich fue alcaldesa durante el período 2018-2021, cuando el conflicto entre comunidades mayas, menonitas y agroindustria estaba en pleno desarrollo. En 2020 Leydy Pech ganó el Premio Goldman. En 2021 la Semarnat instaló la 'mesa permanente de diálogo'. Sandy Baas es la única alcaldesa de Hopelchén con apellidos mayas. ¿Tomó alguna posición oficial como autoridad municipal en defensa de las comunidades mayas apicultoras de Hopelchén? ¿O guardó silencio?",
-      "tipo": "Poder / Género / Identidad maya / Conflicto agroindustrial",
-      "fuentes_a_consultar": [
-        "Ayuntamiento de Hopelchén — archivo de comunicados 2018-2021: www.ayuntamientodehopelchen.com",
-        "DIF Hopelchén — comunicados 2018-2021: www.difhopelchen.gob.mx",
-        "Pie de Página — coberturas del conflicto en Hopelchén 2018-2021",
-        "AIDA — Interamerican Association for Environmental Defense: https://aida-americas.org"
-      ],
-      "prioridad": "Media-Alta",
-      "conexion_hipotesis": "Si la primera alcaldesa de apellidos mayas de Hopelchén no tomó posición a favor de las comunidades mayas en el conflicto más importante del siglo XXI en el municipio, se confirma que el poder político local absorbe y neutraliza la identidad étnica — el apellido maya en el cargo ejecutivo no garantiza defensa de los intereses de las comunidades mayas. El sistema cooptó a la élite maya local exactamente como cooptó a los Tutul Xiúes en 1541."
+      "conexion_hipotesis": "El asesinato de Efraín Calderón Lara demuestra que la élite chenera no es un bloque homogéneo — produce tanto figuras de poder priista como disidentes asesinados. La historia del poder en Hopelchén no es solo la historia de sus presidentes municipales sino también la de quienes dentro de esas mismas familias se opusieron al sistema.",
+      "estado": "PENDIENTE"
     }
 
   ],
@@ -134,50 +185,52 @@
   "hallazgos_para_iteracion_profunda": [
     {
       "hallazgo": "El apellido LARA aparece en posiciones de poder en Hopelchén desde el Porfiriato (~1900) hasta 2024, abarcando al menos 124 años documentados. Fuente periodística (PorEsto 2019) documenta explícitamente que Lara, Calderón, Solís, Baqueiro y Barrera son los linajes familiares 'totalmente identificados con Hopelchén'.",
-      "implicacion": "La hipótesis de transmisión genealógica del poder tiene ahora evidencia directa nombrada. La siguiente iteración debe profundizar en el árbol genealógico de la familia Lara para conectar a Pedro Advíncula Lara (hacendado porfiriano) con Emilio Lara Calderón (alcalde 2021-2024) mediante registros parroquiales, civiles o notariales.",
+      "implicacion": "La hipótesis de transmisión genealógica del poder tiene ahora evidencia directa nombrada.",
       "accion_siguiente": "Buscar registros de la familia Lara en el Archivo del Obispado de Campeche y en el Registro Civil del municipio de Hopelchén."
     },
     {
-      "hallazgo": "El alcalde José Ignacio España Novelo colocó en la nómina municipal al menos 10 familiares directos, incluyendo su padre, suegro, prima como directora de Comunicación Social y varios primos en áreas jurídica y sindical. Fuente: Tabasco HOY con nombres y cargos.",
-      "implicacion": "El nepotismo en Hopelchén está documentado con detalle suficiente para una investigación de responsabilidades. La directora de Comunicación Social era familiar del alcalde — lo que significa que el control de la narrativa del ayuntamiento era también un asunto familiar.",
+      "hallazgo": "El alcalde José Ignacio España Novelo colocó en la nómina municipal al menos 10 familiares directos, incluyendo su padre, suegro, prima como directora de Comunicación Social y varios primos en áreas jurídica y sindical.",
+      "implicacion": "El nepotismo en Hopelchén está documentado con detalle suficiente para una investigación de responsabilidades.",
       "accion_siguiente": "Investigar si España Novelo autorizó cambios de uso de suelo durante su gestión que favorecieran a menonitas o agroindustria."
     },
     {
-      "hallazgo": "El PRI gobernó Hopelchén ininterrumpidamente durante al menos 62 años (1959-2021). En 2021 el PRI perdió la gubernatura de Campeche por primera vez en 92 años, pero Hopelchén siguió siendo priista. La tensión entre el municipio priista y la gobernadora morenista produjo un cateo al domicilio del alcalde con investigación por presunto secuestro (enero 2023).",
-      "implicacion": "La ruptura del PRI en Campeche a nivel estatal no se tradujo en ruptura a nivel municipal en Hopelchén. El municipio maya más afectado por transgénicos y deforestación siguió eligiendo al partido que habilitó ese despojo durante seis décadas.",
-      "accion_siguiente": "Investigar los resultados electorales específicos de Hopelchén en 2021 y 2024: ¿quién votó por el PRI y por qué? ¿Hubo cambio en 2024?"
-    },
-    {
-      "hallazgo": "El alcalde actual (Hiram Aranda Calderón, 2024-2027) lleva el apellido ARANDA — el mismo del único historiador local conocido (Mario Heberto Aranda González, 1985) — y el apellido CALDERÓN, perteneciente al linaje chenero más documentado.",
-      "implicacion": "El custodio de la memoria histórica local y el ejecutor del poder municipal actual podrían pertenecer a la misma red familiar. Esto convertiría la única monografía histórica de Hopelchén en una fuente que hay que leer con consciencia de clase.",
-      "accion_siguiente": "Prioridad máxima: consultar el libro de Aranda González (1985) en Biblioteca del Estado de Campeche y verificar el perfil del autor."
+      "hallazgo": "El PRI gobernó Hopelchén ininterrumpidamente durante al menos 62 años (1959-2021). En 2021 el PRI perdió la gubernatura de Campeche por primera vez en 92 años, pero Hopelchén siguió siendo priista.",
+      "implicacion": "La ruptura del PRI en Campeche a nivel estatal no se tradujo en ruptura a nivel municipal en Hopelchén.",
+      "accion_siguiente": "Investigar los resultados electorales específicos de Hopelchén en 2021 y 2024: ¿quién votó por el PRI y por qué?"
     }
   ],
 
   "temas_pendientes_sin_datos": [
     {
       "tema": "Lista completa de presidentes municipales de Hopelchén 1915-1998",
-      "por_que_importa": "Sin esta lista no se puede trazar la continuidad del poder político durante el siglo XX. Los períodos de la Reforma Agraria, el auge chiclero y la llegada de los menonitas quedan sin nombre en el ejercicio del poder local."
+      "por_que_importa": "Sin esta lista no se puede trazar la continuidad del poder político durante el siglo XX."
     },
     {
       "tema": "Red de relaciones entre presidentes municipales y propietarios de haciendas/empresas locales",
-      "por_que_importa": "¿Tenían los alcaldes propiedades o negocios en el municipio mientras ejercían el cargo? El caso de Pedro Advíncula Lara (hacendado + jefe político) sugiere que este patrón pudo replicarse en el siglo XX."
+      "por_que_importa": "¿Tenían los alcaldes propiedades o negocios en el municipio mientras ejercían el cargo?"
     },
     {
       "tema": "Posiciones de los presidentes municipales ante la SCJN y el conflicto transgénico",
-      "por_que_importa": "La sentencia de la SCJN en 2015 fue un hito nacional. ¿Qué hizo el ayuntamiento de Hopelchén antes, durante y después de esa batalla legal? ¿Apoyó a las comunidades mayas o al statu quo agroindustrial?"
+      "por_que_importa": "¿Qué hizo el ayuntamiento de Hopelchén antes, durante y después de la batalla legal ganada por Leydy Pech?"
     }
   ],
 
-  "siguiente_nodo_sugerido": "NODO 007 — Territorio y Uso del Suelo en Hopelchén (1517–2026): Mapas, Haciendas, Ejidos y Deforestación — El Control Visual del Despojo",
+  "hallazgo_estrategico_para_proximas_iteraciones": {
+    "fuente_clave": "Periódico Oficial del Estado de Campeche",
+    "url": "periodicooficial.campeche.gob.mx",
+    "disponibilidad": "En línea — archivo histórico desde 1857",
+    "busquedas_prioritarias": [
+      "Años 1987-1992: tomas de protesta de presidentes municipales de Hopelchén — desbloquea P006-08",
+      "Años 1970-2000: tomas de protesta de presidentes municipales de Hopelchén — desbloquea P006-02",
+      "Años 2007-2012: autorizaciones de cambio de uso de suelo y contratos ejidales — desbloquea P006-10"
+    ]
+  },
 
   "metadatos": {
     "generado_desde": "HOPELCHEN_NODO_006_PoderPolitico_Local.json",
-    "fecha": "2026-04-08",
-    "total_preguntas_urgentes": 8,
-    "total_hallazgos_iteracion": 4,
-    "total_temas_pendientes": 3,
-    "estado": "Activo — primera iteración",
-    "nota_metodologica": "El Nodo 006 fue construido con fuentes periodísticas e institucionales verificables. Las preguntas genealógicas (P006-01 y P006-02) son las de mayor prioridad porque su respuesta puede transformar la lectura de todo el repositorio: si los custodios de la narrativa histórica y los alcaldes actuales son la misma familia, la hipótesis central del proyecto queda confirmada en su dimensión más directa."
+    "fecha": "2026-04-13",
+    "total_preguntas": 11,
+    "estado": "Activo — consolidado y expandido",
+    "nota_metodologica": "P006-01..P006-08 provienen del archivo original PREGUNTAS_006_Poder_Politico.json (2026-04-03) y están referenciados en datos/VACIOS.md. P006-09..P006-11 son nuevas preguntas del segundo archivo PREGUNTAS_006_PoderPolitico.json (2026-04-08)."
   }
 }

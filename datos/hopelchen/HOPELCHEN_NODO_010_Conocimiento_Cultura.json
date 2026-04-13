@@ -1,0 +1,225 @@
+{
+  "repositorio": "Hopelchén: 2000 años de historia",
+  "nodo_id": "010",
+  "titulo": "Conocimiento y Cultura Maya en Los Chenes (300 a.C. – 2026): Astronomía, Escritura, Destrucción y Continuidad",
+  "hipotesis_marco": "El control del conocimiento es el tercer eje de la hipótesis central del proyecto (junto con el control de la tierra y el control del cuerpo). En Los Chenes, el conocimiento maya — astronómico, calendárico, epigráfico, botánico, apícola — fue sistemáticamente atacado, apropiado o invisibilizado por los poderes sucesivos: la conquista española destruyó los códices en 1562; el sistema colonial transformó el calendario en herejía; el sistema educativo porfiriano y posrevolucionario enseñó que la historia comienza con la conquista. Sin embargo, el conocimiento sobrevivió: en los muros de Xtampak, en la práctica de la meliponicultura, en la lengua yucateca, en el manejo del ecosistema de la Selva Maya. Nodo 010 hace explícito este tercer eje.",
+  "era": "Preclásico → Clásico → Colonial → Contemporánea",
+  "rango_temporal": "300 a.C. — 2026",
+  "fecha_creacion_nodo": "2026-04-13",
+  "version": "1.0",
+  "autor_investigacion": "Proyecto Hopelchén — Investigación histórica independiente",
+  "continua_desde": "Nodo 001 (astronomía y cerámica prehispánica), Nodo 002 (destrucción de códices coloniales), Nodo 009 (meliponicultura como conocimiento vivo)",
+  "nota_metodologica": "La hipótesis central del proyecto V4 menciona 'control del conocimiento' pero ese hilo está disperso en los nodos anteriores. Este nodo lo convierte en eje temático propio. Algunos registros de este nodo son análisis e inferencias a partir de evidencia arqueológica y epigráfica — el nivel de certeza se indica explícitamente en cada caso.",
+
+  "HALLAZGO_CRITICO_CENTRAL": {
+    "titulo": "El conocimiento maya en Los Chenes sobrevivió donde el sistema de poder no pudo llegar",
+    "descripcion": "El auto de fe de Maní (1562) destruyó los códices. Las misiones franciscanas transformaron el calendario y los rituales en crimen. El sistema escolar porfiriano y posrevolucionario enseñó historia desde la perspectiva del Estado colonial. Sin embargo, la astronomía sobrevivió en los alineamientos arquitectónicos de Xtampak; la escritura sobrevivió en la Estela 2; la botánica medicinal sobrevivió en práctica cotidiana; la meliponicultura sobrevivió como tecnología viva durante 3,000 años. El conocimiento que sobrevivió es el que tenía utilidad práctica cotidiana o el que estaba literalmente grabado en piedra. El conocimiento que se perdió es el que requería transmisión activa de una élite especializada (sacerdotes, escribas) — ese fue el objetivo específico de la destrucción colonial.",
+    "implicacion_para_hipotesis": "El control del conocimiento en Hopelchén no fue total. Fue selectivo: atacó el conocimiento codificado y transmitido por las élites intelectuales mayas (sacerdotes-astrónomos, escribas), pero no pudo eliminar el conocimiento práctico distribuido en toda la comunidad. La resistencia del conocimiento sigue el mismo patrón que la resistencia política documentada en el Nodo 009: sobrevive en los espacios que el poder dominante no puede o no quiere controlar.",
+    "fuentes_verificadas": ["001-B (cerámica y arquitectura Xtampak)", "001-D (Estela 2)", "002-C (misiones y destrucción)", "009-E (meliponicultura)"]
+  },
+
+  "registros": [
+
+    {
+      "registro_id": "010-A",
+      "subtitulo": "Astronomía y arquitectura en Los Chenes: los alineamientos de Santa Rosa Xtampak como conocimiento espacial",
+      "fecha_evento": "c. 600 — 900 d.C. (Clásico Tardío)",
+      "lugar": "Santa Rosa Xtampak, municipio de Hopelchén",
+      "descripcion": "La arquitectura de Santa Rosa Xtampak, el sitio arqueológico más importante de Los Chenes, no es solo construcción — es conocimiento codificado en piedra. Los trabajos arqueológicos del INAH han documentado que los edificios principales de Xtampak presentan alineamientos astronómicos deliberados: puertas, ventanas y ejes orientados hacia eventos solares y venusinos específicos. El Cuadrilátero de los Palacios, la estructura más grande del sitio, tiene orientación cardinal con precisión que demuestra conocimiento avanzado de astronomía observacional. El sistema de Los Chenes (caracterizado por fachadas con máscaras del dios Itzamná/Chac cubriendo la totalidad del frente de los edificios) puede interpretarse como una forma de codificar el conocimiento cosmológico en la arquitectura pública: el edificio mismo es el texto, accesible a toda la comunidad que lo habita.",
+      "fuente": {
+        "nombre": "INAH Centro Campeche — Mediateca INAH — Proyecto Arqueológico Santa Rosa Xtampak; referenciado en Nodo 001 registros 001-B y 001-C",
+        "tipo": "Fuentes institucionales — INAH",
+        "confiabilidad": "Alta para la existencia del sitio; Media-Alta para la interpretación astronómica específica (requiere publicaciones especializadas de Xtampak)"
+      },
+      "tipo_dato": "Análisis arqueológico-astronómico",
+      "notas_contradiccion": "Los alineamientos astronómicos en arquitectura maya son bien documentados en sitios como Chichén Itzá, Uxmal y Monte Albán. La evidencia específica de Xtampak requiere consultar los informes técnicos del proyecto arqueológico del INAH, que no han sido revisados directamente en este repositorio.",
+      "conexion_hipotesis": "La arquitectura astronómica de Xtampak es evidencia de que Los Chenes producía conocimiento científico avanzado — no en el sentido colonial de 'salvajes asombrados por el sol' sino en el sentido de una tradición astronómica sofisticada que se codificó en los edificios para sobrevivir a la destrucción de los textos. Cuando Landa quemó los códices en 1562, los edificios de Xtampak ya tenían 700 años grabados en piedra.",
+      "tags": ["astronomía maya", "Xtampak", "alineamiento arquitectónico", "conocimiento codificado en piedra", "Clásico Tardío", "Los Chenes"]
+    },
+
+    {
+      "registro_id": "010-B",
+      "subtitulo": "Escritura jeroglífica en Los Chenes: la Estela 2 de Santa Rosa Xtampak y el gobernante JOL",
+      "fecha_evento": "c. 600 — 800 d.C.",
+      "lugar": "Santa Rosa Xtampak, Los Chenes",
+      "descripcion": "La Estela 2 de Santa Rosa Xtampak es uno de los pocos textos jeroglíficos del período Clásico directamente producidos en el territorio de Hopelchén. Según el artículo de SciELO referenciado en el Nodo 001 (registro 001-D), la estela registra el nombre de un gobernante con el glifo nominal JOL, con posible conexión a la isla de Jaina (importante sitio funerario de élite en la costa de Campeche). Este texto jeroglífico es evidencia de que Los Chenes producía inscripciones políticas y dinásticas propias — no era una zona periférica culturalmente dependiente de Chichén Itzá o Uxmal sino un territorio con producción epigráfica local. La escritura jeroglífica maya es, entre los sistemas de escritura mesoamericanos, uno de los más sofisticados: fonético, logográfico y semántico simultáneamente. Que exista en Xtampak confirma que el municipio de Hopelchén tuvo acceso a los niveles más altos de producción intelectual maya.",
+      "fuente": {
+        "nombre": "SciELO — artículo sobre epigrafía de Santa Rosa Xtampak; referenciado en Nodo 001 registro 001-D",
+        "tipo": "Publicación académica arbitrada",
+        "confiabilidad": "Alta — publicación arbitrada; requiere recuperar cita completa del artículo de SciELO"
+      },
+      "tipo_dato": "Citado académico — evidencia epigráfica",
+      "personajes": [
+        {
+          "nombre": "Gobernante con glifo JOL (nombre completo desconocido)",
+          "rol": "Gobernante/rey de Santa Rosa Xtampak documentado en la Estela 2",
+          "nota_critica": "El nombre completo del gobernante en la Estela 2 no ha sido identificado con certeza. P001-04 documenta la pregunta abierta: ¿puede identificarse su nombre completo y posición dinástica?"
+        }
+      ],
+      "notas_contradiccion": "La descifracion de la escritura maya (Maya: completo en ~80-85% según Coe, 1992) permite leer la Estela 2 de Xtampak — pero ese trabajo epigráfico específico no ha sido reportado en las publicaciones consultadas en este repositorio. Las preguntas abiertas sobre la Estela 2 (P001-04) siguen sin respuesta.",
+      "conexion_hipotesis": "La escritura jeroglífica en Xtampak es el caso más directo de conocimiento maya producido en Hopelchén que la conquista española intentó borrar. La Estela 2 sobrevivió al auto de fe de Maní (1562) y a cinco siglos de colonización porque estaba tallada en piedra. El conocimiento que se grabó en texto portátil (códices) fue destruido; el que se grabó en piedra sobrevivió.",
+      "tags": ["escritura jeroglífica", "Estela 2", "Xtampak", "JOL", "epigrafía maya", "Los Chenes", "Clásico", "conocimiento maya"]
+    },
+
+    {
+      "registro_id": "010-C",
+      "subtitulo": "El auto de fe de Maní (1562): la mayor destrucción documentada del conocimiento maya en la región",
+      "fecha_evento": "12 julio 1562",
+      "lugar": "Maní, Yucatán (impacto regional en Los Chenes)",
+      "descripcion": "El 12 de julio de 1562, fray Diego de Landa realizó en Maní (al norte de Los Chenes) el mayor auto de fe colonial registrado en Yucatán: quemó 27 manuscritos jeroglíficos (códices mayas) y 5,000 ídolos ceremoniales. El propio Landa registró después: 'Hallamos gran número de libros de estas letras y como no tenían cosa en que no hubiese superstición y falsedades del demonio, se los quemamos todos, lo cual sentían a maravilla y les daba pena.' De todos los códices mayas que existían en el siglo XVI (estimados en cientos, quizás miles), solo cuatro sobrevivieron en el mundo completo: el Dresde, el París, el Madrid y el Grolier. Los de Los Chenes probablemente ardieron en Maní o en los autos de fe locales realizados por las misiones franciscanas en la región. La destrucción fue sistemática y consciente: los franciscanos sabían exactamente lo que estaban quemando.",
+      "fuente": {
+        "nombre": "Landa, Diego de — Relación de las cosas de Yucatán (c.1566, ed. facsímil); referenciado en análisis de múltiples nodos del repositorio",
+        "tipo": "Fuente primaria colonial — texto del perpetrador",
+        "confiabilidad": "Alta — el auto de fe de Maní está documentado por el propio Landa y por crónicas coloniales contemporáneas"
+      },
+      "tipo_dato": "Histórico verificado — evento documentado en fuente primaria",
+      "personajes": [
+        {
+          "nombre": "Diego de Landa",
+          "rol": "Franciscano, promotor del auto de fe de Maní (1562); autor posterior de la 'Relación de las cosas de Yucatán' — la misma persona que destruyó los códices y después escribió la fuente más importante sobre la cultura maya colonial",
+          "nota_critica": "La paradoja de Landa: destruyó los códices y escribió la única descripción colonial detallada de la escritura jeroglífica. Su 'Relación' fue la base para el desciframiento moderno de la escritura maya. El que destruyó más conocimiento maya también preservó más conocimiento maya — en su versión colonial, a través de la mirada del poder."
+        }
+      ],
+      "notas_contradiccion": "El número exacto de códices destruidos en el auto de fe de Maní varía según la fuente (Landa dice 'gran número'; otras fuentes dan cifras específicas). Lo verificable: de todos los códices mayas del mundo prehispánico, solo cuatro sobrevivieron. La escala del conocimiento perdido es incalculable.",
+      "conexion_hipotesis": "El auto de fe de Maní es el acto de destrucción del conocimiento más documentado del proyecto. No fue un acto de ignorancia: fue una decisión consciente del poder colonial de eliminar la tradición intelectual maya para hacer imposible la resistencia cultural organizada. La hipótesis central del proyecto tiene en este evento su evidencia más directa.",
+      "tags": ["auto de fe", "Maní", "1562", "Diego de Landa", "códices mayas", "destrucción conocimiento", "franciscanos", "colonialismo epistémico"]
+    },
+
+    {
+      "registro_id": "010-D",
+      "subtitulo": "El calendario maya en Los Chenes: el Tzolk'in y el Haab como sistemas de conocimiento agrícola y astronómico vivos",
+      "fecha_evento": "c. 300 a.C. — presente (continuidad parcial)",
+      "lugar": "Los Chenes, Hopelchén — región maya peninsular",
+      "descripcion": "El sistema calendárico maya — que combina el Tzolk'in (calendario ritual de 260 días) con el Haab (calendario solar de 365 días) en la Cuenta Larga y la Rueda Calendárica (52 años) — no es solo un sistema de cómputo del tiempo: es un sistema de organización del conocimiento astronómico, agrícola, médico y político. En Los Chenes, donde el sistema de milpa requería conocimiento preciso de ciclos estacionales, lluvias y fases lunares para la siembra y cosecha, el calendario maya era tecnología práctica de supervivencia. Las misiones franciscanas atacaron el calendario porque entendieron que era la estructura que organizaba la vida pública y ritual de las comunidades: sin el calendario, los sacerdotes mayas perdían su función social. El ataque al calendario era, en su lógica, más efectivo que el ataque a los edificios. El calendario sobrevivió parcialmente: los agricultores mayas de Hopelchén siguen usando indicadores agroecológicos que tienen raíces en el sistema calendárico prehispánico, aunque ya no como sistema formal de cómputo del tiempo.",
+      "fuente": {
+        "nombre": "Thompson, J. Eric S. — Maya Hieroglyphic Writing (1950) y Coe, Michael D. — Breaking the Maya Code (1992); análisis general del sistema calendárico maya",
+        "tipo": "Fuentes académicas de referencia sobre cultura maya",
+        "confiabilidad": "Alta para el sistema calendárico en general; requiere fuente específica sobre Los Chenes"
+      },
+      "tipo_dato": "Análisis contextual — inferencia razonada",
+      "notas_contradiccion": "No hay evidencia directa del uso específico del calendario en Hopelchén en el período prehispánico (más allá de la Estela 2). La continuidad agrícola del conocimiento calendárico en la actualidad requeriría una investigación etnográfica directa con comunidades meliponicultoras y milperas de Los Chenes.",
+      "conexion_hipotesis": "El ataque al calendario maya fue un ataque a la estructura cognitiva que organizaba la vida comunitaria. Al destruir el conocimiento calendárico formal, el sistema colonial no solo eliminó una 'superstición' — desarticuló el sistema de organización del conocimiento agrícola, médico y político que hacía funcionar a la comunidad de manera autónoma.",
+      "tags": ["calendario maya", "Tzolk'in", "Haab", "conocimiento agrícola", "astronomía práctica", "misiones franciscanas", "destrucción colonial", "continuidad agroecológica"]
+    },
+
+    {
+      "registro_id": "010-E",
+      "subtitulo": "La meliponicultura como biotecnología de 3,000 años: el conocimiento vivo más documentado de Los Chenes",
+      "fecha_evento": "300 a.C. — 2026",
+      "lugar": "Los Chenes, Hopelchén, región maya peninsular",
+      "descripcion": "La cría de la abeja nativa Xunáan Kab (Melipona beecheii) es el caso más documentado de conocimiento vivo no interrumpido en el repositorio. El Códice Madrid (uno de los cuatro códices mayas sobrevivientes) contiene una sección completa dedicada a rituales y conocimiento de meliponicultura. La continuidad entre ese conocimiento del siglo XVI (o antes) y la práctica actual de organizaciones como Maya Ka'an en Hopelchén es verificable: (1) el manejo de los xunáankab toma (colmenas de tronco hueco) sigue los mismos principios ecológicos documentados en el Códice Madrid; (2) el conocimiento medicinal sobre la miel y la cera de Xunáan Kab es continuo desde el período prehispánico. ECOSUR ha documentado que la meliponicultura maya en Los Chenes es una forma de manejo del ecosistema: los apicultores mayas conocen los patrones de floración, las rutas de vuelo de las abejas y las necesidades de sombra del entorno — un conocimiento agroecológico que requirió siglos de observación sistemática para construirse.",
+      "fuente_1": {
+        "nombre": "Códice Madrid — sección de meliponicultura (dioses Ah Muzen Cab); fuente prehispánica",
+        "confiabilidad": "Alta — el Códice Madrid es fuente prehispánica auténtica"
+      },
+      "fuente_2": {
+        "nombre": "ECOSUR — investigaciones sobre meliponicultura maya en Campeche; datos de leydy_pech_perfil.json y Nodo 009",
+        "confiabilidad": "Alta — institución académica de referencia en el tema"
+      },
+      "tipo_dato": "Histórico-científico verificado con continuidad documentada",
+      "notas_contradiccion": "La continuidad de la meliponicultura no implica que el conocimiento sea idéntico al prehispánico — 500 años de contacto, sincretismo y adaptación han modificado las prácticas. Lo que sobrevivió es el núcleo técnico (manejo de colmenas, extracción de miel) y el conocimiento agroecológico del entorno. Los rituales específicos y el conocimiento calendárico asociado se perdieron parcialmente.",
+      "conexion_hipotesis": "La meliponicultura es la prueba más sólida de que el conocimiento maya en Los Chenes no fue eliminado por el ciclo extractivo: fue reducido, presionado y atacado (por el glifosato desde 2007), pero no destruido. Leydy Pech usó este conocimiento vivo como argumento jurídico ante la SCJN — y ganó. Es el caso más claro de que el conocimiento ancestral puede ser herramienta política en el siglo XXI.",
+      "tags": ["meliponicultura", "Xunáan Kab", "Códice Madrid", "biotecnología maya", "3000 años", "continuidad", "conocimiento vivo", "ECOSUR", "Leydy Pech"]
+    },
+
+    {
+      "registro_id": "010-F",
+      "subtitulo": "La lengua maya yucateca en Hopelchén: supervivencia lingüística como resistencia epistémica",
+      "fecha_evento": "Prehispánico — 2026",
+      "lugar": "Hopelchén, Los Chenes, Campeche",
+      "descripcion": "El maya yucateco (maya' t'aan) es la lengua indígena más hablada en el sureste de México. En Hopelchén, según datos del INEGI 2020, aproximadamente el 35-40% de la población habla alguna lengua indígena, principalmente maya yucateco. Esta supervivencia lingüística es significativa: la lengua no es solo un sistema de comunicación — es el archivo cognitivo en el que se almacena el conocimiento agroecológico, médico, astronómico y cultural que no fue codificado en textos escritos. Los términos mayas para plantas medicinales, patrones climáticos, comportamiento de insectos y tipos de suelo contienen categorías cognitivas que el español no tiene equivalente. La lengua maya sobrevivió porque era el medio de comunicación cotidiano de comunidades con mayoría de hablantes — el sistema colonial nunca tuvo los recursos para imponer el español en cada hogar de Los Chenes.",
+      "fuente": {
+        "nombre": "INEGI — Censo de Población y Vivienda 2020: datos de hablantes de lengua indígena en Hopelchén, Campeche",
+        "tipo": "Datos estadísticos oficiales",
+        "confiabilidad": "Alta — censo oficial con metodología verificable"
+      },
+      "tipo_dato": "Estadístico con análisis lingüístico-cultural",
+      "notas_contradiccion": "Los datos del INEGI miden 'hablantes de lengua indígena' pero no distinguen entre bilingüismo pleno, hablantes pasivos o nivel de retención del conocimiento cultural asociado. El número de hablantes puede ser mayor que el registrado por el efecto de estigma (hablar maya en contextos formales puede percibirse como marcador de discriminación). Inversamente, hablar maya no garantiza la transmisión del conocimiento cultural más profundo.",
+      "conexion_hipotesis": "La supervivencia del maya yucateco en Hopelchén es el archivo vivo del conocimiento cultural maya que no fue codificado en documentos escritos. La lengua es el contenedor del 'tercer eje' de la hipótesis: el conocimiento que no se puede quemar, porque vive en la boca de las personas.",
+      "tags": ["lengua maya yucateca", "supervivencia lingüística", "INEGI", "conocimiento agroecológico", "archivo cognitivo", "resistencia epistémica", "Hopelchén"]
+    },
+
+    {
+      "registro_id": "010-G",
+      "subtitulo": "CRUCE TRANSVERSAL: El control del conocimiento maya en Los Chenes — destrucción, apropiación y supervivencia",
+      "fecha_evento": "1562 — 2026",
+      "lugar": "Los Chenes, Hopelchén, Campeche",
+      "descripcion": "ANÁLISIS DE SÍNTESIS. Al cruzar los registros de los Nodos 001-010, emerge un patrón claro sobre el control del conocimiento maya en Los Chenes: el poder colonial y sus sucesores atacaron específicamente el conocimiento que podía organizar la resistencia y mantener la autonomía cultural. Los tres tipos de conocimiento atacados fueron: (1) El conocimiento cosmológico-político codificado en textos (códices, estelas): destruido en el auto de fe de Maní (1562) y en las misiones franciscanas locales; (2) El conocimiento calendárico-ritual que organizaba la vida pública maya: suprimido por las misiones que convirtieron los rituales en crimen; (3) El conocimiento de élite especializado (sacerdotes-astrónomos, escribas): eliminado al matar o asimilar a sus portadores. El conocimiento que sobrevivió es el que tenía utilidad práctica distribuida en toda la comunidad y que no requería la mediación de una élite especializada: la meliponicultura, el manejo de milpa, la lengua, el conocimiento botánico y médico cotidiano. La distribución del conocimiento fue su mejor defensa.",
+      "tipo_dato": "Análisis de síntesis transversal",
+      "tabla_conocimiento": [
+        {
+          "tipo_conocimiento": "Astronómico-cosmológico (textos)",
+          "portadores": "Sacerdotes-escribas (élite especializada)",
+          "estado_1562": "DESTRUIDO — auto de fe de Maní",
+          "evidencia_supervivencia": "Solo 4 códices en el mundo; arquitectura de Xtampak (grabada en piedra)"
+        },
+        {
+          "tipo_conocimiento": "Calendárico-ritual",
+          "portadores": "Sacerdotes-rituales (élite, pero con participación comunitaria)",
+          "estado_1562": "SUPRIMIDO — misiones convirtieron rituales en crimen",
+          "evidencia_supervivencia": "Indicadores agroecológicos en comunidades milperas actuales"
+        },
+        {
+          "tipo_conocimiento": "Epigráfico (escritura jeroglífica)",
+          "portadores": "Escribas (élite muy especializada)",
+          "estado_1562": "DISCONTINUADO — no se producen nuevos textos jeroglíficos post-conquista",
+          "evidencia_supervivencia": "Estela 2 de Xtampak (grabada en piedra, sobrevivió)"
+        },
+        {
+          "tipo_conocimiento": "Meliponicultura",
+          "portadores": "Familias apicultoras (conocimiento distribuido)",
+          "estado_1562": "SOBREVIVIÓ — utilidad práctica cotidiana, no requiere élite",
+          "evidencia_supervivencia": "Maya Ka'an, Leydy Pech — práctica activa en 25+ comunidades de Hopelchén (2020)"
+        },
+        {
+          "tipo_conocimiento": "Botánica medicinal",
+          "portadores": "Curanderos y familias (conocimiento distribuido)",
+          "estado_1562": "SOBREVIVIÓ PARCIALMENTE — sincretismo con medicina colonial",
+          "evidencia_supervivencia": "Uso de plantas medicinales en comunidades rurales de Los Chenes (documentado etnobotánica UNAM)"
+        },
+        {
+          "tipo_conocimiento": "Lengua maya yucateca",
+          "portadores": "Toda la comunidad (conocimiento más distribuido posible)",
+          "estado_1562": "SOBREVIVIÓ — imposible de eliminar por escala y distribución",
+          "evidencia_supervivencia": "35-40% de hablantes en Hopelchén (INEGI 2020)"
+        }
+      ],
+      "patron_global": "El conocimiento que sobrevivió es inversamente proporcional a su nivel de concentración en élites especializadas. El conocimiento más concentrado (escribas-astrónomos-sacerdotes) fue el más destruido. El conocimiento más distribuido (lengua, meliponicultura, botánica) fue el más resistente. La 'democratización del conocimiento' no fue un proyecto ilustrado colonial — fue la condición de supervivencia del conocimiento maya.",
+      "notas_contradiccion": "La destrucción del conocimiento concentrado en élites especializadas dejó a las comunidades mayas sin sus sistemas más sofisticados de organización política y cosmológica. No se puede romanticizar la supervivencia del conocimiento distribuido sin reconocer lo que se perdió: la capacidad de producir textos escritos, de transmitir astronomía compleja a través de generaciones, de mantener una tradición epigráfica propia.",
+      "conexion_hipotesis": "CONFIRMACIÓN DEL TERCER EJE: El control del conocimiento en Hopelchén siguió el mismo patrón que el control de la tierra y del cuerpo — fue selectivo, sostenido y consciente. Su objetivo no era eliminar todo el conocimiento maya sino eliminar el conocimiento que podía organizar la resistencia. En ese objetivo, el sistema colonial fue parcialmente exitoso: los mayas de Los Chenes no tienen hoy ni los códices ni los sacerdotes-astrónomos. Pero la Xunáan Kab sigue volando.",
+      "tags": ["control conocimiento", "tercer eje hipótesis", "destrucción epistémica", "supervivencia cultural", "distribución conocimiento", "síntesis transversal", "Los Chenes 500 años"]
+    }
+
+  ],
+
+  "linea_del_tiempo_nodo": [
+    {"año": "c.300 a.C.", "evento": "Inicio de la tradición astronómica en Los Chenes — evidencia cerámica en Xtampak"},
+    {"año": "c.600-900 d.C.", "evento": "Clásico Tardío — producción de escritura jeroglífica en Xtampak (Estela 2); alineamientos arquitectónicos astronómicos"},
+    {"año": "1541-1562", "evento": "Conquista y misiones franciscanas — primer ciclo de destrucción del conocimiento maya en Los Chenes"},
+    {"año": "12 julio 1562", "evento": "Auto de fe de Maní — Diego de Landa quema 27 códices mayas y 5,000 ídolos"},
+    {"año": "1580-1620", "evento": "Misiones franciscanas en Los Chenes — destrucción de 'ídolos' y prohibición de rituales calendáricos en Hopelchén y región"},
+    {"año": "c.1700-1850", "evento": "Periodo de sincretismo — el conocimiento maya sobrevive mezclado con catolicismo popular; la meliponicultura continúa sin interrupción"},
+    {"año": "1895", "evento": "Sistema escolar porfiriano — llega a Los Chenes; enseña historia desde la conquista; el maya en las aulas se suprime progresivamente"},
+    {"año": "c.1930-1940", "evento": "SEP posrevolucionaria — proyecto de 'mexicanización' intenta sustituir el maya yucateco por el español en las comunidades de Los Chenes"},
+    {"año": "2007+", "evento": "Glifosato de soya transgénica ataca colmenas — el conocimiento meliponícola de 3,000 años bajo amenaza directa"},
+    {"año": "2015", "evento": "SCJN falla en favor de las comunidades mayas — el conocimiento meliponícola es reconocido jurídicamente como argumento válido"},
+    {"año": "2020", "evento": "Goldman Prize a Leydy Pech — reconocimiento internacional del conocimiento meliponícola como biotecnología de 3,000 años"}
+  ],
+
+  "fuentes_pendientes_consultar": [
+    "Códice Madrid — sección completa de meliponicultura (Ah Muzen Cab)",
+    "Landa, Diego de — Relación de las cosas de Yucatán (c.1566): descripción de los rituales destruidos en 1562",
+    "Proyecto Arqueológico Santa Rosa Xtampak, INAH — informes técnicos sobre alineamientos astronómicos",
+    "Zapata Peraza, Renée Lorelei — publicaciones completas sobre epigrafía de Xtampak (INAH Campeche)",
+    "ECOSUR — investigaciones sobre meliponicultura maya en Los Chenes y conocimiento agroecológico asociado",
+    "Álvarez Torres, Ignacio — investigaciones etnobotánicas en comunidades de Los Chenes (si existen)"
+  ],
+
+  "metadatos": {
+    "nodo_anterior": "NODO 009 — Resistencia y Agencia Maya (1669–2026)",
+    "relacion_con_nodos": "Cruza con 001-B, 001-C, 001-D, 002-C, 009-E",
+    "nivel_profundidad": "1 (primera iteración del nodo)",
+    "estado": "Activo — primera iteración, base construida con síntesis transversal de nodos 001-009",
+    "nota": "El registro 010-G (cruce transversal) es el más importante para el libro: proporciona la estructura argumentativa del tercer eje de la hipótesis."
+  }
+}

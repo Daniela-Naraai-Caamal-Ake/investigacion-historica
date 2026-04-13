@@ -1,0 +1,128 @@
+{
+  "repositorio": "Hopelchén: 2000 años de historia",
+  "archivo_id": "PREGUNTAS-009",
+  "titulo": "Preguntas Abiertas e Iteraciones Pendientes — Derivadas del Nodo 009: Resistencia y Agencia Maya (1669–2026)",
+  "nodo_origen": "009 — Resistencia y Agencia Maya en Hopelchén (1669–2026)",
+  "fecha_generacion": "2026-04-13",
+  "estado": "Activo — pendiente de investigación",
+
+  "preguntas": [
+
+    {
+      "pregunta_id": "P009-01",
+      "pregunta": "¿Quiénes eran los bataboob de Hopelchén en 1669? ¿Sus nombres, linajes y relación con las comunidades que gobernaban?",
+      "contexto": "Múltiples fuentes secundarias citan que en 1669 los bataboob de Hopelchén aún 'repudiaban el control de los blancos'. Pero ninguna fuente consultada da sus nombres. Cogolludo (1688) es la fuente primaria más probable — está disponible en formato digital. Si se identifican sus nombres, se puede intentar rastrear si sus apellidos reaparecen en el registro colonial tardío o en el registro ejidal del siglo XX.",
+      "tipo": "Genealogía / Resistencia colonial / Poder maya",
+      "fuentes_a_consultar": [
+        "Cogolludo, Diego López de — Historia de Yucatán (1688): buscar referencias a 'bataboob', 'Los Chenes', 'Hopelchén'",
+        "Archivo General de Indias (PARES) — Sección Audiencia de México, siglo XVII",
+        "Archivo del Obispado de Yucatán (Mérida) — registros de visitas pastorales a Los Chenes, siglo XVII"
+      ],
+      "prioridad": "Alta",
+      "conexion_hipotesis": "Identificar a los bataboob por nombre y linaje permitiría rastrear si sus descendientes aparecen como aliados o víctimas del sistema colonial posterior, o si sus apellidos reaparecen en el registro ejidal del siglo XX.",
+      "estado": "PENDIENTE"
+    },
+
+    {
+      "pregunta_id": "P009-02",
+      "pregunta": "¿Qué pasó con Juan de Dios May después del ataque a Hopelchén en 1848? ¿Fue capturado, huyó, murió? ¿Cuál era su comunidad de origen?",
+      "contexto": "Juan de Dios May es identificado como el líder del ataque del 26 de mayo de 1848 sobre Hopelchén, pero las fuentes del repositorio no dan información biográfica adicional. ¿Era un líder local de Los Chenes o llegó de otra región? ¿Tenía relación con otros líderes de la Guerra de Castas (Cecilio Chi, Manuel Antonio Ay, Jacinto Pat)?",
+      "tipo": "Genealogía / Historia militar / Resistencia",
+      "fuentes_a_consultar": [
+        "Reed, Nelson — The Caste War of Yucatan (1964, reedición 2001): índice por nombres",
+        "Rugeley, Terry — Yucatan's Maya Peasantry and the Origins of the Caste War (1996)",
+        "Archivo General del Estado de Yucatán — correspondencia militar 1848",
+        "Periódico Oficial del Estado de Campeche — ediciones 1848-1850"
+      ],
+      "prioridad": "Media-Alta",
+      "conexion_hipotesis": "Si Juan de Dios May tenía vínculos con comunidades específicas de Los Chenes, la resistencia de 1848 no fue un evento externo sino una expresión directa de la agencia de las comunidades locales de Hopelchén.",
+      "estado": "PENDIENTE"
+    },
+
+    {
+      "pregunta_id": "P009-03",
+      "pregunta": "¿Cuándo exactamente comenzó la organización Maya Ka'an? ¿Qué comunidades la integran? ¿Cómo se distribuye el poder interno en la organización?",
+      "contexto": "El repositorio tiene el perfil de Leydy Pech pero la historia organizativa de Maya Ka'an es menos clara. Saber cuándo y cómo se fundó, qué 25 comunidades la integran y cuál es su modelo de gobernanza interna es fundamental para entender si es una organización replicable o un caso excepcional ligado a la personalidad de Leydy Pech.",
+      "tipo": "Organización comunitaria / Siglo XXI / Modelo de resistencia",
+      "fuentes_a_consultar": [
+        "Sociedad de Productores de Miel Maya Ka'an — documentos de fundación y estatutos",
+        "Goldman Prize dossier 2020 — ficha técnica de la candidatura de Leydy Pech",
+        "Pie de Página / Mongabay — reportajes sobre Maya Ka'an y sus comunidades miembro",
+        "AIDA (Interamerican Association for Environmental Defense) — caso Hopelchén"
+      ],
+      "prioridad": "Alta",
+      "conexion_hipotesis": "Si Maya Ka'an es un modelo organizativo replicable (y no solo el resultado de la personalidad excepcional de Leydy Pech), entonces la resistencia jurídica puede escalarse en otras comunidades mayas de la región que enfrentan el mismo despojo.",
+      "estado": "PENDIENTE"
+    },
+
+    {
+      "pregunta_id": "P009-04",
+      "pregunta": "¿Qué ocurrió después de la victoria de Leydy Pech en 2017? ¿Las comunidades de Hopelchén recuperaron tierra o miel perdida? ¿La deforestación se detuvo?",
+      "contexto": "La revocación del permiso de soya transgénica (2017) y la 'mesa permanente de diálogo' instalada por Semarnat en 2021 son los últimos hitos documentados. ¿Cuál es el estado actual del conflicto? ¿Las colonias menonitas dejaron de deforestar? ¿Las abejas se recuperaron? ¿Las comunidades mayas recibieron compensación?",
+      "tipo": "Seguimiento / Estado actual / Impacto de la victoria",
+      "fuentes_a_consultar": [
+        "AIDA — actualizaciones del caso Hopelchén post-2017",
+        "Semarnat — informes de la mesa permanente de diálogo (2021-2026)",
+        "Observatorio Ciudadano — seguimiento de la deforestación menonita en Campeche 2017-2026",
+        "Entrevistas con representantes de Maya Ka'an (fuente directa)"
+      ],
+      "prioridad": "Alta — situación activa",
+      "conexion_hipotesis": "Si la victoria jurídica de 2015-2017 no produjo recuperación real de tierras ni reducción de la deforestación, confirma que la resistencia jurídica puede interrumpir el ciclo pero no revertirlo. Esto afecta la conclusión del libro: ¿qué tipo de victorias son posibles?",
+      "estado": "PENDIENTE"
+    },
+
+    {
+      "pregunta_id": "P009-05",
+      "pregunta": "¿Existen organizaciones mayas activas en Hopelchén que no sean Maya Ka'an? ¿Redes de comunidades ejidales, cooperativas de productores, organizaciones culturales o de jóvenes mayas?",
+      "contexto": "El repositorio documenta Maya Ka'an como la organización de resistencia más visible de Hopelchén. Pero en un municipio con 38,000 habitantes de mayoría maya, es casi seguro que existen otras formas de organización: cooperativas de chicleros, grupos de productores orgánicos, organizaciones de mujeres tejedoras, asociaciones de guardianes del territorio. Mapear el ecosistema organizativo maya de Hopelchén es fundamental para entender la profundidad de la agencia local.",
+      "tipo": "Mapeo organizativo / Sociedad civil maya",
+      "fuentes_a_consultar": [
+        "INPI (Instituto Nacional de los Pueblos Indígenas) — directorio de organizaciones indígenas en Campeche",
+        "CDI / INPI — proyectos productivos financiados en Hopelchén 2000-2026",
+        "Entrevistas directas con líderes comunitarios de Hopelchén",
+        "Registro de asociaciones civiles del Estado de Campeche"
+      ],
+      "prioridad": "Media",
+      "conexion_hipotesis": "Un ecosistema organizativo diverso y activo es evidencia de que la agencia maya en Hopelchén no depende de un solo líder o una sola organización — es una característica estructural de las comunidades, compatible con la hipótesis de resistencia continua documentada en este nodo.",
+      "estado": "PENDIENTE"
+    },
+
+    {
+      "pregunta_id": "P009-06",
+      "pregunta": "¿Cómo se organiza actualmente la meliponicultura de Xunáan Kab en Hopelchén? ¿Cuántas familias la practican? ¿Qué porcentaje de ingresos representa para las comunidades?",
+      "contexto": "El repositorio tiene datos sobre Leydy Pech pero no sobre el estado actual de la meliponicultura en el municipio como actividad económica y cultural. ¿Cuántas familias mayas de Hopelchén tienen colmenas de Melipona beecheii? ¿La práctica se está recuperando o sigue perdiendo terreno frente a la agroindustria?",
+      "tipo": "Economía maya / Continuidad cultural / Estado actual",
+      "fuentes_a_consultar": [
+        "SAGARPA / SADER — padrón de apicultores en Hopelchén",
+        "CONAPESCA / SADER — volumen y valor de producción de miel en Hopelchén",
+        "Maya Ka'an — datos propios de producción de miel de sus comunidades miembro",
+        "ECOSUR — investigaciones sobre meliponicultura en Los Chenes"
+      ],
+      "prioridad": "Media",
+      "conexion_hipotesis": "El estado actual de la meliponicultura es el indicador más directo del estado de la continuidad cultural maya en Hopelchén. Si está recuperándose, la resistencia tiene éxito tangible. Si sigue contrayéndose, la victoria jurídica no fue suficiente para revertir el daño.",
+      "estado": "PENDIENTE"
+    }
+
+  ],
+
+  "hallazgos_para_iteracion_profunda": [
+    {
+      "hallazgo": "La meliponicultura es el hilo de continuidad más largo del repositorio: 3,000 años documentados, desde el período Preclásico (Códice Madrid) hasta 2020 (Goldman Prize). Ningún otro elemento cultural maya en Hopelchén tiene una continuidad tan larga y verificable.",
+      "implicacion": "La Xunáan Kab es el símbolo más poderoso disponible para el libro: conecta el período prehispánico con el siglo XXI en una línea ininterrumpida de resistencia cultural cotidiana.",
+      "accion_siguiente": "Documentar el número exacto de colmenas de Xunáan Kab activas en Hopelchén hoy, comparado con el estimado antes de la llegada del glifosato (2007). Ese dato cuantifica el daño con una métrica de 3,000 años de profundidad histórica."
+    },
+    {
+      "hallazgo": "Las cinco formas de resistencia documentadas (autoridad paralela, armada, cultural, institucional, jurídica-internacional) corresponden cada una a las herramientas más avanzadas disponibles en su era histórica. Los mayas de Los Chenes no usaron herramientas obsoletas: siempre actualizaron su forma de resistir al instrumento más efectivo disponible en ese contexto.",
+      "implicacion": "La agencia maya no es resistencia arcaica ni reacción cultural atávica: es adaptación estratégica continua a las condiciones de poder de cada era.",
+      "accion_siguiente": "Desarrollar esta lectura en el capítulo del libro sobre el Nodo 009: 'Los mayas no se quedaron atrapados en el siglo XVI — aprendieron a usar el sistema de cada siglo para defenderse del despojo de ese mismo siglo.'"
+    }
+  ],
+
+  "metadatos": {
+    "generado_desde": "HOPELCHEN_NODO_009_Resistencia_Agencia_Maya.json",
+    "fecha": "2026-04-13",
+    "total_preguntas": 6,
+    "estado": "Activo — primera iteración",
+    "nota_metodologica": "Las preguntas de este nodo son en su mayoría de seguimiento: el estado actual del conflicto, el ecosistema organizativo, los datos económicos de la meliponicultura. Estas preguntas se responden mejor con entrevistas directas y datos de organizaciones que con archivos históricos."
+  }
+}

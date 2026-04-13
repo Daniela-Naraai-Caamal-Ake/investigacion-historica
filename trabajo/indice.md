@@ -34,6 +34,8 @@ Para agregar nueva información:
 | [La Genealogía del Poder Político Local en Hopelchén (1959–20](periodos/nodo-006-la-genealogia-del-poder-politico-local-e.md) | 1959 — 2026 | `datos/hopelchen/HOPELCHEN_NODO_006_PoderPolitico_Local.json` |
 | [Rutas, Territorio y Control del Espacio en Hopelchén (1517–2](periodos/nodo-007-rutas-territorio-y-control-del-espacio.md) | 1517 — 2026 | `datos/hopelchen/HOPELCHEN_NODO_007_Rutas_Territorio.json` |
 | [Demografía e Historia de la Población en Hopelchén (300 a.C.](periodos/nodo-008-demografia-e-historia-de-la-poblacion-en.md) | 300 a.C. — 2026 | `datos/hopelchen/HOPELCHEN_NODO_008_Demografia.json` |
+| [Resistencia y Agencia Maya en Hopelchén (1669–2026): De los ](periodos/nodo-009-resistencia-y-agencia-maya-en-hopelchen.md) | 1669 — 2026 | `datos/hopelchen/HOPELCHEN_NODO_009_Resistencia_Agencia_Maya.json` |
+| [Conocimiento y Cultura Maya en Los Chenes (300 a.C. – 2026):](periodos/nodo-010-conocimiento-y-cultura-maya-en-los-chene.md) | 300 a.C. — 2026 | `datos/hopelchen/HOPELCHEN_NODO_010_Conocimiento_Cultura.json` |
 
 ---
 
