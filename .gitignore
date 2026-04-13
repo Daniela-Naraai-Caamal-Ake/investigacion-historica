@@ -25,3 +25,6 @@ env/
 
 # macOS
 .DS_Store
+
+# Variables de entorno (credenciales)
+.env
