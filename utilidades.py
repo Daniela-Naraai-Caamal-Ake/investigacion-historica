@@ -103,12 +103,16 @@ def obtener_campo_principal(datos):
     ]
     for clave in claves_conocidas:
         if clave in datos and isinstance(datos[clave], list):
-            return clave, datos[clave]
+            elementos = [e for e in datos[clave] if isinstance(e, dict)]
+            if elementos:
+                return clave, elementos
 
-    # Si no coincide ninguna clave conocida, buscar la primera lista
+    # Si no coincide ninguna clave conocida, buscar la primera lista de dicts
     for clave, valor in datos.items():
         if isinstance(valor, list) and len(valor) > 0:
-            return clave, valor
+            elementos = [e for e in valor if isinstance(e, dict)]
+            if elementos:
+                return clave, elementos
 
     return None, []
 
