@@ -1,0 +1,185 @@
+{
+  "META": {
+    "archivo": "av_bloques.json",
+    "version": "2.4",
+    "actualizado": "2026-03-31",
+    "cambios_v2.4": "B-Serapio, B-LZavala, B-Oswaldo aprobadas. A6 título confirmado. Bloque A completo revisado y actualizado con toda la información nueva. Entradas aprobadas: 22."
+  },
+
+  "resumen_general": {
+    "aprobadas": 22,
+    "recuperar": 3,
+    "borradores": 3,
+    "pendientes_con_insumos": 31,
+    "pendientes_sin_insumos_real": 3,
+    "pendientes_sin_insumos_lista": ["C-nuevo", "E8", "A8"],
+    "proximas_redaccion": ["B-SuarezCaamal", "E-ChanCil", "D3", "F-RojoAmanecer", "C8"]
+  },
+
+  "BLOQUE_A": {
+    "descripcion": "Los orígenes mayas y la arqueología de Los Chenes",
+    "estado_bloque": "COMPLETO — todas las entradas aprobadas o en proceso. Revisión masiva 31 marzo 2026.",
+    "actualizaciones_31_marzo": {
+      "A1": "Añadido: 1782 — 1,463 hab. en Hopelchén, ninguno hablaba español (Archivo Diocesano)",
+      "A2": "Añadidos: Tohcok (6km sobre Carretera 261, carretera destruyó plataformas), Grutas de Huachabí (500+ pinturas 2012), Centro Documentación Baqueiro Fóster en Mérida, proyecto activo Iken Paap en Dzehkabtún",
+      "A3": "Añadidos: Valeriana 2024 (16.6 km², Antiquity), Grutas de Huachabí. Cierre: 6 sitios en el municipio, cero en libros de texto locales",
+      "A4": "Añadido: Centro Documentación Baqueiro Fóster (Mérida lleva su nombre, Hopelchén no). Añadida Iken Paap: exposición llegó a Berlín y Campeche capital 2024-2025, no a Hopelchén",
+      "A5": "Añadido: Manuel Antonio Ay Tec (25 jul 1847) con palabras exactas a su hijo. Añadidos: los siete de Bolonchenticul como contrapunto — mismo municipio, mismo apellido, posiciones distintas",
+      "A6": "Título confirmado. Añadido: 29 enero 1858 — Hopelchén se declara parte de Campeche. Añadido dato 1782. Actualizado siglo XXI con despojo catastral 2025."
+    },
+    "entradas": {
+      "A1": {"titulo": "Cinco pozos y dos mil años: lo que el nombre de tu municipio lleva cargando", "estado": "aprobada", "archivo": "entradas/aprobadas/A1.md", "version": "v2 — revisada 31 marzo 2026"},
+      "A2": {"titulo": "Hochob: la ciudad donde la entrada al templo era la boca de un dios", "estado": "aprobada", "archivo": "entradas/aprobadas/A2.md", "version": "v2 — revisada 31 marzo 2026"},
+      "A3": {"titulo": "Dzibilnocac y Santa Rosa Xtampak: las otras dos ciudades mayas del municipio", "estado": "aprobada", "archivo": "entradas/aprobadas/A3.md", "version": "v2 — revisada 31 marzo 2026"},
+      "A4": {"titulo": "Teobert Maler: el soldado que usó al Imperio para llegar a las ruinas mayas de Hopelchén", "estado": "aprobada", "archivo": "entradas/aprobadas/A4.md", "version": "v2 — revisada 31 marzo 2026"},
+      "A5": {"titulo": "La guerra que llegó a Los Chenes: Hopelchén en el centro de la Guerra de Castas", "estado": "aprobada", "archivo": "entradas/aprobadas/A5.md", "version": "v2 — revisada 31 marzo 2026"},
+      "A6": {"titulo": "Hopelchén y sus guerras: dos mil años de un territorio que nunca ha dejado de ser disputado", "estado": "aprobada", "archivo": "entradas/aprobadas/A6.md", "version": "v2 — revisada 31 marzo 2026 — R01 CERRADO"},
+      "A7": {
+        "titulo": "Los soldados de Los Chenes",
+        "estado": "pendiente_con_insumos",
+        "insumos_listos": [
+          "Los siete de Bolonchenticul — julio 1849 — credenciales de hidalgos — AGEY caja 169 vol.119 exp.24",
+          "Apellidos: Dzul, Ku, Balam, Chan, Canche, Ek",
+          "José Chan: siervo deudor 52 pesos — se alistó para escapar, devuelto a su dueña",
+          "Mayas con apellidos falsos: Sostenes Dzul → Estrella; Francisco Pech → Pérez",
+          "Decreto 27 agosto 1847: quitó derechos ciudadanos a los indios pero los reclutaban igual",
+          "~2,000 voluntarios mayas en Guardia Nacional de Mérida para mayo 1848"
+        ],
+        "pendientes": ["Nombres propios completos de los siete — AGEY caja 169, vol.119, exp.24"]
+      },
+      "A8": {"titulo": "El Archivo Municipal", "estado": "pendiente_sin_insumos", "nota": "Requiere visita física. Schüren lo consultó en 1993-1998: contiene CSTCS 1937-1941, PNR 1935, formación sindicatos."}
+    }
+  },
+
+  "BLOQUE_B": {
+    "descripcion": "Los personajes que el municipio olvidó",
+    "entradas": {
+      "B1": {"titulo": "Pantaleón Barrera: gobernó Yucatán, vendió mayas, firmó novela al revés", "estado": "aprobada", "archivo": "entradas/aprobadas/B1.md"},
+      "B1-BIS": {"titulo": "Los misterios de Chan Santa Cruz: la única novela del siglo XIX", "estado": "aprobada", "archivo": "entradas/aprobadas/B1-BIS.md"},
+      "B2": {"titulo": "Pedro Advíncula Lara: el reloj de Berlín", "estado": "aprobada", "archivo": "entradas/aprobadas/B2.md"},
+      "B3": {"titulo": "Olegario Molina Solís: el niño de Bolonchenticul", "estado": "aprobada", "archivo": "entradas/aprobadas/B3.md"},
+      "B4": {"titulo": "Humberto Lara y Lara: el poeta del PRI", "estado": "aprobada", "archivo": "entradas/aprobadas/B4.md"},
+      "B5": {"titulo": "Gerónimo Baqueiro Foster: llegó con siete pesos", "estado": "aprobada", "archivo": "entradas/aprobadas/B5.md"},
+      "B5-BIS": {"titulo": "El secreto armónico: lo que escuchó en la selva", "estado": "aprobada", "archivo": "entradas/aprobadas/B5-BIS.md"},
+      "B6": {"titulo": "El hilo de Berlín: cuatro veces que Hopelchén cruzó el Atlántico", "estado": "aprobada", "archivo": "entradas/aprobadas/B6.md"},
+      "B7": {"titulo": "El Sonido 13 y Los Xtoles", "estado": "aprobada", "archivo": "entradas/aprobadas/B7.md"},
+      "B8": {"titulo": "Raúl Emiliano Lara Baqueiro: un hombre, dos árboles, todo el Bloque B", "estado": "aprobada", "archivo": "entradas/aprobadas/B8.md"},
+      "B9": {"titulo": "Los apellidos del poder antes del Porfiriato", "estado": "recuperar", "nota": "Corrupto — redactar desde cero. Fuente: legisladores_hopelchen_1861-2003.json en _sesiones_anteriores"},
+      "B10": {"titulo": "R. Montalvo, Mora Nagert y Clodoaldo Barrera: los borrados del siglo XX", "estado": "recuperar", "nota": "Corrupto — redactar desde cero. Fuentes: F011 + bloques_C_a_H_2026-03-23.json"},
+      "B11": {"titulo": "Efraín 'El Charras' Calderón Lara + Hernán Lara Zavala", "estado": "recuperar", "nota": "Corrupto — redactar desde cero. Fuentes: F003 + av_nucleo_extension.json P034"},
+      "B12": {"titulo": "Juan de Dios May, Francisco Caamal y los siete de Bolonchenticul", "estado": "aprobada", "archivo": "entradas/aprobadas/B12.md"},
+      "B-Serapio": {
+        "titulo": "Serapio Baqueiro Preve: el historiador que era yerno del traficante",
+        "estado": "aprobada",
+        "archivo": "entradas/aprobadas/B-Serapio.md",
+        "aprobada": "2026-03-31"
+      },
+      "B-LZavala": {
+        "titulo": "Hernán Lara Zavala: el escritor que murió mientras investigábamos",
+        "estado": "aprobada",
+        "archivo": "entradas/aprobadas/B-LZavala.md",
+        "aprobada": "2026-03-31"
+      },
+      "B-Oswaldo": {
+        "titulo": "Oswaldo Baqueiro Anduze: el nieto que escribió sobre el fin de lo que el abuelo llamó obstáculo",
+        "estado": "aprobada",
+        "archivo": "entradas/aprobadas/B-Oswaldo.md",
+        "aprobada": "2026-03-31"
+      },
+      "B-SuarezCaamal": {
+        "titulo": "Miguel Ángel Suárez Caamal: el apellido maya que escribió la guerra",
+        "estado": "pendiente_con_insumos",
+        "estado_insumos": "COMPLETOS — siguiente en redactar",
+        "insumos_listos": [
+          "Nacimiento: 2 junio 1953, Calkiní, Campeche",
+          "Reside en Dziuché, QRoo — maestro de Español",
+          "Obras: La noche de los osos (1988), La rebelión de los Cruzoob (1997), Jacinto Tun, El tío Justo",
+          "Única novela campechana sobre la GC narrada desde perspectiva maya",
+          "Círculo Caamal: Francisco Caamal (1848) → Suárez Caamal (1997) → Dan Caamal (2026) = 178 años"
+        ]
+      },
+      "B-Madruga": {
+        "titulo": "Madruga: lo que Hopelchén vendió y Cuba no olvidó",
+        "estado": "borrador",
+        "archivo": "entradas/borradores/B-Madruga_borrador.md",
+        "hilos": ["HIL001", "HIL007", "HIL005"],
+        "imagen": "El_Futuro.jpg",
+        "nota": "Borrador completo. Entrada sobre descendientes mayas en Madruga, Cuba. No estaba en AV_MAPA.md. Generado en sesión anterior. Pendiente revisión y aprobación de Dan.",
+        "fuentes": ["F030", "F026", "F031", "F032"],
+        "personajes_relacionados": ["P001", "P006", "P009", "P010"]
+      },
+      "B-GuerraCastas": {"titulo": "Los bataboob: 48 años de resistencia después de 1621", "estado": "pendiente_con_insumos"},
+      "B-Bolonchenticul": {"titulo": "Historia de Bolonchén de Rejón", "estado": "pendiente_con_insumos"}
+    }
+  },
+
+  "BLOQUE_C": {
+    "entradas": {
+      "C1": {"titulo": "Línea del tiempo: los apellidos del poder", "estado": "pendiente_con_insumos"},
+      "C2": {"titulo": "El cateo a Emilio Lara a las 4:30am", "estado": "pendiente_con_insumos"},
+      "C3": {"titulo": "Los 9 millones desviados", "estado": "pendiente_con_insumos"},
+      "C4": {"titulo": "Hiram Aranda: 5 escándalos", "estado": "pendiente_con_insumos"},
+      "C5": {"titulo": "Despojo catastral", "estado": "pendiente_con_insumos"},
+      "C6": {"titulo": "El voto en pueblo pequeño", "estado": "pendiente_con_insumos"},
+      "C7": {"titulo": "Zoológico de partidos", "estado": "pendiente_con_insumos"},
+      "C8": {"titulo": "Posrevolución 1920-1929", "estado": "pendiente_con_insumos"},
+      "C8-BIS": {"titulo": "La maestra de Holcatzín", "estado": "pendiente_con_insumos"},
+      "C9": {"titulo": "El henequén en Los Chenes", "estado": "pendiente_con_insumos"},
+      "C-nuevo": {"titulo": "Mario y Otto Lara: primera gasolinera y primer autobús", "estado": "pendiente_sin_insumos"}
+    }
+  },
+
+  "BLOQUE_D": {
+    "entradas": {
+      "D1": {"titulo": "190,000 hectáreas perdidas", "estado": "pendiente_con_insumos"},
+      "D2": {"titulo": "Los menonitas y la tierra", "estado": "pendiente_con_insumos"},
+      "D3": {"titulo": "Leydy Pech: Premio Goldman 2020", "estado": "pendiente_con_insumos", "estado_insumos": "COMPLETOS"},
+      "D4": {"titulo": "El glifosato", "estado": "pendiente_con_insumos"},
+      "D5": {"titulo": "El yeso", "estado": "pendiente_con_insumos"},
+      "D6": {"titulo": "La montaña chiclera", "estado": "pendiente_con_insumos"}
+    }
+  },
+
+  "BLOQUE_E": {
+    "entradas": {
+      "E1": {"titulo": "Los nombres de las escuelas", "estado": "pendiente_con_insumos"},
+      "E2": {"titulo": "Los niños que no van", "estado": "pendiente_con_insumos"},
+      "E3": {"titulo": "El 70% que se identifica indígena", "estado": "pendiente_con_insumos"},
+      "E4": {"titulo": "Los 67 años como ciudad", "estado": "pendiente_con_insumos"},
+      "E5": {"titulo": "El patrimonio artístico completo", "estado": "pendiente_con_insumos"},
+      "E6": {"titulo": "Así es mi tierra chenera: los libros que nadie conoce", "estado": "pendiente_con_insumos"},
+      "E-ChanCil": {"titulo": "Chan Cil como patriarca de la trova", "estado": "pendiente_con_insumos", "estado_insumos": "COMPLETOS — prioridad alta"},
+      "E8": {"titulo": "El corrido de Jacinto sobre El Charras", "estado": "pendiente_sin_insumos"},
+      "E-DeZitilchen": {"titulo": "De Zitilchén: lo que Lara Zavala dijo que nadie se atrevió", "estado": "pendiente_con_insumos"}
+    }
+  },
+
+  "BLOQUE_F": {
+    "entradas": {
+      "F1": {"titulo": "Los cinco medios cerrados bajo Sansores", "estado": "pendiente_con_insumos"},
+      "F2": {"titulo": "El caso González Valdez", "estado": "pendiente_con_insumos"},
+      "F3": {"titulo": "Los periodistas bajo protección federal", "estado": "pendiente_con_insumos"},
+      "F4": {"titulo": "El Diario del Sureste y Humberto Lara y Lara", "estado": "pendiente_con_insumos"},
+      "F-RojoAmanecer": {"titulo": "Rojo Amanecer: el periódico socialista 1921-1934", "estado": "pendiente_con_insumos", "estado_insumos": "COMPLETOS"}
+    }
+  },
+
+  "BLOQUE_G": {
+    "entradas": {
+      "G1": {"titulo": "La novela Charras de Penguin 2022", "estado": "pendiente_con_insumos"},
+      "G2": {"titulo": "El Colectivo Maya activo", "estado": "pendiente_con_insumos"},
+      "G3": {"titulo": "La feria vs las abejas muertas", "estado": "pendiente_con_insumos"},
+      "G4": {"titulo": "FamilySearch como herramienta de acción", "estado": "pendiente_con_insumos"},
+      "G-Hiram": {"titulo": "Hiram Aranda: el alcalde de los apellidos históricos", "estado": "pendiente_con_insumos"},
+      "G-SucTuc": {"titulo": "Gobierno autónomo de San Francisco Suc-Tuc", "estado": "pendiente_con_insumos"}
+    }
+  },
+
+  "BLOQUE_H": {
+    "entradas": {
+      "H1": {"titulo": "Los libaneses en Hopelchén", "estado": "pendiente_con_insumos", "nota": "CORRECCIÓN: ninguna familia libanesa radicada permanentemente en Hopelchén. H1 = aboneros itinerantes + circuito chiclero."},
+      "H2": {"titulo": "Los menonitas (ángulo histórico-cultural)", "estado": "pendiente_con_insumos"},
+      "H3": {"titulo": "Teobert Maler (ángulo alemán)", "estado": "pendiente_con_insumos"}
+    }
+  }
+}

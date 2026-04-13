@@ -1,0 +1,252 @@
+{
+  "META": {
+    "archivo": "bloques_C_a_H_2026-03-23.json",
+    "descripcion": "Investigación sistemática Bloques C-H del proyecto Archivo Vivo",
+    "fecha": "2026-03-23",
+    "metodo": "web_search nativa (Firecrawl MCP sin créditos)",
+    "agente": "Claude Sonnet 4.6 — Archivo Vivo"
+  },
+
+  "BLOQUE_C_PODER": {
+
+    "C1_C8_POSREVOLUCION": {
+      "titulo_entrada": "Posrevolución 1920-1929 — Bloque C8",
+      "hallazgos_clave": [
+        "La clase hacendaria de Hopelchén fue uno de los principales focos de lucha antiagraria en Campeche después de la Revolución — fue finalmente derrotada (Wikipedia)",
+        "El PSAC (Partido Socialista Agrario de Campeche) fundado 7 oct 1920 operó bajo sistema de 'diarquía': el dirigente formal del gobierno + el que controlaba el PSAC = dos poderes simultáneos",
+        "El primer gobernador socialista fue Ramón Félix Flores (1921-1923), controlaba el comercio del henequén y el reparto agrario",
+        "Concepto clave: 'ligas de resistencia' — las bases de poder del PSAC que recibían favores directamente del gobernador a cambio de lealtad electoral",
+        "Campeche estuvo bajo la sombra de Yucatán 1921-1923 (Carrillo Puerto) y luego buscó alianzas directas con el centro para sacudirse ese control",
+        "Fernando Angli Lara: director del Rojo Amanecer Y del Periódico Oficial del Estado al mismo tiempo — el mismo apellido Lara en el poder",
+        "En 1929 el PSAC se integró al PNR — el partido local se fusionó con el nacional"
+      ],
+      "fuentes_nuevas": [
+        "May González, Ángel Omar — Los primeros años de la posrevolución en Campeche 1921-1929, Instituto Mora 2013 (reseña en SciELO)",
+        "Redalyc — análisis del mismo libro",
+        "Portal Amelica — Elogios para unos, reproches para otros (Diario de Campeche 1926)"
+      ],
+      "arco_narrativo_para_dan": "Hopelchén era el corazón de la resistencia hacendaria posrevolucionaria en Campeche. Los mismos apellidos que controlaron el municipio durante el Porfiriato (Lara, Barrera, Calderón) encontraron la manera de insertarse en el nuevo sistema — el PSAC y sus ligas de resistencia — sin perder el control. La revolución prometió repartir la tierra. En Los Chenes, la tierra no se repartió."
+    },
+
+    "C8_BIS_MAESTRA_HOLCATZIN": {
+      "titulo_entrada": "La maestra de Holcatzín (C8-BIS)",
+      "fuente": "De Zitilchén (Hernán Lara Zavala) — ficción que documenta",
+      "dato_critico": "Una maestra fue enviada a organizar a los campesinos de Holcatzín. Fue violada y abandonada en el camino. Nadie la recuerda. Solo la ficción de Lara Zavala la preserva — y él ya murió.",
+      "conexion_nueva": "Pedro Advíncula Lara era propietario de la hacienda Holcatzín — la hacienda de la que venía esta maestra a organizar a sus peones era propiedad de la misma familia Lara que controlaba el municipio"
+    },
+
+    "C2_CATEO_ALCALDE": {
+      "alcalde_emilio_lara_calderon": {
+        "cateo": "7 enero 2023, 4:30am, Calle 28 por 19, Colonia El Tamarindo, Hopelchén",
+        "motivo": "Investigación por presunto secuestro de varios hombres en múltiples predios de Hopelchén",
+        "agentes": "~20 elementos Fiscalía General del Estado (FGE/AEI)",
+        "disputa": "La Fiscalía afirmó que el alcalde firmó autorización. El alcalde desmintió y acusó 'lujo de violencia'",
+        "respuesta": "Alcalde denunció a la FGE ante la Fiscalía Anticorrupción. Amenazó con ir 'hasta instancias internacionales'",
+        "apellidos": "Lara Calderón — ambos apellidos centrales del proyecto (Lara desde 1861 + Calderón = El Charras 1974)"
+      },
+      "alcalde_actual_hiram_aranda_calderon": {
+        "nota": "IMPORTANTE — Hiram Aranda Calderón es el ACTUAL alcalde (2024-presente), NO Emilio Lara Calderón",
+        "periodo": "Elegido junio 2024, tomó posesión",
+        "escandalo_1": "Nov 2025: Denuncia por abuso de poder, manipulación del sistema catastral y falsificación de documentos — caso Edgar Manuel Poot Yeh (ciudadano despojado de su terreno por duplicación de escrituras)",
+        "escandalo_2": "El alcalde contradenunció al ciudadano por calumnias",
+        "escandalo_3": "Pendientes con la comisaría de Iturbide — ciudadanos protestaron ante la CFE por abandono",
+        "escandalo_4": "Denunció al fiscal Sales Heredia por manejo de recursos federales",
+        "apellidos": "Aranda Calderón — apellido Calderón (El Charras) + apellido Aranda",
+        "partido": "PRI",
+        "secretario": "Herminio May Dzib (apellido MAY = ciervo joven — el mismo apellido de Juan de Dios May 1848)",
+        "juridico": "Leonel Barrera (apellido BARRERA = Pantaleón Barrera 1848, Clodoaldo Barrera 1920)"
+      },
+      "nota_editorial": "El equipo actual del ayuntamiento de Hopelchén lleva los apellidos Aranda, Calderón, May y Barrera — los mismos apellidos que estructuran todo el proyecto."
+    },
+
+    "C3_9_MILLONES": {
+      "nota": "No encontrado en fuentes web disponibles. Requiere hemeroteca local Campeche o archivo municipal."
+    },
+
+    "C5_C9_HENEQUEN_CHENES": {
+      "titulo_entrada": "El henequén en Los Chenes (C9)",
+      "hallazgos": [
+        "El auge henequenero en Los Chenes fue posterior a la Guerra de Castas (1850+) — la guerra destruyó la economía agrícola y los estadounidenses financiaron el cultivo intensivo del agave",
+        "Las haciendas de Los Chenes producían caña de azúcar, henequén, maíz, ganado — no solo henequén",
+        "En torno a Hopelchén y Bolonchenticul: zona de haciendas cañeras, maicero-ganaderas y hortalizas",
+        "Olegario Molina Solís (nacido Bolonchenticul): firmó contrato secreto con International Harvester 1902 deprimiendo el precio del henequén — controlando así toda la economía peninsular",
+        "Hacia 1900: más de 80,000 peones acasillados en haciendas henequeneras peninsulares",
+        "La Revolución no desarticuló la hacienda yucateca de inmediato — el henequén siguió siendo negocio estratégico hasta los 1940s"
+      ],
+      "conexion_holcatzin": "La hacienda Holcatzín de Pedro Advíncula Lara producía: caña de azúcar, henequén, aguardiente y ron según Península Península de Lara Zavala",
+      "fuentes": ["Wikipedia — Hacienda henequenera", "Turismo Campeche — Haciendas porfirianas", "SciELO — Las finanzas del henequén 1902-1938"]
+    }
+  },
+
+  "BLOQUE_D_ECOLOGIA": {
+
+    "D1_D2_MENONITAS_DEFORESTACION": {
+      "titulo_entradas": "D1: 190,000 hectáreas perdidas / D2: Los menonitas y la tierra",
+      "llegada_menonitas": "Década de los 80 del siglo XX — desde Chihuahua, Durango, Tamaulipas, Zacatecas (y también Belice según CEMDA)",
+      "colonias_en_hopelchen": "17 campos menonitas dentro del perímetro de Hopelchén: Santa Fe, Santa Rosa, Chavi, Nuevo Progreso, Trinidad, Nuevo Durango, Yalnón, Temporal, Valle Nuevo, y otros",
+      "datos_deforestacion": {
+        "2001_2019": "186,000 hectáreas de cobertura arbórea perdidas en el municipio de Hopelchén = 20% de lo que había en 2000",
+        "tasa": "5 veces más alta que el promedio nacional (Dr. Edward Allan Ellis, Centro Investigaciones Tropicales UV)",
+        "2010_2020": "80,400 hectáreas de selva maya perdidas en Campeche según Global Forest Watch — mayor pérdida del país",
+        "hopelchen_especifico": "26,900 hectáreas solo en el municipio de Hopelchén en ese período",
+        "caso_emblematico": "Comunidad Xmabén — 36,000 hectáreas totales; en 1999 menonitas compraron 5,656 hectáreas",
+        "caso_nuevo_durango": "A principios de la década del 2000, Dr. Ellis fue testigo de la deforestación de 5,000 hectáreas para el campo Nuevo Durango"
+      },
+      "arrendamiento": "Precio promedio desde 2017: 1,500 a 2,000 pesos/hectárea/ciclo agrícola (ciclo primavera-verano-otoño-invierno: 2,500)",
+      "cultivos_menonitas": "Maíz, sorgo, sandía, calabaza, frijol, hortalizas; también ganadería bovina, cerdos, aves; quesos",
+      "acuerdo_fallido": "Agosto 2021: Gobierno federal (AMLO-SEMARNAT) logró acuerdo con menonitas para frenar deforestación. En 2022 seguían deforestando. En 2024: nueva alerta en Reserva Balam Kiin",
+      "cita_menonita": "Jacob Harder Jr., maestro menonita: 'No cambiamos nada' (tras el acuerdo 2021)",
+      "consecuencias_ambientales": [
+        "Muerte de más de 4,000 colmenas por plaguicidas (desde 2023)",
+        "Plaguicida Fipronil (prohibido en varios países) encontrado en colmenas de Hopelchén 2023",
+        "Glifosato en agua subterránea, sangre y orina de mujeres y niños (EPOMEX-UAC, 2016)",
+        "Inundaciones más intensas en zonas deforestadas (Huracán Eta, 2020)",
+        "Destrucción de vestigios arqueológicos en la selva",
+        "2025: Profepa clausuró más de 700 hectáreas en Hopelchén y Calakmul por tala ilegal menonita"
+      ],
+      "disputa_tierras": "Ejidatarios vs menonitas: caso Juan de Dios May Che (presidente ejidal que rentó 8,010 hectáreas a menonitas por 10,000 pesos/ha — apellido MAY, el mismo del comandante 1848)",
+      "fuentes": [
+        "SEMARNAT — Acuerdo histórico menonitas 2021 (gob.mx)",
+        "Mongabay — Esto sucede cuando se tumba selva en el territorio maya",
+        "IPS Noticias — Sucede cuando se tumba selva",
+        "PorEsto — Menonitas en Campeche: desastre ambiental (julio 2025)",
+        "CEMDA — Diagnóstico participativo Hopelchén 2019",
+        "Infobae — Deforestación menonita en la Selva Maya"
+      ]
+    },
+
+    "D6_CHICLE_CHENES": {
+      "titulo_entrada": "D6: La montaña chiclera",
+      "hallazgos_clave": [
+        "En los años 30 del siglo XX, Dzibalchén y Hopelchén se convirtieron en centros de extracción chiclera",
+        "Otras centrales: Iturbide, Kancabchén, Chunchintok, Xpuhil, Nohsayab",
+        "En los años 40: el 60% de la población chenera económicamente activa trabajaba en las chiclerías durante la temporada de lluvias",
+        "Los Chenes fueron denominados por políticos y acaparadores como 'el cuerno de la abundancia campechana'",
+        "1940: el 80% del chicle mundial provenía de México; Campeche aportaba el 52% de la producción nacional",
+        "Los campos aéreos de Hopelchén, X Can Há y Xpuhil quedaron abandonados al colapsar la industria",
+        "8 consorcios norteamericanos tuvieron concesiones en: Carmen, Champotón, Candelaria, X'pujil, Hecelchakán y Hopelchén",
+        "La aviación en el sureste de México se desarrolló por la industria chiclera — los contratistas introdujeron el avión para sus negocios en los años 30",
+        "El boom chiclero financió riqueza, también: más cantinas, prostitución — 'riqueza ilusoria' según Aranda González 1985",
+        "Hernán Lara Zavala en su crónica de Los Chenes: chicleros famosos por 'carácter agresivo y sanguinario', peleas a machete, vidas perdidas"
+      ],
+      "libro_clave": "Ponce-Jiménez, Martha Patricia (1990) — La montaña chiclera. Campeche: vida cotidiana y trabajo (1900-1950), CIESAS — es la fuente académica principal para la entrada D6",
+      "libro_local": "Aranda González, Mario Heberto (1985) — Apuntaciones históricas del municipio de Hopelchén, Ayuntamiento de Hopelchén — descripción de la época chiclera pp.184-185",
+      "fuentes": [
+        "El Bable blog — La antigua hacienda de Dzibalchén",
+        "EntreDiversidades / SciELO — Bestializados y oprimidos (chicleros en cuentística campechana)",
+        "SciELO — Una historia regional en tres tiempos: Campeche siglos XVIII-XX"
+      ]
+    }
+  },
+
+  "BLOQUE_E_EDUCACION": {
+
+    "E_CHAN_CIL_PATRIARCA": {
+      "titulo_entrada": "E-ChanCil: Chan Cil como patriarca de la trova",
+      "hallazgos_completos": {
+        "nacimiento": "24 diciembre 1848 (bautizado 3 enero 1849) — San Francisco de Campeche cuando era parte de Yucatán",
+        "muerte": "17 septiembre 1910, Mérida, Yucatán — 61 años",
+        "padres_adoptivos": "Coronel Cirilo Baqueiro Cámara e Isabel Preve — fue encontrado en la puerta de su casa",
+        "hermanos_adoptivos": "José Clotilde, Serapio (el historiador) y Leonardo",
+        "significado_apodo": "Chan Cil = Cirilito en maya",
+        "instrumentos": "Violín, guitarra, mandolina — autodidacta",
+        "caracter_musical": "Romántico + satírico; trovador y bohemio; improvisador — muchas obras sin registrar",
+        "reconocimiento_internacional": "Reconocido en EE.UU., América Central y Cuba durante el Porfiriato"
+      },
+      "canciones_principales": [
+        "¿Te acuerdas? — usada por Julián Carrillo en Suite de los Naranjos (1920)",
+        "Despedida (1880) — con versos de José Peón Contreras — considerada la primera canción de la trova yucateca",
+        "La mestiza (guaracha) — bilingüe, cantada por primera vez por cubana Amadita Morales",
+        "Ko'oten x-boox (Ven negra) — bilingüe español-maya",
+        "En el abismo — habanera, versos de José Peón Contreras",
+        "La Violeta",
+        "Vuelvo a ti",
+        "A los ciudadanos diputados del Congreso (satírica)",
+        "La mujer y la casa (satírica)"
+      ],
+      "cancionero": "Publicó su cancionero en la Imprenta de Luis Rosado Vega, 1909. En 2007 el Instituto de Cultura de Yucatán publicó el Cancionero de Chan Cil (con CD, ed. Álvaro Vega).",
+      "legado_institucional": [
+        "Sala dedicada en el Museo de la Canción Yucateca (Mérida, fundado por su nieta Rosario Cáceres Baqueiro)",
+        "Presea Chan Cil — instituida por el Ayuntamiento de Mérida desde 1985",
+        "Sus restos en el Monumento a los Creadores de la Canción Yucateca, Cementerio General de Mérida"
+      ],
+      "fuentes": [
+        "Wikipedia — Chan Cil",
+        "Yucatán.gob.mx — La trova yucateca",
+        "Yucatanahora.com — Centenario luctuoso",
+        "Museo de la Canción Yucateca",
+        "Yucapedia — Cirilo Baqueiro Preve",
+        "Princeton University Library — Cancionero Chan Cil 2007",
+        "Diario del Sureste — La Canción Yucateca"
+      ]
+    }
+  },
+
+  "BLOQUE_F_PRENSA": {
+
+    "F_ROJO_AMANECER": {
+      "titulo_entrada": "F-RojoAmanecer: el periódico socialista 1921-1924",
+      "hallazgos_nuevos": {
+        "vida_editorial": "Primer número: agosto 1921. Cierre definitivo: 1934 (no 1924 como se creía — 1924 es cuando terminó el período estudiado por May González, pero siguió hasta 1934)",
+        "formato": "Semanario (salía los sábados); 4 páginas a 4 columnas; ilustraciones, xilograbados, clasificados",
+        "registro": "Registrado como artículo de segunda clase en la Administración de Correos de Campeche, 6 octubre 1921",
+        "director": "Fernando Angli Lara — al mismo tiempo director del Rojo Amanecer y del Periódico Oficial del Estado (20 sept 1921 al 29 abril 1922). El apellido LARA en la prensa y en el gobierno simultáneamente.",
+        "mora_nagert_texto_completo": "El texto 'El verdadero socialismo' de Mora Nagert de Hopelchén decía que el socialismo era 'el sol de la redención', 'el porvenir de los pueblos', 'el sonreír de una generación más justa y equitativa'. Y que cuando se completara su ciclo 'será cuando se cumplan las ideas del Mártir del Gólgota'.",
+        "ubicacion_coleccion": [
+          "Archivo General del Estado de Campeche (AGEC): números de 1921 a 1924",
+          "Centro Peninsular en Humanidades y Ciencias Sociales (CEPHCIS), Mérida",
+          "Posiblemente archivos particulares de familias que custodian celosamente ejemplares"
+        ],
+        "fuente_academica": "May González, Ángel Omar — 'Propaganda e ideología en la prensa. El caso del Rojo Amanecer en Campeche, 1921-1924', Signos Históricos, UAM-Iztapalapa, 2012 — ACCESIBLE en SciELO"
+      }
+    }
+  },
+
+  "BLOQUE_G_ACTUALIDAD": {
+
+    "G_HIRAM_ARANDA_ESCÁNDALOS": {
+      "presidente_municipal_actual": "Hiram Aranda Calderón (2024-presente, PRI)",
+      "escandalo_catastral": {
+        "fecha": "Noviembre 2025",
+        "denunciante": "Edgar Manuel Poot Yeh",
+        "delitos_denunciados": "Abuso de poder, manipulación del sistema catastral, falsificación de documentos",
+        "hecho": "Al ciudadano Poot Yeh se le despojó de su terreno (con pagos de prediales 2006-2025) por 'duplicación de escrituras'",
+        "respuesta_alcalde": "Se burlaba de las acusaciones, contradenunció al ciudadano por calumnias",
+        "implicados": "Hiram Aranda Calderón (alcalde) + Herminio May Dzib (secretario) + Leonel Barrera (jurídico)"
+      },
+      "escandalo_iturbide": "Pobladores de Iturbide protestaron ante la CFE; denunciaron múltiples pendientes del gobierno municipal",
+      "escandalo_recursos": "Diciembre 2025: Aranda denunció que recursos federales del Fondo de Aportaciones para Infraestructura Social van directamente a una persona particular, bypassing el municipio",
+      "nota_genealogica": "El ayuntamiento de Hopelchén 2024-2027 lleva en sus tres principales funcionarios los apellidos: ARANDA (no histórico), CALDERÓN (El Charras 1974), MAY (Juan de Dios May 1848), BARRERA (Pantaleón Barrera, Clodoaldo Barrera)"
+    },
+
+    "G_COMUNIDAD_AUTONOMA_SUC_TUC": {
+      "dato_nuevo": "Diciembre de algún año reciente: la comunidad de San Francisco Suc-Tuc en Hopelchén eligió un gobierno autónomo por usos y costumbres en respuesta a corrupción y engaño de autoridades municipales",
+      "represion": "17 diciembre: policía estatal antimotines ingresó violentamente con gases lacrimógenos y macanazos. Detenidos: Diego Armando Poot Pech, José Alfredo Poot Aguayo y Sergio Echazarreta Ucán — prisión preventiva en San Francisco Kobén",
+      "causa": "Fraude de la comisaria ejidal, incumplimiento de acuerdos comunitarios",
+      "fuente": "Desinformémonos — Ante corrupción y represión, comunidad indígena de Campeche elige un gobierno autónomo"
+    }
+  },
+
+  "BLOQUE_H_LLEGARON_DE_AFUERA": {
+
+    "H1_LIBANESES_HOPELCHEN": {
+      "contexto_peninsular": {
+        "para_1910": "Más de 2,000 libaneses en Yucatán",
+        "etapa_formativa": "Inicio Porfiriato — 1927: buhoneros, comercio ambulante, crédito a domicilio",
+        "etapa_consolidacion": "1927-1950: asentamientos en Campeche y Chetumal; apellidos: Macari, Xacur, Jorge, Mena, Rafful",
+        "campeche_poder_politico": "Jorge Salomón Azar (gobernador 1992-1997) y José Antonio González Kuri (1998-2004) — de origen libanés; propietarios del 40% de la flota camaronera"
+      },
+      "hopelchen_especifico": "Sin datos encontrados aún — los libaneses comerciaban 'en toda la península' pero no se documentó asentamiento permanente específico en Hopelchén. El libro de Ramírez Carrillo tiene el directorio detallado.",
+      "fuente_clave": "Ramírez Carrillo, Luis Alfonso — 'De buhoneros a empresarios: la inmigración libanesa en el sureste de México', Historia Mexicana, El Colegio de México — disponible en historiamexicana.colmex.mx"
+    },
+
+    "H2_MENONITAS_HISTORIA": {
+      "llegada": "Desde 1980, desde Chihuahua, Durango, Tamaulipas, Zacatecas (también de Belice según CEMDA)",
+      "colonias": "Más de 100,000 menonitas en México. En Hopelchén: 17 campos documentados",
+      "idioma": "Plautdietsch — mezcla de bajo alemán, dialectos prusianos y holandés",
+      "modelo_economico": "Agricultura intensiva mecanizada, transgénicos, agrotóxicos, producción de carbón",
+      "historia_xmaben": "1999: comunidad de Xmabén (36,000 ha) vendió 5,656 ha a menonitas — primer caso documentado de despojo catastral significativo",
+      "paradoja": "Los menonitas afirman vivir según valores pacifistas y que 'la voluntad de Dios es expandir sus granjas'. Para el gobierno y ecologistas: 'desastre ambiental'."
+    }
+  }
+}

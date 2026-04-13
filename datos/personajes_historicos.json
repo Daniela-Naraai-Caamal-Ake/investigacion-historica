@@ -1,0 +1,72 @@
+{
+  "coleccion": "Personajes Históricos",
+  "descripcion": "Colección de personajes históricos relevantes para la investigación",
+  "version": "1.0",
+  "personajes": [
+    {
+      "id": 1,
+      "nombre": "Miguel Hidalgo y Costilla",
+      "fecha_nacimiento": "1753-05-08",
+      "fecha_muerte": "1811-07-30",
+      "lugar_nacimiento": "Pénjamo, Guanajuato, México",
+      "ocupacion": ["Sacerdote", "Insurgente", "Líder independentista"],
+      "periodo": "Independencia de México",
+      "descripcion": "Cura criollo considerado el padre de la patria mexicana. Inició el movimiento de independencia con el Grito de Dolores el 16 de septiembre de 1810.",
+      "logros": [
+        "Inicio del movimiento de independencia",
+        "Abolición de la esclavitud en los territorios bajo su control",
+        "Símbolo nacional de México"
+      ],
+      "importancia": "alta"
+    },
+    {
+      "id": 2,
+      "nombre": "Emiliano Zapata",
+      "fecha_nacimiento": "1879-08-08",
+      "fecha_muerte": "1919-04-10",
+      "lugar_nacimiento": "Anenecuilco, Morelos, México",
+      "ocupacion": ["Campesino", "Líder revolucionario", "General"],
+      "periodo": "Revolución Mexicana",
+      "descripcion": "Líder campesino y militar mexicano, figura fundamental de la Revolución Mexicana. Luchó por los derechos agrarios de los campesinos bajo el lema 'Tierra y Libertad'.",
+      "logros": [
+        "Plan de Ayala",
+        "Defensa de los derechos campesinos",
+        "Símbolo del agrarismo en México"
+      ],
+      "importancia": "alta"
+    },
+    {
+      "id": 3,
+      "nombre": "Sor Juana Inés de la Cruz",
+      "fecha_nacimiento": "1651-11-12",
+      "fecha_muerte": "1695-04-17",
+      "lugar_nacimiento": "San Miguel Nepantla, México",
+      "ocupacion": ["Escritora", "Poetisa", "Religiosa", "Filósofa"],
+      "periodo": "Época Colonial",
+      "descripcion": "Poetisa y escritora novohispana, considerada la décima musa y pionera del feminismo en América Latina. Destacó en un mundo dominado por hombres gracias a su vasta inteligencia y obra literaria.",
+      "logros": [
+        "Obras literarias como 'Primero Sueño' y 'Respuesta a Sor Filotea'",
+        "Defensa del derecho de la mujer a la educación",
+        "Símbolo del feminismo latinoamericano"
+      ],
+      "importancia": "alta"
+    },
+    {
+      "id": 4,
+      "nombre": "Benito Juárez",
+      "fecha_nacimiento": "1806-03-21",
+      "fecha_muerte": "1872-07-18",
+      "lugar_nacimiento": "Guelatao, Oaxaca, México",
+      "ocupacion": ["Abogado", "Político", "Presidente de México"],
+      "periodo": "Reforma y República Restaurada",
+      "descripcion": "Presidente de México de origen zapoteca, impulsó la separación de la Iglesia y el Estado, y resistió la intervención francesa encabezada por Maximiliano I.",
+      "logros": [
+        "Leyes de Reforma",
+        "Constitución de 1857",
+        "Restauración de la República",
+        "Separación Iglesia-Estado"
+      ],
+      "importancia": "alta"
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "META": {
+    "archivo": "investigacion_bloques_B_H_2026-03-30.json",
+    "descripcion": "Investigación completada/ampliada para bloques B al H — sesión 30 marzo 2026",
+    "agente": "Claude Sonnet 4.6 — Archivo Vivo v2.5",
+    "herramienta": "web_search nativa",
+    "busquedas_realizadas": 6,
+    "origen_sesion": "2026-03-30"
+  },
+
+  "BLOQUE_B": {
+
+    "B-SuarezCaamal": {
+      "estado_investigacion": "COMPLETADA",
+      "personaje": {
+        "nombre_completo": "Miguel Ángel Suárez Caamal",
+        "nacimiento": "2 de junio de 1953, Calkiní, Campeche",
+        "muerte": "no documentada — vive en Dziuché, Quintana Roo (activo hasta al menos 2017)",
+        "profesion": "Escritor, maestro, tallerista",
+        "origen_escritura": "Influencia de Don Justo Estrada Cuevas, peluquero de Calkiní y cuentero oral — la tradición oral lo formó",
+        "formacion": "Escuela Normal de Profesores de Calkiní",
+        "residencia_actual": "Dziuché, Quintana Roo — labora como maestro de Español en secundaria",
+        "obras": [
+          "La noche de los osos y otros relatos (1988) — primer libro, cuentos",
+          "La rebelión de los Cruzoob (1997) — novela histórica. Editorial Nave de Papel, Bacalar",
+          "Jacinto Tun — novela",
+          "El tío Justo — cuento infantil (Col. Castillo de la Lectura, Ediciones Castillo, Monterrey)"
+        ],
+        "premios": "II Certamen Regional de Poesía y Cuento de Calkiní 1988 — categoría cuento",
+        "becas": "Fondo Estatal para la Cultura y las Artes (FECA) de Quintana Roo 1994 y 1995",
+        "grupos_literarios": "Grupo Genali",
+        "talleres": [
+          "Coordinador del Taller de Narrativa, Casa de Cultura de Calkiní (1990-1994)",
+          "Talleres en Dziuché — editó trípticos de niños y jóvenes"
+        ],
+        "analisis_academico": {
+          "autor": "Carlos Vadillo Buenfil",
+          "titulo": "La Guerra de Castas en La rebelión de los Cruzoob, de Miguel Ángel Suárez Caamal: de la veracidad histórica a la ficción novelesca",
+          "publicacion": "Península, vol.XII, núm.2, 2017, pp.29-48",
+          "editorial": "Elsevier / UNAM",
+          "DOI": "10.1016/j.rpns.2017.06.001",
+          "ISSN": "1870-5766",
+          "disponible_en": ["SciELO", "Redalyc", "Dialnet", "ScienceDirect"]
+        }
+      },
+      "novela_cruzoob_contenido": {
+        "publicacion": "1997, Ediciones Nave de Papel, Bacalar",
+        "extension": "novela corta",
+        "perspectiva_narrativa": "voz de los vencidos — los insurrectos mayas y su Cruz Parlante",
+        "personajes_clave": ["Venancio Pec", "Cecilio Chi", "Manuel Antonio Ay"],
+        "estructura_temporal": "1849-1852, los años más agudos de la Guerra de Castas",
+        "fuentes_historicas_usadas": ["Serapio Baqueiro Preve (Ensayo histórico)", "documentos del AGEY"],
+        "critica_academica": "Vadillo: 'todos los personajes de su trama, tanto capitanes mayas como militares blancos, tienen su correspondencia con la veridicción'",
+        "importancia": "Única novela campechana sobre la Guerra de Castas narrada desde la perspectiva maya",
+        "lista_novelas_GC_contexto": [
+          "La conjura de Xinun (1958) — Ermilo Abreu Gómez",
+          "Ascensión Tun (1981) — Silvia Molina",
+          "De la misma herida (1985) y El cuello del jaguar (2000) — Joaquín Bestard Vázquez",
+          "La rebelión de los Cruzoob (1997) — Miguel Ángel Suárez Caamal",
+          "Península, Península (2008) — Hernán Lara Zavala",
+          "El llamado de los tunkules (2011) — Marisol Ceh Moo (maya-español)"
+        ]
+      },
+      "conexion_dan": "El apellido Caamal une a Francisco Caamal (comandante 1848) + Miguel Ángel Suárez Caamal (escritor que narró esa guerra) + Daniela Naraai Caamal (investigadora, 175 años después)",
+      "fuentes": ["ELEM.mx entrada autor 130368", "Vadillo Buenfil 2017 (SciELO, Redalyc)", "Plataformacolectiva.org perfil autoral"]
+    },
+
+    "B-Oswaldo": {
+      "estado_investigacion": "COMPLETADA",
+      "personaje": {
+        "nombre_completo": "Oswaldo Baqueiro Anduze",
+        "nacimiento": "12 de mayo de 1902, Mérida, Yucatán",
+        "muerte": "16 de junio de 1945, Ciudad de México — murió a los 43 años",
+        "profesion": "Novelista, ensayista, historiador, periodista",
+        "genealogia": {
+          "abuelo": "Serapio Baqueiro Preve (1838-1900) — el historiador de la Guerra de Castas",
+          "padre": "Serapio Baqueiro Barrera (1865-1940) — periodista y poeta modernista",
+          "tio_abuelo": "Chan Cil (Cirilo Baqueiro Preve) — patriarca de la trova yucateca",
+          "bisnieto": "Oswaldo Baqueiro López — periodista (siguiente generación)"
+        },
+        "formacion": "Estudios en Mérida. Sus estudios fueron patrocinados por la Liga de Resistencia Central del Partido Socialista del Sureste durante el gobierno de Felipe Carrillo Puerto — reconocido como 'meritorio intelectual progresista'",
+        "grupos": "Grupo 'Esfinge' — se reunían en el parque Hidalgo de Mérida al pie de la estatua de Manuel Cepeda Peraza. Otros miembros: Clemente López Trujillo, Horacio Villamil, Ricardo Mimenza Castillo, Ermilo Solís, Aurelio Velázquez, José Salomón Osorio, Miguel Ángel Menéndez, Ricardo López Méndez",
+        "trayectoria_periodistica": {
+          "1932": "Editor del Diario del Sureste desde su fundación — el mismo periódico que Humberto Lara y Lara dirigió de 1938 a 1952",
+          "ciudad_mexico": "Se trasladó a la Ciudad de México. Murió ahí en 1945."
+        },
+        "obras_principales": [
+          "Geografía sentimental de Mérida. Las piedras que hablan (1937)",
+          "La maya y el problema de la cultura indígena (1938)",
+          "Los mayas: fin de una cultura (fecha pendiente verificación)"
+        ],
+        "elogio_postumo": "Yucatán perdió con la muerte de Oswaldo a uno de sus más grandes ensayistas. Perdió además un hombre cabal, honorable, recto y sencillo... Pensaba Oswaldo en una cultura yucateca y no en una cultura yucatanense, sofisticada y baladí.",
+        "dato_critico": "Su nombre coincide con el de su abuelo en lo que hace: Serapio Baqueiro Preve escribió la historia de la Guerra de Castas desde la perspectiva criolla. Oswaldo Baqueiro Anduze escribió sobre 'La maya y el problema de la cultura indígena' y 'Los mayas: fin de una cultura' — en la siguiente generación, la mirada ya no es la del conquistador sino la del mestizo que se pregunta qué pasó con la cultura maya. La familia Baqueiro registra el siglo XIX como testigos del horror y el siglo XX como arqueólogos de la pérdida."
+      },
+      "conexiones_proyecto": ["P002 (Serapio, abuelo)", "P003 (Chan Cil, tío abuelo)", "P004 (Gerónimo Baqueiro Foster, primo lejano)", "B4 (Humberto Lara y Lara — ambos en el Diario del Sureste)"],
+      "fuentes": ["Wikipedia — Oswaldo Baqueiro Anduze", "Chaco 4ever Books (carta 1940 firmada)", "Iberlibro — Los Mayas: Fin de Una Cultura"]
+    }
+  },
+
+  "BLOQUE_C": {
+
+    "C3_nueve_millones": {
+      "estado_investigacion": "COMPLETADA",
+      "titulo_sugerido": "Los 9 millones desviados",
+      "protagonista": "Emilio Lara Calderón — exalcalde de Hopelchén, actual diputado federal",
+      "hechos": {
+        "denuncia": "Auditoría Superior del Estado de Campeche (Asecam) detectó que el Ayuntamiento de Hopelchén no transfirió recursos etiquetados a las juntas municipales durante el ejercicio fiscal 2023",
+        "monto_total": "Más de 9 millones de pesos",
+        "meses_irregulares": "enero, mayo, julio, agosto, septiembre, octubre, noviembre de 2023",
+        "juntas_afectadas": {
+          "Bolonchén": "3,154,746 pesos (2,133,703 del municipio + 1,021,043 del estado)",
+          "Ukúm": "2,970,593 pesos (1,949,550 del municipio + 1,021,043 del estado)",
+          "tercera_junta": "monto no especificado en fuentes consultadas"
+        },
+        "confirmacion": "El Secretario de Administración y Finanzas (Safin) del Estado, Jezrael Larracilla Pérez, confirmó que los recursos fueron enviados al Ayuntamiento — el dinero llegó pero no fue transferido a quien debía recibirlo",
+        "situacion_actual": "Emilio Lara Calderón pasó de ser alcalde a diputado federal — el escándalo no le impidió ascender en la estructura política"
+      },
+      "conexion_hilo_apellidos": "Emilio Lara Calderón — Lara y Calderón son dos de los apellidos centrales de todo el proyecto. El mismo entramado familiar que instala el reloj de Berlín en 1911 y que sigue en el poder en 2025 desvía fondos para juntas municipales en 2023.",
+      "fuente": "PorEsto — 26 diciembre 2024"
+    },
+
+    "G-SucTuc_ampliado": {
+      "estado_investigacion": "COMPLETADA",
+      "titulo_sugerido": "San Francisco Suc-Tuc: el gobierno autónomo",
+      "hechos": {
+        "detonador": "Comisaria municipal Olivia Esther Ucán Chan desvió recursos y falsificó firmas en documentos de programa de becas para jóvenes. Los apoyos nunca llegaron a los beneficiarios.",
+        "protesta": "Diciembre 2016 — asamblea comunitaria detectó el fraude con documentos oficiales",
+        "denuncia": "14 diciembre 2016 — la asamblea acudió al Ayuntamiento de Hopelchén. Funcionarios no cumplieron compromisos adquiridos.",
+        "bloqueo": "Bloqueo de carretera Campeche-Hopelchén durante la noche",
+        "autogobierno": "9-11 enero 2017 — tras asambleas deliberativas, la comunidad eligió Consejo de Gobierno autónomo y tres representantes (tesorero, secretario, comisario) — desconcentrados y revocables por asamblea",
+        "reprimiersion": "4 camiones de policía antimotines llegaron cuando ya se había firmado la minuta de acuerdos y estaban en proceso de ejecutar la renuncia de la comisaria",
+        "detenidos": "Diego Armando Poot Pech, José Alfredo Poot Aguayo, Sergio Echazarreta Ucán",
+        "respuesta_ayuntamiento": "'Lo más viable es que ella renuncie y facilite las cosas al pueblo' — se negaron a remover a la comisaria",
+        "secretario_ayuntamiento": "Javier Soberanis Acosta"
+      },
+      "dato_geografico": "Suc-Tuc es un territorio comunal que cruza la carretera Campeche-Hopelchén-Bolonchén, modernizada a mediados de 2015",
+      "conexion_hilo": "Los detenidos llevan apellidos mayas (Poot, Echazarreta Ucán). La comisaria que cometió el fraude: Ucán Chan. Los mismos apellidos que en 1848 peleaban por su tierra, en 2017 son detenidos por organizarse para defender sus derechos.",
+      "fuentes": ["Desinformémonos enero 2017", "Alasbarricadas.org enero 2017", "Ajusco Radio"]
+    }
+  },
+
+  "BLOQUE_D": {
+
+    "D4_glifosato": {
+      "estado_investigacion": "COMPLETADA",
+      "investigador_clave": "Jaime Rendón Von Osten, Epomex (Centro de Ecología, Pesquerías y Oceanografía del Golfo de México, Universidad Autónoma de Campeche)",
+      "estudio_principal": {
+        "titulo": "Residuos de glifosato en muestras de agua y orina de habitantes de la zona de Hopelchén, Campeche",
+        "comisionado_por": "Programa de Manejo de Riesgos del PNUD (Programa de Naciones Unidas para el Desarrollo)",
+        "hallazgos_agua": "Agua purificada de marcas comerciales vendidas en Hopelchén contiene glifosato a niveles 10 VECES superiores al límite permitido en la Unión Europea",
+        "hallazgos_orina": {
+          "Ich_Ek": "4 muestras positivas de 20 (3 mujeres)",
+          "Suc_Tuc": "3 muestras de varones positivas",
+          "conclusion_local": "Los lugareños aseguran haber habido casos de cáncer"
+        },
+        "acuifero": "Manto freático contaminado en 17 comunidades de Hopelchén cercanas a campos menonitas (Epomex, 2016)"
+      },
+      "comunidades_afectadas": ["Ich Ek", "Suc Tuc", "San Juan Bautista Sacabchén", "Xmabén", "J. Múgica", "Chunchintok", "Xtampak"],
+      "agroquimicos_documentados": ["glifosato", "carbofurán", "imidacloprid", "clorpirifos", "atrazina", "fipronil"],
+      "escala_contaminacion": {
+        "1987_2007": "2,000 toneladas de glifosato usadas en la región",
+        "2016": "13,500 toneladas solo en 2016",
+        "fumigacion_aerea": "Menonitas fumigan más de 70,000 hectáreas sin permisos"
+      },
+      "impacto_miel": {
+        "rechazos_exportacion": "Alemania y Arabia Saudita rechazaron contenedores de miel por contaminación",
+        "produccion_hopelchen": "Hopelchén aporta 30% del acopio de miel de la Sociedad Miel y Cera de Campeche (más de 5,000 campesinos mayas)",
+        "soya_crecimiento": "2004: 220 hectáreas de soya; 2005: 2,305 ha; 2021: 49,870 ha"
+      },
+      "procesos_legales": {
+        "tribunal_la_haya": "Apicultores mayas Angélica Ek y Feliciano Ucán declararon ante Tribunal Internacional contra Monsanto en La Haya",
+        "SCJN_2015": "Suspendió siembra transgénica en Campeche — sentencia continúa sin cumplirse",
+        "SCJN_2025": "Mayo 2025: caso atraído por la SCJN",
+        "SCJN_2026": "25 marzo 2026 (5 días antes de esta sesión) — comunidades mayas exigieron a ministros desechar proyecto de sentencia de ministra Ríos González que propone devolver el caso a juzgado de distrito. El IMTA concluyó que el agua no es apta para consumo humano."
+      },
+      "dato_nuevo_2026": "La batalla legal continúa activa en 2026. La deforestación alcanza más de 400,000 hectáreas en Campeche según Itzel Pech (marzo 2026).",
+      "fuentes": ["La Jornada agosto 2016, noviembre 2022, marzo 2026", "La Jornada Maya febrero 2022, marzo 2026", "Serapaz julio 2016", "El Quintana Roo MX", "Ruraltv noviembre 2022", "Desinformémonos octubre 2015"]
+    },
+
+    "D2_menonitas_ampliado": {
+      "estado_investigacion": "AMPLIADA",
+      "datos_nuevos": {
+        "poblacion_municipal_2015": "Hopelchén tiene aproximadamente 37,777 habitantes: 32,595 indígenas mayas y 5,175 menonitas en 48 localidades",
+        "numero_colonias": "18 colonias menonitas en Campeche, aproximadamente 12,000 menonitas total",
+        "distribuidor_semillas_monsanto": "Jacobo Shakur — empresario que distribuyó semillas Monsanto en la región (no menonita, local)",
+        "impacto_biodiversidad": "Eliminación de dzidzilché (Gymnopodium floribundum), kitinché (Caesalpinia gaumeri), jabín (Piscidia piscipula), tzalam (Lysiloma latisiliquum) — árboles esenciales para apicultura",
+        "crisis_menonita_interna": "Nora Tzec reporta suicidios en campos menonitas por deudas no pagadas de agrocultivos — no documentados oficialmente"
+      },
+      "fuentes_nuevas": ["Desinformémonos octubre 2015", "Ruraltv noviembre 2022", "La Jornada noviembre 2022"]
+    }
+  },
+
+  "BLOQUE_H": {
+
+    "H1_libaneses": {
+      "estado_investigacion": "COMPLETADA",
+      "primer_libanes_yucatan": "Santiago Sauma — llegó via Puerto Progreso, 1879",
+      "primeros_en_censo_1900": ["Amado Chami", "Elías Faraón", "Juan Mena", "Salomón Rechani", "Salvador Saidé"],
+      "apellidos_principales_peninsula": ["Macari", "Xacur", "Jorge", "Mena", "Abraham", "Chapur", "Rafful", "Azar", "Gaber", "Madahuar", "Charruf"],
+      "cifras_poblacion": {
+        "1900": "5 familias registradas en Mérida, pero presencia en todos los pueblos del interior del estado",
+        "1910": "568 personas ('turcos') en censo — otros testimonios dicen más de 2,000",
+        "1948": "1,550 personas en 379 familias",
+        "1966": "2,500 en 400 familias",
+        "1980": "3,000 en 585 familias"
+      },
+      "mecanismo_economico": {
+        "actividad_inicial": "Buhoneros ambulantes en pueblos rurales — telas, agujas, hilos, cintas, encajes, espejos, botones para clases humildes (los comerciantes yucatecos, españoles y alemanes solo atendían a la clase acomodada)",
+        "jornada": "Hasta 14 horas, 7 días a la semana",
+        "sistema_credito": "Abono — precio final 3-4 veces el precio original. Clave: la confianza y el crédito como estrategia de fidelización",
+        "estrategia_etnica": "Endogamia + redes de parentesco + nepotismo étnico = movilidad social ascendente",
+        "circuito_chenes": "El chiclero regresa del monte con pesos → el libanés espera en el pueblo con mercancía"
+      },
+      "etapas_migracion": [
+        "1. Formativa (Porfiriato-1927): llegada como buhoneros, base en Mérida",
+        "2. Consolidación (1927-1950): se suman Campeche y Chetumal; primera generación nacida en México; entrada a ganadería, azúcar, camarones, bolita",
+        "3. Integración (mediados siglo XX-1990): clase empresarial consolidada",
+        "4. Asimilación (desde 1990): la etnicidad libanesa es más historia familiar que identidad colectiva activa"
+      ],
+      "presencia_politica_campeche": [
+        "Jorge Salomón Azar — gobernador Campeche 1992-1997",
+        "González Kuri — gobernador Campeche 1998-2004",
+        "Propietarios del 40% de la flota camaronera campechana"
+      ],
+      "fuente_principal": {
+        "titulo": "De cómo los libaneses conquistaron la Península de Yucatán. Migración, identidad étnica y cultura empresarial",
+        "autor": "Luis Alfonso Ramírez Carrillo",
+        "año": "2014",
+        "editorial": "pendiente verificar — anteriormente listada como UNAM-CEPHCIS 2012; artículo de reseña dice 2014",
+        "nota": "El autor (lramirezcarrillo@gmail.com) es Doctor en Ciencias Sociales, UADY. Ha publicado múltiples artículos sobre el tema en SciELO y otras revistas académicas. FP011 puede ser localizado a través de UADY o contacto directo con el autor."
+      },
+      "fuentes": [
+        "SciELO México — reseña del libro (2014)",
+        "Meridadeyucatan.com — dos artículos sobre historia de familias libanesas",
+        "El Universal — Libaneses en Yucatán, signo de poderío económico",
+        "Wikipedia — Inmigración libanesa en México"
+      ]
+    }
+  },
+
+  "HUMBERTO_LARA_Y_LARA_corrección": {
+    "nota": "Dato corregido encontrado en Biblioteca Virtual de Yucatán",
+    "director_diario_sureste": "1938-1952 (no 1937 como tenía en la base)",
+    "veces_diputado": "Dos veces diputado local",
+    "cargo_adicional": "Presidente del Partido Socialista del Sureste",
+    "obras_completas": [
+      "Poema de Amor Perdido (1952)",
+      "Sisal (Ensayo Monográfico, 1959)",
+      "El barrio de la ermita de Santa Isabel, un rincón colonial de Mérida (1966)",
+      "Poema 'Canto a mi raza y a...' (fecha pendiente)"
+    ],
+    "entrada_blog": "B4 aprobada — corrección a registrar en base"
+  }
+}

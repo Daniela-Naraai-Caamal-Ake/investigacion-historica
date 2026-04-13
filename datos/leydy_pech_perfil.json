@@ -1,0 +1,120 @@
+{
+  "META": {
+    "titulo": "Perfil Completo — Leydy Pech Martín",
+    "fecha_creacion": "2026-03-22",
+    "agente": "Claude — Agente Autónomo de Investigación Histórica",
+    "fuentes": [
+      "Goldman Environmental Prize — ficha oficial (goldmanprize.org)",
+      "Wikipedia — Leydy Pech",
+      "Proceso — entrevista 30 nov 2020",
+      "Mongabay España — dic 2020",
+      "PorEsto — nov 2020",
+      "Infobae — dic 2020",
+      "Talacha Informativa — Colectivo Indignación"
+    ]
+  },
+
+  "identificacion": {
+    "nombre_completo": "Leydy Araceli Pech Martín",
+    "aliases": ["La Guardiana de las Abejas", "La Dama de la Miel"],
+    "nacimiento": {
+      "año": "c. 1965",
+      "lugar": "Ich Ek, municipio de Hopelchén, Campeche, México",
+      "significado_ich_ek": "Ojo de estrella (maya)"
+    },
+    "identidad": "Mujer maya, apicultora, activista indígena",
+    "activismo_inicio": "Año 2000 — cuando Monsanto instaló primeras parcelas de soya transgénica en Campeche"
+  },
+
+  "actividad_apicola": {
+    "especie_principal": "Melipona beecheii",
+    "nombre_maya": "Xunáan Kab — la dama de la miel",
+    "descripcion": "Abeja sin aguijón. Domesticada por los mayas durante cientos de años. Construye colmenas en troncos huecos. No produce tanta miel como la Apis mellifera pero es endémica de la Península de Yucatán.",
+    "contexto_historico": "La meliponicultura tiene al menos 3,000 años de tradición en la Península de Yucatán",
+    "organizacion": {
+      "nombre": "Koolel-Kab / Muuchkambal",
+      "fundacion": 1995,
+      "tipo": "Cooperativa de agricultura orgánica y agroforestería exclusivamente de mujeres mayas",
+      "productos": ["Mieles", "Jabones", "Cremas"],
+      "descripcion": "Fundada junto a otras mujeres de Ich Ek para rescatar la meliponicultura maya"
+    }
+  },
+
+  "lucha_juridica": {
+    "causa": "Oposición a siembra de soya genéticamente modificada (Roundup Ready) por Monsanto/Bayer",
+    "antecedente": {
+      "año_inicio_monsanto": 2000,
+      "año_piloto_expansion": "2010-2011",
+      "año_permisos_gobierno": 2012,
+      "descripcion": "El gobierno mexicano otorgó permisos a Monsanto para sembrar soya GM en 7 estados sin consulta previa a comunidades indígenas, violando tratados internacionales"
+    },
+    "colectivos": [
+      "Koolel-Kab / Muuchkambal",
+      "Colectivo Apícola de los Chenes",
+      "Colectivo de Comunidades Mayas de los Chenes"
+    ],
+    "apoyo_legal": "Colectivo Indignación — grupo legal que acompañó el proceso",
+    "investigacion_academica": {
+      "unam": "Universidad Nacional Autónoma de México realizó estudio que confirmó presencia de polen de soya GM en suministro local de miel",
+      "pnud_epomex": "PNUD + EPOMEX-UAC (Jaime Rendón Von Osten) — rastros de glifosato en agua de Hopelchén y orina de residentes"
+    },
+    "acciones": [
+      "Peticiones y campañas de educación comunitaria",
+      "7 protestas simultáneas en centros ceremoniales mayas de la Península (~2,000 participantes)",
+      "Litigio ante la Suprema Corte de Justicia de la Nación"
+    ],
+    "victoria_scjn": {
+      "año": "noviembre 2015",
+      "decision": "La Corte dictaminó por unanimidad que el gobierno violó los derechos constitucionales de los mayas al otorgar permisos sin consulta previa",
+      "consecuencia": "El gobierno revocó el permiso a Monsanto en 7 estados"
+    },
+    "segunda_revocacion": {
+      "año": "septiembre 2017",
+      "organo": "SENASICA (Servicio Nacional de Sanidad, Inocuidad y Calidad Agroalimentaria)",
+      "alcance": "7 estados: Campeche, Yucatán y cinco más"
+    },
+    "tercera_instancia": {
+      "año": "agosto 2020 (antes del premio)",
+      "organo": "Tribunal de Justicia Administrativa",
+      "decision": "Revocación del permiso a Monsanto. Reconoció que violó el principio precautorio."
+    },
+    "comision_interamericana": {
+      "estado": "Caso ante la Comisión Interamericana de Derechos Humanos (CIDH)",
+      "contexto": "A pesar de las revocaciones, la siembra ilegal continuaba al momento del premio en 2020"
+    },
+    "situacion_actual_2020": "Con dos revocaciones, una sentencia y el caso en la CIDH, se sigue sembrando en la ilegalidad con fumigación aérea, pistas clandestinas y deforestación. (Declaración de Leydy Pech a Proceso, 2020)"
+  },
+
+  "reconocimientos": {
+    "goldman_2020": {
+      "nombre": "Premio Ambiental Goldman 2020",
+      "categoria": "Norteamérica",
+      "fecha": "30 noviembre 2020",
+      "descripcion": "Considerado el Premio Nobel del medio ambiente. Fundado en 1990. Premia anualmente a seis defensores ambientales de base.",
+      "ceremonia": "Virtual — presentada por Sigourney Weaver; participaron Robert Redford, Danni Washington, Lenny Kravitz; músicos Jack Johnson y Michael Franti",
+      "coganadores_2020": ["Chibeze Ezekiel (Ghana)", "Kristal Ambrose (Bahamas)", "Lucie Pinson (Francia)", "Nemonte Nenquimo (Ecuador)", "Paul Sein Twa (Myanmar)"],
+      "frases_pech": [
+        "Lo que estamos defendiendo es la vida.",
+        "Este reconocimiento reafirma el compromiso de los mayas que luchamos y defendemos el territorio de los grandes proyectos que hoy amenazan a las comunidades.",
+        "Este premio es un reconocimiento al trabajo de las comunidades mayas de los Chenes."
+      ]
+    }
+  },
+
+  "contexto_hopelchen": {
+    "importancia_apicultura": "Hopelchén es el primer productor de miel de Campeche. 40% de la producción nacional de miel proviene de la Península de Yucatán. La apicultura sustenta a 25,000 familias en Campeche.",
+    "deforestacion_conexion": "La lucha de Pech es inseparable del contexto menonita: mismos agroquímicos (glifosato, fipronil) que matan sus abejas son los usados en los campos de soya que ella combatió.",
+    "comunidad_ich_ek": "Pequeña localidad del municipio de Hopelchén donde nació y vive. Nombre maya: ojo de estrella. Las familias viven apoyándose mutuamente.",
+    "vinculo_libro_archivo_vivo": {
+      "capitulo": "VI — El yeso, las abejas y los menonitas",
+      "capitulo_X": "X — Leydy Pech nombrada como ejemplo del intelectual orgánico que Hopelchén necesita",
+      "frase_libro": "Es cada persona que decide preguntar en lugar de callar. Es la apicultora Leydy Pech, de Ich Ek, Hopelchén, llevando a los tribunales federales la protección de sus abejas contra las corporaciones agrícolas."
+    }
+  },
+
+  "datos_verificados_adicionales": {
+    "discriminacion_monsanto": "La organización Goldman señaló que Pech fue objeto de discriminación por parte de Monsanto y sus abogados, quienes hacían alusión a la incredulad que les causaba que una pequeña mujer los hubiera derrotado.",
+    "parcela": "Tiene una parcela de dos hectáreas dedicada a la apicultura",
+    "monsanto_hoy": "Monsanto fue adquirida por Bayer"
+  }
+}

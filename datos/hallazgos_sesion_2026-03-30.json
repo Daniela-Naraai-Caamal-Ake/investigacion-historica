@@ -1,0 +1,145 @@
+{
+  "META": {
+    "archivo": "hallazgos_sesion_2026-03-30.json",
+    "descripcion": "Hallazgos verificados de investigación web — sesión 30 marzo 2026",
+    "agente": "Claude Sonnet 4.6 — Archivo Vivo v2.5",
+    "herramienta_investigacion": "web_search nativa (Firecrawl descartado)",
+    "origen_sesion": "2026-03-30T00:00:00"
+  },
+
+  "novela_barrera": {
+    "hallazgo": "Datos editoriales completos de la novela de Pantaleón Barrera",
+    "titulo_completo": "Los Misterios de Chan Santa Cruz: Historia Verdadera con Episodios de Novela",
+    "autor_seudónimo": "Napoleón Trebarra",
+    "autor_real": "Pantaleón Barrera",
+    "año_publicacion": 1864,
+    "editorial": "Imprenta de M. Aldana Rivas",
+    "lugar": "Mérida, Yucatán",
+    "fuente_confirmacion": "ELEM.mx (Enciclopedia de la Literatura en México) — entrada 6147 confirma: autor Barrera, Pantaleón",
+    "accesibilidad": "Disponible en facsímiles digitales: Amazon, AbeBooks, Google Books. No está solo en Wisconsin.",
+    "google_books_id": "GqdGAAAAMAAJ",
+    "contenido_verificado": "Narra la rebelión maya en Chan Santa Cruz. Personajes incluyen: Gerardo Castipe, Crescencio Poot, Dionisio Zapata, Leandro Santos, Venancio Puc, Cecilio Chí, Claudio Novelo, Bonifacio Novelo, Manuel Antonio Ay, Miguel Barbachano.",
+    "verificado": true,
+    "confiabilidad": "alta",
+    "relevancia": "B1-BIS aprobada — dato editorial actualiza la base para futuras referencias"
+  },
+
+  "decreto_barbachano_noviembre_1848": {
+    "hallazgo": "Texto y fecha exacta del decreto Barbachano confirmados",
+    "fecha_exacta": "6 de noviembre de 1848",
+    "texto_decreto": "todo indio que sea hecho prisionero con las armas en la mano, podrá el gobierno ALEJARLO de su respectivo domicilio y aún expulsarlo del Estado por diez años",
+    "efecto": "El decreto 'oportunamente coincidió con la aprobación de las autoridades cubanas de la inmigración maya'",
+    "mecánica_economica": "Gobierno yucateco recibía 25 pesos por rebelde de casas comerciales españolas. Ofreció 5 pesos a soldados por rebelde capturado.",
+    "cifras_deportados": "Entre 700 y 2,000 mayas deportados a Cuba (1849-1861)",
+    "decreto_terminacion": "6 de mayo de 1861 — decreto de Benito Juárez que detuvo la extracción de indígenas yucatecos bajo cualquier título",
+    "critica_melchor_ocampo": "11 octubre 1855 — Melchor Ocampo (ministro de relaciones exteriores) condenó 'al infame, execrable, vergonzoso, punible y horrible tráfico de mayas a Cuba'",
+    "personas_involucradas": [
+      "Carlos Tomé — comerciante cubano, llegó a Sisal en el vapor Cetro",
+      "Francisco Marty y Torrens — catalán que compró 36 indios secuestrados en Isla del Carmen a 25 y 8 pesos según edad",
+      "Agustín Bolívar (La Habana) — tramitó ingreso de 3-4 mil yucatecos en 1855",
+      "Compañías: Zangróniz y Hermanos, Goicouría y Hermanos"
+    ],
+    "fuentes_verificacion": [
+      "OnCubaNews — artículo 'La venta de yucatecos como esclavos hacia Cuba'",
+      "Encyclopedia.com — Encyclopedia of Latin American History and Culture",
+      "Felipe Carrillo Puerto Municipal — efemérides históricas",
+      "Project MUSE — Raza y tierra (González Navarro)"
+    ],
+    "verificado": true,
+    "confiabilidad": "alta",
+    "relevancia": "FP009 — texto del decreto ahora verificado por múltiples fuentes"
+  },
+
+  "teobert_maler_datos_ampliados": {
+    "hallazgo": "Datos precisos de la expedición de Maler a Los Chenes y archivo IAI",
+    "primera_expedicion": {
+      "inicio": "17 de diciembre de 1886",
+      "fin": "25 de junio de 1887",
+      "total_zonas_visitadas": 42,
+      "zonas_en_campeche": 22,
+      "zonas_en_yucatan": 20
+    },
+    "sitios_hopelchen_documentados": {
+      "Dzehkabtun": "1887 — en municipio de Hopelchén",
+      "Santa_Rosa_Xtampak": "1891 — segunda expedición",
+      "Tabasqueño": "Reportado por Maler en 1887"
+    },
+    "archivo_iai_berlin": {
+      "fotografias": "más de 2,700 en 145 carpetas",
+      "libros_apuntes": 12,
+      "manuscritos": "1 en 3 volúmenes — publicado 1997 como 'Península Yucatán' (ed. Prem)",
+      "libros_apuntes_diarios": "7 (1886-1895)",
+      "diario_personal": "viaje a Veracruz 1902-1903",
+      "hojas_correspondencia": "~230",
+      "hojas_notas_sueltas": 370
+    },
+    "digitalizacion": "2018: 3,000 fotografías digitalizadas con financiamiento BKM (Gobierno Federal Alemania). Disponibles en colecciones digitales del IAI.",
+    "url_coleccion_digital": "https://digital.iai.spk-berlin.de/viewer/collections/nachlass-teobert-maler/",
+    "arqueóloga_iai_contacto": "Iken Paap — dirige investigaciones en Dzehkabtún y Santa Rosa Xtampak desde 2012",
+    "exposicion_berlin_2024": "Inaugurada 15 octubre 2024. Título: 'Tras los pasos de Teobert Maler. Proyectos arqueológicos en Campeche, México'. Duró hasta 9 diciembre 2024.",
+    "exposicion_campeche_2025": "Inaugurada 24 octubre 2025 en Casa Teniente del Rey, Centro INAH Campeche",
+    "fuentes_verificacion": [
+      "IAI Berlin — página oficial Fondo Maler",
+      "Secretaría de Cultura México — comunicado exposición IAI 2024",
+      "Arqueología Mexicana — 'La primera expedición arqueológica de Teobert Maler'",
+      "PortalGuanajuato — exposición Campeche 2025"
+    ],
+    "verificado": true,
+    "confiabilidad": "alta",
+    "relevancia": "Actualiza datos de A4 y B6 — la colección digital del IAI es accesible online"
+  },
+
+  "el_charras_datos_nuevos": {
+    "hallazgo": "Datos adicionales verificados sobre Efraín Calderón Lara",
+    "madre_nombre_completo": "Ada Lara Barrera (su apellido materno es Barrera — dato nuevo)",
+    "padre": "Efraín Calderón Lara",
+    "hermanos": ["Beatriz", "José", "Rosaura"],
+    "hermanos_sobrevivientes_2025": "Solo Beatriz vive (según PorEsto 2025)",
+    "primo_actual": "Hiram Aranda Calderón — presidente municipal de Hopelchén (primo de El Charras). Estuvo en la develación del busto.",
+    "busto_develado_2025": {
+      "fecha": "13 septiembre 2025",
+      "lugar": "Parque del Barrio de Santiago, Mérida",
+      "escultora": "Gladys Díaz (arquitecta, no cobró honorarios)",
+      "quienes_asistieron": "Familiares, autoridades, académicos, estudiantes, líderes sindicales"
+    },
+    "sindicatos_aun_activos": [
+      "Sindicato de Empleados y Choferes 'Jacinto Canek'",
+      "Sindicato de Gasolineros 'Efraín Calderón'",
+      "Sindicato de Trabajadores Manuales UADY"
+    ],
+    "corrido_popular": "Existe y es recordado en ceremonias. PorEsto (sept 2025) menciona 'un corrido popular que narra la vida y el asesinato de Calderón Lara'. No se ha localizado texto ni grabación.",
+    "nueva_fuente": {
+      "titulo": "La otra cara de Loret de Mola: el asesino intelectual del líder obrero Efraín Calderón Lara; Confesiones de un asesino",
+      "autor": "Franklin Alonzo (periodista yucateco, amigo de El Charras)",
+      "editorial": "Ediciones Navarro",
+      "año": "c.1978",
+      "paginas": "XVI + 112 + 32 de fotografías",
+      "contenido": "Incluye testimonio de Carlos Francisco Pérez Valdez. Revela detalles de las torturas que los reportes periodísticos omitieron: quemaduras de cigarro en partes sensibles, horadaciones como de picahielo, castración."
+    },
+    "fuentes_verificacion": [
+      "PorEsto Mérida — 'Mérida rinde homenaje a Efraín Calderón Lara' (sept 2025)",
+      "Wikipedia — 'Efraín Calderón Lara'",
+      "Yucatán Cultura — 'Efraín Calderón Lara Charras: ¡Asesinado por la reacción!'",
+      "Bitácora blog Alonzo — 'Efraín Calderón Lara Charras'"
+    ],
+    "verificado": true,
+    "confiabilidad": "alta",
+    "relevancia": "B11 aprobada — datos actualizan la base. Franklin Alonzo es nueva fuente a registrar."
+  },
+
+  "nueva_fuente_Alonzo": {
+    "id": "F_NUEVO_01",
+    "titulo": "La otra cara de Loret de Mola: el asesino intelectual del líder obrero Efraín Calderón Lara; Confesiones de un asesino",
+    "autor": "Franklin Alonzo",
+    "tipo": "periodismo_investigacion",
+    "editorial": "Ediciones Navarro",
+    "año": "c.1978",
+    "idioma": "Español",
+    "paginas": "XVI + 112 + 32 fotografías",
+    "confiabilidad": "media",
+    "verificado": false,
+    "nota": "Autor amigo personal de El Charras. Fuente periodística — no académica. Incluye datos de primera mano no disponibles en otros libros. Requiere localización física.",
+    "usado_en": ["B11"],
+    "origen_sesion": "2026-03-30"
+  }
+}

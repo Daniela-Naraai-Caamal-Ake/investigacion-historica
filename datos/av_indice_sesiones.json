@@ -1,0 +1,225 @@
+{
+  "META": {
+    "archivo": "av_indice_sesiones.json",
+    "descripcion": "Índice maestro de todos los archivos relevantes — _sesiones_anteriores/ + extensiones activas. Leer en PASO 1 de cada sesión para saber qué existe.",
+    "actualizado": "2026-03-30",
+    "nota": "Estos archivos contienen investigación acumulada. Antes de investigar cualquier tema, consultar este índice para evitar duplicar trabajo ya hecho."
+  },
+
+  "archivos_activos_extensiones": {
+    "nota": "Archivos creados en sesión 2026-03-30 — YA INTEGRADOS en /database/",
+
+    "av_nucleo_extension.json": {
+      "ruta": "database/av_nucleo_extension.json",
+      "tamaño_aprox_kb": 18,
+      "contiene": "P031-P041 (Emilio Lara Calderón, Hiram Aranda Calderón, Edward Poot Yeh, El Charras actualizado, Iken Paap, Oswaldo Baqueiro Anduze, y otros). Eventos E053-E063. Lugares L019-L026. Vocabulario maya resuelto. Correcciones críticas.",
+      "cuando_consultar": "SIEMPRE junto con av_nucleo.json — contiene los personajes más recientes y las correcciones"
+    },
+
+    "av_conocimiento_extension.json": {
+      "ruta": "database/av_conocimiento_extension.json",
+      "tamaño_aprox_kb": 10,
+      "contiene": "Lugares L019-L028. Vocabulario maya resuelto (CAAMAL, MAY, POOT, EK, DZUL, CHI, BALAM, PECH). Términos especiales (Plautdietsch, Abono, Sascabera, Bataboob, Cruzoob, Ligas de Resistencia). Investigadores activos en Hopelchén.",
+      "cuando_consultar": "SIEMPRE junto con av_conocimiento.json — contiene los términos resueltos y los nuevos lugares"
+    },
+
+    "av_bloques.json": {
+      "ruta": "database/av_bloques.json",
+      "version": "2.0",
+      "actualizado": "2026-03-30",
+      "contiene": "Mapa editorial completo A-H con todos los insumos integrados. Estado actualizado de todas las entradas."
+    },
+
+    "investigacion_E_F_G_2026-03-30.json": {
+      "ruta": "database/investigacion_E_F_G_2026-03-30.json",
+      "contiene": "Datos educativos verificados (CONEVAL IRS 2020, IEEA 2021), 69 procedimientos PROFEPA verificados (La Jornada nov 2022), elecciones 2024 verificadas (IEEC planillas electas)"
+    },
+
+    "hallazgos_sesion_2026-03-30.json": {
+      "ruta": "database/hallazgos_sesion_2026-03-30.json",
+      "contiene": "Hallazgos web de la sesión: novela Barrera disponible online, decreto Barbachano fecha exacta, Teobert Maler colección digital, datos El Charras (madre Ada Lara Barrera, primo Hiram Aranda), busto El Charras sep 2025"
+    },
+
+    "investigacion_bloques_B_H_2026-03-30.json": {
+      "ruta": "database/investigacion_bloques_B_H_2026-03-30.json",
+      "contiene": "Datos bloques B, H investigados en sesión 30 marzo 2026"
+    }
+  },
+
+  "archivos_sesiones_anteriores": {
+
+    "base_historica_hopelchen.json": {
+      "ruta": "_sesiones_anteriores/base_historica_hopelchen.json",
+      "tamaño_kb": 88.89,
+      "contiene": "Base principal — P001-P030, 52 eventos, 18 lugares, 22 términos mayas, 45 fuentes, 11 hilos transversales. Esquema diferente al de av_nucleo.json activo.",
+      "cuando_consultar": "Para verificar datos históricos profundos no encontrados en av_nucleo.json activo"
+    },
+
+    "personajes_eventos_expansion_v2.json": {
+      "ruta": "_sesiones_anteriores/personajes_eventos_expansion_v2.json",
+      "tamaño_kb": 22.54,
+      "contiene": "P031-P045 + E053-E063 + L019-L026 + TM024-TM027 + correcciones. YA INTEGRADO en av_nucleo_extension.json.",
+      "estado": "INTEGRADO 2026-03-30"
+    },
+
+    "bloques_C_a_H_2026-03-23.json": {
+      "ruta": "_sesiones_anteriores/bloques_C_a_H_2026-03-23.json",
+      "tamaño_kb": 19.44,
+      "contiene": "Investigación C1-C9, D1-D6, E-ChanCil, F-RojoAmanecer, G-Hiram, G-SucTuc, H1-H3. YA INTEGRADO en av_bloques.json v2.0.",
+      "estado": "INTEGRADO 2026-03-30"
+    },
+
+    "investigacion_global_2026-03-23.json": {
+      "ruta": "_sesiones_anteriores/investigacion_global_2026-03-23.json",
+      "tamaño_kb": 14.08,
+      "contiene": "CAAMAL=dos veces, MAY=ciervo (no tabaco), POOT=agujerear, EK=estrella→Estrella, DZUL=forastero→Caballero, ITURBIDE=Dzibil-Noh-Aac. YA INTEGRADO en av_conocimiento_extension.json.",
+      "estado": "INTEGRADO 2026-03-30"
+    },
+
+    "leydy_pech_perfil.json": {
+      "ruta": "_sesiones_anteriores/leydy_pech_perfil.json",
+      "tamaño_kb": 6.71,
+      "contiene": "Perfil completo Leydy Pech — insumos COMPLETOS para entrada D3",
+      "estado": "REFERENCIADO en av_bloques.json v2.0. Leer directamente para redactar D3."
+    },
+
+    "menonitas_hopelchen.json": {
+      "ruta": "_sesiones_anteriores/menonitas_hopelchen.json",
+      "tamaño_kb": 6.39,
+      "contiene": "Historia completa menonitas en Hopelchén — colonias, deforestación 2001-2025, datos económicos, cronología. Leer para D2 y H2.",
+      "estado": "REFERENCIADO en av_bloques.json v2.0"
+    },
+
+    "legisladores_hopelchen_1861-2003.json": {
+      "ruta": "_sesiones_anteriores/legisladores_hopelchen_1861-2003.json",
+      "tamaño_kb": 15.70,
+      "contiene": "42 legislaturas documentadas desde 1861. Esencial para entrada C1 (línea del tiempo apellidos del poder).",
+      "estado": "REFERENCIADO en av_bloques.json v2.0"
+    },
+
+    "entradas_sin_insumos_2026-03-23.json": {
+      "ruta": "_sesiones_anteriores/entradas_sin_insumos_2026-03-23.json",
+      "tamaño_kb": 16.34,
+      "contiene": "C6, C7, D5, H1 COMPLETOS. B-Serapio, B-Oswaldo COMPLETOS. YA INTEGRADO en av_bloques.json v2.0.",
+      "estado": "INTEGRADO 2026-03-30"
+    },
+
+    "expansion_libro_web_2026-03-22.json": {
+      "ruta": "_sesiones_anteriores/expansion_libro_web_2026-03-22.json",
+      "tamaño_kb": 34.86,
+      "contiene": "5 personajes, 22 eventos (E062-E083), 8 lugares, 12 términos mayas. Datos adicionales del libro caps I-XII.",
+      "cuando_consultar": "Para completar árbol genealógico o buscar eventos del siglo XIX-XX no encontrados en av_nucleo.json"
+    },
+
+    "hallazgos_pdfs_sesion_masiva_v3.json": {
+      "ruta": "_sesiones_anteriores/hallazgos_pdfs_sesion_masiva_v3.json",
+      "tamaño_kb": 20.78,
+      "contiene": "Datos de PDFs procesados en sesión masiva. Los siete de Bolonchenticul (AGEY caja 169, vol.119, exp.24), José Chan siervo deudor, mayas con apellidos falsos.",
+      "cuando_consultar": "Para entradas B12, A7, B-GuerraCastas"
+    },
+
+    "pdf_hallazgos_compilados.json": {
+      "ruta": "_sesiones_anteriores/pdf_hallazgos_compilados.json",
+      "tamaño_kb": 27.61,
+      "contiene": "Compilación hallazgos múltiples PDFs. Datos Serapio Baqueiro, Kosichenko, artículos académicos.",
+      "cuando_consultar": "Para entradas B-Serapio, B12, A5-A6"
+    },
+
+    "pdf_procesados_sesion2_2026-03-23.json": {
+      "ruta": "_sesiones_anteriores/pdf_procesados_sesion2_2026-03-23.json",
+      "tamaño_kb": 22.25,
+      "cuando_consultar": "Verificación de datos históricos"
+    },
+
+    "pdf_procesados_sesion3_2026-03-22.json": {
+      "ruta": "_sesiones_anteriores/pdf_procesados_sesion3_2026-03-22.json",
+      "tamaño_kb": 13.25,
+      "cuando_consultar": "Verificación de datos históricos"
+    },
+
+    "av_md_sync_2026-03-23.json": {
+      "ruta": "_sesiones_anteriores/av_md_sync_2026-03-23.json",
+      "tamaño_kb": 12.23,
+      "contiene": "Sincronización datos MD a database. Fuentes pendientes FP001-FP010.",
+      "cuando_consultar": "Para ver estado de fuentes pendientes de localizar"
+    },
+
+    "nuevos_hallazgos_web_2026-03-22.json": {
+      "ruta": "_sesiones_anteriores/nuevos_hallazgos_web_2026-03-22.json",
+      "tamaño_kb": 11.42,
+      "cuando_consultar": "Verificación general de datos web sesión 2022-03-22"
+    },
+
+    "fuentes.json": {
+      "ruta": "_sesiones_anteriores/fuentes.json",
+      "tamaño_kb": 23.78,
+      "contiene": "53 fuentes F001-F053 con metadata. Versión anterior de av_fuentes.json activo.",
+      "cuando_consultar": "Solo si av_fuentes.json activo no tiene la fuente buscada"
+    },
+
+    "eventos.json": {
+      "ruta": "_sesiones_anteriores/eventos.json",
+      "tamaño_kb": 66.55,
+      "contiene": "61 eventos E001-E061. Versión anterior de av_cronologia.json activo.",
+      "cuando_consultar": "Para verificar cronología"
+    },
+
+    "av_riesgos_OBSOLETO.json": {
+      "ruta": "_sesiones_anteriores/av_riesgos_OBSOLETO.json",
+      "estado": "OBSOLETO — no usar",
+      "nota": "Archivo de riesgos editoriales superado por av_bloques.json v2.0"
+    },
+
+    "web_raw.json": {
+      "ruta": "_sesiones_anteriores/web_raw.json",
+      "tamaño_kb": 556.57,
+      "contiene": "Datos web brutos sin procesar de múltiples búsquedas",
+      "cuando_consultar": "ÚLTIMO RECURSO — solo si no se encuentra el dato en archivos procesados"
+    }
+  },
+
+  "datos_criticos_no_en_activos_ACTUALIZADO_2026-03-30": {
+    "ya_integrado_sesion_hoy": [
+      "P031-P041 → av_nucleo_extension.json",
+      "E053-E063 → av_nucleo_extension.json",
+      "L019-L028 → av_conocimiento_extension.json",
+      "Vocabulario maya resuelto (CAAMAL, MAY, POOT, EK, DZUL, ITURBIDE) → av_conocimiento_extension.json",
+      "Insumos C6, C7, C8, C8-BIS, C9, D5, D6, H1, H2, F-RojoAmanecer, G-Hiram, G-SucTuc → av_bloques.json v2.0"
+    ],
+    "aun_solo_en_sesiones_no_integrado": [
+      "base_historica_hopelchen.json: P001-P030 en esquema diferente — consultar directamente",
+      "legisladores_hopelchen_1861-2003.json: tabla completa 42 legislaturas — consultar para C1",
+      "leydy_pech_perfil.json: perfil completo D3 — consultar para redactar D3",
+      "menonitas_hopelchen.json: investigación completa D2/H2 — consultar para redactar D2"
+    ]
+  },
+
+  "vacios_reales_que_requieren_accion": {
+    "necesitan_investigacion_web": [
+      "4 cifras INEGI Censo 2020 para Hopelchén (municipio 006): analfabetismo %, grado promedio escolaridad, % hablan maya, % se identifican indígenas — buscar en INEGI tabulados interactivos"
+    ],
+    "necesitan_archivo_fisico": [
+      "C-nuevo: Mario y Otto Lara, primer autobús 1939 — AHEC o fondos familiares",
+      "E8: Corrido de Jacinto sobre El Charras — archivos musicales Mérida / UADY",
+      "A7: Nombres propios completos de los siete de Bolonchenticul — AGEY caja 169, vol.119, exp.24"
+    ],
+    "necesitan_decision_editorial_de_dan": [
+      "E1-E6: estructura educación en el blog — títulos no asignados",
+      "F1-F4: estructura prensa en el blog — títulos no asignados",
+      "G1-G4: estructura actualidad en el blog — títulos no asignados (datos existen en G-Hiram y G-SucTuc)"
+    ],
+    "listos_para_redactar_ahora_mismo": [
+      "B-Serapio — insumos completos",
+      "B-SuarezCaamal — insumos completos",
+      "B-Oswaldo — insumos completos",
+      "E-ChanCil — insumos completos",
+      "D3 — Leydy Pech — insumos completos (leydy_pech_perfil.json)",
+      "D2 — Menonitas — insumos completos (menonitas_hopelchen.json)",
+      "C6 — El voto — insumos completos",
+      "C7 — Zoológico de partidos — insumos completos",
+      "C8 — Posrevolución — insumos completos",
+      "H1 — Libaneses — insumos completos",
+      "F-RojoAmanecer — insumos completos"
+    ]
+  }
+}

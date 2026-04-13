@@ -1,0 +1,51 @@
+{
+  "coleccion": "Fuentes Históricas",
+  "descripcion": "Registro de fuentes bibliográficas y documentales para la investigación histórica",
+  "version": "1.0",
+  "fuentes": [
+    {
+      "id": 1,
+      "titulo": "Historia Verdadera de la Conquista de la Nueva España",
+      "autor": "Bernal Díaz del Castillo",
+      "año": 1568,
+      "tipo": "Crónica",
+      "idioma": "Español",
+      "descripcion": "Relato de primera mano de la conquista de México escrito por uno de los soldados participantes. Es considerada una de las crónicas más importantes de la conquista americana.",
+      "temas": ["Conquista", "México prehispánico", "Hernán Cortés", "Aztecas"],
+      "disponibilidad": "Dominio público"
+    },
+    {
+      "id": 2,
+      "titulo": "Cartas de Relación",
+      "autor": "Hernán Cortés",
+      "año": 1519,
+      "tipo": "Documento oficial",
+      "idioma": "Español",
+      "descripcion": "Cartas enviadas por Hernán Cortés al rey Carlos I de España relatando el avance de la conquista de México.",
+      "temas": ["Conquista", "México prehispánico", "Política colonial"],
+      "disponibilidad": "Dominio público"
+    },
+    {
+      "id": 3,
+      "titulo": "El Laberinto de la Soledad",
+      "autor": "Octavio Paz",
+      "año": 1950,
+      "tipo": "Ensayo",
+      "idioma": "Español",
+      "descripcion": "Ensayo filosófico que examina la identidad y psicología del pueblo mexicano a través de su historia y cultura.",
+      "temas": ["Identidad nacional", "Cultura mexicana", "Historia de México"],
+      "disponibilidad": "Con derechos de autor"
+    },
+    {
+      "id": 4,
+      "titulo": "Respuesta a Sor Filotea de la Cruz",
+      "autor": "Sor Juana Inés de la Cruz",
+      "año": 1691,
+      "tipo": "Carta literaria",
+      "idioma": "Español",
+      "descripcion": "Carta en la que Sor Juana defiende el derecho de las mujeres a la educación y el conocimiento, considerada uno de los primeros textos feministas de América.",
+      "temas": ["Feminismo", "Educación", "Época Colonial", "Literatura"],
+      "disponibilidad": "Dominio público"
+    }
+  ]
+}

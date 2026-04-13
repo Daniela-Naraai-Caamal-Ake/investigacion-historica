@@ -1,0 +1,140 @@
+{
+  "META": {
+    "titulo": "Menonitas en Hopelchén — Base de Datos Documental",
+    "fecha_creacion": "2026-03-22",
+    "agente": "Claude — Agente Autónomo de Investigación Histórica",
+    "fuentes": [
+      "Semarnat — comunicado agosto 2021",
+      "PorEsto — reportajes 2019, 2021, 2023",
+      "Animal Político — soya deforestación 2022",
+      "La Jornada Maya — 2021",
+      "Página 66 — 2023",
+      "Capítulo VI del libro Dos Mil Años en Silencio (HTML fuente)",
+      "Global Forest Watch — datos satelitales"
+    ]
+  },
+
+  "historia": {
+    "llegada": {
+      "año": "1987",
+      "fuente": "PorEsto, marzo 2019",
+      "descripcion": "Primer grupo de menonitas llega a Hopelchén, procedentes de los estados de Zacatecas y Durango. Se establecen en terrenos poco propicios para la agricultura, que habilitaron paulatinamente.",
+      "colonia_fundada": "Nuevo Progreso",
+      "procedencia_estados_origen": ["Chihuahua", "Durango", "Tamaulipas", "Zacatecas"]
+    },
+    "expansion_cronologia": [
+      {
+        "periodo": "1987-2000",
+        "descripcion": "Establecimiento inicial en Nuevo Progreso. Transformación de zonas inundables en áreas productivas."
+      },
+      {
+        "año": 2004,
+        "descripcion": "Inicio documentado de siembra de soya en Hopelchén — 196 hectáreas."
+      },
+      {
+        "año": 2005,
+        "descripcion": "Soya se dispara: 2,315 hectáreas. Según Dr. Edward Allan Ellis (UV), es el punto de inflexión de la deforestación.",
+        "fuente": "Animal Político / Universidad Veracruzana"
+      },
+      {
+        "periodo": "Post-2000",
+        "descripcion": "Fundación de nuevas colonias: Temporal, Nuevo Durango, Las Flores, Trinidad, Santa Rosa, Nueva Esperanza, Santa Fe, Chavi, Yalnón, Valle Nuevo."
+      },
+      {
+        "año": 2021,
+        "descripcion": "Población menonita supera los 10,000 integrantes en Campeche. Unos 8,000 concentrados en Hopelchén.",
+        "fuente": "PorEsto, Página 66"
+      }
+    ]
+  },
+
+  "colonias_menonitas_hopelchen": [
+    "Nuevo Progreso",
+    "Santa Fe",
+    "Santa Rosa",
+    "Chavi",
+    "Trinidad",
+    "Nuevo Durango",
+    "Yalnón",
+    "Temporal",
+    "Valle Nuevo",
+    "Las Flores",
+    "Nueva Esperanza"
+  ],
+
+  "gobernador_comunidad": {
+    "nombre": "Pedro Woelke Wiebe",
+    "cargo": "Gobernador de Nuevo Progreso",
+    "contexto": "Participó en acuerdo histórico con Semarnat en agosto 2021"
+  },
+
+  "impacto_ambiental": {
+    "deforestacion": {
+      "total_20_anos": "153,809 hectáreas de cobertura arbórea perdidas en 20 años en Hopelchén",
+      "fuente": "Animal Político / Global Forest Watch",
+      "hopelchen_municipio": "Municipio más afectado de Campeche: 26,900 ha perdidas (2010-2020)",
+      "campeche_estado_nacional": "Campeche ocupa primer lugar nacional en pérdida de cobertura arbórea: 80,900 ha",
+      "periodo_2010_2020": "80,400 hectáreas totales de selva perdidas en Campeche",
+      "profepa_procedimientos": {
+        "total": 69,
+        "periodo": "2015-2022",
+        "descripcion": "69 procedimientos administrativos por cambio ilegal de uso de suelo forestal. Hopelchén fue el municipio con más procedimientos de todo Campeche.",
+        "fuente": "Animal Político / Solicitudes de información"
+      }
+    },
+    "modelo_productivo": {
+      "cultivos": ["Maíz transgénico", "Soya transgénica", "Sorgo", "Sandía", "Chile", "Tomate"],
+      "tecnologia": "Agricultura intensiva mecanizada",
+      "agroquimicos": ["Glifosato", "Fipronil — prohibido"],
+      "produccion_carbon": "Sistemas de producción de carbón — fuente adicional de deforestación",
+      "fuente_oficial": "Semarnat, comunicado agosto 2021"
+    },
+    "impacto_apicultura": {
+      "muerte_colmenas_2023": "2,600 colmenas devastadas en 75 apiarios — marzo 2023",
+      "muerte_colmenas_2024": "800 colmenas en San Francisco Suc-Tuc y Crucero de Oxá — enero 2024",
+      "causa": "Agrotóxicos: glifosato y fipronil",
+      "fuente": "Libro Dos Mil Años en Silencio cap. VI; N+ febrero 2024",
+      "contexto": "Hopelchén es el primer productor de miel de Campeche. Su feria se llama La Feria de la Miel y el Maíz."
+    },
+    "tenencia_tierras": {
+      "arrendamiento_precio": "1,500-2,000 pesos por hectárea por ciclo agrícola (2017-2022)",
+      "compra_venta_irregular": "Denuncias por 20+ años según CCMSS. Caso paradigmático: Xmabén (36,000 ha — venta de 5,656 ha a menonitas en 1999)",
+      "ejido_xmaben": "Xmabén — ejido con 36,000 ha, de las cuales 5,656 pasaron a manos menonitas en 1999",
+      "fuente": "PorEsto, Gabriela Torres Mazuera 2020"
+    }
+  },
+
+  "acuerdo_historico_2021": {
+    "fecha": "12 agosto 2021",
+    "lugar": "Mesa interinstitucional Semarnat",
+    "colonias_firmantes": ["Santa Fe", "Santa Rosa", "Chavi", "Nuevo Progreso", "Trinidad", "Nuevo Durango", "Yalnón", "Temporal", "Valle Nuevo"],
+    "compromisos_menonitas": [
+      "Detener todas las actividades que impliquen deforestación de la selva maya",
+      "Participar con los tres niveles de gobierno en el ordenamiento ecológico",
+      "Mesa de trabajo permanente en producción, trámites, tenencia de tierra y denuncias"
+    ],
+    "resultado_posterior": "Incumplimiento documentado. En 2023 continuaron incendios y desmontes. Profepa reportó 19 atenciones en solo 6 meses de 2023 (vs. 4 en igual período de 2022).",
+    "fuente": "Proceso, agosto 2021; Página 66, junio 2023"
+  },
+
+  "conexion_libro_archivo_vivo": {
+    "capitulo": "VI — El yeso, las abejas y los menonitas: la extracción sin fin (siglo XXI)",
+    "entrada_blog_relacionada": "D — Territorio",
+    "hilo_transversal": "La extracción sin fin: yeso + chicle + menonitas = el mismo patrón colonial con nuevos actores",
+    "vinculo_leydy_pech": "Leydy Pech de Ich Ek, Hopelchén, enfrentó a Monsanto por la soya transgénica menonita. Premio Goldman 2020."
+  },
+
+  "investigacion_academica": {
+    "torres_mazuera": {
+      "titulo": "Expansión agroindustrial y tratos agrarios en una región biodiversa de la Península de Yucatán",
+      "año": 2020,
+      "autora": "Gabriela Torres Mazuera",
+      "tema": "Arrendamiento de tierras ejidales a menonitas en Los Chenes"
+    },
+    "ellis": {
+      "nombre": "Dr. Edward Allan Ellis",
+      "institucion": "Centro de Investigaciones Tropicales, Universidad Veracruzana",
+      "hallazgo": "2005 fue el punto de inflexión de la deforestación en Campeche, correlacionado con expansión soyera"
+    }
+  }
+}

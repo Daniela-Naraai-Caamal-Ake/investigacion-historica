@@ -1,0 +1,1641 @@
+{
+  "META": {
+    "titulo": "Línea del Tiempo — Hopelchén, Campeche, México",
+    "proyecto": "ARCHIVO VIVO",
+    "autora": "Daniela Naraai (Daniela Caamal)",
+    "fecha_creacion": "2026-03-22",
+    "version": "2.1",
+    "total_eventos": 61,
+    "fuentes_consultadas": [
+      "ARCHIVO_VIVO_MAESTRO_FINAL.json",
+      "archivo_vivo_completo_2026-03-22.json",
+      "hopelchen_cronologia_integrada.json",
+      "personajes_eventos_expansion_v2.json",
+      "hallazgos_pdfs_sesion_masiva_v3.json",
+      "legisladores_hopelchen_1861-2003.json",
+      "menonitas_hopelchen.json",
+      "CONTEXTO_PARA_NUEVO_CHAT.md",
+      "deep-research-report.md"
+    ],
+    "tipos": {
+      "arqueologico": "Eventos prehispánicos y de exploración arqueológica",
+      "colonial": "Conquista, congregación y dominio español",
+      "guerra": "Conflictos armados y rebeliones",
+      "politica": "Poder político local, estatal y nacional",
+      "cultura": "Literatura, arte, identidad",
+      "musica": "Historia musical de la región",
+      "ecologia": "Territorio, recursos naturales, medio ambiente",
+      "disidencia": "Resistencia y denuncia contra el poder",
+      "legislativo": "Legislaturas del Congreso de Campeche",
+      "contemporaneo": "Hechos recientes (2000-2026)"
+    },
+    "fecha_actualizacion": "2026-03-22",
+    "nota_actualizacion": "Actualización PASO 4: añadidos campos categoria_temporal y grado_confianza a todos los eventos. Añadidos 5 nuevos eventos (E053-E057) descubiertos en web_raw.json. Enriquecidas descripciones de E009, E013.",
+    "nota_actualizacion_v2": "PASO 6: añadidos eventos E058-E061 de searches adicionales. Enriquecidos E003, E023."
+  },
+  "eventos": [
+    {
+      "id": "E001",
+      "fecha": "-0500",
+      "fecha_display": "500 a.C. aprox.",
+      "periodo": "Preclásico Maya",
+      "titulo": "Primeros asentamientos en Los Chenes",
+      "descripcion": "Primeras evidencias de ocupación humana en la región de Los Chenes. La región es definida geográficamente por la presencia de pozos naturales en la roca caliza — de ahí el nombre: 'chen' (pozo en maya yucateco).",
+      "tipo": [
+        "arqueologico"
+      ],
+      "personajes": [],
+      "lugar": "Región Los Chenes, Campeche",
+      "fuentes": [
+        "INAFED — Enciclopedia de Municipios",
+        "Guía Turística México"
+      ],
+      "entrada_blog": "A1",
+      "hilos": [
+        "HILO 5"
+      ],
+      "categoria_temporal": "prehispanico",
+      "grado_confianza": 0.62
+    },
+    {
+      "id": "E002",
+      "fecha": "-0300",
+      "fecha_display": "300 a.C. aprox.",
+      "periodo": "Preclásico Maya",
+      "titulo": "Primeros pobladores de Dzibilnocac",
+      "descripcion": "Primeras evidencias de ocupación humana en Dzibilnocac ('bóveda pintada'). El sitio crecería hasta convertirse en un centro urbano complejo con patios, plazas y edificios públicos.",
+      "tipo": [
+        "arqueologico"
+      ],
+      "personajes": [],
+      "lugar": "Iturbide, municipio de Hopelchén",
+      "fuentes": [
+        "INAH — ficha oficial Dzibilnocac"
+      ],
+      "entrada_blog": "A3",
+      "hilos": [],
+      "categoria_temporal": "prehispanico",
+      "grado_confianza": 0.92
+    },
+    {
+      "id": "E003",
+      "fecha": "0300",
+      "fecha_display": "300 d.C. aprox.",
+      "periodo": "Clásico Temprano",
+      "titulo": "Fundación de Hochob",
+      "descripcion": "Primeros pobladores de Hochob se asientan sobre una colina de 30 metros. Construyen el sistema de aljibes subterráneos (chultunes) para captar agua de lluvia. La ciudad se distinguirá por su arquitectura Chenes con el mascarón del dios Itzamná como puerta de entrada. Según el INAH y Wikipedia, el apogeo de Hochob fue 850-1000 d.C. Coordenadas: 19°24'32\"N 89°46'14\"O. Acceso actual: desde Chenkó, municipio Hopelchén. Horario: lunes a domingo 08:00-17:00 h. La zona arqueológica tiene 5 estructuras abiertas al público con el característico mascarón de Itzamná.",
+      "tipo": [
+        "arqueologico"
+      ],
+      "personajes": [],
+      "lugar": "Hochob, 40 km de Hopelchén",
+      "fuentes": [
+        "INAH — ficha oficial Hochob",
+        "F043 — INAH Lugares Hochob",
+        "F045 — Wikipedia Hochob"
+      ],
+      "entrada_blog": "A2",
+      "hilos": [],
+      "categoria_temporal": "prehispanico",
+      "grado_confianza": 0.92
+    },
+    {
+      "id": "E004",
+      "fecha": "0600",
+      "fecha_display": "600–900 d.C.",
+      "periodo": "Clásico Tardío",
+      "titulo": "Apogeo de Santa Rosa Xtampak como capital regional",
+      "descripcion": "Santa Rosa Xtampak alcanza su mayor esplendor como capital política de la región de Los Chenes durante 850 años. Comparable a Uxmal, Jaina y Edzná. Recibía comercio de obsidiana de Guatemala, jadeíta y sal — nodo de intercambio continental. El nombre maya de la ciudad quedaría enterrado bajo el nombre de una hacienda porfiriana en el siglo XIX.",
+      "tipo": [
+        "arqueologico"
+      ],
+      "personajes": [],
+      "lugar": "Santa Rosa Xtampak, municipio de Hopelchén",
+      "fuentes": [
+        "INAH",
+        "Hola Tulum"
+      ],
+      "entrada_blog": "A3",
+      "hilos": [
+        "HILO 2"
+      ],
+      "categoria_temporal": "prehispanico",
+      "grado_confianza": 0.92
+    },
+    {
+      "id": "E005",
+      "fecha": "0600",
+      "fecha_display": "600–900 d.C.",
+      "periodo": "Clásico Tardío",
+      "titulo": "Apogeo arquitectónico de Hochob y Dzibilnocac",
+      "descripcion": "Hochob y Dzibilnocac alcanzan su máximo desarrollo. Las fachadas de Hochob cubiertas de mascarones de Itzamná con la puerta de entrada como boca del dios. Dzibilnocac produce el Edificio A-1 con torres y escaleras. La arquitectura Chenes expresa una teología construida en piedra caliza.",
+      "tipo": [
+        "arqueologico"
+      ],
+      "personajes": [],
+      "lugar": "Hochob y Dzibilnocac, municipio de Hopelchén",
+      "fuentes": [
+        "INAH",
+        "Wikipedia",
+        "Hola Tulum"
+      ],
+      "entrada_blog": "A2",
+      "hilos": [],
+      "categoria_temporal": "prehispanico",
+      "grado_confianza": 0.92
+    },
+    {
+      "id": "E006",
+      "fecha": "0731",
+      "fecha_display": "731 d.C.",
+      "periodo": "Clásico Tardío",
+      "titulo": "Primera estela de Dzibilnocac",
+      "descripcion": "Los gobernantes de Dzibilnocac mandan labrar una estela en piedra caliza para dejar constancia de su posición y logros. El nombre del gobernante queda tallado para siempre en Iturbide, comunidad del municipio de Hopelchén.",
+      "tipo": [
+        "arqueologico"
+      ],
+      "personajes": [],
+      "lugar": "Dzibilnocac, Iturbide, Hopelchén",
+      "fuentes": [
+        "Wikipedia — Dzibilnocac"
+      ],
+      "entrada_blog": "A3",
+      "hilos": [],
+      "categoria_temporal": "prehispanico",
+      "grado_confianza": 0.62
+    },
+    {
+      "id": "E007",
+      "fecha": "0764",
+      "fecha_display": "764 d.C.",
+      "periodo": "Clásico Tardío",
+      "titulo": "Segunda estela de Dzibilnocac",
+      "descripcion": "Segunda estela labrada por gobernantes de Dzibilnocac. Junto con la de 731, son los únicos documentos escritos que nombran a los señores de Dzibilnocac antes del colapso maya.",
+      "tipo": [
+        "arqueologico"
+      ],
+      "personajes": [],
+      "lugar": "Dzibilnocac, Iturbide, Hopelchén",
+      "fuentes": [
+        "Wikipedia — Dzibilnocac"
+      ],
+      "entrada_blog": "A3",
+      "hilos": [],
+      "categoria_temporal": "prehispanico",
+      "grado_confianza": 0.62
+    },
+    {
+      "id": "E008",
+      "fecha": "1517",
+      "fecha_display": "1517",
+      "periodo": "Conquista",
+      "titulo": "Inicio de la conquista española en la Península de Yucatán",
+      "descripcion": "La conquista española llega a la Península. Los Chenes, región profunda de la selva, mantiene poblaciones mayas que resistirán décadas. El período marca el inicio de la destrucción sistemática del conocimiento y los registros mayas.",
+      "tipo": [
+        "colonial",
+        "guerra"
+      ],
+      "personajes": [],
+      "lugar": "Península de Yucatán",
+      "fuentes": [
+        "Libro Dos Mil Años en Silencio — Capítulo II"
+      ],
+      "entrada_blog": null,
+      "hilos": [],
+      "categoria_temporal": "prehispanico",
+      "grado_confianza": 0.75
+    },
+    {
+      "id": "E009",
+      "fecha": "1621",
+      "fecha_display": "1621",
+      "periodo": "Colonial",
+      "titulo": "Fundación colonial de Hopelchén como pueblo de congregación",
+      "descripcion": "Los españoles fundan Hopelchén como pueblo de congregación para agrupar y evangelizar a los mayas dispersos en la selva. Los Bataboob (autoridad política maya prehispánica) seguirán resistiendo 48 años más hasta 1669. Para 1630 la congregación contaba con alrededor de 20,000 indígenas. En 1622, al pasar por el lugar un grupo español que intentaba conquistar a los itzaes, refugiados en la laguna de Petén Itzá, Guatemala, se dieron a conocer las primeras noticias formales de lo que es hoy la ciudad de Hopelchén (fuente: Telepaisa, INDEFOS).",
+      "tipo": [
+        "colonial"
+      ],
+      "personajes": [],
+      "lugar": "Hopelchén, Campeche",
+      "fuentes": [
+        "INAFED",
+        "F001 — INDEFOS",
+        "F009 — Telepaisa"
+      ],
+      "entrada_blog": "A1",
+      "hilos": [
+        "HILO 9"
+      ],
+      "categoria_temporal": "colonial",
+      "grado_confianza": 0.75
+    },
+    {
+      "id": "E010",
+      "fecha": "1669",
+      "fecha_display": "1669",
+      "periodo": "Colonial",
+      "titulo": "Los Bataboob aún resisten 48 años después de la congregación española",
+      "descripcion": "Los Bataboob — autoridad política maya prehispánica en Hopelchén — continúan resistiendo en 1669, casi 50 años después de que los españoles los obligaron a congregarse en 1621. Dato que confirma la profundidad de la resistencia maya en Los Chenes.",
+      "tipo": [
+        "colonial",
+        "guerra"
+      ],
+      "personajes": [],
+      "lugar": "Hopelchén, Los Chenes",
+      "fuentes": [
+        "ARCHIVO_VIVO_MAESTRO_FINAL.json — HILO 9"
+      ],
+      "entrada_blog": null,
+      "hilos": [
+        "HILO 9"
+      ],
+      "categoria_temporal": "colonial",
+      "grado_confianza": 0.78
+    },
+    {
+      "id": "E011",
+      "fecha": "1841",
+      "fecha_display": "1841–1843",
+      "periodo": "Siglo XIX",
+      "titulo": "Stephens y Catherwood publican Incidents of Travel in Yucatan",
+      "descripcion": "John Lloyd Stephens y Frederick Catherwood publican su exploración de las ruinas mayas de Yucatán. 12,000 copias vendidas en menos de 4 meses en 1841. Sus ilustraciones de Dzibilnocac y otros sitios de Los Chenes circulan por museos de Europa y llegan a los ojos del joven Teobert Maler. Justo Sierra O'Reilly traduce el libro al español en 1848.",
+      "tipo": [
+        "arqueologico",
+        "cultura"
+      ],
+      "personajes": [
+        "John Lloyd Stephens",
+        "Frederick Catherwood"
+      ],
+      "lugar": "Yucatán, México / publicado en Estados Unidos",
+      "fuentes": [
+        "Asociación Tikal",
+        "Arqueología Mexicana"
+      ],
+      "entrada_blog": "A4",
+      "hilos": [],
+      "categoria_temporal": "siglo_xix",
+      "grado_confianza": 0.88
+    },
+    {
+      "id": "E012",
+      "fecha": "1842",
+      "fecha_display": "1842",
+      "periodo": "Siglo XIX",
+      "titulo": "Descubrimiento 'oficial' de Dzibilnocac por Stephens y Catherwood",
+      "descripcion": "John L. Stephens y Frederick Catherwood visitan Dzibilnocac durante su viaje a Yucatán, convirtiéndose en los primeros exploradores occidentales en registrar el sitio. El mismo año, Teobert Maler aún no ha nacido (nació ~1842).",
+      "tipo": [
+        "arqueologico"
+      ],
+      "personajes": [
+        "John Lloyd Stephens",
+        "Frederick Catherwood"
+      ],
+      "lugar": "Dzibilnocac, Hopelchén",
+      "fuentes": [
+        "INAH — ficha Dzibilnocac"
+      ],
+      "entrada_blog": "A3",
+      "hilos": [],
+      "categoria_temporal": "siglo_xix",
+      "grado_confianza": 0.92
+    },
+    {
+      "id": "E013",
+      "fecha": "1848",
+      "fecha_display": "1848",
+      "periodo": "Siglo XIX",
+      "titulo": "Guerra de Castas — Los Chenes como zona de tránsito y captura",
+      "descripcion": "Estalla la Guerra de Castas en la Península de Yucatán. Los Chenes se convierte en zona de tránsito de la violencia y de captura de mayas para su venta a Cuba. El apellido Caamal (del comandante maya Juan de Dios May / Francisco Caamal) quedará vivo en Dzibalchén hasta el siglo XXI — Schüren lo documenta en 1993-1998. Antes de la guerra, el distrito de Hopelchén tenía más de 25,000 habitantes. La guerra destruyó el emporio agrícola regional: de 27 ranchos azucareros y 92 haciendas, al final solo quedó el 60%. Los líderes mayas participantes en Los Chenes incluyen a Francisco Caamal, Florentino Poot, Anselmo Hau y Crescencio Poot. En mayo de 1848, Juan de Dios May atacó Hopelchén. Bolonchenticul fue atacado en dos ocasiones (fuente: Telepaisa, Wix-José A. Miss H.).",
+      "tipo": [
+        "guerra"
+      ],
+      "personajes": [
+        "Juan de Dios May",
+        "Francisco Caamal"
+      ],
+      "lugar": "Los Chenes, Hopelchén, Campeche",
+      "fuentes": [
+        "La guerra de Castas en Península — fuente PDF",
+        "Schüren tesis FU Berlín (17_biblio.pdf)",
+        "F009 — Telepaisa",
+        "F003 — Wix Miss H."
+      ],
+      "entrada_blog": "A5",
+      "hilos": [
+        "HILO 6",
+        "HILO 9"
+      ],
+      "categoria_temporal": "siglo_xix",
+      "grado_confianza": 0.88
+    },
+    {
+      "id": "E014",
+      "fecha": "1855",
+      "fecha_display": "1855 aprox.",
+      "periodo": "Siglo XIX",
+      "titulo": "Fernando Ek vendido a Cuba — cambia su apellido maya a 'Estrella'",
+      "descripcion": "Según la novela de Pantaleón Barrera (1864), el personaje Fernando Ek es vendido a Cuba durante el tráfico de mayas de la Guerra de Castas. En Cuba, 'Ek' tiene una connotación vergonzosa y cambia su apellido a 'Fernando Estrella'. Documento de 1864 que confirma el patrón histórico de los mayas borrando sus apellidos para sobrevivir en el sistema criollo.",
+      "tipo": [
+        "guerra",
+        "cultura"
+      ],
+      "personajes": [
+        "Fernando Ek / Fernando Estrella",
+        "Pantaleón Barrera Cámara"
+      ],
+      "lugar": "Los Chenes / Cuba",
+      "fuentes": [
+        "Los misterios de Chan Santa Cruz (Barrera, 1864) — novela.txt, p. 95"
+      ],
+      "entrada_blog": "B1-BIS",
+      "hilos": [
+        "HILO 6"
+      ],
+      "categoria_temporal": "siglo_xix",
+      "grado_confianza": 0.75
+    },
+    {
+      "id": "E015",
+      "fecha": "1861-03",
+      "fecha_display": "1861",
+      "periodo": "Siglo XIX",
+      "titulo": "Congreso Constituyente de Campeche — Barrera y Baqueiro Lara desde el primer día",
+      "descripcion": "En el Congreso Constituyente del Estado de Campeche (1861), el distrito de Bolonchenticul (hoy Hopelchén) tiene como diputado propietario a Manuel Barrera y como suplente a Romualdo Baqueiro Lara. Los dos linajes centrales del proyecto (Baqueiro y Lara) unidos con el apellido Barrera como propietario desde el primer día del Estado de Campeche.",
+      "tipo": [
+        "legislativo",
+        "politica"
+      ],
+      "personajes": [
+        "Manuel Barrera",
+        "Romualdo Baqueiro Lara"
+      ],
+      "lugar": "Bolonchenticul (hoy Hopelchén), Campeche",
+      "fuentes": [
+        "Digesto Constitucional Mexicano — Campeche, SCJN 2010, p. 29"
+      ],
+      "entrada_blog": "B9",
+      "hilos": [
+        "HILO 3"
+      ],
+      "categoria_temporal": "siglo_xix",
+      "grado_confianza": 0.92
+    },
+    {
+      "id": "E016",
+      "fecha": "1861",
+      "fecha_display": "1861",
+      "periodo": "Siglo XIX",
+      "titulo": "1,046 yucatecos en el censo de Cuba",
+      "descripcion": "El censo de Cuba de 1861 registra 1,046 yucatecos en la isla. Dato que cuantifica el tráfico de mayas de la Península durante la Guerra de Castas, muchos de ellos provenientes de Los Chenes.",
+      "tipo": [
+        "guerra"
+      ],
+      "personajes": [],
+      "lugar": "Cuba / Yucatán",
+      "fuentes": [
+        "ARCHIVO_VIVO_MAESTRO_FINAL.json — HILO 6"
+      ],
+      "entrada_blog": "A5",
+      "hilos": [
+        "HILO 6"
+      ],
+      "categoria_temporal": "siglo_xix",
+      "grado_confianza": 0.78
+    },
+    {
+      "id": "E017",
+      "fecha": "1862",
+      "fecha_display": "I Legislatura, 1862",
+      "periodo": "Siglo XIX",
+      "titulo": "Pedro Lara, primer diputado del apellido Lara en Bolonchenticul",
+      "descripcion": "En la I Legislatura del Congreso de Campeche (1862), Pedro Lara figura como diputado propietario por Bolonchenticul. El apellido Lara entra al poder legislativo en el primer año de funcionamiento del Congreso del Estado.",
+      "tipo": [
+        "legislativo",
+        "politica"
+      ],
+      "personajes": [
+        "Pedro Lara"
+      ],
+      "lugar": "Bolonchenticul (hoy Hopelchén), Campeche",
+      "fuentes": [
+        "Digesto Constitucional Mexicano — Campeche, SCJN 2010"
+      ],
+      "entrada_blog": "B9",
+      "hilos": [
+        "HILO 3"
+      ],
+      "categoria_temporal": "siglo_xix",
+      "grado_confianza": 0.92
+    },
+    {
+      "id": "E018",
+      "fecha": "1864",
+      "fecha_display": "1864",
+      "periodo": "Siglo XIX",
+      "titulo": "Pantaleón Barrera publica Los misterios de Chan Santa Cruz",
+      "descripcion": "Pantaleón Barrera Cámara — hacendado y político de Los Chenes — publica la primera novela de Campeche: 'Los misterios de Chan Santa Cruz' (Imprenta de M. Aldana Rivas, Mérida, 157 páginas). La novela está disponible en HathiTrust. En ella, el asesino-agresor escribe sobre la rebelión que él mismo perpetuó. Paradoja central: Barrera y Fernando Ek hicieron lo mismo — borraron su apellido. Uno para esconder lo que hizo, el otro para sobrevivir lo que le hicieron.",
+      "tipo": [
+        "cultura",
+        "politica"
+      ],
+      "personajes": [
+        "Pantaleón Barrera Cámara"
+      ],
+      "lugar": "Mérida, Yucatán / Los Chenes",
+      "fuentes": [
+        "HathiTrust Digital Library — wu.89095721726",
+        "ARCHIVO_VIVO_MAESTRO_FINAL.json"
+      ],
+      "entrada_blog": "B1-BIS",
+      "hilos": [
+        "HILO 6"
+      ],
+      "categoria_temporal": "siglo_xix",
+      "grado_confianza": 0.88
+    },
+    {
+      "id": "E019",
+      "fecha": "1864",
+      "fecha_display": "verano de 1864",
+      "periodo": "Siglo XIX",
+      "titulo": "Teobert Maler en Londres — ve las ilustraciones de Catherwood",
+      "descripcion": "El joven Teobert Maler, de 22 años, pasa seis semanas en Londres aprendiendo inglés y visitando museos. Allí ve las ilustraciones de Catherwood sobre las ruinas mayas. Cuando lee en el periódico que Maximiliano zarpa hacia México, ve la oportunidad: usa al Imperio como pasaje.",
+      "tipo": [
+        "arqueologico",
+        "cultura"
+      ],
+      "personajes": [
+        "Teobert Maler"
+      ],
+      "lugar": "Londres, Inglaterra",
+      "fuentes": [
+        "Revista Arqueología Mexicana — número especial Maler"
+      ],
+      "entrada_blog": "A4",
+      "hilos": [
+        "HILO 1",
+        "HILO 7"
+      ],
+      "categoria_temporal": "siglo_xix",
+      "grado_confianza": 0.88
+    },
+    {
+      "id": "E020",
+      "fecha": "1865",
+      "fecha_display": "1865",
+      "periodo": "Siglo XIX",
+      "titulo": "Teobert Maler llega a México con la comitiva de Maximiliano",
+      "descripcion": "Maler llega a México como parte del séquito del Emperador Maximiliano. Ese mismo año, el Imperio también condecora a Pantaleón Barrera Cámara, hacendado de Los Chenes. El mismo año: Maler llega con el Imperio y el Imperio premia al personaje que más dañó a la población maya de la región.",
+      "tipo": [
+        "arqueologico",
+        "politica"
+      ],
+      "personajes": [
+        "Teobert Maler",
+        "Pantaleón Barrera Cámara",
+        "Maximiliano de Habsburgo"
+      ],
+      "lugar": "México",
+      "fuentes": [
+        "Arqueología Mexicana",
+        "ARCHIVO_VIVO_MAESTRO_FINAL.json"
+      ],
+      "entrada_blog": "A4",
+      "hilos": [
+        "HILO 1",
+        "HILO 7"
+      ],
+      "categoria_temporal": "siglo_xix",
+      "grado_confianza": 0.88
+    },
+    {
+      "id": "E021",
+      "fecha": "1882",
+      "fecha_display": "1882",
+      "periodo": "Siglo XIX",
+      "titulo": "Bolonchenticul pasa a llamarse 'de Blengio'",
+      "descripcion": "El municipio de Bolonchenticul (hoy Hopelchén) adopta el sufijo 'de Blengio'. Primera de tres renominaciones que el municipio sufrirá antes de recuperar parte de su nombre maya.",
+      "tipo": [
+        "politica"
+      ],
+      "personajes": [],
+      "lugar": "Bolonchenticul, Campeche",
+      "fuentes": [
+        "Digesto Constitucional Mexicano — Campeche, SCJN 2010, p. 24"
+      ],
+      "entrada_blog": null,
+      "hilos": [],
+      "categoria_temporal": "siglo_xix",
+      "grado_confianza": 0.92
+    },
+    {
+      "id": "E022",
+      "fecha": "1887",
+      "fecha_display": "1887",
+      "periodo": "Siglo XIX",
+      "titulo": "Teobert Maler fotografía Hochob, Dzibilnocac y Los Chenes",
+      "descripcion": "Maler llega a Hochob y Dzibilnocac y realiza registro fotográfico extenso de Los Chenes. Sus 2,700+ fotografías quedarán en el Instituto Iberoamericano (IAI) de Berlín, donde permanecerán décadas antes de ser sistematizadas. Aprende maya durante su estancia. Invirtió su herencia en equipo fotográfico — murió pobre.",
+      "tipo": [
+        "arqueologico"
+      ],
+      "personajes": [
+        "Teobert Maler"
+      ],
+      "lugar": "Hochob, Dzibilnocac, Los Chenes — archivo en IAI Berlín",
+      "fuentes": [
+        "INAH — fichas Hochob y Dzibilnocac",
+        "IAI Berlín"
+      ],
+      "entrada_blog": "A4",
+      "hilos": [
+        "HILO 1",
+        "HILO 7"
+      ],
+      "categoria_temporal": "siglo_xix",
+      "grado_confianza": 0.92
+    },
+    {
+      "id": "E023",
+      "fecha": "1892-01-25",
+      "fecha_display": "25 de enero de 1892",
+      "periodo": "Siglo XIX",
+      "titulo": "Nace Gerónimo Baqueiro Fóster en Hopelchén",
+      "descripcion": "Nace en Hopelchén, Campeche, el musicólogo Gerónimo Baqueiro Fóster. Nieto musical de Cirilo Baqueiro Prevé 'Chan Cil', trovador yucateco. Será el primer académico en documentar la escala pentatónica maya (Los Xtoles). Dato tomado del acta de nacimiento: expediente 2699B938 del Archivo Baqueiro Fóster en el Cenidim INBA. Sus padres fueron Teodosia Foster Villafaña y Francisco José Baqueiro Maldonado. Su primer maestro musical fue su primo Laureano Baqueiro (flauta y solfeo). A los 14 años aprendió guitarra con Manuel Aranda, considerado el 'padre de la música en la región de los Chenes'. (La Jornada Maya, 2021)",
+      "tipo": [
+        "musica",
+        "cultura"
+      ],
+      "personajes": [
+        "Gerónimo Baqueiro Fóster",
+        "Cirilo Baqueiro Prevé (Chan Cil)"
+      ],
+      "lugar": "Hopelchén, Campeche",
+      "fuentes": [
+        "Mendoza Castillo, UNAM Revista Digital, 2006 — feb_art16.pdf",
+        "F053 — La Jornada Maya / Betina González Toraya 2021"
+      ],
+      "entrada_blog": "B5",
+      "hilos": [
+        "HILO 8",
+        "HILO 11"
+      ],
+      "categoria_temporal": "siglo_xix",
+      "grado_confianza": 0.92
+    },
+    {
+      "id": "E024",
+      "fecha": "1895",
+      "fecha_display": "1895",
+      "periodo": "Siglo XIX",
+      "titulo": "Julián Carrillo descubre el microtonalismo — beca porfiriana a Leipzig",
+      "descripcion": "Julián Carrillo descubre el microtonalismo en San Luis Potosí. El Porfiriato lo beca para estudiar en el Real Conservatorio de Leipzig (1895-1899). La misma lógica del Porfiriato que conectaría a Hopelchén con Alemania en 1911 vía el reloj de Berlín de Pedro Advíncula Lara.",
+      "tipo": [
+        "musica",
+        "politica"
+      ],
+      "personajes": [
+        "Julián Carrillo",
+        "Porfirio Díaz"
+      ],
+      "lugar": "San Luis Potosí / Leipzig, Alemania",
+      "fuentes": [
+        "ARCHIVO_VIVO_MAESTRO_FINAL.json — momentos_documentados"
+      ],
+      "entrada_blog": "B7",
+      "hilos": [
+        "HILO 7",
+        "HILO 8",
+        "HILO 11"
+      ],
+      "categoria_temporal": "siglo_xix",
+      "grado_confianza": 0.78
+    },
+    {
+      "id": "E025",
+      "fecha": "1896",
+      "fecha_display": "1896",
+      "periodo": "Siglo XIX",
+      "titulo": "Bolonchenticul pasa a llamarse 'de Montalvo'",
+      "descripcion": "Segunda renominación del municipio: de 'Bolonchenticul de Blengio' a 'Bolonchenticul de Montalvo'. El apellido Montalvo correspondía a un político de la época. Las renominaciones sucesivas borran sistemáticamente la identidad maya del territorio.",
+      "tipo": [
+        "politica"
+      ],
+      "personajes": [],
+      "lugar": "Bolonchenticul, Campeche",
+      "fuentes": [
+        "Digesto Constitucional Mexicano — Campeche, SCJN 2010, p. 24"
+      ],
+      "entrada_blog": "B10",
+      "hilos": [],
+      "categoria_temporal": "siglo_xix",
+      "grado_confianza": 0.92
+    },
+    {
+      "id": "E026",
+      "fecha": "1899",
+      "fecha_display": "1895–1899",
+      "periodo": "Siglo XIX",
+      "titulo": "Carrillo estudia en el Real Conservatorio de Leipzig",
+      "descripcion": "Julián Carrillo estudia en el Real Conservatorio de Leipzig financiado por la beca porfiriana. La misma red de financiamiento estatal que llevó a Pedro Advíncula Lara a encargar un reloj en Berlín (1911). El Porfiriato como puente sistemático entre Hopelchén y Alemania.",
+      "tipo": [
+        "musica"
+      ],
+      "personajes": [
+        "Julián Carrillo"
+      ],
+      "lugar": "Leipzig, Alemania",
+      "fuentes": [
+        "ARCHIVO_VIVO_MAESTRO_FINAL.json — momentos_documentados"
+      ],
+      "entrada_blog": "B7",
+      "hilos": [
+        "HILO 7",
+        "HILO 8"
+      ],
+      "categoria_temporal": "siglo_xix",
+      "grado_confianza": 0.78
+    },
+    {
+      "id": "E027",
+      "fecha": "1911",
+      "fecha_display": "1911",
+      "periodo": "Porfiriato / Revolución",
+      "titulo": "Pedro Advíncula Lara manda traer un reloj de Berlín",
+      "descripcion": "Pedro Advíncula Lara, figura política de Hopelchén, manda traer un reloj fabricado en Berlín para la ciudad. Símbolo de la conexión Hopelchén-Alemania mediada por el Porfiriato. El reloj aún existe en la plaza de Hopelchén.",
+      "tipo": [
+        "politica",
+        "cultura"
+      ],
+      "personajes": [
+        "Pedro Advíncula Lara"
+      ],
+      "lugar": "Hopelchén, Campeche / Berlín, Alemania",
+      "fuentes": [
+        "ARCHIVO_VIVO_MAESTRO_FINAL.json — momentos_documentados"
+      ],
+      "entrada_blog": "B2",
+      "hilos": [
+        "HILO 7"
+      ],
+      "categoria_temporal": "siglo_xx",
+      "grado_confianza": 0.78
+    },
+    {
+      "id": "E028",
+      "fecha": "1920",
+      "fecha_display": "1920",
+      "periodo": "Posrevolución",
+      "titulo": "Carrillo incorpora canción de Chan Cil en Suite de los Naranjos",
+      "descripcion": "Julián Carrillo incorpora la canción '¿Te acuerdas?' de Chan Cil (Cirilo Baqueiro Prevé, abuelo de Gerónimo Baqueiro Fóster) en su Suite de los Naranjos (1920). Esto ocurre ANTES de que Baqueiro Fóster llegara a la Ciudad de México en 1921 — el trovador de Los Chenes y el teórico del Sonido 13 estaban conectados antes de conocerse.",
+      "tipo": [
+        "musica",
+        "cultura"
+      ],
+      "personajes": [
+        "Julián Carrillo",
+        "Cirilo Baqueiro Prevé (Chan Cil)"
+      ],
+      "lugar": "Ciudad de México",
+      "fuentes": [
+        "ARCHIVO_VIVO_MAESTRO_FINAL.json — HILO 11"
+      ],
+      "entrada_blog": "B5-BIS",
+      "hilos": [
+        "HILO 8",
+        "HILO 11"
+      ],
+      "categoria_temporal": "siglo_xx",
+      "grado_confianza": 0.78
+    },
+    {
+      "id": "E029",
+      "fecha": "1920",
+      "fecha_display": "1920",
+      "periodo": "Posrevolución",
+      "titulo": "Cofundación del PSAC — Clodoaldo Barrera",
+      "descripcion": "Clodoaldo Barrera figura como cofundador del Partido Socialista del Acayucán-Campeche (PSAC) en 1920. El apellido Barrera continúa en el poder político 80 años después del Congreso Constituyente de 1861.",
+      "tipo": [
+        "politica"
+      ],
+      "personajes": [
+        "Clodoaldo Barrera"
+      ],
+      "lugar": "Campeche",
+      "fuentes": [
+        "ARCHIVO_VIVO_MAESTRO_FINAL.json — HILO 3"
+      ],
+      "entrada_blog": "B10",
+      "hilos": [
+        "HILO 3"
+      ],
+      "categoria_temporal": "siglo_xx",
+      "grado_confianza": 0.78
+    },
+    {
+      "id": "E030",
+      "fecha": "1921",
+      "fecha_display": "1921",
+      "periodo": "Posrevolución",
+      "titulo": "Baqueiro Fóster llega a Ciudad de México con 7 pesos",
+      "descripcion": "Gerónimo Baqueiro Fóster llega a la Ciudad de México con apenas 7 pesos. En 1922 ingresará al Conservatorio, donde estudiará oboe con Julio Ávila y composición con Julián Carrillo. Inicia así la carrera del más importante musicólogo que naciera en Hopelchén.",
+      "tipo": [
+        "musica",
+        "cultura"
+      ],
+      "personajes": [
+        "Gerónimo Baqueiro Fóster"
+      ],
+      "lugar": "Ciudad de México",
+      "fuentes": [
+        "Mendoza Castillo, UNAM Revista Digital, 2006 — feb_art16.pdf"
+      ],
+      "entrada_blog": "B5",
+      "hilos": [
+        "HILO 8",
+        "HILO 11"
+      ],
+      "categoria_temporal": "siglo_xx",
+      "grado_confianza": 0.92
+    },
+    {
+      "id": "E031",
+      "fecha": "1922",
+      "fecha_display": "1922",
+      "periodo": "Posrevolución",
+      "titulo": "Baqueiro Fóster estudia composición con Julián Carrillo",
+      "descripcion": "Baqueiro Fóster ingresa al Conservatorio y estudia composición con Julián Carrillo — el mismo compositor que en 1920 ya había incorporado una canción del abuelo de Baqueiro (Chan Cil) en su obra. El círculo se cierra: el nieto del trovador de Los Chenes estudia con el teórico que admiraba a su abuelo.",
+      "tipo": [
+        "musica"
+      ],
+      "personajes": [
+        "Gerónimo Baqueiro Fóster",
+        "Julián Carrillo"
+      ],
+      "lugar": "Ciudad de México",
+      "fuentes": [
+        "Mendoza Castillo, UNAM Revista Digital, 2006 — feb_art16.pdf"
+      ],
+      "entrada_blog": "B5",
+      "hilos": [
+        "HILO 8",
+        "HILO 11"
+      ],
+      "categoria_temporal": "siglo_xx",
+      "grado_confianza": 0.92
+    },
+    {
+      "id": "E032",
+      "fecha": "1923",
+      "fecha_display": "1923–1967",
+      "periodo": "Siglo XX",
+      "titulo": "Baqueiro Fóster publica más de 6,000 artículos en 44 años",
+      "descripcion": "Entre 1923 y su muerte en 1967, Baqueiro Fóster publica más de 6,000 artículos en más de 60 diarios y revistas. Principal: El Nacional (1947-1967). También publicó en el Diario del Sureste de Campeche. Usó 10 seudónimos, entre ellos 'Chilam Balam de Tenochtitlan' — fusión de su identidad maya con la capital nacional.",
+      "tipo": [
+        "musica",
+        "cultura"
+      ],
+      "personajes": [
+        "Gerónimo Baqueiro Fóster"
+      ],
+      "lugar": "Ciudad de México",
+      "fuentes": [
+        "Mendoza Castillo, UNAM Revista Digital, 2006 — feb_art16.pdf"
+      ],
+      "entrada_blog": "B5",
+      "hilos": [],
+      "categoria_temporal": "siglo_xx",
+      "grado_confianza": 0.92
+    },
+    {
+      "id": "E033",
+      "fecha": "1939",
+      "fecha_display": "1939–1970",
+      "periodo": "Siglo XX",
+      "titulo": "Curso completo de solfeo de Baqueiro Fóster — 10 ediciones",
+      "descripcion": "Baqueiro Fóster publica su Curso completo de solfeo por la editorial Ricordi Americana. La obra alcanza 10 ediciones entre 1939 y 1970, convirtiéndose en el texto de referencia de la educación musical en México durante décadas.",
+      "tipo": [
+        "musica",
+        "cultura"
+      ],
+      "personajes": [
+        "Gerónimo Baqueiro Fóster"
+      ],
+      "lugar": "Ciudad de México / Buenos Aires (Ricordi Americana)",
+      "fuentes": [
+        "Mendoza Castillo, UNAM Revista Digital, 2006 — feb_art16.pdf"
+      ],
+      "entrada_blog": "B5",
+      "hilos": [],
+      "categoria_temporal": "siglo_xx",
+      "grado_confianza": 0.92
+    },
+    {
+      "id": "E034",
+      "fecha": "1940",
+      "fecha_display": "~1940",
+      "periodo": "Siglo XX",
+      "titulo": "Baqueiro Fóster y Carrillo encargan 15 pianos metamorfoseados a Hans Sauter en Alemania",
+      "descripcion": "Baqueiro Fóster viaja con Julián Carrillo a Alemania para encargar 15 pianos metamorfoseados (pianos que producen microtonos) al fabricante Hans Sauter. La conexión Hopelchén-Alemania se refuerza: un hombre nacido en Hopelchén viaja a Alemania a buscar instrumentos para su teoría musical.",
+      "tipo": [
+        "musica"
+      ],
+      "personajes": [
+        "Gerónimo Baqueiro Fóster",
+        "Julián Carrillo"
+      ],
+      "lugar": "Alemania",
+      "fuentes": [
+        "ARCHIVO_VIVO_MAESTRO_FINAL.json — momentos_documentados"
+      ],
+      "entrada_blog": "B5",
+      "hilos": [
+        "HILO 7",
+        "HILO 8"
+      ],
+      "categoria_temporal": "siglo_xx",
+      "grado_confianza": 0.78
+    },
+    {
+      "id": "E035",
+      "fecha": "1941",
+      "fecha_display": "1941",
+      "periodo": "Siglo XX",
+      "titulo": "Baqueiro Fóster publica 'El secreto armónico y modal de un antiguo aire maya'",
+      "descripcion": "En el volumen colectivo 'Los mayas antiguos' (El Colegio de México, 1941), Baqueiro Fóster publica el capítulo pp. 264-271 sobre Los Xtoles — la Danza de las cintas que usa una escala pentatónica (Sol-La-Si-Re-Mi, sin semitonos). Menciona explícitamente a Hopelchén, Bolonchenticul, Dzibalchén, Iturbide, Chunchintok, Komchén, Xkanhá y Sahcabchén. La escala demuestra que el modo menor europeo es solo una inversión de la pentatónica mayor maya. Cargo del autor: Inspector de la Enseñanza de la Música, Escuela Nacional de Maestros.",
+      "tipo": [
+        "musica",
+        "arqueologico"
+      ],
+      "personajes": [
+        "Gerónimo Baqueiro Fóster"
+      ],
+      "lugar": "Ciudad de México — texto sobre toda la región Chenes",
+      "fuentes": [
+        "Los mayas antiguos, El Colegio de México, 1941 — pp. 264-271 (leído directamente)"
+      ],
+      "entrada_blog": "B5-BIS",
+      "hilos": [
+        "HILO 8"
+      ],
+      "categoria_temporal": "siglo_xx",
+      "grado_confianza": 0.92
+    },
+    {
+      "id": "E036",
+      "fecha": "1955",
+      "fecha_display": "1955",
+      "periodo": "Siglo XX",
+      "titulo": "Bolonchenticul adopta el nombre 'de Rejón'",
+      "descripcion": "El municipio de Bolonchenticul adopta el sufijo 'de Rejón' en honor a Manuel Crescencio García Rejón y Alcalá, nacido en Bolonchenticul y promotor del juicio de amparo en México. El municipio ahora se llama Hopelchén pero la cabecera Bolonchén de Rejón conserva su nombre.",
+      "tipo": [
+        "politica"
+      ],
+      "personajes": [
+        "Manuel Crescencio García Rejón y Alcalá"
+      ],
+      "lugar": "Bolonchenticul (hoy Hopelchén), Campeche",
+      "fuentes": [
+        "Digesto Constitucional Mexicano — Campeche, SCJN 2010, p. 24"
+      ],
+      "entrada_blog": null,
+      "hilos": [],
+      "categoria_temporal": "siglo_xx",
+      "grado_confianza": 0.92
+    },
+    {
+      "id": "E037",
+      "fecha": "1964",
+      "fecha_display": "1964",
+      "periodo": "Siglo XX",
+      "titulo": "Baqueiro Fóster publica Historia de la música en México",
+      "descripcion": "La SEP/INBA publica la 'Historia de la música en México' de Gerónimo Baqueiro Fóster — obra de referencia definitiva sobre el tema. El hombre nacido en Hopelchén escribe la historia de la música de todo el país.",
+      "tipo": [
+        "musica",
+        "cultura"
+      ],
+      "personajes": [
+        "Gerónimo Baqueiro Fóster"
+      ],
+      "lugar": "Ciudad de México",
+      "fuentes": [
+        "Mendoza Castillo, UNAM Revista Digital, 2006 — feb_art16.pdf"
+      ],
+      "entrada_blog": "B5",
+      "hilos": [],
+      "categoria_temporal": "siglo_xx",
+      "grado_confianza": 0.92
+    },
+    {
+      "id": "E038",
+      "fecha": "1967-05-29",
+      "fecha_display": "29 de mayo de 1967",
+      "periodo": "Siglo XX",
+      "titulo": "Muerte de Gerónimo Baqueiro Fóster",
+      "descripcion": "Gerónimo Baqueiro Fóster muere en la Ciudad de México. Deja un archivo personal de 4,052 expedientes y 32,859 documentos (1854-1985) en el Cenidim INBA — el musicólogo que nació en Hopelchén con 7 pesos llegó a la capital y dejó el archivo más completo sobre música mexicana del siglo XX.",
+      "tipo": [
+        "musica",
+        "cultura"
+      ],
+      "personajes": [
+        "Gerónimo Baqueiro Fóster"
+      ],
+      "lugar": "Ciudad de México",
+      "fuentes": [
+        "Mendoza Castillo, UNAM Revista Digital, 2006 — feb_art16.pdf"
+      ],
+      "entrada_blog": "B5",
+      "hilos": [],
+      "categoria_temporal": "siglo_xx",
+      "grado_confianza": 0.92
+    },
+    {
+      "id": "E039",
+      "fecha": "1974-02-13",
+      "fecha_display": "13 de febrero de 1974",
+      "periodo": "Siglo XX — PRI",
+      "titulo": "Efraín 'El Charras' Calderón Lara es secuestrado y asesinado",
+      "descripcion": "Efraín 'El Charras' Calderón Lara — sindicalista que organizó 9 sindicatos en un año en Hopelchén y lideró una huelga de 73 días — es secuestrado y asesinado por orden del gobernador Carlos Loret de Mola Mediz. El gobernador primero trató de cooptarlo. El Charras portaba los dos apellidos del poder histórico de Hopelchén (Calderón y Lara) y los usó para combatir al sistema desde adentro. Hoy existe el 'Paseo Efraín Calderón' en Hopelchén.",
+      "tipo": [
+        "disidencia",
+        "politica"
+      ],
+      "personajes": [
+        "Efraín 'El Charras' Calderón Lara",
+        "Carlos Loret de Mola Mediz"
+      ],
+      "lugar": "Hopelchén, Campeche",
+      "fuentes": [
+        "Hernán Lara Zavala — Charras (1990)",
+        "Marco Antonio Campos — librillo Hernán Lara Zavala, UNAM Voz Viva VVM-137, 2018 (Hernan_Lara_Zavala_librillo.pdf)"
+      ],
+      "entrada_blog": "B11",
+      "hilos": [
+        "HILO 4"
+      ],
+      "categoria_temporal": "siglo_xx",
+      "grado_confianza": 0.92
+    },
+    {
+      "id": "E040",
+      "fecha": "1987",
+      "fecha_display": "1887 (fotografías) → 1987 (centenario referido)",
+      "periodo": "Siglo XX",
+      "titulo": "Las fotos de Maler duermen 100 años en Berlín",
+      "descripcion": "Las 2,700+ fotografías que Teobert Maler tomó de Los Chenes en 1887 permanecen en el Instituto Iberoamericano (IAI) de Berlín sin ser sistematizadas. Cien años después de ser tomadas, el archivo de Hopelchén sigue en Alemania.",
+      "tipo": [
+        "arqueologico",
+        "cultura"
+      ],
+      "personajes": [
+        "Teobert Maler"
+      ],
+      "lugar": "IAI — Instituto Iberoamericano, Berlín",
+      "fuentes": [
+        "ARCHIVO_VIVO_MAESTRO_FINAL.json — momentos_documentados"
+      ],
+      "entrada_blog": "A4",
+      "hilos": [
+        "HILO 7"
+      ],
+      "categoria_temporal": "siglo_xx",
+      "grado_confianza": 0.78
+    },
+    {
+      "id": "E041",
+      "fecha": "1990",
+      "fecha_display": "1990",
+      "periodo": "Contemporáneo",
+      "titulo": "Hernán Lara Zavala publica Charras",
+      "descripcion": "El escritor Hernán Lara Zavala publica la novela corta 'Charras', basada en la vida y muerte de Efraín Calderón Lara. La obra documenta el asesinato del sindicalista de Hopelchén por órdenes del gobernador Carlos Loret de Mola Mediz en 1974. Lara Zavala es oriundo de Hopelchén.",
+      "tipo": [
+        "cultura",
+        "disidencia"
+      ],
+      "personajes": [
+        "Hernán Lara Zavala",
+        "Efraín 'El Charras' Calderón Lara"
+      ],
+      "lugar": "Ciudad de México / Hopelchén",
+      "fuentes": [
+        "Hernán Lara Zavala — Charras (1990)",
+        "Marco Antonio Campos — UNAM Voz Viva, 2018"
+      ],
+      "entrada_blog": "B11",
+      "hilos": [
+        "HILO 4"
+      ],
+      "categoria_temporal": "siglo_xx",
+      "grado_confianza": 0.92
+    },
+    {
+      "id": "E042",
+      "fecha": "1993",
+      "fecha_display": "1993–1998",
+      "periodo": "Contemporáneo",
+      "titulo": "Ingo Schüren realiza trabajo de campo en Hopelchén para tesis FU Berlín",
+      "descripcion": "El investigador alemán Ingo Schüren realiza trabajo de campo en Hopelchén entre 1993 y 1998 para su tesis doctoral en la Freie Universität de Berlín. Entrevista a Pedro Lara y Lara (Presidente Municipal en ese período), a chicleros ex-residentes de Dzibalchén (entre ellos José Demetrio Duran Caamal — apellido Caamal que aparece en 1848), y a comerciantes locales. El libro 'Así es mi tierra chenera' aparece en la bibliografía de la FU Berlín.",
+      "tipo": [
+        "cultura",
+        "ecologia"
+      ],
+      "personajes": [
+        "Ingo Schüren",
+        "Pedro Lara y Lara",
+        "José Demetrio Duran Caamal"
+      ],
+      "lugar": "Hopelchén, Campeche / Freie Universität Berlín",
+      "fuentes": [
+        "Schüren — tesis doctoral FU Berlín (17_biblio.pdf)"
+      ],
+      "entrada_blog": null,
+      "hilos": [
+        "HILO 7"
+      ],
+      "categoria_temporal": "siglo_xx",
+      "grado_confianza": 0.88
+    },
+    {
+      "id": "E043",
+      "fecha": "2006",
+      "fecha_display": "desde 2006",
+      "periodo": "Contemporáneo",
+      "titulo": "Edward Manuel Poot Yeh empieza a pagar impuestos de su terreno en Hopelchén",
+      "descripcion": "Edward Manuel Poot Yeh, maestro en Hopelchén, paga impuestos de su terreno desde 2006. En 2025 descubrirá que el gobierno municipal generó títulos de propiedad duplicados para despojarlo — continuación del patrón de despojo de tierras mayas documentado desde el siglo XIX.",
+      "tipo": [
+        "disidencia",
+        "contemporaneo"
+      ],
+      "personajes": [
+        "Edward Manuel Poot Yeh"
+      ],
+      "lugar": "Hopelchén, Campeche",
+      "fuentes": [
+        "Daniela Naraai — Dos mil años de silencio (2026), pp. 31, 101"
+      ],
+      "entrada_blog": null,
+      "hilos": [
+        "HILO 10"
+      ],
+      "categoria_temporal": "contemporaneo",
+      "grado_confianza": 0.78
+    },
+    {
+      "id": "E044",
+      "fecha": "2010",
+      "fecha_display": "2010",
+      "periodo": "Contemporáneo",
+      "titulo": "Instrumentos musicales mayas de Yucatán estudiados por primera vez en Hamburgo",
+      "descripcion": "Los instrumentos musicales mayas de Yucatán alojados en el Museo de Etnología de Hamburgo son estudiados sistemáticamente por primera vez. Entre ellos, ocarinas y flautas de la colección Franz Termer que producen la escala pentatónica maya — confirmando lo que Baqueiro Fóster documentó en 1941.",
+      "tipo": [
+        "musica",
+        "arqueologico"
+      ],
+      "personajes": [],
+      "lugar": "Museo de Etnología de Hamburgo, Alemania",
+      "fuentes": [
+        "ARCHIVO_VIVO_MAESTRO_FINAL.json — momentos_documentados"
+      ],
+      "entrada_blog": "B5-BIS",
+      "hilos": [
+        "HILO 7",
+        "HILO 8"
+      ],
+      "categoria_temporal": "contemporaneo",
+      "grado_confianza": 0.78
+    },
+    {
+      "id": "E045",
+      "fecha": "2010",
+      "fecha_display": "2010",
+      "periodo": "Contemporáneo",
+      "titulo": "Digesto Constitucional Mexicano — Campeche publicado por la SCJN",
+      "descripcion": "La Suprema Corte de Justicia de la Nación publica el Digesto Constitucional Mexicano de Campeche (Manuel González Oropeza y David Cienfuegos Salgado, ISBN 978-607-468-243-4, 798 pp.). La fuente que permite reconstruir la lista completa de diputados de Hopelchén y Bolonchenticul desde 1861.",
+      "tipo": [
+        "politica",
+        "legislativo"
+      ],
+      "personajes": [
+        "Manuel González Oropeza",
+        "David Cienfuegos Salgado"
+      ],
+      "lugar": "Ciudad de México",
+      "fuentes": [
+        "Digesto Constitucional Mexicano — Campeche, SCJN 2010"
+      ],
+      "entrada_blog": "B9",
+      "hilos": [],
+      "categoria_temporal": "contemporaneo",
+      "grado_confianza": 0.92
+    },
+    {
+      "id": "E046",
+      "fecha": "2015",
+      "fecha_display": "septiembre 2015 – julio 2016",
+      "periodo": "Contemporáneo",
+      "titulo": "Estudio EPOMEX-UAC detecta glifosato en 7 comunidades de Hopelchén",
+      "descripcion": "Jaime Rendón Von Osten y R. Dzul-Caamal (EPOMEX-UAC, a petición del PNUD) realizan el primer estudio sistemático de contaminación por glifosato en el acuífero de Hopelchén. Detectan glifosato en 7 comunidades entre septiembre 2015 y julio 2016. El estudio se publica en 2017 en el International Journal of Research in Public Health. El nombre del municipio significa 'cinco pozos' — y esos pozos están contaminados.",
+      "tipo": [
+        "ecologia"
+      ],
+      "personajes": [
+        "Jaime Rendón Von Osten",
+        "R. Dzul-Caamal"
+      ],
+      "lugar": "7 comunidades de Hopelchén, Campeche",
+      "fuentes": [
+        "Rendón Von Osten y Dzul-Caamal — IJRPH, 2017"
+      ],
+      "entrada_blog": "A1",
+      "hilos": [
+        "HILO 5"
+      ],
+      "categoria_temporal": "contemporaneo",
+      "grado_confianza": 0.88
+    },
+    {
+      "id": "E047",
+      "fecha": "2023-01-07",
+      "fecha_display": "7 de enero de 2023, 4:30 AM",
+      "periodo": "Contemporáneo",
+      "titulo": "Cateo a las 4:30 AM en casa del alcalde Emilio Lara Calderón",
+      "descripcion": "20 agentes de la Agencia Estatal de Investigaciones irrumpen a las 4:30 AM en la casa del alcalde de Hopelchén Emilio Lara Calderón, en el marco de una investigación por secuestro. El apellido Calderón (El Charras, asesinado en 1974) y el apellido Lara (en el poder desde 1862) unidos ahora en el alcalde investigado por delitos graves.",
+      "tipo": [
+        "politica",
+        "disidencia"
+      ],
+      "personajes": [
+        "Emilio Lara Calderón"
+      ],
+      "lugar": "Hopelchén, Campeche",
+      "fuentes": [
+        "Daniela Naraai — Dos mil años de silencio (2026), p. 30"
+      ],
+      "entrada_blog": "C1",
+      "hilos": [
+        "HILO 3",
+        "HILO 4"
+      ],
+      "categoria_temporal": "contemporaneo",
+      "grado_confianza": 0.78
+    },
+    {
+      "id": "E048",
+      "fecha": "2024",
+      "fecha_display": "2024",
+      "periodo": "Contemporáneo",
+      "titulo": "Auditoría Superior detecta desvío de 9 millones por Emilio Lara Calderón",
+      "descripcion": "La Auditoría Superior del Estado de Campeche determina que el alcalde Emilio Lara Calderón desvió más de 9 millones de pesos destinados a las juntas municipales de Bolonchén, Ukum y Dzibalchén. Lara Calderón solicita licencia definitiva del cargo para candidatearse como diputado federal plurinominal por el PRI, favorecido por Alejandro 'Alito' Moreno Cárdenas.",
+      "tipo": [
+        "politica",
+        "disidencia"
+      ],
+      "personajes": [
+        "Emilio Lara Calderón",
+        "Alejandro 'Alito' Moreno Cárdenas"
+      ],
+      "lugar": "Hopelchén, Campeche",
+      "fuentes": [
+        "Daniela Naraai — Dos mil años de silencio (2026), p. 30"
+      ],
+      "entrada_blog": "C1",
+      "hilos": [
+        "HILO 3",
+        "HILO 4"
+      ],
+      "categoria_temporal": "contemporaneo",
+      "grado_confianza": 0.78
+    },
+    {
+      "id": "E049",
+      "fecha": "2024-10-15",
+      "fecha_display": "15 de octubre de 2024",
+      "periodo": "Contemporáneo",
+      "titulo": "Inauguración de exposición 'Tras los pasos de Teobert Maler' en el IAI Berlín",
+      "descripcion": "El Instituto Iberoamericano (IAI) de Berlín inaugura la exposición 'Tras los pasos de Teobert Maler', que incluye fotografías actuales de Dzehkabtún (comunidad del municipio de Hopelchén) junto a las fotos históricas de Maler de 1887. 137 años después, el archivo de Los Chenes sigue en Berlín — y Berlín sigue mirando a Los Chenes.",
+      "tipo": [
+        "arqueologico",
+        "cultura"
+      ],
+      "personajes": [
+        "Teobert Maler"
+      ],
+      "lugar": "IAI — Instituto Iberoamericano, Berlín",
+      "fuentes": [
+        "ARCHIVO_VIVO_MAESTRO_FINAL.json — fuentes_clave A4"
+      ],
+      "entrada_blog": "A4",
+      "hilos": [
+        "HILO 7"
+      ],
+      "categoria_temporal": "contemporaneo",
+      "grado_confianza": 0.78
+    },
+    {
+      "id": "E050",
+      "fecha": "2025-11",
+      "fecha_display": "noviembre 2025",
+      "periodo": "Contemporáneo",
+      "titulo": "Edward Manuel Poot Yeh denuncia al alcalde Hiram Aranda Calderón por despojo catastral",
+      "descripcion": "Edward Manuel Poot Yeh, maestro en Hopelchén que paga impuestos de su terreno desde 2006, presenta denuncia formal ante la Fiscalía Anticorrupción contra el alcalde Hiram Aranda Calderón por despojo, manipulación catastral y falsificación de documentos. El alcalde responde con una contradenuncia por calumnias. La prensa local ignora el caso. El apellido Poot Yeh — apellido maya — enfrenta el mismo patrón de despojo documentado desde el siglo XIX.",
+      "tipo": [
+        "disidencia",
+        "contemporaneo"
+      ],
+      "personajes": [
+        "Edward Manuel Poot Yeh",
+        "Hiram Aranda Calderón"
+      ],
+      "lugar": "Hopelchén, Campeche",
+      "fuentes": [
+        "Daniela Naraai — Dos mil años de silencio (2026), pp. 31, 101"
+      ],
+      "entrada_blog": null,
+      "hilos": [
+        "HILO 10"
+      ],
+      "categoria_temporal": "contemporaneo",
+      "grado_confianza": 0.78
+    },
+    {
+      "id": "E051",
+      "fecha": "2025",
+      "fecha_display": "2025",
+      "periodo": "Contemporáneo",
+      "titulo": "El apellido Barrera persiste en el gobierno municipal de Hopelchén",
+      "descripcion": "En 2025, una persona con el apellido Barrera ocupa un cargo jurídico en el ayuntamiento de Hopelchén. El mismo apellido que estuvo como diputado propietario en el Congreso Constituyente de 1861 (Manuel Barrera) y que dio nombre al hacendado-novelista Pantaleón Barrera Cámara (siglo XIX) continúa en el poder 164 años después.",
+      "tipo": [
+        "politica"
+      ],
+      "personajes": [],
+      "lugar": "Hopelchén, Campeche",
+      "fuentes": [
+        "ARCHIVO_VIVO_MAESTRO_FINAL.json — HILO 3"
+      ],
+      "entrada_blog": "B9",
+      "hilos": [
+        "HILO 3"
+      ],
+      "categoria_temporal": "contemporaneo",
+      "grado_confianza": 0.78
+    },
+    {
+      "id": "E052",
+      "fecha": "2026",
+      "fecha_display": "2026",
+      "periodo": "Contemporáneo",
+      "titulo": "Daniela Naraai publica Dos Mil Años en Silencio",
+      "descripcion": "Daniela Naraai (Daniela Caamal), investigadora originaria de Hopelchén, publica el libro 'Dos Mil Años en Silencio' — 25 capítulos de historia, política y crítica sobre Hopelchén, Campeche. DOI: https://doi.org/10.5281/zenodo.19140910. Publicado bajo licencia CC BY-NC-ND 4.0 en el blog archivovivo5h.blogspot.com.",
+      "tipo": [
+        "cultura",
+        "disidencia"
+      ],
+      "personajes": [
+        "Daniela Naraai (Daniela Caamal)"
+      ],
+      "lugar": "Hopelchén, Campeche / publicación en línea",
+      "fuentes": [
+        "https://doi.org/10.5281/zenodo.19140910"
+      ],
+      "entrada_blog": null,
+      "hilos": [],
+      "categoria_temporal": "contemporaneo",
+      "grado_confianza": 0.88
+    },
+    {
+      "id": "E053",
+      "fecha": "1682",
+      "fecha_display": "1682",
+      "periodo": "Colonial",
+      "titulo": "Lápida de mármol de Bolonchenticul — fuente escrita más antigua",
+      "descripcion": "Una lápida de mármol del año 1682 empotrada en la iglesia de Bolonchenticul (hoy Bolonchén de Rejón) es la fuente escrita más antigua del lugar. Confirma la presencia española en el territorio desde el siglo XVII. Familias emigrantes de origen ticuleño (Yucatán) habían fundado Bolonchenticul en las inmediaciones de una laguna de origen pluvial. Los pozos mayas del lugar: X'cheen-Ha (pozo de agua salada), X'cheen Chac-che, X'cheen-Chan, Cheen X'Caba-hol, Cheen X'Cana-hol, Cheen pach-Pila y Cheen X'caba-Noria.",
+      "tipo": [
+        "colonial"
+      ],
+      "categoria_temporal": "colonial",
+      "grado_confianza": 0.72,
+      "personajes": [],
+      "lugar": "Bolonchenticul (hoy Bolonchén de Rejón), municipio de Hopelchén",
+      "fuentes": [
+        "F009 — Telepaisa",
+        "F003 — Wix Miss H."
+      ],
+      "entrada_blog": null,
+      "hilos": []
+    },
+    {
+      "id": "E054",
+      "fecha": "1799-08-23",
+      "fecha_display": "23 de agosto de 1799",
+      "periodo": "Colonial tardío / Independencia",
+      "titulo": "Nace Manuel Crescencio García Rejón y Alcalá en Bolonchenticul",
+      "descripcion": "Nace en Bolonchenticul (hoy Bolonchén de Rejón, municipio de Hopelchén) Manuel Crescencio García Rejón y Alcalá. Sus padres son Manuel García Rejón, de Valladolid, Yucatán, y Bernarda Alcalá, natural de las Islas Canarias. Estudió en el Seminario Conciliar de San Ildefonso en Mérida y en 1819 se graduó como abogado en la Ciudad de México. En 1822 se opuso al Plan de Iguala. El 23 de diciembre de 1840 redactó en unión de Pedro C. Pérez y Darío Escalante el Acta Constitutiva del Estado de Yucatán con el primer proyecto del juicio de amparo en México. El municipio de Bolonchenticul adoptó en 1955 el sufijo 'de Rejón' en su honor.",
+      "tipo": [
+        "politica",
+        "legislativo"
+      ],
+      "categoria_temporal": "siglo_xix",
+      "grado_confianza": 0.82,
+      "personajes": [
+        "Manuel Crescencio García Rejón y Alcalá"
+      ],
+      "lugar": "Bolonchenticul (hoy Bolonchén de Rejón), Hopelchén, Campeche",
+      "fuentes": [
+        "F009 — Telepaisa",
+        "Digesto Constitucional Mexicano — Campeche, SCJN 2010"
+      ],
+      "entrada_blog": null,
+      "hilos": []
+    },
+    {
+      "id": "E055",
+      "fecha": "1858-01-29",
+      "fecha_display": "29 de enero de 1858",
+      "periodo": "Siglo XIX — Independencia de Campeche",
+      "titulo": "Los Chenes expresan su deseo de pertenecer al nuevo Estado de Campeche",
+      "descripcion": "El 29 de enero de 1858, Hopelchén, Bolonchenticul, Dzibalchén e Iturbide — los cuatro municipios integrantes del partido de Los Chenes — expresaron formalmente su deseo de pertenecer a la nueva entidad de Campeche, separándose de Yucatán. La noche del 6 de agosto de 1857, ciudadanos encabezados por Pedro Baranda y Pablo García habían ocupado los baluartes de Campeche e impuesto los términos de la separación política. Pablo García y Montilla sería el primer gobernador del Estado de Campeche.",
+      "tipo": [
+        "politica"
+      ],
+      "categoria_temporal": "siglo_xix",
+      "grado_confianza": 0.82,
+      "personajes": [
+        "Pedro Baranda",
+        "Pablo García y Montilla"
+      ],
+      "lugar": "Hopelchén, Bolonchenticul, Dzibalchén e Iturbide — Los Chenes, Campeche",
+      "fuentes": [
+        "F009 — Telepaisa"
+      ],
+      "entrada_blog": null,
+      "hilos": []
+    },
+    {
+      "id": "E056",
+      "fecha": "1915-03-06",
+      "fecha_display": "6 de marzo de 1915",
+      "periodo": "Revolución Mexicana",
+      "titulo": "Conjura de Yaxché — 100 muertos en Bolonchenticul",
+      "descripcion": "El 6 de marzo de 1915, en la transición a los gobiernos revolucionarios, los hacendados cheneros — en franca oposición a los principios agrarios de la Revolución — se unieron a la rebelión de Benjamín Ortiz Argumedo en contra de Carranza. Ambos grupos se enfrentaron en Bolonchenticul con un trágico saldo de más de 100 muertos y numerosos heridos, con bajas casi totales del lado campechano. Esta serie de acontecimientos es conocida como la Conjura de Yaxché. Las familias hacendadas de Los Chenes (Lara, Barrera, Calderón, Solís) resistieron sistemáticamente el reparto agrario posrevolucionario.",
+      "tipo": [
+        "guerra",
+        "politica"
+      ],
+      "categoria_temporal": "siglo_xx",
+      "grado_confianza": 0.78,
+      "personajes": [
+        "Benjamín Ortiz Argumedo"
+      ],
+      "lugar": "Bolonchenticul (hoy Hopelchén), Campeche",
+      "fuentes": [
+        "F009 — Telepaisa",
+        "F003 — Wix Miss H."
+      ],
+      "entrada_blog": "A6",
+      "hilos": [
+        "HILO 10"
+      ]
+    },
+    {
+      "id": "E057",
+      "fecha": "1938",
+      "fecha_display": "23 de diciembre de 1838 (aprox. — Título de Villa)",
+      "periodo": "Siglo XIX",
+      "titulo": "Título de Villa a Hopelchén con el nombre Lorenzo de Zavala",
+      "descripcion": "El pueblo de Hopelchén recibió el Título de Villa con el nombre de 'Hopelchén de Lorenzo de Zavala', en honor al político liberal Lorenzo de Zavala, nacido en Tecoh, Yucatán. Lorenzo de Zavala fue ministro de Hacienda de México y figura clave en la historia constitucional de México y Texas. Este dato fue difundido por el Centro INAH Campeche como efeméride nacional. El municipio ha sufrido múltiples renominaciones que alternan nombres mayas con nombres de políticos criollos.",
+      "tipo": [
+        "politica"
+      ],
+      "categoria_temporal": "siglo_xix",
+      "grado_confianza": 0.75,
+      "personajes": [
+        "Lorenzo de Zavala"
+      ],
+      "lugar": "Hopelchén, Campeche",
+      "fuentes": [
+        "F005 — Centro INAH Campeche (Facebook post)"
+      ],
+      "entrada_blog": null,
+      "hilos": []
+    },
+    {
+      "id": "E058",
+      "fecha": "1853",
+      "fecha_display": "hacia 1853",
+      "periodo": "Siglo XIX — posguerra de Castas",
+      "titulo": "Mayas 'pacíficos del sur' firman la paz — Los Chenes entre dos mundos",
+      "descripcion": "Hacia 1853, un grupo de mayas alzados en armas desde 1847 — conocido como los 'pacíficos del sur' — accedió a firmar la paz, quedando enfrentados a los llamados 'rebeldes del oriente' (los que décadas después serían la población de Quintana Roo). Los Chenes quedaron en el territorio de los pacíficos. Entre 1857-1867 los rebeldes del oriente atacaron repetidamente a los pacíficos del sur para fragmentar su unión. Restaurada la República, el gobernador Pablo García reorganizó a los mayas dispersos, llegando a un pacto con Eugenio Arana de Xkanhá y Marcos Canul de Icaiché. Los mayas desorganizados fueron reubicados en Los Chenes, donde quedaron 'encerrados en las fincas de los nuevos propietarios de las tierras'. (Fuente: Teresa Ramayo Lanz, Revistas INAH Glifos)",
+      "tipo": [
+        "guerra",
+        "colonial"
+      ],
+      "categoria_temporal": "siglo_xix",
+      "grado_confianza": 0.88,
+      "personajes": [
+        "Pablo García y Montilla",
+        "Eugenio Arana",
+        "Marcos Canul"
+      ],
+      "lugar": "Los Chenes, Hopelchén, Campeche",
+      "fuentes": [
+        "F046 — Teresa Ramayo Lanz, Revistas INAH Glifos"
+      ],
+      "entrada_blog": "A5",
+      "hilos": [
+        "HILO 9",
+        "HILO 10"
+      ]
+    },
+    {
+      "id": "E059",
+      "fecha": "1992",
+      "fecha_display": "desde 1992 aprox.",
+      "periodo": "Contemporáneo",
+      "titulo": "Colonias menonitas se establecen en Hopelchén — inicio de la agroindustria de soya",
+      "descripcion": "Las colonias menonitas comenzaron a establecerse en el municipio de Hopelchén en la década de 1990. Con el tiempo se convirtieron en actores agroindustriales importantes, expandiendo cultivos de soya transgénica resistente al glifosato. Los vuelos de avioneta para fumigar grandes extensiones de soya desde el aire afectaron a comunidades mayas adyacentes — en 2015 un apicultor de Bolonchén de Rejón registró la muerte de 20 colmenas por fumigación aérea a 300 metros de su apiario. El Colectivo de Comunidades Mayas de los Chenes comenzó a documentar sistemáticamente los daños. (Fuentes: Animal Político, AIDA, Mongabay)",
+      "tipo": [
+        "ecologia",
+        "disidencia"
+      ],
+      "categoria_temporal": "contemporaneo",
+      "grado_confianza": 0.82,
+      "personajes": [],
+      "lugar": "Hopelchén y Bolonchén de Rejón, Campeche",
+      "fuentes": [
+        "F047 — AIDA",
+        "F048 — Animal Político",
+        "F049 — Mongabay"
+      ],
+      "entrada_blog": "D",
+      "hilos": [
+        "HILO 5",
+        "HILO 10"
+      ]
+    },
+    {
+      "id": "E060",
+      "fecha": "1898-01-07",
+      "fecha_display": "7 de enero de 1898 (dato en disputa: también 1892)",
+      "periodo": "Siglo XIX / Porfiriato",
+      "titulo": "Fecha de nacimiento alternativa de Gerónimo Baqueiro Fóster",
+      "descripcion": "Según La Jornada Maya (artículo de Betina González Toraya, 2021) y otros biógrafos, Gerónimo Baqueiro Fóster nació el 7 de enero de 1898 en Hopelchén — Campeche. Sus padres: Teodosia Foster Villafaña y Francisco José Baqueiro Maldonado. Su primer maestro fue su primo Laureano Baqueiro, quien le enseñó flauta y solfeo. A los 14 años aprendió guitarra clásica con Manuel Aranda, considerado el 'padre de la música en la región de los Chenes'. La fecha de nacimiento está en disputa: el acta original del Archivo Baqueiro Fóster (Cenidim INBA, expediente 2699B938) indica el 25 de enero de 1892, mientras que múltiples fuentes secundarias indican el 7 de enero de 1898. No resolver sin consultar directamente el acta.",
+      "tipo": [
+        "musica",
+        "cultura"
+      ],
+      "categoria_temporal": "siglo_xix",
+      "grado_confianza": 0.65,
+      "personajes": [
+        "Gerónimo Baqueiro Fóster",
+        "Manuel Aranda"
+      ],
+      "lugar": "Hopelchén, Campeche",
+      "fuentes": [
+        "F053 — La Jornada Maya / Betina González Toraya",
+        "F011 — Mendoza Castillo UNAM",
+        "F042 — CENIDIM INBA"
+      ],
+      "entrada_blog": "B5",
+      "hilos": [
+        "HILO 8"
+      ],
+      "nota_critica": "EVENTO COMPLEMENTARIO — No duplica E023. E023 registra la fecha del acta (1892). Este evento registra la fecha biográfica en disputa (1898) y el contexto familiar adicional. Ambas versiones coexisten en la literatura."
+    },
+    {
+      "id": "E061",
+      "fecha": "2015",
+      "fecha_display": "2015–2022",
+      "periodo": "Contemporáneo",
+      "titulo": "Leydy Pech y apicultores mayas de Los Chenes ganan batalla jurídica contra soya transgénica",
+      "descripcion": "La apicultora Leydy Pech y el Colectivo de Comunidades Mayas de los Chenes (Hopelchén) lideraron un proceso jurídico que culminó con sentencias de la Suprema Corte de Justicia de la Nación que protegen el territorio maya de la soya transgénica con glifosato. En 2020, Leydy Pech recibió el Premio Goldman (el 'Nobel del medio ambiente') por esta lucha. El proceso implicó a Monsanto/Bayer, el gobierno de Campeche y el estado federal. La lucha conecta el nombre de Hopelchén ('cinco pozos') con la defensa del acuífero documentada científicamente por EPOMEX-UAC en 2015-2016.",
+      "tipo": [
+        "ecologia",
+        "disidencia"
+      ],
+      "categoria_temporal": "contemporaneo",
+      "grado_confianza": 0.9,
+      "personajes": [
+        "Leydy Pech"
+      ],
+      "lugar": "Hopelchén, Los Chenes, Campeche / Ciudad de México (SCJN)",
+      "fuentes": [
+        "F047 — AIDA",
+        "F048 — Animal Político",
+        "F019 — Rendón Von Osten IJRPH 2017"
+      ],
+      "entrada_blog": "D",
+      "hilos": [
+        "HILO 5"
+      ]
+    }
+  ],
+  "HILOS_TRANSVERSALES": {
+    "HILO_1": {
+      "nombre": "Imperio de Maximiliano",
+      "descripcion": "Maler llega con el Imperio en 1865 → ese mismo año el Imperio condecora a Pantaleón Barrera → 22 años después Maler fotografía Hochob → Serapio Baqueiro combatió el Imperio con su pluma",
+      "eventos_relacionados": [
+        "E019",
+        "E020",
+        "E022"
+      ]
+    },
+    "HILO_2": {
+      "nombre": "Hacienda porfiriana sobre Santa Rosa Xtampak",
+      "descripcion": "Nombre de ciudad maya de 850 años de capitalidad regional enterrado bajo nombre de hacienda porfiriana del siglo XIX",
+      "eventos_relacionados": [
+        "E004"
+      ]
+    },
+    "HILO_3": {
+      "nombre": "Apellido Barrera",
+      "descripcion": "Gobernador siglo XIX → jefe jurídico ayuntamiento 2025. Pantaleón Barrera síndico 1840. Manuel Barrera diputado constituyente 1861. Clodoaldo Barrera cofundador PSAC 1920",
+      "eventos_relacionados": [
+        "E015",
+        "E018",
+        "E029",
+        "E051"
+      ]
+    },
+    "HILO_4": {
+      "nombre": "Apellido Calderón",
+      "descripcion": "El Charras (combatió al PRI, asesinado 1974) vs Emilio Lara Calderón (gobernó desde el PRI, cateo 2023, desvío 9 millones 2024)",
+      "eventos_relacionados": [
+        "E039",
+        "E047",
+        "E048"
+      ]
+    },
+    "HILO_5": {
+      "nombre": "El agua / cinco pozos",
+      "descripcion": "Nombre del municipio = cinco pozos (500 a.C.) → glifosato en el acuífero detectado 2015-2016",
+      "eventos_relacionados": [
+        "E001",
+        "E009",
+        "E046"
+      ]
+    },
+    "HILO_6": {
+      "nombre": "Venta de mayas a Cuba",
+      "descripcion": "Los Chenes zona de captura → Fernando Ek en novela Barrera (1864) → 1,046 yucatecos en censo Cuba 1861",
+      "eventos_relacionados": [
+        "E013",
+        "E014",
+        "E016"
+      ]
+    },
+    "HILO_7": {
+      "nombre": "Alemania–Hopelchén",
+      "descripcion": "Maler 1887 (fotos en IAI Berlín) + reloj berlinés 1911 + pianos Sauter ~1940 + estudio instrumentos mayas Hamburgo 2010 + exposición IAI 15 oct 2024",
+      "eventos_relacionados": [
+        "E019",
+        "E020",
+        "E022",
+        "E026",
+        "E027",
+        "E034",
+        "E044",
+        "E049"
+      ]
+    },
+    "HILO_8": {
+      "nombre": "Sonido 13 + escala maya",
+      "descripcion": "Instrumentos prehispánicos mayas emiten escala tipo maya distinta a occidental. Baqueiro Foster documenta Los Xtoles en 1941. Carrillo: 4,640 sonidos/octava. HIPÓTESIS sobre influencia maya en el Sonido 13 — no redactar como hecho confirmado",
+      "eventos_relacionados": [
+        "E024",
+        "E026",
+        "E028",
+        "E031",
+        "E034",
+        "E035",
+        "E044"
+      ]
+    },
+    "HILO_9": {
+      "nombre": "Resistencia maya / Bataboob",
+      "descripcion": "Autoridad política maya prehispánica en Hopelchén. Para 1669 aún resistían 48 años después de la congregación española de 1621. Conecta con Guerra de Castas, tráfico a Cuba, identidad maya contemporánea",
+      "eventos_relacionados": [
+        "E009",
+        "E010",
+        "E013"
+      ]
+    },
+    "HILO_10": {
+      "nombre": "Reparto agrario resistido y despojo continuo",
+      "descripcion": "Hacendados Hopelchén (Lara, Barrera, Calderón, Solís) resistieron reparto posrevolucionario. Tierras terminaron en manos de empresas y menonitas. El despojo catastral digital continúa en 2025 (caso Poot Yeh)",
+      "eventos_relacionados": [
+        "E043",
+        "E050"
+      ]
+    },
+    "HILO_11": {
+      "nombre": "Carrillo + Chan Cil antes que Baqueiro Fóster",
+      "descripcion": "Carrillo incorporó canción de Chan Cil en Suite de los Naranjos (1920) ANTES de que Baqueiro Fóster llegara a CDMX con 7 pesos en 1921. El trovador de Los Chenes y el Sonido 13 conectados desde antes",
+      "eventos_relacionados": [
+        "E023",
+        "E028",
+        "E030",
+        "E031"
+      ]
+    }
+  }
+}

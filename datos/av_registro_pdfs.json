@@ -1,0 +1,284 @@
+{
+  "META": {
+    "archivo": "av_registro_pdfs.json",
+    "descripcion": "Registro de PDFs en /sources/ — estado de lectura y procesamiento",
+    "instruccion": "Antes de leer cualquier PDF, consultar este registro. Si estado = procesado, los datos ya están en /database/ y NO es necesario releer el PDF.",
+    "actualizado": "2026-03-24"
+  },
+
+  "pdfs": {
+
+    "700747-5268499-1-PB.pdf": {
+      "nombre_legible": "Kosichenko 2025 — Voluntarios mayas Guardia Nacional Yucatán",
+      "ruta_local": "sources/700747-5268499-1-PB.pdf",
+      "estado": "procesado",
+      "fecha_procesado": "2026-03-23",
+      "fuente_id": "F007",
+      "datos_en": "av_nucleo.json, av_cronologia.json",
+      "resumen": "Artículo académico ruso. Los siete de Bolonchenticul (AGEY caja 169, vol.119, exp.24). José Chan siervo deudor. Mayas con apellidos falsos: Dzul→Estrella, Pech→Pérez. Decreto 27 agosto 1847."
+    },
+
+    "10ferrermunoz.pdf": {
+      "nombre_legible": "Ferrer Muñoz 1999 — La independencia de México: el caso de Yucatán",
+      "ruta_local": "sources/10ferrermunoz.pdf",
+      "estado": "procesado",
+      "fecha_procesado": "2026-03-23",
+      "fuente_id": "F008",
+      "datos_en": "av_nucleo.json",
+      "resumen": "Confirma: Serapio Baqueiro Preve nacido en partido de Hopelchén. Casado con hija de Pantaleón Barrera. Cita textual sobre indios como obstáculo. Justo Sierra O'Reilly: raza maldita. Decreto Barbachano 1848."
+    },
+
+    "1870-5766-peni-12-02-00029.pdf": {
+      "nombre_legible": "Vadillo Buenfil 2017 — La Guerra de Castas en La rebelión de los Cruzoob",
+      "ruta_local": "sources/1870-5766-peni-12-02-00029.pdf",
+      "estado": "procesado",
+      "fecha_procesado": "2026-03-23",
+      "fuente_id": "F009",
+      "datos_en": "av_nucleo.json",
+      "resumen": "Análisis académico. Suárez Caamal: Calkiní 1953. Lista de novelas sobre la Guerra de Castas. Justo Sierra O'Reilly en El Fénix 1847. Tratados de Tzucacab."
+    },
+
+    "v24n1a6.pdf": {
+      "nombre_legible": "Suárez Turriza — Análisis de Península Península",
+      "ruta_local": "sources/v24n1a6.pdf",
+      "estado": "procesado",
+      "fecha_procesado": "2026-03-23",
+      "fuente_id": "F010",
+      "datos_en": "av_nucleo.json",
+      "resumen": "Análisis académico SciELO. Cuatro voces narrativas. Hopelchén como escenario de Miss Bell. Derecho de pernada documentado."
+    },
+
+    "05-de-la-nostalgia.pdf": {
+      "nombre_legible": "Suárez Turriza — análisis Península Península (versión alternativa)",
+      "ruta_local": "sources/05-de-la-nostalgia.pdf",
+      "estado": "procesado",
+      "fecha_procesado": "2026-03-23",
+      "fuente_id": "F010",
+      "datos_en": "av_nucleo.json",
+      "resumen": "Mismo análisis que v24n1a6.pdf — datos ya integrados."
+    },
+
+    "Peninsula Peninsula - Hernan Lara Zavala.pdf": {
+      "nombre_legible": "Lara Zavala — Península, Península (2008)",
+      "ruta_local": "sources/Peninsula Peninsula - Hernan Lara Zavala.pdf",
+      "estado": "procesado",
+      "fecha_procesado": "2026-03-23",
+      "fuente_id": "F004",
+      "datos_en": "av_nucleo.json, av_fuentes.json",
+      "resumen": "Miss Bell en Hopelchén 1847. Don Quintín Silvestre. Pantaleón Barrera + Cirilo Baqueiro en Baile Verde pág.18. Juan de Dios May pág.92. Don Benigno Lara de Hopelchén pág.89."
+    },
+
+    "Charras - Hernan Lara Zavala.pdf": {
+      "nombre_legible": "Lara Zavala — Charras (1990)",
+      "ruta_local": "sources/Charras - Hernan Lara Zavala.pdf",
+      "estado": "procesado",
+      "fecha_procesado": "2026-03-23",
+      "fuente_id": "F003",
+      "datos_en": "av_nucleo.json, av_fuentes.json",
+      "resumen": "Cantina Samuel Cervera en Hopelchén. El reloj. Infancia de El Charras. Apellidos de primos: Solís, Baqueiro, Calderón. Corrido de Jacinto con harmónica. Madre: Adda Lara."
+    },
+
+    "De Zitilchen - Hernan Lara Zavala.pdf": {
+      "nombre_legible": "Lara Zavala — De Zitilchén (1981)",
+      "ruta_local": "sources/De Zitilchen - Hernan Lara Zavala.pdf",
+      "estado": "procesado",
+      "fecha_procesado": "2026-03-23",
+      "fuente_id": "F002",
+      "datos_en": "av_nucleo.json, av_fuentes.json",
+      "resumen": "Zitilchén = Hopelchén. Reloj de la torre. Apellidos Amaro, Negrón, Baqueiro en la plaza. Maestra de Holcatzín. Don Leandro Amaro dice: la tierra siempre perteneció a los indios."
+    },
+
+    "La_guerra_de_Castas_en_Peninsula_Peninsu.pdf": {
+      "nombre_legible": "Análisis La guerra de Castas en Península Península",
+      "ruta_local": "sources/La_guerra_de_Castas_en_Peninsula_Peninsu.pdf",
+      "estado": "procesado",
+      "fecha_procesado": "2026-03-23",
+      "fuente_id": "F010",
+      "datos_en": "av_nucleo.json",
+      "resumen": "Datos ya integrados en análisis de Península Península."
+    },
+
+    "83536.pdf": {
+      "nombre_legible": "Digesto Constitucional SCJN — Campeche (2010)",
+      "ruta_local": "sources/83536.pdf",
+      "estado": "procesado",
+      "fecha_procesado": "2026-03-22",
+      "fuente_id": "F012_legisladores",
+      "datos_en": "database/_sesiones_anteriores/legisladores_hopelchen_1861-2003.json",
+      "resumen": "Lista completa de legisladores de Hopelchén y Bolonchenticul 1861-2003. Romualdo Baqueiro Lara en Constituyente 1861. Benigno Lara Negrón 1871."
+    },
+
+    "Dos mil años de silencio.pdf": {
+      "nombre_legible": "Dan — Dos Mil Años en Silencio (libro en desarrollo)",
+      "ruta_local": "sources/Dos mil años de silencio.pdf",
+      "estado": "procesado",
+      "fecha_procesado": "2026-03-22",
+      "datos_en": "av_bloques.json, AV_CONTEXTO.md",
+      "resumen": "El libro de Dan. 21 capítulos + conclusión. Base editorial del proyecto."
+    },
+
+    "Hispadoc-ElProcesoNarrativoDeHernanLaraZavala-9494632.pdf": {
+      "nombre_legible": "Análisis proceso narrativo Hernán Lara Zavala",
+      "ruta_local": "sources/Hispadoc-ElProcesoNarrativoDeHernanLaraZavala-9494632.pdf",
+      "estado": "procesado",
+      "fecha_procesado": "2026-03-23",
+      "datos_en": "av_nucleo.json",
+      "resumen": "Análisis académico de la obra de Lara Zavala incluyendo De Zitilchén."
+    },
+
+    "Los_misterios_de_Chan_Santa_Cruz.pdf": {
+      "nombre_legible": "Pantaleón Barrera — Los misterios de Chan Santa Cruz (novela, 1864)",
+      "ruta_local": "sources/Los_misterios_de_Chan_Santa_Cruz.pdf",
+      "estado": "pendiente",
+      "fecha_procesado": null,
+      "fuente_id": "FP001",
+      "datos_en": null,
+      "notas": "La novela de Barrera firmada como Napoleón Trebarra. Verificar seudónimo exacto en portada. Pendiente de análisis completo."
+    },
+
+    "los-mayas-antiguos-monografias-de-arqueologia-etnografia-y-linguistica-mayas-899329.pdf": {
+      "nombre_legible": "Los Mayas Antiguos — El Colegio de México (1941)",
+      "ruta_local": "sources/los-mayas-antiguos-monografias-de-arqueologia-etnografia-y-linguistica-mayas-899329.pdf",
+      "estado": "procesado_parcial",
+      "fecha_procesado": "2026-03-23",
+      "fuente_id": "F006",
+      "datos_en": "av_nucleo.json, av_fuentes.json",
+      "notas": "Solo se procesó el capítulo de Baqueiro Foster (pp.264-271). Resto del libro pendiente."
+    },
+
+    "los-mayas-antiguos-monografias-de-arqueologia-etnografia-y-linguistica-mayas-899329_compressed.pdf": {
+      "nombre_legible": "Los Mayas Antiguos — versión comprimida",
+      "ruta_local": "sources/los-mayas-antiguos-monografias-de-arqueologia-etnografia-y-linguistica-mayas-899329_compressed.pdf",
+      "estado": "duplicado",
+      "notas": "Misma fuente que la versión sin comprimir. No procesar de nuevo."
+    },
+
+    "Primeros años posrevolución Campeche.pdf": {
+      "nombre_legible": "Posrevolución en Campeche — primeros años",
+      "ruta_local": "sources/Primeros años posrevolución Campeche.pdf",
+      "estado": "pendiente",
+      "fecha_procesado": null,
+      "notas": "Relevante para entradas C8, B10, F-RojoAmanecer. Pendiente de lectura completa."
+    },
+
+    "CampeChe_Una_C_iU_da_d_e_n_la_penins_Ula (1).pdf": {
+      "nombre_legible": "Campeche — ciudad en la Península",
+      "ruta_local": "sources/CampeChe_Una_C_iU_da_d_e_n_la_penins_Ula (1).pdf",
+      "estado": "pendiente",
+      "fecha_procesado": null,
+      "notas": "Contexto histórico regional. Leer para entradas de Bloque C y contexto del período colonial."
+    },
+
+    "Macho viejo - Hernan Lara Zavala.pdf": {
+      "nombre_legible": "Lara Zavala — Macho viejo",
+      "ruta_local": "sources/Macho viejo - Hernan Lara Zavala.pdf",
+      "estado": "pendiente",
+      "fecha_procesado": null,
+      "notas": "Obra de Lara Zavala. Verificar si contiene referencias a Hopelchén."
+    },
+
+    "Antologia personal de Hernan Lara Zavala - Hernan Lara Zavala.pdf": {
+      "nombre_legible": "Lara Zavala — Antología personal",
+      "ruta_local": "sources/Antologia personal de Hernan Lara Zavala - Hernan Lara Zavala.pdf",
+      "estado": "pendiente",
+      "fecha_procesado": null,
+      "notas": "Antología. Puede contener textos sobre Hopelchén no incluidos en otros libros."
+    },
+
+    "Hernan_Lara_Zavala_librillo.pdf": {
+      "nombre_legible": "Lara Zavala — librillo biográfico",
+      "ruta_local": "sources/Hernan_Lara_Zavala_librillo.pdf",
+      "estado": "pendiente",
+      "fecha_procesado": null,
+      "notas": "Material biográfico sobre Lara Zavala. Útil para entrada B-LZavala."
+    },
+
+    "14-...de-como-los-libaneses.pdf": {
+      "nombre_legible": "Ramírez Carrillo — De cómo los libaneses conquistaron la Península (UNAM 2012)",
+      "ruta_local": "sources/14-...de-como-los-libaneses.pdf",
+      "estado": "pendiente",
+      "fecha_procesado": null,
+      "fuente_id": "FP011",
+      "notas": "Relevante para entrada H1 — Los libaneses en Hopelchén. PRIORIDAD ALTA."
+    },
+
+    "Dialnet-SierraSur-709324.pdf": {
+      "nombre_legible": "Sierra Sur — artículo Dialnet",
+      "ruta_local": "sources/Dialnet-SierraSur-709324.pdf",
+      "estado": "pendiente",
+      "fecha_procesado": null,
+      "notas": "Contenido pendiente de verificar. Posible relevancia para Justo Sierra O'Reilly."
+    },
+
+    "0865175.pdf": {
+      "nombre_legible": "Pendiente identificar",
+      "ruta_local": "sources/0865175.pdf",
+      "estado": "pendiente",
+      "fecha_procesado": null,
+      "notas": "Nombre de archivo no descriptivo. Leer para identificar contenido y relevancia."
+    },
+
+    "17_biblio.pdf": {
+      "nombre_legible": "Bibliografía — pendiente identificar",
+      "ruta_local": "sources/17_biblio.pdf",
+      "estado": "pendiente",
+      "fecha_procesado": null,
+      "notas": "Posiblemente bibliografía complementaria. Leer para identificar."
+    },
+
+    "31YU2016ED081.pdf": {
+      "nombre_legible": "Pendiente identificar — posiblemente gobierno Yucatán 2016",
+      "ruta_local": "sources/31YU2016ED081.pdf",
+      "estado": "pendiente",
+      "fecha_procesado": null,
+      "notas": "Leer para identificar contenido y relevancia."
+    },
+
+    "R05042.pdf": {
+      "nombre_legible": "Pendiente identificar",
+      "ruta_local": "sources/R05042.pdf",
+      "estado": "pendiente",
+      "fecha_procesado": null,
+      "notas": "Leer para identificar contenido y relevancia."
+    },
+
+    "PfDyihmsiwwUWFBtCnsyA0NQSQWxzbwjwYYhtPJx.pdf": {
+      "nombre_legible": "Pendiente identificar — nombre generado automáticamente",
+      "ruta_local": "sources/PfDyihmsiwwUWFBtCnsyA0NQSQWxzbwjwYYhtPJx.pdf",
+      "estado": "pendiente",
+      "fecha_procesado": null,
+      "notas": "Nombre de archivo automático. Leer para identificar."
+    },
+
+    "feb_art16.pdf": {
+      "nombre_legible": "Artículo — pendiente identificar",
+      "ruta_local": "sources/feb_art16.pdf",
+      "estado": "pendiente",
+      "fecha_procesado": null,
+      "notas": "Leer para identificar contenido y relevancia."
+    },
+
+    "1997_1442 SEGUNDA SECCION.pdf": {
+      "nombre_legible": "Posiblemente Periódico Oficial Campeche 1997",
+      "ruta_local": "sources/1997_1442 SEGUNDA SECCION.pdf",
+      "estado": "pendiente",
+      "fecha_procesado": null,
+      "notas": "161 MB. Posiblemente legislación o gaceta oficial. Verificar contenido antes de procesar completo."
+    }
+
+  },
+
+  "resumen": {
+    "total_pdfs": 28,
+    "procesados": 12,
+    "procesados_parcial": 1,
+    "duplicados": 1,
+    "pendientes": 14,
+    "pendientes_prioritarios": [
+      "Los_misterios_de_Chan_Santa_Cruz.pdf — verificar seudónimo de Barrera",
+      "14-...de-como-los-libaneses.pdf — entrada H1",
+      "Primeros años posrevolución Campeche.pdf — entradas C8, B10",
+      "0865175.pdf, R05042.pdf, PfDyihmsiwwUWFBtCnsyA0NQSQWxzbwjwYYhtPJx.pdf — identificar"
+    ]
+  }
+}
