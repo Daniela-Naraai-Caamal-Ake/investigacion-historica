@@ -740,12 +740,12 @@ def _extraer_entradas_md(datos_md, nombre_archivo):
             titulo=f"{titulo_doc} {titulo_sec}",
             descripcion=contenido,
         )
-        # Best-effort fuente: look for lines starting with "Fuente:" or "> "
+        # Best-effort fuente: look for lines starting with "Fuente:" or "*Fuente"
         fuente = ""
         for linea in contenido.splitlines():
             linea_strip = linea.strip()
             if linea_strip.lower().startswith("fuente:") or linea_strip.lower().startswith("*fuente"):
-                fuente = linea_strip.lstrip("*").lstrip("Ffuente:").strip().strip("*")
+                fuente = re.sub(r'^\*?[Ff]uente\s*:\s*\*?', '', linea_strip).strip("*").strip()
                 break
 
         entradas.append(_entrada(
