@@ -31,6 +31,8 @@ from typing import Any
 # ─── Rutas base ─────────────────────────────────────────────────────────────
 ROOT = Path(__file__).resolve().parent.parent
 DATOS = ROOT / "datos"
+DATOS_CURATED = DATOS / "curated"
+DATOS_HOPELCHEN = DATOS / "hopelchen"
 FUENTES_DIR = ROOT / "fuentes"
 TRABAJO_DIR = ROOT / "trabajo" / "periodos"
 INDICE_PATH = ROOT / "trabajo" / "indice.md"
@@ -265,10 +267,10 @@ def make_catalog_entry(fid: str, source: dict, origin_file: str) -> str:
 
 def generate_catalog() -> dict[str, str]:
     """
-    Lee datos/03_fuentes_bibliograficas.json y devuelve
+    Lee datos/curated/03_fuentes_bibliograficas.json y devuelve
     un dict {id: chicago_citation} además de escribir el catálogo.
     """
-    src_path = DATOS / "03_fuentes_bibliograficas.json"
+    src_path = DATOS_CURATED / "03_fuentes_bibliograficas.json"
     if not src_path.exists():
         print("  ⚠  No se encontró 03_fuentes_bibliograficas.json")
         return {}
@@ -277,7 +279,7 @@ def generate_catalog() -> dict[str, str]:
     meta = data.get("META", {})
 
     id_map: dict[str, dict] = {}  # fid -> source dict
-    origin = "03_fuentes_bibliograficas.json"
+    origin = "curated/03_fuentes_bibliograficas.json"
 
     def collect(section: Any, section_name: str) -> None:
         if isinstance(section, dict):
@@ -364,7 +366,7 @@ PERIOD_HEADER = """\
 > **Nodo:** {nodo_id} · **Era:** {era}  
 > **Período:** {rango_temporal}  
 > **Hipótesis marco:** {hipotesis}  
-> **Archivo origen:** `datos/{filename}`  
+> **Archivo origen:** `datos/hopelchen/{filename}`  
 > **Generado por:** `tools/generar_redaccion.py`
 
 ---
@@ -382,7 +384,7 @@ BLOCK_TEMPLATE = """\
 | **Personajes** | {personajes} |
 | **Cargos** | {cargos} |
 | **Fuente(s)** | {fuentes_str} |
-| **Origen** | `datos/{filename}` |
+| **Origen** | `datos/hopelchen/{filename}` |
 
 {cita}
 {notas}
@@ -548,7 +550,7 @@ def generate_periods() -> list[tuple[str, str, str, str]]:
     Procesa todos los HOPELCHEN_NODO_*.json.
     Devuelve lista de (file_slug, titulo, rango_temporal, filename).
     """
-    nodo_files = sorted(DATOS.glob("HOPELCHEN_NODO_*.json"))
+    nodo_files = sorted(DATOS_HOPELCHEN.glob("HOPELCHEN_NODO_*.json"))
     # Deduplicate NODO_006 — prefer PoderPolitico_Local (more complete)
     seen_ids: set[str] = set()
     filtered = []
@@ -577,7 +579,7 @@ def generate_periods() -> list[tuple[str, str, str, str]]:
 PERSONAJES_HEADER = """\
 # Mapa de Personajes — Investigación Histórica de Hopelchén
 
-> Fuente principal: `datos/01_personajes.json`  
+> Fuente principal: `datos/curated/01_personajes.json`  
 > Generado por: `tools/generar_redaccion.py`
 
 **Cómo leer este archivo:**  
@@ -599,7 +601,7 @@ def _fmt_list(items: Any) -> str:
 
 
 def generate_personajes() -> None:
-    src_path = DATOS / "01_personajes.json"
+    src_path = DATOS_CURATED / "01_personajes.json"
     if not src_path.exists():
         return
 
@@ -620,7 +622,7 @@ def generate_personajes() -> None:
             sections.append(f"| **Tipo** | {tipo} |\n")
             sections.append(f"| **Período** | {periodo} |\n")
             sections.append(f"| **Fuente** | {fuente} |\n")
-            sections.append(f"| **Origen** | `datos/01_personajes.json` |\n\n")
+            sections.append(f"| **Origen** | `datos/curated/01_personajes.json` |\n\n")
 
             linea = linaje.get("linea_cronologica", [])
             if linea:
@@ -668,7 +670,7 @@ def generate_personajes() -> None:
             sections.append(f"| **Lugar** | {lugar} |\n")
             sections.append(f"| **Fuente(s)** | {fuentes_str} |\n")
             sections.append(f"| **Conexiones** | {conexiones} |\n")
-            sections.append(f"| **Origen** | `datos/01_personajes.json` |\n\n")
+            sections.append(f"| **Origen** | `datos/curated/01_personajes.json` |\n\n")
             if descripcion:
                 sections.append(f"> {descripcion[:400]}\n\n")
             if hechos:
@@ -695,7 +697,7 @@ datos fuente en bloques con **metadatos explícitos** (tipo, fecha, lugar,
 personajes, cargos, fuentes rastreables).
 
 Para agregar nueva información:
-1. Edita el JSON en `datos/` o agrega un nuevo `HOPELCHEN_NODO_*.json`.
+1. Edita el JSON en `datos/hopelchen/` o agrega un nuevo `HOPELCHEN_NODO_*.json`.
 2. Ejecuta: `python tools/generar_redaccion.py`
 3. El archivo de período correspondiente se regenera.
 
@@ -713,7 +715,7 @@ Para agregar nueva información:
 
 """
 
-INDICE_ENTRY = "| [{titulo_corto}]({link}) | {rango} | `datos/{filename}` |\n"
+INDICE_ENTRY = "| [{titulo_corto}]({link}) | {rango} | `datos/hopelchen/{filename}` |\n"
 
 
 def generate_indice(entries: list[tuple[str, str, str, str]]) -> None:

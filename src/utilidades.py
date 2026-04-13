@@ -49,10 +49,11 @@ def guardar_json(datos, ruta_archivo):
 
 def _listar_archivos_por_extension(directorio, extension):
     """
-    Lista los archivos de un directorio que tienen la extensión indicada.
+    Lista recursivamente los archivos de un directorio (y sus subdirectorios)
+    que tienen la extensión indicada.
 
     Args:
-        directorio (str): Ruta al directorio a explorar.
+        directorio (str): Ruta al directorio raíz a explorar.
         extension (str): Extensión a buscar, incluyendo el punto (ej. '.json').
 
     Returns:
@@ -62,11 +63,12 @@ def _listar_archivos_por_extension(directorio, extension):
         return []
 
     ext_lower = extension.lower()
-    return sorted(
-        os.path.join(directorio, nombre)
-        for nombre in os.listdir(directorio)
-        if nombre.lower().endswith(ext_lower)
-    )
+    rutas = []
+    for raiz, _dirs, archivos in os.walk(directorio):
+        for nombre in archivos:
+            if nombre.lower().endswith(ext_lower):
+                rutas.append(os.path.join(raiz, nombre))
+    return sorted(rutas)
 
 
 def listar_archivos_json(directorio):

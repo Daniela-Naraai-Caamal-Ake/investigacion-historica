@@ -33,7 +33,7 @@
 
 ### Opción A — Actualizar datos JSON y regenerar (recomendado)
 
-1. Edita o crea un archivo en `datos/` (ej. `datos/HOPELCHEN_NODO_001_Ocupacion_Prehispanica.json`).
+1. Edita o crea un archivo en `datos/hopelchen/` (ej. `datos/hopelchen/HOPELCHEN_NODO_001_Ocupacion_Prehispanica.json`).
 2. Ejecuta:
    ```bash
    python tools/generar_redaccion.py
@@ -76,6 +76,9 @@ _Origen: Autor, Título. Ciudad: Editorial, Año._
 
 ```
 investigacion-historica/
+├── src/
+│   ├── analizador.py                # Analizador CLI (buscar, filtrar, reportar)
+│   └── utilidades.py                # Funciones auxiliares compartidas
 ├── trabajo/
 │   ├── indice.md                    # Índice de períodos — empieza aquí
 │   └── periodos/                    # Un archivo .md por período/nodo
@@ -87,15 +90,24 @@ investigacion-historica/
 ├── tools/
 │   └── generar_redaccion.py         # Script generador (idempotente)
 ├── datos/                           # Fuentes originales (no modificar)
-│   ├── 01_personajes.json
-│   ├── 02_cronologia_eventos.json
-│   ├── 03_fuentes_bibliograficas.json
-│   ├── HOPELCHEN_NODO_001-008.json  # Nodos históricos por período
-│   └── *.md / *.pdf
+│   ├── curated/                     # Datos canónicos: personajes, eventos, fuentes
+│   │   ├── 01_personajes.json
+│   │   ├── 02_cronologia_eventos.json
+│   │   ├── 03_fuentes_bibliograficas.json
+│   │   ├── REPOSITORIO_BIBLIOGRAFICO.json / .md
+│   │   └── *.json
+│   ├── hopelchen/                   # Nodos y preguntas históricas de Hopelchén
+│   │   ├── HOPELCHEN_NODO_001-008.json
+│   │   ├── HOPELCHEN_PREGUNTAS_001-008.json
+│   │   └── *.json
+│   ├── borradores/                  # Borradores de capítulos (A*.md, B*.md)
+│   ├── archivo_vivo/                # Archivos AV_*, ARCHIVO_VIVO_*, av_*
+│   ├── investigacion/               # Reportes de sesiones de investigación
+│   ├── logs/                        # Logs de sesión y reportes de proceso
+│   └── pdfs/                        # PDFs fuente en datos/
 ├── tests/
-├── analizador.py
-├── utilidades.py
-└── requirements.txt
+├── requirements.txt
+└── README.md
 ```
 
 ---
@@ -111,10 +123,10 @@ python tools/generar_redaccion.py
 ### Analizar archivos de datos
 
 ```bash
-python analizador.py
-python analizador.py datos/01_personajes.json
-python analizador.py --buscar "Hopelchén"
-python analizador.py --reporte
+python src/analizador.py
+python src/analizador.py datos/curated/01_personajes.json
+python src/analizador.py --buscar "Hopelchén"
+python src/analizador.py --reporte
 ```
 
 ### Ejecutar pruebas

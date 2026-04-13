@@ -3,7 +3,7 @@
 > **Nodo:** 002 · **Era:** Colonial temprana  
 > **Período:** 1517 — 1669  
 > **Hipótesis marco:** El conocimiento y la historia han sido manipulados por élites de poder, dejando atrás el linaje maya. El control de la tierra ha sido definido por quien gobierna o quien tiene poder.  
-> **Archivo origen:** `datos/HOPELCHEN_NODO_002_Conquista_Colonial.json`  
+> **Archivo origen:** `datos/hopelchen/HOPELCHEN_NODO_002_Conquista_Colonial.json`  
 > **Generado por:** `tools/generar_redaccion.py`
 
 ---
@@ -18,7 +18,7 @@
 | **Personajes** | Nachi Cocom (Halach uinik (señor supremo) de Sotuta — enemigo de los Xiúes y de los españoles); Ah Dzum / Tutul Xiu (Señor de Maní — aliado de los españoles en la tercera campaña de conquista) |
 | **Cargos** | Halach uinik (señor supremo) de Sotuta — enemigo de los Xiúes y de los españoles; Señor de Maní — aliado de los españoles en la tercera campaña de conquista |
 | **Fuente(s)** | [Wikipedia — Conquista de Yucatán](<https://es.wikipedia.org/wiki/Conquista_de_Yucat%C3%A1n>); Ralph L. Roys — The Political Geography of the Yucatan Maya |
-| **Origen** | `datos/HOPELCHEN_NODO_002_Conquista_Colonial.json` |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_002_Conquista_Colonial.json` |
 
 > A la llegada de los españoles, la Península de Yucatán no era una unidad política unificada sino un mosaico de entre 16 y 24 jurisdicciones o 'kuchkabalob' autónomas con rivalidades activas entre sí. Los Chenes, como región, no aparecen nombrados como una jurisdicción separada en los registros coloniales tempranos, lo que sugiere que quedaban en una zona de frontera o transición entre las provincias de Ah Canul (noroeste) y las regiones interiores sin nombre hispánico formal. La fragmentación política maya fue aprovechada sistemáticamente por los Montejo para establecer alianzas y contra-alianzas.
 
@@ -40,7 +40,7 @@ _Origen: Wikipedia — Conquista de Yucatán <https://es.wikipedia.org/wiki/Conq
 | **Personajes** | Francisco de Montejo (el Adelantado) (Conquistador. Obtuvo capitulación real el 8 de diciembre de 1526 para 'conquistar y poblar las islas de Yucatán y Cozumel' a su propia costa.); Francisco de Montejo y León (el Mozo) (Fundó San Francisco de Campeche y Mérida (1542). Vendió prisioneros mayas como esclavos — prohibido por la Real Audiencia.); Francisco de Montejo (el Sobrino) (Conquistador militar. Pacificó el oriente de Yucatán en 1547.) |
 | **Cargos** | Conquistador. Obtuvo capitulación real el 8 de diciembre de 1526 para 'conquistar y poblar las islas de Yucatán y Cozumel' a su propia costa.; Fundó San Francisco de Campeche y Mérida (1542). Vendió prisioneros mayas como esclavos — prohibido por la Real Audiencia.; Conquistador militar. Pacificó el oriente de Yucatán en 1547. |
 | **Fuente(s)** | [Confabulario / El Universal — Los mayas: una larga y sinuosa conquista](<https://confabulario.eluniversal.com.mx/los-mayas-una-larga-y-sinuosa-conquista/>); [Guía Turística México — Hopelchén](<https://www.guiaturisticamexico.com/municipio.php?id_e=4&id_Municipio=00193&nombre=>) |
-| **Origen** | `datos/HOPELCHEN_NODO_002_Conquista_Colonial.json` |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_002_Conquista_Colonial.json` |
 
 > La conquista española de Yucatán duró 20 años (exactamente un katún maya) y requirió tres campañas. La familia Montejo — padre (el Adelantado), hijo (el Mozo) y sobrino (el Sobrino) — lideró el proceso. Los Chenes quedaron como zona de refugio y resistencia: por su posición geográfica interior, lejos de la costa controlada, se convirtieron en corredor de mayas que huían de las encomiendas y la evangelización forzada. Hopelchén era 'pueblo de enlace, tránsito obligado para la población fugitiva del camino real en su huída a los montes de la Pimienta y Chichanhá'.
 
@@ -62,7 +62,7 @@ _Origen: Confabulario / El Universal — Los mayas: una larga y sinuosa conquist
 | **Personajes** | Tutul Xiu (bautizado como Melchor) (Señor supremo de Maní. Primer gran cacique maya en aliarse con los españoles en Yucatán. Su conversión al catolicismo fue 'efecto dominó' que sometió la mitad oeste de la Península.); Kukum Xiu (bautizado como Francisco de Montejo Xiu) (Hijo o sucesor de Tutul Xiu. Adoptó el apellido del conquistador al bautizarse en 1548 en Maní.); Gaspar Antonio Chi (Xiu) (Hijo de Tutul Xiu. Intérprete y colaborador de los franciscanos. Esposo de Ixkaual, también de linaje Xiu.) |
 | **Cargos** | Señor supremo de Maní. Primer gran cacique maya en aliarse con los españoles en Yucatán. Su conversión al catolicismo fue 'efecto dominó' que sometió la mitad oeste de la Península.; Hijo o sucesor de Tutul Xiu. Adoptó el apellido del conquistador al bautizarse en 1548 en Maní.; Hijo de Tutul Xiu. Intérprete y colaborador de los franciscanos. Esposo de Ixkaual, también de linaje Xiu. |
 | **Fuente(s)** | Wikipedia — Conquista de Yucatán / Spanish conquest of Yucatán (inglés) |
-| **Origen** | `datos/HOPELCHEN_NODO_002_Conquista_Colonial.json` |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_002_Conquista_Colonial.json` |
 
 > Los Tutul Xiúes, cuyo territorio incluía partes limítrofes de lo que hoy es Hopelchén (Dzibil-Noh-Aac era habitado por los Xiúes), se aliaron estratégicamente con los españoles en 1541-1542 para obtener ventaja sobre sus enemigos Cocomes. El señor Tutul Xiu se bautizó como Melchor y permaneció con los españoles en Mérida dos meses recibiendo instrucción cristiana. Esta alianza determinó que las tierras Xiúes, incluyendo partes de Los Chenes, fueran más 'pacíficamente' integradas al sistema colonial que las regiones de resistencia. Sin embargo, la colaboración fue un arma de doble filo: los Xiúes mantuvieron poder local reconocido por la Corona, pero perdieron soberanía real.
 
@@ -84,7 +84,7 @@ _Origen: Wikipedia — Conquista de Yucatán / Spanish conquest of Yucatán (ing
 | **Personajes** | Sacerdotes mayas rebeldes (no nombrados en fuentes consultadas) (Líderes de la rebelión de 1546. Fueron sentenciados a muerte mediante proceso legal.); Francisco de Montejo (el Adelantado) (Llegó a Campeche el 25 de diciembre de 1546 para recibir el mando de su hijo el Mozo.); Francisco Tamayo Pacheco (Capitán español que sometió el último reducto rebelde en la jurisdicción de Chikinchel en marzo de 1547.) |
 | **Cargos** | Líderes de la rebelión de 1546. Fueron sentenciados a muerte mediante proceso legal.; Llegó a Campeche el 25 de diciembre de 1546 para recibir el mando de su hijo el Mozo.; Capitán español que sometió el último reducto rebelde en la jurisdicción de Chikinchel en marzo de 1547. |
 | **Fuente(s)** | [Confabulario / El Universal — Descubrimiento y conquista de Yucatán](<https://confabulario.eluniversal.com.mx/descubrimiento-y-conquista-de-yucatan/>); [Wikipedia — Conquista de Yucatán](<https://es.wikipedia.org/wiki/Conquista_de_Yucat%C3%A1n>) |
-| **Origen** | `datos/HOPELCHEN_NODO_002_Conquista_Colonial.json` |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_002_Conquista_Colonial.json` |
 
 > El 9 de noviembre de 1546 (fecha maya 5 Cimi 19 Xul — interpretable como 'muerte del español y fin del dominio colonial') estalló una rebelión generalizada en el oriente y sur de la Península. Participaron los pueblos de Sací, Popolá, Tihosuco, Sotuta, Chancenote, Chetumal y Chauac-há. Unos veinte encomenderos españoles fueron asesinados. En el área de Campeche se esclavizaron 2,000 prisioneros mayas en su mayoría cupules — práctica contraria a las Leyes Nuevas de 1542 pero amparada por la capitulación original de Montejo. Los líderes de la rebelión eran principalmente sacerdotes mayas. Los Chenes quedaron como zona intermedia: suficientemente al interior para servir de refugio, suficientemente en la ruta principal para ser vigilados.
 
@@ -106,7 +106,7 @@ _Origen: Confabulario / El Universal — Descubrimiento y conquista de Yucatán 
 | **Personajes** | Franciscanos (orden no individualizada en fuentes consultadas) (Responsables de la evangelización y administración de la doctrina de Hopelchén desde 1621) |
 | **Cargos** | Responsables de la evangelización y administración de la doctrina de Hopelchén desde 1621 |
 | **Fuente(s)** | Wikipedia — Hopelchén / INDEFOS / Archivo Municipal de Hopelchén |
-| **Origen** | `datos/HOPELCHEN_NODO_002_Conquista_Colonial.json` |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_002_Conquista_Colonial.json` |
 
 > Hacia 1621 Hopelchén fue establecido formalmente como 'pueblo de congregación' — un mecanismo colonial de concentración forzada de población maya dispersa con doble objetivo: evangelización y control tributario/laboral. Para 1630 concentraba aproximadamente 20,000 indígenas. Los pueblos de congregación eran llamados 'Doctrinas' — pueblos donde los indígenas debían trabajar y recibir enseñanza cristiana a cargo de órdenes regulares (en este caso, franciscanos). La congregación de Hopelchén fue parte de un proceso regional más amplio de reconstrucción del control colonial después de la rebelión de 1546-1547.
 
@@ -128,7 +128,7 @@ _Origen: Wikipedia — Hopelchén / INDEFOS / Archivo Municipal de Hopelchén_
 | **Personajes** | Grupo español de 1622 (no identificado nominalmente) (Primera referencia documental al asentamiento de Hopelchén) |
 | **Cargos** | Primera referencia documental al asentamiento de Hopelchén |
 | **Fuente(s)** | [Archivo Municipal de Hopelchén — CensoArchivos / Ministerio de Cultura España](<http://censoarchivos.mcu.es/CensoGuia/archivodetail.htm?id=55725>) |
-| **Origen** | `datos/HOPELCHEN_NODO_002_Conquista_Colonial.json` |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_002_Conquista_Colonial.json` |
 
 > En 1622, un grupo español en tránsito por Hopelchén — intentando conquistar a los Itzaes refugiados en la laguna de Petén Itzá, Guatemala — deja las primeras noticias documentadas del asentamiento. Hopelchén funcionaba como punto de paso estratégico en la ruta hacia el interior selvático y Guatemala. Los Itzaes de Tayasal, lago Petén, fueron el último grupo maya en ser conquistado — en 1697, 170 años después de que los españoles llegaron a la Península.
 
@@ -150,7 +150,7 @@ _Origen: Archivo Municipal de Hopelchén — CensoArchivos / Ministerio de Cultu
 | **Personajes** | Los bataboob de Hopelchén (1669) — no identificados nominalmente (Autoridades mayas locales que detentaban el poder real en Hopelchén y se oponían al control colonial) |
 | **Cargos** | Autoridades mayas locales que detentaban el poder real en Hopelchén y se oponían al control colonial |
 | **Fuente(s)** | INDEFOS — Hopelchén / Archivo Municipal de Hopelchén (CensoArchivos) |
-| **Origen** | `datos/HOPELCHEN_NODO_002_Conquista_Colonial.json` |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_002_Conquista_Colonial.json` |
 
 > Para 1669 — 48 años después de la fundación formal de Hopelchén — los bataboob (plural de batab: autoridad local maya, equivalente a gobernante de segunda jerarquía bajo el halach uinik) seguían siendo quienes detentaban el poder real en Hopelchén y 'repudiaban el control de los blancos'. Este dato, repetido por múltiples fuentes (INDEFOS, Archivo Municipal, Guía Turística México, Pueblos América), implica que la congregación de 1621 no logró en medio siglo quebrar la estructura de autoridad maya local. Los bataboob mantuvieron poder efectivo al menos hasta 1669.
 
@@ -172,7 +172,7 @@ _Origen: INDEFOS — Hopelchén / Archivo Municipal de Hopelchén (CensoArchivos
 | **Personajes** | — |
 | **Cargos** | — |
 | **Fuente(s)** | Wikipedia — Encomienda / Nueva Escuela Mexicana SEP; El Colegio de México — Encomienda, Cabildo y Gubernatura Indígena en Yucatán, 1541-1583 |
-| **Origen** | `datos/HOPELCHEN_NODO_002_Conquista_Colonial.json` |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_002_Conquista_Colonial.json` |
 
 > El sistema de encomienda fue el primer mecanismo formalizado de control de tierra, trabajo y tributo en Los Chenes. Los encomenderos recibían el derecho a cobrar tributo (maíz, miel, cera, mantas, trabajo) de los indígenas asignados, sin recibir propiedad directa de la tierra — aunque en la práctica el control económico equivalía a control territorial. El tributo en Los Chenes incluía productos de la región: maíz, miel, cera, maderas. Los encomenderos residían en la ciudad (Campeche o Mérida) mientras sus administradores locales extraían el tributo a través de los caciques mayas intermediarios.
 

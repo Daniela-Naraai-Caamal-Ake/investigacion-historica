@@ -24,7 +24,7 @@ Cada ID enlaza a la entrada de este catálogo.
 | **Autor** | Serapio Baqueiro Preve |
 | **Año** | 1878 (3 tomos: tomo I 1871, tomo II 1873, tomo III 1884) |
 | **Confiabilidad** | alta |
-| **Origen (repo)** | `datos/03_fuentes_bibliograficas.json` |
+| **Origen (repo)** | `datos/curated/03_fuentes_bibliograficas.json` |
 
 **Cita Chicago:** Serapio Baqueiro Preve. *Ensayo histórico sobre las revoluciones de Yucatán desde el año 1840 hasta 1864*. Universidad Autónoma de Yucatán (UADY), 1990.
 
@@ -46,7 +46,7 @@ Cada ID enlaza a la entrada de este catálogo.
 | **Año** | s.f. |
 | **Confiabilidad** | alta |
 | **Archivo local** | `sources/700747-5268499-1-PB.pdf` |
-| **Origen (repo)** | `datos/03_fuentes_bibliograficas.json` |
+| **Origen (repo)** | `datos/curated/03_fuentes_bibliograficas.json` |
 
 **Cita Chicago:** Ivan Nikítovich Kosichenko. "Майяские волонтеры на службе Национальной гвардии Юкатана (Voluntarios mayas en la Guardia Nacional de Yucatán, 1847-1851)." *Latinskaya Amerika (Латинская Америка), nº 2/2025, pp.87-101*. <https://doi.org/10.31857/S0044748X25020078>.
 
@@ -68,7 +68,7 @@ Cada ID enlaza a la entrada de este catálogo.
 | **Año** | 1999-2000 |
 | **Confiabilidad** | alta |
 | **Archivo local** | `sources/10ferrermunoz.pdf` |
-| **Origen (repo)** | `datos/03_fuentes_bibliograficas.json` |
+| **Origen (repo)** | `datos/curated/03_fuentes_bibliograficas.json` |
 
 **Cita Chicago:** Manuel Ferrer Muñoz. "La independencia de México vivida en la periferia: el caso de Yucatán." *Ius Fugit. Revista de Estudios Histórico-Jurídicos de la Corona de Aragón* (1999-2000).
 
@@ -89,7 +89,7 @@ Cada ID enlaza a la entrada de este catálogo.
 | **Año** | 2017 |
 | **Confiabilidad** | alta |
 | **Archivo local** | `sources/1870-5766-peni-12-02-00029.pdf` |
-| **Origen (repo)** | `datos/03_fuentes_bibliograficas.json` |
+| **Origen (repo)** | `datos/curated/03_fuentes_bibliograficas.json` |
 
 **Cita Chicago:** Carlos Vadillo Buenfil. "La Guerra de Castas en La rebelión de los Cruzoob, de Miguel Ángel Suárez Caamal: de la veracidad histórica a la ficción novelesca." *Península* (2017). <https://doi.org/10.1016/j.rpns.2017.06.001>.
 
@@ -108,7 +108,7 @@ Cada ID enlaza a la entrada de este catálogo.
 | **Año** | 2013 |
 | **Confiabilidad** | alta |
 | **Archivo local** | `sources/v24n1a6.pdf` |
-| **Origen (repo)** | `datos/03_fuentes_bibliograficas.json` |
+| **Origen (repo)** | `datos/curated/03_fuentes_bibliograficas.json` |
 
 **Cita Chicago:** Suárez Turriza, Tatiana. "Península, Península; el Yucatán del siglo XIX en la memoria del novelista contemporáneo." *Literatura Mexicana* (2013).
 
@@ -122,7 +122,7 @@ Cada ID enlaza a la entrada de este catálogo.
 | **Año** | 2010 |
 | **Confiabilidad** | alta |
 | **Archivo local** | `sources/83536.pdf` |
-| **Origen (repo)** | `datos/03_fuentes_bibliograficas.json` |
+| **Origen (repo)** | `datos/curated/03_fuentes_bibliograficas.json` |
 
 **Cita Chicago:** Manuel González Oropeza y David Cienfuegos Salgado. *Digesto Constitucional Mexicano — Campeche*. Suprema Corte de Justicia de la Nación (SCJN) / TEPJF, 2010. ISBN 978-607-468-243-4.
 
@@ -143,7 +143,7 @@ Cada ID enlaza a la entrada de este catálogo.
 | **Autor** | Pantaleón Barrera (seudónimo: Napoleón Trebarra) |
 | **Año** | 1864 |
 | **Archivo local** | `sources/Los_misterios_de_Chan_Santa_Cruz.pdf` |
-| **Origen (repo)** | `datos/03_fuentes_bibliograficas.json` |
+| **Origen (repo)** | `datos/curated/03_fuentes_bibliograficas.json` |
 
 **Cita Chicago:** Pantaleón Barrera (seudónimo: Napoleón Trebarra). *Los misterios de Chan Santa Cruz: Historia verdadera con episodios de novela*. Imprenta de M. Aldana Rivas, Mérida, 1864.
 
@@ -160,7 +160,7 @@ Cada ID enlaza a la entrada de este catálogo.
 | **Autor** | — |
 | **Año** | julio 1849 |
 | **Confiabilidad** | alta |
-| **Origen (repo)** | `datos/03_fuentes_bibliograficas.json` |
+| **Origen (repo)** | `datos/curated/03_fuentes_bibliograficas.json` |
 
 **Cita Chicago:** Archivo General del Estado de Yucatán (AGEY). "'Relación de los indígenas de Bolonchenticul que considera acreedores de que se les libre sus credenciales de hidalgos'." Poder Ejecutivo, Comandancia Militar de Yucatán, sección milicia. Caja 169, vol.119, exp.24. julio 1849.
 
@@ -174,7 +174,7 @@ Cada ID enlaza a la entrada de este catálogo.
 | **Año** | 1994 |
 | **Confiabilidad** | alta |
 | **URL** | <https://historiamexicana.colmex.mx/index.php/RHM/article/view/2268> |
-| **Origen (repo)** | `datos/03_fuentes_bibliograficas.json` |
+| **Origen (repo)** | `datos/curated/03_fuentes_bibliograficas.json` |
 
 **Cita Chicago:** Ramírez Carrillo, Luis Alfonso. "De buhoneros a empresarios: la inmigración libanesa en el sureste de México." *Historia Mexicana, El Colegio de México* (1994). <https://historiamexicana.colmex.mx/index.php/RHM/article/view/2268>.
 
@@ -193,7 +193,7 @@ Cada ID enlaza a la entrada de este catálogo.
 | **Año** | 2010 |
 | **Confiabilidad** | alta |
 | **Archivo local** | `sources/Primeros años posrevolución Campeche.pdf` |
-| **Origen (repo)** | `datos/03_fuentes_bibliograficas.json` |
+| **Origen (repo)** | `datos/curated/03_fuentes_bibliograficas.json` |
 
 **Cita Chicago:** Ángel Omar May González. *Los primeros años de la posrevolución en Campeche (1921-1929)*. 2010.
 
@@ -214,7 +214,7 @@ Cada ID enlaza a la entrada de este catálogo.
 | **Autor** | Ponce-Jiménez, Martha Patricia |
 | **Año** | 1990 |
 | **Confiabilidad** | alta |
-| **Origen (repo)** | `datos/03_fuentes_bibliograficas.json` |
+| **Origen (repo)** | `datos/curated/03_fuentes_bibliograficas.json` |
 
 **Cita Chicago:** Ponce-Jiménez, Martha Patricia. *La montaña chiclera. Campeche: vida cotidiana y trabajo (1900-1950)*. CIESAS, 1990.
 
@@ -233,7 +233,7 @@ Cada ID enlaza a la entrada de este catálogo.
 | **Año** | s.f. |
 | **Confiabilidad** | alta |
 | **URL** | <https://hndm.iib.unam.mx/consulta/publicacion/visualizar/558075be7d1e63c9fea1a3d3> |
-| **Origen (repo)** | `datos/03_fuentes_bibliograficas.json` |
+| **Origen (repo)** | `datos/curated/03_fuentes_bibliograficas.json` |
 
 **Cita Chicago:** "Boletín Oficial del Gobierno de Yucatán." <https://hndm.iib.unam.mx/consulta/publicacion/visualizar/558075be7d1e63c9fea1a3d3>.
 
@@ -246,7 +246,7 @@ Cada ID enlaza a la entrada de este catálogo.
 | **Autor** | Álvarez Cuartero, Izaskun |
 | **Año** | 2007 |
 | **Confiabilidad** | alta |
-| **Origen (repo)** | `datos/03_fuentes_bibliograficas.json` |
+| **Origen (repo)** | `datos/curated/03_fuentes_bibliograficas.json` |
 
 **Cita Chicago:** Álvarez Cuartero, Izaskun. "De Tihosuco a La Habana: mayas yucatecos en Cuba (1848-1861)." *Studia Historica: Historia Contemporánea* (2007).
 
@@ -259,7 +259,7 @@ Cada ID enlaza a la entrada de este catálogo.
 | **Autor** | Rodríguez Piña, Javier |
 | **Año** | 1990 |
 | **Confiabilidad** | alta |
-| **Origen (repo)** | `datos/03_fuentes_bibliograficas.json` |
+| **Origen (repo)** | `datos/curated/03_fuentes_bibliograficas.json` |
 
 **Cita Chicago:** Rodríguez Piña, Javier. *Guerra de castas: la venta de indios mayas a Cuba, 1848-1861*. CONACULTA, 1990. ISBN 9789682928185.
 
@@ -276,7 +276,7 @@ Cada ID enlaza a la entrada de este catálogo.
 | **Tipo** | archivo_primario |
 | **Autor** | — |
 | **Año** | 1848 |
-| **Origen (repo)** | `datos/03_fuentes_bibliograficas.json` |
+| **Origen (repo)** | `datos/curated/03_fuentes_bibliograficas.json` |
 
 **Cita Chicago:** Archivo General del Estado de Yucatán (AGEY). "Caso José Chan (siervo deudor, 52 pesos) y María Jesús Herrera." Poder Ejecutivo, Comandancia Militar. Caja 111, vol.61, exp.50. 1848.
 
@@ -288,7 +288,7 @@ Cada ID enlaza a la entrada de este catálogo.
 | **Tipo** | archivo_primario |
 | **Autor** | — |
 | **Año** | s.f. |
-| **Origen (repo)** | `datos/03_fuentes_bibliograficas.json` |
+| **Origen (repo)** | `datos/curated/03_fuentes_bibliograficas.json` |
 
 **Cita Chicago:** Parroquia de San Antonio de Padua, Hopelchén. "Registros de bautizos, matrimonios y defunciones. Muestra apellidos mayas en la práctica totalidad de los registros del siglo XIX.."
 
@@ -303,7 +303,7 @@ Cada ID enlaza a la entrada de este catálogo.
 | **Confiabilidad** | alta |
 | **URL** | <http://www.revista.unam.mx/vol.7/num2/art16/feb_art16.pdf> |
 | **Archivo local** | `sources/feb_art16.pdf` |
-| **Origen (repo)** | `datos/03_fuentes_bibliograficas.json` |
+| **Origen (repo)** | `datos/curated/03_fuentes_bibliograficas.json` |
 
 **Cita Chicago:** Mendoza Castillo, Herlinda. "Gerónimo Baqueiro Fóster y su legado documental." *Revista Digital Universitaria, UNAM* (10 febrero 2006). <http://www.revista.unam.mx/vol.7/num2/art16/feb_art16.pdf>.
 
@@ -325,7 +325,7 @@ Cada ID enlaza a la entrada de este catálogo.
 | **Año** | 2017 |
 | **Confiabilidad** | alta |
 | **Archivo local** | `sources/La_guerra_de_Castas_en_Peninsula_Peninsu.pdf` |
-| **Origen (repo)** | `datos/03_fuentes_bibliograficas.json` |
+| **Origen (repo)** | `datos/curated/03_fuentes_bibliograficas.json` |
 
 **Cita Chicago:** Piña Laynes, Alma Alicia. "La Guerra de Castas en Península Península: del acontecimiento histórico a la ficción novelesca." *Cambios y Permanencias* (2017).
 
@@ -345,7 +345,7 @@ Cada ID enlaza a la entrada de este catálogo.
 | **Autor** | Rodríguez Lozano, Miguel G. |
 | **Año** | s.f. |
 | **Archivo local** | `sources/Hispadoc-ElProcesoNarrativoDeHernanLaraZavala-9494632.pdf` |
-| **Origen (repo)** | `datos/03_fuentes_bibliograficas.json` |
+| **Origen (repo)** | `datos/curated/03_fuentes_bibliograficas.json` |
 
 **Cita Chicago:** Rodríguez Lozano, Miguel G.. "El proceso narrativo de Hernán Lara Zavala." *HISPADOC*.
 
@@ -364,7 +364,7 @@ Cada ID enlaza a la entrada de este catálogo.
 | **Año** | 2019 |
 | **Confiabilidad** | alta |
 | **Archivo local** | `sources/05-de-la-nostalgia.pdf` |
-| **Origen (repo)** | `datos/03_fuentes_bibliograficas.json` |
+| **Origen (repo)** | `datos/curated/03_fuentes_bibliograficas.json` |
 
 **Cita Chicago:** Taracena Arriola, Arturo. *De la nostalgia por la memoria a la memoria nostálgica: La prensa literaria y la construcción del regionalismo yucateco en el siglo XIX*. 2019. ISBN 978-607-30-2352-8.
 
@@ -380,7 +380,7 @@ Cada ID enlaza a la entrada de este catálogo.
 | **Año** | 2025 |
 | **Confiabilidad** | alta |
 | **Archivo local** | `sources/0865175.pdf` |
-| **Origen (repo)** | `datos/03_fuentes_bibliograficas.json` |
+| **Origen (repo)** | `datos/curated/03_fuentes_bibliograficas.json` |
 
 **Cita Chicago:** Pool Castellanos, Emmanuel. *Kinchí, Xunan tunich y Dignidad maya: Representaciones de 'lo maya' en la ópera yucateca, 1924-1934*. 2025.
 
@@ -399,7 +399,7 @@ Cada ID enlaza a la entrada de este catálogo.
 | **Autor** | Rendón Von Osten, Jaime, Dzul-Caamal, R. |
 | **Año** | 2017 |
 | **Confiabilidad** | alta |
-| **Origen (repo)** | `datos/03_fuentes_bibliograficas.json` |
+| **Origen (repo)** | `datos/curated/03_fuentes_bibliograficas.json` |
 
 **Cita Chicago:** Rendón Von Osten, Jaime, Dzul-Caamal, R.. "Glyphosate Residues in Groundwater, Drinking Water and Urine of Subsistence Farmers from Intensive Agriculture Localities: A Survey in Hopelchén, Campeche, México." *International Journal of Environmental Research and Public Health* (2017). <https://doi.org/10.3390/ijerph14060595>.
 
@@ -420,7 +420,7 @@ Cada ID enlaza a la entrada de este catálogo.
 | **Año** | s.f. |
 | **Confiabilidad** | alta |
 | **URL** | <https://www.goldmanprize.org/recipient/leydy-pech/> |
-| **Origen (repo)** | `datos/03_fuentes_bibliograficas.json` |
+| **Origen (repo)** | `datos/curated/03_fuentes_bibliograficas.json` |
 
 **Cita Chicago:** "Goldman Environmental Prize — Leydy Pech." *Goldman Environmental Prize — Leydy Pech*. <https://www.goldmanprize.org/recipient/leydy-pech/>.
 
@@ -434,7 +434,7 @@ Cada ID enlaza a la entrada de este catálogo.
 | **Año** | s.f. |
 | **Confiabilidad** | alta |
 | **URL** | <https://www.iai.spk-berlin.de/biblioteca/colecciones-especiales/legados/maler-teobert.html> |
-| **Origen (repo)** | `datos/03_fuentes_bibliograficas.json` |
+| **Origen (repo)** | `datos/curated/03_fuentes_bibliograficas.json` |
 
 **Cita Chicago:** "IAI Berlín — Colección Teobert Maler." *IAI Berlín — Colección Teobert Maler*. <https://www.iai.spk-berlin.de/biblioteca/colecciones-especiales/legados/maler-teobert.html>.
 
@@ -448,7 +448,7 @@ Cada ID enlaza a la entrada de este catálogo.
 | **Año** | s.f. |
 | **Confiabilidad** | alta |
 | **URL** | <https://digital.iai.spk-berlin.de/viewer/collections/nachlass-teobert-maler/> |
-| **Origen (repo)** | `datos/03_fuentes_bibliograficas.json` |
+| **Origen (repo)** | `datos/curated/03_fuentes_bibliograficas.json` |
 
 **Cita Chicago:** "IAI Berlín — Colección digital Maler." *IAI Berlín — Colección digital Maler*. <https://digital.iai.spk-berlin.de/viewer/collections/nachlass-teobert-maler/>.
 
@@ -462,7 +462,7 @@ Cada ID enlaza a la entrada de este catálogo.
 | **Año** | s.f. |
 | **Confiabilidad** | alta |
 | **URL** | <https://babel.hathitrust.org/cgi/pt?id=wu.89095721726> |
-| **Origen (repo)** | `datos/03_fuentes_bibliograficas.json` |
+| **Origen (repo)** | `datos/curated/03_fuentes_bibliograficas.json` |
 
 **Cita Chicago:** "HathiTrust — Los misterios de Chan Santa Cruz." *HathiTrust — Los misterios de Chan Santa Cruz*. <https://babel.hathitrust.org/cgi/pt?id=wu.89095721726>.
 
@@ -476,7 +476,7 @@ Cada ID enlaza a la entrada de este catálogo.
 | **Año** | s.f. |
 | **Confiabilidad** | alta |
 | **URL** | <https://sonido13.com/index.php/historia/> |
-| **Origen (repo)** | `datos/03_fuentes_bibliograficas.json` |
+| **Origen (repo)** | `datos/curated/03_fuentes_bibliograficas.json` |
 
 **Cita Chicago:** "Sonido 13 — historia oficial Julián Carrillo." *Sonido 13 — historia oficial Julián Carrillo*. <https://sonido13.com/index.php/historia/>.
 
@@ -490,7 +490,7 @@ Cada ID enlaza a la entrada de este catálogo.
 | **Año** | s.f. |
 | **Confiabilidad** | alta |
 | **URL** | <https://www.unesco.org/en/memory-world> |
-| **Origen (repo)** | `datos/03_fuentes_bibliograficas.json` |
+| **Origen (repo)** | `datos/curated/03_fuentes_bibliograficas.json` |
 
 **Cita Chicago:** "UNESCO — Registro Memoria del Mundo — Julián Carrillo 2016." *UNESCO — Registro Memoria del Mundo — Julián Carrillo 2016*. <https://www.unesco.org/en/memory-world>.
 
@@ -504,7 +504,7 @@ Cada ID enlaza a la entrada de este catálogo.
 | **Año** | s.f. |
 | **Confiabilidad** | alta |
 | **URL** | <https://inah.gob.mx/zonas/> |
-| **Origen (repo)** | `datos/03_fuentes_bibliograficas.json` |
+| **Origen (repo)** | `datos/curated/03_fuentes_bibliograficas.json` |
 
 **Cita Chicago:** "INAH — Zonas arqueológicas." *INAH — Zonas arqueológicas*. <https://inah.gob.mx/zonas/>.
 
@@ -518,7 +518,7 @@ Cada ID enlaza a la entrada de este catálogo.
 | **Año** | s.f. |
 | **Confiabilidad** | alta |
 | **URL** | <https://enciclopediayet.com> |
-| **Origen (repo)** | `datos/03_fuentes_bibliograficas.json` |
+| **Origen (repo)** | `datos/curated/03_fuentes_bibliograficas.json` |
 
 **Cita Chicago:** "Enciclopedia Yet de Yucatán." *Enciclopedia Yet de Yucatán*. <https://enciclopediayet.com>.
 
@@ -532,7 +532,7 @@ Cada ID enlaza a la entrada de este catálogo.
 | **Año** | s.f. |
 | **Confiabilidad** | alta |
 | **URL** | <https://www.elem.mx> |
-| **Origen (repo)** | `datos/03_fuentes_bibliograficas.json` |
+| **Origen (repo)** | `datos/curated/03_fuentes_bibliograficas.json` |
 
 **Cita Chicago:** "ELEM — Enciclopedia de la Literatura en México." *ELEM — Enciclopedia de la Literatura en México*. <https://www.elem.mx>.
 
@@ -546,7 +546,7 @@ Cada ID enlaza a la entrada de este catálogo.
 | **Año** | s.f. |
 | **Confiabilidad** | alta |
 | **URL** | <http://www.revista.unam.mx/vol.7/num2/art16/feb_art16.pdf> |
-| **Origen (repo)** | `datos/03_fuentes_bibliograficas.json` |
+| **Origen (repo)** | `datos/curated/03_fuentes_bibliograficas.json` |
 
 **Cita Chicago:** "Revista Digital Universitaria UNAM — Mendoza Castillo 2006." *Revista Digital Universitaria UNAM — Mendoza Castillo 2006*. <http://www.revista.unam.mx/vol.7/num2/art16/feb_art16.pdf>.
 
@@ -560,7 +560,7 @@ Cada ID enlaza a la entrada de este catálogo.
 | **Año** | s.f. |
 | **Confiabilidad** | alta |
 | **URL** | <http://www.inafed.gob.mx/work/enciclopedia/EMM04campeche/municipios/04006a.html> |
-| **Origen (repo)** | `datos/03_fuentes_bibliograficas.json` |
+| **Origen (repo)** | `datos/curated/03_fuentes_bibliograficas.json` |
 
 **Cita Chicago:** "INAFED — Enciclopedia Municipios, Hopelchén." *INAFED — Enciclopedia Municipios, Hopelchén*. <http://www.inafed.gob.mx/work/enciclopedia/EMM04campeche/municipios/04006a.html>.
 
@@ -574,7 +574,7 @@ Cada ID enlaza a la entrada de este catálogo.
 | **Año** | s.f. |
 | **Confiabilidad** | alta |
 | **URL** | <https://www.familysearch.org/search/catalog/500346> |
-| **Origen (repo)** | `datos/03_fuentes_bibliograficas.json` |
+| **Origen (repo)** | `datos/curated/03_fuentes_bibliograficas.json` |
 
 **Cita Chicago:** "FamilySearch — Parroquia Hopelchén." *FamilySearch — Parroquia Hopelchén*. <https://www.familysearch.org/search/catalog/500346>.
 
@@ -588,7 +588,7 @@ Cada ID enlaza a la entrada de este catálogo.
 | **Año** | s.f. |
 | **Confiabilidad** | alta |
 | **URL** | <https://www.dgcs.unam.mx/boletin/bdboletin/2023_986.html> |
-| **Origen (repo)** | `datos/03_fuentes_bibliograficas.json` |
+| **Origen (repo)** | `datos/curated/03_fuentes_bibliograficas.json` |
 
 **Cita Chicago:** "Boletín UNAM — Zalaquett Rock, Universos Sonoros Mayas, 2023." *Boletín UNAM — Zalaquett Rock, Universos Sonoros Mayas, 2023*. <https://www.dgcs.unam.mx/boletin/bdboletin/2023_986.html>.
 
@@ -602,7 +602,7 @@ Cada ID enlaza a la entrada de este catálogo.
 | **Año** | s.f. |
 | **Confiabilidad** | media |
 | **URL** | <https://www.poresto.com/campeche/2024/10/31/inah-confirma-descubrimiento-de-sitio-maya-en-campeche-habria-otro-en-hopelchen.html> |
-| **Origen (repo)** | `datos/03_fuentes_bibliograficas.json` |
+| **Origen (repo)** | `datos/curated/03_fuentes_bibliograficas.json` |
 
 **Cita Chicago:** "PorEsto Campeche — Valeriana, oct 2024." *PorEsto Campeche — Valeriana, oct 2024*. <https://www.poresto.com/campeche/2024/10/31/inah-confirma-descubrimiento-de-sitio-maya-en-campeche-habria-otro-en-hopelchen.html>.
 
@@ -616,7 +616,7 @@ Cada ID enlaza a la entrada de este catálogo.
 | **Año** | s.f. |
 | **Confiabilidad** | alta |
 | **URL** | <https://www.lajornadamaya.mx/campeche/218777/las-cuevas-de-huachabi-y-sus-pinturas-rupestres-mayas-en-campeche> |
-| **Origen (repo)** | `datos/03_fuentes_bibliograficas.json` |
+| **Origen (repo)** | `datos/curated/03_fuentes_bibliograficas.json` |
 
 **Cita Chicago:** "La Jornada Maya — Grutas de Huachabí, 2023." *La Jornada Maya — Grutas de Huachabí, 2023*. <https://www.lajornadamaya.mx/campeche/218777/las-cuevas-de-huachabi-y-sus-pinturas-rupestres-mayas-en-campeche>.
 
@@ -630,7 +630,7 @@ Cada ID enlaza a la entrada de este catálogo.
 | **Año** | s.f. |
 | **Confiabilidad** | alta |
 | **URL** | <https://ecos.cide.edu> |
-| **Origen (repo)** | `datos/03_fuentes_bibliograficas.json` |
+| **Origen (repo)** | `datos/curated/03_fuentes_bibliograficas.json` |
 
 **Cita Chicago:** "CIDE/ECOS — Olegario Molina a 100 años." *CIDE/ECOS — Olegario Molina a 100 años*. <https://ecos.cide.edu>.
 
@@ -642,7 +642,7 @@ Cada ID enlaza a la entrada de este catálogo.
 | **Tipo** | desconocido |
 | **Autor** | — |
 | **Año** | s.f. |
-| **Origen (repo)** | `datos/03_fuentes_bibliograficas.json` |
+| **Origen (repo)** | `datos/curated/03_fuentes_bibliograficas.json` |
 
 **Cita Chicago:** *Archivo General del Estado de Yucatán, Mérida*.
 
@@ -654,7 +654,7 @@ Cada ID enlaza a la entrada de este catálogo.
 | **Tipo** | desconocido |
 | **Autor** | — |
 | **Año** | s.f. |
-| **Origen (repo)** | `datos/03_fuentes_bibliograficas.json` |
+| **Origen (repo)** | `datos/curated/03_fuentes_bibliograficas.json` |
 
 **Cita Chicago:** *Archivo General del Estado de Campeche*.
 
@@ -666,7 +666,7 @@ Cada ID enlaza a la entrada de este catálogo.
 | **Tipo** | desconocido |
 | **Autor** | — |
 | **Año** | s.f. |
-| **Origen (repo)** | `datos/03_fuentes_bibliograficas.json` |
+| **Origen (repo)** | `datos/curated/03_fuentes_bibliograficas.json` |
 
 **Cita Chicago:** *Archivo Municipal de Hopelchén*.
 
@@ -678,7 +678,7 @@ Cada ID enlaza a la entrada de este catálogo.
 | **Tipo** | desconocido |
 | **Autor** | — |
 | **Año** | s.f. |
-| **Origen (repo)** | `datos/03_fuentes_bibliograficas.json` |
+| **Origen (repo)** | `datos/curated/03_fuentes_bibliograficas.json` |
 
 **Cita Chicago:** *Centro Nacional de Investigación, Documentación e Información Musical, INBA, Ciudad de México*.
 
@@ -690,7 +690,7 @@ Cada ID enlaza a la entrada de este catálogo.
 | **Tipo** | desconocido |
 | **Autor** | — |
 | **Año** | s.f. |
-| **Origen (repo)** | `datos/03_fuentes_bibliograficas.json` |
+| **Origen (repo)** | `datos/curated/03_fuentes_bibliograficas.json` |
 
 **Cita Chicago:** *La Habana, Cuba*.
 

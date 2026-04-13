@@ -3,7 +3,7 @@
 > **Nodo:** 006 · **Era:** Contemporánea — poder local  
 > **Período:** 1959 — 2026  
 > **Hipótesis marco:** El control del poder político en Hopelchén ha sido ejercido por un grupo reducido de familias y apellidos durante décadas. El análisis de los presidentes municipales revela: (1) hegemonía ininterrumpi  
-> **Archivo origen:** `datos/HOPELCHEN_NODO_006_PoderPolitico_Local.json`  
+> **Archivo origen:** `datos/hopelchen/HOPELCHEN_NODO_006_PoderPolitico_Local.json`  
 > **Generado por:** `tools/generar_redaccion.py`
 
 ---
@@ -18,7 +18,7 @@
 | **Personajes** | — |
 | **Cargos** | — |
 | **Fuente(s)** | — |
-| **Origen** | `datos/HOPELCHEN_NODO_006_PoderPolitico_Local.json` |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_006_PoderPolitico_Local.json` |
 
 > La cadena de presidentes municipales identificados a partir de fuentes periodísticas, electorales e institucionales, con sus filiaciones políticas cuando disponibles.
 
@@ -39,7 +39,7 @@
 | **Personajes** | — |
 | **Cargos** | — |
 | **Fuente(s)** | [Yucatán Cultura — 'Efraín Calderón Lara Charras: ¡Asesinado por la reacción!' (Feb 2021)](<https://yucatancultura.com/asesinado-efrain-calderon-charras/>) |
-| **Origen** | `datos/HOPELCHEN_NODO_006_PoderPolitico_Local.json` |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_006_PoderPolitico_Local.json` |
 
 > Una fuente periodística (PorEsto, 2019) documenta explícitamente la existencia de un conjunto de apellidos 'profundamente cheneros' que han generado 'una serie de combinaciones familiares muy conocidas en toda la península': Lara, Calderón, Solís, Baqueiro, Barrera. Las combinaciones documentadas incluyen: Lara Calderón, Calderón Lara, Lara Solís, Lara Barrera, Barrera Baqueiro, Lara y Lara.
 
@@ -60,7 +60,7 @@
 | **Personajes** | — |
 | **Cargos** | — |
 | **Fuente(s)** | [IEEC — Acuerdo CG 26/06 (2006)](<https://www.ieec.org.mx/documentacion/acuerdosactas/2006/mayo/acuerdocg2606_a1.pdf>) |
-| **Origen** | `datos/HOPELCHEN_NODO_006_PoderPolitico_Local.json` |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_006_PoderPolitico_Local.json` |
 
 > El documento electoral del IEEC de 2006 lista a 'JULIO ALBERTO SANSORES SANSORES' como candidato/electo a presidente municipal de Hopelchén en un período anterior a 2006. La actual gobernadora de Campeche es Layda Sansores San Román (2021-2027), de extracción política nacional (Morena, antes PRD). El apellido Sansores es campechano de origen. Si existe parentesco entre el ex alcalde Sansores Sansores de Hopelchén y la gobernadora Sansores San Román, esto revelaría que el conflicto político entre PRI y Morena en Hopelchén tiene una dimensión de fractura familiar interna: la gobernadora que recibió las denuncias de los ejidatarios contra los menonitas y que puso bajo presión al alcalde priista Emilio Lara podría tener raíces familiares en el mismo municipio que gobierna.
 
@@ -81,7 +81,7 @@ _Origen: IEEC — Acuerdo CG 26/06 (2006) <https://www.ieec.org.mx/documentacion
 | **Personajes** | — |
 | **Cargos** | — |
 | **Fuente(s)** | [Tabasco HOY — 'Alcalde de Hopelchén tiene a toda su familia en nómina'](<https://www.tabascohoy.com/nota/297511/alcalde-de-hopelchen-tiene-a-toda-su-familia-en-nomina>) |
-| **Origen** | `datos/HOPELCHEN_NODO_006_PoderPolitico_Local.json` |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_006_PoderPolitico_Local.json` |
 
 > El caso más documentado de nepotismo en la administración municipal de Hopelchén corresponde al período de José Ignacio España Novelo. Un reportaje de investigación de Tabasco HOY documentó con nombres y cargos que el alcalde colocó en la nómina municipal al menos 10 familiares directos: su padre (Ignacio España Solís, chofer), su suegro (Filiberto España, auxiliar DIF), su prima (Cenovia Novelo Caamal, directora de Comunicación Social), dos primos en áreas jurídica (Gerardo Ramírez Novelo, Wilberth España Cahuich), y otros parientes en el Sindicato de Jubilados. El padre del alcalde presidía el Sindicato de Jubilados donde trabajaba un primo del alcalde.
 
@@ -103,7 +103,7 @@ _Origen: Tabasco HOY — 'Alcalde de Hopelchén tiene a toda su familia en nómi
 | **Personajes** | — |
 | **Cargos** | — |
 | **Fuente(s)** | — |
-| **Origen** | `datos/HOPELCHEN_NODO_006_PoderPolitico_Local.json` |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_006_PoderPolitico_Local.json` |
 
 > El alcalde electo en junio 2024 e inaugurado en octubre 2024 es el Ing. Hiram Aranda Calderón. Su apellido ARANDA coincide con el del autor de la monografía histórica más importante del municipio: Mario Heberto Aranda González (1985), cuya obra 'Apuntaciones históricas y literarias del municipio de Hopelchén, Campeche' es la fuente local histórica de mayor prioridad en todo el repositorio. Su segundo apellido CALDERÓN conecta directamente con el linaje chenero más documentado (familia Calderón-Lara). Fue electo con votación del 7 de junio de 2024, acreditado mediante Constancia de Mayoría del Consejo Distrital 18.
 
@@ -123,7 +123,7 @@ _Origen: Tabasco HOY — 'Alcalde de Hopelchén tiene a toda su familia en nómi
 | **Personajes** | — |
 | **Cargos** | — |
 | **Fuente(s)** | [Wikipedia — Elecciones estatales de Campeche 2021](<https://es.wikipedia.org/wiki/Elecciones_estatales_de_Campeche_de_2021>) |
-| **Origen** | `datos/HOPELCHEN_NODO_006_PoderPolitico_Local.json` |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_006_PoderPolitico_Local.json` |
 
 > Todos los presidentes municipales de Hopelchén identificados desde 1959 hasta 2018 pertenecen al PRI. El PRI gobernó Hopelchén de manera ininterrumpida durante al menos 59 años. En 2018, Sandy Baas Cauich ganó la alcaldía por el PRI-PVEM-NA. En 2021, Emilio Lara Calderón ganó de nuevo por el PRI, en el mismo ciclo electoral en que Layda Sansores ganó la gobernatura por Morena — siendo esa la primera vez en 92 años que el PRI perdió la gubernatura de Campeche. En 2024, Hiram Aranda Calderón ganó la alcaldía. La relación entre la hegemonía priista en Hopelchén y la nueva gobernadora morenista generó tensiones documentadas (cateo a la casa del alcalde en 2023, acusaciones cruzadas de persecución política).
 
@@ -145,7 +145,7 @@ _Origen: Wikipedia — Elecciones estatales de Campeche 2021 <https://es.wikiped
 | **Personajes** | — |
 | **Cargos** | — |
 | **Fuente(s)** | — |
-| **Origen** | `datos/HOPELCHEN_NODO_006_PoderPolitico_Local.json` |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_006_PoderPolitico_Local.json` |
 
 > ANÁLISIS TRANSVERSAL. Al cruzar los apellidos que aparecen en posiciones de poder a lo largo de la historia documentada de Hopelchén, emerge un patrón de transmisión genealógica del poder que refuerza la hipótesis central del proyecto.
 

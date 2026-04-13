@@ -3,7 +3,7 @@
 > **Nodo:** 007 · **Era:** Transversal — todas las eras  
 > **Período:** 1517 — 2026  
 > **Hipótesis marco:** Las rutas de comunicación en Los Chenes no son infraestructura neutral — son instrumentos de control político y económico. Cada era construyó su propia ruta para extraer sus propios recursos: el Camin  
-> **Archivo origen:** `datos/HOPELCHEN_NODO_007_Rutas_Territorio.json`  
+> **Archivo origen:** `datos/hopelchen/HOPELCHEN_NODO_007_Rutas_Territorio.json`  
 > **Generado por:** `tools/generar_redaccion.py`
 
 ---
@@ -18,7 +18,7 @@
 | **Personajes** | — |
 | **Cargos** | — |
 | **Fuente(s)** | — |
-| **Origen** | `datos/HOPELCHEN_NODO_007_Rutas_Territorio.json` |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_007_Rutas_Territorio.json` |
 
 > El Camino Real de Mérida a Campeche fue la primera ruta de poder colonial en la Península de Yucatán, construida a partir de las ordenanzas del visitador Tomás López Medel de 1552. Tuvo dos variantes: el Camino Real Alto (Mérida → Sisal) y el Camino Real Bajo (Mérida → Campeche), pasando este último por Hecelchakán, Tenabo y tocando la región de Hopelchén. Con 48 leguas (192 km), fue la ruta más importante de la Península durante tres siglos. Hopelchén quedaba en posición de nodo de segunda línea: no estaba exactamente sobre el Camino Real principal, sino en una rama que conectaba el Camino Real con el interior de Los Chenes. Esta posición de 'nodo de acceso' al interior — no sobre la ruta principal — explica simultáneamente por qué Hopelchén era estratégico (tránsito obligado hacia el sur y el este) y por qué podía funcionar como espacio de resistencia (no era el nodo más controlado). Schüren (2013: 205) documenta que en 1871 existían sólo tres caminos transitables y muchos caminos de herradura en el norte de Los Chenes, vinculando a Bolonchén, Hopelchén e Iturbide entre sí y con Hecelchakán para llegar al Camino Real.
 
@@ -39,7 +39,7 @@
 | **Personajes** | — |
 | **Cargos** | — |
 | **Fuente(s)** | — |
-| **Origen** | `datos/HOPELCHEN_NODO_007_Rutas_Territorio.json` |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_007_Rutas_Territorio.json` |
 
 > El 16 de septiembre de 1870, Joaquín Baranda (gobernador de Campeche 1871-1877, luego Ministro de Instrucción Pública porfiriano 1882-1901) inauguró la primera línea telegráfica que conectaba Campeche con Hopelchén e Iturbide. Este fue el primer sistema de comunicación instantánea que llegó a Los Chenes. El telégrafo precedió al ferrocarril — que nunca llegó directamente a Hopelchén — y fue el primer instrumento de control político a distancia en tiempo real. La elección de Hopelchén e Iturbide como los dos primeros nodos telegráficos de Los Chenes no fue casual: eran los dos centros económicos y militares más importantes de la región tras la Guerra de Castas.
 
@@ -60,7 +60,7 @@
 | **Personajes** | — |
 | **Cargos** | — |
 | **Fuente(s)** | — |
-| **Origen** | `datos/HOPELCHEN_NODO_007_Rutas_Territorio.json` |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_007_Rutas_Territorio.json` |
 
 > Schüren (2013: 205-207) documenta el aislamiento de Hopelchén en los años 20 del siglo XX con detalle extraordinario: para el transporte de carga se usaban carretas (grandes carros tirados por mulas o bueyes); para pasajeros se usaban 'bolanes' (carruajes de techo y dos ruedas tirados por tres mulas con grandes colchones para mitigar sacudidas). La única alternativa era cabalgar hasta Hecelchakán o Tenabo y tomar el tren a Campeche. En tiempo de lluvias, los caminos eran impracticables. Cita a Pacheco Blanco (1928): 'Sólo los ricos pueden viajar. [...] Las cartas y periódicos que reciben a veces con un retraso tan grande, que se siente uno en Los Chenes como olvidado del mundo.' El viajero alemán Rodolfo Schuller (1923) describió la zona sur de Los Chenes como 'un verdadero embrollo internacional e interestatal' donde 'las autoridades centrales no tienen ni la más mínima idea de las regiones a que aquí me refiero, ni por el nombre conocen los diferentes lugares.'
 
@@ -81,7 +81,7 @@
 | **Personajes** | — |
 | **Cargos** | — |
 | **Fuente(s)** | — |
-| **Origen** | `datos/HOPELCHEN_NODO_007_Rutas_Territorio.json` |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_007_Rutas_Territorio.json` |
 
 > Schüren (2013: 207-209) documenta el momento preciso y el personaje que introdujo la aviación en Los Chenes: fue el contratista español Antonio del Río, quien abrió el primer campo de aviación en Nohsayab en la montaña chenera. Desde 1934, la Compañía 'Sarabia' ejerció el monopolio aeronáutico de la región mediante concesión federal. Francisco 'Pancho' Sarabia de Lerdo (nacido en Durango) fue el fundador y administrador — el mismo piloto que el 25 de mayo de 1939 navegó entre México D.F. y Nueva York en tiempo récord con su avión 'El Conquistador del Cielo', falleciendo trágicamente en el río Potomac en su vuelo de regreso. Los campos de aterrizaje chicleros de Hopelchén, X Can Há y Xpuhil fueron construidos para resolver el problema logístico de transportar chicle desde zonas inaccesibles en temporada de lluvias. Cuando el auge chiclero terminó (años 40-50), los campos quedaron abandonados. Schüren los describe en una cita de Lara-Zavala (2021): 'como una cicatriz ya cerrada por donde antaño se derramaron sangre, salud, sudor y dinero.'
 
@@ -102,7 +102,7 @@
 | **Personajes** | — |
 | **Cargos** | — |
 | **Fuente(s)** | — |
-| **Origen** | `datos/HOPELCHEN_NODO_007_Rutas_Territorio.json` |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_007_Rutas_Territorio.json` |
 
 > Schüren (2013: 201-203) documenta la existencia de una economía paralela al sistema colonial en el sur de Los Chenes: los 'mayas pacíficos' — grupos de antiguos rebeldes de la Guerra de Castas que firmaron tratados de paz con el gobierno de Yucatán en 1851-1853 — habitaban poblados independientes en el este y sur de Los Chenes. Entre ellos había también desertores yucatecos y sirvientes endeudados, prófugos de las haciendas. A partir de los años 1850 se estableció un comercio activo con estos grupos: los misioneros blancos (comerciantes) llevaban sus mercaderías para intercambiar sal, pólvora, sogas y herramientas. Los pacíficos permanecieron de facto independientes incluso después del reconocimiento de Campeche como estado. Su desintegración llegó con las epidemias (sarampión, tos ferina, viruela) y con la llegada masiva de chicleros en los años 1920. Hacia los años 50, Xkanhá — uno de sus poblados más importantes — se había convertido en una central chiclera con población flotante mayoritariamente foránea (yucatecos, quintanarroenses).
 
@@ -123,7 +123,7 @@
 | **Personajes** | — |
 | **Cargos** | — |
 | **Fuente(s)** | — |
-| **Origen** | `datos/HOPELCHEN_NODO_007_Rutas_Territorio.json` |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_007_Rutas_Territorio.json` |
 
 > Schüren (2013: 204) introduce un concepto analítico clave para entender el giro económico de Los Chenes en la segunda mitad del siglo XX: 'recampesinación'. Cuando los precios del chicle cayeron en los años 40 y el auge terminó, Los Chenes experimentaron una transición de vuelta a la agricultura: 'La tierra ejidal recibió una importancia no conocida en épocas anteriores.' Esto es consistente con el dato ya documentado en el Nodo 004: la Reforma Agraria en Los Chenes fue paradójicamente más efectiva en el período post-chicle que durante el propio período cardenista, porque fue solo cuando el chicle dejó de ser alternativa económica que los ejidatarios comenzaron a valorar y defender sus tierras. La recampesinación creó las condiciones para que la tierra ejidal tuviera valor — y por tanto para que fuera luego disputada por menonitas y agroindustria.
 
@@ -144,7 +144,7 @@
 | **Personajes** | — |
 | **Cargos** | — |
 | **Fuente(s)** | — |
-| **Origen** | `datos/HOPELCHEN_NODO_007_Rutas_Territorio.json` |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_007_Rutas_Territorio.json` |
 
 > La Carretera Federal 261 es la columna vertebral de comunicación terrestre de Los Chenes en la época contemporánea. Corre de norte a sur atravesando el municipio de Hopelchén, conectando con Yucatán por el norte (pasando por Muna) y con Escárcega al sur. Esta carretera — construida en el siglo XX y mejorada en diferentes períodos — fue el instrumento que transformó el modelo económico de Los Chenes de la economía chiclera al modelo agroindustrial. Su apertura hizo posible el transporte de maíz, soya y sorgo hacia los mercados nacionales e internacionales. Es también la ruta por la que llegaron los primeros menonitas desde Chihuahua en los años 1980. Schüren (2013) señala que las diferencias en desarrollo económico entre el norte y el sur de Los Chenes están directamente vinculadas a las diferencias en acceso a las vías de comunicación.
 
@@ -165,7 +165,7 @@
 | **Personajes** | — |
 | **Cargos** | — |
 | **Fuente(s)** | — |
-| **Origen** | `datos/HOPELCHEN_NODO_007_Rutas_Territorio.json` |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_007_Rutas_Territorio.json` |
 
 > El artículo de Schüren (2013) contiene una bibliografía de fuentes primarias y secundarias sobre Los Chenes que no han sido consultadas en el repositorio. Muchas de estas fuentes son anteriores al proyecto y contienen datos específicos sobre Hopelchén que ninguna otra fuente tiene. Este registro documenta sistemáticamente esas fuentes como objetivos de investigación.
 
@@ -185,7 +185,7 @@
 | **Personajes** | — |
 | **Cargos** | — |
 | **Fuente(s)** | — |
-| **Origen** | `datos/HOPELCHEN_NODO_007_Rutas_Territorio.json` |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_007_Rutas_Territorio.json` |
 
 > ANÁLISIS TRANSVERSAL. Al cruzar las rutas de comunicación con los ciclos extractivos documentados en los Nodos 001-006, emerge un patrón estructural: cada nueva ruta de comunicación en Los Chenes coincide cronológicamente con la apertura de un nuevo recurso de extracción. No hay ninguna ruta construida en Hopelchén para beneficio de la comunidad local — todas fueron construidas para extraer hacia afuera.
 
