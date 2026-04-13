@@ -1,0 +1,91 @@
+name: Búsquedas Firecrawl (real)
+
+# Este flujo ejecuta las búsquedas reales contra la API de Firecrawl.
+# Requiere que el secreto FIRECRAWL_API_KEY esté configurado en el repositorio
+# (Settings → Secrets and variables → Actions → New repository secret).
+#
+# Se activa:
+#   - Manualmente desde la pestaña Actions (workflow_dispatch).
+#   - Automáticamente cada lunes a las 07:00 UTC (schedule).
+#
+# Para ejecutar solo un nodo concreto, usa el campo "nodo" en workflow_dispatch
+# (por ejemplo "009"). Déjalo vacío para procesar todos los registros.
+
+on:
+  workflow_dispatch:
+    inputs:
+      nodo:
+        description: "Nodo a procesar (p. ej. 009). Vacío = todos."
+        required: false
+        default: ""
+      limite:
+        description: "Número máximo de búsquedas por modo (0 = sin límite)."
+        required: false
+        default: "0"
+  schedule:
+    - cron: "0 7 * * 1"   # Cada lunes a las 07:00 UTC
+
+jobs:
+  firecrawl:
+    name: Búsquedas Firecrawl
+    runs-on: ubuntu-latest
+
+    # No ejecutar el job si el secreto no está configurado.
+    # La condición evalúa la variable de entorno que se define más abajo;
+    # si el secreto está vacío, la expresión devuelve cadena vacía → falsy.
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      # ── buscar_fuentes_vacias.py ─────────────────────────────────────────
+      - name: Buscar fuentes para registros sin cita
+        env:
+          FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
+        run: |
+          if [ -z "$FIRECRAWL_API_KEY" ]; then
+            echo "⚠  FIRECRAWL_API_KEY no configurada — omitiendo búsquedas reales."
+            exit 0
+          fi
+          ARGS=""
+          if [ -n "${{ github.event.inputs.nodo }}" ]; then
+            ARGS="$ARGS --nodo ${{ github.event.inputs.nodo }}"
+          fi
+          if [ "${{ github.event.inputs.limite }}" != "0" ] && [ -n "${{ github.event.inputs.limite }}" ]; then
+            ARGS="$ARGS --limite ${{ github.event.inputs.limite }}"
+          fi
+          python tools/buscar_fuentes_vacias.py $ARGS
+
+      # ── validar_citas_firecrawl.py ───────────────────────────────────────
+      - name: Validar citas y ampliar nodos
+        env:
+          FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
+        run: |
+          if [ -z "$FIRECRAWL_API_KEY" ]; then
+            echo "⚠  FIRECRAWL_API_KEY no configurada — omitiendo búsquedas reales."
+            exit 0
+          fi
+          ARGS=""
+          if [ -n "${{ github.event.inputs.nodo }}" ]; then
+            ARGS="$ARGS --nodo ${{ github.event.inputs.nodo }}"
+          fi
+          if [ "${{ github.event.inputs.limite }}" != "0" ] && [ -n "${{ github.event.inputs.limite }}" ]; then
+            ARGS="$ARGS --limite ${{ github.event.inputs.limite }}"
+          fi
+          python tools/validar_citas_firecrawl.py $ARGS
+
+      # ── Subir resultados como artefactos ─────────────────────────────────
+      - name: Guardar resultados como artefactos
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: resultados-firecrawl-${{ github.run_id }}
+          path: datos/investigacion/
+          retention-days: 30
