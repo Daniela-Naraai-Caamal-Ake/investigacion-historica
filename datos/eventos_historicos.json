@@ -1,0 +1,62 @@
+{
+  "coleccion": "Eventos Históricos",
+  "descripcion": "Colección de eventos históricos relevantes para la investigación",
+  "version": "1.0",
+  "eventos": [
+    {
+      "id": 1,
+      "titulo": "Independencia de México",
+      "fecha": "1810-09-16",
+      "lugar": "Dolores Hidalgo, Guanajuato, México",
+      "categoria": "Independencia",
+      "descripcion": "El inicio del movimiento de independencia de México encabezado por Miguel Hidalgo y Costilla con el Grito de Dolores.",
+      "personajes": ["Miguel Hidalgo y Costilla", "Ignacio Allende", "Juan Aldama"],
+      "importancia": "alta",
+      "fuentes": ["Historia de México - Lucas Alamán", "El proceso de independencia de México"]
+    },
+    {
+      "id": 2,
+      "titulo": "Consumación de la Independencia de México",
+      "fecha": "1821-09-27",
+      "lugar": "Ciudad de México, México",
+      "categoria": "Independencia",
+      "descripcion": "Entrada del Ejército Trigarante a la Ciudad de México, consolidando la independencia del país.",
+      "personajes": ["Agustín de Iturbide", "Vicente Guerrero", "Juan O'Donojú"],
+      "importancia": "alta",
+      "fuentes": ["Tratados de Córdoba", "Historia de México - Lucas Alamán"]
+    },
+    {
+      "id": 3,
+      "titulo": "Revolución Francesa",
+      "fecha": "1789-07-14",
+      "lugar": "París, Francia",
+      "categoria": "Revolución",
+      "descripcion": "La toma de la Bastilla marcó el inicio de la Revolución Francesa, transformando el orden político y social de Europa.",
+      "personajes": ["Maximiliano Robespierre", "Luis XVI", "María Antonieta"],
+      "importancia": "alta",
+      "fuentes": ["La Revolución Francesa - Georges Lefebvre", "Ciudadano - Simon Schama"]
+    },
+    {
+      "id": 4,
+      "titulo": "Reforma Agraria en México",
+      "fecha": "1915-01-06",
+      "lugar": "México",
+      "categoria": "Reforma",
+      "descripcion": "La Ley Agraria de Venustiano Carranza que estableció las bases para la redistribución de tierras en México.",
+      "personajes": ["Venustiano Carranza", "Emiliano Zapata", "Luis Cabrera"],
+      "importancia": "media",
+      "fuentes": ["Historia de la Revolución Mexicana - Luis González y González"]
+    },
+    {
+      "id": 5,
+      "titulo": "Conquista de México-Tenochtitlán",
+      "fecha": "1521-08-13",
+      "lugar": "Tenochtitlán (actual Ciudad de México), México",
+      "categoria": "Conquista",
+      "descripcion": "La caída de Tenochtitlán ante las fuerzas de Hernán Cortés y sus aliados tlaxcaltecas marcó el fin del Imperio Azteca.",
+      "personajes": ["Hernán Cortés", "Cuauhtémoc", "La Malinche"],
+      "importancia": "alta",
+      "fuentes": ["Historia Verdadera de la Conquista - Bernal Díaz del Castillo", "Cartas de Relación - Hernán Cortés"]
+    }
+  ]
+}
