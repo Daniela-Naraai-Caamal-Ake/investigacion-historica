@@ -1,0 +1,155 @@
+{
+  "repositorio": "Hopelchén: 2000 años de historia",
+  "archivo_id": "PREGUNTAS-001",
+  "titulo": "Preguntas Abiertas e Iteraciones Pendientes — Derivadas del Nodo 001: Ocupación Prehispánica",
+  "nodo_origen": "001 — Ocupación Prehispánica del Territorio de Hopelchén",
+  "fecha_generacion": "2026-04-03",
+  "estado": "Activo — pendiente de investigación",
+
+  "preguntas": [
+
+    {
+      "pregunta_id": "P001-01",
+      "pregunta": "¿Quiénes eran exactamente los bataboob que en 1669 aún detentaban el poder local en Hopelchén y 'repudiaban el control de los blancos'?",
+      "contexto": "Múltiples fuentes (INDEFOS, Archivo Municipal, Guía Turística México) mencionan este dato sin citar la fuente primaria original. ¿Hay un documento colonial que lo registre? ¿Quiénes eran los bataboob específicos? ¿Sus apellidos? ¿Su linaje?",
+      "tipo": "Poder / Genealogía / Colonial temprano",
+      "fuentes_a_consultar": [
+        "Archivo General de la Nación — Ramo Inquisición, Congregaciones",
+        "Archivo del Obispado de Yucatán (Mérida)",
+        "Relaciones Histórico-Geográficas de la Gobernación de Yucatán (siglo XVI-XVII)",
+        "Cogolludo — Historia de Yucatán (1688)"
+      ],
+      "prioridad": "Alta",
+      "conexion_hipotesis": "Identificar a los bataboob por nombre y linaje permitiría rastrear si sus descendientes aparecen luego como aliados o víctimas del sistema colonial, o si sus apellidos reaparecen en el registro de tierras del siglo XIX."
+    },
+
+    {
+      "pregunta_id": "P001-02",
+      "pregunta": "¿Existe documentación del Archivo de Indias o del AGN sobre encomiendas específicas otorgadas en Los Chenes antes o durante 1621?",
+      "contexto": "Si Hopelchén fue fundado como 'pueblo de congregación' en 1621, alguien solicitó y recibió esa concesión. ¿Quién fue el encomendero? ¿Qué tierras le fueron asignadas? ¿Qué población maya fue 'congregada' a la fuerza?",
+      "tipo": "Poder / Tierra / Colonial / Encomienda",
+      "fuentes_a_consultar": [
+        "Archivo General de Indias, Sevilla — Sección Audiencia de México",
+        "AGN México — Ramo Mercedes y Encomiendas",
+        "Biblioteca Digital AECID (España)",
+        "PARES — Portal de Archivos Españoles: pares.mcu.es"
+      ],
+      "prioridad": "Alta",
+      "conexion_hipotesis": "El primer encomendero de Los Chenes es el primer eslabón documentable de la cadena de control de la tierra. Si ese apellido reaparece en haciendas del Porfiriato, se confirma la transmisión generacional del poder sobre el territorio."
+    },
+
+    {
+      "pregunta_id": "P001-03",
+      "pregunta": "¿Hay datación más antigua (preclásica anterior a 300 a.C.) en Santa Rosa Xtampak o en algún otro sitio de Hopelchén que pueda empujar el registro de ocupación varios siglos más atrás?",
+      "contexto": "La cerámica de Xtampak sugiere ocupación desde 'varios siglos antes del inicio de nuestra era' (Mediateca INAH), pero los estudios cerámicos son preliminares. ¿Se ha hecho fechamiento por carbono 14 en el sitio?",
+      "tipo": "Arqueológico / Cronológico",
+      "fuentes_a_consultar": [
+        "Tesis de Maestría: Richard B. Stamps (1970) — Brigham Young University — 'A Study of Late Classic Maya Architecture at Santa Rosa Xtampak'",
+        "Informe Proyecto Arqueológico Santa Rosa Xtampak — INAH Centro Campeche",
+        "Renée Lorelei Zapata Peraza — publicaciones completas (ResearchGate y INAH)",
+        "George Brainerd (1958) — The Archaeological Ceramics of Yucatan"
+      ],
+      "prioridad": "Media",
+      "conexion_hipotesis": "Extender el registro hacia el Preclásico Medio (600-300 a.C.) o incluso antes reforzaría que la civilización en Hopelchén tiene raíces de 2,500+ años, no los 400 años que la narrativa colonial le concede."
+    },
+
+    {
+      "pregunta_id": "P001-04",
+      "pregunta": "¿Qué dice la epigrafía de la Estela 2 de Santa Rosa Xtampak sobre el personaje 'JOL' y su relación con Jaina? ¿Puede identificarse su nombre completo y posición dinástica?",
+      "contexto": "El artículo de SciELO menciona que la Estela 2 hace referencia a un gobernante con glifo JOL, posiblemente con conexión a la isla de Jaina. Jaina era un sitio funerario de élite. ¿Esto indica que los gobernantes de Los Chenes eran enterrados en Jaina? ¿Qué implica eso en términos de redes de poder?",
+      "tipo": "Epigrafía / Poder dinástico / Redes externas",
+      "fuentes_a_consultar": [
+        "SciELO — artículo completo sobre inscripciones de Xtampak",
+        "FAMSI — Foundation for the Advancement of Mesoamerican Studies — base epigráfica",
+        "Nikolai Grube — publicaciones sobre epigrafía del noroeste de Yucatán",
+        "Antonio Benavides Castillo — INAH Campeche"
+      ],
+      "prioridad": "Media-Alta",
+      "conexion_hipotesis": "Si los gobernantes de Los Chenes tenían redes con Jaina y otros centros de poder maya, esto refuerza que Hopelchén no era periferia sino parte de una red política mesoamericana activa."
+    },
+
+    {
+      "pregunta_id": "P001-05",
+      "pregunta": "¿Qué documentos o evidencias existen sobre los Xiues en el territorio de lo que hoy es Hopelchén? ¿Qué relación tenían con la élite gobernante de Santa Rosa Xtampak?",
+      "contexto": "Los Xiues son mencionados como ocupantes de Dzibil-Noh-Aac (hoy Iturbide). Los Xiues fueron uno de los linajes de poder más importantes de la Península de Yucatán. ¿Hay continuidad entre la élite prehispánica de Xtampak y los Xiues del Posclásico?",
+      "tipo": "Genealogía / Poder / Linaje maya",
+      "fuentes_a_consultar": [
+        "Libros de Chilam Balam — especialmente el de Chumayel y el de Maní",
+        "Ralph Roys — The Political Geography of the Yucatan Maya (Carnegie Institution, 1957)",
+        "Diego de Landa — Relación de las Cosas de Yucatán",
+        "Archivo del Obispado de Mérida — documentos de caciques"
+      ],
+      "prioridad": "Alta",
+      "conexion_hipotesis": "Si los Xiues tenían presencia en Hopelchén y luego colaboraron con los españoles (como históricamente lo hicieron en Maní), esto explicaría por qué algunos mayas de la región aceptaron la congregación de 1621 mientras otros resistieron."
+    },
+
+    {
+      "pregunta_id": "P001-06",
+      "pregunta": "¿Qué rutas comerciales prehispánicas específicas pasaban por Los Chenes? ¿Hay sacbés (calzadas mayas) documentados en el municipio de Hopelchén?",
+      "contexto": "Santa Rosa Xtampak recibía obsidiana, jadeíta y sal de Guatemala, centro de México y Yucatán. Eso implica rutas terrestres o costeras. ¿Cómo conectaba Los Chenes con el resto de Mesoamérica? ¿Hay sacbés mapeados?",
+      "tipo": "Territorio / Comercio / Rutas / Arqueología",
+      "fuentes_a_consultar": [
+        "William Folan — Universidad Autónoma de Campeche — estudios de patrón de asentamiento",
+        "INAH Centro Campeche — mapas arqueológicos",
+        "LiDAR surveys de la NASA/Goddard — mencionados en ResearchGate",
+        "Abel Morales López — Mapa de Santa Rosa Xtampak (1989)"
+      ],
+      "prioridad": "Media",
+      "conexion_hipotesis": "Las rutas comerciales prehispánicas pueden coincidir o anticipar las rutas coloniales y modernas (Carretera 261). El control de las rutas es control del comercio y del poder. ¿Quién heredó esas rutas?"
+    },
+
+    {
+      "pregunta_id": "P001-07",
+      "pregunta": "¿Existen estudios de LiDAR en el municipio de Hopelchén que hayan revelado asentamientos no conocidos o la verdadera extensión de las ciudades documentadas?",
+      "contexto": "El ResearchGate menciona 'tiles de LiDAR colectados por científicos ambientales sobre el sur de México usando el sistema G-LiHT de NASA'. ¿Hay datos LiDAR específicos para Hopelchén que muestren sitios no excavados?",
+      "tipo": "Arqueológico / Tecnología / Territorio",
+      "fuentes_a_consultar": [
+        "NASA G-LiHT system — Goddard Space Flight Center",
+        "INAH Centro Campeche — atlas arqueológico",
+        "ResearchGate — búsqueda 'LiDAR Campeche Chenes'",
+        "PACUNAM LiDAR Initiative — aunque está centrado en Guatemala/Belice, puede tener datos colindantes"
+      ],
+      "prioridad": "Media",
+      "conexion_hipotesis": "Los datos LiDAR en otras regiones mayas han revelado que las ciudades eran 10x más grandes de lo documentado. Si esto aplica a Xtampak o Hochob, la población prehispánica de Hopelchén era masivamente mayor de lo que la historia oficial registra."
+    },
+
+    {
+      "pregunta_id": "P001-08",
+      "pregunta": "¿Hay algún registro de conocimiento astronómico, calendárico o científico maya específicamente asociado a Los Chenes o a Hopelchén?",
+      "contexto": "Las tapas de bóveda pintadas de Xtampak contienen información calendárica. ¿Hay orientaciones astronómicas en los edificios de Hochob, Xtampak o Dzibilnocac? ¿Se han estudiado?",
+      "tipo": "Cultura / Ciencia maya / Conocimiento ancestral",
+      "fuentes_a_consultar": [
+        "Anthony F. Aveni, Anne S. Dowd y Benjamin Vining (2003) — 'Maya Calendar Reform? Evidence from Orientations of Specialized Architectural Assemblages'. Latin American Antiquity 14(2):159-178",
+        "INAH — Mediateca — archivos de Hochob y Xtampak",
+        "Arqueoastronomía maya — publicaciones UNAM"
+      ],
+      "prioridad": "Media",
+      "conexion_hipotesis": "El conocimiento científico maya (astronomía, matemáticas, medicina, agricultura) fue sistemáticamente suprimido y apropiado durante la Colonia. Recuperar qué conocimiento específico se producía en Los Chenes es parte de reconstruir la historia oculta."
+    }
+
+  ],
+
+  "temas_sin_datos_aun": [
+    {
+      "tema": "Población específica de Los Chenes antes de la Conquista — estimaciones demográficas",
+      "por_que_importa": "Si había 25,000 personas en el distrito de Hopelchén antes de la Guerra de Castas (1847), ¿cuántas había en 1517? ¿Y en el apogeo de Xtampak (600-900 d.C.)?"
+    },
+    {
+      "tema": "Nombre o identidad de los gobernantes específicos de Santa Rosa Xtampak",
+      "por_que_importa": "Las estelas registran dinástas pero los nombres completos no están descifrados públicamente. Son los primeros 'poderosos' documentables de Hopelchén."
+    },
+    {
+      "tema": "Conexión directa entre Los Chenes y Chichén Itzá o Uxmal durante el Posclásico",
+      "por_que_importa": "Si Los Chenes era tributario o aliado de Chichén Itzá, eso define quién controlaba el territorio y la economía antes de la llegada española."
+    }
+  ],
+
+  "metadatos": {
+    "generado_desde": "HOPELCHEN_NODO_001_Ocupacion_Prehispanica.json",
+    "fecha": "2026-04-03",
+    "total_preguntas": 8,
+    "total_temas_pendientes": 3,
+    "estado": "Activo — primera iteración",
+    "siguiente_nodo_sugerido": "NODO 002 — La Conquista Española en Los Chenes (1517-1621): Invasión, Resistencia y Congregación"
+  }
+}

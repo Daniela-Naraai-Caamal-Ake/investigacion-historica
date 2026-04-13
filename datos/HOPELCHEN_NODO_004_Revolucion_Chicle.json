@@ -1,0 +1,347 @@
+{
+  "repositorio": "Hopelchén: 2000 años de historia",
+  "nodo_id": "004",
+  "titulo": "Revolución, Lucha Antiagraria, Reforma Agraria y la Economía Chiclera en Hopelchén (1910–1970): La Tierra Se Redistribuye, el Chicle Se Explota",
+  "hipotesis_marco": "El control de la tierra y de los recursos naturales sigue siendo definido por quien tiene poder. En este período el patrón se repite: haciendas → Revolución → redistribución incompleta → nueva forma de explotación (chicle). Cada 'cambio' redistribuye poder superficialmente pero mantiene la estructura de dependencia y extracción.",
+  "era": "Revolución — Reforma Agraria — Economía chiclera",
+  "rango_temporal": "1910 — 1970",
+  "fecha_creacion_nodo": "2026-04-03",
+  "version": "1.0",
+  "continua_desde": "NODO 003 — Colonia Tardía, Independencia y Porfiriato (1670–1910)",
+  "autor_investigacion": "Proyecto Hopelchén — Investigación histórica independiente",
+
+  "HALLAZGO_CRITICO_NUEVO": {
+    "nota": "FUENTE HISTÓRICA PRIMARIA LOCAL IDENTIFICADA — NO APARECÍA EN NODOS ANTERIORES",
+    "titulo": "Apuntaciones históricas y literarias del municipio de Hopelchén, Campeche",
+    "autor": "Mario Heberto Aranda González",
+    "año": "1985",
+    "fuente_de_identificacion": "Citada en: Bestializados y oprimidos: figuraciones del chiclero en la cuentística campechana del siglo XX. EntreDiversidades. https://entrediversidades.unach.mx/index.php/entrediversidades/article/view/442",
+    "importancia": "CRÍTICA — Es la única monografía histórica identificada específica del municipio de Hopelchén. Debe ser la primera fuente a consultar en próximas iteraciones. Buscar en Biblioteca del Estado de Campeche, Biblioteca Pública de Mérida, CIESAS y UAC."
+  },
+
+  "registros": [
+
+    {
+      "registro_id": "004-A",
+      "subtitulo": "1910–1915: La Revolución llega a Hopelchén — el municipio libre y la clase hacendaria en resistencia",
+      "fecha_evento": "1910–1915",
+      "lugar": "Hopelchén, Campeche",
+      "descripcion": "La Revolución Mexicana de 1910 encontró en Hopelchén una clase hacendaria consolidada y resistente. Hacia 1910, menos del 1% de las familias mexicanas controlaban el 85% de las tierras cultivables — estructura que se replicaba en Los Chenes. En 1915, Hopelchén fue elevada a cabecera municipal, formalizando su rol administrativo en la región. Wikipedia describe a Hopelchén como 'uno de los principales focos de lucha antiagraria' post-Revolución, indicando que la clase hacendaria local resistió activamente la redistribución de tierras ordenada por el Artículo 27 constitucional (1917). La lucha antiagraria 'sería finalmente derrotada' — sin que ninguna fuente consultada nombre a los hacendados específicos que la encabezaron.",
+      "fuente": {
+        "nombre": "Wikipedia — Hopelchén / Revolución Mexicana",
+        "urls": [
+          "https://es.wikipedia.org/wiki/Hopelchen",
+          "https://es.wikipedia.org/wiki/Revoluci%C3%B3n_mexicana"
+        ],
+        "fecha_consulta": "2026-04-03",
+        "confiabilidad": "Media"
+      },
+      "tipo_dato": "Citado con reserva — los hacendados antiagrarios de Hopelchén no están nominados en fuentes consultadas",
+      "personajes": [
+        {
+          "nombre": "Pedro Advíncula Lara (mencionado en Nodo 003)",
+          "rol": "Hacendado identificado en Hopelchén (haciendas Holcatzin y Santa Rita, ranchos Boxol y Ucuchil). Jefe político de los Chenes en varias ocasiones.",
+          "periodo": "Porfiriato — Revolución",
+          "nota_critica": "Si Advíncula Lara fue jefe político durante el Porfiriato y tenía múltiples propiedades, es el candidato más probable como protagonista de la 'lucha antiagraria' de Hopelchén. La construcción del reloj público en 1911 (año en que inicia la Revolución) con pieza fabricada en Berlín puede indicar que aún en plena Revolución seguía ostentando poder y riqueza."
+        },
+        {
+          "nombre": "Clase hacendaria de Hopelchén (no identificada nominalmente)",
+          "rol": "Protagonista de la 'lucha antiagraria' post-Revolución. Resistió la redistribución de tierras ordenada por la Constitución de 1917.",
+          "nota_critica": "VACÍO CRÍTICO: Ninguna fuente consultada nombra a los hacendados específicos de Hopelchén que encabezaron la resistencia antiagraria. Este es el dato más importante faltante del Nodo 004. Buscar en: Archivo Municipal de Hopelchén, Periódico Oficial del Estado de Campeche (1910-1930), Aranda González (1985)."
+        }
+      ],
+      "notas_contradiccion": "La Revolución Mexicana es presentada en la narrativa nacional como la gran redistribución de poder y tierra. En Hopelchén, la clase hacendaria resistió activamente — lo que significa que la Revolución fue aquí un proceso conflictivo y tardío, no una transformación inmediata. Las grandes haciendas campechanas 'lograron sobrevivir a la revolución y aún eran parte del paisaje rural' hasta los años 1930 (fuente SciELO).",
+      "conexion_hipotesis": "El patrón se confirma: cada cambio de régimen político (Independencia 1821, Revolución 1910) que prometía redistribuir el poder fue resistido por la élite local de Hopelchén y produjo cambios superficiales que preservaron la estructura de control.",
+      "tags": ["Revolución 1910", "lucha antiagraria", "Hopelchén", "municipio libre 1915", "Artículo 27", "hacendados", "Pedro Advíncula Lara", "resistencia élite local"]
+    },
+
+    {
+      "registro_id": "004-B",
+      "subtitulo": "1917–1930: Reforma Agraria en Campeche — dotación de ejidos y las haciendas que sobrevivieron",
+      "fecha_evento": "1917–1930",
+      "lugar": "Campeche — Hopelchén",
+      "descripcion": "La Constitución de 1917 (Artículo 27) estableció las bases legales de la Reforma Agraria. En Campeche, la primera dotación relevante para la región de Los Chenes fue la de Dzibalchén: por resolución presidencial del 28 de junio de 1927, el poblado recibió 6,671.44 hectáreas de terrenos nacionales para beneficiar a 236 individuos. Una segunda dotación amplió el ejido en 2,850 ha el 2 de abril de 1938, para 57 individuos más. Sin embargo, los terrenos eran 'de mala calidad' — lo que obligó a los ejidatarios a seguir trabajando como asalariados de las empresas chicleras. Hacia 1930, en Campeche existían 67 predios con más de 10,000 ha que poseían en conjunto el 73.8% de la propiedad censada. Las grandes haciendas habían sobrevivido a la Revolución prácticamente intactas.",
+      "fuente": {
+        "nombre": "El Bable — La antigua hacienda de Dzibalchén (cita resolución presidencial)",
+        "url": "http://vamonosalbable.blogspot.com/2020/09/la-antigua-hacienda-de-dzibalchen.html",
+        "fecha_consulta": "2026-04-03",
+        "confiabilidad": "Media — cita datos de resolución presidencial, verificables en DOF"
+      },
+      "fuente_academica": {
+        "nombre": "SciELO — La reforma agraria en Campeche, ¿permanencia de una cultura indígena? (Cantún Caamal)",
+        "url": "https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S0186-03482012000100004",
+        "fecha_consulta": "2026-04-03",
+        "confiabilidad": "Alta — artículo académico arbitrado"
+      },
+      "tipo_dato": "Citado académico — datos verificables en DOF y RAN",
+      "personajes": [
+        {
+          "nombre": "Moisés de la Peña",
+          "rol": "Investigador que documentó que en 1930 existían 67 predios con más de 10,000 ha en Campeche, con el 73.8% de la propiedad censada.",
+          "nota": "Fuente citada en el artículo de SciELO. Requiere localizar publicación específica."
+        }
+      ],
+      "notas_contradiccion": "Las tierras dotadas a Dzibalchén en 1927 eran 'de mala calidad, no útiles para agricultura' — lo que forzó a los ejidatarios a trabajar en la industria chiclera. Esto es una forma de redistribución nominal que no cambió la dependencia económica real. Se dio tierra, pero tierra inútil. El poder sobre los recursos aprovechables (selva chiclera) permaneció en manos de contratistas y compañías extranjeras.",
+      "conexion_hipotesis": "La Reforma Agraria en Los Chenes fue un simulacro parcial: se dotaron ejidos, pero de tierras de baja calidad. Los recursos valiosos (selva, chicle, maderas) quedaron bajo el control de concesionarios y compañías extranjeras. La tierra cambió de nombre pero no de poder real.",
+      "tags": ["Reforma Agraria", "Dzibalchén 1927", "6671 hectáreas", "236 ejidatarios", "tierras de mala calidad", "chicle", "dependencia", "67 predios 73.8%", "haciendas sobreviven"]
+    },
+
+    {
+      "registro_id": "004-C",
+      "subtitulo": "1900–1950: La economía chiclera en Los Chenes — estructura de explotación monopolista y control norteamericano",
+      "fecha_evento": "1900–1950",
+      "lugar": "Hopelchén, Dzibalchén, Los Chenes — Campeche",
+      "descripcion": "La industria chiclera dominó la economía de Los Chenes durante medio siglo. En los años 30, Dzibalchén y Hopelchén se convirtieron en centros de extracción chiclera. En los años 40, el 60% de la población chenera económicamente activa trabajaba en las chiclerías durante la temporada de lluvias (julio-marzo). En 1940, Campeche aportó el 52% de la producción nacional de chicle, y México el 80% de la producción mundial. La estructura era monopolista y colonial: compañías norteamericanas (Wrigley's y otras) controlaban la exportación. Agentes de las compañías firmaban contratos con contratistas locales. Los contratistas pagaban anticipos a los chicleros en vales de provisiones — sistema de endeudamiento análogo a la tienda de raya de las haciendas. Un quintal (46 kg) de chicle valía 98 dólares en Nueva York; los agentes en los puertos pagaban 43 dólares; los chicleros recibían sólo 15-18 dólares. Los campos aéreos de Hopelchén, X Can Há y Xpuhil fueron construidos por contratistas en los años 30 para acceder a zonas de difícil acceso.",
+      "fuente_primaria_clave": {
+        "nombre": "Ponce Jiménez, Martha Patricia — La Montaña Chiclera: Campeche: vida cotidiana y trabajo (1900-1950)",
+        "editorial": "CIESAS (Centro de Investigaciones y Estudios Superiores en Antropología Social), México, 1990",
+        "isbn": "968496157X",
+        "paginas": 232,
+        "temas": ["Goma de mascar", "Trabajo y trabajadores", "Cooperativas de productores", "Aspectos culturales", "Testimonios personales"],
+        "descriptor_geografico": "Región de Los Chenes (Campeche, México)",
+        "url_catalogo": "https://cid-albertobeltran.cultura.gob.mx/catalogo-biblioteca/la-montana-chiclera-campeche-vida-cotidiana-y-trabajo-1900-1950-martha-patricia-ponce-jimenez/",
+        "url_ecosur": "https://bibliotecasibe.ecosur.mx/sibe/book/000017459",
+        "nota": "FUENTE PRIMARIA FUNDAMENTAL — Libro académico específico sobre la industria chiclera en Los Chenes, 1900-1950. Incluye testimonios orales de chicleros. El índice de Google Books confirma que menciona explícitamente: Hopelchén, Dzibalchén, Chenes, contratistas, compañías norteamericanas, cooperativas. DEBE SER CONSULTADO DIRECTAMENTE."
+      },
+      "fuente_academica_2": {
+        "nombre": "SciELO — Bestializados y oprimidos: figuraciones del chiclero en la cuentística campechana del siglo XX (Vadillo Buenfil)",
+        "url": "https://www.scielo.org.mx/scielo.php?script=sci_arttext_plus&pid=S2007-76102024000100106",
+        "nota": "Cita a Aranda González (1985) Apuntaciones históricas y literarias del municipio de Hopelchén — FUENTE LOCAL CLAVE"
+      },
+      "fuente_academica_3": {
+        "nombre": "SciELO — La resistencia con el chicle: los mayas entre el capital chiclero y el Estado mexicano (Kawakami)",
+        "url": "https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S2007-76102022000100325",
+        "fecha_consulta": "2026-04-03",
+        "confiabilidad": "Alta"
+      },
+      "tipo_dato": "Citado académico — alta confiabilidad",
+      "personajes": [
+        {
+          "nombre": "Contratistas chicleros de Hopelchén (no identificados nominalmente)",
+          "rol": "Intermediarios entre las compañías norteamericanas y los chicleros. Controlaban concesiones, transporte y abasto. Tenían el monopolio de la compra de productos agrícolas y forestales.",
+          "nota_critica": "Los contratistas chicleros son el equivalente funcional de los encomenderos del siglo XVI y de los hacendados del Porfiriato: el eslabón de control local que extrae valor y lo transfiere hacia arriba. Sus nombres en Los Chenes no están en fuentes consultadas. Buscar en: Ponce Jiménez (1990) y Aranda González (1985)."
+        },
+        {
+          "nombre": "Compañías norteamericanas (Wrigley's y otras)",
+          "rol": "Controlaban la exportación y el precio del chicle. Tenían agentes en Mérida, Campeche, Ciudad del Carmen, Cozumel y Belice.",
+          "nota_critica": "La explotación chiclera 'nació subordinada al control monopólico norteamericano' (Dzib-Can, 2000). Las relaciones laborales se caracterizaron por 'el peonaje y el endeudamiento anacrónicos, sin prestaciones sociales y sin contratos'. La forma cambió respecto a la hacienda; la estructura de explotación permaneció."
+        },
+        {
+          "nombre": "Humberto Lara y Lara",
+          "rol": "Periodista nacido en Hopelchén. Escribió 'En la Montaña Chiclera' — novela histórica sobre la industria chiclera de Los Chenes.",
+          "nota_critica": "La novela de Lara y Lara es una fuente literaria primaria sobre la experiencia vivida de la industria chiclera en Hopelchén. Buscar en bibliotecas de Mérida y Campeche."
+        }
+      ],
+      "notas_contradiccion": "La narrativa popular presenta a los chicleros como 'hombres libres y aventureros'. La realidad documentada: vivían en deuda permanente, sin acceso a educación, expuestos a enfermedades tropicales (paludismo, disentería, mosca chiclera que carcomía orejas y nariz), sin contratos ni prestaciones. La 'libertad' chiclera era la libertad de ser explotado en la selva en lugar de en la hacienda. El sistema de enganche y anticipos era funcionalmente idéntico al peonaje por deudas.",
+      "conexion_hipotesis": "La industria chiclera reemplazó a la hacienda como mecanismo de extracción: misma estructura (poder local → contratista → compañía extranjera → mercado internacional), diferente recurso (chicle en lugar de azúcar o henequén). La hipótesis se confirma: el sistema que formó Hopelchén no cambió de naturaleza, cambió de disfraz.",
+      "tags": ["chicle", "chicleros", "contratistas", "Wrigley's", "compañías norteamericanas", "Hopelchén campo aéreo", "Dzibalchén", "60% población", "52% producción nacional", "80% mundial", "peonaje", "endeudamiento", "Ponce Jiménez", "Kawakami", "La Montaña Chiclera"]
+    },
+
+    {
+      "registro_id": "004-D",
+      "subtitulo": "1930–1947: Cárdenas, cooperativas y la expropiación chiclera — el Estado intenta controlar el recurso",
+      "fecha_evento": "1930–1947",
+      "lugar": "Los Chenes — Campeche — México",
+      "descripcion": "En la década de 1930, bajo el gobierno de Lázaro Cárdenas, el Estado mexicano intentó romper el monopolio norteamericano sobre el chicle. Se organizaron cooperativas y sindicatos chicleros. En 1941, bajo la gubernatura de Héctor Pérez Martínez en Campeche, se creó un sindicato estatal que supervisó contratos, prestaciones y fondos de ahorro. En 1947 se expropiaron las tierras de 'The Laguna Corporation' en la Laguna de Términos — empresa extranjera con concesiones forestales. De 1930 a 1950 se fundaron 66 nuevas comunidades en Campeche, 10 de ellas en el municipio de Hopelchén — resultado directo de la Reforma Agraria. La distribución de tierras en Hopelchén fue de terrenos nacionales (selva), no de haciendas afectadas — lo que permitió a algunos hacendados conservar sus propiedades.",
+      "fuente_1": {
+        "nombre": "SciELO — La reforma agraria en Campeche (Cantún Caamal)",
+        "url": "https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S0186-03482012000100004",
+        "confiabilidad": "Alta"
+      },
+      "fuente_2": {
+        "nombre": "EntreDiversidades — Bestializados y oprimidos (Vadillo Buenfil, cita Dzib-Can 2000)",
+        "url": "https://entrediversidades.unach.mx/index.php/entrediversidades/article/download/442/657",
+        "confiabilidad": "Alta"
+      },
+      "tipo_dato": "Citado académico",
+      "personajes": [
+        {
+          "nombre": "Lázaro Cárdenas",
+          "rol": "Presidente de México 1934-1940. Bajo su gobierno se repartieron más de 18 millones de hectáreas, se organizaron cooperativas chicleras y se fortaleció el sistema ejidal.",
+          "nota_critica": "Cárdenas es el presidente que más afectó la estructura de poder en Los Chenes — pero sus reformas en la región fueron limitadas por la geografía y la resistencia local. Las 10 nuevas comunidades fundadas en Hopelchén entre 1930-1950 son el resultado más concreto del cardenismo en la región."
+        },
+        {
+          "nombre": "Héctor Pérez Martínez",
+          "rol": "Gobernador de Campeche (1941). Creó el sindicato estatal chiclero que organizó jurídicamente a los peones de las regiones gomeras.",
+          "periodo": "1941",
+          "nota_critica": "Pérez Martínez es el primer gobernador de Campeche nominalmente asociado a una política laboral favorable a los chicleros. Requiere más investigación sobre su relación con Los Chenes."
+        },
+        {
+          "nombre": "The Laguna Corporation",
+          "rol": "Empresa extranjera con concesiones forestales en Campeche. Expropiada en 1947.",
+          "nota_critica": "Si The Laguna Corporation tenía concesiones en Los Chenes, su expropiación en 1947 pudo haber liberado tierras que pasaron a ejidos de Hopelchén. Requiere verificación."
+        }
+      ],
+      "notas_contradiccion": "En la década de 1930, cuando se retiraron las concesiones a las compañías estadounidenses y se transfirieron a comunidades locales, el ingreso de los productores de chicle aumentó 300% (Este País). Pero este beneficio fue temporal: el chicle fue reemplazado por sustitutos sintéticos en los años 50-60, y las cooperativas que habían ganado control quedaron sin mercado. El 'empoderamiento' de las cooperativas chicleras fue real pero efímero, atado a un mercado externo que podía desaparecer en cualquier momento.",
+      "conexion_hipotesis": "El cardenismo demostró que cuando el Estado rompe el monopolio extranjero sobre un recurso natural, los productores locales se benefician (aumento del 300% en ingresos). Pero cuando ese recurso pierde valor en el mercado internacional (sustitutos sintéticos en los 50), la comunidad queda más vulnerable que antes por haber abandonado la agricultura de subsistencia.",
+      "tags": ["Cárdenas", "cooperativas chicleras", "Héctor Pérez Martínez", "sindicato 1941", "The Laguna Corporation", "expropiación 1947", "10 comunidades Hopelchén", "reforma agraria", "300% aumento ingresos", "sustitutos sintéticos"]
+    },
+
+    {
+      "registro_id": "004-E",
+      "subtitulo": "1940–1970: El fin del chicle y el inicio de la crisis — Hopelchén en la encrucijada",
+      "fecha_evento": "1940–1970",
+      "lugar": "Hopelchén — Los Chenes — Campeche",
+      "descripcion": "El auge chiclero alcanzó su máximo en 1940 (80% del chicle mundial era mexicano; Campeche aportó 52% de la producción nacional). A fines de los años 40, EEUU redujo drásticamente la compra de chicle al desarrollar sustitutos sintéticos derivados del petróleo (acetato de polivinilo). Los precios cayeron. La industria chiclera fue absorbida por fuentes oficiales en los años 40 (sindicatos y cooperativas). Los contratistas particulares dejaron de trabajar. Los campos aéreos de Hopelchén, X Can Há y Xpuhil quedaron abandonados. En Calakmul, entre 1968-1969, todavía 832 personas producían chicle — testigo del fin lento de una era. La economía de Los Chenes quedó sin su principal motor durante décadas, hasta que la agricultura industrial (especialmente soya y sorgo) llegó en los años 80-90, y luego los menonitas y la agroindustria transgénica.",
+      "fuente_1": {
+        "nombre": "El Bable — Hacienda de Dzibalchén (cita Schüren 2013 y datos de producción)",
+        "url": "http://vamonosalbable.blogspot.com/2020/09/la-antigua-hacienda-de-dzibalchen.html",
+        "confiabilidad": "Media-Alta"
+      },
+      "fuente_2": {
+        "nombre": "SciELO — Bestializados y oprimidos (Vadillo Buenfil — cita Lara-Zavala 2021)",
+        "url": "https://www.scielo.org.mx/scielo.php?script=sci_arttext_plus&pid=S2007-76102024000100106",
+        "cita_clave": "Los campos aéreos de Hopelchén, X Can Há y Xpuhil quedaron abandonados definitivamente como una cicatriz ya cerrada por donde antaño se derramaron sangre, salud, sudor y dinero. (Lara-Zavala, 2021:54-55)",
+        "confiabilidad": "Alta"
+      },
+      "fuente_3": {
+        "nombre": "Este País — El chicle: un invento mexicano",
+        "url": "https://estepais.com/ambiente/el-chicle-un-invento-mexicano/",
+        "confiabilidad": "Media"
+      },
+      "tipo_dato": "Citado — alta confiabilidad en datos cuantitativos",
+      "personajes": [],
+      "notas_contradiccion": "La narrativa del 'fin del chicle' presenta el declive como resultado de fuerzas del mercado internacional (sustitutos sintéticos). Esto es parcialmente cierto — pero Herman Konrad (investigador canadiense) documentó que las compañías extranjeras que explotaron el chicle en Campeche no respetaron ciclos de recuperación del árbol, y que entre 1929 y 1930 desaparecieron un millón de chicozapotes por sobreexplotación. El 'fin del chicle' fue también resultado de la depredación ambiental del mismo recurso por parte de las empresas que lo explotaron.",
+      "conexion_hipotesis": "El ciclo chiclero completa el patrón extractivo: recurso identificado → explotación intensiva por capital externo → agotamiento del recurso → abandono de la región → nueva forma de explotación. Este patrón se repetirá con la agroindustria transgénica en Los Chenes desde los años 2000.",
+      "tags": ["fin del chicle", "sustitutos sintéticos", "acetato de polivinilo", "campos aéreos abandonados", "Hopelchén campo aéreo", "1940 auge", "1950 declive", "Herman Konrad", "un millón chicozapotes", "ciclo extractivo", "Calakmul 1968"]
+    },
+
+    {
+      "registro_id": "004-F",
+      "subtitulo": "Fuentes literarias y académicas de Los Chenes — el testimonio como historia",
+      "fecha_evento": "1938–1985",
+      "lugar": "Hopelchén — Campeche — México",
+      "descripcion": "La experiencia de los chicleros de Los Chenes fue documentada tanto por fuentes académicas como por literatura campechana. La fuente académica más importante es 'La Montaña Chiclera' de Martha Patricia Ponce Jiménez (CIESAS, 1990), basada en testimonios orales, con descriptor geográfico específico 'Región de Los Chenes'. La fuente literaria más importante es 'En la Montaña Chiclera' de Humberto Lara y Lara (nativo de Hopelchén). La cuentística campechana sobre chicleros fue producida entre 1952 y 1978 por Fausto Vallado Berrón, Joaquín Santella, Juan de la Cabada y Enrique Escalante Escalante. La fuente histórica local más importante identificada es 'Apuntaciones históricas y literarias del municipio de Hopelchén, Campeche' de Mario Heberto Aranda González (1985).",
+      "fuente": {
+        "nombre": "EntreDiversidades — Bestializados y oprimidos: figuraciones del chiclero (Vadillo Buenfil)",
+        "url": "https://entrediversidades.unach.mx/index.php/entrediversidades/article/view/442",
+        "fecha_consulta": "2026-04-03",
+        "confiabilidad": "Alta"
+      },
+      "tipo_dato": "Bibliográfico — identificación de fuentes primarias",
+      "personajes": [
+        {
+          "nombre": "Mario Heberto Aranda González",
+          "rol": "Autor de 'Apuntaciones históricas y literarias del municipio de Hopelchén, Campeche' (1985) — LA MONOGRAFÍA HISTÓRICA LOCAL MÁS IMPORTANTE IDENTIFICADA",
+          "nota_critica": "PRIORIDAD MÁXIMA PARA PRÓXIMA ITERACIÓN. Este libro puede contener: nombres de hacendados, listas de jefes políticos, cronología local, personajes históricos de Hopelchén y datos que no existen en ninguna otra fuente consultada."
+        },
+        {
+          "nombre": "Martha Patricia Ponce Jiménez",
+          "rol": "Investigadora del CIESAS. Autora de 'La Montaña Chiclera' (1990) — fuente académica fundamental sobre la industria chiclera en Los Chenes con testimonios orales.",
+          "publicacion": "ISBN 968496157X — 232 páginas"
+        },
+        {
+          "nombre": "Juan de la Cabada",
+          "rol": "Escritor campechano. Escribió sobre chicleros. Afirmó: 'la del chicle es la historia de una explotación dura y larga'.",
+          "periodo": "Siglo XX"
+        },
+        {
+          "nombre": "Herman W. Konrad",
+          "rol": "Investigador canadiense. Estudió la industria chiclera en Campeche durante décadas. Publicación clave: 'Capitalismo y trabajo en los bosques de las tierras bajas tropicales mexicanas: el caso de la industria del chicle'. Historia Mexicana, 36(3), 465-505. 1987.",
+          "nota_critica": "Konrad documentó que las compañías extranjeras destruyeron un millón de chicozapotes entre 1929-1930 por sobreexplotación. Es la fuente académica más citada sobre la industria chiclera en Campeche."
+        }
+      ],
+      "notas_contradiccion": "La literatura campechana sobre chicleros los presenta como 'bestializados y oprimidos' — individuos degradados por la selva y por sus patrones. Ponce Jiménez los presenta como trabajadores con agencia, testimonios y cultura propia. La visión académica de testimonios orales contradice la visión literaria clasista que los reducía a 'borrachos, conflictivos y desalmados'.",
+      "conexion_hipotesis": "La memoria oral de los chicleros de Los Chenes es una forma de historia no oficial que contradice la narrativa dominante. El proyecto de Hopelchén debe buscar y registrar esos testimonios antes de que se pierdan.",
+      "tags": ["Aranda González 1985", "Ponce Jiménez 1990", "CIESAS", "La Montaña Chiclera", "testimonios orales", "Humberto Lara y Lara", "Juan de la Cabada", "Herman Konrad", "historia oral", "cuentística campechana"]
+    },
+
+    {
+      "registro_id": "004-G",
+      "subtitulo": "CRUCE DE DATOS: El ciclo extractivo de Hopelchén — un patrón de 500 años",
+      "fecha_evento": "1517–1970",
+      "lugar": "Hopelchén — Los Chenes",
+      "descripcion": "ANÁLISIS DE CRUCE DE DATOS HISTÓRICO. Al observar los Nodos 001-004 en conjunto, emerge un patrón estructural de 500 años en Hopelchén: (1) RECURSO IDENTIFICADO por poder externo. (2) MECANISMO DE CONTROL instaurado (encomienda / hacienda / concesión chiclera / agroindustria). (3) EXTRACCIÓN INTENSIVA por capital externo con mano de obra local mal pagada o endeudada. (4) AGOTAMIENTO O CAMBIO — del recurso o del mercado. (5) ABANDONO de la región. (6) NUEVA ÉLITE llena el vacío y controla el siguiente recurso. Los recursos explotados en secuencia: tierras agrícolas (siglo XVI-XVII) → maderas preciosas y palo de tinte (siglo XVIII-XIX) → azúcar y henequén (siglo XIX) → chicle y maderas (siglo XX temprano) → soya/sorgo y transgénicos (siglo XXI). En cada ciclo, los mayas de Los Chenes fueron la mano de obra; los beneficios se fueron afuera.",
+      "fuente": "Análisis propio — cruce de datos de Nodos 001-004",
+      "tipo_dato": "Análisis estructural — cruce de datos documentados",
+      "personajes": [],
+      "notas_contradiccion": "Cada época presenta su mecanismo de explotación como 'modernización', 'desarrollo' o 'progreso': las encomiendas eran 'evangelización', las haciendas eran 'prosperidad', el chicle era 'empresa regional', los transgénicos son 'agricultura sostenible'. La narrativa del progreso es siempre construida por quien se beneficia de la extracción.",
+      "conexion_hipotesis": "CONFIRMACIÓN MÁXIMA DE LA HIPÓTESIS: El sistema que formó Hopelchén no es una serie de eventos separados sino un patrón continuo de 500 años de extracción de recursos naturales y trabajo indígena por élites externas cambiantes, usando instrumentos legales e ideológicos diferentes en cada época.",
+      "tags": ["cruce datos", "500 años", "ciclo extractivo", "patrón estructural", "recursos naturales", "mano de obra maya", "élites externas", "encomienda", "hacienda", "chicle", "transgénicos", "continuidad histórica"]
+    }
+
+  ],
+
+  "linea_del_tiempo_nodo": [
+    {"año": "1910", "evento": "Inicio Revolución Mexicana. Hopelchén como 'principal foco de lucha antiagraria'."},
+    {"año": "1911", "evento": "Pedro Advíncula Lara instala reloj público en Hopelchén (fabricado en Berlín) — en plena Revolución sigue ostentando poder."},
+    {"año": "1915", "evento": "Hopelchén elevada a cabecera municipal. Municipio libre."},
+    {"año": "1917", "evento": "Constitución de México — Artículo 27 establece bases de Reforma Agraria."},
+    {"año": "1927", "evento": "Primera dotación ejidal a Dzibalchén: 6,671.44 ha para 236 individuos. Tierras de baja calidad — obligan a trabajar en chiclerías."},
+    {"año": "1930s", "evento": "Dzibalchén y Hopelchén se convierten en centros de extracción chiclera. 60% de la población económicamente activa trabaja en chiclerías."},
+    {"año": "1930", "evento": "67 predios con +10,000 ha poseen el 73.8% de la propiedad en Campeche. Haciendas sobreviven a la Revolución."},
+    {"año": "1930–1950", "evento": "66 nuevas comunidades fundadas en Campeche — 10 en Hopelchén. Resultado de la Reforma Agraria."},
+    {"año": "1938", "evento": "Segunda dotación a Dzibalchén: 2,850 ha para 57 individuos adicionales."},
+    {"año": "1940", "evento": "Máximo del chicle: México produce 80% del chicle mundial; Campeche aporta 52% de la producción nacional."},
+    {"año": "1941", "evento": "Gobernador Héctor Pérez Martínez crea sindicato estatal chiclero en Campeche."},
+    {"año": "1947", "evento": "Expropiación de The Laguna Corporation — empresa extranjera con concesiones forestales en Campeche."},
+    {"año": "1940s-50s", "evento": "EEUU desarrolla sustitutos sintéticos del chicle. Precio cae. Industria chiclera en declive."},
+    {"año": "1959", "evento": "Hopelchén declarada ciudad (decreto No. 196)."},
+    {"año": "1968-69", "evento": "En selva de Calakmul, 832 personas aún trabajan en chiclerías — fin de una era."},
+    {"año": "1985", "evento": "Mario Heberto Aranda González publica 'Apuntaciones históricas y literarias del municipio de Hopelchén'."}
+  ],
+
+  "contradicciones_globales_nodo": [
+    {
+      "contradiccion_id": "C010",
+      "descripcion": "La Reforma Agraria en Los Chenes dotó de tierras a comunidades como Dzibalchén — pero de 'terrenos nacionales de mala calidad', no de haciendas afectadas. Los hacendados de Hopelchén conservaron sus tierras productivas mientras los ejidatarios recibieron selva marginal.",
+      "implicacion": "La Reforma Agraria fue selectivamente aplicada en Hopelchén para proteger a los hacendados locales — quienes habían sido la 'clase antiagraria' que resistió la Revolución.",
+      "resolucion_propuesta": "Contrastar con resoluciones presidenciales en el Diario Oficial de la Federación (DOF) y el Registro Agrario Nacional (RAN) para Hopelchén 1920-1950."
+    },
+    {
+      "contradiccion_id": "C011",
+      "descripcion": "La industria chiclera mejoró ingresos de comunidades cuando el Estado rompió el monopolio extranjero (+300%). Pero los ejidatarios chicleros de Los Chenes 'por esta razón limitaron su interés en la tierra y la reforma agraria' — es decir, el chicle distorsionó la demanda de tierra.",
+      "implicacion": "El auge chiclero funcionó como un mecanismo que redujo la presión social por la redistribución de tierras en Los Chenes. Los hacendados se beneficiaron indirectamente: mientras los peones trabajaban en las chiclerías, no reclamaban las haciendas.",
+      "resolucion_propuesta": "Investigar en Ponce Jiménez (1990) si hay datos específicos sobre esta dinámica en Los Chenes."
+    },
+    {
+      "contradiccion_id": "C012",
+      "descripcion": "Las compañías extranjeras (Wrigley's y otras) sobreexplotaron los chicozapotes, destruyendo un millón de árboles en 1929-1930 (Konrad). Al mismo tiempo, las cooperativas que reemplazaron a las compañías también dependían de los mismos árboles sobreexplotados. La 'emancipación' chiclera ocurrió cuando el recurso ya estaba dañado.",
+      "implicacion": "El capital extranjero extrajo el valor y destruyó el recurso; luego abandonó la región. Las cooperativas locales heredaron un recurso empobrecido y un mercado que pronto preferiría los sustitutos sintéticos.",
+      "resolucion_propuesta": "Verificar si hay datos de recuperación de chicozapotes en Los Chenes posterior a los años 40."
+    }
+  ],
+
+  "fuentes_criticas_priorizadas": [
+    {
+      "prioridad": 1,
+      "fuente": "Aranda González, Mario Heberto — Apuntaciones históricas y literarias del municipio de Hopelchén, Campeche (1985)",
+      "donde_buscar": ["Biblioteca del Estado de Campeche", "Biblioteca Pública de Mérida", "CIESAS México", "UAC (Universidad Autónoma de Campeche)", "Biblioteca del INAH Campeche"],
+      "por_que": "Es la monografía histórica local más importante identificada. Puede contener: nombres de hacendados, jefes políticos, cronología local con datos únicos no reproducidos en otras fuentes."
+    },
+    {
+      "prioridad": 2,
+      "fuente": "Ponce Jiménez, Martha Patricia — La Montaña Chiclera: Campeche: vida cotidiana y trabajo (1900-1950) (CIESAS, 1990)",
+      "url_catalogo": "https://cid-albertobeltran.cultura.gob.mx/catalogo-biblioteca/la-montana-chiclera-campeche-vida-cotidiana-y-trabajo-1900-1950-martha-patricia-ponce-jimenez/",
+      "por_que": "Fuente académica con testimonios orales específicamente sobre Los Chenes. Puede contener nombres de contratistas y datos sobre condiciones de trabajo en Hopelchén."
+    },
+    {
+      "prioridad": 3,
+      "fuente": "Konrad, Herman W. — Capitalismo y trabajo en los bosques de las tierras bajas tropicales mexicanas: el caso de la industria del chicle",
+      "revista": "Historia Mexicana, 36(3), 465-505. 1987",
+      "por_que": "Fuente académica fundamental sobre la economía chiclera en Campeche. Datos cuantitativos sobre producción, explotación y destrucción ambiental."
+    },
+    {
+      "prioridad": 4,
+      "fuente": "Schüren, Ute — Entre los caminos de herradura y los campos de aterrizaje: Rutas de comunicación e historia económica en el sureste de México",
+      "editorial": "Indiana, Ibero-Amerikanisches Institut Preußischer Kulturbesitz, Alemania 2013",
+      "url": "https://www.redalyc.org/articulo.oa?id=247029853011",
+      "por_que": "Investigación alemana específica sobre economía y comunicaciones en Los Chenes. Fuente internacional no reproducida en literatura mexicana."
+    },
+    {
+      "prioridad": 5,
+      "fuente": "DOF (Diario Oficial de la Federación) — Resoluciones presidenciales de dotación ejidal en Hopelchén 1920-1950",
+      "url": "https://www.dof.gob.mx/",
+      "por_que": "Fuente primaria legal que nomina las haciendas afectadas y las comunidades beneficiadas en Hopelchén."
+    }
+  ],
+
+  "metadatos": {
+    "metodologia": "Investigación web — SciELO, CIESAS, Wikipedia, fuentes académicas y secundarias. Cruce de datos entre Nodos 001-004.",
+    "nivel_profundidad": "1 (primera iteración del nodo)",
+    "nodo_anterior": "NODO 003 — Colonia Tardía, Independencia y Porfiriato (1670–1910)",
+    "proxima_iteracion": "Ver archivo HOPELCHEN_PREGUNTAS_004.json",
+    "nodo_siguiente_sugerido": "NODO 005 — Hopelchén Contemporáneo (1970–2026): Menonitas, Transgénicos, Poder Político y Resistencia Maya",
+    "estado": "Pendiente de aprobación del investigador"
+  }
+}

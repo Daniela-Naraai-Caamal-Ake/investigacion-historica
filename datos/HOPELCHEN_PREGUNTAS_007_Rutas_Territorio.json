@@ -1,0 +1,165 @@
+{
+  "repositorio": "Hopelchén: 2000 años de historia",
+  "archivo_id": "PREGUNTAS-007",
+  "titulo": "Preguntas Abiertas e Iteraciones Pendientes — Derivadas del Nodo 007: Rutas, Territorio y Control del Espacio (1517–2026)",
+  "nodo_origen": "007 — Rutas, Territorio y Control del Espacio en Hopelchén (1517–2026)",
+  "fecha_generacion": "2026-04-08",
+  "estado": "Activo — pendiente de investigación",
+
+  "preguntas_urgentes": [
+
+    {
+      "pregunta_id": "P007-01",
+      "pregunta": "¿Dónde se pueden consultar las obras de Pacheco Blanco (1928) y Peña (1942) sobre la economía de Los Chenes? ¿Contienen nombres de contratistas chicleros y hacendados de Hopelchén?",
+      "contexto": "Schüren (2013) cita repetidamente a Pacheco Blanco (1928) y Peña (1942, 2 tomos) como las fuentes socioeconómicas más importantes sobre Los Chenes del siglo XX. Pacheco Blanco (1928) contiene la cita sobre el aislamiento de Hopelchén: 'Solo los ricos pueden viajar... se siente uno en Los Chenes como olvidado del mundo.' Peña (1942) tiene datos de producción chiclera, estructura agraria y demografía de la región. Si alguna de estas obras nombra a los contratistas chicleros de Hopelchén, ese dato llenaría el vacío más importante del Nodo 004 (los nombres de los contratistas chicleros que controlaban el monopolio económico de Los Chenes durante 3-4 décadas).",
+      "tipo": "Economía / Fuentes históricas primarias / Chicle / Contratistas",
+      "fuentes_a_consultar": [
+        "Biblioteca del Estado de Campeche — fondos históricos",
+        "Biblioteca Nacional de México (UNAM) — búsqueda: 'Pacheco Blanco Campeche 1928'",
+        "CIESAS — biblioteca especializada en sureste mexicano",
+        "Ibero-Amerikanisches Institut, Berlín — pueden tener copia dada la cita en Schüren"
+      ],
+      "prioridad": "URGENTE",
+      "conexion_hipotesis": "Los contratistas chicleros son el equivalente del siglo XX a los encomenderos del siglo XVI: la élite local que controlaba el trabajo y los recursos de Los Chenes. Si sus nombres están en Pacheco Blanco o Peña, la cadena de apellidos de poder en Hopelchén se extiende al período chiclero."
+    },
+
+    {
+      "pregunta_id": "P007-02",
+      "pregunta": "¿Cuándo llegaron por primera vez escuelas, centros de salud y autoridades civiles permanentes a las comunidades del sur del municipio de Hopelchén (Dzibalchén, Xkanhá, montaña chenera)?",
+      "contexto": "Schüren (2013) documenta que en 1923 el lingüista Schuller describió el sur de Los Chenes como un territorio donde el Estado mexicano no tenía presencia real ni conocía los lugares por nombre. Los mayas pacíficos mantuvieron independencia de facto hasta los años 1920. La pregunta es: ¿cuándo llegó el Estado — con escuelas, médicos, jueces — al sur del municipio de Hopelchén? La respuesta determina cuánto tiempo duró la resistencia maya en ese territorio mediante el escudo de la inaccesibilidad geográfica.",
+      "tipo": "Estado / Educación / Salud / Presencia institucional / Resistencia",
+      "fuentes_a_consultar": [
+        "SEP — historia de escuelas rurales en Campeche: fechas de fundación de escuelas en comunidades del sur de Hopelchén",
+        "IMSS / SSA — primera clínica o centro de salud en Dzibalchén y comunidades aledañas",
+        "Schüren 2003a (libro completo sobre Los Chenes) — probable fuente directa sobre esta pregunta",
+        "Archivo Municipal de Hopelchén — expedientes de juntas municipales del sur"
+      ],
+      "prioridad": "Alta",
+      "conexion_hipotesis": "La llegada tardía del Estado al sur de Hopelchén confirma que la resistencia maya no fue solo política — fue territorial y geográfica. La selva como escudo fue la estrategia de resistencia más efectiva. Cuando llegaron las escuelas y los médicos, llegaron también los contratistas chicleros y después los menonitas."
+    },
+
+    {
+      "pregunta_id": "P007-03",
+      "pregunta": "¿Cuál es el paradero del Archivo Municipal de Hopelchén y qué fondos documentales tiene disponibles para consulta? Schüren (2013) cita documentos de 1947-1950 con nombres específicos (Ricardo Avila Briceño, Manuel Ruíz).",
+      "contexto": "Schüren cita directamente: 'Permiso para la venta de maíz de Manuel Ruíz, 19.9.1950, Exp. Administrativo, Correspondencia 1949-50, Caja 1947-49 (sic!), Ricardo Avila Briceño, Archivo Municipal de Hopelchén.' Esto confirma que el archivo existe, tiene documentos desde los años 1940s y está organizado por cajas y expedientes. El Ministerio de Cultura de España lo registra en CensoArchivos (Calle 20 x 19 No. 119, Hopelchén, C.P. 24600). Contactar el archivo es una prioridad para acceder a: listas de presidentes municipales, registros de jefes políticos, documentos de contratistas chicleros, permisos de uso de suelo históricos.",
+      "tipo": "Archivo histórico / Fuentes primarias / Contacto directo",
+      "fuentes_a_consultar": [
+        "Archivo Municipal de Hopelchén — Calle 20 x 19 No. 119, C.P. 24600 — tel. (996) 82 2 00 18 (teléfono del Ayuntamiento)",
+        "CensoArchivos Ministerio de Cultura España: http://censoarchivos.mcu.es/CensoGuia/archivodetail.htm?id=55725",
+        "Periódico Oficial del Estado de Campeche — para comparar con documentos del archivo",
+        "Contrato de investigación: presentarse como investigador independiente y solicitar acceso a fondos históricos"
+      ],
+      "prioridad": "Alta",
+      "conexion_hipotesis": "El Archivo Municipal de Hopelchén es la fuente primaria más directamente accesible para el proyecto. Si contiene documentos desde los años 1940s, puede responder preguntas pendientes desde el Nodo 002 (fundación colonial), el Nodo 004 (contratistas chicleros) y el Nodo 006 (lista de presidentes municipales históricos)."
+    },
+
+    {
+      "pregunta_id": "P007-04",
+      "pregunta": "¿Existe la obra mayor de Schüren sobre Los Chenes (Schüren 2003a, libro completo)? ¿Dónde se puede consultar?",
+      "contexto": "Schüren (2013) menciona repetidamente una obra mayor suya: 'Schüren 2003a' — descrita como 'un estudio más amplio de la zona de Los Chenes, su historia y economía'. Este libro contiene todo lo que el artículo de 2013 resume brevemente. Los capítulos III, IV y VI están dedicados a la economía chiclera. Basado en trabajo de campo en Los Chenes desde 1993. Si este libro existe como publicación formal, es la fuente académica más completa sobre la historia económica de Hopelchén en el siglo XX — más detallada que cualquier otra fuente identificada en el repositorio.",
+      "tipo": "Fuente académica / Los Chenes / Historia económica / Localización",
+      "fuentes_a_consultar": [
+        "Universität Bern — Center for Global Studies (afiliación de Schüren)",
+        "Ibero-Amerikanisches Institut, Berlín — probablemente tienen el libro",
+        "WorldCat — búsqueda por autor 'Schüren' + tema 'Los Chenes' o 'Campeche'",
+        "ResearchGate — perfil de Ute Schüren y lista de publicaciones"
+      ],
+      "prioridad": "Alta",
+      "conexion_hipotesis": "La obra mayor de Schüren sobre Los Chenes podría contener los nombres de los contratistas chicleros, los ejidatarios originales, la historia de las comunidades específicas y datos que ninguna otra fuente tiene. Es el equivalente académico del libro de Aranda González (1985) pero para el período 1900-2000."
+    },
+
+    {
+      "pregunta_id": "P007-05",
+      "pregunta": "¿Cuándo llegó la Carretera Federal 261 a Hopelchén y Dzibalchén? ¿Bajo qué gobierno federal y estatal fue construida cada tramo? ¿Cambió el patrón de deforestación con su llegada?",
+      "contexto": "La Carretera Federal 261 es el instrumento de comunicación más importante de Hopelchén en la época contemporánea, pero no se tiene información precisa sobre cuándo fue construida cada tramo ni bajo qué gobiernos. PorEsto (2022) documenta que durante los gobernadores Carlos Sansores Pérez (1967-1973) y Rafael Rodríguez Barrera (1973-1979) se proyectó una vía más directa entre Campeche y Mérida. Si la CF-261 fue construida en ese período, coincide con el inicio de la agricultura extensiva en Los Chenes.",
+      "tipo": "Infraestructura / Carretera / Deforestación / Historia",
+      "fuentes_a_consultar": [
+        "SCT (Secretaría de Comunicaciones y Transportes) — historia de la CF-261",
+        "PorEsto — 'El Camino Real de Mérida a Campeche' (Oct 2022): datos sobre gobernadores Sansores y Rodríguez Barrera",
+        "Global Forest Watch — comparar fechas de apertura de carretera con cronología de deforestación",
+        "Periódico Oficial del Estado de Campeche — decretos de construcción de carreteras en Los Chenes"
+      ],
+      "prioridad": "Media-Alta",
+      "conexion_hipotesis": "Si la CF-261 fue construida bajo el gobierno de Carlos Sansores Pérez (1967-1973) — cuyo apellido aparece también en la lista de ex-alcaldes de Hopelchén — el control de la infraestructura y el control político del municipio convergieron en la misma red familiar. La carretera que facilitó el despojo contemporáneo pudo haber sido construida por la misma familia que gobernó Hopelchén."
+    },
+
+    {
+      "pregunta_id": "P007-06",
+      "pregunta": "¿Qué pasó con los terrenos de los campos de aterrizaje chicleros de Hopelchén y X Can Há después del abandono en los años 1950? ¿Son hoy ejido, propiedad privada o terreno nacional?",
+      "contexto": "Los campos de aterrizaje chicleros de Hopelchén y X Can Há fueron construidos por contratistas privados (Antonio del Río, Compañía Sarabia) en los años 1930 mediante concesión federal. Al abandonarse en los años 1940-1950, esas superficies de tierra preparada deberían haber tenido un destino jurídico. Si pasaron a ser ejido, ¿de cuál comunidad? Si son propiedad privada, ¿de quién? Si son terreno nacional, ¿fueron parte de las tierras que llegaron a los menonitas en los años 1980?",
+      "tipo": "Tierra / Propiedad / Ejido / Historia jurídica",
+      "fuentes_a_consultar": [
+        "RAN (Registro Agrario Nacional) — propietarios de terrenos en zonas de Hopelchén y X Can Há",
+        "Catastro del Estado de Campeche — registro histórico de propiedades en Hopelchén",
+        "Schüren 2003a — puede tener datos sobre los campos de aterrizaje post-abandono",
+        "Comunidad de X Can Há — testimonio oral sobre el campo de aterrizaje"
+      ],
+      "prioridad": "Media",
+      "conexion_hipotesis": "Si las tierras de los campos de aterrizaje chicleros terminaron siendo adquiridas por menonitas o agroindustria en los años 1980-1990, el patrón se confirmaría con precisión: la misma tierra que sirvió a la extracción chiclera sirvió después a la extracción agroindustrial, sin ningún período de beneficio para la comunidad local."
+    },
+
+    {
+      "pregunta_id": "P007-07",
+      "pregunta": "¿Cuál era el itinerario exacto del viajero Rodolfo Schuller (1923) en el sur de Los Chenes? ¿El diario completo está disponible en el Ibero-Amerikanisches Institut de Berlín?",
+      "contexto": "Schüren (2013: 206-207) cita extensamente el 'Diario de viaje por los estados de Campeche y Yucatán del Prof. Rodolfo Schuller de la Universidad Nacional, México D.F., Marzo de 1923'. Este diario contiene: el itinerario completo con pueblos y distancias entre ellos (tabla de 17 etapas desde Campeche hasta Xkanhá), la descripción de la 'Mexican Exploitation Company' en Canasayab, y la descripción de Hopelchén/sur de Los Chenes en 1923. Si el documento original está accesible, es la fuente más detallada sobre el territorio y las rutas del sur de Hopelchén en el siglo XX.",
+      "tipo": "Fuente primaria / Rutas / Geografía / Siglo XX",
+      "fuentes_a_consultar": [
+        "Ibero-Amerikanisches Institut, Berlín — colecciones de americanistas (Schuller fue americanista alemán)",
+        "Universidad Nacional Autónoma de México — si hay copia del diario de un catedrático mexicano-alemán de 1923",
+        "Dialnet / WorldCat — búsqueda 'Schuller Campeche 1923'"
+      ],
+      "prioridad": "Media",
+      "conexion_hipotesis": "El diario de Schuller de 1923 es probablemente la descripción más detallada del territorio de Los Chenes en el período inmediatamente anterior al auge chiclero. Las distancias entre pueblos que cita implican el estado de los caminos — y los pueblos que ya habían desaparecido en 1923 son evidencia de la devastación demográfica de la Guerra de Castas."
+    },
+
+    {
+      "pregunta_id": "P007-08",
+      "pregunta": "¿Hay mapas históricos del municipio de Hopelchén del siglo XIX y principios del XX que muestren la distribución de haciendas, ranchos, caminos y poblados antes de la guerra de castas y durante el auge chiclero?",
+      "contexto": "Schüren (2013) menciona el mapa de Catherwood (1843) que clasifica el sur de Iturbide como 'muy poco poblado'. El Nodo 003 documenta que antes de la Guerra de Castas había 11 haciendas y 116 ranchos en Los Chenes con una población de 26,000 habitantes. La distribución espacial de esas haciendas y ranchos — que apareció en la 'Memoria del Secretario General de Gobierno' de 1846 — determinaría qué tierras eran productivas y dónde se concentraba el poder económico antes del despojo de 1843-1847.",
+      "tipo": "Cartografía / Haciendas / Territorio / Siglo XIX",
+      "fuentes_a_consultar": [
+        "Archivo General de la Nación — Ramo Mapas, Planos e Ilustraciones: mapas de Campeche siglo XIX",
+        "INEGI — colección de mapas históricos de Campeche",
+        "Stephens, John L. — Incidents of Travel in Yucatan (1843): mapa de Catherwood (disponible en Archive.org)",
+        "Memoria del Secretario General de Gobierno 18.9.1846 (citada en Schüren) — puede tener distribución de haciendas",
+        "AGI Sevilla — PARES: mapas coloniales de los Chenes"
+      ],
+      "prioridad": "Media",
+      "conexion_hipotesis": "Los mapas históricos son la forma más directa de visualizar el despojo territorial: comparar la distribución de haciendas de 1846 con los ejidos de 1950 y la deforestación de 2020 muestra el ciclo completo de transformación del territorio en tres dimensiones espaciales."
+    }
+
+  ],
+
+  "hallazgos_para_siguiente_nodo": [
+    {
+      "hallazgo": "Schüren (2013) identifica que Los Chenes tenían aproximadamente 26,000 habitantes antes de la Guerra de Castas (1847), de los cuales la mitad vivía en 11 haciendas y 116 ranchos. Fuente: Memoria del Secretario General de Gobierno 18.9.1846, Apéndice Núm. 16.",
+      "implicacion": "Este dato sirve como punto de partida para el Nodo 008 (Demografía): ¿Cuántos habitantes tenía Hopelchén en cada era? La cifra de 26,000 en 1846 es el máximo prehispánico-colonial documentado antes de la catástrofe de la Guerra de Castas. La secuencia demográfica completa (crecimiento pre-guerra → colapso por guerra → recuperación lenta → auge chiclero → post-chicle) es la historia de Hopelchén en números.",
+      "fuente": "Schüren (2013) citando Memoria del Secretario General de Gobierno 18.9.1846",
+      "accion_siguiente": "Nodo 008 debe reconstruir la demografía histórica de Hopelchén con todos los datos disponibles."
+    },
+    {
+      "hallazgo": "Schüren cita que los contratistas chicleros 'tenían el monopolio tanto en la compra de los productos agrícolas y forestales, como en el transporte' y que 'controlaban el abastecimiento de los trabajadores'. Cita a 'ejidatarios y comerciantes de la región; muchos de ellos chicleros o hijos de antiguos contratistas y chicleros' que entrevistó entre 1993 y 1998.",
+      "implicacion": "Los hijos de los contratistas chicleros de los años 1930-1950 seguían viviendo en el municipio de Hopelchén en los años 1990. Sus apellidos deberían estar identificables en el registro civil o en los padrones ejidales. Cruzar con el Nodo 006 (apellidos de poder): ¿son los mismos apellidos que aparecen como alcaldes y regidores?",
+      "fuente": "Schüren (2013: 204, nota 26)",
+      "accion_siguiente": "Buscar si los apellidos de los contratistas chicleros identificados en Ponce Jiménez (1990) o Pacheco Blanco (1928) coinciden con los apellidos dominantes en el poder político municipal de Hopelchén post-1960."
+    },
+    {
+      "hallazgo": "El gobernador que proyectó la vía moderna Campeche-Mérida (sustituta del Camino Real) fue Carlos Sansores Pérez (1967-1973). El apellido Sansores aparece también en la lista de ex-alcaldes de Hopelchén (Julio Alberto Sansores Sansores, fecha indeterminada) y en la gobernadora actual (Layda Sansores, 2021-2027).",
+      "implicacion": "La familia Sansores puede haber controlado tanto la infraestructura de comunicación del estado (Carlos Sansores Pérez como gobernador constructor de carreteras) como la política municipal de Hopelchén (Julio Sansores como alcalde). El patrón Baranda (telégrafo + poder político) se repite un siglo después con los Sansores (carretera + poder político).",
+      "fuente": "PorEsto — El Camino Real de Mérida a Campeche (Oct 2022)",
+      "accion_siguiente": "Investigar el árbol genealógico de la familia Sansores en Campeche: ¿es Carlos Sansores Pérez (gobernador) pariente de Julio Sansores Sansores (alcalde Hopelchén) y de Layda Sansores (gobernadora actual)?"
+    }
+  ],
+
+  "siguiente_nodo_sugerido": "NODO 008 — Demografía e Historia de la Población en Hopelchén (siglo XVI–2026): Censos, Migraciones, Colapsos y Reconstrucciones",
+
+  "metadatos": {
+    "generado_desde": "HOPELCHEN_NODO_007_Rutas_Territorio.json",
+    "fecha": "2026-04-08",
+    "total_preguntas_urgentes": 8,
+    "total_hallazgos_siguiente_nodo": 3,
+    "fuente_central_leida": "Schüren, Ute (2013) — Indiana 30: 199-215 — PDF completo leído en esta sesión",
+    "estado": "Activo — primera iteración",
+    "nota_metodologica": "Este nodo es el primero del repositorio construido con una fuente académica internacional leída en su totalidad en la misma sesión. El artículo de Schüren (2013) es la fuente académica de mayor calidad específicamente sobre Los Chenes identificada hasta ahora — su obra mayor (Schüren 2003a) debe ser localizada con urgencia."
+  }
+}

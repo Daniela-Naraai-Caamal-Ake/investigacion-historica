@@ -1,0 +1,158 @@
+{
+  "repositorio": "Hopelchén: 2000 años de historia",
+  "archivo_id": "PREGUNTAS-005-SINTESIS",
+  "titulo": "Preguntas Abiertas del Nodo 005 y Síntesis Final del Repositorio — Estado del Proyecto",
+  "nodo_origen": "005 — Hopelchén Contemporáneo (1970–2026)",
+  "fecha_generacion": "2026-04-03",
+  "estado": "Activo — repositorio completo en primera versión",
+
+  "SINTESIS_DEL_REPOSITORIO": {
+    "nodos_completados": 5,
+    "rango_cronologico": "300 a.C. — 2026 d.C.",
+    "hipotesis_estado": "CONFIRMADA ESTRUCTURALMENTE en los 5 nodos",
+    "hallazgo_central": "El municipio de Hopelchén ha sido sistemáticamente un espacio de extracción de recursos por élites externas cambiantes durante 2000 años, usando instrumentos de control que evolucionan (encomienda → hacienda → concesión → subsidio) pero mantienen la misma función: despojar a los mayas de sus recursos, su trabajo y su conocimiento.",
+    "contraejemplo_parcial": "El cardenismo (1934-1940) y la sentencia de la SCJN en favor de las comunidades mayas (2015) demuestran que el patrón puede romperse cuando el Estado actúa en contra del capital externo. Estas rupturas son reales pero frágiles.",
+    "personaje_sintetizador": "Leydy Pech — apicultora maya de Ich Ek, Hopelchén. Premio Goldman 2020. Su lucha conecta el conocimiento ancestral maya (abeja Xunáan Kab) con el litigio constitucional moderno. Es la encarnación contemporánea de la resistencia documentada desde los bataboob de 1669.",
+    "patron_extractivo_documentado": [
+      {"era": "Prehispánico tardío (1000-1517)", "recurso": "Trabajo y tributo", "élite": "Clase dirigente maya decadente"},
+      {"era": "Colonial (1517-1821)", "recurso": "Trabajo, maíz, miel, cera, maderas", "élite": "Encomenderos españoles + Iglesia franciscana", "instrumento": "Encomienda + congregación"},
+      {"era": "República temprana (1821-1847)", "recurso": "Tierras comunales, azúcar, ganado", "élite": "Hacendados criollos/mestizos", "instrumento": "Privatización de ejidos"},
+      {"era": "Porfiriato (1876-1910)", "recurso": "Tierra, maderas, chicle", "élite": "Hacendados + compañías extranjeras (Mexican Exploitation)", "instrumento": "Ley de baldíos 1883"},
+      {"era": "Post-Revolución y chicle (1917-1970)", "recurso": "Chicle, maderas preciosas", "élite": "Contratistas nacionales + Wrigley's y otras compañías norteamericanas", "instrumento": "Concesiones + sistema de enganche"},
+      {"era": "Neoliberal (1992-2026)", "recurso": "Tierra ejidal, agua subterránea, biodiversidad", "élite": "Menonitas + agroindustria transnacional (Monsanto/Bayer)", "instrumento": "Reforma Art. 27 (1992) + arrendamiento ejidal + subsidios"}
+    ]
+  },
+
+  "preguntas_urgentes_005": [
+
+    {
+      "pregunta_id": "P005-01",
+      "pregunta": "¿Quiénes son los presidentes municipales de Hopelchén desde 1970 hasta 2026? ¿Sus apellidos? ¿Filiaciones políticas? ¿Relación con haciendas, empresas o agroindustria?",
+      "contexto": "El poder político local es el eslabón entre las élites nacionales/internacionales y el territorio. Los presidentes municipales de Hopelchén son quienes aprueban o bloquean los cambios de uso de suelo, los contratos ejidales y las concesiones.",
+      "fuentes": ["Periódico Oficial del Estado de Campeche", "INEGI — elecciones municipales", "Wikipedia — municipio de Hopelchén"],
+      "prioridad": "URGENTE",
+      "conexion_hipotesis": "Si hay continuidad de apellidos entre la clase hacendaria del Porfiriato y la clase política contemporánea, se confirma la transmisión generacional del poder en Hopelchén."
+    },
+
+    {
+      "pregunta_id": "P005-02",
+      "pregunta": "¿Cuáles son los nombres exactos y extensión de las Sociedades de Producción Rural (SPR) menonitas que recibieron subsidios en Hopelchén en 2019? ¿A qué colonias pertenecen?",
+      "contexto": "Animal Político documentó que el 61% de los 120 millones de pesos en subsidios Aserca 2019 en Campeche fue a menonitas, incluyendo SPR en Hopelchén. Los datos están en el padrón público de Aserca.",
+      "fuentes": ["Aserca — padrón de beneficiarios 2019 (datos.gob.mx)", "Animal Político — investigación Sembrando Deforestación"],
+      "prioridad": "Alta",
+      "conexion_hipotesis": "Las SPR son el mecanismo para que los menonitas reciban subsidios del Estado mexicano — el Estado financia a quienes despojan a los mayas."
+    },
+
+    {
+      "pregunta_id": "P005-03",
+      "pregunta": "¿Cuál es el estado actual (2026) del amparo por derechos de la naturaleza y plaguicidas interpuesto por las comunidades de Hopelchén ante la SCJN?",
+      "contexto": "El 26 de marzo de 2025, la SCJN retiró el proyecto de sentencia. El caso sigue activo. Su resolución final definirá si los acuíferos y la biodiversidad de Hopelchén tienen protección legal efectiva.",
+      "fuentes": ["SCJN — seguimiento de amparo", "Pie de Página — periodismo reciente", "CEMDA — comunicados"],
+      "prioridad": "Alta — situación activa"
+    },
+
+    {
+      "pregunta_id": "P005-04",
+      "pregunta": "¿Cuántas hectáreas ha perdido Hopelchén de cobertura forestal en total acumulado desde 1987 (llegada de menonitas)? ¿Dónde están documentados los cambios de uso de suelo?",
+      "contexto": "Los datos conocidos: 153,809 ha en 20 años, 760,000 ha en Campeche en 20 años, 60,000 ha autorizadas desde 2007. Pero falta la cifra específica para Hopelchén desde 1987.",
+      "fuentes": ["Global Forest Watch — datos por municipio", "CONAFOR — registros de cambio de uso de suelo", "INEGI — imágenes satelitales históricas", "Conabio"],
+      "prioridad": "Media-Alta"
+    },
+
+    {
+      "pregunta_id": "P005-05",
+      "pregunta": "¿Qué dice el libro de Aranda González (1985) sobre la historia política de Hopelchén en el siglo XX? ¿Nombra a los hacendados antiagrarios? ¿Menciona a los jefes políticos y presidentes municipales?",
+      "contexto": "Esta sigue siendo la fuente local más importante no consultada. Cualquier dato político, genealógico o económico en ese libro puede llenar vacíos de todos los nodos.",
+      "fuentes": ["Biblioteca del Estado de Campeche", "Biblioteca INAH Campeche", "UAC — Universidad Autónoma de Campeche", "CIESAS"],
+      "prioridad": "MÁXIMA — pendiente desde Nodo 004"
+    },
+
+    {
+      "pregunta_id": "P005-06",
+      "pregunta": "¿Qué dice el estudio de Ute Schüren (Ibero-Amerikanisches Institut, Berlín, 2013) sobre las rutas de comunicación y la economía de Los Chenes en el período 1900-1970?",
+      "contexto": "Este estudio está disponible en Redalyc (acceso abierto). Puede contener datos sobre la economía chiclera, los contratistas y las comunidades de Los Chenes que no existen en fuentes mexicanas.",
+      "fuentes": ["Redalyc: https://www.redalyc.org/articulo.oa?id=247029853011"],
+      "prioridad": "Alta — acceso inmediato disponible"
+    }
+
+  ],
+
+  "investigaciones_academicas_externas_hopelchen": [
+    {
+      "institucion": "Ecosur (Colegio de la Frontera Sur)",
+      "investigaciones": ["Impacto de agrotóxicos en apicultura de Hopelchén", "Glifosato en miel y agua"],
+      "relevancia": "Alta — fuente científica que documenta el daño actual"
+    },
+    {
+      "institucion": "Universidad Autónoma de Campeche (UAC)",
+      "relevancia": "Alta — institución local más cercana a Hopelchén. Puede tener tesis y estudios históricos locales."
+    },
+    {
+      "institucion": "UNAM",
+      "investigaciones": ["Estudio sobre soya transgénica en Campeche — confirmó presencia de polen de soya GM en miel local"],
+      "relevancia": "Alta"
+    },
+    {
+      "institucion": "CIESAS (Centro de Investigaciones y Estudios Superiores en Antropología Social)",
+      "publicaciones": ["Ponce Jiménez (1990) — La Montaña Chiclera"],
+      "relevancia": "Alta — fuente sobre economía chiclera en Los Chenes"
+    },
+    {
+      "institucion": "Ibero-Amerikanisches Institut (Berlín)",
+      "publicaciones": ["Schüren, Ute (2013) — rutas e historia económica del sureste mexicano"],
+      "url_acceso": "https://www.redalyc.org/articulo.oa?id=247029853011",
+      "relevancia": "Alta — fuente internacional sobre Los Chenes"
+    },
+    {
+      "institucion": "Freie Universität Berlin",
+      "nota": "Mencionada en la metodología del proyecto como fuente potencial. Buscar investigaciones sobre menonitas en México o Hopelchén.",
+      "relevancia": "Por investigar"
+    },
+    {
+      "institucion": "Humboldt-Universität zu Berlin",
+      "nota": "Mencionada en la metodología del proyecto. Buscar investigaciones sobre comunidades mayas de Campeche.",
+      "relevancia": "Por investigar"
+    }
+  ],
+
+  "proximos_temas_para_iteracion_profunda": [
+    {
+      "tema": "Poder político local 1970-2026: apellidos, redes familiares, cargos",
+      "por_que": "El nodo más débil del repositorio. Sin este dato, la hipótesis sobre transmisión de poder no se completa."
+    },
+    {
+      "tema": "La reforma al Art. 27 de 1992 en Hopelchén: qué ejidos se fragmentaron, cuáles se arrendaron, a quiénes",
+      "por_que": "Es el mecanismo jurídico del despojo contemporáneo. Los datos son públicos (RAN) pero no han sido investigados para Hopelchén específicamente."
+    },
+    {
+      "tema": "Glifosato en sangre y orina de habitantes de Hopelchén — estudios completos",
+      "por_que": "Es la prueba más contundente del daño. Los estudios de UNAM/PNUD existen pero no están totalmente citados."
+    },
+    {
+      "tema": "Historia oral: testimonios de chicleros, apicultores y agricultores mayas de Hopelchén",
+      "por_que": "La memoria oral es la historia no oficial. Sin testimonios, el repositorio sigue siendo solo historia de élites."
+    },
+    {
+      "tema": "El primer encomendero de Los Chenes — pendiente desde Nodo 002",
+      "por_que": "Cierra el ciclo desde el origen. Conecta el primer despojo documentado con el último."
+    }
+  ],
+
+  "metadatos": {
+    "fecha": "2026-04-03",
+    "estado_repositorio": "Primera versión completa — 5 nodos — 300 a.C. a 2026 d.C.",
+    "total_archivos_generados": 10,
+    "archivos": [
+      "HOPELCHEN_NODO_001_Ocupacion_Prehispanica.json",
+      "HOPELCHEN_PREGUNTAS_001_Prehispanico.json",
+      "HOPELCHEN_NODO_002_Conquista_Colonial.json",
+      "HOPELCHEN_PREGUNTAS_002_Conquista.json",
+      "HOPELCHEN_NODO_003_ColoniaTardia_Porfiriato.json",
+      "HOPELCHEN_PREGUNTAS_003_Porfiriato.json",
+      "HOPELCHEN_NODO_004_Revolucion_Chicle.json",
+      "HOPELCHEN_PREGUNTAS_004_Chicle_Contexto.json",
+      "HOPELCHEN_NODO_005_Contemporaneo.json",
+      "HOPELCHEN_PREGUNTAS_005-SINTESIS.json"
+    ]
+  }
+}

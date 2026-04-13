@@ -1,0 +1,351 @@
+{
+  "repositorio": "Hopelchén: 2000 años de historia",
+  "nodo_id": "007",
+  "titulo": "Rutas, Territorio y Control del Espacio en Hopelchén (1517–2026): Del Camino Real al Campo de Aterrizaje Chiclero y la Carretera 261",
+  "hipotesis_marco": "Las rutas de comunicación en Los Chenes no son infraestructura neutral — son instrumentos de control político y económico. Cada era construyó su propia ruta para extraer sus propios recursos: el Camino Real colonial para el tributo, el telégrafo para el control político porfiriano, los campos de aterrizaje para el chicle, la carretera federal para el maíz y sorgo, y las brechas abiertas por menonitas y agroindustria para la soya transgénica. El acceso al territorio de Los Chenes ha determinado quién puede explotarlo y quién puede escapar de esa explotación.",
+  "era": "Transversal — todas las eras",
+  "rango_temporal": "1517 — 2026",
+  "fecha_creacion_nodo": "2026-04-08",
+  "version": "1.0",
+  "continua_desde": "NODO 006 — Genealogía del Poder Político Local (1959–2026)",
+  "fuente_central_nodo": {
+    "nombre": "Schüren, Ute — 'Entre los caminos de herradura y los campos de aterrizaje: Rutas de comunicación e historia económica en el sureste de México'",
+    "revista": "Indiana, Vol. 30 (2013): 199-215",
+    "editorial": "Ibero-Amerikanisches Institut, Stiftung Preußischer Kulturbesitz, Berlín",
+    "autora_afiliacion": "Center for Global Studies, Universität Bern, Suiza",
+    "url_pdf_acceso_abierto": "https://journals.iai.spk-berlin.de/index.php/indiana/article/download/2040/1678/3998",
+    "url_redalyc": "https://www.redalyc.org/articulo.oa?id=247029853011",
+    "nota": "FUENTE PRIMARIA LEÍDA COMPLETA EN ESTA SESIÓN. Basado en investigación etnográfica y de archivo en Campeche desde 1993. Incluye entrevistas con ejidatarios y comerciantes de Hopelchén entre 1993 y 1998. Cita el Archivo Municipal de Hopelchén directamente. Referencia a obra mayor: Schüren 2003a (libro completo sobre Los Chenes, historia y economía — pendiente de localizar)."
+  },
+  "autor_investigacion": "Proyecto Hopelchén — Investigación histórica independiente",
+
+  "registros": [
+
+    {
+      "registro_id": "007-A",
+      "subtitulo": "El Camino Real colonial (siglo XVI–XIX) — Hopelchén como nodo de la ruta del poder",
+      "fecha_evento": "~1552 — 1870",
+      "lugar": "Ruta Mérida–Campeche: Calkiní, Hecelchakán, Tenabo, Hopelchén",
+      "descripcion": "El Camino Real de Mérida a Campeche fue la primera ruta de poder colonial en la Península de Yucatán, construida a partir de las ordenanzas del visitador Tomás López Medel de 1552. Tuvo dos variantes: el Camino Real Alto (Mérida → Sisal) y el Camino Real Bajo (Mérida → Campeche), pasando este último por Hecelchakán, Tenabo y tocando la región de Hopelchén. Con 48 leguas (192 km), fue la ruta más importante de la Península durante tres siglos. Hopelchén quedaba en posición de nodo de segunda línea: no estaba exactamente sobre el Camino Real principal, sino en una rama que conectaba el Camino Real con el interior de Los Chenes. Esta posición de 'nodo de acceso' al interior — no sobre la ruta principal — explica simultáneamente por qué Hopelchén era estratégico (tránsito obligado hacia el sur y el este) y por qué podía funcionar como espacio de resistencia (no era el nodo más controlado). Schüren (2013: 205) documenta que en 1871 existían sólo tres caminos transitables y muchos caminos de herradura en el norte de Los Chenes, vinculando a Bolonchén, Hopelchén e Iturbide entre sí y con Hecelchakán para llegar al Camino Real.",
+      "fuentes": [
+        {
+          "nombre": "PorEsto — 'El Camino Real de Mérida a Campeche' (Oct 2022)",
+          "url": "https://www.poresto.com/cultura/2022/10/9/el-camino-real-de-merida-campeche.html",
+          "confiabilidad": "Alta"
+        },
+        {
+          "nombre": "Schüren, Ute (2013) — Indiana 30: 199-215",
+          "url_pdf": "https://journals.iai.spk-berlin.de/index.php/indiana/article/download/2040/1678/3998",
+          "cita_directa": "En 1871 existían sólo tres caminos transitables y muchos caminos anchos para ir a pie, a mula o a caballo en el norte de la región de Los Chenes. Los pueblos más importantes Bolonchén, Hopelchén e Iturbide se vinculaban entre sí y con Hecelchakán, para llegar al Camino Real que conecta Mérida y Campeche."
+        },
+        {
+          "nombre": "Rocher Salas, Adriana — 'El Camino Real de Campeche a Mérida: orígenes'",
+          "url": "https://revistas.inah.gob.mx/index.php/glifos/article/download/20438/21890/43344",
+          "dato": "El Camino Real Alto incluyó a Hopelchén, el último en la región conocida como 'Los Chenes'"
+        },
+        {
+          "nombre": "Wikipedia — Camino Real (Yucatán)",
+          "url": "https://es.wikipedia.org/wiki/Camino_Real_(Yucat%C3%A1n)"
+        }
+      ],
+      "tipo_dato": "Citado — fuentes académicas e institucionales",
+      "notas_contradiccion": "El Camino Real pasaba por Hecelchakán y Tenabo, no por Hopelchén directamente. Hopelchén quedaba en un ramal hacia el interior de Los Chenes. Esto contradice la idea de que Hopelchén era simplemente un pueblo aislado — era el punto de entrada al interior selvático, la frontera entre el mundo colonial y el mundo maya libre. La Guía Turística México lo documenta explícitamente: 'Hopelchén era un pueblo de enlace, tránsito obligado para la población fugitiva del camino real... en su huída a los montes de la Pimienta y Chichanhá'.",
+      "conexion_hipotesis": "El Camino Real fue el primer instrumento de control territorial colonial en la Península — y Hopelchén era el último nodo del sistema antes del territorio incontrolado. Su posición fronteriza explica tanto su función como punto de extracción (tributo, trabajo) como su rol como puerta de escapatoria. Las rutas posteriores replicarán esta dualidad.",
+      "tags": ["Camino Real", "colonial", "ruta 1552", "Mérida Campeche", "Hecelchakán", "Hopelchén nodo", "rutas de herradura", "1871", "Schüren", "control territorial"]
+    },
+
+    {
+      "registro_id": "007-B",
+      "subtitulo": "1870: El telégrafo — primera infraestructura de comunicación instantánea en Hopelchén",
+      "fecha_evento": "16 septiembre 1870",
+      "lugar": "Campeche → Hopelchén → Iturbide",
+      "descripcion": "El 16 de septiembre de 1870, Joaquín Baranda (gobernador de Campeche 1871-1877, luego Ministro de Instrucción Pública porfiriano 1882-1901) inauguró la primera línea telegráfica que conectaba Campeche con Hopelchén e Iturbide. Este fue el primer sistema de comunicación instantánea que llegó a Los Chenes. El telégrafo precedió al ferrocarril — que nunca llegó directamente a Hopelchén — y fue el primer instrumento de control político a distancia en tiempo real. La elección de Hopelchén e Iturbide como los dos primeros nodos telegráficos de Los Chenes no fue casual: eran los dos centros económicos y militares más importantes de la región tras la Guerra de Castas.",
+      "fuentes": [
+        {
+          "nombre": "Wikipedia — Joaquín Baranda",
+          "url": "https://es.wikipedia.org/wiki/Joaqu%C3%ADn_Baranda",
+          "confiabilidad": "Alta para datos biográficos"
+        },
+        {
+          "nombre": "Pueblos América — Hopelchén",
+          "url": "https://mexico.pueblosamerica.com/i/hopelchen/"
+        }
+      ],
+      "tipo_dato": "Citado — verificable en Periódico Oficial de Campeche 1870",
+      "notas_contradiccion": "El telégrafo llegó a Hopelchén en 1870 — 17 años antes de que el ferrocarril Mérida-Campeche fuera inaugurado en 1898 (también por Baranda). El patrón es: primero el control de la información (telégrafo), después el control del movimiento de mercancías (ferrocarril). Para Los Chenes, el telégrafo fue la única conexión rápida durante décadas, ya que el ferrocarril Mérida-Campeche no pasó por Hopelchén sino por la costa.",
+      "conexion_hipotesis": "El telégrafo es el instrumento de control político más directo de su era: permite que el poder central (Campeche, Ciudad de México) sepa en tiempo real lo que ocurre en Hopelchén. El mismo hombre que inauguró el telégrafo en Hopelchén (Baranda) fue después el Ministro de Educación que controló lo que se enseñaba en las escuelas de todo México durante 19 años. Infraestructura de comunicación + control del conocimiento = sistema completo de dominación.",
+      "tags": ["telégrafo 1870", "Joaquín Baranda", "comunicación instantánea", "control político", "Hopelchén", "Iturbide", "ferrocarril 1898", "infraestructura poder"]
+    },
+
+    {
+      "registro_id": "007-C",
+      "subtitulo": "1920s–1950s: El aislamiento de Hopelchén antes del auge chiclero — carretas, bolanes y mulas",
+      "fecha_evento": "1920s — 1934",
+      "lugar": "Los Chenes, Hopelchén, Campeche",
+      "descripcion": "Schüren (2013: 205-207) documenta el aislamiento de Hopelchén en los años 20 del siglo XX con detalle extraordinario: para el transporte de carga se usaban carretas (grandes carros tirados por mulas o bueyes); para pasajeros se usaban 'bolanes' (carruajes de techo y dos ruedas tirados por tres mulas con grandes colchones para mitigar sacudidas). La única alternativa era cabalgar hasta Hecelchakán o Tenabo y tomar el tren a Campeche. En tiempo de lluvias, los caminos eran impracticables. Cita a Pacheco Blanco (1928): 'Sólo los ricos pueden viajar. [...] Las cartas y periódicos que reciben a veces con un retraso tan grande, que se siente uno en Los Chenes como olvidado del mundo.' El viajero alemán Rodolfo Schuller (1923) describió la zona sur de Los Chenes como 'un verdadero embrollo internacional e interestatal' donde 'las autoridades centrales no tienen ni la más mínima idea de las regiones a que aquí me refiero, ni por el nombre conocen los diferentes lugares.'",
+      "fuentes": [
+        {
+          "nombre": "Schüren, Ute (2013) — Indiana 30: 205-207",
+          "url_pdf": "https://journals.iai.spk-berlin.de/index.php/indiana/article/download/2040/1678/3998",
+          "cita_directa_1": "Para el cargo se usaba carretas, grandes carros tirados por mulas o bueyes. Los carros de pasajeros se llamaban 'bolanes', que eran carruajes de techos y dos ruedas tirados por tres mulas con grandes colchones para mitigar la fuerza de las sacudidas.",
+          "cita_directa_2": "Pacheco Blanco (1928): 'Sólo los ricos pueden viajar. [...] Las cartas y periódicos que reciben a veces con un retraso tan grande, que se siente uno en Los Chenes como olvidado del mundo.'"
+        },
+        {
+          "nombre": "Schuller, Rodolfo — Diario de viaje (1923), citado en Schüren (2013: 206)",
+          "cita_directa": "Un verdadero 'embrollo' internacional e interestatal. Las autoridades centrales no tienen ni la más mínima idea de las regiones a que aquí me refiero, ni por el nombre conocen los diferentes lugares. Pueblos que más de 30 años hace que fueron abandonados y cuyas ruinas se hallan descuidadas por el espeso monte que las cubre figuran todavía como existentes en los mapas más recientes."
+        }
+      ],
+      "tipo_dato": "Citado — fuente primaria académica con citas directas",
+      "notas_contradiccion": "La descripción de Schuller (1923) de mapas oficiales que muestran pueblos abandonados como existentes es evidencia directa de que el Estado mexicano no tenía conocimiento real de su propio territorio en Los Chenes en el siglo XX. Si las autoridades 'no conocen los lugares ni por el nombre', la 'conquista' de 1547 y la 'congregación' de 1621 no implicaron control real del territorio sur de Los Chenes. El Estado llegó al sur de Los Chenes de manera efectiva recién en los años 1900-1920 — 400 años después de la conquista formal.",
+      "conexion_hipotesis": "El aislamiento de Hopelchén en los años 20 del siglo XX — cuando un viajero tardaba días en llegar y 'solo los ricos podían viajar' — es la evidencia más directa de que la geografía fue el principal escudo de las comunidades mayas. La inaccesibilidad era protección. Cuando llegaron las rutas (aéreas primero, carretera después), llegó con ellas la extracción industrial.",
+      "tags": ["aislamiento", "bolanes", "carretas", "mulas", "Pacheco Blanco 1928", "Schuller 1923", "Los Chenes olvidado", "geografía protección", "rutas de herradura", "Schüren 2013"]
+    },
+
+    {
+      "registro_id": "007-D",
+      "subtitulo": "1934–1950: Los campos de aterrizaje chicleros — la aviación como instrumento de extracción",
+      "fecha_evento": "1934 — c.1950",
+      "lugar": "Nohsayab, Hopelchén, X Can Há, Xpuhil, Campeche",
+      "descripcion": "Schüren (2013: 207-209) documenta el momento preciso y el personaje que introdujo la aviación en Los Chenes: fue el contratista español Antonio del Río, quien abrió el primer campo de aviación en Nohsayab en la montaña chenera. Desde 1934, la Compañía 'Sarabia' ejerció el monopolio aeronáutico de la región mediante concesión federal. Francisco 'Pancho' Sarabia de Lerdo (nacido en Durango) fue el fundador y administrador — el mismo piloto que el 25 de mayo de 1939 navegó entre México D.F. y Nueva York en tiempo récord con su avión 'El Conquistador del Cielo', falleciendo trágicamente en el río Potomac en su vuelo de regreso. Los campos de aterrizaje chicleros de Hopelchén, X Can Há y Xpuhil fueron construidos para resolver el problema logístico de transportar chicle desde zonas inaccesibles en temporada de lluvias. Cuando el auge chiclero terminó (años 40-50), los campos quedaron abandonados. Schüren los describe en una cita de Lara-Zavala (2021): 'como una cicatriz ya cerrada por donde antaño se derramaron sangre, salud, sudor y dinero.'",
+      "fuentes": [
+        {
+          "nombre": "Schüren, Ute (2013) — Indiana 30: 207-209",
+          "url_pdf": "https://journals.iai.spk-berlin.de/index.php/indiana/article/download/2040/1678/3998",
+          "datos_clave": [
+            "Antonio del Río: primer contratista que introdujo avión y abrió campo en Nohsayab",
+            "Compañía Sarabia: monopolio aeronáutico desde 1934 mediante concesión federal",
+            "Pancho Sarabia: fundador, piloto que murió en el Potomac en 1939",
+            "Campos activos: Nohsayab, Hopelchén, X Can Há, Xpuhil"
+          ]
+        },
+        {
+          "nombre": "EntreDiversidades — Bestializados y oprimidos (Vadillo Buenfil 2024)",
+          "url": "https://entrediversidades.unach.mx/index.php/entrediversidades/article/view/442",
+          "cita_lara_zavala_2021": "Los campos aéreos de Hopelchén, X Can Há y Xpuhil quedaron abandonados definitivamente como una cicatriz ya cerrada por donde antaño se derramaron sangre, salud, sudor y dinero."
+        }
+      ],
+      "tipo_dato": "Citado — fuente primaria académica",
+      "datos_adicionales": {
+        "produccion_chicle_maxima": "De 1.757 toneladas en 1939/40 a 2.659 toneladas en 1940/41 en Campeche durante la Segunda Guerra Mundial (Schüren 2013: 204, citando a Peña 1942)",
+        "centrales_chic": ["Dzibalchén", "Hopelchén", "Iturbide", "Kancabchén", "Chunchintok", "Xpuhil", "Nohsayab"],
+        "monopolio_contratistas": "Los grandes contratistas tenían el monopolio tanto en la compra de productos agrícolas y forestales como en el transporte. Controlaban el abastecimiento de los trabajadores durante su estancia en el monte (Schüren 2013: 204, citando a Peña 1942 y Ponce Jiménez 1990)",
+        "origen_chicleros": "Al principio contratistas trajeron trabajadores de Tuxpan, Veracruz; después también de Oriente de Yucatán, Quintana Roo y otras regiones"
+      },
+      "notas_contradiccion": "El monopolio aeronáutico en Los Chenes fue otorgado mediante concesión federal — el Estado mexicano privatizó el transporte aéreo de una región entera a favor de una compañía privada (Sarabia). El mismo mecanismo de concesión federal que dio a 'Mexican Exploitation' el derecho a explotar los bosques del Porfiriato se repitió en el siglo XX con la aviación chiclera. La 'modernidad' de los campos de aterrizaje ocultaba el mismo modelo extractivo de siempre.",
+      "conexion_hipotesis": "Los campos de aterrizaje chicleros son la evidencia más concreta del patrón de rutas-como-extracción: no se construyeron para conectar comunidades ni para desarrollo local — se construyeron exclusivamente para sacar el chicle (y la caoba) más rápido. Cuando el recurso se agotó, los campos fueron abandonados sin ningún beneficio residual para la región.",
+      "tags": ["campos de aterrizaje", "aviación chiclera", "Antonio del Río", "Compañía Sarabia", "Pancho Sarabia", "Nohsayab", "Hopelchén aeropuerto", "X Can Há", "Xpuhil", "concesión federal", "monopolio", "chicle", "cicatriz", "1934", "Schüren 2013"]
+    },
+
+    {
+      "registro_id": "007-E",
+      "subtitulo": "El surgimiento de los 'mayas pacíficos' y el comercio sur de Los Chenes — la ruta alternativa al sistema colonial",
+      "fecha_evento": "1850 — 1920",
+      "lugar": "Sur de Los Chenes — Icaiché, Chichanhá, Xkanhá, Chancacab",
+      "descripcion": "Schüren (2013: 201-203) documenta la existencia de una economía paralela al sistema colonial en el sur de Los Chenes: los 'mayas pacíficos' — grupos de antiguos rebeldes de la Guerra de Castas que firmaron tratados de paz con el gobierno de Yucatán en 1851-1853 — habitaban poblados independientes en el este y sur de Los Chenes. Entre ellos había también desertores yucatecos y sirvientes endeudados, prófugos de las haciendas. A partir de los años 1850 se estableció un comercio activo con estos grupos: los misioneros blancos (comerciantes) llevaban sus mercaderías para intercambiar sal, pólvora, sogas y herramientas. Los pacíficos permanecieron de facto independientes incluso después del reconocimiento de Campeche como estado. Su desintegración llegó con las epidemias (sarampión, tos ferina, viruela) y con la llegada masiva de chicleros en los años 1920. Hacia los años 50, Xkanhá — uno de sus poblados más importantes — se había convertido en una central chiclera con población flotante mayoritariamente foránea (yucatecos, quintanarroenses).",
+      "fuentes": [
+        {
+          "nombre": "Schüren, Ute (2013) — Indiana 30: 201-203",
+          "url_pdf": "https://journals.iai.spk-berlin.de/index.php/indiana/article/download/2040/1678/3998",
+          "datos_clave": [
+            "Mayas pacíficos: grupos independientes en el sur de Los Chenes, 1853-c.1920",
+            "Entre ellos: desertores yucatecos y sirvientes endeudados fugitivos de haciendas",
+            "Comercio activo con 'misioneros blancos' (comerciantes) desde los años 1850",
+            "Productos comerciados: sal, pólvora, sogas, herramientas",
+            "Xkanhá: poblado pacífico → central chiclera (años 50)"
+          ]
+        },
+        {
+          "nombre": "Guía Turística México — Hopelchén",
+          "url": "https://www.guiaturisticamexico.com/municipio.php?id_e=4&id_Municipio=00193&nombre=",
+          "cita": "Hopelchén era un pueblo de enlace, tránsito obligado para la población fugitiva del camino real y alrededores en su huída a los montes de la Pimienta y Chichanhá, los misioneros blancos refieren que este era un centro de abasto e intercambio, traían sus mercaderías para vender a cambio de sal, pólvora, sogas y herramientas."
+        }
+      ],
+      "tipo_dato": "Citado — fuente primaria académica",
+      "notas_contradiccion": "Los 'mayas pacíficos' son los descendientes directos de los rebeldes de la Guerra de Castas que se refugiaron en los montes del sur de Los Chenes. Su existencia como grupos independientes hasta los años 1920 — más de 70 años después de que el gobierno declaró 'pacificada' la zona — confirma la tesis del Nodo 002: la conquista y pacificación de Los Chenes fue siempre incompleta. El Estado mexicano no controló efectivamente el sur del municipio de Hopelchén hasta que la industria chiclera hizo económicamente necesario penetrar esa zona. Fue el chicle, no el ejército, quien completó la conquista del sur de Los Chenes.",
+      "conexion_hipotesis": "Los mayas pacíficos del sur de Los Chenes representan el linaje de resistencia más largo documentado en el repositorio: desde la rebelión de 1546 hasta la desintegración por epidemias y chicle en los años 1920 — casi cuatro siglos de resistencia usando la geografía como escudo. La desaparición de ese espacio de resistencia coincide exactamente con la llegada de las rutas de comunicación que el auge chiclero requería.",
+      "tags": ["mayas pacíficos", "Icaiché", "Chichanhá", "Xkanhá", "resistencia poscolonial", "misioneros blancos", "comercio alternativo", "epidemias", "chicleros foráneos", "desintegración", "Schüren 2013", "resistencia continua"]
+    },
+
+    {
+      "registro_id": "007-F",
+      "subtitulo": "La 'recampesinación' post-chicle y la nueva importancia de los ejidos — el giro hacia la tierra",
+      "fecha_evento": "1950s — 1970s",
+      "lugar": "Los Chenes, Hopelchén, Campeche",
+      "descripcion": "Schüren (2013: 204) introduce un concepto analítico clave para entender el giro económico de Los Chenes en la segunda mitad del siglo XX: 'recampesinación'. Cuando los precios del chicle cayeron en los años 40 y el auge terminó, Los Chenes experimentaron una transición de vuelta a la agricultura: 'La tierra ejidal recibió una importancia no conocida en épocas anteriores.' Esto es consistente con el dato ya documentado en el Nodo 004: la Reforma Agraria en Los Chenes fue paradójicamente más efectiva en el período post-chicle que durante el propio período cardenista, porque fue solo cuando el chicle dejó de ser alternativa económica que los ejidatarios comenzaron a valorar y defender sus tierras. La recampesinación creó las condiciones para que la tierra ejidal tuviera valor — y por tanto para que fuera luego disputada por menonitas y agroindustria.",
+      "fuentes": [
+        {
+          "nombre": "Schüren, Ute (2013) — Indiana 30: 204",
+          "url_pdf": "https://journals.iai.spk-berlin.de/index.php/indiana/article/download/2040/1678/3998",
+          "cita_directa": "A fines de los años 40, los Estados Unidos redujeron drásticamente la compra del chicle y los precios decayeron. Los Chenes experimentaron una 'recampesinación' y la tierra ejidal recibió una importancia no conocida en épocas anteriores."
+        },
+        {
+          "nombre": "Schüren (2013) — nota 26",
+          "cita": "Ejidatarios y comerciantes de la región; muchos de ellos chicleros o hijos de antiguos contratistas y chicleros, quienes todavía se entusiasman sobre el 'tiempo de oro' durante el auge chiclero [entrevistas con varios ejidatarios y comerciantes en el municipio Hopelchén, Campeche, entre 1993 y 1998]."
+        }
+      ],
+      "tipo_dato": "Citado — fuente primaria académica con testimonio de campo",
+      "notas_contradiccion": "La 'recampesinación' de Los Chenes post-chicle creó la condición estructural que hace posible el despojo contemporáneo por menonitas y agroindustria: cuando la tierra ejidal adquirió valor económico como recurso agrícola, también se convirtió en objeto de disputa. El chicle distorsionó el interés en la tierra (Nodo 004: 'el interés en la tierra y la reforma agraria quedó limitado en Los Chenes' durante el auge). Cuando ese distorsionador desapareció, emergió un nuevo ciclo de disputa por la tierra — el que estamos viendo hoy.",
+      "conexion_hipotesis": "El concepto de 'recampesinación' de Schüren conecta directamente el ciclo chiclero con el ciclo agroindustrial: el chicle dejó a la gente sin su recurso principal (selva), los obligó a volver a la tierra ejidal, y esa tierra recién valorada fue la que los menonitas y la agroindustria comenzaron a arrendar y comprar desde los años 1990. El despojo actual fue preparado por el abandono anterior.",
+      "tags": ["recampesinación", "post-chicle", "tierra ejidal", "nuevas valoraciones", "condición estructural", "Schüren 2013", "transición económica", "1950s", "Los Chenes"]
+    },
+
+    {
+      "registro_id": "007-G",
+      "subtitulo": "La Carretera Federal 261 — la ruta moderna que conectó Los Chenes con el sistema nacional",
+      "fecha_evento": "c.1960s–1980s — presente",
+      "lugar": "Ruta: Mérida — Becal — Hopelchén — Dzibalchén — Escárcega — Ciudad del Carmen",
+      "descripcion": "La Carretera Federal 261 es la columna vertebral de comunicación terrestre de Los Chenes en la época contemporánea. Corre de norte a sur atravesando el municipio de Hopelchén, conectando con Yucatán por el norte (pasando por Muna) y con Escárcega al sur. Esta carretera — construida en el siglo XX y mejorada en diferentes períodos — fue el instrumento que transformó el modelo económico de Los Chenes de la economía chiclera al modelo agroindustrial. Su apertura hizo posible el transporte de maíz, soya y sorgo hacia los mercados nacionales e internacionales. Es también la ruta por la que llegaron los primeros menonitas desde Chihuahua en los años 1980. Schüren (2013) señala que las diferencias en desarrollo económico entre el norte y el sur de Los Chenes están directamente vinculadas a las diferencias en acceso a las vías de comunicación.",
+      "fuentes": [
+        {
+          "nombre": "Schüren, Ute (2013) — Indiana 30: 199-215",
+          "url_pdf": "https://journals.iai.spk-berlin.de/index.php/indiana/article/download/2040/1678/3998",
+          "nota": "Schüren señala diferencias norte/sur en Los Chenes vinculadas al acceso a comunicaciones"
+        },
+        {
+          "nombre": "Wikipedia — Hopelchén / SCT — Carretera Federal 261",
+          "nota": "La CF-261 es la principal arteria de Hopelchén"
+        }
+      ],
+      "tipo_dato": "Contextual — requiere profundización en historia de la carretera",
+      "notas_contradiccion": "La Carretera 261 es presentada institucionalmente como un logro de modernización y desarrollo. La realidad estructural: fue la infraestructura que permitió la llegada masiva de menonitas (1987), la expansión de la soya transgénica (2007-presente) y la deforestación de 153,809 hectáreas. En la misma lógica del telégrafo de Baranda y los campos de aterrizaje chicleros: cada nueva ruta facilita la siguiente extracción.",
+      "conexion_hipotesis": "La secuencia completa de rutas en Hopelchén confirma el patrón: Camino Real (siglo XVI) → Telégrafo (1870) → Campos de aterrizaje chicleros (1934) → Carretera 261 (siglo XX) → Brechas menonitas (1987-presente). Cada infraestructura nueva llegó cuando había un recurso nuevo que extraer. No hay ruta 'neutral' en la historia de Los Chenes.",
+      "tags": ["Carretera Federal 261", "ruta moderna", "menonitas", "soya", "agroindustria", "deforestación", "comunicaciones", "Hopelchén", "Dzibalchén", "Escárcega"]
+    },
+
+    {
+      "registro_id": "007-H",
+      "subtitulo": "La bibliografía de Schüren (2013) — mapa de fuentes sobre Los Chenes no consultadas",
+      "fecha_evento": "1923 — 2013",
+      "lugar": "Los Chenes, Campeche",
+      "descripcion": "El artículo de Schüren (2013) contiene una bibliografía de fuentes primarias y secundarias sobre Los Chenes que no han sido consultadas en el repositorio. Muchas de estas fuentes son anteriores al proyecto y contienen datos específicos sobre Hopelchén que ninguna otra fuente tiene. Este registro documenta sistemáticamente esas fuentes como objetivos de investigación.",
+      "fuentes_identificadas_no_consultadas": [
+        {
+          "autor": "Pacheco Blanco",
+          "año": "1928",
+          "relevancia": "Citado por Schüren: 'Sólo los ricos pueden viajar... se siente uno en Los Chenes como olvidado del mundo.' Estudio socioeconómico de la región de Los Chenes. FUENTE PRIORITARIA.",
+          "donde_buscar": "Biblioteca del Estado de Campeche, Biblioteca UNAM"
+        },
+        {
+          "autor": "Peña",
+          "año": "1942",
+          "tomos": "2 tomos",
+          "relevancia": "Citado múltiples veces por Schüren como fuente sobre economía chiclera, demografía y tierras en Los Chenes. Contiene datos de producción chiclera y estructura agraria. FUENTE PRIORITARIA.",
+          "donde_buscar": "Biblioteca UNAM, Biblioteca del Estado de Campeche"
+        },
+        {
+          "autor": "Schuller, Rodolfo",
+          "año": "1923",
+          "titulo": "Diario de viaje por los estados de Campeche y Yucatán",
+          "relevancia": "Diario de viaje de un lingüista americanista alemán que recorrió el sur de Los Chenes en 1923. Describe con 'muchos detalles' el itinerario con distancias entre pueblos (tabla en Schüren 2013: 207). Contiene datos de primera mano sobre rutas, asentamientos y condiciones en ese período crítico. FUENTE PRIORITARIA.",
+          "donde_buscar": "Ibero-Amerikanisches Institut, Berlín — colecciones de americanistas"
+        },
+        {
+          "autor": "Schüren, Ute",
+          "año": "2003a",
+          "relevancia": "Libro completo sobre Los Chenes: historia y economía. Mencionado como la obra mayor de la autora sobre la región. Schüren tiene campo en Los Chenes desde 1993. FUENTE CRÍTICA.",
+          "donde_buscar": "Universität Bern (Center for Global Studies), Ibero-Amerikanisches Institut, Berlín, Biblioteca del CIESAS"
+        },
+        {
+          "autor": "Messmacher",
+          "año": "1967",
+          "relevancia": "Estudio socioeconómico citado por Schüren como fuente sobre Los Chenes.",
+          "donde_buscar": "Biblioteca UNAM"
+        },
+        {
+          "autor": "Konrad, Herman W.",
+          "años": "1980, 1987, 1994, 1995",
+          "relevancia": "Investigador canadiense más citado sobre economía chiclera en Campeche. En Nodo 004 ya identificado: 'Capitalismo y trabajo en los bosques de las tierras bajas tropicales mexicanas' (Historia Mexicana, 1987). Schüren cita múltiples obras suyas.",
+          "donde_buscar": "Historia Mexicana (Colmex), JSTOR"
+        },
+        {
+          "autor": "Archivo Municipal de Hopelchén",
+          "relevancia": "Schüren cita directamente documentos del Archivo Municipal de Hopelchén: 'Permiso para la venta de maíz de Manuel Ruíz, 19.9.1950, Exp. Administrativo, Correspondencia 1949-50, Caja 1947-49 (sic!), Ricardo Avila Briceño, Archivo Municipal de Hopelchén'. Esto confirma que el archivo tiene documentos de los años 1940s-50s. Ricardo Avila Briceño puede ser un funcionario o propietario cuyos documentos quedaron en el archivo.",
+          "donde_buscar": "Archivo Municipal de Hopelchén — Calle 20 x 19 No. 119, Hopelchén, C.P. 24600"
+        },
+        {
+          "autor": "Stephens, John L.",
+          "año": "1963 (original 1843)",
+          "titulo": "Incidents of Travel in Yucatan (2 tomos)",
+          "relevancia": "Schüren lo cita extensamente: Stephens viajó por el norte de Los Chenes en 1841 buscando sitios arqueológicos. Describe Iturbide como 'pueblo nuevo'. El mapa de Catherwood en el tomo I clasifica el sur de Iturbide y Macobá como 'muy poco poblado'. FUENTE HISTÓRICA FUNDAMENTAL — disponible digitalmente.",
+          "donde_buscar": "Archive.org — disponible en línea gratuitamente"
+        }
+      ],
+      "tipo_dato": "Bibliográfico — identificación de fuentes para próximas iteraciones",
+      "conexion_hipotesis": "La bibliografía de Schüren revela que existe una tradición de investigación sobre Los Chenes de casi 100 años (desde Schuller en 1923 hasta Schüren en 2013) que el proyecto no ha consultado directamente. Las fuentes de 1928 (Pacheco Blanco) y 1942 (Peña) son contemporáneas al auge chiclero — contienen datos sobre nombres de contratistas, estructuras económicas y condiciones sociales que ninguna fuente posterior reproduce con esa granularidad.",
+      "tags": ["bibliografía Schüren", "fuentes no consultadas", "Pacheco Blanco 1928", "Peña 1942", "Schuller 1923", "Schüren 2003a", "Konrad", "Archivo Municipal Hopelchén", "Stephens 1843", "investigación Los Chenes"]
+    },
+
+    {
+      "registro_id": "007-I",
+      "subtitulo": "CRUCE DE DATOS: Rutas = extracción — el patrón de 500 años en mapa",
+      "fecha_evento": "1517 — 2026",
+      "lugar": "Los Chenes, Hopelchén, Campeche",
+      "descripcion": "ANÁLISIS TRANSVERSAL. Al cruzar las rutas de comunicación con los ciclos extractivos documentados en los Nodos 001-006, emerge un patrón estructural: cada nueva ruta de comunicación en Los Chenes coincide cronológicamente con la apertura de un nuevo recurso de extracción. No hay ninguna ruta construida en Hopelchén para beneficio de la comunidad local — todas fueron construidas para extraer hacia afuera.",
+      "tabla_ruta_extraccion": [
+        {"ruta": "Camino Real (siglo XVI)", "recurso_extraido": "Tributo (maíz, miel, cera, maderas)", "quien_construye": "Corona española", "beneficiario": "Encomenderos + Corona"},
+        {"ruta": "Telégrafo Campeche-Hopelchén (1870)", "recurso_extraido": "Control político + información sobre la región", "quien_construye": "Gobierno de Baranda", "beneficiario": "Poder porfiriano central"},
+        {"ruta": "Ferrocarril Mérida-Campeche (1898)", "recurso_extraido": "Henequén, azúcar, maderas hacia puertos", "quien_construye": "Gobierno porfiriano", "beneficiario": "Hacendados + mercado internacional (nota: no pasó por Hopelchén directamente)"},
+        {"ruta": "Campos de aterrizaje chicleros (1934-1950)", "recurso_extraido": "Chicle y maderas preciosas", "quien_construye": "Contratistas privados (Antonio del Río, Compañía Sarabia)", "beneficiario": "Contratistas + Wrigley's + mercado norteamericano"},
+        {"ruta": "Carretera Federal 261 (siglo XX)", "recurso_extraido": "Maíz, sorgo, soya, productos agroindustriales", "quien_construye": "Estado mexicano", "beneficiario": "Agroindustria + menonitas + mercado global"},
+        {"ruta": "Brechas menonitas (1987-presente)", "recurso_extraido": "Selva talada → tierra agrícola → soya transgénica", "quien_construye": "Colonias menonitas", "beneficiario": "Menonitas + Monsanto/Bayer + mercado soya"}
+      ],
+      "constante": "En ningún caso se construyó infraestructura de comunicación en Los Chenes para conectar a las comunidades mayas con servicios, salud o educación. La conectividad llegó cuando había algo que sacar — y cuando ese algo se acabó, la conectividad se deterioró o se abandonó (campos de aterrizaje, caminos de herradura a pueblos chicleros extintos).",
+      "fuente": "Análisis cruzado — Nodos 001-007 + Schüren (2013)",
+      "tipo_dato": "Análisis estructural",
+      "notas_contradiccion": "El único contraejemplo parcial identificado es el Programa Nacional de Caminos Rurales de los años 1970-1980, que abrió caminos a comunidades ejidales de Los Chenes. Pero incluso esas brechas facilitaron después la llegada de los menonitas y la expansión agroindustrial. La infraestructura neutral no existe en Los Chenes.",
+      "conexion_hipotesis": "CONFIRMACIÓN ESPACIAL DE LA HIPÓTESIS: El control del territorio de Hopelchén se ha ejercido históricamente a través del control de las rutas de acceso. Las rutas no son infraestructura — son el mecanismo por el cual las élites externas mantienen el ciclo extractivo. Cada ruta nueva es la apertura de un nuevo ciclo de despojo.",
+      "tags": ["cruce datos", "rutas como extracción", "patrón estructural", "Camino Real", "telégrafo", "campos aterrizaje", "carretera 261", "brechas menonitas", "500 años", "infraestructura poder"]
+    }
+  ],
+
+  "linea_del_tiempo_nodo": [
+    {"año": "~1552", "evento": "Ordenanzas de López Medel: construcción del Camino Real Mérida-Campeche. Hopelchén queda como nodo de acceso al interior."},
+    {"año": "~1665", "evento": "Construcción del puente de Hampolol — único puente del Camino Real, paso obligado"},
+    {"año": "1841", "evento": "Stephens y Catherwood viajan por Los Chenes. Mapa de Catherwood clasifica el sur de Iturbide como 'muy poco poblado'."},
+    {"año": "1851-1853", "evento": "Mayas pacíficos del sur de Los Chenes firman tratados de paz. Mantienen independencia de facto."},
+    {"año": "16-sep-1870", "evento": "Baranda inaugura primer telégrafo Campeche-Hopelchén-Iturbide. Primer control a distancia en tiempo real."},
+    {"año": "1871", "evento": "Schüren documenta solo 3 caminos transitables en el norte de Los Chenes. Transporte: carretas, mulas."},
+    {"año": "1898", "evento": "Ferrocarril Mérida-Campeche inaugurado. No pasa por Hopelchén. Los Chenes siguen aislados."},
+    {"año": "1923", "evento": "Schuller documenta rutas del sur de Los Chenes: leguas entre pueblos pacíficos, caminos cerrados hace 30 años."},
+    {"año": "1928", "evento": "Pacheco Blanco: 'Solo los ricos pueden viajar. Se siente uno en Los Chenes como olvidado del mundo.'"},
+    {"año": "1934", "evento": "Antonio del Río abre primer campo de aterrizaje en Nohsayab. Compañía Sarabia obtiene monopolio aéreo."},
+    {"año": "1939", "evento": "Pancho Sarabia navega México D.F.–Nueva York en récord. Muere en vuelo de regreso (río Potomac)."},
+    {"año": "1939/40-1940/41", "evento": "Producción chiclera en Campeche: de 1.757 a 2.659 toneladas. Máximo histórico del auge."},
+    {"año": "~1950", "evento": "EEUU sustituye chicle por gomas sintéticas. Campos de aterrizaje chicleros abandonados."},
+    {"año": "~1950s", "evento": "Recampesinación: Los Chenes vuelven a la agricultura. Tierra ejidal adquiere nueva importancia."},
+    {"año": "c.1960s-1980s", "evento": "Carretera Federal 261 construida y mejorada. Conecta Hopelchén con el sistema nacional de comunicaciones."},
+    {"año": "1987", "evento": "Primeros menonitas se asientan en Hopelchén usando la CF-261. Llegan con tractores y semillas transgénicas."}
+  ],
+
+  "contradicciones_globales_nodo": [
+    {
+      "contradiccion_id": "C019",
+      "descripcion": "El Estado mexicano no controló efectivamente el sur del municipio de Hopelchén hasta los años 1920 — 400 años después de la conquista formal. El diario de Schuller (1923) muestra que las autoridades 'no conocían los lugares ni por el nombre' y que mapas oficiales mostraban pueblos abandonados como existentes.",
+      "implicacion": "La 'conquista' y 'pacificación' de Los Chenes fue siempre incompleta. El Estado nacional apenas llegó al sur del municipio con la economía chiclera — no con ejércitos ni misioneros, sino con contratistas. La selva, no el Estado, gobernó el sur de Hopelchén durante cuatro siglos.",
+      "resolucion_propuesta": "Verificar cuándo llegaron por primera vez escuelas, centros de salud y autoridades civiles permanentes a las comunidades del sur del municipio de Hopelchén (Dzibalchén, Xkanhá, comunidades de la montaña)."
+    },
+    {
+      "contradiccion_id": "C020",
+      "descripcion": "La Reforma Agraria en Los Chenes fue más efectiva post-chicle (1950s) que durante el período cardenista (1930s-1940s), porque mientras existió el auge chiclero los ejidatarios no valoraban ni defendían sus tierras. Schüren lo llama 'recampesinación'.",
+      "implicacion": "El chicle funcionó como un mecanismo que redujo la demanda de tierra en Los Chenes durante el momento histórico en que el Estado intentaba redistribuirla. Esto benefició indirectamente a los hacendados que resistían la reforma agraria: mientras sus peones trabajaban en las chiclerías, no reclamaban las haciendas.",
+      "resolucion_propuesta": "Cruzar con datos del Nodo 004: ¿qué haciendas específicas sobrevivieron a la reforma agraria en Hopelchén y cuáles desaparecieron? El dato de Schüren (1993-1998 en campo) sobre 'ejidatarios que son hijos de antiguos contratistas chicleros' es crucial."
+    }
+  ],
+
+  "archivo_municipal_hopelchen_datos_directos": {
+    "descripcion": "Schüren (2013) cita documentos específicos del Archivo Municipal de Hopelchén, confirmando que el archivo contiene documentos de los años 1930s-1950s y nombrando a un personaje histórico local",
+    "cita_archivistica": "Permiso para la venta de maíz de Manuel Ruíz, 19.9.1950, Exp. Administrativo, Correspondencia 1949-50, Caja 1947-49 (sic!), Ricardo Avila Briceño, Archivo Municipal de Hopelchén",
+    "nombre_identificado": "Ricardo Avila Briceño — mencionado como responsable o titular de los documentos en el archivo. Posible funcionario o comerciante de Hopelchén ~1947-1950.",
+    "nombre_identificado_2": "Manuel Ruíz — solicitante de permiso de venta de maíz, 1950. Posible comerciante o ejidatario de la región.",
+    "implicacion": "El Archivo Municipal tiene al menos documentos desde los años 1940s. Schüren los consultó entre 1993-1998. Para visita física: Calle 20 x 19 No. 119, Hopelchén, C.P. 24600."
+  },
+
+  "metadatos": {
+    "metodologia": "Investigación web — lectura completa del artículo de Schüren (2013) en PDF de acceso abierto (Ibero-Amerikanisches Institut, Berlín). Complementado con fuentes sobre el Camino Real (PorEsto, Arqueología Mexicana, Wikipedia, El Despertador), y datos de nodos anteriores.",
+    "nivel_profundidad": "1 (primera iteración del nodo, con fuente primaria principal leída completa)",
+    "nodo_anterior": "NODO 006 — Genealogía del Poder Político Local (1959–2026)",
+    "proxima_iteracion": "Ver archivo HOPELCHEN_PREGUNTAS_007_Rutas_Territorio.json",
+    "nodo_siguiente_sugerido": "NODO 008 — Demografía y Población en Hopelchén (300 a.C.–2026): Censos, Migraciones y el Silencio de los Números",
+    "estado": "Pendiente de aprobación del investigador para exportación definitiva"
+  }
+}

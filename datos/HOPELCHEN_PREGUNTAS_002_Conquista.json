@@ -1,0 +1,160 @@
+{
+  "repositorio": "Hopelchén: 2000 años de historia",
+  "archivo_id": "PREGUNTAS-002",
+  "titulo": "Preguntas Abiertas e Iteraciones Pendientes — Derivadas del Nodo 002: Conquista y Colonización",
+  "nodo_origen": "002 — La Conquista Española en Los Chenes y la Fundación Colonial de Hopelchén (1517–1669)",
+  "fecha_generacion": "2026-04-03",
+  "estado": "Activo — pendiente de investigación",
+
+  "preguntas": [
+
+    {
+      "pregunta_id": "P002-01",
+      "pregunta": "¿Cuál es el documento colonial original que funda Hopelchén como pueblo de congregación en 1621? ¿Existe en el AGN, el AGI o el Archivo del Obispado?",
+      "contexto": "Todas las fuentes consultadas repiten la fecha 1621 sin citar el expediente específico. El Archivo Municipal de Hopelchén (registrado en CensoArchivos del Ministerio de Cultura de España) existe físicamente en Calle 20 x 19 No. 119, Hopelchén. ¿Qué fondos documentales contiene?",
+      "tipo": "Colonial / Territorial / Fuente primaria",
+      "fuentes_a_consultar": [
+        "PARES — pares.mcu.es: Archivo General de Indias, Audiencia de México",
+        "AGN México — Ramo Congregaciones, Ramo Indios, Ramo Mercedes",
+        "Archivo Municipal de Hopelchén (contacto físico: Calle 20 x 19 No. 119, Hopelchén 24600)",
+        "Archivo del Obispado de Yucatán — Mérida",
+        "Biblioteca José María Lafragua — BUAP (fondos coloniales de Campeche)"
+      ],
+      "prioridad": "URGENTE — Alta",
+      "conexion_hipotesis": "Si el documento de 1621 nombra a un encomendero, a un fraile fundador, o a autoridades civiles específicas, esos nombres son el origen rastreable del control de poder en Hopelchén."
+    },
+
+    {
+      "pregunta_id": "P002-02",
+      "pregunta": "¿Quiénes eran los bataboob de Hopelchén en 1669? ¿Cuáles eran sus nombres y apellidos? ¿Cuál es la fuente primaria que registra este dato?",
+      "contexto": "El dato de los bataboob aparece en múltiples fuentes secundarias sin citar la fuente primaria. La fuente más probable es Cogolludo (Historia de Yucatán, 1688) o documentos del Archivo del Obispado. Si se identifican sus nombres, es posible rastrear si sus linajes aparecen en registros de tierra del siglo XVIII o XIX.",
+      "tipo": "Poder / Genealogía / Élite maya / Colonial",
+      "fuentes_a_consultar": [
+        "Cogolludo, Diego López de — Historia de Yucatán (1688) — buscar menciones de Hopelchén",
+        "AGN México — Ramo Indios — siglo XVII",
+        "Archivo del Obispado de Yucatán — cofradías y cacicazgos",
+        "Relaciones Histórico-Geográficas de la Gobernación de Yucatán (UNAM, 1983)"
+      ],
+      "prioridad": "Alta — es la pregunta más importante del proyecto en este período",
+      "conexion_hipotesis": "Los bataboob son el eslabón entre el poder prehispánico y el poder colonial. Si sus apellidos aparecen en haciendas del siglo XIX, se confirma la transmisión de élites."
+    },
+
+    {
+      "pregunta_id": "P002-03",
+      "pregunta": "¿Quién fue el primer encomendero de Los Chenes / Hopelchén? ¿Qué productos específicos tributaban los mayas de la región?",
+      "contexto": "Las fuentes generales sobre encomiendas en Yucatán mencionan maíz, pavos, miel, cera y algodón como tributos típicos. Para Los Chenes específicamente, los recursos documentados son maíz, miel, cera y maderas (aparecen en el escudo heráldico del municipio). ¿Hay un expediente de encomienda específico para Hopelchén o Los Chenes?",
+      "tipo": "Economía / Poder / Tierra / Colonial",
+      "fuentes_a_consultar": [
+        "AGI Sevilla — PARES: Audiencia de México, Encomiendas, siglo XVI",
+        "El Colegio de México — Encomienda, Cabildo y Gubernatura Indígena en Yucatán 1541-1583",
+        "Relaciones de Méritos y Servicios en AGI Patronato — buscar conquistadores con encomiendas en Campeche"
+      ],
+      "prioridad": "Alta",
+      "conexion_hipotesis": "El primer encomendero es el primer propietario de facto del trabajo y recursos de Hopelchén. Su apellido puede conectar con haciendas del Porfiriato."
+    },
+
+    {
+      "pregunta_id": "P002-04",
+      "pregunta": "¿Los Xiúes de Dzibil-Noh-Aac (hoy Iturbide) tenían vínculos documentados con los Xiúes de Maní? ¿Qué tierras les fueron reconocidas en el período colonial?",
+      "contexto": "Dzibil-Noh-Aac (hoy Iturbide) era habitada por los Xiúes antes de la conquista. La familia Xiu mantuvo reconocimiento colonial documentado (papeles Xiu 1380-1685, Sacred Texts Archive). ¿Hay documentos específicos sobre los Xiúes de Los Chenes?",
+      "tipo": "Genealogía / Tierra / Poder colonial",
+      "fuentes_a_consultar": [
+        "Papeles Xiu completos — Sacred Texts Archive (ya localizado: sacred-texts.com/nam/maya/ybac/ybac60.htm)",
+        "Tsubasa Okoshi Harada — Los xiu del siglo XVI: Una lectura de dos textos mayas coloniales",
+        "AGN México — Ramo Tierras — siglos XVII-XVIII"
+      ],
+      "prioridad": "Media-Alta",
+      "conexion_hipotesis": "Si los Xiúes de Dzibil-Noh-Aac recibieron reconocimiento colonial de tierras, esas tierras pueden rastrearse hasta las haciendas del Porfiriato o hasta los ejidos del siglo XX."
+    },
+
+    {
+      "pregunta_id": "P002-05",
+      "pregunta": "¿Quiénes formaban la expedición española de 1622 que pasó por Hopelchén rumbo a los Itzaes de Petén? ¿Hay un diario o relación de esa expedición?",
+      "contexto": "Esta expedición es la primera mención documental conocida de Hopelchén. Si existe una relación de viaje, nombraría a los participantes, describiría el asentamiento de Hopelchén tal como era en 1622, y podría mencionar a las autoridades locales mayas.",
+      "tipo": "Colonial / Fuente primaria / Primera mención",
+      "fuentes_a_consultar": [
+        "AGI Sevilla — Audiencia de México / Guatemala — expediciones al Petén 1620-1630",
+        "Crónicas franciscanas de Yucatán — siglo XVII",
+        "Benavides, Antonio — INAH Campeche (especialista en fuentes coloniales campechanas)"
+      ],
+      "prioridad": "Media",
+      "conexion_hipotesis": "La primera mención documental de Hopelchén puede contener el primer nombre propio asociado al asentamiento — sea un fraile, un encomendero, o un batab."
+    },
+
+    {
+      "pregunta_id": "P002-06",
+      "pregunta": "¿Qué fray o frailes franciscanos fundaron y administraron la doctrina de Hopelchén entre 1621 y 1667 (año de construcción del Convento de San Antonio de Padua)?",
+      "contexto": "El convento fue construido en 1667, 46 años después de la congregación. Los frailes que operaron en esas décadas son figuras clave: controlaban la educación, el registro bautismal (y por tanto el control de la identidad), y la relación entre los mayas y la Corona. Sus crónicas y cartas pueden contener datos únicos sobre Hopelchén colonial.",
+      "tipo": "Religión / Poder / Educación / Control colonial",
+      "fuentes_a_consultar": [
+        "Archivo Franciscano de la Biblioteca Nacional de México",
+        "Registro de la Provincia de San José de Yucatán (franciscanos)",
+        "Cogolludo — Historia de Yucatán (1688)",
+        "AGI — Indiferente General, cartas de religiosos"
+      ],
+      "prioridad": "Media",
+      "conexion_hipotesis": "Los frailes fundadores de Hopelchén son los constructores de la narrativa religiosa y educativa colonial que reemplazó al conocimiento maya. Identificarlos es identificar quiénes quemaron la memoria."
+    },
+
+    {
+      "pregunta_id": "P002-07",
+      "pregunta": "¿Hay registros de la rebelión de 1546 que mencionen específicamente a Los Chenes o a poblaciones del actual municipio de Hopelchén?",
+      "contexto": "La rebelión de 1546 se originó en el oriente de Yucatán pero se extendió. Los Chenes quedaban en zona intermedia. ¿Participaron activamente? ¿Hubo ejecuciones de líderes mayas en los Chenes en 1546-1547?",
+      "tipo": "Resistencia / Colonial / Violencia",
+      "fuentes_a_consultar": [
+        "AGI — Justicia 1012-1016 (procesos de la rebelión de 1546)",
+        "Landa, Diego de — Relación de las Cosas de Yucatán",
+        "Clendinnen, Inga — Ambivalent Conquests: Maya and Spaniard in Yucatan 1517-1570 (Cambridge, 1987)"
+      ],
+      "prioridad": "Media",
+      "conexion_hipotesis": "Si hay ejecuciones de líderes mayas en Los Chenes en 1546-1547, eso explicaría el 'vacío de poder' que permitió la congregación de 1621 — eliminaron a la élite resistente y 74 años después formalizaron el control."
+    },
+
+    {
+      "pregunta_id": "P002-08",
+      "pregunta": "¿El auto de fe de Maní (1562, Diego de Landa) afectó específicamente a mayas de Los Chenes? ¿Qué libros o códices mayas podrían haber sido destruidos de la región?",
+      "contexto": "En julio de 1562 el fraile Diego de Landa realizó un auto de fe en Maní, quemando 27 códices mayas y cientos de objetos rituales. Maní era capital de los Xiúes, cuyo territorio limítrofe incluía partes de Los Chenes. ¿Hay evidencia de que códices de Los Chenes fueron destruidos?",
+      "tipo": "Cultura / Conocimiento / Destrucción sistemática",
+      "fuentes_a_consultar": [
+        "Chuchiak, John F. IV — The Inquisition in New Spain 1536-1820 (Hopkins, 2012)",
+        "Restall, Matthew — Maya Conquistador (Beacon Press, 1998)",
+        "Clendinnen, Inga — Ambivalent Conquests (Cambridge, 1987)",
+        "AGI — Inquisición, Yucatán, 1562-1563"
+      ],
+      "prioridad": "Alta — conexión directa con hipótesis de destrucción del conocimiento",
+      "conexion_hipotesis": "El auto de fe de Maní es el acto más literalmente documentado de destrucción del conocimiento maya por una élite de poder externo. Si afectó a Los Chenes, la hipótesis central del proyecto tiene evidencia directa."
+    }
+
+  ],
+
+  "hallazgos_criticos_para_siguiente_nodo": [
+    {
+      "hallazgo": "El Convento de San Antonio de Padua de Hopelchén (1667) y la línea telegráfica inaugurada el 16 de septiembre de 1870 por Joaquín Baranda son los dos hitos de infraestructura más citados. Baranda es un apellido de poder que conecta con el Porfiriato. Investigar en Nodo 003.",
+      "personaje_clave": "Joaquín Baranda — inauguró la primera línea telegráfica Campeche-Hopelchén-Iturbide el 16 de septiembre de 1870"
+    },
+    {
+      "hallazgo": "Don Pedro Advíncula Lara nació en Hopelchén. Fue jefe político de los Chenes en varias ocasiones. Propietario de hacienda Holcatzin, ranchos Boxol y Ucuchil, y hacienda Santa Rita. En 1902 construyó un teatro y en 1911 el reloj público (fabricado en Berlín). Este es el primer hacendado nombrado específicamente de Hopelchén.",
+      "personaje_clave": "Pedro Advíncula Lara — primer hacendado identificado por nombre en Hopelchén",
+      "fuente": "Pueblos América — mexico.pueblosamerica.com/i/hopelchen/"
+    },
+    {
+      "hallazgo": "Gerónimo Baqueiro Foster nació en Hopelchén. Musicólogo. Su biblioteca especializada fue cedida 'al pueblo de México' y está en el Museo de la Música del Distrito Federal. Primer intelectual de Hopelchén identificado.",
+      "personaje_clave": "Gerónimo Baqueiro Foster — musicólogo, nació en Hopelchén"
+    },
+    {
+      "hallazgo": "Humberto Lara y Lara nació en Hopelchén. Periodista, director del Diario del Sureste, autor de libros de poemas y novelas históricas incluyendo 'En la Montaña Chiclera'. Segundo intelectual identificado.",
+      "personaje_clave": "Humberto Lara y Lara — periodista y escritor, nació en Hopelchén"
+    }
+  ],
+
+  "siguiente_nodo_sugerido": "NODO 003 — Colonia tardía, Independencia y el Porfiriato en Hopelchén (1670–1910): Haciendas, Apellidos y Control de la Tierra",
+
+  "metadatos": {
+    "generado_desde": "HOPELCHEN_NODO_002_Conquista_Colonial.json",
+    "fecha": "2026-04-03",
+    "total_preguntas": 8,
+    "total_hallazgos_criticos": 4,
+    "estado": "Activo — primera iteración",
+    "notas_tokens": "Este archivo y el Nodo 002 fueron generados al final de la sesión de conversación. Si los tokens se agotan, continuar en nueva conversación del proyecto con contexto de Nodo 001 y Nodo 002."
+  }
+}

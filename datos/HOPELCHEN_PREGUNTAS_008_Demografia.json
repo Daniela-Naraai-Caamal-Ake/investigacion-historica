@@ -1,0 +1,155 @@
+{
+  "repositorio": "Hopelchén: 2000 años de historia",
+  "archivo_id": "PREGUNTAS-008",
+  "titulo": "Preguntas Abiertas e Iteraciones Pendientes — Derivadas del Nodo 008: Demografía e Historia de la Población (300 a.C.–2026)",
+  "nodo_origen": "008 — Demografía e Historia de la Población en Hopelchén",
+  "fecha_generacion": "2026-04-08",
+  "estado": "Activo — pendiente de investigación",
+
+  "preguntas_urgentes": [
+
+    {
+      "pregunta_id": "P008-01",
+      "pregunta": "¿Cuál fue la población del municipio de Hopelchén en los censos de 1900, 1910, 1921, 1930, 1940, 1950, 1960, 1970, 1980 y 1990? ¿Qué curva demográfica describe esos 90 años?",
+      "contexto": "Los datos censales del siglo XX para el municipio de Hopelchén no están digitalizados en fuentes accesibles en línea. El Archivo Histórico del INEGI (https://www.inegi.org.mx/app/archivohistorico/) tiene los censos desde 1895. El período 1900-1990 cubre exactamente los ciclos extractivos más importantes: auge del porfiriato, revolución, reforma agraria, auge chiclero, declive del chicle y llegada de los menonitas. La curva demográfica en esos 90 años revelaría el impacto de cada ciclo en la población del municipio.",
+      "tipo": "Demografía / Censos históricos / INEGI",
+      "fuentes_a_consultar": [
+        "INEGI — Archivo Histórico: https://www.inegi.org.mx/app/archivohistorico/",
+        "FamilySearch — Censo de población del municipio de Hopelchén, Campeche, 1930: https://www.familysearch.org/es/wiki/Hopelch%C3%A9n,_Campeche,_M%C3%A9xico_-_Genealog%C3%ADa",
+        "Biblioteca del Estado de Campeche — tomos de censos históricos",
+        "CONAPO — Índice de Marginación histórico con serie 1990-2020"
+      ],
+      "prioridad": "URGENTE",
+      "conexion_hipotesis": "Sin los datos censales del siglo XX no es posible construir la curva demográfica completa de Hopelchén. Los picos y valles de esa curva son la huella numérica de los ciclos extractivos. Si la población cayó durante la Guerra de Castas y subió durante el auge chiclero, eso confirma estructuralmente la relación entre extracción y demografía."
+    },
+
+    {
+      "pregunta_id": "P008-02",
+      "pregunta": "¿Qué datos nominales contiene el Censo de 1930 de Hopelchén disponible en FamilySearch? ¿Aparecen apellidos de contratistas chicleros, comerciantes o jefes políticos?",
+      "contexto": "FamilySearch documenta que tiene el 'Censo de población del municipio de Hopelchén, Campeche, 1930' con imágenes, accesible en un Centro FamilySearch o Biblioteca afiliada. El Censo de 1930 captura exactamente el momento del inicio del auge chiclero (los años 30 son cuando los campos de aterrizaje chicleros se establecen y Dzibalchén-Hopelchén se convierten en centros chicleros). Los datos nominales del censo pueden revelar: apellidos de contratistas, ocupaciones ('chiclero', 'contratista', 'comerciante', 'propietario'), localidades habitadas y deshabitadas en ese momento.",
+      "tipo": "Genealogía / Demografía histórica / Apellidos de poder",
+      "fuentes_a_consultar": [
+        "FamilySearch — Centro de la Ciudad de México o Mérida",
+        "INEGI — Quinto Censo de Población 1930, Estado de Campeche (PDF disponible pero difícil de leer)"
+      ],
+      "prioridad": "Alta",
+      "conexion_hipotesis": "Los apellidos en el Censo de 1930 de Hopelchén pueden conectar directamente con los apellidos de poder del Nodo 006 (presidentes municipales 1959-2026) y con los contratistas chicleros del Nodo 004. Si los mismos apellidos aparecen como 'propietarios' o 'comerciantes' en 1930 y como alcaldes en 1960-1970, la cadena de transmisión del poder quedaría documentada numéricamente."
+    },
+
+    {
+      "pregunta_id": "P008-03",
+      "pregunta": "¿Cómo ha evolucionado el porcentaje de hablantes de lengua maya en Hopelchén entre 1960 y 2020? ¿Hay datos censales que permitan construir la curva de pérdida lingüística?",
+      "contexto": "En 2010 el 46.85% de la población mayor de 5 años hablaba lengua indígena (PueblosAmérica, datos INEGI 2010). En 2020 ese porcentaje era 30.5% (Data México, INEGI 2020). Solo en 10 años la pérdida fue de más de 16 puntos porcentuales — un ritmo alarmante. La pregunta es si hay datos comparables para décadas anteriores (1970, 1980, 1990) que muestren cuándo comenzó la aceleración de la pérdida lingüística.",
+      "tipo": "Lengua / Cultura / Demografía / INALI",
+      "fuentes_a_consultar": [
+        "INEGI — Censos históricos con datos de hablantes de lengua indígena por municipio",
+        "INALI — Catálogo de Lenguas Indígenas y datos de vitalidad de la lengua maya",
+        "CIESAS — publicaciones sobre situación de la lengua maya en Campeche",
+        "Data México — datos históricos por municipio: https://www.economia.gob.mx/datamexico/es/profile/geo/hopelchen"
+      ],
+      "prioridad": "Alta",
+      "conexion_hipotesis": "La pérdida lingüística acelerada en Hopelchén es la evidencia más directa del proceso de destrucción cultural documentado desde la quema de los códices en 1562 (Nodo 002). Si la pérdida se aceleró con la llegada de menonitas (1987) y la expansión agroindustrial (2007), entonces hay causalidad directa entre el ciclo extractivo contemporáneo y la destrucción de la lengua."
+    },
+
+    {
+      "pregunta_id": "P008-04",
+      "pregunta": "¿Cuál fue el impacto demográfico específico de la Guerra de Castas en Hopelchén? ¿Cuántas personas murieron, huyeron o desaparecieron entre 1847 y 1880 en el distrito de Los Chenes?",
+      "contexto": "Schüren (2013) documenta que en 1846 había ~26,000 habitantes en Los Chenes (11 haciendas, 116 ranchos). Para 1848, el 40% de los establecimientos agrícolas habían desaparecido (Guía Turística México). Pero no hay un dato directo sobre la pérdida de población humana. La Memoria del partido de los Chenes (1868, citada en Schüren) podría tener datos sobre la población sobreviviente. Si la pérdida fue del 40-50% de la población (como en otras regiones afectadas por la Guerra de Castas), estamos hablando de 10,000-13,000 personas muertas o desplazadas en Los Chenes entre 1847 y 1870.",
+      "tipo": "Demografía / Guerra de Castas / Impacto humano",
+      "fuentes_a_consultar": [
+        "Memoria del partido de los Chenes 1868 (citada en Schüren 2013 — buscar original en Archivo General del Estado de Campeche)",
+        "Nelson Reed — La Guerra de Castas de Yucatán (libro académico clave con datos demográficos)",
+        "Dumond, D.E. — El machete y la cruz: La sublevación de los campesinos mayas de Yucatán (UNAM, 2005)"
+      ],
+      "prioridad": "Alta",
+      "conexion_hipotesis": "El impacto demográfico de la Guerra de Castas en Hopelchén es el momento más documentable del patrón extractivo como catástrofe humana. No es abstracto — son personas concretas muertas o desplazadas como consecuencia directa del despojo de tierras que detonó la guerra (Nodo 003: 45% de las 800,000 ha enajenadas correspondían a la región de Hopelchén)."
+    },
+
+    {
+      "pregunta_id": "P008-05",
+      "pregunta": "¿Cuál es la tasa de emigración de jóvenes desde Hopelchén hacia las ciudades (Campeche, Mérida, Ciudad del México)? ¿Qué proporción de la población joven abandona el municipio?",
+      "contexto": "La pirámide poblacional de 2020 muestra que los rangos de mayor densidad son 0-4, 10-14 y 5-9 años (juntos el 31% de la población). Esto indica alta natalidad pero no dice si los jóvenes adultos (20-35 años) se quedan o emigran. La estructura de edad de la población puede revelar si Hopelchén expulsa a sus jóvenes hacia los centros urbanos — patrón típico de zonas de extracción donde las oportunidades económicas son escasas para la población local.",
+      "tipo": "Demografía / Emigración / Juventud / Estructura de edad",
+      "fuentes_a_consultar": [
+        "Data México — pirámide de edad de Hopelchén comparando 2005 y 2020",
+        "INEGI — Censo 2020: migrantes internos por municipio de origen/destino",
+        "CONAPO — índices de expulsión migratoria por municipio"
+      ],
+      "prioridad": "Media-Alta",
+      "conexion_hipotesis": "Si la emigración de jóvenes es masiva, Hopelchén no solo pierde su ecosistema natural — pierde su capital humano. El mismo patrón que Schüren documentó para el período post-chicle (intelectuales como Gerónimo Baqueiro Foster y Humberto Lara que se fueron a Ciudad de México y Mérida) continúa hoy con los jóvenes cheneros."
+    },
+
+    {
+      "pregunta_id": "P008-06",
+      "pregunta": "¿Cuántos menonitas viven actualmente en el municipio de Hopelchén? ¿En qué colonias? ¿Qué porcentaje representan de la población total del municipio?",
+      "contexto": "El Nodo 005 documenta que para 2021 más de 12,000 menonitas habitaban 18 colonias en Campeche. Pero cuántos de esos 12,000 están específicamente en Hopelchén (versus Calakmul y otros municipios) no está determinado. Si hay 5,000-8,000 menonitas en Hopelchén, representarían entre el 12% y 19% de la población total del municipio — una presencia demográfica significativa que no aparece en los datos de 'población indígena' del INEGI. Los menonitas son contados como 'no indígenas foráneos' (el 12.8% de la población que viene de fuera del estado).",
+      "tipo": "Demografía / Menonitas / Migración / Territorio",
+      "fuentes_a_consultar": [
+        "Observatorio Ciudadano — Menonitas arrasan selvas de Campeche: https://obsci.org/menonitas-arrasan-selvas-de-campeche/",
+        "PorEsto — datos de colonias menonitas en Hopelchén",
+        "INEGI — Censo 2020: localidades con apellidos alemanes o categorías de comunidades menonitas"
+      ],
+      "prioridad": "Media-Alta",
+      "conexion_hipotesis": "Si los menonitas representan el 12-19% de la población del municipio, son ya una minoría demográfica significativa que controla una proporción desproporcionada de la tierra y los recursos. La redistribución demográfica del municipio — de mayoría maya a mezcla maya-menonita — es la dimensión poblacional del despojo territorial."
+    },
+
+    {
+      "pregunta_id": "P008-07",
+      "pregunta": "¿Qué dice el escritor en lengua maya Romualdo Eleazar Méndez Huchín sobre la pérdida cultural en Hopelchén? ¿Hay otras obras literarias o testimonios en maya de autores cheneros?",
+      "contexto": "Tribuna Campeche (2023) cita al escritor Romualdo Eleazar Méndez Huchín como 'escritor chenero en lengua maya' que documenta la pérdida cultural: 'La identidad cultural la dejan atrás y no la viven las nuevas generaciones.' Su existencia como escritor en lengua maya nativo de Los Chenes es el contraejemplo vivo a la narrativa de pérdida total. Identificar sus obras y posibles obras de otros autores en maya de Hopelchén sería documentar la resistencia cultural activa.",
+      "tipo": "Cultura / Lengua maya / Literatura / Resistencia",
+      "fuentes_a_consultar": [
+        "Tribuna Campeche — artículos sobre Romualdo Eleazar Méndez Huchín",
+        "INALI — catálogo de escritores en lengua indígena",
+        "UNAM / CIESAS — estudios de literatura indígena en Campeche",
+        "Ayuntamiento de Hopelchén — Centro Cultural Los Chenes"
+      ],
+      "prioridad": "Media",
+      "conexion_hipotesis": "Un escritor en lengua maya de Hopelchén activo en el siglo XXI es la encarnación más directa de la resistencia cultural documentada desde el Nodo 001. La lengua que el poder colonial intentó destruir desde 1562 (auto de fe de Maní) sigue produciendo literatura en 2023."
+    },
+
+    {
+      "pregunta_id": "P008-08",
+      "pregunta": "¿Cuántas comunidades del municipio de Hopelchén tienen más del 90% de población indígena como Cancabchén (91%)? ¿Son las más pobres y las más alejadas de la cabecera?",
+      "contexto": "Cancabchén tiene 647 habitantes y 91% de población indígena — es la localidad con mayor proporción indígena identificada en las fuentes consultadas. La hipótesis a verificar es si las comunidades con mayor proporción indígena son sistemáticamente las más pequeñas, más alejadas, más pobres y con menos servicios. Si ese patrón se confirma en todas las 170 localidades del municipio, sería la evidencia más clara de la geografía del poder: las comunidades mayas viven más lejos del poder y en mayor pobreza en proporción directa a su proporción indígena.",
+      "tipo": "Demografía / Geografía del poder / Comunidades indígenas / Pobreza",
+      "fuentes_a_consultar": [
+        "INEGI — ITER 2020: datos por localidad para las 170 localidades de Hopelchén",
+        "PueblosAmérica — estadísticas individuales por localidad del municipio",
+        "CONEVAL — índices de pobreza por localidad"
+      ],
+      "prioridad": "Media",
+      "conexion_hipotesis": "Si las comunidades más indígenas son las más pobres y más alejadas del poder, la estructura espacial del municipio replica en miniatura la estructura histórica del despojo documentada en los Nodos 001-007: los mayas, en los márgenes; el poder, en el centro."
+    }
+
+  ],
+
+  "hallazgos_para_siguiente_nodo": [
+    {
+      "hallazgo": "El 30.5% de hablantes de lengua maya en 2020 vs. 46.85% en 2010 — una pérdida de 16 puntos en 10 años — es la evidencia más alarmante de destrucción cultural acelerada en Hopelchén. Al ritmo actual, la lengua maya podría caer por debajo del umbral de transmisión generacional en 20-30 años.",
+      "implicacion": "El Nodo 009 (Cultura, Lengua y Resistencia) debe documentar los esfuerzos de revitalización lingüística en Hopelchén y contrastarlo con la velocidad de la pérdida. Identificar qué iniciativas existen, quién las financia y si hay algo que las frene.",
+      "accion_siguiente": "Buscar programas de revitalización del maya en Hopelchén: ¿hay escuelas bilingües? ¿hay programas del INALI o de organizaciones mayas locales?"
+    },
+    {
+      "hallazgo": "La estructura poblacional de Hopelchén en 2020 muestra que el 31% de la población tiene menos de 15 años — una población extremadamente joven. Con el 75.6% en pobreza y analfabetismo de 8.28%, estas generaciones jóvenes heredan la pobreza acumulada.",
+      "implicacion": "El futuro demográfico de Hopelchén depende de si las generaciones actuales (0-15 años en 2020) tendrán acceso a educación, tierra y derechos que sus ancestros no tuvieron. La sentencia de la SCJN (2015) y la lucha de Leydy Pech son intentos de garantizar ese futuro.",
+      "accion_siguiente": "Documentar el sistema educativo de Hopelchén: número de escuelas, acceso por comunidad, educación bilingüe, tasa de conclusión de secundaria y bachillerato."
+    },
+    {
+      "hallazgo": "El Panteón Municipal de Hopelchén tiene la dirección 'Calle 18 #0, Campo de Aviación, Hopelchén' (FamilySearch). El 'Campo de Aviación' en el nombre de la colonia confirma que el antiguo campo de aterrizaje chiclero de Hopelchén (Nodo 007) está hoy convertido en colonia residencial — la tierra que sirvió a la extracción chiclera es hoy donde descansan los muertos del municipio.",
+      "implicacion": "El Campo de Aviación de Hopelchén tiene ahora dirección postal — es colonia residencial con panteón. La 'cicatriz' del chicle (Lara-Zavala, citado en Nodo 007) es literalmente donde entierran a los cheneros.",
+      "accion_siguiente": "Verificar la extensión y uso actual del área del antiguo campo de aviación de Hopelchén. ¿Hay casas? ¿El panteón ocupa exactamente ese terreno? Esto puede conectar el ciclo chiclero con la geografía urbana actual de la cabecera."
+    }
+  ],
+
+  "siguiente_nodo_sugerido": "NODO 009 — Cultura, Lengua Maya y Resistencia Simbólica en Hopelchén: Lo que Sobrevive, lo que se Pierde y lo que se Recupera",
+
+  "metadatos": {
+    "generado_desde": "HOPELCHEN_NODO_008_Demografia.json",
+    "fecha": "2026-04-08",
+    "total_preguntas_urgentes": 8,
+    "total_hallazgos_siguiente_nodo": 3,
+    "estado": "Activo — primera iteración",
+    "nota_metodologica": "El principal vacío de este nodo es la ausencia de datos censales del siglo XX (1900-1990). El INEGI Archivo Histórico y el Censo de 1930 en FamilySearch son las fuentes más urgentes. Sin esa curva histórica completa, la demografía de Hopelchén en el período de mayor transformación (chicle, reforma agraria, llegada menonita) permanece en la oscuridad."
+  }
+}
