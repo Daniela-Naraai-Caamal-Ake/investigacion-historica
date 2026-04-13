@@ -178,6 +178,8 @@ def contar_por_campo(elementos, campo):
             continue
         if isinstance(valor, list):
             for v in valor:
+                if not isinstance(v, (str, int, float, bool)):
+                    continue
                 conteo[v] = conteo.get(v, 0) + 1
         else:
             valor_str = str(valor)
