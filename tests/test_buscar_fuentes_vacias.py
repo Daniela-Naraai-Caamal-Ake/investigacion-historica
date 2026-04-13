@@ -472,7 +472,7 @@ class TestBuscarFirecrawl(unittest.TestCase):
     def test_retorna_resultados_con_sdk(self):
         """Con SDK simulado, debe retornar resultados correctamente."""
         mock_resp = MagicMock()
-        mock_resp.data = [
+        mock_resp.web = [
             self._hacer_doc(
                 "Historia de Hopelchén",
                 "https://es.wikipedia.org/wiki/Hopelch%C3%A9n",
@@ -526,7 +526,7 @@ class TestBuscarFirecrawl(unittest.TestCase):
     def test_ejecutar_consulta_firecrawl_con_clave(self):
         """Con clave y SDK simulado, ejecutar_consulta debe retornar resultados."""
         mock_resp = MagicMock()
-        mock_resp.data = [
+        mock_resp.web = [
             self._hacer_doc("Resultado Firecrawl", "https://example.com/fc"),
         ]
         mock_app = MagicMock()
