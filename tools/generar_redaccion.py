@@ -24,6 +24,8 @@ from __future__ import annotations
 import json
 import os
 import re
+import subprocess
+import sys
 import textwrap
 from pathlib import Path
 from typing import Any
@@ -769,9 +771,28 @@ def ensure_gitkeep(directory: Path) -> None:
 # ─── Main ─────────────────────────────────────────────────────────────────────
 
 def main() -> None:
-    print("\n=== Generando redacción anotada ===\n")
+    print("\n=== Pipeline: validar → generar → actualizar vacíos ===\n")
 
-    print("1. Catálogo de fuentes...")
+    # ─── Paso 0: Validar datos ───────────────────────────────────────────────
+    print("0. Validando datos...")
+    validar_script = ROOT / "tools" / "validar_datos.py"
+    if validar_script.exists():
+        resultado = subprocess.run(
+            [sys.executable, str(validar_script), "--silencioso"],
+            capture_output=True, text=True,
+        )
+        # Imprimir salida del validador (sin líneas vacías redundantes)
+        for linea in resultado.stdout.splitlines():
+            if linea.strip():
+                print(f"   {linea}")
+        if resultado.returncode != 0:
+            print("\n   ❌  La validación encontró errores. Corrígelos antes de generar.")
+            print("       Ejecuta: python tools/validar_datos.py")
+            sys.exit(1)
+    else:
+        print("   ⚠  validar_datos.py no encontrado — se omite la validación.")
+
+    print("\n1. Catálogo de fuentes...")
     generate_catalog()
 
     print("\n2. Archivos por período...")
@@ -791,12 +812,29 @@ def main() -> None:
         gitkeep.touch()
         print(f"  ✓ fuentes/pdf/.gitkeep")
 
+    # ─── Paso 5: Actualizar vacíos ───────────────────────────────────────────
+    print("\n5. Actualizando VACIOS.md...")
+    actualizar_script = ROOT / "tools" / "actualizar_vacios.py"
+    if actualizar_script.exists():
+        resultado = subprocess.run(
+            [sys.executable, str(actualizar_script)],
+            capture_output=True, text=True,
+        )
+        for linea in resultado.stdout.splitlines():
+            if linea.strip():
+                print(f"   {linea}")
+        if resultado.returncode != 0:
+            print("   ⚠  actualizar_vacios.py retornó error (no es crítico).")
+    else:
+        print("   ⚠  actualizar_vacios.py no encontrado — se omite.")
+
     print("\n=== Listo ===\n")
     print("Archivos generados:")
     print("  fuentes/catalogo_fuentes.md")
     print("  trabajo/periodos/*.md")
     print("  trabajo/indice.md")
     print("  mapa/personajes.md")
+    print("  datos/VACIOS.md")
 
 
 if __name__ == "__main__":

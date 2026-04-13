@@ -11,6 +11,8 @@ Uso:
     python analizador.py --buscar "término"     # Busca un término en todos los datos
     python analizador.py --reporte              # Genera un reporte completo en reportes/
     python analizador.py --periodos             # Extrae y organiza todo por período histórico
+    python analizador.py --vacios               # Lista preguntas PENDIENTE por prioridad
+    python analizador.py --cruzar "término"     # Cruza un término en todos los nodos con conexion_hipotesis
 """
 
 import argparse
@@ -39,6 +41,7 @@ from utilidades import (
 
 DIRECTORIO_DATOS = os.path.join(os.path.dirname(__file__), "..", "datos")
 DIRECTORIO_REPORTES = os.path.join(os.path.dirname(__file__), "..", "reportes")
+DIRECTORIO_HOPELCHEN = os.path.join(DIRECTORIO_DATOS, "hopelchen")
 
 
 # ---------------------------------------------------------------------------
@@ -462,6 +465,213 @@ def buscar_global(termino, resumenes):
 
 
 # ---------------------------------------------------------------------------
+# Vacíos: preguntas PENDIENTE ordenadas por prioridad
+# ---------------------------------------------------------------------------
+
+_PRIORIDAD_NIVEL = {
+    "urgente": 0,
+    "urgente — alta": 0,
+    "urgente - alta": 0,
+    "alta": 1,
+    "alta — central para la hipótesis": 1,
+    "alta — situación activa": 1,
+    "media-alta": 2,
+    "media": 3,
+    "media-baja": 4,
+    "baja": 5,
+}
+
+_ICONO_ESTADO = {
+    "pendiente": "🔴",
+    "en proceso": "🟡",
+    "respondida parcialmente": "🟠",
+    "respondida": "🟢",
+}
+
+
+def _icono_estado(estado: str) -> str:
+    estado_lower = estado.lower()
+    for clave, icono in _ICONO_ESTADO.items():
+        if estado_lower.startswith(clave):
+            return icono
+    return "⚪"
+
+
+def _nivel_prioridad(prioridad: str) -> int:
+    return _PRIORIDAD_NIVEL.get(prioridad.lower().strip(), 9)
+
+
+def _extraer_preguntas_de_archivo(ruta: str) -> list[dict]:
+    """Lee un HOPELCHEN_PREGUNTAS_*.json y devuelve la lista de preguntas."""
+    try:
+        datos = cargar_json(ruta)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return []
+    preguntas = []
+    for clave in ("preguntas", "preguntas_urgentes", "preguntas_alta_prioridad"):
+        val = datos.get(clave)
+        if isinstance(val, list):
+            preguntas.extend(v for v in val if isinstance(v, dict))
+    nodo_origen = datos.get("nodo_origen", os.path.basename(ruta))
+    for p in preguntas:
+        p.setdefault("_nodo_origen", nodo_origen)
+        p.setdefault("_archivo", os.path.basename(ruta))
+    return preguntas
+
+
+def mostrar_vacios() -> None:
+    """
+    Lista todas las preguntas cuyo estado comienza con PENDIENTE,
+    ordenadas de mayor a menor prioridad.
+    """
+    import glob as _glob
+    patron = os.path.join(DIRECTORIO_HOPELCHEN, "HOPELCHEN_PREGUNTAS_*.json")
+    archivos = sorted(_glob.glob(patron))
+
+    todas: list[dict] = []
+    for archivo in archivos:
+        todas.extend(_extraer_preguntas_de_archivo(archivo))
+
+    # Filtrar solo PENDIENTE o EN PROCESO
+    pendientes = [
+        p for p in todas
+        if not p.get("estado", "PENDIENTE").upper().startswith("RESPONDIDA")
+    ]
+    pendientes.sort(key=lambda p: _nivel_prioridad(p.get("prioridad", "media")))
+
+    print(f"\n{'=' * 70}")
+    print(f"   VACÍOS — PREGUNTAS SIN RESPONDER ({len(pendientes)} de {len(todas)})")
+    print(f"{'=' * 70}")
+
+    if not pendientes:
+        print("  ✅ ¡No hay preguntas pendientes!")
+        return
+
+    nivel_actual = -1
+    niveles_label = {0: "URGENTE", 1: "Alta", 2: "Media-Alta", 3: "Media", 4: "Media-Baja", 5: "Baja"}
+
+    for p in pendientes:
+        nivel = _nivel_prioridad(p.get("prioridad", "media"))
+        if nivel != nivel_actual:
+            nivel_actual = nivel
+            label = niveles_label.get(nivel, f"Nivel {nivel}")
+            print(f"\n{'─' * 70}")
+            print(f"  📌 PRIORIDAD {label.upper()}")
+            print(f"{'─' * 70}")
+
+        pid = p.get("pregunta_id", "—")
+        pregunta = p.get("pregunta", "—")
+        estado = p.get("estado", "PENDIENTE")
+        icono = _icono_estado(estado)
+        nodo = p.get("_nodo_origen", "—")
+
+        print(f"\n  [{pid}] {icono} {estado}")
+        print(f"  Nodo: {nodo[:60]}")
+        # Wrap pregunta
+        palabras = pregunta.split()
+        linea = "  ❓ "
+        for palabra in palabras:
+            if len(linea) + len(palabra) + 1 > 72:
+                print(linea)
+                linea = "     " + palabra + " "
+            else:
+                linea += palabra + " "
+        if linea.strip():
+            print(linea)
+
+        fuentes = p.get("fuentes_a_consultar", [])
+        if fuentes:
+            print(f"  📚 Buscar en: {fuentes[0][:65]}")
+
+    print(f"\n{'=' * 70}")
+    print(f"  Total PENDIENTE/EN PROCESO: {len(pendientes)}")
+    print(f"{'=' * 70}\n")
+
+
+# ---------------------------------------------------------------------------
+# Cruzar: busca término en registros de todos los nodos con conexion_hipotesis
+# ---------------------------------------------------------------------------
+
+def cruzar_termino(termino: str) -> None:
+    """
+    Busca ``termino`` (insensible a mayúsculas) en todos los registros de
+    los archivos HOPELCHEN_NODO_*.json y muestra el registro_id, subtítulo
+    y conexion_hipotesis de cada coincidencia.
+    """
+    import glob as _glob
+    patron = os.path.join(DIRECTORIO_HOPELCHEN, "HOPELCHEN_NODO_*.json")
+    archivos = sorted(_glob.glob(patron))
+    termino_lower = termino.lower()
+
+    print(f"\n{'=' * 70}")
+    print(f"   CRUCE DE TÉRMINO: '{termino}'")
+    print(f"{'=' * 70}")
+
+    total_hits = 0
+    nodos_con_hits: set[str] = set()
+
+    for archivo in archivos:
+        try:
+            datos = cargar_json(archivo)
+        except (FileNotFoundError, json.JSONDecodeError):
+            continue
+
+        nodo_id = datos.get("nodo_id", "?")
+        nodo_titulo = datos.get("titulo", os.path.basename(archivo))[:55]
+        registros = datos.get("registros", [])
+        if not isinstance(registros, list):
+            continue
+
+        hits_nodo = []
+        for reg in registros:
+            if not isinstance(reg, dict):
+                continue
+            # Serializar registro completo a texto para buscar
+            texto_reg = json.dumps(reg, ensure_ascii=False).lower()
+            if termino_lower in texto_reg:
+                hits_nodo.append(reg)
+
+        if not hits_nodo:
+            continue
+
+        total_hits += len(hits_nodo)
+        nodos_con_hits.add(nodo_id)
+
+        print(f"\n{'─' * 70}")
+        print(f"  📂 Nodo {nodo_id} — {nodo_titulo}")
+        print(f"     {len(hits_nodo)} registro(s) con '{termino}':")
+
+        for reg in hits_nodo:
+            rid = reg.get("registro_id", "?")
+            subtitulo = reg.get("subtitulo", reg.get("descripcion", "")[:60])
+            conexion = reg.get("conexion_hipotesis", "")
+            fecha = reg.get("fecha_evento", "—")
+            lugar = reg.get("lugar", "—")[:40]
+
+            print(f"\n    [{rid}] {subtitulo[:60]}")
+            print(f"    📅 {fecha}  |  📍 {lugar}")
+            if conexion:
+                # Wrap conexion
+                palabras = conexion.split()
+                linea = "    → "
+                for palabra in palabras:
+                    if len(linea) + len(palabra) + 1 > 72:
+                        print(linea)
+                        linea = "      " + palabra + " "
+                    else:
+                        linea += palabra + " "
+                if linea.strip():
+                    print(linea)
+
+    print(f"\n{'=' * 70}")
+    if total_hits == 0:
+        print(f"  Sin resultados para '{termino}' en registros de nodos.")
+    else:
+        print(f"  Total: {total_hits} registro(s) en {len(nodos_con_hits)} nodo(s).")
+    print(f"{'=' * 70}\n")
+
+
+# ---------------------------------------------------------------------------
 # Punto de entrada principal
 # ---------------------------------------------------------------------------
 
@@ -509,6 +719,16 @@ def construir_parser():
         default=50,
         metavar="N",
         help="Longitud mínima en caracteres para incluir una cita o contexto (default: 50)",
+    )
+    parser.add_argument(
+        "--vacios", "-v",
+        action="store_true",
+        help="Lista preguntas PENDIENTE o EN PROCESO ordenadas por prioridad",
+    )
+    parser.add_argument(
+        "--cruzar", "-x",
+        metavar="TÉRMINO",
+        help="Busca un término en todos los registros de los nodos y muestra conexion_hipotesis",
     )
     return parser
 
@@ -615,6 +835,16 @@ def main():
     # Generar reporte general
     if args.reporte and not args.citas:
         generar_reporte(resumenes)
+
+    # Mostrar vacíos (preguntas pendientes)
+    if args.vacios:
+        mostrar_vacios()
+        return
+
+    # Cruzar término en registros de nodos
+    if args.cruzar:
+        cruzar_termino(args.cruzar)
+        return
 
     print("\n✔ Análisis completado.\n")
 
