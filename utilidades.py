@@ -1,10 +1,12 @@
 """
-Módulo de utilidades para el análisis de datos históricos en formato JSON.
-Proporciona funciones auxiliares para cargar, validar y procesar datos.
+Módulo de utilidades para el análisis de datos históricos.
+Proporciona funciones auxiliares para cargar, validar y procesar datos
+en formato JSON, Markdown y PDF.
 """
 
 import json
 import os
+import re
 from datetime import datetime
 
 
@@ -45,6 +47,28 @@ def guardar_json(datos, ruta_archivo):
         json.dump(datos, archivo, ensure_ascii=False, indent=2)
 
 
+def _listar_archivos_por_extension(directorio, extension):
+    """
+    Lista los archivos de un directorio que tienen la extensión indicada.
+
+    Args:
+        directorio (str): Ruta al directorio a explorar.
+        extension (str): Extensión a buscar, incluyendo el punto (ej. '.json').
+
+    Returns:
+        list[str]: Lista de rutas encontradas, ordenadas alfabéticamente.
+    """
+    if not os.path.isdir(directorio):
+        return []
+
+    ext_lower = extension.lower()
+    return sorted(
+        os.path.join(directorio, nombre)
+        for nombre in os.listdir(directorio)
+        if nombre.lower().endswith(ext_lower)
+    )
+
+
 def listar_archivos_json(directorio):
     """
     Lista todos los archivos JSON en un directorio.
@@ -55,14 +79,33 @@ def listar_archivos_json(directorio):
     Returns:
         list[str]: Lista de rutas a archivos JSON encontrados.
     """
-    if not os.path.isdir(directorio):
-        return []
+    return _listar_archivos_por_extension(directorio, ".json")
 
-    archivos = []
-    for nombre in os.listdir(directorio):
-        if nombre.endswith(".json"):
-            archivos.append(os.path.join(directorio, nombre))
-    return sorted(archivos)
+
+def listar_archivos_md(directorio):
+    """
+    Lista todos los archivos Markdown (.md) en un directorio.
+
+    Args:
+        directorio (str): Ruta al directorio a explorar.
+
+    Returns:
+        list[str]: Lista de rutas a archivos .md encontrados.
+    """
+    return _listar_archivos_por_extension(directorio, ".md")
+
+
+def listar_archivos_pdf(directorio):
+    """
+    Lista todos los archivos PDF (.pdf) en un directorio.
+
+    Args:
+        directorio (str): Ruta al directorio a explorar.
+
+    Returns:
+        list[str]: Lista de rutas a archivos .pdf encontrados.
+    """
+    return _listar_archivos_por_extension(directorio, ".pdf")
 
 
 def parsear_fecha(cadena_fecha):
@@ -218,6 +261,120 @@ def ordenar_por_fecha(elementos, campo_fecha="fecha"):
         return fecha if fecha else datetime.max
 
     return sorted(elementos, key=clave_orden)
+
+
+def cargar_markdown(ruta_archivo):
+    """
+    Carga y parsea el contenido de un archivo Markdown.
+
+    Extrae el título (primer encabezado H1), las secciones con su nivel
+    y contenido, y el texto completo del documento.
+
+    Args:
+        ruta_archivo (str): Ruta al archivo Markdown.
+
+    Returns:
+        dict: Diccionario con 'titulo', 'secciones', 'contenido_completo',
+              'total_secciones' y 'total_palabras'.
+
+    Raises:
+        FileNotFoundError: Si el archivo no existe.
+    """
+    if not os.path.exists(ruta_archivo):
+        raise FileNotFoundError(f"Archivo no encontrado: {ruta_archivo}")
+
+    with open(ruta_archivo, "r", encoding="utf-8") as f:
+        contenido = f.read()
+
+    lineas = contenido.splitlines()
+    titulo = None
+    secciones = []
+    seccion_actual = None
+    lineas_seccion = []
+
+    for linea in lineas:
+        match = re.match(r'^(#{1,6})\s+(.*)', linea)
+        if match:
+            if seccion_actual is not None:
+                seccion_actual["contenido"] = "\n".join(lineas_seccion).strip()
+                secciones.append(seccion_actual)
+
+            nivel = len(match.group(1))
+            titulo_seccion = match.group(2).strip()
+
+            if titulo is None and nivel == 1:
+                titulo = titulo_seccion
+
+            seccion_actual = {"nivel": nivel, "titulo": titulo_seccion, "contenido": ""}
+            lineas_seccion = []
+        elif seccion_actual is not None:
+            lineas_seccion.append(linea)
+
+    if seccion_actual is not None:
+        seccion_actual["contenido"] = "\n".join(lineas_seccion).strip()
+        secciones.append(seccion_actual)
+
+    if titulo is None:
+        titulo = os.path.splitext(os.path.basename(ruta_archivo))[0]
+
+    return {
+        "titulo": titulo,
+        "secciones": secciones,
+        "contenido_completo": contenido,
+        "total_secciones": len(secciones),
+        "total_palabras": len(contenido.split()),
+    }
+
+
+def extraer_texto_pdf(ruta_archivo):
+    """
+    Extrae el texto y metadatos de un archivo PDF.
+
+    Requiere la librería 'pypdf'. Instálala con: pip install pypdf
+
+    Args:
+        ruta_archivo (str): Ruta al archivo PDF.
+
+    Returns:
+        dict: Diccionario con 'paginas', 'total_paginas', 'metadatos'
+              y 'contenido_completo'.
+
+    Raises:
+        FileNotFoundError: Si el archivo no existe.
+        ImportError: Si 'pypdf' no está instalado.
+    """
+    try:
+        from pypdf import PdfReader
+    except ImportError as exc:
+        raise ImportError(
+            "La librería 'pypdf' es necesaria para procesar PDFs. "
+            "Instálala con: pip install pypdf"
+        ) from exc
+
+    if not os.path.exists(ruta_archivo):
+        raise FileNotFoundError(f"Archivo no encontrado: {ruta_archivo}")
+
+    reader = PdfReader(ruta_archivo)
+    paginas = []
+    for i, pagina in enumerate(reader.pages, start=1):
+        texto = pagina.extract_text() or ""
+        paginas.append({"numero": i, "texto": texto.strip()})
+
+    metadatos = {}
+    if reader.metadata:
+        for clave, valor in reader.metadata.items():
+            clave_limpia = clave.lstrip("/")
+            if isinstance(valor, str) and valor:
+                metadatos[clave_limpia] = valor
+
+    contenido_completo = "\n\n".join(p["texto"] for p in paginas if p["texto"])
+
+    return {
+        "paginas": paginas,
+        "total_paginas": len(paginas),
+        "metadatos": metadatos,
+        "contenido_completo": contenido_completo,
+    }
 
 
 def formatear_tabla(elementos, campos=None, ancho_col=25):
