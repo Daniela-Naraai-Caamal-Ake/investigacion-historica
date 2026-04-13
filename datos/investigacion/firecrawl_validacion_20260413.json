@@ -1,10 +1,10 @@
 {
   "herramienta": "validar_citas_firecrawl",
-  "fecha_consulta": "2026-04-13T23:11:26.550561",
+  "fecha_consulta": "2026-04-13T23:15:18.434732",
   "api": "Firecrawl",
   "modo": "fuentes",
-  "nodo_filtro": "009",
-  "limite": 1,
+  "nodo_filtro": null,
+  "limite": 2,
   "fuentes_faltantes": [
     {
       "registro_id": "009-A",
@@ -14,11 +14,21 @@
       "estado": "error: 'NoneType' object has no attribute 'status_code'",
       "total_candidatas": 0,
       "fuentes_candidatas": [],
-      "timestamp": "2026-04-13T23:11:28.056973"
+      "timestamp": "2026-04-13T23:15:19.944060"
+    },
+    {
+      "registro_id": "009-B",
+      "nodo": "",
+      "descripcion": "Juan de Dios May — liderazgo maya en la Guerra de Castas",
+      "query": "Juan de Dios May ataque Hopelchén 1848 guerra castas",
+      "estado": "error: 'NoneType' object has no attribute 'status_code'",
+      "total_candidatas": 0,
+      "fuentes_candidatas": [],
+      "timestamp": "2026-04-13T23:15:22.450754"
     }
   ],
   "resumen": {
     "Fuentes candidatas encontradas": "0",
-    "Registros sin fuente procesados": "1"
+    "Registros sin fuente procesados": "2"
   }
 }
