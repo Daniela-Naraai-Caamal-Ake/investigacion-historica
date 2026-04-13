@@ -76,4 +76,4 @@ El libro *Dos Mil Años en Silencio* está organizado en 21 capítulos. La hipó
 
 ---
 
-*Última actualización: 2026-04-13 | Extraído de: `datos/hopelchen/HOPELCHEN_NODO_001-008.json`*
+*Última actualización: 2026-04-13 | Extraído de: `datos/hopelchen/HOPELCHEN_NODO_001-008.json` | Ver síntesis completa en: `datos/SINTESIS.md`*
