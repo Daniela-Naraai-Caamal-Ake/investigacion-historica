@@ -1,0 +1,203 @@
+{
+  "modulo": "firecrawl",
+  "fecha_consulta": "2026-04-13T23:52:43.718389",
+  "api": "Firecrawl Search API",
+  "terminos_fijos": 7,
+  "terminos_desde_nodos": 6,
+  "total_busquedas": 13,
+  "total_resultados": 0,
+  "busquedas": [
+    {
+      "query": "Hopelchén historia colonial encomienda siglo XVII",
+      "descripcion": "Historia colonial y encomiendas en Hopelchén / Los Chenes",
+      "nodos_relacionados": [
+        "001",
+        "002"
+      ],
+      "preguntas_relacionadas": [
+        "P001-02",
+        "P002-01"
+      ],
+      "registro_id": "",
+      "estado": "error: FirecrawlClient.search() got an unexpected keyword argument 'lang'",
+      "total_resultados": 0,
+      "resultados": [],
+      "timestamp": "2026-04-13T23:52:30.715191"
+    },
+    {
+      "query": "resistencia maya Campeche siglo XIX independencia",
+      "descripcion": "Resistencia maya en Campeche durante el siglo XIX",
+      "nodos_relacionados": [
+        "003",
+        "004"
+      ],
+      "preguntas_relacionadas": [
+        "P003-01",
+        "P004-01"
+      ],
+      "registro_id": "",
+      "estado": "error: FirecrawlClient.search() got an unexpected keyword argument 'lang'",
+      "total_resultados": 0,
+      "resultados": [],
+      "timestamp": "2026-04-13T23:52:31.715426"
+    },
+    {
+      "query": "industria chiclera Hopelchén Campeche economía siglo XX",
+      "descripcion": "Economía chiclera en Los Chenes y Hopelchén",
+      "nodos_relacionados": [
+        "005"
+      ],
+      "preguntas_relacionadas": [
+        "P005-01"
+      ],
+      "registro_id": "",
+      "estado": "error: FirecrawlClient.search() got an unexpected keyword argument 'lang'",
+      "total_resultados": 0,
+      "resultados": [],
+      "timestamp": "2026-04-13T23:52:32.715652"
+    },
+    {
+      "query": "presidentes municipales Hopelchén Campeche historia política",
+      "descripcion": "Presidentes municipales de Hopelchén y dynastías políticas",
+      "nodos_relacionados": [
+        "006"
+      ],
+      "preguntas_relacionadas": [
+        "P006-01",
+        "P006-07",
+        "P006-08",
+        "P006-09"
+      ],
+      "registro_id": "",
+      "estado": "error: FirecrawlClient.search() got an unexpected keyword argument 'lang'",
+      "total_resultados": 0,
+      "resultados": [],
+      "timestamp": "2026-04-13T23:52:33.715881"
+    },
+    {
+      "query": "menonitas Hopelchén Campeche tierra deforestación soya transgénica",
+      "descripcion": "Comunidades menonitas, uso de tierra y soya transgénica en Hopelchén",
+      "nodos_relacionados": [
+        "007"
+      ],
+      "preguntas_relacionadas": [
+        "P007-01"
+      ],
+      "registro_id": "",
+      "estado": "error: FirecrawlClient.search() got an unexpected keyword argument 'lang'",
+      "total_resultados": 0,
+      "resultados": [],
+      "timestamp": "2026-04-13T23:52:34.716200"
+    },
+    {
+      "query": "conocimiento ecológico maya Hopelchén milpa semillas",
+      "descripcion": "Conocimiento ecológico tradicional maya en Los Chenes",
+      "nodos_relacionados": [
+        "008"
+      ],
+      "preguntas_relacionadas": [
+        "P008-01"
+      ],
+      "registro_id": "",
+      "estado": "error: FirecrawlClient.search() got an unexpected keyword argument 'lang'",
+      "total_resultados": 0,
+      "resultados": [],
+      "timestamp": "2026-04-13T23:52:35.716473"
+    },
+    {
+      "query": "Hopelchén Campeche siglo XXI territorio autonomía comunidades mayas",
+      "descripcion": "Luchas territoriales contemporáneas en Hopelchén",
+      "nodos_relacionados": [
+        "009"
+      ],
+      "preguntas_relacionadas": [
+        "P009-01",
+        "P009-02"
+      ],
+      "registro_id": "",
+      "estado": "error: FirecrawlClient.search() got an unexpected keyword argument 'lang'",
+      "total_resultados": 0,
+      "resultados": [],
+      "timestamp": "2026-04-13T23:52:36.716734"
+    },
+    {
+      "query": "1900–1950: La economía chiclera en Los Chenes — estructura d Hopelchén 1900",
+      "descripcion": "Nodo 004 — 1900–1950: La economía chiclera en Los Chenes — estructura de explotac",
+      "nodos_relacionados": [
+        "004"
+      ],
+      "preguntas_relacionadas": [],
+      "registro_id": "004-C",
+      "estado": "error: FirecrawlClient.search() got an unexpected keyword argument 'lang'",
+      "total_resultados": 0,
+      "resultados": [],
+      "timestamp": "2026-04-13T23:52:37.716975"
+    },
+    {
+      "query": "Presidentes municipales de Hopelchén identificados: cadena d 1959",
+      "descripcion": "Nodo 006 — Presidentes municipales de Hopelchén identificados: cadena de poder 19",
+      "nodos_relacionados": [
+        "006"
+      ],
+      "preguntas_relacionadas": [],
+      "registro_id": "006-A",
+      "estado": "error: FirecrawlClient.search() got an unexpected keyword argument 'lang'",
+      "total_resultados": 0,
+      "resultados": [],
+      "timestamp": "2026-04-13T23:52:38.717237"
+    },
+    {
+      "query": "CRUCE DE DATOS: Apellidos del poder en Hopelchén — de la Col 1517",
+      "descripcion": "Nodo 006 — CRUCE DE DATOS: Apellidos del poder en Hopelchén — de la Colonia al si",
+      "nodos_relacionados": [
+        "006"
+      ],
+      "preguntas_relacionadas": [],
+      "registro_id": "006-G",
+      "estado": "error: FirecrawlClient.search() got an unexpected keyword argument 'lang'",
+      "total_resultados": 0,
+      "resultados": [],
+      "timestamp": "2026-04-13T23:52:39.717471"
+    },
+    {
+      "query": "La bibliografía de Schüren (2013) — mapa de fuentes sobre Lo 1923",
+      "descripcion": "Nodo 007 — La bibliografía de Schüren (2013) — mapa de fuentes sobre Los Chenes n",
+      "nodos_relacionados": [
+        "007"
+      ],
+      "preguntas_relacionadas": [],
+      "registro_id": "007-H",
+      "estado": "error: FirecrawlClient.search() got an unexpected keyword argument 'lang'",
+      "total_resultados": 0,
+      "resultados": [],
+      "timestamp": "2026-04-13T23:52:40.717735"
+    },
+    {
+      "query": "CRUCE TRANSVERSAL: El patrón de resistencia maya a lo largo  Los Chenes 1669",
+      "descripcion": "Nodo 009 — CRUCE TRANSVERSAL: El patrón de resistencia maya a lo largo de 500 año",
+      "nodos_relacionados": [
+        "009"
+      ],
+      "preguntas_relacionadas": [],
+      "registro_id": "009-G",
+      "estado": "error: FirecrawlClient.search() got an unexpected keyword argument 'lang'",
+      "total_resultados": 0,
+      "resultados": [],
+      "timestamp": "2026-04-13T23:52:41.717965"
+    },
+    {
+      "query": "CRUCE TRANSVERSAL: El control del conocimiento maya en Los C 1562",
+      "descripcion": "Nodo 010 — CRUCE TRANSVERSAL: El control del conocimiento maya en Los Chenes — de",
+      "nodos_relacionados": [
+        "010"
+      ],
+      "preguntas_relacionadas": [],
+      "registro_id": "010-G",
+      "estado": "error: FirecrawlClient.search() got an unexpected keyword argument 'lang'",
+      "total_resultados": 0,
+      "resultados": [],
+      "timestamp": "2026-04-13T23:52:42.718228"
+    }
+  ],
+  "nota_metodologica": "Las búsquedas fueron realizadas con la API de Firecrawl. Los resultados incluyen páginas web con contenido relevante para los temas y registros pendientes del proyecto. Verificar y validar manualmente antes de incorporar como fuentes definitivas."
+}
