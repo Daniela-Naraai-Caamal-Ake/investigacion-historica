@@ -8,8 +8,8 @@ import sys
 import tempfile
 import unittest
 
-# Asegurar que el directorio raíz del proyecto esté en el path
-sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
+# Asegurar que el directorio src/ del proyecto esté en el path
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(__file__)), "src"))
 
 from utilidades import (
     agrupar_citas_por_categoria,

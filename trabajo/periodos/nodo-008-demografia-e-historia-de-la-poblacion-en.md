@@ -3,7 +3,7 @@
 > **Nodo:** 008 · **Era:** Transversal — todas las eras  
 > **Período:** 300 a.C. — 2026  
 > **Hipótesis marco:** La curva demográfica de Hopelchén es la expresión numérica del ciclo extractivo. Cada evento de poder — conquista, Guerra de Castas, auge chiclero, reforma agraria, menonitas — deja una huella medible  
-> **Archivo origen:** `datos/HOPELCHEN_NODO_008_Demografia.json`  
+> **Archivo origen:** `datos/hopelchen/HOPELCHEN_NODO_008_Demografia.json`  
 > **Generado por:** `tools/generar_redaccion.py`
 
 ---
@@ -18,7 +18,7 @@
 | **Personajes** | — |
 | **Cargos** | — |
 | **Fuente(s)** | — |
-| **Origen** | `datos/HOPELCHEN_NODO_008_Demografia.json` |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_008_Demografia.json` |
 
 > No existen censos para el período prehispánico. Las estimaciones demográficas se basan en datos arqueológicos (extensión de asentamientos, número de estructuras, patrón de uso del territorio). El INAH indica que Santa Rosa Xtampak fue la capital regional de Los Chenes durante aproximadamente 850 años. La estimación académica para ciudades mayas de tamaño comparable al apogeo de Xtampak (600-900 d.C.) sugiere poblaciones de entre 20,000 y 50,000 personas en la zona de influencia directa. El punto de referencia más cercano con cifra documentada es el período inmediatamente precolonial: la 'Memoria del Secretario General de Gobierno' de septiembre de 1846 (citada en Schüren 2013) registra ~26,000 habitantes en el distrito de Los Chenes — que incluía 11 haciendas y 116 ranchos, ya en un período post-colapso maya y post-conquista. Esa cifra debe considerarse como el piso histórico documentado, no el máximo.
 
@@ -39,7 +39,7 @@
 | **Personajes** | — |
 | **Cargos** | — |
 | **Fuente(s)** | — |
-| **Origen** | `datos/HOPELCHEN_NODO_008_Demografia.json` |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_008_Demografia.json` |
 
 > Los datos más tempranos disponibles sobre la población del territorio de Hopelchén son: (1) Hacia 1630, el pueblo de congregación de Hopelchén concentraba aproximadamente 20,000 indígenas (Archivo Municipal de Hopelchén / Wikipedia). Esta cifra refleja la concentración forzada de la región, no solo la población de la cabecera. (2) Hacia 1846 — en el apogeo del período hacendario pre-guerra — el distrito de Los Chenes tenía una población de ~26,000 habitantes en su gran mayoría indígenas, distribuidos en 11 haciendas y 116 ranchos. Esta cifra es la más alta documentada para el período colonial tardío-republicano temprano. (3) La Guerra de Castas (1847-1901) devastó la región: al final del conflicto, el 40% de los establecimientos agrícolas habían desaparecido. La población del municipio se desplomó — muchos huyeron a Campeche, muchos murieron, muchos se internaron en la selva con los grupos de 'mayas pacíficos'.
 
@@ -60,7 +60,7 @@
 | **Personajes** | — |
 | **Cargos** | — |
 | **Fuente(s)** | — |
-| **Origen** | `datos/HOPELCHEN_NODO_008_Demografia.json` |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_008_Demografia.json` |
 
 > Los censos modernos de México comenzaron en 1895 (primer Censo General de Población). Los datos específicos para el municipio de Hopelchén en los censos históricos del siglo XX no están disponibles en forma digitalizada accesible, pero existen en los archivos del INEGI (Archivo Histórico). El Quinto Censo de Población de 1930 (disponible parcialmente en INEGI) menciona a Hopelchén, pero los datos por municipio del siglo XX temprano requieren consulta directa de los volúmenes físicos. Los datos disponibles en fuentes digitales accesibles cubren el período 1995-2020.
 
@@ -81,7 +81,7 @@
 | **Personajes** | — |
 | **Cargos** | — |
 | **Fuente(s)** | — |
-| **Origen** | `datos/HOPELCHEN_NODO_008_Demografia.json` |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_008_Demografia.json` |
 
 > Los datos del Censo 2020 del INEGI revelan el perfil étnico y socioeconómico contemporáneo del municipio. Hopelchén es uno de los municipios campechanos clasificados simultáneamente con 'alto porcentaje de población indígena' y 'alto índice de marginación' (CONEVAL 2020). La población indígena sigue siendo la mayoría absoluta del municipio.
 
@@ -102,7 +102,7 @@
 | **Personajes** | — |
 | **Cargos** | — |
 | **Fuente(s)** | — |
-| **Origen** | `datos/HOPELCHEN_NODO_008_Demografia.json` |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_008_Demografia.json` |
 
 > El municipio de Hopelchén tiene 170 localidades según el Censo 2010 (Wikipedia). La mayoría son muy pequeñas. La localidad cabecera (ciudad de Hopelchén) tenía solo 8,048 habitantes en 2020 — apenas el 19% de la población total del municipio. Las localidades principales identificadas en fuentes consultadas incluyen: Hopelchén (cabecera, 8,048 hab.), Bolonchén de Rejón, Vicente Guerrero (Iturbide), Dzibalchén, Cancabchén (647 hab. — 91% población indígena), Chunyaxnic (357 hab.), San Francisco Suctuc. Este patrón de alta dispersión en pequeñas comunidades es históricamente significativo: es el resultado de siglos de comunidades mayas que se alejaron de los centros de control colonial.
 
@@ -123,7 +123,7 @@
 | **Personajes** | — |
 | **Cargos** | — |
 | **Fuente(s)** | [FamilySearch Wiki — Hopelchén, Campeche, México — Genealogía](<https://www.familysearch.org/es/wiki/Hopelch%C3%A9n,_Campeche,_M%C3%A9xico_-_Genealog%C3%ADa>); [INEGI — Quinto Censo de Población, 15 de mayo de 1930, Estado de Campeche](<https://www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/censos/poblacion/1930/camp/QCPECAMP30II.pdf>) |
-| **Origen** | `datos/HOPELCHEN_NODO_008_Demografia.json` |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_008_Demografia.json` |
 
 > FamilySearch (la plataforma genealógica de la Iglesia de los Santos de los Últimos Días) tiene digitalizado el 'Censo de población del municipio de Hopelchén, Campeche, 1930'. Las imágenes están disponibles pero con restricciones de acceso — requieren consulta en un Centro FamilySearch o biblioteca afiliada. El Quinto Censo de Población del INEGI (15 de mayo de 1930) menciona registros del municipio de Hopelchén. El acceso a este censo revelaría: nombres de familias, ocupaciones, localidades habitadas vs. deshabitadas en 1930 (durante el auge chiclero), y posiblemente apellidos de contratistas y comerciantes.
 
@@ -144,7 +144,7 @@ _Origen: FamilySearch Wiki — Hopelchén, Campeche, México — Genealogía <ht
 | **Personajes** | — |
 | **Cargos** | — |
 | **Fuente(s)** | — |
-| **Origen** | `datos/HOPELCHEN_NODO_008_Demografia.json` |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_008_Demografia.json` |
 
 > ANÁLISIS TRANSVERSAL. Al superponer los datos demográficos disponibles sobre la línea del tiempo de los ciclos extractivos documentados en Nodos 001-007, emerge un patrón claro: cada ciclo de extracción tiene una demografía específica. Los momentos de máxima población corresponden a los momentos de máxima explotación; los momentos de colapso demográfico corresponden al fin de un ciclo extractivo o a la resistencia activa.
 

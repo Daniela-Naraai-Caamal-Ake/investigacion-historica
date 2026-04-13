@@ -37,8 +37,8 @@ from utilidades import (
     ordenar_por_fecha,
 )
 
-DIRECTORIO_DATOS = os.path.join(os.path.dirname(__file__), "datos")
-DIRECTORIO_REPORTES = os.path.join(os.path.dirname(__file__), "reportes")
+DIRECTORIO_DATOS = os.path.join(os.path.dirname(__file__), "..", "datos")
+DIRECTORIO_REPORTES = os.path.join(os.path.dirname(__file__), "..", "reportes")
 
 
 # ---------------------------------------------------------------------------

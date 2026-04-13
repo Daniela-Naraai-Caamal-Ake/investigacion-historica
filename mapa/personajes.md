@@ -1,6 +1,6 @@
 # Mapa de Personajes — Investigación Histórica de Hopelchén
 
-> Fuente principal: `datos/01_personajes.json`  
+> Fuente principal: `datos/curated/01_personajes.json`  
 > Generado por: `tools/generar_redaccion.py`
 
 **Cómo leer este archivo:**  
@@ -17,7 +17,7 @@ evidencia documental con IDs de fuente que remiten a
 | **Tipo** | poder_politico |
 | **Período** | 1861–presente (164 años documentados) |
 | **Fuente** | Digesto Constitucional Mexicano — Campeche (SCJN 2010, ISBN 978-607-468-243-4), archivo local: sources/83536.pdf |
-| **Origen** | `datos/01_personajes.json` |
+| **Origen** | `datos/curated/01_personajes.json` |
 
 **Línea cronológica:**
 
@@ -45,7 +45,7 @@ evidencia documental con IDs de fuente que remiten a
 | **Tipo** | intelectual_cultural |
 | **Período** | 1838–presente |
 | **Fuente** | — |
-| **Origen** | `datos/01_personajes.json` |
+| **Origen** | `datos/curated/01_personajes.json` |
 
 > La familia intelectual más importante producida por el municipio — completamente invisible en él
 
@@ -57,7 +57,7 @@ evidencia documental con IDs de fuente que remiten a
 | **Tipo** | poder_politico |
 | **Período** | 1840–presente |
 | **Fuente** | — |
-| **Origen** | `datos/01_personajes.json` |
+| **Origen** | `datos/curated/01_personajes.json` |
 
 **Línea cronológica:**
 
@@ -78,7 +78,7 @@ evidencia documental con IDs de fuente que remiten a
 | **Tipo** | mixto |
 | **Período** |  |
 | **Fuente** | — |
-| **Origen** | `datos/01_personajes.json` |
+| **Origen** | `datos/curated/01_personajes.json` |
 
 ---
 
@@ -93,7 +93,7 @@ evidencia documental con IDs de fuente que remiten a
 | **Lugar** | Hopelchén, Campeche |
 | **Fuente(s)** | {'tipo': 'fuente_primaria', 'descripcion': 'Informe Juan Suárez Navarro al gobierno federal, 1861'}; {'tipo': 'novela', 'titulo': 'Los misterios de Chan Santa Cruz', 'año': 1864, 'disponible_en': 'HathiTrust: https://babel.hathitrust.org/cgi/pt?id=wu.89095721726', 'ISBN_facsimilar': '9781166725785 (Kessinger Publishing 2009)', 'archivo_local': 'sources/Los_misterios_de_Chan_Santa_Cruz.pdf'}; {'tipo': 'libro', 'autor': 'Ferrer Muñoz, Manuel', 'titulo': 'La independencia de México: el caso de Yucatán', 'publicacion': 'Ius Fugit 8-9, 1999-2000', 'archivo_local': 'sources/10ferrermunoz.pdf'}; {'tipo': 'articulo', 'autor': 'Vadillo Buenfil, Carlos', 'publicacion': 'Península vol.XII num.2, 2017', 'DOI': '10.1016/j.rpns.2017.06.001', 'archivo_local': 'sources/1870-5766-peni-12-02-00029.pdf'} |
 | **Conexiones** | — |
-| **Origen** | `datos/01_personajes.json` |
+| **Origen** | `datos/curated/01_personajes.json` |
 
 **Hechos verificados:**
 
@@ -114,7 +114,7 @@ evidencia documental con IDs de fuente que remiten a
 | **Lugar** |  |
 | **Fuente(s)** | {'tipo': 'articulo', 'autor': 'Ferrer Muñoz, Manuel', 'publicacion': 'Ius Fugit 8-9, 1999-2000, p.337', 'archivo_local': 'sources/10ferrermunoz.pdf'}; {'tipo': 'enciclopedia', 'nombre': 'Enciclopedia Yet de Yucatán', 'URL': 'https://enciclopediayet.com'}; {'tipo': 'libro', 'autor': 'Taracena Arriola, Arturo', 'titulo': 'De la nostalgia por la memoria a la memoria nostálgica', 'editorial': 'UNAM/CEPHCIS, 2019', 'ISBN': '978-607-30-2352-8', 'archivo_local': 'sources/05-de-la-nostalgia.pdf'} |
 | **Conexiones** | — |
-| **Origen** | `datos/01_personajes.json` |
+| **Origen** | `datos/curated/01_personajes.json` |
 
 **Hechos verificados:**
 
@@ -135,7 +135,7 @@ evidencia documental con IDs de fuente que remiten a
 | **Lugar** |  |
 | **Fuente(s)** | {'tipo': 'web', 'URL': 'https://es.wikipedia.org/wiki/Chan_Cil'}; {'tipo': 'enciclopedia', 'nombre': 'Enciclopedia Yet de Yucatán'}; {'tipo': 'libro_academico', 'titulo': 'Los mayas antiguos', 'editorial': 'El Colegio de México, 1941', 'nota': 'Gerónimo Baqueiro Fóster lo documenta', 'archivo_local': 'sources/los-mayas-antiguos-monografias-de-arqueologia-etnografia-y-linguistica-mayas-899329.pdf'} |
 | **Conexiones** | — |
-| **Origen** | `datos/01_personajes.json` |
+| **Origen** | `datos/curated/01_personajes.json` |
 
 **Hechos verificados:**
 
@@ -156,7 +156,7 @@ evidencia documental con IDs de fuente que remiten a
 | **Lugar** |  |
 | **Fuente(s)** | {'tipo': 'articulo_academico', 'autor': 'Mendoza Castillo, Herlinda', 'titulo': 'Gerónimo Baqueiro Fóster y su legado documental', 'publicacion': 'Revista Digital Universitaria UNAM, vol.7 num.2, 10 feb 2006', 'URL': 'http://www.revista.unam.mx/vol.7/num2/art16/feb_art16.pdf', 'archivo_local': 'sources/feb_art16.pdf'}; {'tipo': 'libro_academico', 'titulo': 'Los mayas antiguos', 'editorial': 'El Colegio de México, 1941', 'archivo_local': 'sources/los-mayas-antiguos-monografias-de-arqueologia-etnografia-y-linguistica-mayas-899329.pdf'}; {'tipo': 'tesis_doctoral', 'autor': 'Pool Castellanos, Emmanuel', 'titulo': 'Kinchí, Xunan tunich y Dignidad maya', 'institucion': 'Facultad de Música, UNAM, 2025', 'archivo_local': 'sources/0865175.pdf'} |
 | **Conexiones** | — |
-| **Origen** | `datos/01_personajes.json` |
+| **Origen** | `datos/curated/01_personajes.json` |
 
 **Hechos verificados:**
 
@@ -177,7 +177,7 @@ evidencia documental con IDs de fuente que remiten a
 | **Lugar** |  |
 | **Fuente(s)** | {'tipo': 'web_oficial', 'URL': 'https://sonido13.com/index.php/historia/'}; {'tipo': 'web', 'URL': 'https://es.wikipedia.org/wiki/Juli%C3%A1n_Carrillo'}; {'tipo': 'registro_internacional', 'nombre': 'UNESCO Registro de la Memoria del Mundo 2016', 'URL': 'https://www.unesco.org/en/memory-world'} |
 | **Conexiones** | — |
-| **Origen** | `datos/01_personajes.json` |
+| **Origen** | `datos/curated/01_personajes.json` |
 
 **Hechos verificados:**
 
@@ -198,7 +198,7 @@ evidencia documental con IDs de fuente que remiten a
 | **Lugar** |  |
 | **Fuente(s)** | {'tipo': 'web', 'URL': 'https://es.wikipedia.org/wiki/Olegario_Molina'}; {'tipo': 'articulo_academico', 'titulo': 'Corporate Control of a Monocrop Economy', 'publicacion': 'Latin American Research Review, Cambridge University Press'}; {'tipo': 'libro', 'autor': 'Turner, John Kenneth', 'titulo': 'México Bárbaro', 'año': '1910'}; {'tipo': 'analisis', 'fuente': 'CIDE/ECOS — A cien años de la muerte de Olegario Molina Solís, 2025', 'URL': 'https://ecos.cide.edu'} |
 | **Conexiones** | — |
-| **Origen** | `datos/01_personajes.json` |
+| **Origen** | `datos/curated/01_personajes.json` |
 
 **Hechos verificados:**
 
@@ -219,7 +219,7 @@ evidencia documental con IDs de fuente que remiten a
 | **Lugar** |  |
 | **Fuente(s)** | {'tipo': 'registro_legislativo', 'fuente': 'Digesto Constitucional Mexicano — Campeche (SCJN 2010)', 'ISBN': '978-607-468-243-4', 'archivo_local': 'sources/83536.pdf'}; {'tipo': 'cronologia', 'fuente': 'Cronología Histórica de Campeche', 'datos': 'Teatro 1902; fallecimiento 19 agosto 1919'}; {'tipo': 'enciclopedia', 'fuente': 'INAFED — Enciclopedia de Municipios', 'URL': 'http://www.inafed.gob.mx'}; {'tipo': 'novela_con_referencia_historica', 'autor': 'Lara Zavala, Hernán', 'titulo': 'Península Península', 'año': 2008, 'archivo_local': 'sources/Peninsula Peninsula - Hernan Lara Zavala.pdf'} |
 | **Conexiones** | — |
-| **Origen** | `datos/01_personajes.json` |
+| **Origen** | `datos/curated/01_personajes.json` |
 
 **Hechos verificados:**
 
@@ -240,7 +240,7 @@ evidencia documental con IDs de fuente que remiten a
 | **Lugar** |  |
 | **Fuente(s)** | {'tipo': 'archivo_institucional', 'nombre': 'IAI Berlín — Colección Teobert Maler', 'URL': 'https://www.iai.spk-berlin.de/biblioteca/colecciones-especiales/legados/maler-teobert.html'}; {'tipo': 'coleccion_digital', 'URL': 'https://digital.iai.spk-berlin.de/viewer/collections/nachlass-teobert-maler/'}; {'tipo': 'revista', 'nombre': 'Arqueología Mexicana', 'articulos': ['El legado de Teobert Maler', 'Teobert Maler en la Península de Yucatán']}; {'tipo': 'web', 'URL': 'https://es.wikipedia.org/wiki/Teoberto_Maler'}; {'tipo': 'enciclopedia', 'nombre': 'Enciclopedia Yet de Yucatán', 'URL': 'https://enciclopediayet.com/maler-teobert/'} |
 | **Conexiones** | — |
-| **Origen** | `datos/01_personajes.json` |
+| **Origen** | `datos/curated/01_personajes.json` |
 
 **Hechos verificados:**
 
@@ -261,7 +261,7 @@ evidencia documental con IDs de fuente que remiten a
 | **Lugar** | Los Chenes, Campeche / Yucatán |
 | **Fuente(s)** | {'tipo': 'libro_primario', 'autor': 'Baqueiro Preve, Serapio', 'titulo': 'Ensayo histórico sobre las revoluciones de Yucatán', 'año': 1878}; {'tipo': 'web', 'URL': 'https://es.wikipedia.org/wiki/Hopelch%C3%A9n'} |
 | **Conexiones** | — |
-| **Origen** | `datos/01_personajes.json` |
+| **Origen** | `datos/curated/01_personajes.json` |
 
 **Hechos verificados:**
 
@@ -280,7 +280,7 @@ evidencia documental con IDs de fuente que remiten a
 | **Lugar** |  |
 | **Fuente(s)** | {'tipo': 'articulo_academico', 'autor': 'Kosichenko, Ivan Nikítovich', 'titulo': 'Voluntarios mayas en la Guardia Nacional de Yucatán (1847-1851)', 'publicacion': 'Latinskaya Amerika, nº 2/2025, pp.87-101', 'DOI': '10.31857/S0044748X25020078', 'archivo_local': 'sources/700747-5268499-1-PB.pdf'} |
 | **Conexiones** | — |
-| **Origen** | `datos/01_personajes.json` |
+| **Origen** | `datos/curated/01_personajes.json` |
 
 **Hechos verificados:**
 
@@ -298,7 +298,7 @@ evidencia documental con IDs de fuente que remiten a
 | **Lugar** |  |
 | **Fuente(s)** | {'tipo': 'novela_testimonial', 'autor': 'Lara Zavala, Hernán', 'titulo': 'Charras', 'año_primera_edicion': '1990', 'reedicion': 'Alfaguara 2022', 'archivo_local': 'sources/Charras - Hernan Lara Zavala.pdf'}; {'tipo': 'librillo_academico', 'autor': 'Campos, Marco Antonio', 'editorial': 'UNAM Voz Viva, VVM-137, septiembre 2018', 'archivo_local': 'sources/Hernan_Lara_Zavala_librillo.pdf'}; {'tipo': 'informe_gubernamental', 'nombre': "FEMOSPP — Informe histórico sobre la 'guerra sucia' 1968-1982", 'año': 2002}; {'tipo': 'periodismo', 'fuente': "PorEsto — Recuerdos de Efraín Calderón Lara 'Charras'", 'año': 2019, 'URL': 'https://www.poresto.com/yucatan/2019/2/11/recuerdos-de-efrain-calderon-lara-charras.html'} |
 | **Conexiones** | — |
-| **Origen** | `datos/01_personajes.json` |
+| **Origen** | `datos/curated/01_personajes.json` |
 
 **Hechos verificados:**
 
@@ -319,7 +319,7 @@ evidencia documental con IDs de fuente que remiten a
 | **Lugar** |  |
 | **Fuente(s)** | {'tipo': 'tres_novelas', 'obras': [{'titulo': 'De Zitilchén', 'año': 1981, 'editorial': 'FCE', 'archivo_local': 'sources/De Zitilchen - Hernan Lara Zavala.pdf'}, {'titulo': 'Charras', 'año': 1990, 'reedicion': 'Alfaguara 2022', 'archivo_local': 'sources/Charras - Hernan Lara Zavala.pdf'}, {'titulo': 'Península Península', 'año': 2008, 'editorial': 'Alfaguara', 'archivo_local': 'sources/Peninsula Peninsula - Hernan Lara Zavala.pdf'}]}; {'tipo': 'articulo_academico', 'autor': 'Suárez Turriza, Tatiana', 'titulo': 'Península, Península; el Yucatán del siglo XIX en la memoria del novelista contemporáneo', 'publicacion': 'Literatura Mexicana XXIV.1, UNAM/CEPHCIS, 2013, pp.111-129', 'archivo_local': 'sources/v24n1a6.pdf'}; {'tipo': 'articulo_academico', 'autor': 'Rodríguez Lozano, Miguel G.', 'titulo': 'El proceso narrativo de Hernán Lara Zavala', 'publicacion': 'HISPADOC, UNAM', 'archivo_local': 'sources/Hispadoc-ElProcesoNarrativoDeHernanLaraZavala-9494632.pdf'}; {'tipo': 'articulo_academico', 'autor': 'Piña Laynes, Alma Alicia', 'publicacion': 'Cambios y Permanencias vol.8 num.2, 2017, pp.522-539', 'archivo_local': 'sources/La_guerra_de_Castas_en_Peninsula_Peninsu.pdf'} |
 | **Conexiones** | — |
-| **Origen** | `datos/01_personajes.json` |
+| **Origen** | `datos/curated/01_personajes.json` |
 
 **Hechos verificados:**
 
@@ -340,7 +340,7 @@ evidencia documental con IDs de fuente que remiten a
 | **Lugar** |  |
 | **Fuente(s)** | {'tipo': 'premio_internacional', 'nombre': 'Goldman Environmental Prize 2020', 'URL': 'https://www.goldmanprize.org/recipient/leydy-pech/'}; {'tipo': 'estudio_cientifico', 'autores': 'Rendón Von Osten, Jaime y Dzul-Caamal, R.', 'titulo': 'Glyphosate Residues in Groundwater, Drinking Water and Urine of Subsistence Farmers from Intensive Agriculture Localities: A Survey in Hopelchén, Campeche, México', 'publicacion': 'International Journal of Environmental Research and Public Health, vol.14, num.6, 595, 2017', 'DOI': '10.3390/ijerph14060595'}; {'tipo': 'periodismo', 'fuente': 'Proceso — entrevista Leydy Pech, 30 nov 2020'} |
 | **Conexiones** | — |
-| **Origen** | `datos/01_personajes.json` |
+| **Origen** | `datos/curated/01_personajes.json` |
 
 **Hechos verificados:**
 
@@ -361,7 +361,7 @@ evidencia documental con IDs de fuente que remiten a
 | **Lugar** |  |
 | **Fuente(s)** | {'tipo': 'enciclopedia', 'nombre': 'Enciclopedia Yet de Yucatán', 'URL': 'https://enciclopediayet.com/lara-y-lara-humberto/'}; {'tipo': 'enciclopedia', 'nombre': 'Enciclopedia de la Literatura en México (ELEM)', 'URL': 'https://www.elem.mx'}; {'tipo': 'sistema_cultural', 'nombre': 'SIC Secretaría de Cultura — Biblioteca Prof. Humberto Lara y Lara', 'URL': 'https://sic.cultura.gob.mx'}; {'tipo': 'registro_legislativo', 'fuente': 'Digesto SCJN Campeche 2010', 'archivo_local': 'sources/83536.pdf'} |
 | **Conexiones** | — |
-| **Origen** | `datos/01_personajes.json` |
+| **Origen** | `datos/curated/01_personajes.json` |
 
 **Hechos verificados:**
 
@@ -382,7 +382,7 @@ evidencia documental con IDs de fuente que remiten a
 | **Lugar** |  |
 | **Fuente(s)** | {'tipo': 'registro_legislativo', 'fuente': 'Digesto Constitucional Mexicano — Campeche (SCJN 2010), p.29', 'archivo_local': 'sources/83536.pdf'} |
 | **Conexiones** | — |
-| **Origen** | `datos/01_personajes.json` |
+| **Origen** | `datos/curated/01_personajes.json` |
 
 **Hechos verificados:**
 
@@ -402,7 +402,7 @@ evidencia documental con IDs de fuente que remiten a
 | **Lugar** |  |
 | **Fuente(s)** | {'tipo': 'registro_legislativo', 'fuente': 'Digesto SCJN Campeche 2010', 'archivo_local': 'sources/83536.pdf'}; {'tipo': 'tesis_doctoral', 'autor': 'May González, Ángel Omar', 'institucion': 'Instituto Mora, 2010', 'archivo_local': 'sources/Primeros años posrevolución Campeche.pdf'} |
 | **Conexiones** | — |
-| **Origen** | `datos/01_personajes.json` |
+| **Origen** | `datos/curated/01_personajes.json` |
 
 **Hechos verificados:**
 
@@ -421,7 +421,7 @@ evidencia documental con IDs de fuente que remiten a
 | **Lugar** |  |
 | **Fuente(s)** | {'tipo': 'tesis_doctoral', 'autor': 'May González, Ángel Omar', 'publicacion': 'Instituto Mora, 2010', 'archivo_local': 'sources/Primeros años posrevolución Campeche.pdf'} |
 | **Conexiones** | — |
-| **Origen** | `datos/01_personajes.json` |
+| **Origen** | `datos/curated/01_personajes.json` |
 
 **Hechos verificados:**
 
@@ -439,7 +439,7 @@ evidencia documental con IDs de fuente que remiten a
 | **Lugar** |  |
 | **Fuente(s)** | {'tipo': 'enciclopedia', 'nombre': 'ELEM.mx entrada autor 130368'}; {'tipo': 'articulo_academico', 'autor': 'Vadillo Buenfil, Carlos', 'publicacion': 'Península vol.XII num.2, 2017', 'DOI': '10.1016/j.rpns.2017.06.001', 'archivo_local': 'sources/1870-5766-peni-12-02-00029.pdf'} |
 | **Conexiones** | — |
-| **Origen** | `datos/01_personajes.json` |
+| **Origen** | `datos/curated/01_personajes.json` |
 
 **Hechos verificados:**
 
@@ -459,7 +459,7 @@ evidencia documental con IDs de fuente que remiten a
 | **Lugar** | Hopelchén |
 | **Fuente(s)** | sources/libro_capitulos/XI.html; PorEsto dic 2024; ASECAM 2024 |
 | **Conexiones** | — |
-| **Origen** | `datos/01_personajes.json` |
+| **Origen** | `datos/curated/01_personajes.json` |
 
 **Hechos verificados:**
 
@@ -479,7 +479,7 @@ evidencia documental con IDs de fuente que remiten a
 | **Lugar** |  |
 | **Fuente(s)** | — |
 | **Conexiones** | — |
-| **Origen** | `datos/01_personajes.json` |
+| **Origen** | `datos/curated/01_personajes.json` |
 
 **Hechos verificados:**
 
@@ -498,7 +498,7 @@ evidencia documental con IDs de fuente que remiten a
 | **Lugar** |  |
 | **Fuente(s)** | — |
 | **Conexiones** | — |
-| **Origen** | `datos/01_personajes.json` |
+| **Origen** | `datos/curated/01_personajes.json` |
 
 **Hechos verificados:**
 
@@ -517,7 +517,7 @@ evidencia documental con IDs de fuente que remiten a
 | **Lugar** | Alemania — Berlín |
 | **Fuente(s)** | — |
 | **Conexiones** | — |
-| **Origen** | `datos/01_personajes.json` |
+| **Origen** | `datos/curated/01_personajes.json` |
 
 **Hechos verificados:**
 
@@ -538,7 +538,7 @@ evidencia documental con IDs de fuente que remiten a
 | **Lugar** |  |
 | **Fuente(s)** | {'tipo': 'libro_primario', 'autor': 'Baqueiro Preve, Serapio', 'titulo': 'Ensayo histórico sobre las revoluciones de Yucatán', 'año': 1878, 'pagina': '229'} |
 | **Conexiones** | — |
-| **Origen** | `datos/01_personajes.json` |
+| **Origen** | `datos/curated/01_personajes.json` |
 
 **Hechos verificados:**
 
@@ -557,7 +557,7 @@ evidencia documental con IDs de fuente que remiten a
 | **Lugar** |  |
 | **Fuente(s)** | {'tipo': 'web', 'URL': 'https://es.wikipedia.org/wiki/Oswaldo_Baqueiro_Anduze'}; {'tipo': 'enciclopedia', 'nombre': 'Enciclopedia Yet de Yucatán'} |
 | **Conexiones** | — |
-| **Origen** | `datos/01_personajes.json` |
+| **Origen** | `datos/curated/01_personajes.json` |
 
 **Hechos verificados:**
 
@@ -577,7 +577,7 @@ evidencia documental con IDs de fuente que remiten a
 | **Lugar** |  |
 | **Fuente(s)** | {'tipo': 'libro', 'autor': 'Caamal, Daniela Naraai', 'titulo': 'Dos mil años en silencio', 'capitulo': 'XIV', 'archivo_local': 'sources/libro_capitulos/XIV.html'} |
 | **Conexiones** | — |
-| **Origen** | `datos/01_personajes.json` |
+| **Origen** | `datos/curated/01_personajes.json` |
 
 **Hechos verificados:**
 
@@ -597,7 +597,7 @@ evidencia documental con IDs de fuente que remiten a
 | **Lugar** | Champotón, Campeche |
 | **Fuente(s)** | {'tipo': 'libro', 'autor': 'May González, Ángel Omar', 'titulo': 'Los primeros años de la posrevolución en Campeche', 'editorial': 'Instituto Mora, 2010', 'archivo_local': 'sources/Primeros años posrevolución Campeche.pdf'} |
 | **Conexiones** | — |
-| **Origen** | `datos/01_personajes.json` |
+| **Origen** | `datos/curated/01_personajes.json` |
 
 **Hechos verificados:**
 
@@ -616,7 +616,7 @@ evidencia documental con IDs de fuente que remiten a
 | **Lugar** | Hopelchén |
 | **Fuente(s)** | {'tipo': 'tesis', 'autor': 'Schüren, Ute', 'institucion': 'FU Berlín', 'nota': 'Lista de entrevistas', 'archivo_local': 'sources/17_biblio.pdf'} |
 | **Conexiones** | — |
-| **Origen** | `datos/01_personajes.json` |
+| **Origen** | `datos/curated/01_personajes.json` |
 
 **Hechos verificados:**
 
@@ -635,7 +635,7 @@ evidencia documental con IDs de fuente que remiten a
 | **Lugar** |  |
 | **Fuente(s)** | {'tipo': 'librillo', 'autor': 'Campos, Marco Antonio', 'editorial': 'UNAM Voz Viva VVM-137, 2018', 'archivo_local': 'sources/Hernan_Lara_Zavala_librillo.pdf'} |
 | **Conexiones** | — |
-| **Origen** | `datos/01_personajes.json` |
+| **Origen** | `datos/curated/01_personajes.json` |
 
 **Hechos verificados:**
 
