@@ -19,10 +19,12 @@ import sys
 from datetime import datetime
 
 from utilidades import (
+    agrupar_citas_por_categoria,
     buscar_en_elementos,
     cargar_json,
     cargar_markdown,
     contar_por_campo,
+    extraer_citas_textos_contextos,
     extraer_texto_pdf,
     filtrar_por_campo,
     formatear_tabla,
@@ -332,6 +334,103 @@ def generar_reporte(resumenes):
 
 
 # ---------------------------------------------------------------------------
+# Extracción y presentación de citas, textos y contextos
+# ---------------------------------------------------------------------------
+
+_ICONOS_TIPO = {"cita": "💬", "texto": "📄", "contexto": "🔎"}
+
+_CABECERAS_TIPO = {
+    "cita": "CITAS DIRECTAS",
+    "texto": "TEXTOS COMPLETOS",
+    "contexto": "CONTEXTOS",
+}
+
+
+def mostrar_citas_por_categoria(agrupado):
+    """
+    Imprime en consola las citas, textos y contextos agrupados por categoría.
+
+    Args:
+        agrupado (dict): Resultado de :func:`agrupar_citas_por_categoria`.
+    """
+    if not agrupado:
+        print("  (No se encontraron citas, textos ni contextos con la longitud mínima.)")
+        return
+
+    total = sum(len(v) for v in agrupado.values())
+    print(f"\n{'=' * 70}")
+    print("   CITAS LARGAS, TEXTOS Y CONTEXTOS  —  ESTRUCTURADO POR CATEGORÍA")
+    print(f"   Total de entradas extraídas: {total}")
+    print(f"{'=' * 70}")
+
+    for categoria, entradas in agrupado.items():
+        print(f"\n{'─' * 70}")
+        print(f"📂  {categoria}  ({len(entradas)} entrada(s))")
+        print(f"{'─' * 70}")
+
+        # Agrupar por tipo dentro de la categoría
+        por_tipo = {}
+        for e in entradas:
+            por_tipo.setdefault(e["tipo"], []).append(e)
+
+        for tipo in ("cita", "texto", "contexto"):
+            if tipo not in por_tipo:
+                continue
+            icono = _ICONOS_TIPO[tipo]
+            cabecera = _CABECERAS_TIPO[tipo]
+            print(f"\n  {icono}  {cabecera}:")
+            for entrada in por_tipo[tipo]:
+                print(f"\n    [{entrada['subtipo']}]")
+                # Mostrar texto con sangría
+                for linea in entrada["texto"].splitlines():
+                    print(f"      {linea}")
+                if entrada["fuente"]:
+                    print(f"\n      ↳ Fuente: {entrada['fuente']}")
+
+    print(f"\n{'=' * 70}")
+
+
+def guardar_citas_reporte(agrupado, ruta_base):
+    """
+    Guarda las citas agrupadas por categoría en archivos JSON y Markdown.
+
+    Args:
+        agrupado (dict): Resultado de :func:`agrupar_citas_por_categoria`.
+        ruta_base (str): Ruta base (sin extensión) para los archivos de salida.
+
+    Returns:
+        tuple[str, str]: Rutas al archivo Markdown y al JSON generados.
+    """
+    ruta_json = ruta_base + "_citas.json"
+    guardar_json(agrupado, ruta_json)
+
+    ruta_md = ruta_base + "_citas.md"
+    with open(ruta_md, "w", encoding="utf-8") as f:
+        total = sum(len(v) for v in agrupado.values())
+        f.write("# Citas Largas, Textos y Contextos por Categoría\n\n")
+        f.write(f"Total de entradas: {total}\n\n")
+
+        for categoria, entradas in agrupado.items():
+            f.write(f"## {categoria}\n\n")
+
+            por_tipo = {}
+            for e in entradas:
+                por_tipo.setdefault(e["tipo"], []).append(e)
+
+            for tipo in ("cita", "texto", "contexto"):
+                if tipo not in por_tipo:
+                    continue
+                f.write(f"### {_CABECERAS_TIPO[tipo]}\n\n")
+                for entrada in por_tipo[tipo]:
+                    f.write(f"**[{entrada['subtipo']}]**\n\n")
+                    f.write(f"> {entrada['texto'].replace(chr(10), '\n> ')}\n\n")
+                    if entrada["fuente"]:
+                        f.write(f"*Fuente: {entrada['fuente']}*\n\n")
+
+    return ruta_md, ruta_json
+
+
+# ---------------------------------------------------------------------------
 # Búsqueda global
 # ---------------------------------------------------------------------------
 
@@ -397,6 +496,18 @@ def construir_parser():
         nargs=2,
         metavar=("CAMPO", "VALOR"),
         help="Filtra registros donde CAMPO == VALOR",
+    )
+    parser.add_argument(
+        "--citas", "-c",
+        action="store_true",
+        help="Extrae citas largas, textos y contextos estructurados por categoría",
+    )
+    parser.add_argument(
+        "--min-longitud",
+        type=int,
+        default=50,
+        metavar="N",
+        help="Longitud mínima en caracteres para incluir una cita o contexto (default: 50)",
     )
     return parser
 
@@ -470,8 +581,38 @@ def main():
     if args.buscar:
         buscar_global(args.buscar, resumenes)
 
-    # Generar reporte
-    if args.reporte:
+    # Extraer citas, textos y contextos
+    if args.citas:
+        todas_las_citas = []
+        for resumen in resumenes:
+            if not resumen.get("ruta", "").endswith(".json"):
+                continue
+            try:
+                datos_brutos = cargar_json(resumen["ruta"])
+            except (FileNotFoundError, json.JSONDecodeError) as exc:
+                print(f"\n⚠️  No se pudo recargar '{resumen['archivo']}' para extracción de citas: {exc}")
+                continue
+            if datos_brutos:
+                citas = extraer_citas_textos_contextos(
+                    datos_brutos,
+                    categoria_default=resumen["coleccion"],
+                    longitud_minima=args.min_longitud,
+                )
+                todas_las_citas.extend(citas)
+
+        agrupado = agrupar_citas_por_categoria(todas_las_citas)
+        mostrar_citas_por_categoria(agrupado)
+
+        if args.reporte:
+            os.makedirs(DIRECTORIO_REPORTES, exist_ok=True)
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            ruta_base = os.path.join(DIRECTORIO_REPORTES, f"reporte_{timestamp}")
+            ruta_md, ruta_json = guardar_citas_reporte(agrupado, ruta_base)
+            print(f"\n✅ Reporte de citas Markdown: {ruta_md}")
+            print(f"✅ Reporte de citas JSON    : {ruta_json}")
+
+    # Generar reporte general
+    if args.reporte and not args.citas:
         generar_reporte(resumenes)
 
     print("\n✔ Análisis completado.\n")

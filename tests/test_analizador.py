@@ -12,10 +12,12 @@ import unittest
 sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 
 from utilidades import (
+    agrupar_citas_por_categoria,
     buscar_en_elementos,
     cargar_json,
     cargar_markdown,
     contar_por_campo,
+    extraer_citas_textos_contextos,
     extraer_texto_pdf,
     filtrar_por_campo,
     formatear_tabla,
@@ -532,6 +534,110 @@ class TestIntegracionArchivosReales(unittest.TestCase):
                 campo, elementos = obtener_campo_principal(datos)
                 self.assertIsNotNone(campo, f"'{nombre}' debe tener un campo de colección")
                 self.assertGreater(len(elementos), 0)
+
+
+# ---------------------------------------------------------------------------
+# Pruebas de extraer_citas_textos_contextos / agrupar_citas_por_categoria
+# ---------------------------------------------------------------------------
+
+DATOS_CON_CITAS = {
+    "titulo": "Periodo Colonial",
+    "registros": [
+        {
+            "subtitulo": "Fundación del pueblo",
+            "descripcion": "Texto largo de descripción que supera los cien caracteres para que sea considerado como texto relevante en la extracción.",
+            "fuente": "Archivo General de Indias",
+            "fuentes": [
+                {
+                    "referencia": "Relaciones Histórico-Geográficas",
+                    "cita_directa": "En 1621 existían cinco pozos sagrados que dieron nombre al pueblo maya de Hopelchén, centro de congregación colonial.",
+                },
+            ],
+        },
+        {
+            "subtitulo": "Resistencia maya",
+            "contexto": "Los bataboob resistieron durante casi medio siglo sin mezclarse con el sistema colonial español impuesto.",
+            "fuente": "Cogolludo, Historia de Yucatán",
+        },
+    ],
+}
+
+
+class TestExtraerCitasTextosContextos(unittest.TestCase):
+
+    def test_extrae_cita_directa(self):
+        citas = extraer_citas_textos_contextos(DATOS_CON_CITAS)
+        tipos = {c["tipo"] for c in citas}
+        self.assertIn("cita", tipos)
+
+    def test_extrae_contexto(self):
+        citas = extraer_citas_textos_contextos(DATOS_CON_CITAS)
+        tipos = {c["tipo"] for c in citas}
+        self.assertIn("contexto", tipos)
+
+    def test_extrae_descripcion_larga_como_texto(self):
+        citas = extraer_citas_textos_contextos(DATOS_CON_CITAS, longitud_minima=50)
+        tipos = {c["tipo"] for c in citas}
+        self.assertIn("texto", tipos)
+
+    def test_fuente_asignada(self):
+        citas = extraer_citas_textos_contextos(DATOS_CON_CITAS)
+        cita = next((c for c in citas if c["tipo"] == "cita"), None)
+        self.assertIsNotNone(cita)
+        self.assertEqual(cita["fuente"], "Relaciones Histórico-Geográficas")
+
+    def test_categoria_desde_titulo(self):
+        citas = extraer_citas_textos_contextos(DATOS_CON_CITAS)
+        categorias = {c["categoria"] for c in citas}
+        # La categoría puede ser el título raíz o el subtítulo del registro
+        self.assertTrue(
+            any("Colonial" in cat or "Fundación" in cat or "Resistencia" in cat for cat in categorias)
+        )
+
+    def test_longitud_minima_excluye_cortos(self):
+        datos = {"titulo": "Test", "registros": [{"cita_directa": "corta"}]}
+        citas = extraer_citas_textos_contextos(datos, longitud_minima=50)
+        self.assertEqual(citas, [])
+
+    def test_datos_vacios(self):
+        citas = extraer_citas_textos_contextos({})
+        self.assertEqual(citas, [])
+
+    def test_categoria_default(self):
+        datos = {"cita": "Una cita larga que supera los cincuenta caracteres mínimos establecidos."}
+        citas = extraer_citas_textos_contextos(datos, categoria_default="Mi Categoría")
+        self.assertTrue(all(c["categoria"] == "Mi Categoría" for c in citas))
+
+
+class TestAgruparCitasPorCategoria(unittest.TestCase):
+
+    def test_agrupa_correctamente(self):
+        citas = [
+            {"categoria": "A", "tipo": "cita", "subtipo": "cita_directa",
+             "texto": "texto1", "fuente": None, "origen": ""},
+            {"categoria": "B", "tipo": "contexto", "subtipo": "contexto",
+             "texto": "texto2", "fuente": None, "origen": ""},
+            {"categoria": "A", "tipo": "texto", "subtipo": "descripcion",
+             "texto": "texto3", "fuente": None, "origen": ""},
+        ]
+        agrupado = agrupar_citas_por_categoria(citas)
+        self.assertIn("A", agrupado)
+        self.assertIn("B", agrupado)
+        self.assertEqual(len(agrupado["A"]), 2)
+        self.assertEqual(len(agrupado["B"]), 1)
+
+    def test_orden_alfabetico(self):
+        citas = [
+            {"categoria": "Z", "tipo": "cita", "subtipo": "cita",
+             "texto": "texto", "fuente": None, "origen": ""},
+            {"categoria": "A", "tipo": "cita", "subtipo": "cita",
+             "texto": "texto", "fuente": None, "origen": ""},
+        ]
+        agrupado = agrupar_citas_por_categoria(citas)
+        self.assertEqual(list(agrupado.keys()), ["A", "Z"])
+
+    def test_lista_vacia(self):
+        self.assertEqual(agrupar_citas_por_categoria([]), {})
 
 
 if __name__ == "__main__":
