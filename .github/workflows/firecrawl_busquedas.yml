@@ -50,8 +50,8 @@ jobs:
       # ── buscar_fuentes_vacias.py ─────────────────────────────────────────
       - name: Buscar fuentes para registros sin cita
         env:
-          FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
-          FIRECRAWL_WEBHOOK_SECRET: ${{ secrets.FIRECRAWL_WEBHOOK_SECRET }}
+          FIRECRAWL_API_KEY: ${{ secrets.fc-cbcaa6ee1fc6425192732ccb3b20c82c }}
+          FIRECRAWL_WEBHOOK_SECRET: ${{ secrets.9e2e0a48675620023682589cf4100e965258449b526d2f7b8c6c853b6d816f1f }}
         run: |
           if [ -z "$FIRECRAWL_API_KEY" ]; then
             echo "⚠  FIRECRAWL_API_KEY no configurada — omitiendo búsquedas reales."
@@ -69,8 +69,8 @@ jobs:
       # ── validar_citas_firecrawl.py ───────────────────────────────────────
       - name: Validar citas y ampliar nodos
         env:
-          FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
-          FIRECRAWL_WEBHOOK_SECRET: ${{ secrets.FIRECRAWL_WEBHOOK_SECRET }}
+          FIRECRAWL_API_KEY: ${{ secrets.fc-cbcaa6ee1fc6425192732ccb3b20c82c }}
+          FIRECRAWL_WEBHOOK_SECRET: ${{ secrets.9e2e0a48675620023682589cf4100e965258449b526d2f7b8c6c853b6d816f1f }}
         run: |
           if [ -z "$FIRECRAWL_API_KEY" ]; then
             echo "⚠  FIRECRAWL_API_KEY no configurada — omitiendo búsquedas reales."
