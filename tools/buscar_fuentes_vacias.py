@@ -491,9 +491,9 @@ def _buscar_firecrawl(query: str, api_key: str) -> list[dict]:
         return []
     try:
         app = _FirecrawlApp(api_key=api_key)
-        resp = app.search(query, limit=5, lang="es", country="mx")
-        # resp puede ser V1SearchResponse (atributo .data) o lista directa
-        docs = getattr(resp, "data", None)
+        resp = app.search(query, limit=5)
+        # resp es SearchData con atributo .web (lista de SearchResultWeb)
+        docs = getattr(resp, "web", None)
         if docs is None:
             docs = resp if isinstance(resp, list) else []
         resultados: list[dict] = []
@@ -505,16 +505,15 @@ def _buscar_firecrawl(query: str, api_key: str) -> list[dict]:
                 doc_dict = doc.__dict__
             else:
                 doc_dict = dict(doc) if isinstance(doc, dict) else {}
-            metadata = doc_dict.get("metadata") or {}
-            if isinstance(metadata, dict):
-                titulo = metadata.get("title", "") or metadata.get("og:title", "")
-                descripcion = (
-                    metadata.get("description", "")
-                    or metadata.get("og:description", "")
-                )
-            else:
-                titulo = ""
-                descripcion = ""
+            # SearchResultWeb tiene título y descripción directamente en el objeto
+            titulo = doc_dict.get("title") or ""
+            descripcion = doc_dict.get("description") or ""
+            # Fallback a metadata si existe (compatibilidad con respuestas Document)
+            if not titulo or not descripcion:
+                metadata = doc_dict.get("metadata") or {}
+                if isinstance(metadata, dict):
+                    titulo = titulo or metadata.get("title", "") or metadata.get("og:title", "")
+                    descripcion = descripcion or metadata.get("description", "") or metadata.get("og:description", "")
             url = doc_dict.get("url", "")
             if not titulo and not url:
                 continue
@@ -528,7 +527,13 @@ def _buscar_firecrawl(query: str, api_key: str) -> list[dict]:
             resultados.append(resultado)
         return resultados
     except Exception as exc:
-        print(f"    ⚠  Firecrawl error: {exc}")
+        # firecrawl-py ≥ 4.x lanza AttributeError cuando no hay red disponible;
+        # se detecta comprobando la causa raíz.
+        causa = exc.__context__ or exc.__cause__
+        if isinstance(causa, OSError) or isinstance(exc, AttributeError):
+            print("    ⚠  Firecrawl sin conexión — verifica el acceso a la red y la API key.")
+        else:
+            print(f"    ⚠  Firecrawl error: {exc}")
         return []
 
 
@@ -755,6 +760,13 @@ def main() -> int:
         metavar="ID",
         help="Procesa únicamente el nodo con el ID especificado (ej: 004, 006).",
     )
+    parser.add_argument(
+        "--limite",
+        "-l",
+        type=int,
+        metavar="N",
+        help="Número máximo de registros sin fuente a procesar (0 = sin límite).",
+    )
     args = parser.parse_args()
 
     if not args.seco:
@@ -773,6 +785,10 @@ def main() -> int:
     if not entradas:
         print("\n✅  Todos los registros tienen fuente. No hay nada que buscar.")
         return 0
+
+    limite = args.limite if args.limite and args.limite > 0 else None
+    if limite:
+        entradas = entradas[:limite]
 
     print(f"\n⚠  {len(entradas)} registro(s) sin fuente detectado(s):\n")
     for e in entradas:

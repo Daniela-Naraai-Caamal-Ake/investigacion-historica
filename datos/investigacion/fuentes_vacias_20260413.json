@@ -1,0 +1,116 @@
+{
+  "herramienta": "buscar_fuentes_vacias.py",
+  "fecha_ejecucion": "2026-04-13T23:18:37.648824",
+  "repositorio": "Hopelchén: 2000 años de historia",
+  "resumen": {
+    "registros_sin_fuente_detectados": 2,
+    "registros_procesados": 2,
+    "total_candidatas_encontradas": 0
+  },
+  "resultados": [
+    {
+      "registro_id": "004-C",
+      "archivo": "HOPELCHEN_NODO_004_Revolucion_Chicle.json",
+      "nodo_id": "004",
+      "subtitulo": "1900–1950: La economía chiclera en Los Chenes — estructura de explotación monopolista y control norteamericano",
+      "busquedas": [
+        {
+          "motor": "wikipedia_es",
+          "query": "1900–1950 economía chiclera Chenes estructura explotación Hopelchén",
+          "descripcion": "Wikipedia (es) — 1900–1950: La economía chiclera en Los Chenes — estructura d",
+          "estado": "ok",
+          "total_resultados": 0,
+          "resultados": [],
+          "timestamp": "2026-04-13T23:18:26.620907"
+        },
+        {
+          "motor": "wikipedia_en",
+          "query": "1900–1950 chicle industry Chenes estructura explotación Hopelchén",
+          "descripcion": "Wikipedia (en) — 1900–1950: La economía chiclera en Los Chenes — estructura d",
+          "estado": "ok",
+          "total_resultados": 0,
+          "resultados": [],
+          "timestamp": "2026-04-13T23:18:27.623229"
+        },
+        {
+          "motor": "openlibrary",
+          "query": "Hopelchén chicle chicleros",
+          "descripcion": "OpenLibrary — 1900–1950: La economía chiclera en Los Chenes — estructura d",
+          "estado": "ok",
+          "total_resultados": 0,
+          "resultados": [],
+          "timestamp": "2026-04-13T23:18:28.625785"
+        },
+        {
+          "motor": "duckduckgo",
+          "query": "1900–1950 economía chiclera Chenes estructura explotación Hopelchén 1900",
+          "descripcion": "DuckDuckGo — 1900–1950: La economía chiclera en Los Chenes — estructura d",
+          "estado": "ok",
+          "total_resultados": 0,
+          "resultados": [],
+          "timestamp": "2026-04-13T23:18:29.628184"
+        },
+        {
+          "motor": "firecrawl",
+          "query": "1900–1950 economía chiclera Chenes estructura explotación Hopelchén",
+          "descripcion": "Firecrawl — 1900–1950: La economía chiclera en Los Chenes — estructura d",
+          "estado": "ok",
+          "total_resultados": 0,
+          "resultados": [],
+          "timestamp": "2026-04-13T23:18:32.134807"
+        }
+      ],
+      "fuentes_candidatas": [],
+      "total_candidatas": 0,
+      "nota": "Estas son fuentes CANDIDATAS encontradas automáticamente. Deben ser verificadas manualmente antes de agregarlas como fuentes definitivas del registro."
+    },
+    {
+      "registro_id": "006-A",
+      "archivo": "HOPELCHEN_NODO_006_PoderPolitico_Local.json",
+      "nodo_id": "006",
+      "subtitulo": "Presidentes municipales de Hopelchén identificados: cadena de poder 1959–2026",
+      "busquedas": [
+        {
+          "motor": "wikipedia_es",
+          "query": "Presidentes municipales Hopelchén identificados cadena poder",
+          "descripcion": "Wikipedia (es) — Presidentes municipales de Hopelchén identificados: cadena d",
+          "estado": "ok",
+          "total_resultados": 0,
+          "resultados": [],
+          "timestamp": "2026-04-13T23:18:33.137354"
+        },
+        {
+          "motor": "openlibrary",
+          "query": "Hopelchén presidentes municipales Hopelchén",
+          "descripcion": "OpenLibrary — Presidentes municipales de Hopelchén identificados: cadena d",
+          "estado": "ok",
+          "total_resultados": 0,
+          "resultados": [],
+          "timestamp": "2026-04-13T23:18:34.139773"
+        },
+        {
+          "motor": "duckduckgo",
+          "query": "Presidentes municipales Hopelchén identificados cadena poder 1959",
+          "descripcion": "DuckDuckGo — Presidentes municipales de Hopelchén identificados: cadena d",
+          "estado": "ok",
+          "total_resultados": 0,
+          "resultados": [],
+          "timestamp": "2026-04-13T23:18:35.142000"
+        },
+        {
+          "motor": "firecrawl",
+          "query": "Presidentes municipales Hopelchén identificados cadena poder 1959",
+          "descripcion": "Firecrawl — Presidentes municipales de Hopelchén identificados: cadena d",
+          "estado": "ok",
+          "total_resultados": 0,
+          "resultados": [],
+          "timestamp": "2026-04-13T23:18:37.648709"
+        }
+      ],
+      "fuentes_candidatas": [],
+      "total_candidatas": 0,
+      "nota": "Estas son fuentes CANDIDATAS encontradas automáticamente. Deben ser verificadas manualmente antes de agregarlas como fuentes definitivas del registro."
+    }
+  ],
+  "nota_metodologica": "Este reporte fue generado automáticamente buscando en Wikipedia (ES/EN), Open Library, DuckDuckGo y Firecrawl (cuando la clave API está disponible). Las fuentes candidatas deben verificarse manualmente antes de incorporarlas al repositorio. Los registros de tipo 'CRUCE TRANSVERSAL' son síntesis analíticas que pueden no tener una única fuente externa directa."
+}
