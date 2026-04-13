@@ -14,6 +14,14 @@
 | [`mapa/personajes.md`](mapa/personajes.md) | Mapa de personajes con fuentes rastreables |
 | [`datos/`](datos/) | Datos fuente originales (JSON, MD, PDF) — no modificar |
 
+### Flujo de investigación (archivos del marco teórico)
+
+| Archivo | Qué es |
+|---|---|
+| [`HIPOTESIS.md`](HIPOTESIS.md) | Hipótesis canónica del proyecto + versiones históricas V1→V4 + patrón documentado por nodo |
+| [`datos/VACIOS.md`](datos/VACIOS.md) | Mapa unificado de preguntas abiertas — todas las preguntas de los 8 nodos en una tabla con estado y prioridad |
+| [`datos/FICHAS_EJEMPLO.md`](datos/FICHAS_EJEMPLO.md) | Fichas de evidencia con campo `hipotesis_que_afecta` — un ejemplo completo por nodo |
+
 ### Períodos históricos (`trabajo/periodos/`)
 
 | Archivo | Período |
