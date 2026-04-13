@@ -1,6 +1,6 @@
 {
   "herramienta": "validar_citas_firecrawl",
-  "fecha_consulta": "2026-04-13T23:15:18.434732",
+  "fecha_consulta": "2026-04-13T23:18:42.790731",
   "api": "Firecrawl",
   "modo": "fuentes",
   "nodo_filtro": null,
@@ -11,20 +11,20 @@
       "nodo": "",
       "descripcion": "Bataboob de Hopelchén 1669 — documentación de resistencia post-conquista",
       "query": "bataboob mayas Hopelchén 1669 resistencia poder local siglo XVII",
-      "estado": "error: 'NoneType' object has no attribute 'status_code'",
+      "estado": "error: Sin conexión a la API de Firecrawl — verifica el acceso a la red y la FIRECRAWL_API_KEY.",
       "total_candidatas": 0,
       "fuentes_candidatas": [],
-      "timestamp": "2026-04-13T23:15:19.944060"
+      "timestamp": "2026-04-13T23:18:44.299710"
     },
     {
       "registro_id": "009-B",
       "nodo": "",
       "descripcion": "Juan de Dios May — liderazgo maya en la Guerra de Castas",
       "query": "Juan de Dios May ataque Hopelchén 1848 guerra castas",
-      "estado": "error: 'NoneType' object has no attribute 'status_code'",
+      "estado": "error: Sin conexión a la API de Firecrawl — verifica el acceso a la red y la FIRECRAWL_API_KEY.",
       "total_candidatas": 0,
       "fuentes_candidatas": [],
-      "timestamp": "2026-04-13T23:15:22.450754"
+      "timestamp": "2026-04-13T23:18:46.806050"
     }
   ],
   "resumen": {

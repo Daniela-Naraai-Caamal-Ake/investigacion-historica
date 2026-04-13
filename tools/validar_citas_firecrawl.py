@@ -262,6 +262,19 @@ def _tiene_fuente(registro: dict) -> bool:
     return any(bool(registro.get(c)) for c in CAMPOS_FUENTE)
 
 
+def _mensaje_error_firecrawl(exc: Exception) -> str:
+    """Devuelve un mensaje legible para errores de la API de Firecrawl.
+
+    firecrawl-py ≥ 4.x puede lanzar ``AttributeError`` cuando no hay red
+    disponible porque su manejador de errores asume que siempre existe un
+    objeto ``response``.  Esta función detecta ese caso y devuelve un
+    mensaje claro en lugar del traza interna confusa.
+    """
+    causa = exc.__context__ or exc.__cause__
+    if isinstance(causa, OSError) or isinstance(exc, AttributeError):
+        return "Sin conexión a la API de Firecrawl — verifica el acceso a la red y la FIRECRAWL_API_KEY."
+    return str(exc)
+
 # ─── Extracción de URLs del catálogo ─────────────────────────────────────────
 
 def extraer_urls_catalogo() -> list[dict]:
@@ -405,15 +418,16 @@ def validar_urls_catalogo(app: Any, limite: int | None = None) -> list[dict]:
             print(f"     {icono} {titulo[:60] or '(sin título)'}")
 
         except Exception as exc:
+            msg = _mensaje_error_firecrawl(exc)
             resultado = {
                 "fuente_id": fuente_id,
                 "url": url,
                 "contexto_catalogo": item["contexto"],
-                "estado": f"error: {exc}",
+                "estado": f"error: {msg}",
                 "extracto": "",
                 "timestamp": datetime.now().isoformat(),
             }
-            print(f"     ⚠  {exc}")
+            print(f"     ⚠  {msg}")
 
         resultados.append(resultado)
         time.sleep(1.5)  # Respetar límites de la API
@@ -528,13 +542,14 @@ def buscar_fuentes_faltantes(
             })
 
         except Exception as exc:
-            print(f"     ⚠  Error: {exc}")
+            msg = _mensaje_error_firecrawl(exc)
+            print(f"     ⚠  {msg}")
             resultados.append({
                 "registro_id": registro_id,
                 "nodo": item.get("nodo", ""),
                 "descripcion": descripcion,
                 "query": query,
-                "estado": f"error: {exc}",
+                "estado": f"error: {msg}",
                 "total_candidatas": 0,
                 "fuentes_candidatas": [],
                 "timestamp": datetime.now().isoformat(),
@@ -628,13 +643,14 @@ def ampliar_nodos(
             })
 
         except Exception as exc:
-            print(f"     ⚠  Error: {exc}")
+            msg = _mensaje_error_firecrawl(exc)
+            print(f"     ⚠  {msg}")
             resultados.append({
                 "pregunta_id": pregunta_id,
                 "nodo": nodo,
                 "descripcion": descripcion,
                 "query": query,
-                "estado": f"error: {exc}",
+                "estado": f"error: {msg}",
                 "total_resultados": 0,
                 "hallazgos": [],
                 "timestamp": datetime.now().isoformat(),

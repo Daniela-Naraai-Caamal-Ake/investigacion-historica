@@ -527,7 +527,13 @@ def _buscar_firecrawl(query: str, api_key: str) -> list[dict]:
             resultados.append(resultado)
         return resultados
     except Exception as exc:
-        print(f"    ⚠  Firecrawl error: {exc}")
+        # firecrawl-py ≥ 4.x lanza AttributeError cuando no hay red disponible;
+        # se detecta comprobando la causa raíz.
+        causa = exc.__context__ or exc.__cause__
+        if isinstance(causa, OSError) or isinstance(exc, AttributeError):
+            print("    ⚠  Firecrawl sin conexión — verifica el acceso a la red y la API key.")
+        else:
+            print(f"    ⚠  Firecrawl error: {exc}")
         return []
 
 
@@ -754,6 +760,13 @@ def main() -> int:
         metavar="ID",
         help="Procesa únicamente el nodo con el ID especificado (ej: 004, 006).",
     )
+    parser.add_argument(
+        "--limite",
+        "-l",
+        type=int,
+        metavar="N",
+        help="Número máximo de registros sin fuente a procesar (0 = sin límite).",
+    )
     args = parser.parse_args()
 
     if not args.seco:
@@ -772,6 +785,10 @@ def main() -> int:
     if not entradas:
         print("\n✅  Todos los registros tienen fuente. No hay nada que buscar.")
         return 0
+
+    limite = args.limite if args.limite and args.limite > 0 else None
+    if limite:
+        entradas = entradas[:limite]
 
     print(f"\n⚠  {len(entradas)} registro(s) sin fuente detectado(s):\n")
     for e in entradas:

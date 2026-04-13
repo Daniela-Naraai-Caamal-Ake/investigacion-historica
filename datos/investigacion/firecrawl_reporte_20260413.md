@@ -1,7 +1,7 @@
 # Reporte Firecrawl — Validación de Citas y Ampliación de Nodos
 
 > Proyecto: *Dos Mil Años en Silencio* — Hopelchén: 2000 años de historia  
-> Fecha de ejecución: 2026-04-13T23:15:18.434732  
+> Fecha de ejecución: 2026-04-13T23:18:42.790731  
 > API: Firecrawl
 
 ---
@@ -27,4 +27,4 @@ incorporarse como fuentes definitivas al catálogo. Para cada hallazgo:
 3. Si es válida, agregarla al catálogo con el formato Chicago y asignarle ID `F###`
 4. Actualizar el registro en el nodo correspondiente con el campo `fuente` o `fuentes_candidatas`
 
-*Generado por: `tools/validar_citas_firecrawl.py` — 2026-04-13T23:15:18.434732*
+*Generado por: `tools/validar_citas_firecrawl.py` — 2026-04-13T23:18:42.790731*
