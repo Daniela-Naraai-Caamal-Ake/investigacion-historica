@@ -144,6 +144,34 @@ python src/analizador.py --reporte
 python -m unittest tests/test_analizador.py -v
 ```
 
+### Validar citas y ampliar nodos con Firecrawl
+
+Herramienta integral que valida las URLs del catálogo, busca fuentes para
+registros sin cita y lanza búsquedas para ampliar los nodos:
+
+```bash
+# Requiere: FIRECRAWL_API_KEY en .env o variable de entorno
+# Obtén una clave gratuita en https://www.firecrawl.dev
+
+python tools/validar_citas_firecrawl.py               # Todo (validar + fuentes + ampliar)
+python tools/validar_citas_firecrawl.py --modo validar # Solo validar URLs del catálogo
+python tools/validar_citas_firecrawl.py --modo fuentes # Solo buscar fuentes faltantes
+python tools/validar_citas_firecrawl.py --modo ampliar # Solo ampliar nodos con búsquedas
+python tools/validar_citas_firecrawl.py --nodo 009     # Filtrar por nodo específico
+python tools/validar_citas_firecrawl.py --limite 10    # Limitar a N búsquedas por modo
+```
+
+Salidas en `datos/investigacion/`:
+- `firecrawl_validacion_YYYYMMDD.json` — Resultados completos
+- `firecrawl_reporte_YYYYMMDD.md` — Reporte legible en Markdown
+
+También disponible el rastreador de fuentes en archivos digitales públicos:
+
+```bash
+python tools/rastrear_fuentes.py               # Todos los módulos
+python tools/rastrear_fuentes.py --modulo firecrawl
+```
+
 ### Instalar dependencias
 
 ```bash
