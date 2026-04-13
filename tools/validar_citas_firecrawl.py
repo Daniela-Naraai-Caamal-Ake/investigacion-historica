@@ -368,7 +368,7 @@ def validar_urls_catalogo(app: Any, limite: int | None = None) -> list[dict]:
         print(f"  → [{fuente_id}] {url[:70]}…")
 
         try:
-            resp = app.scrape_url(
+            resp = app.scrape(
                 url,
                 formats=["markdown"],
                 only_main_content=True,
@@ -485,8 +485,8 @@ def buscar_fuentes_faltantes(
         print(f"    Query: {query[:80]}")
 
         try:
-            resp = app.search(query, limit=5, lang="es", country="mx")
-            docs = getattr(resp, "data", None)
+            resp = app.search(query, limit=5)
+            docs = getattr(resp, "web", None) or getattr(resp, "data", None)
             if docs is None:
                 docs = resp if isinstance(resp, list) else []
 
@@ -499,9 +499,9 @@ def buscar_fuentes_faltantes(
                 else:
                     d = dict(doc) if isinstance(doc, dict) else {}
                 meta = d.get("metadata") or {}
-                titulo = (meta.get("title", "") or meta.get("og:title", "")) if isinstance(meta, dict) else ""
+                titulo = d.get("title") or (meta.get("title", "") or meta.get("og:title", "")) if isinstance(meta, dict) else d.get("title", "")
                 url = d.get("url", "")
-                desc = (meta.get("description", "") or meta.get("og:description", "")) if isinstance(meta, dict) else ""
+                desc = d.get("description") or ((meta.get("description", "") or meta.get("og:description", "")) if isinstance(meta, dict) else "")
                 extracto = _texto_breve(d.get("markdown") or "", 300)
                 if titulo or url:
                     candidatas.append({
@@ -586,8 +586,8 @@ def ampliar_nodos(
         print(f"    Query: {query[:80]}")
 
         try:
-            resp = app.search(query, limit=5, lang="es", country="mx")
-            docs = getattr(resp, "data", None)
+            resp = app.search(query, limit=5)
+            docs = getattr(resp, "web", None) or getattr(resp, "data", None)
             if docs is None:
                 docs = resp if isinstance(resp, list) else []
 
@@ -600,9 +600,9 @@ def ampliar_nodos(
                 else:
                     d = dict(doc) if isinstance(doc, dict) else {}
                 meta = d.get("metadata") or {}
-                titulo = (meta.get("title", "") or meta.get("og:title", "")) if isinstance(meta, dict) else ""
+                titulo = d.get("title") or (meta.get("title", "") or meta.get("og:title", "")) if isinstance(meta, dict) else d.get("title", "")
                 url = d.get("url", "")
-                desc = (meta.get("description", "") or meta.get("og:description", "")) if isinstance(meta, dict) else ""
+                desc = d.get("description") or ((meta.get("description", "") or meta.get("og:description", "")) if isinstance(meta, dict) else "")
                 extracto = _texto_breve(d.get("markdown") or "", 400)
                 if titulo or url:
                     hallazgos.append({
