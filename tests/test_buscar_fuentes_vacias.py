@@ -447,5 +447,133 @@ class TestIntegracionArchivoReal(unittest.TestCase):
             self.assertIsInstance(e["registro"], dict)
 
 
+class TestBuscarFirecrawl(unittest.TestCase):
+    """Pruebas para _buscar_firecrawl con FirecrawlApp simulado."""
+
+    def _hacer_doc(self, titulo: str, url: str, descripcion: str = "") -> MagicMock:
+        """Crea un objeto documento simulado de Firecrawl."""
+        doc = MagicMock()
+        doc.model_dump.return_value = {
+            "url": url,
+            "markdown": f"# {titulo}\n\nContenido de ejemplo.",
+            "metadata": {
+                "title": titulo,
+                "description": descripcion,
+            },
+        }
+        return doc
+
+    def test_retorna_lista_vacia_sin_sdk(self):
+        """Si firecrawl-py no está instalado, retorna lista vacía."""
+        with patch.object(bfv, "_FIRECRAWL_OK", False):
+            resultado = bfv._buscar_firecrawl("Hopelchén historia", api_key="fc-test")
+        self.assertEqual(resultado, [])
+
+    def test_retorna_resultados_con_sdk(self):
+        """Con SDK simulado, debe retornar resultados correctamente."""
+        mock_resp = MagicMock()
+        mock_resp.data = [
+            self._hacer_doc(
+                "Historia de Hopelchén",
+                "https://es.wikipedia.org/wiki/Hopelch%C3%A9n",
+                "Municipio de Campeche, México.",
+            ),
+            self._hacer_doc(
+                "Los Chenes — Región arqueológica",
+                "https://example.com/chenes",
+            ),
+        ]
+        mock_app = MagicMock()
+        mock_app.search.return_value = mock_resp
+
+        with patch.object(bfv, "_FIRECRAWL_OK", True):
+            with patch.object(bfv, "_FirecrawlApp", return_value=mock_app):
+                resultado = bfv._buscar_firecrawl("Hopelchén historia", api_key="fc-test")
+
+        self.assertEqual(len(resultado), 2)
+        self.assertEqual(resultado[0]["titulo"], "Historia de Hopelchén")
+        self.assertEqual(
+            resultado[0]["url"],
+            "https://es.wikipedia.org/wiki/Hopelch%C3%A9n",
+        )
+        self.assertIn("descripcion", resultado[0])
+        self.assertIn("extracto", resultado[0])
+
+    def test_retorna_lista_vacia_en_error(self):
+        """Si la API lanza excepción, retorna lista vacía sin propagar el error."""
+        mock_app = MagicMock()
+        mock_app.search.side_effect = Exception("connection refused")
+
+        with patch.object(bfv, "_FIRECRAWL_OK", True):
+            with patch.object(bfv, "_FirecrawlApp", return_value=mock_app):
+                resultado = bfv._buscar_firecrawl("query", api_key="fc-test")
+
+        self.assertEqual(resultado, [])
+
+    def test_ejecutar_consulta_firecrawl_sin_clave(self):
+        """Si no hay clave API, ejecutar_consulta debe marcar estado 'sin_clave_api'."""
+        consulta = {
+            "motor": "firecrawl",
+            "query": "Hopelchén resistencia maya",
+            "descripcion": "Test sin clave",
+        }
+        with patch.object(bfv, "_FIRECRAWL_API_KEY", None):
+            resultado = bfv.ejecutar_consulta(consulta)
+
+        self.assertEqual(resultado["estado"], "sin_clave_api")
+        self.assertEqual(resultado["resultados"], [])
+
+    def test_ejecutar_consulta_firecrawl_con_clave(self):
+        """Con clave y SDK simulado, ejecutar_consulta debe retornar resultados."""
+        mock_resp = MagicMock()
+        mock_resp.data = [
+            self._hacer_doc("Resultado Firecrawl", "https://example.com/fc"),
+        ]
+        mock_app = MagicMock()
+        mock_app.search.return_value = mock_resp
+
+        consulta = {
+            "motor": "firecrawl",
+            "query": "Hopelchén historia",
+            "descripcion": "Test con clave",
+        }
+        with patch.object(bfv, "_FIRECRAWL_OK", True):
+            with patch.object(bfv, "_FIRECRAWL_API_KEY", "fc-test-key"):
+                with patch.object(bfv, "_FirecrawlApp", return_value=mock_app):
+                    resultado = bfv.ejecutar_consulta(consulta)
+
+        self.assertEqual(resultado["estado"], "ok")
+        self.assertEqual(resultado["total_resultados"], 1)
+
+    def test_construir_consultas_incluye_firecrawl_con_clave(self):
+        """Con clave y SDK disponibles, _construir_consultas debe incluir motor firecrawl."""
+        entrada = {
+            "archivo": "HOPELCHEN_NODO_T02_Test.json",
+            "nodo_id": "T02",
+            "titulo_nodo": "Nodo de prueba",
+            "registro": _NODO_SIN_FUENTE["registros"][0],
+        }
+        with patch.object(bfv, "_FIRECRAWL_API_KEY", "fc-test-key"):
+            with patch.object(bfv, "_FIRECRAWL_OK", True):
+                consultas = bfv._construir_consultas(entrada)
+
+        motores = [c["motor"] for c in consultas]
+        self.assertIn("firecrawl", motores)
+
+    def test_construir_consultas_omite_firecrawl_sin_clave(self):
+        """Sin clave API, _construir_consultas no debe incluir motor firecrawl."""
+        entrada = {
+            "archivo": "HOPELCHEN_NODO_T02_Test.json",
+            "nodo_id": "T02",
+            "titulo_nodo": "Nodo de prueba",
+            "registro": _NODO_SIN_FUENTE["registros"][0],
+        }
+        with patch.object(bfv, "_FIRECRAWL_API_KEY", None):
+            consultas = bfv._construir_consultas(entrada)
+
+        motores = [c["motor"] for c in consultas]
+        self.assertNotIn("firecrawl", motores)
+
+
 if __name__ == "__main__":
     unittest.main()
