@@ -326,12 +326,38 @@ class TestIntegracionArchivosReales(unittest.TestCase):
                 self.assertIsInstance(datos, dict)
 
     def test_archivos_tienen_campo_principal(self):
+        """Verifica que los archivos con datos tabulares retornen elementos válidos.
+
+        Los archivos de estado/seguimiento (sin listas de dicts) pueden retornar
+        (None, []) válidamente; sólo se valida que cuando hay campo principal,
+        también haya al menos un elemento.
+        """
         archivos = listar_archivos_json(self.directorio_datos)
         for ruta in archivos:
             with self.subTest(archivo=os.path.basename(ruta)):
                 datos = cargar_json(ruta)
                 campo, elementos = obtener_campo_principal(datos)
-                self.assertIsNotNone(campo, f"'{ruta}' debe tener un campo de colección")
+                if campo is not None:
+                    self.assertGreater(
+                        len(elementos), 0,
+                        f"'{ruta}' tiene campo '{campo}' pero no contiene elementos",
+                    )
+
+    def test_archivos_canonicos_tienen_campo_principal(self):
+        """Los archivos de datos canónicos siempre deben tener campo principal."""
+        archivos_canonicos = [
+            "eventos_historicos.json",
+            "personajes_historicos.json",
+            "fuentes_bibliograficas.json",
+        ]
+        for nombre in archivos_canonicos:
+            ruta = os.path.join(self.directorio_datos, nombre)
+            if not os.path.exists(ruta):
+                continue
+            with self.subTest(archivo=nombre):
+                datos = cargar_json(ruta)
+                campo, elementos = obtener_campo_principal(datos)
+                self.assertIsNotNone(campo, f"'{nombre}' debe tener un campo de colección")
                 self.assertGreater(len(elementos), 0)
 
 
