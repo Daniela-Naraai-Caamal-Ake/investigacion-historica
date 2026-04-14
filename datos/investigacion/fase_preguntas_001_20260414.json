@@ -1,0 +1,258 @@
+{
+  "META": {
+    "titulo": "Fase 1 — Preguntas pendientes (10/10)",
+    "fase": 1,
+    "fecha": "2026-04-14",
+    "preguntas_incluidas": [
+      "P002-01",
+      "P003-01",
+      "P004-01",
+      "P006-01",
+      "P006-10",
+      "P007-01",
+      "P001-01",
+      "P001-02",
+      "P002-03",
+      "P003-02"
+    ],
+    "resultados_rastreo": {
+      "pares": "datos/investigacion/pares_resultados_20260414.json (sin conexión)",
+      "agn": "datos/investigacion/agn_resultados_20260414.json (sin conexión)",
+      "poe_campeche": "datos/investigacion/poe_campeche_resultados_20260414.json (sin conexión; solicitud manual incluida)",
+      "familysearch": "datos/investigacion/familysearch_resultados_20260414.json (guía de búsqueda)"
+    },
+    "limitaciones": [
+      "Acceso web externo bloqueado en esta sesión (OpenLibrary, Redalyc, Wikipedia).",
+      "Módulos PARES/AGN/POE reportan error de conexión; se requiere consulta manual."
+    ]
+  },
+  "preguntas": [
+    {
+      "pregunta_id": "P002-01",
+      "estado": "EN PROCESO",
+      "acciones_fase": [
+        "Rastreo PARES/AGN/POE ejecutado sin conexión.",
+        "Solicitud de acceso manual incluida en poe_campeche_resultados_20260414.json."
+      ],
+      "conexiones_clave": [
+        "P001-02",
+        "P002-03"
+      ],
+      "siguientes_pasos": [
+        "Consultar manualmente PARES/AGN con términos 'congregación 1621' y 'Hopelchén'.",
+        "Buscar en POE/archivo municipal referencias a fundación congregación."
+      ]
+    },
+    {
+      "pregunta_id": "P003-01",
+      "estado": "EN PROCESO",
+      "acciones_fase": [
+        "Guía FamilySearch generada para registros civiles/parroquiales.",
+        "Reforzada conexión con compañías deslindadoras y lucha antiagraria."
+      ],
+      "conexiones_clave": [
+        "P003-02",
+        "P004-01",
+        "P006-01"
+      ],
+      "fuentes_internas": [
+        "datos/hopelchen/HOPELCHEN_NODO_003_ColoniaTardia_Porfiriato.json",
+        "datos/borradores/B2.md"
+      ],
+      "siguientes_pasos": [
+        "Localizar títulos de Holcatzin/Santa Rita en Registro Público de la Propiedad.",
+        "Cruzar apellidos Lara con archivos de jefes políticos municipales."
+      ]
+    },
+    {
+      "pregunta_id": "P004-01",
+      "estado": "RESPONDIDA PARCIALMENTE",
+      "acciones_fase": [
+        "Confirmado candidato principal: Pedro Advíncula Lara.",
+        "Mantener búsqueda de otros hacendados en POE y archivos municipales."
+      ],
+      "conexiones_clave": [
+        "P003-01",
+        "P003-02",
+        "P006-10"
+      ],
+      "fuentes_internas": [
+        "datos/hopelchen/HOPELCHEN_NODO_004_Revolucion_Chicle.json",
+        "datos/borradores/A6.md"
+      ],
+      "siguientes_pasos": [
+        "Listar hacendados en registros de dotación ejidal 1917-1935.",
+        "Cruzar con apellidos de compañías deslindadoras y contratistas chicleros."
+      ]
+    },
+    {
+      "pregunta_id": "P006-01",
+      "estado": "EN PROCESO",
+      "acciones_fase": [
+        "Guía FamilySearch con apellidos Baranda/Aranda."
+      ],
+      "conexiones_clave": [
+        "P003-01",
+        "P006-10"
+      ],
+      "siguientes_pasos": [
+        "Buscar actas de Aranda/Baranda en FamilySearch FX020/FX030.",
+        "Cruzar con expedientes de Joaquín Baranda en Rotonda de Hombres Ilustres."
+      ]
+    },
+    {
+      "pregunta_id": "P006-10",
+      "estado": "EN PROCESO",
+      "acciones_fase": [
+        "Búsqueda POE ejecutada sin conexión; solicitud manual generada."
+      ],
+      "conexiones_clave": [
+        "P004-01",
+        "P003-02"
+      ],
+      "siguientes_pasos": [
+        "Solicitar cambios de uso de suelo a Semarnat/RAN por año 1987-2024.",
+        "Cruzar permisos con administraciones municipales listadas en P006-02/P006-08."
+      ]
+    },
+    {
+      "pregunta_id": "P007-01",
+      "estado": "RESPONDIDA PARCIALMENTE",
+      "acciones_fase": [
+        "Confirmada existencia de citas a Pacheco Blanco (1928) y Peña (1942) vía Schüren 2013."
+      ],
+      "conexiones_clave": [
+        "P004-01",
+        "P003-02"
+      ],
+      "fuentes_internas": [
+        "datos/hopelchen/HOPELCHEN_NODO_007_Rutas_Territorio.json",
+        "trabajo/periodos/nodo-007-rutas-territorio-y-control-del-espacio.md"
+      ],
+      "siguientes_pasos": [
+        "Ubicar obras en Biblioteca del Estado de Campeche o BNM-UNAM.",
+        "Extraer nombres de contratistas chicleros y hacendados citados."
+      ]
+    },
+    {
+      "pregunta_id": "P001-01",
+      "estado": "EN PROCESO",
+      "acciones_fase": [
+        "Guía FamilySearch generada para registros parroquiales y apellidos mayas.",
+        "Rastreo PARES/AGN sin conexión."
+      ],
+      "conexiones_clave": [
+        "P002-01",
+        "P002-03"
+      ],
+      "siguientes_pasos": [
+        "Consultar registros parroquiales 1660-1700 en FamilySearch FX020.",
+        "Buscar bataboob en Cogolludo (1688) y relaciones geográficas."
+      ]
+    },
+    {
+      "pregunta_id": "P001-02",
+      "estado": "EN PROCESO",
+      "acciones_fase": [
+        "Rastreo PARES/AGN sin conexión; requiere búsqueda manual en AGI/AGN."
+      ],
+      "conexiones_clave": [
+        "P002-01",
+        "P002-03"
+      ],
+      "siguientes_pasos": [
+        "Consultar AGI Audiencia de México para encomiendas Los Chenes.",
+        "Cruzar con PARES términos 'encomienda' y 'Chenes'."
+      ]
+    },
+    {
+      "pregunta_id": "P002-03",
+      "estado": "EN PROCESO",
+      "acciones_fase": [
+        "Rastreo PARES/AGN sin conexión; pendientes expedientes de encomienda."
+      ],
+      "conexiones_clave": [
+        "P001-02",
+        "P002-01"
+      ],
+      "siguientes_pasos": [
+        "Revisar AGI Patronato y Encomiendas siglo XVI.",
+        "Buscar tributos específicos en relaciones de méritos y servicios."
+      ]
+    },
+    {
+      "pregunta_id": "P003-02",
+      "estado": "RESPONDIDA PARCIALMENTE",
+      "acciones_fase": [
+        "Compañía 'Mexican Exploitation' ya identificada en Nodo 003.",
+        "Falta detalle de tierras y accionistas en Hopelchén."
+      ],
+      "conexiones_clave": [
+        "P003-01",
+        "P004-01",
+        "P006-10"
+      ],
+      "fuentes_internas": [
+        "trabajo/periodos/nodo-003-colonia-tardia-independencia-guerra-de.md",
+        "datos/borradores/B2.md"
+      ],
+      "siguientes_pasos": [
+        "Buscar en AGN Ramo Tierras expedientes de compañías deslindadoras.",
+        "Ubicar concesiones forestales en POE Campeche."
+      ]
+    }
+  ],
+  "conexiones": [
+    {
+      "eje": "Congregación y encomiendas (siglo XVI-XVII)",
+      "preguntas": [
+        "P002-01",
+        "P001-02",
+        "P002-03",
+        "P001-01"
+      ],
+      "implicacion": "La fundación de 1621, las encomiendas y los bataboob forman un mismo paquete documental; resolverlos permite fijar el origen colonial del poder local."
+    },
+    {
+      "eje": "Concentración de tierra porfiriana y resistencia antiagraria",
+      "preguntas": [
+        "P003-01",
+        "P003-02",
+        "P004-01"
+      ],
+      "implicacion": "La acumulación de haciendas por Pedro Advíncula Lara y las compañías deslindadoras explican la 'lucha antiagraria' de 1910-1930."
+    },
+    {
+      "eje": "Control territorial contemporáneo",
+      "preguntas": [
+        "P006-10",
+        "P004-01",
+        "P003-02"
+      ],
+      "implicacion": "Los cambios de uso de suelo 1987-2024 son la continuidad administrativa del mismo patrón de concentración de tierra documentado en el Porfiriato."
+    },
+    {
+      "eje": "Bibliografía crítica de Los Chenes",
+      "preguntas": [
+        "P007-01",
+        "P003-02",
+        "P004-01"
+      ],
+      "implicacion": "Pacheco Blanco (1928) y Peña (1942) pueden contener nombres de contratistas chicleros que conecten con hacendados y élites políticas posteriores."
+    },
+    {
+      "eje": "Continuidad genealógica de élites",
+      "preguntas": [
+        "P006-01",
+        "P003-01"
+      ],
+      "implicacion": "Si se prueba la conexión Aranda/Baranda, se refuerza la continuidad familiar del poder local desde el Porfiriato hasta 2024."
+    }
+  ],
+  "siguientes_pasos_fase_2": [
+    "Reintentar rastreos web con acceso habilitado o fuera del sandbox.",
+    "Consultar físicamente Biblioteca del Estado de Campeche y BNM-UNAM (P007-01).",
+    "Solicitar expedientes RAN/Semarnat para cambios de uso de suelo (P006-10).",
+    "Extraer nombres de hacendados en dotaciones ejidales 1917-1935 (P004-01)."
+  ]
+}

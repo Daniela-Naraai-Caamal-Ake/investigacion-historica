@@ -1,0 +1,38 @@
+{
+  "modulo": "poe_campeche",
+  "fecha_consulta": "2026-04-14T04:40:43.489983",
+  "url_base": "http://periodicooficial.campeche.gob.mx",
+  "preguntas_relacionadas": [
+    "P006-08",
+    "P006-02",
+    "P002-01"
+  ],
+  "busquedas": [
+    {
+      "descripcion": "Tomas de protesta presidentes municipales Hopelchén 1987-1993",
+      "termino": "Hopelchén 1987",
+      "estado": "error_conexion",
+      "nota": "El POE puede requerir sesión o tiene protección anti-bot. Busca manualmente en http://periodicooficial.campeche.gob.mx"
+    },
+    {
+      "descripcion": "Tomas de protesta presidentes municipales Hopelchén 1970-1980",
+      "termino": "Hopelchén presidente municipal",
+      "estado": "error_conexion",
+      "nota": "El POE puede requerir sesión o tiene protección anti-bot. Busca manualmente en http://periodicooficial.campeche.gob.mx"
+    },
+    {
+      "descripcion": "Fundación pueblo congregación Chenes siglo XVII",
+      "termino": "congregación Chenes",
+      "estado": "error_conexion",
+      "nota": "El POE puede requerir sesión o tiene protección anti-bot. Busca manualmente en http://periodicooficial.campeche.gob.mx"
+    },
+    {
+      "descripcion": "Reforma ejidal Hopelchén 1927-1940",
+      "termino": "ejido Hopelchén dotación",
+      "estado": "error_conexion",
+      "nota": "El POE puede requerir sesión o tiene protección anti-bot. Busca manualmente en http://periodicooficial.campeche.gob.mx"
+    }
+  ],
+  "solicitud_acceso_manual": "SOLICITUD DE INFORMACIÓN — Periódico Oficial del Estado de Campeche\n\nDirigida a: Dirección del Periódico Oficial del Estado de Campeche\nCorreo de contacto: (buscar en periodicooficial.campeche.gob.mx/contacto)\nPlataforma INFOMEX Campeche: https://www.infomex.campeche.gob.mx\n\nDATOS DEL SOLICITANTE:\nNombre: [Daniela Naraai Caamal Ake]\nProyecto: Investigación histórica independiente — Hopelchén: 2000 años de historia\n\nSOLICITUD:\nPor medio de la presente, solicito respetuosamente se me proporcione:\n\n1. Copias de los ejemplares del Periódico Oficial del Estado de Campeche\n   que contengan la toma de protesta del Presidente Municipal de Hopelchén\n   correspondiente a los períodos de gobierno 1984-1987, 1987-1990, 1990-1993\n   y 1993-1996.\n\n2. En su caso, los nombres completos de los presidentes municipales de\n   Hopelchén que tomaron protesta en los años 1984, 1987, 1990 y 1993.\n\n3. Copias de cualquier decreto o acuerdo publicado en el POE que haga\n   referencia a cambios de uso de suelo en el municipio de Hopelchén,\n   Campeche, entre los años 1987 y 1995.\n\nFUNDAMENTO LEGAL:\nLey Federal de Transparencia y Acceso a la Información Pública Gubernamental\nArtículo 4o. — Todo ciudadano tiene derecho a solicitar y recibir información\nde cualquier autoridad, entidad, órgano y organismo de los Poderes Ejecutivo,\nLegislativo y Judicial.\n\n[Ciudad y fecha]\n[Firma]\n",
+  "nota_metodologica": "El Periódico Oficial del Estado de Campeche tiene archivo digital desde 1857. Las tomas de protesta de presidentes municipales se publican en el POE. Buscar específicamente: 'Hopelchén' + años 1984-1993 para desbloquear P006-08."
+}

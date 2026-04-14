@@ -1,0 +1,49 @@
+{
+  "modulo": "pares",
+  "fecha_consulta": "2026-04-14T04:40:43.131565",
+  "url_base": "https://pares.mcu.es/ParesBusquedas20/catalogo/search",
+  "preguntas_relacionadas": [
+    "P001-02",
+    "P002-01"
+  ],
+  "terminos_buscados": [
+    "Hopelchén",
+    "Hopelchen",
+    "Los Chenes",
+    "congregación Yucatán 1621",
+    "encomienda Chenes"
+  ],
+  "busquedas": [
+    {
+      "termino": "Hopelchén",
+      "estado": "error_conexion",
+      "url": "https://pares.mcu.es/ParesBusquedas20/catalogo/search",
+      "resultados": []
+    },
+    {
+      "termino": "Hopelchen",
+      "estado": "error_conexion",
+      "url": "https://pares.mcu.es/ParesBusquedas20/catalogo/search",
+      "resultados": []
+    },
+    {
+      "termino": "Los Chenes",
+      "estado": "error_conexion",
+      "url": "https://pares.mcu.es/ParesBusquedas20/catalogo/search",
+      "resultados": []
+    },
+    {
+      "termino": "congregación Yucatán 1621",
+      "estado": "error_conexion",
+      "url": "https://pares.mcu.es/ParesBusquedas20/catalogo/search",
+      "resultados": []
+    },
+    {
+      "termino": "encomienda Chenes",
+      "estado": "error_conexion",
+      "url": "https://pares.mcu.es/ParesBusquedas20/catalogo/search",
+      "resultados": []
+    }
+  ],
+  "nota_metodologica": "PARES es el portal de acceso público al Archivo General de Indias (AGI) en Sevilla. Las búsquedas con 'Hopelchén' y 'Los Chenes' pueden revelar documentos de encomiendas, visitas pastorales y congregaciones del siglo XVII que confirmen o amplíen la fundación de 1621."
+}
