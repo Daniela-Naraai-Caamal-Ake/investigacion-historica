@@ -263,32 +263,25 @@ python src/analizador.py --reporte
 python -m unittest tests/test_analizador.py -v
 ```
 
-### Validar citas y ampliar nodos con Firecrawl
+### Buscar fuentes faltantes (web abierta)
 
-Herramienta integral que valida las URLs del catálogo, busca fuentes para
-registros sin cita y lanza búsquedas para ampliar los nodos:
+Herramienta integral que detecta registros sin cita y realiza búsquedas en
+Wikipedia, OpenLibrary y DuckDuckGo:
 
 ```bash
-# Requiere: FIRECRAWL_API_KEY en .env o variable de entorno
-# Obtén una clave gratuita en https://www.firecrawl.dev
-
-python tools/validar_citas_firecrawl.py               # Todo (validar + fuentes + ampliar)
-python tools/validar_citas_firecrawl.py --modo validar # Solo validar URLs del catálogo
-python tools/validar_citas_firecrawl.py --modo fuentes # Solo buscar fuentes faltantes
-python tools/validar_citas_firecrawl.py --modo ampliar # Solo ampliar nodos con búsquedas
-python tools/validar_citas_firecrawl.py --nodo 009     # Filtrar por nodo específico
-python tools/validar_citas_firecrawl.py --limite 10    # Limitar a N búsquedas por modo
+python tools/buscar_fuentes_vacias.py            # Ejecutar búsquedas
+python tools/buscar_fuentes_vacias.py --seco     # Solo detectar, sin web
+python tools/buscar_fuentes_vacias.py --nodo 004 # Filtrar por nodo
+python tools/buscar_fuentes_vacias.py --parchear # Agregar fuentes_candidatas
 ```
 
 Salidas en `datos/investigacion/`:
-- `firecrawl_validacion_YYYYMMDD.json` — Resultados completos
-- `firecrawl_reporte_YYYYMMDD.md` — Reporte legible en Markdown
+- `fuentes_vacias_YYYYMMDD.json` — Reporte completo
 
 También disponible el rastreador de fuentes en archivos digitales públicos:
 
 ```bash
 python tools/rastrear_fuentes.py               # Todos los módulos
-python tools/rastrear_fuentes.py --modulo firecrawl
 ```
 
 ### Instalar dependencias
@@ -333,4 +326,3 @@ El contenido de este repositorio es trabajo de investigación en curso. Si utili
 ---
 
 *Archivo vivo — iniciado en marzo de 2026. La historia de Hopelchén merece ser contada completa.*
-
