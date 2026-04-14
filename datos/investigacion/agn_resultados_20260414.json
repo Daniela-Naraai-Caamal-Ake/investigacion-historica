@@ -1,0 +1,39 @@
+{
+  "modulo": "agn",
+  "fecha_consulta": "2026-04-14T04:40:43.309294",
+  "url_base": "https://www.agn.gob.mx/buscar/",
+  "preguntas_relacionadas": [
+    "P002-01",
+    "P001-02",
+    "P004-01"
+  ],
+  "terminos_buscados": [
+    "Hopelchén",
+    "Los Chenes Yucatán",
+    "congregación 1621 Campeche",
+    "Ramo Indios Chenes"
+  ],
+  "busquedas": [
+    {
+      "termino": "Hopelchén",
+      "estado": "error_conexion",
+      "resultados": []
+    },
+    {
+      "termino": "Los Chenes Yucatán",
+      "estado": "error_conexion",
+      "resultados": []
+    },
+    {
+      "termino": "congregación 1621 Campeche",
+      "estado": "error_conexion",
+      "resultados": []
+    },
+    {
+      "termino": "Ramo Indios Chenes",
+      "estado": "error_conexion",
+      "resultados": []
+    }
+  ],
+  "nota_metodologica": "El AGN México tiene el Ramo Indios, Congregaciones y Mercedes que pueden contener documentos sobre la fundación de Hopelchén como pueblo de congregación (1621) y las dotaciones ejidales del siglo XX."
+}
