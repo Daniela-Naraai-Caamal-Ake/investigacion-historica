@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Búsqueda Semántica — Dos Mil Años en Silencio</title>
+  <style>
+    :root {
+      --bg: #faf8f5;
+      --surface: #ffffff;
+      --border: #e0d8cc;
+      --text: #2c2416;
+      --muted: #7a6e5f;
+      --accent: #8b4513;
+      --accent2: #c47c2b;
+      --accent3: #3b6ea5;
+      --accent4: #5a9e6f;
+      --red: #c0392b;
+      --shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Georgia, 'Times New Roman', serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+    header { background: var(--accent); color: #fff; padding: 1.8rem 1.5rem; text-align: center; }
+    header h1 { font-size: 1.6rem; margin-bottom: .2rem; }
+    header p { font-size: .9rem; opacity: .85; }
+    .container { max-width: 900px; margin: 0 auto; padding: 2rem 1.2rem; }
+
+    .search-box {
+      display: flex; gap: .6rem; margin-bottom: 1rem;
+      align-items: center; flex-wrap: wrap;
+    }
+    #query {
+      flex: 1; min-width: 200px;
+      padding: .65rem 1rem;
+      border: 2px solid var(--border);
+      border-radius: 6px;
+      font-size: 1rem;
+      font-family: inherit;
+      background: var(--surface);
+      color: var(--text);
+      transition: border-color .2s;
+    }
+    #query:focus { outline: none; border-color: var(--accent); }
+    button {
+      padding: .65rem 1.3rem;
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      font-family: inherit;
+      cursor: pointer;
+      transition: background .2s;
+    }
+    button:hover { background: #6d340f; }
+
+    .filters {
+      display: flex; gap: .8rem; flex-wrap: wrap;
+      margin-bottom: 1.5rem; align-items: center;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: .85rem;
+    }
+    .filters label { color: var(--muted); }
+    .filters select, .filters input[type=number] {
+      padding: .3rem .5rem;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      font-size: .85rem;
+      background: var(--surface);
+    }
+
+    .suggestions {
+      display: flex; flex-wrap: wrap; gap: .5rem;
+      margin-bottom: 1.2rem;
+    }
+    .chip {
+      padding: .25rem .75rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      font-size: .8rem;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      cursor: pointer;
+      color: var(--accent);
+      transition: background .15s, color .15s;
+    }
+    .chip:hover { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+    #status {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: .85rem;
+      color: var(--muted);
+      margin-bottom: 1rem;
+      min-height: 1.2em;
+    }
+
+    .result-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.2rem 1.3rem;
+      margin-bottom: 1rem;
+      box-shadow: var(--shadow);
+    }
+    .result-meta {
+      display: flex; gap: .8rem; flex-wrap: wrap;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: .78rem;
+      color: var(--muted);
+      margin-bottom: .5rem;
+      align-items: center;
+    }
+    .result-meta .score-badge {
+      background: var(--accent);
+      color: #fff;
+      padding: .15rem .5rem;
+      border-radius: 4px;
+      font-weight: 600;
+    }
+    .result-meta .nodo-badge {
+      background: var(--accent3);
+      color: #fff;
+      padding: .15rem .5rem;
+      border-radius: 4px;
+    }
+    .result-card h3 {
+      font-size: .95rem;
+      color: var(--accent);
+      margin-bottom: .3rem;
+    }
+    .result-card .titulo-nodo {
+      font-size: .8rem;
+      color: var(--muted);
+      font-style: italic;
+      margin-bottom: .6rem;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+    }
+    .result-card p {
+      font-size: .88rem;
+      color: var(--text);
+      margin-bottom: .4rem;
+    }
+    .result-hipotesis {
+      font-size: .82rem;
+      color: #3b6ea5;
+      border-left: 3px solid var(--accent3);
+      padding-left: .7rem;
+      margin-top: .5rem;
+      font-style: italic;
+    }
+    .result-fuente {
+      font-size: .78rem;
+      color: var(--muted);
+      margin-top: .5rem;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+    }
+    .tags { display: flex; flex-wrap: wrap; gap: .3rem; margin-top: .5rem; }
+    .tag {
+      font-size: .72rem;
+      padding: .1rem .45rem;
+      background: #f5f0e8;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      color: var(--muted);
+    }
+    .highlight { background: #fff3cd; border-radius: 2px; }
+
+    #no-results {
+      text-align: center; padding: 2rem;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      color: var(--muted);
+      display: none;
+    }
+
+    footer {
+      text-align: center; padding: 1.5rem;
+      font-size: .8rem; color: var(--muted);
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      border-top: 1px solid var(--border); margin-top: 2rem;
+    }
+    footer a { color: var(--accent3); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+
+    #loading {
+      text-align: center; padding: 3rem;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🔍 Búsqueda Semántica</h1>
+  <p>Explora conexiones históricas ocultas en el archivo de Hopelchén — Los Chenes</p>
+</header>
+
+<div class="container">
+  <div id="loading">⏳ Cargando índice de búsqueda…</div>
+
+  <div id="search-ui" style="display:none">
+    <div class="search-box">
+      <input type="text" id="query" placeholder="Busca por concepto, persona, lugar o período…"
+             autocomplete="off" autocorrect="off" spellcheck="false" />
+      <button onclick="ejecutarBusqueda()">Buscar</button>
+    </div>
+
+    <div class="filters">
+      <label>Nodo:
+        <select id="filtro-nodo">
+          <option value="">Todos</option>
+        </select>
+      </label>
+      <label>Resultados:
+        <input type="number" id="top-k" value="8" min="1" max="50" style="width:55px" />
+      </label>
+    </div>
+
+    <div class="suggestions" id="suggestions"></div>
+
+    <div id="status"></div>
+    <div id="results"></div>
+    <div id="no-results">Sin resultados para esta búsqueda. Prueba con otros términos.</div>
+  </div>
+</div>
+
+<footer>
+  Proyecto <em>Dos Mil Años en Silencio</em> — Daniela Naraai Caamal Ake &nbsp;|&nbsp;
+  <a href="index.html">📊 Tablero estadístico</a> &nbsp;|&nbsp;
+  <a href="https://github.com/Daniela-Naraai-Caamal-Ake/investigacion-historica" target="_blank">GitHub</a>
+</footer>
+
+<script>
+// ─── Búsqueda TF-IDF en el navegador ──────────────────────────────────────
+
+let INDEX = [];
+let TFIDF = null;
+
+const SUGERENCIAS = [
+  "resistencia maya",
+  "tierra y territorio",
+  "conquista española Los Chenes",
+  "Guerra de Castas Hopelchén",
+  "ciclo chiclero economía",
+  "Leydy Pech transgénicos",
+  "poder político local",
+  "menonitas agroindustria",
+  "demografía población colonial",
+  "conocimiento maya meliponicultura",
+];
+
+// ─── Tokenizer simple para español ────────────────────────────────────────
+function tokenizar(texto) {
+  if (!texto) return [];
+  return texto.toLowerCase()
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '')  // quitar acentos
+    .replace(/[^a-z0-9\s]/g, ' ')
+    .split(/\s+/)
+    .filter(t => t.length > 2);
+}
+
+// ─── Stop words básicas en español ────────────────────────────────────────
+const STOP = new Set([
+  'que','de','la','el','los','las','en','del','con','por','para','una','uno',
+  'sus','les','han','fue','era','son','ser','hay','tiene','como','mas','sin',
+  'pero','sobre','este','esta','estos','estas','ese','esa','esos','esas','los',
+  'cual','cuales','quien','quienes','cuando','donde','como','porque','aunque',
+  'hacia','entre','hasta','desde','durante','mediante','segun','ante','bajo',
+  'todo','todos','toda','todas','mas','muy','tan','bien','aun','cada','otro',
+  'otra','otros','otras','mismo','misma','mismos','mismas','ya','no','si','se',
+]);
+
+function filtrarStop(tokens) {
+  return tokens.filter(t => !STOP.has(t));
+}
+
+// ─── Constructor TF-IDF ───────────────────────────────────────────────────
+class TFIDFEngine {
+  constructor(documentos) {
+    this.docs = documentos;
+    this.N = documentos.length;
+    // Construir vocabulario y vectores
+    this.idf = {};
+    this.docVecs = documentos.map(doc => {
+      const tokens = filtrarStop(tokenizar(doc.texto_completo));
+      const tf = {};
+      for (const t of tokens) tf[t] = (tf[t] || 0) + 1;
+      const total = tokens.length || 1;
+      for (const t in tf) tf[t] = tf[t] / total;
+      return tf;
+    });
+    // IDF
+    const df = {};
+    for (const vec of this.docVecs) {
+      for (const t in vec) df[t] = (df[t] || 0) + 1;
+    }
+    for (const t in df) {
+      this.idf[t] = Math.log((this.N + 1) / (df[t] + 1)) + 1;
+    }
+  }
+
+  vectorize(tokens) {
+    const tf = {};
+    for (const t of tokens) tf[t] = (tf[t] || 0) + 1;
+    const total = tokens.length || 1;
+    const vec = {};
+    for (const t in tf) vec[t] = (tf[t] / total) * (this.idf[t] || 1);
+    return vec;
+  }
+
+  coseno(vecA, vecB) {
+    let dot = 0, normA = 0, normB = 0;
+    for (const t in vecA) {
+      normA += vecA[t] ** 2;
+      if (vecB[t]) dot += vecA[t] * vecB[t];
+    }
+    for (const t in vecB) normB += vecB[t] ** 2;
+    const denom = Math.sqrt(normA) * Math.sqrt(normB);
+    return denom > 0 ? dot / denom : 0;
+  }
+
+  buscar(consulta, topK = 8, nodoFiltro = '') {
+    const tokens = filtrarStop(tokenizar(consulta));
+    if (!tokens.length) return [];
+    const vecQ = this.vectorize(tokens);
+    const scores = this.docVecs.map((vec, i) => {
+      if (nodoFiltro && this.docs[i].nodo_id !== nodoFiltro) return { i, score: 0 };
+      // TF-IDF doc vec weighted
+      const wVec = {};
+      for (const t in vec) wVec[t] = vec[t] * (this.idf[t] || 1);
+      return { i, score: this.coseno(vecQ, wVec) };
+    });
+    return scores
+      .filter(s => s.score > 0.001)
+      .sort((a, b) => b.score - a.score)
+      .slice(0, topK)
+      .map(s => ({ score: s.score, doc: this.docs[s.i] }));
+  }
+}
+
+// ─── Highlight ─────────────────────────────────────────────────────────────
+function highlight(texto, consulta) {
+  if (!texto || !consulta) return texto || '';
+  const terms = filtrarStop(tokenizar(consulta));
+  if (!terms.length) return texto;
+  const escaped = terms.map(t => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|');
+  const re = new RegExp(`(${escaped})`, 'gi');
+  return texto.replace(re, '<mark class="highlight">$1</mark>');
+}
+
+function truncar(texto, max = 280) {
+  if (!texto) return '';
+  if (texto.length <= max) return texto;
+  return texto.slice(0, max).trimEnd() + '…';
+}
+
+// ─── Renderizar resultado ──────────────────────────────────────────────────
+function renderResultado(r, consulta, rank) {
+  const { score, doc } = r;
+  const pct = Math.round(score * 100);
+  const desc = highlight(truncar(doc.descripcion, 300), consulta);
+  const hip = highlight(truncar(doc.conexion_hipotesis, 200), consulta);
+  const subtitulo = highlight(doc.subtitulo || '', consulta);
+  const tagsHtml = (doc.tags || []).slice(0, 6).map(t =>
+    `<span class="tag">${t}</span>`).join('');
+  const fuenteCorta = (doc.fuente || '').slice(0, 100) + ((doc.fuente || '').length > 100 ? '…' : '');
+
+  return `
+    <div class="result-card">
+      <div class="result-meta">
+        <span class="score-badge">${pct}% relevancia</span>
+        <span class="nodo-badge">Nodo ${doc.nodo_id}</span>
+        <span><strong>ID:</strong> ${doc.registro_id}</span>
+        ${doc.fecha_evento ? `<span>📅 ${doc.fecha_evento}</span>` : ''}
+        ${doc.lugar ? `<span>📍 ${doc.lugar}</span>` : ''}
+      </div>
+      ${subtitulo ? `<h3>${subtitulo}</h3>` : ''}
+      <div class="titulo-nodo">${doc.titulo_nodo}</div>
+      ${desc ? `<p>${desc}</p>` : ''}
+      ${hip ? `<div class="result-hipotesis">🔗 ${hip}</div>` : ''}
+      ${fuenteCorta ? `<div class="result-fuente">📚 ${fuenteCorta}</div>` : ''}
+      ${tagsHtml ? `<div class="tags">${tagsHtml}</div>` : ''}
+    </div>
+  `;
+}
+
+// ─── Ejecutar búsqueda ────────────────────────────────────────────────────
+function ejecutarBusqueda() {
+  const consulta = document.getElementById('query').value.trim();
+  const topK = parseInt(document.getElementById('top-k').value) || 8;
+  const nodoFiltro = document.getElementById('filtro-nodo').value;
+
+  document.getElementById('no-results').style.display = 'none';
+  document.getElementById('results').innerHTML = '';
+
+  if (!consulta) {
+    document.getElementById('status').textContent = '';
+    return;
+  }
+
+  const t0 = performance.now();
+  const resultados = TFIDF.buscar(consulta, topK, nodoFiltro);
+  const ms = Math.round(performance.now() - t0);
+
+  if (!resultados.length) {
+    document.getElementById('no-results').style.display = 'block';
+    document.getElementById('status').textContent = `Sin resultados (${ms} ms)`;
+    return;
+  }
+
+  document.getElementById('status').textContent =
+    `${resultados.length} resultado(s) en ${ms} ms — consulta: "${consulta}"`;
+
+  const html = resultados.map((r, i) => renderResultado(r, consulta, i + 1)).join('');
+  document.getElementById('results').innerHTML = html;
+}
+
+// ─── Init ─────────────────────────────────────────────────────────────────
+async function init() {
+  try {
+    const resp = await fetch('search_index.json');
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    INDEX = await resp.json();
+  } catch (e) {
+    document.getElementById('loading').textContent =
+      `❌ No se pudo cargar search_index.json: ${e.message}`;
+    return;
+  }
+
+  TFIDF = new TFIDFEngine(INDEX);
+
+  // Poblar select de nodos
+  const nodos = [...new Set(INDEX.map(d => d.nodo_id))].sort();
+  const sel = document.getElementById('filtro-nodo');
+  for (const nid of nodos) {
+    const titulo = (INDEX.find(d => d.nodo_id === nid) || {}).titulo_nodo || '';
+    const opt = document.createElement('option');
+    opt.value = nid;
+    opt.textContent = `Nodo ${nid} — ${titulo.slice(0, 40)}${titulo.length > 40 ? '…' : ''}`;
+    sel.appendChild(opt);
+  }
+
+  // Sugerencias
+  const sugs = document.getElementById('suggestions');
+  SUGERENCIAS.forEach(s => {
+    const chip = document.createElement('span');
+    chip.className = 'chip';
+    chip.textContent = s;
+    chip.onclick = () => {
+      document.getElementById('query').value = s;
+      ejecutarBusqueda();
+    };
+    sugs.appendChild(chip);
+  });
+
+  document.getElementById('loading').style.display = 'none';
+  document.getElementById('search-ui').style.display = 'block';
+  document.getElementById('status').textContent =
+    `${INDEX.length} registros históricos indexados y listos para búsqueda.`;
+
+  // Enter key
+  document.getElementById('query').addEventListener('keydown', e => {
+    if (e.key === 'Enter') ejecutarBusqueda();
+  });
+}
+
+init();
+</script>
+</body>
+</html>

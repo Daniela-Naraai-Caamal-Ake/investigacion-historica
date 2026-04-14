@@ -1,0 +1,278 @@
+{
+  "generado_en": "2026-04-14T02:46:09Z",
+  "nodos": [
+    {
+      "id": "001",
+      "titulo": "Ocupación Prehispánica del Territorio de Hopelchén — Los Chenes y sus Ciudades Mayas",
+      "rango_temporal": "~300 a.C. — 1517 d.C.",
+      "año_inicio": -300,
+      "año_fin": 1517,
+      "n_registros": 7,
+      "n_con_fuente": 7,
+      "n_con_conexion": 7,
+      "pct_fuente": 100.0,
+      "pct_conexion": 100.0
+    },
+    {
+      "id": "002",
+      "titulo": "La Conquista Española en Los Chenes y la Fundación Colonial de Hopelchén (1517–1669)",
+      "rango_temporal": "1517 — 1669",
+      "año_inicio": 1517,
+      "año_fin": 1669,
+      "n_registros": 9,
+      "n_con_fuente": 9,
+      "n_con_conexion": 9,
+      "pct_fuente": 100.0,
+      "pct_conexion": 100.0
+    },
+    {
+      "id": "003",
+      "titulo": "Colonia Tardía, Independencia, Guerra de Castas y el Porfiriato en Hopelchén (1670–1910): Tierra, Poder y Destrucción",
+      "rango_temporal": "1670 — 1910",
+      "año_inicio": 1670,
+      "año_fin": 1910,
+      "n_registros": 12,
+      "n_con_fuente": 12,
+      "n_con_conexion": 12,
+      "pct_fuente": 100.0,
+      "pct_conexion": 100.0
+    },
+    {
+      "id": "004",
+      "titulo": "Revolución, Lucha Antiagraria, Reforma Agraria y la Economía Chiclera en Hopelchén (1910–1970): La Tierra Se Redistribuye, el Chicle Se Explota",
+      "rango_temporal": "1910 — 1970",
+      "año_inicio": 1910,
+      "año_fin": 1970,
+      "n_registros": 10,
+      "n_con_fuente": 10,
+      "n_con_conexion": 10,
+      "pct_fuente": 100.0,
+      "pct_conexion": 100.0
+    },
+    {
+      "id": "005",
+      "titulo": "Hopelchén Contemporáneo (1970–2026): Menonitas, Agroindustria Transgénica y Resistencia Maya — El Último Ciclo Extractivo",
+      "rango_temporal": "1970 — 2026",
+      "año_inicio": 1970,
+      "año_fin": 2026,
+      "n_registros": 7,
+      "n_con_fuente": 7,
+      "n_con_conexion": 7,
+      "pct_fuente": 100.0,
+      "pct_conexion": 100.0
+    },
+    {
+      "id": "006",
+      "titulo": "La Genealogía del Poder Político Local en Hopelchén (1959–2026): Apellidos, Nepotismo, Filiaciones y Continuidad",
+      "rango_temporal": "1959 — 2026",
+      "año_inicio": 1959,
+      "año_fin": 2026,
+      "n_registros": 9,
+      "n_con_fuente": 9,
+      "n_con_conexion": 9,
+      "pct_fuente": 100.0,
+      "pct_conexion": 100.0
+    },
+    {
+      "id": "007",
+      "titulo": "Rutas, Territorio y Control del Espacio en Hopelchén (1517–2026): Del Camino Real al Campo de Aterrizaje Chiclero y la Carretera 261",
+      "rango_temporal": "1517 — 2026",
+      "año_inicio": 1517,
+      "año_fin": 2026,
+      "n_registros": 10,
+      "n_con_fuente": 10,
+      "n_con_conexion": 10,
+      "pct_fuente": 100.0,
+      "pct_conexion": 100.0
+    },
+    {
+      "id": "008",
+      "titulo": "Demografía e Historia de la Población en Hopelchén (300 a.C.–2026): Censos, Colapsos, Migraciones y el Perfil del Pueblo Maya Contemporáneo",
+      "rango_temporal": "300 a.C. — 2026",
+      "año_inicio": -300,
+      "año_fin": 2026,
+      "n_registros": 11,
+      "n_con_fuente": 11,
+      "n_con_conexion": 11,
+      "pct_fuente": 100.0,
+      "pct_conexion": 100.0
+    },
+    {
+      "id": "009",
+      "titulo": "Resistencia y Agencia Maya en Hopelchén (1669–2026): De los Bataboob a Leydy Pech — Los Mayas como Sujetos Activos de su Historia",
+      "rango_temporal": "1669 — 2026",
+      "año_inicio": 1669,
+      "año_fin": 2026,
+      "n_registros": 11,
+      "n_con_fuente": 11,
+      "n_con_conexion": 11,
+      "pct_fuente": 100.0,
+      "pct_conexion": 100.0
+    },
+    {
+      "id": "010",
+      "titulo": "Conocimiento y Cultura Maya en Los Chenes (300 a.C. – 2026): Astronomía, Escritura, Destrucción y Continuidad",
+      "rango_temporal": "300 a.C. — 2026",
+      "año_inicio": -300,
+      "año_fin": 2026,
+      "n_registros": 9,
+      "n_con_fuente": 9,
+      "n_con_conexion": 9,
+      "pct_fuente": 100.0,
+      "pct_conexion": 100.0
+    }
+  ],
+  "resumen": {
+    "total_nodos": 10,
+    "total_registros": 95,
+    "total_con_fuente": 95,
+    "total_sin_fuente": 0,
+    "total_con_conexion": 95,
+    "total_sin_conexion": 0,
+    "total_preguntas": 62,
+    "pct_fuente_global": 100.0,
+    "pct_conexion_global": 100.0
+  },
+  "preguntas": {
+    "por_nodo": {
+      "001": {
+        "Pendiente": 6,
+        "Respondida": 2
+      },
+      "002": {
+        "Pendiente": 7,
+        "Respondida": 1
+      },
+      "003": {
+        "Pendiente": 6,
+        "Respondida": 1
+      },
+      "004": {
+        "Pendiente": 4,
+        "Respondida": 2
+      },
+      "005": {},
+      "006": {
+        "Pendiente": 6,
+        "Respondida": 5
+      },
+      "007": {
+        "Pendiente": 7,
+        "Respondida": 1
+      },
+      "008": {
+        "Respondida": 4,
+        "Pendiente": 4
+      },
+      "009": {
+        "Pendiente": 2,
+        "Respondida": 4
+      }
+    },
+    "totales": {
+      "Pendiente": 42,
+      "Respondida": 20
+    }
+  },
+  "cobertura": {
+    "tipos_dato": {
+      "Citado/Arqueológico": 3,
+      "sin_tipo": 3,
+      "Citado académico": 2,
+      "Citado — fuente primaria académica": 2,
+      "Análisis estructural": 2,
+      "Citado/Epigráfico": 1,
+      "Citado con reserva — requiere verificación primaria": 1,
+      "Citado/Académico": 1,
+      "Citado — pendiente verificación directa del texto completo": 1,
+      "Citado con reserva — contexto regional": 1,
+      "Citado/Narrativo — verificable en Chamberlain": 1,
+      "Citado — con necesidad de profundización en documentos Xiu": 1,
+      "Citado — requiere cotejo con AGN y AGI": 1,
+      "Parcialmente citado — requiere fuente primaria": 1,
+      "Citado con reserva": 1,
+      "Citado con reserva crítica — requiere fuente primaria urgente": 1,
+      "Contextual — requiere aplicación específica a Los Chenes": 1,
+      "Citado — pendiente acceso directo al texto": 1,
+      "Citado con reserva — requiere verificación en fuentes primarias coloniales": 1,
+      "Citado académico — dato verificable con fuente primaria en AGEY (Archivo General del Estado de Yucatán)": 1,
+      "Citado / Narrativo con soporte académico": 1,
+      "Citado — verificable en historia institucional de Campeche": 1,
+      "Citado — alta fiabilidad para datos genealógicos": 1,
+      "Citado — requiere ampliación con fuentes directas": 1,
+      "Análisis — cruce de datos documentados": 1,
+      "Biográfico — fuente académica verificada": 1,
+      "Biográfico — múltiples fuentes académicas y documentales": 1,
+      "Biográfico — verificado en historiografía del Porfiriato": 1,
+      "Citado": 1,
+      "Citado con reserva — los hacendados antiagrarios de Hopelchén no están nominados en fuentes consultadas": 1,
+      "Citado académico — datos verificables en DOF y RAN": 1,
+      "Citado académico — alta confiabilidad": 1,
+      "Citado — alta confiabilidad en datos cuantitativos": 1,
+      "Bibliográfico — identificación de fuentes primarias": 1,
+      "Análisis estructural — cruce de datos documentados": 1,
+      "Biográfico — verificado parcialmente; difusión musical requiere fuentes primarias musicológicas": 1,
+      "Histórico documentado — fuentes periodísticas e institucionales": 1,
+      "Inferido — verificación pendiente": 1,
+      "Citado periodístico — verificable en registros ejidales": 1,
+      "Citado — periodismo de investigación + datos gubernamentales": 1,
+      "Citado — fuentes legales primarias y periodísticas verificadas": 1,
+      "Citado — periodismo de investigación y fuentes académicas": 1,
+      "Citado — periodismo reciente verificado": 1,
+      "Análisis estructural — síntesis del repositorio": 1,
+      "Económico-ambiental — datos institucionales verificados": 1,
+      "Citado — múltiples fuentes periodísticas e institucionales verificadas": 1,
+      "Hipótesis pendiente de verificación — alta prioridad": 1,
+      "Citado — pendiente verificación genealógica": 1,
+      "Citado con análisis": 1,
+      "Biográfico — documentado en fuente testimonial literaria y fuente periodística": 1,
+      "Inferido — hipótesis pendiente de verificación": 1,
+      "Citado — fuentes académicas e institucionales": 1,
+      "Citado — verificable en Periódico Oficial de Campeche 1870": 1,
+      "Citado — fuente primaria académica con citas directas": 1,
+      "Citado — fuente primaria académica con testimonio de campo": 1,
+      "Contextual — requiere profundización en historia de la carretera": 1,
+      "Bibliográfico — identificación de fuentes para próximas iteraciones": 1,
+      "Verificado (existencia y trazo actual) / Inferido (fecha de construcción histórica)": 1,
+      "Estimado — sin fuente primaria directa para período prehispánico": 1,
+      "Citado — múltiples fuentes secundarias con base en documentos coloniales": 1,
+      "Citado — fuentes institucionales INEGI y CONEVAL": 1,
+      "Citado — fuentes institucionales y periodísticas": 1,
+      "Citado — fuentes institucionales": 1,
+      "Identificado — no consultado directamente": 1,
+      "Cuantitativo — datos satelitales y de gobierno verificados": 1,
+      "Verificado (2020) / Inferido (años anteriores)": 1,
+      "Verificado": 1,
+      "Verificado (total municipal) / Inferido (distribución por localidad)": 1,
+      "Citado — requiere verificación con fuente primaria": 1,
+      "Citado histórico": 1,
+      "Contextual — impacto indirecto en Hopelchén": 1,
+      "Análisis transversal": 1,
+      "Análisis cultural-histórico con evidencia científica contemporánea": 1,
+      "Citado — verificado en múltiples fuentes": 1,
+      "Análisis transversal de síntesis": 1,
+      "Biográfico — verificación parcial; requiere fuente primaria directa": 1,
+      "Citado académico — fuente primaria de archivo verificada": 1,
+      "Organizativo-histórico — verificado en múltiples fuentes sobre el caso Leydy Pech": 1,
+      "Inferido — requiere investigación en archivo": 1,
+      "Análisis arqueológico-astronómico": 1,
+      "Citado académico — evidencia epigráfica": 1,
+      "Histórico verificado — evento documentado en fuente primaria": 1,
+      "Análisis contextual — inferencia razonada": 1,
+      "Histórico-científico verificado con continuidad documentada": 1,
+      "Estadístico con análisis lingüístico-cultural": 1,
+      "Análisis de síntesis transversal": 1,
+      "Cultural-musicológico — verificado en publicación académica": 1,
+      "Literario-testimonial — archivos locales disponibles": 1
+    },
+    "tipos_agrupados": {
+      "Citado": 51,
+      "Análisis": 12,
+      "Biográfico": 6,
+      "Inferido": 6,
+      "Verificado": 7,
+      "Contextual": 3,
+      "Otros": 10
+    }
+  }
+}
