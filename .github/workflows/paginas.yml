@@ -1,0 +1,65 @@
+name: Tablero y Búsqueda — GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "datos/**"
+      - "tools/generar_estadisticas.py"
+      - "tools/generar_indice_busqueda.py"
+      - "docs/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  generar-y-publicar:
+    name: Generar estadísticas, índice y publicar en GitHub Pages
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Configurar Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Generar stats.json
+        run: python tools/generar_estadisticas.py --salida docs/stats.json
+
+      - name: Generar search_index.json
+        run: python tools/generar_indice_busqueda.py --salida docs/search_index.json
+
+      - name: Confirmar archivos generados
+        run: |
+          echo "=== stats.json ===" && python -m json.tool docs/stats.json | head -20
+          echo "=== search_index.json ===" && python -c "import json; d=json.load(open('docs/search_index.json')); print(f'{len(d)} registros indexados')"
+
+      - name: Subir artefacto de Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/
+
+  desplegar:
+    name: Desplegar en GitHub Pages
+    needs: generar-y-publicar
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Desplegar en Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

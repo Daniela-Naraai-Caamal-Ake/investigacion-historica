@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tablero Estadístico — Dos Mil Años en Silencio</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+  <style>
+    :root {
+      --bg: #faf8f5;
+      --surface: #ffffff;
+      --border: #e0d8cc;
+      --text: #2c2416;
+      --muted: #7a6e5f;
+      --accent: #8b4513;
+      --accent2: #c47c2b;
+      --accent3: #3b6ea5;
+      --accent4: #5a9e6f;
+      --red: #c0392b;
+      --shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header {
+      background: var(--accent);
+      color: #fff;
+      padding: 2rem 1.5rem 1.5rem;
+      text-align: center;
+    }
+    header h1 { font-size: 1.7rem; font-weight: bold; margin-bottom: .3rem; }
+    header p { font-size: .95rem; opacity: .85; }
+    header small { display: block; margin-top: .5rem; font-size: .8rem; opacity: .7; font-family: monospace; }
+    .container { max-width: 1100px; margin: 0 auto; padding: 2rem 1.2rem; }
+
+    /* Summary cards */
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 1rem;
+      margin-bottom: 2.5rem;
+    }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.2rem 1rem;
+      text-align: center;
+      box-shadow: var(--shadow);
+    }
+    .card .number {
+      font-size: 2.2rem;
+      font-weight: bold;
+      color: var(--accent);
+      line-height: 1.1;
+    }
+    .card .label {
+      font-size: .8rem;
+      color: var(--muted);
+      margin-top: .25rem;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: .05em;
+    }
+
+    /* Charts grid */
+    .charts-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    @media (max-width: 700px) { .charts-grid { grid-template-columns: 1fr; } }
+    .chart-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.4rem 1.2rem;
+      box-shadow: var(--shadow);
+    }
+    .chart-card h2 {
+      font-size: 1rem;
+      color: var(--text);
+      margin-bottom: 1rem;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      border-left: 3px solid var(--accent);
+      padding-left: .6rem;
+    }
+    .chart-card.wide { grid-column: 1 / -1; }
+    .chart-wrap { position: relative; height: 280px; }
+    .chart-wrap.tall { height: 320px; }
+
+    /* Table */
+    .table-wrap { overflow-x: auto; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: .85rem;
+    }
+    th {
+      background: var(--accent);
+      color: #fff;
+      padding: .5rem .7rem;
+      text-align: left;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+    td { padding: .45rem .7rem; border-bottom: 1px solid var(--border); }
+    tr:hover td { background: #f5f0e8; }
+    .pct-bar {
+      display: inline-block;
+      height: 8px;
+      background: var(--accent4);
+      border-radius: 4px;
+      min-width: 3px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      font-size: .8rem;
+      color: var(--muted);
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      border-top: 1px solid var(--border);
+      margin-top: 2rem;
+    }
+    footer a { color: var(--accent3); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+
+    #error-msg {
+      background: #fdecea;
+      border: 1px solid var(--red);
+      color: var(--red);
+      padding: 1rem;
+      border-radius: 6px;
+      margin-bottom: 1.5rem;
+      font-family: monospace;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <h1>📊 Dos Mil Años en Silencio</h1>
+  <p>Tablero estadístico del proyecto de investigación histórica de Hopelchén, Campeche</p>
+  <small id="ts">Cargando datos…</small>
+</header>
+
+<div class="container">
+  <div id="error-msg"></div>
+
+  <!-- Summary Cards -->
+  <div class="cards" id="cards">
+    <div class="card"><div class="number" id="c-nodos">—</div><div class="label">Nodos temáticos</div></div>
+    <div class="card"><div class="number" id="c-regs">—</div><div class="label">Registros totales</div></div>
+    <div class="card"><div class="number" id="c-fuente">—</div><div class="label">% con fuente citada</div></div>
+    <div class="card"><div class="number" id="c-pregs">—</div><div class="label">Preguntas abiertas</div></div>
+    <div class="card"><div class="number" id="c-resp">—</div><div class="label">% respondidas</div></div>
+  </div>
+
+  <!-- Charts -->
+  <div class="charts-grid">
+
+    <!-- Registros por nodo -->
+    <div class="chart-card wide">
+      <h2>Registros por nodo temático</h2>
+      <div class="chart-wrap">
+        <canvas id="chart-nodos"></canvas>
+      </div>
+    </div>
+
+    <!-- Cobertura de fuentes -->
+    <div class="chart-card">
+      <h2>Cobertura de fuentes por nodo (%)</h2>
+      <div class="chart-wrap">
+        <canvas id="chart-fuentes"></canvas>
+      </div>
+    </div>
+
+    <!-- Preguntas respondidas vs pendientes -->
+    <div class="chart-card">
+      <h2>Estado de preguntas de investigación</h2>
+      <div class="chart-wrap">
+        <canvas id="chart-preguntas"></canvas>
+      </div>
+    </div>
+
+    <!-- Tipos de dato -->
+    <div class="chart-card wide">
+      <h2>Distribución por tipo de dato</h2>
+      <div class="chart-wrap">
+        <canvas id="chart-tipos"></canvas>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Detail Table -->
+  <div class="chart-card" style="margin-bottom:2rem;">
+    <h2>Tabla detallada por nodo</h2>
+    <div class="table-wrap">
+      <table id="tabla-nodos">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Nodo temático</th>
+            <th>Período</th>
+            <th>Registros</th>
+            <th>Con fuente</th>
+            <th>Cobertura fuente</th>
+            <th>Conexión hipótesis</th>
+          </tr>
+        </thead>
+        <tbody id="tbody-nodos"></tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  Proyecto <em>Dos Mil Años en Silencio</em> — Daniela Naraai Caamal Ake &nbsp;|&nbsp;
+  <a href="https://github.com/Daniela-Naraai-Caamal-Ake/investigacion-historica" target="_blank">GitHub</a>
+  &nbsp;|&nbsp;
+  <a href="busqueda.html">🔍 Búsqueda semántica</a>
+</footer>
+
+<script>
+const PALETTE = [
+  '#8b4513','#c47c2b','#3b6ea5','#5a9e6f','#9b59b6',
+  '#e67e22','#2980b9','#27ae60','#e74c3c','#1abc9c',
+];
+const CHART_DEFAULTS = {
+  plugins: { legend: { labels: { font: { family: 'Helvetica Neue, Arial, sans-serif', size: 12 } } } },
+};
+
+function pctBar(pct) {
+  return `<span class="pct-bar" style="width:${Math.round(pct)}px"></span> ${pct}%`;
+}
+
+function shortTitle(titulo, maxLen = 40) {
+  return titulo.length > maxLen ? titulo.slice(0, maxLen) + '…' : titulo;
+}
+
+async function init() {
+  let data;
+  try {
+    const resp = await fetch('stats.json');
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    data = await resp.json();
+  } catch (e) {
+    const el = document.getElementById('error-msg');
+    el.textContent = `No se pudo cargar stats.json: ${e.message}. Asegúrate de servir la página desde un servidor HTTP.`;
+    el.style.display = 'block';
+    document.getElementById('ts').textContent = 'Error al cargar datos.';
+    return;
+  }
+
+  const { resumen, nodos, preguntas, cobertura, generado_en } = data;
+
+  // Timestamp
+  const d = new Date(generado_en);
+  document.getElementById('ts').textContent =
+    `Última actualización: ${d.toLocaleDateString('es-MX', { year:'numeric', month:'long', day:'numeric' })} ${d.toLocaleTimeString('es-MX', { hour:'2-digit', minute:'2-digit' })} UTC`;
+
+  // Cards
+  document.getElementById('c-nodos').textContent = resumen.total_nodos;
+  document.getElementById('c-regs').textContent = resumen.total_registros;
+  document.getElementById('c-fuente').textContent = resumen.pct_fuente_global + '%';
+  const totalPregs = resumen.total_preguntas;
+  const respondidas = preguntas.totales['Respondida'] || 0;
+  document.getElementById('c-pregs').textContent = totalPregs;
+  document.getElementById('c-resp').textContent =
+    totalPregs > 0 ? Math.round(100 * respondidas / totalPregs) + '%' : '—';
+
+  const labels = nodos.map(n => `Nodo ${n.id}`);
+  const titlesShort = nodos.map(n => shortTitle(n.titulo));
+
+  // Chart 1: Registros por nodo
+  new Chart(document.getElementById('chart-nodos'), {
+    type: 'bar',
+    data: {
+      labels: titlesShort,
+      datasets: [{
+        label: 'Registros',
+        data: nodos.map(n => n.n_registros),
+        backgroundColor: PALETTE,
+        borderRadius: 4,
+      }]
+    },
+    options: {
+      ...CHART_DEFAULTS,
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        ...CHART_DEFAULTS.plugins,
+        legend: { display: false },
+        tooltip: { callbacks: { title: (items) => nodos[items[0].dataIndex].titulo } },
+      },
+      scales: {
+        y: { beginAtZero: true, ticks: { stepSize: 1 } },
+        x: { ticks: { font: { size: 10 } } },
+      }
+    }
+  });
+
+  // Chart 2: Cobertura fuentes
+  new Chart(document.getElementById('chart-fuentes'), {
+    type: 'bar',
+    data: {
+      labels: titlesShort,
+      datasets: [
+        {
+          label: 'Con fuente',
+          data: nodos.map(n => n.n_con_fuente),
+          backgroundColor: '#5a9e6f',
+          borderRadius: 3,
+        },
+        {
+          label: 'Sin fuente',
+          data: nodos.map(n => n.n_registros - n.n_con_fuente),
+          backgroundColor: '#e74c3c',
+          borderRadius: 3,
+        }
+      ]
+    },
+    options: {
+      ...CHART_DEFAULTS,
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        ...CHART_DEFAULTS.plugins,
+        tooltip: { callbacks: { title: (items) => nodos[items[0].dataIndex].titulo } },
+      },
+      scales: {
+        x: { stacked: true, ticks: { font: { size: 10 } } },
+        y: { stacked: true, beginAtZero: true }
+      }
+    }
+  });
+
+  // Chart 3: Preguntas
+  const pregLabels = Object.keys(preguntas.totales);
+  const pregValues = Object.values(preguntas.totales);
+  const pregColors = { 'Respondida': '#5a9e6f', 'En curso': '#c47c2b', 'Pendiente': '#e74c3c' };
+  new Chart(document.getElementById('chart-preguntas'), {
+    type: 'doughnut',
+    data: {
+      labels: pregLabels,
+      datasets: [{
+        data: pregValues,
+        backgroundColor: pregLabels.map(l => pregColors[l] || '#999'),
+        borderWidth: 2,
+        borderColor: '#fff',
+      }]
+    },
+    options: {
+      ...CHART_DEFAULTS,
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        ...CHART_DEFAULTS.plugins,
+        tooltip: {
+          callbacks: {
+            label: (ctx) => ` ${ctx.label}: ${ctx.raw} (${Math.round(100*ctx.raw/totalPregs)}%)`
+          }
+        }
+      }
+    }
+  });
+
+  // Chart 4: Tipos agrupados
+  const tipos = cobertura.tipos_agrupados || {};
+  const tipoLabels = Object.keys(tipos);
+  const tipoValues = Object.values(tipos);
+  new Chart(document.getElementById('chart-tipos'), {
+    type: 'bar',
+    data: {
+      labels: tipoLabels,
+      datasets: [{
+        label: 'Registros',
+        data: tipoValues,
+        backgroundColor: PALETTE.slice(0, tipoLabels.length),
+        borderRadius: 4,
+      }]
+    },
+    options: {
+      ...CHART_DEFAULTS,
+      responsive: true,
+      maintainAspectRatio: false,
+      indexAxis: 'y',
+      plugins: {
+        ...CHART_DEFAULTS.plugins,
+        legend: { display: false },
+      },
+      scales: {
+        x: { beginAtZero: true, ticks: { stepSize: 5 } },
+      }
+    }
+  });
+
+  // Table
+  const tbody = document.getElementById('tbody-nodos');
+  nodos.forEach(n => {
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td><strong>${n.id}</strong></td>
+      <td style="max-width:320px;font-size:.82rem">${n.titulo}</td>
+      <td style="white-space:nowrap;font-size:.82rem">${n.rango_temporal || '—'}</td>
+      <td style="text-align:center">${n.n_registros}</td>
+      <td style="text-align:center">${n.n_con_fuente}</td>
+      <td>${pctBar(n.pct_fuente)}</td>
+      <td>${pctBar(n.pct_conexion)}</td>
+    `;
+    tbody.appendChild(tr);
+  });
+}
+
+init();
+</script>
+</body>
+</html>

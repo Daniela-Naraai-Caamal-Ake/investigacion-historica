@@ -1,0 +1,43 @@
+name: Validación Automática de Datos
+
+on:
+  push:
+    branches: ["**"]
+    paths:
+      - "datos/**"
+      - "tools/validar_datos.py"
+  pull_request:
+    branches: ["**"]
+    paths:
+      - "datos/**"
+      - "tools/validar_datos.py"
+  workflow_dispatch:
+
+jobs:
+  validar:
+    name: Validar integridad de datos históricos
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Configurar Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Validar estructura de nodos y preguntas
+        run: python tools/validar_datos.py
+
+      - name: Validar fechas y consistencia temporal
+        run: python tools/validar_fechas.py
+
+      - name: Resumen de cobertura de datos
+        if: always()
+        run: python tools/validar_datos.py --silencioso && echo "✅ Sin errores bloqueantes"
