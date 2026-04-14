@@ -17,12 +17,6 @@ Fuentes consultadas:
     Wikipedia   — API REST pública en español e inglés (sin clave)
     OpenLibrary — Catálogo abierto de libros (Open Library / Internet Archive)
     DuckDuckGo  — Búsqueda web general (HTML lite, sin clave)
-    Firecrawl   — Búsqueda web avanzada con extracción de contenido (requiere clave API)
-
-Configuración de Firecrawl:
-    Exporta la variable de entorno FIRECRAWL_API_KEY antes de ejecutar el script,
-    o crea un archivo .env en la raíz del proyecto con el valor correspondiente.
-    Si no se configura la clave, el motor Firecrawl se omite silenciosamente.
 
 Salidas:
     datos/investigacion/fuentes_vacias_YYYYMMDD.json
@@ -35,14 +29,13 @@ Salidas:
         existentes).
 
 Dependencias:
-    pip install requests beautifulsoup4 firecrawl-py
+    pip install requests beautifulsoup4
 """
 
 from __future__ import annotations
 
 import argparse
 import json
-import os
 import sys
 import time
 from datetime import datetime
@@ -66,22 +59,6 @@ try:
 except ImportError:
     _DEPS_OK = False
 
-try:
-    from firecrawl import FirecrawlApp as _FirecrawlApp  # type: ignore
-    _FIRECRAWL_OK = True
-except ImportError:
-    _FIRECRAWL_OK = False
-
-# Clave Firecrawl: se lee primero de la variable de entorno, luego del archivo .env
-_FIRECRAWL_API_KEY: str | None = os.environ.get("FIRECRAWL_API_KEY")
-if not _FIRECRAWL_API_KEY:
-    _dotenv_path = ROOT / ".env"
-    if _dotenv_path.exists():
-        for _line in _dotenv_path.read_text(encoding="utf-8").splitlines():
-            _line = _line.strip()
-            if _line.startswith("FIRECRAWL_API_KEY=") and not _line.startswith("#"):
-                _FIRECRAWL_API_KEY = _line.split("=", 1)[1].strip().strip('"').strip("'")
-                break
 
 
 def _verificar_dependencias() -> None:
@@ -310,19 +287,6 @@ def _construir_consultas(registro: dict) -> list[dict]:
         "descripcion": f"DuckDuckGo — {subtitulo[:60]}",
     })
 
-    # ── Consulta Firecrawl ───────────────────────────────────────────────────
-    if _FIRECRAWL_API_KEY and _FIRECRAWL_OK:
-        fc_query = termino_principal_geo if termino_principal_geo else termino_principal
-        if fecha and not es_sintetico:
-            inicio = fecha.split("—")[0].split("–")[0].strip()[:4]
-            if inicio.isdigit() and inicio not in fc_query:
-                fc_query = f"{fc_query} {inicio}"
-        consultas.append({
-            "motor": "firecrawl",
-            "query": fc_query,
-            "descripcion": f"Firecrawl — {subtitulo[:60]}",
-        })
-
     return consultas
 
 
@@ -478,65 +442,6 @@ def _buscar_duckduckgo(query: str) -> list[dict]:
     return resultados
 
 
-# ─── Motor Firecrawl ──────────────────────────────────────────────────────────
-
-def _buscar_firecrawl(query: str, api_key: str) -> list[dict]:
-    """
-    Busca en la web usando la API de Firecrawl y devuelve hasta 5 resultados
-    con título, URL y descripción.
-
-    Requiere ``firecrawl-py`` instalado y una clave API válida.
-    """
-    if not _FIRECRAWL_OK:
-        return []
-    try:
-        app = _FirecrawlApp(api_key=api_key)
-        resp = app.search(query, limit=5)
-        # resp es SearchData con atributo .web (lista de SearchResultWeb)
-        docs = getattr(resp, "web", None)
-        if docs is None:
-            docs = resp if isinstance(resp, list) else []
-        resultados: list[dict] = []
-        for doc in docs:
-            # Soporta tanto objetos Pydantic como dicts
-            if hasattr(doc, "model_dump"):
-                doc_dict = doc.model_dump()
-            elif hasattr(doc, "__dict__"):
-                doc_dict = doc.__dict__
-            else:
-                doc_dict = dict(doc) if isinstance(doc, dict) else {}
-            # SearchResultWeb tiene título y descripción directamente en el objeto
-            titulo = doc_dict.get("title") or ""
-            descripcion = doc_dict.get("description") or ""
-            # Fallback a metadata si existe (compatibilidad con respuestas Document)
-            if not titulo or not descripcion:
-                metadata = doc_dict.get("metadata") or {}
-                if isinstance(metadata, dict):
-                    titulo = titulo or metadata.get("title", "") or metadata.get("og:title", "")
-                    descripcion = descripcion or metadata.get("description", "") or metadata.get("og:description", "")
-            url = doc_dict.get("url", "")
-            if not titulo and not url:
-                continue
-            resultado: dict = {"titulo": titulo, "url": url}
-            if descripcion:
-                resultado["descripcion"] = descripcion[:300]
-            # Incluir extracto de markdown si está disponible
-            markdown = doc_dict.get("markdown") or ""
-            if markdown:
-                resultado["extracto"] = markdown[:300]
-            resultados.append(resultado)
-        return resultados
-    except Exception as exc:
-        # firecrawl-py ≥ 4.x lanza AttributeError cuando no hay red disponible;
-        # se detecta comprobando la causa raíz.
-        causa = exc.__context__ or exc.__cause__
-        if isinstance(causa, OSError) or isinstance(exc, AttributeError):
-            print("    ⚠  Firecrawl sin conexión — verifica el acceso a la red y la API key.")
-        else:
-            print(f"    ⚠  Firecrawl error: {exc}")
-        return []
-
-
 # ─── Ejecución de consultas ───────────────────────────────────────────────────
 
 def ejecutar_consulta(consulta: dict) -> dict:
@@ -562,12 +467,6 @@ def ejecutar_consulta(consulta: dict) -> dict:
             resultados = _buscar_openlibrary(query)
         elif motor == "duckduckgo":
             resultados = _buscar_duckduckgo(query)
-        elif motor == "firecrawl":
-            api_key = consulta.get("api_key") or _FIRECRAWL_API_KEY or ""
-            if not api_key:
-                estado = "sin_clave_api"
-            else:
-                resultados = _buscar_firecrawl(query, api_key=api_key)
         else:
             estado = "motor_desconocido"
     except Exception as exc:
