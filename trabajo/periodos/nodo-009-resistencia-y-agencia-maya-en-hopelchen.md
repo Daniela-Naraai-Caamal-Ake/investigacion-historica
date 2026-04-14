@@ -147,14 +147,81 @@ _Origen: datos/hopelchen/leydy_pech_perfil.json — SCJN Amparo en Revisión 441
 | **Lugar** | Los Chenes, Hopelchén, Campeche — Península de Yucatán |
 | **Personajes** | — |
 | **Cargos** | — |
-| **Fuente(s)** | — |
+| **Fuente(s)** | leydy_pech_perfil.json — datos sobre la lucha jurídica y el Premio Goldman 2020; síntesis del proyecto |
 | **Origen** | `datos/hopelchen/HOPELCHEN_NODO_009_Resistencia_Agencia_Maya.json` |
 
 > Al cruzar los registros de los Nodos 001-009, emerge un patrón de resistencia maya con cinco formas documentadas que se suceden a través de los siglos: (1) Resistencia de autoridad tradicional (bataboob 1669): mantener estructuras de poder propias paralelas al sistema colonial. (2) Resistencia armada (Juan de Dios May 1848, Chan Santa Cruz 1850-1901): respuesta directa al despojo territorial con fuerza militar. (3) Resistencia de continuidad cultural (meliponicultura 3,000 años, lengua maya, conocimiento botánico): mantener viva la práctica cultural como acto de supervivencia identitaria. (4) Resistencia institucional (ejidos 1934-1992): usar las herramientas legales del Estado para proteger el territorio comunitario. (5) Resistencia jurídica-internacional (Leydy Pech 2012-2020): escalar la demanda al sistema judicial y a organismos internacionales, combinando conocimiento ancestral con herramientas jurídicas modernas. Cada forma de resistencia corresponde a los instrumentos disponibles en su contexto histórico. El objetivo es siempre el mismo: defender el territorio, la cultura y la autonomía de la comunidad maya frente al ciclo extractivo.
 
+_Origen: leydy_pech_perfil.json — datos sobre la lucha jurídica y el Premio Goldman 2020; síntesis del proyecto_
 **⚠ Nota/contradicción:** El patrón de resistencia exitosa siempre fue parcial y temporal: los bataboob de 1669 eventualmente fueron integrados o eliminados; Juan de Dios May no recuperó las tierras privatizadas; Chan Santa Cruz fue derrotado en 1901; los ejidos fueron reformados en 1992; la victoria de Leydy Pech no revirti
 **→ Conexión hipótesis:** El Nodo 009 complica y enriquece la hipótesis central: el control externo sobre Hopelchén no ha sido total ni ininterrumpido — ha sido constestado, negociado y resistido en cada era por las mismas com
 **Etiquetas:** resistencia transversal, 500 años, formas de resistencia, agencia maya, continuidad, despojo y resistencia, patrón histórico
+
+---
+
+
+### Bloque 009-H — Francisco Caamal: comandante maya de Los Chenes en la Guerra de Castas
+
+| Campo | Valor |
+|---|---|
+| **Tipo** | Biográfico — verificación parcial; requiere fuente primaria directa |
+| **Fecha / Período** | 1847 — 1850 |
+| **Lugar** | Los Chenes, Hopelchén, Campeche |
+| **Personajes** | Francisco Caamal (Comandante maya de Los Chenes durante la Guerra de Castas 1847-1850) |
+| **Cargos** | Comandante maya de Los Chenes durante la Guerra de Castas 1847-1850 |
+| **Fuente(s)** | AV_PERSONAS.md — FRANCISCO CAAMAL (síntesis de investigación previa del proyecto) |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_009_Resistencia_Agencia_Maya.json` |
+
+> Francisco Caamal fue uno de los líderes mayas de la región de Los Chenes durante el período más agudo de la Guerra de Castas (1847-1850). Su apellido — Caamal — es un apellido maya ampliamente presente en el municipio de Hopelchén hasta la actualidad. Junto a Juan de Dios May, Francisco Caamal representa la dirección político-militar de la resistencia maya organizada en Los Chenes durante el conflicto. El apellido Caamal aparece documentado en el municipio en tres momentos históricos significativos: como apellido de comandante maya insurgente en 1847-1850; como apellido del escritor Miguel Ángel Suárez Caamal (Calkiní, 1953), autor de la única novela campechana sobre la Guerra de Castas (*La rebelión de los Cruzoob*, 1997); y como apellido de la autora de esta investigación, Daniela Naraai Caamal Ake, originaria de Hopelchén. La continuidad del apellido en el municipio durante 175 años es evidencia de que el linaje maya de Los Chenes — despojado en cada ciclo — persiste genealógicamente en sus descendientes.
+
+_Origen: AV_PERSONAS.md — FRANCISCO CAAMAL (síntesis de investigación previa del proyecto)_
+**⚠ Nota/contradicción:** Juan de Dios May y Francisco Caamal son los dos comandantes mayas de Los Chenes más documentados de la Guerra de Castas — y ninguno tiene reconocimiento público en el municipio. No hay calle, plaza ni placa con su nombre en Hopelchén. La narrativa local de la Guerra de Castas en Los Chenes, cuando e
+**→ Conexión hipótesis:** Francisco Caamal es evidencia directa del Nodo 009: la resistencia armada organizada en Los Chenes en 1848 no fue un evento aislado sino el resultado de la agencia política de líderes mayas locales co
+**Etiquetas:** Francisco Caamal, Guerra de Castas, Los Chenes, comandante maya, resistencia 1848, apellido Caamal, líderes mayas, invisibilidad histórica, Hopelchén
+
+---
+
+
+### Bloque 009-I — Los Siete de Bolonchenticul (julio 1849): mayas de Hopelchén que pelea
+
+| Campo | Valor |
+|---|---|
+| **Tipo** | Citado académico — fuente primaria de archivo verificada |
+| **Fecha / Período** | Julio 1849 |
+| **Lugar** | Bolonchenticul (hoy municipio de Hopelchén), Campeche |
+| **Personajes** | Los Siete de Bolonchenticul (nombres individuales no identificados aún) (Mayas de Hopelchén que defendieron la guarnición del Estado en julio 1849) |
+| **Cargos** | Mayas de Hopelchén que defendieron la guarnición del Estado en julio 1849 |
+| **Fuente(s)** | Kosichenko, Ivan Nikítovich — 'Voluntarios mayas en la Guardia Nacional de Yucatán (1847-1851)'. *Латинская Америка* (América Latina) nº 2/2025, pp. 87-101. DOI: 10.31857/S0044748X25020078. |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_009_Resistencia_Agencia_Maya.json` |
+
+> En julio de 1849, siete indígenas mayas de Bolonchenticul (municipio de Hopelchén) acudieron voluntariamente a defender la guarnición del 6o. Batallón de la Guardia Nacional contra un ataque de los insurrectos mayas. Como recompensa por su lealtad al Estado, recibieron 'credenciales de hidalgos' — el único reconocimiento formal posible bajo la legislación de la época. Este dato, documentado en el Archivo General del Estado de Yucatán (AGEY, caja 169, vol.119, exp.24), es metodológicamente crucial: revela que la Guerra de Castas en Hopelchén no fue un conflicto binario entre 'mayas vs. mestizos'. Las comunidades mayas del municipio estuvieron divididas: algunos pelearon con Juan de Dios May y Francisco Caamal contra el Estado; otros pelearon con la Guardia Nacional del Estado contra los insurgentes. Esta complejidad interna de la comunidad maya de Los Chenes en 1848-1849 es políticamente incómoda para cualquier narrativa que presente la resistencia maya como monolítica.
+
+_Origen: Kosichenko, Ivan Nikítovich — 'Voluntarios mayas en la Guardia Nacional de Yucatán (1847-1851)'. *Латинская Америка* (América Latina) nº 2/2025, pp. 87-101. DOI: 10.31857/S0044748X25020078._
+**⚠ Nota/contradicción:** El artículo de Kosichenko también documenta otro caso de Bolonchenticul (AGEY caja 111, vol.61, exp.50): José Chan, sirviente deudor de 52 pesos, se alistó como voluntario en la Guardia Nacional para escapar de la servidumbre. Fue 'devuelto a su dueña' por la autoridad. El mismo Estado que otorgó cr
+**→ Conexión hipótesis:** Los Siete de Bolonchenticul son evidencia de que la agencia maya no es monolítica ni unidireccional: en 1849, mayas de Hopelchén tomaron decisiones individuales de supervivencia que los colocaron en l
+**Etiquetas:** Los Siete de Bolonchenticul, 1849, Guardia Nacional, hidalgos, lealtad, divididos, AGEY, Kosichenko, complejidad maya, resistencia múltiple
+
+---
+
+
+### Bloque 009-J — Koolel-Kab / Muuchkambal (1995): la cooperativa de mujeres mayas de Ho
+
+| Campo | Valor |
+|---|---|
+| **Tipo** | Organizativo-histórico — verificado en múltiples fuentes sobre el caso Leydy Pech |
+| **Fecha / Período** | 1995 — 2026 |
+| **Lugar** | Ich Ek, municipio de Hopelchén, Campeche |
+| **Personajes** | Leydy Araceli Pech Martín (Fundadora de Koolel-Kab/Muuchkambal (1995); apicultora; activista ambiental; Premio Goldman 2020) |
+| **Cargos** | Fundadora de Koolel-Kab/Muuchkambal (1995); apicultora; activista ambiental; Premio Goldman 2020 |
+| **Fuente(s)** | leydy_pech_perfil.json — 'Perfil Completo de Leydy Pech Martín'. Proyecto Hopelchén, 2026. |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_009_Resistencia_Agencia_Maya.json` |
+
+> Antes de que Leydy Pech recibiera el Premio Goldman en 2020, la infraestructura organizativa que hizo posible su victoria jurídica ya existía. En 1995, Leydy Pech y un grupo de mujeres mayas de Ich Ek fundaron Koolel-Kab / Muuchkambal — cooperativa de agricultura orgánica y agroforestería exclusivamente de mujeres mayas. La cooperativa se especializó en meliponicultura (cría de la abeja sin aguijón Melipona beecheii, llamada Xunáan Kab — 'la dama de la miel' en maya) y en la producción de mieles, jabones y cremas de base orgánica. Ich Ek es una pequeña localidad de Hopelchén cuyo nombre en maya significa 'ojo de estrella'. La cooperativa no nació del activismo contra los transgénicos — nació del rescate de una práctica agrícola ancestral que estaba desapareciendo ante la expansión de la agroindustria menonita. La Xunáan Kab tiene al menos 3,000 años de tradición en la Península de Yucatán (documentada en el Códice Madrid). La meliponicultura es el hilo de continuidad cultural más largo verificable del repositorio.
+
+_Origen: leydy_pech_perfil.json — 'Perfil Completo de Leydy Pech Martín'. Proyecto Hopelchén, 2026._
+**⚠ Nota/contradicción:** La victoria jurídica de Leydy Pech (2015-2017) no detuvo la siembra ilegal ni la deforestación. Para 2020 — año en que recibió el Premio Goldman — la situación en Hopelchén seguía siendo crítica: siembra con fumigación aérea, pistas clandestinas, deforestación continuada. El Premio Goldman reconoce 
+**→ Conexión hipótesis:** Koolel-Kab/Muuchkambal es el modelo organizativo que demuestra que la agencia maya en Hopelchén tiene profundidad institucional — no es solo la historia de un liderazgo individual. La cooperativa fund
+**Etiquetas:** Koolel-Kab, Muuchkambal, Leydy Pech, meliponicultura, Xunáan Kab, Ich Ek, cooperativa maya, mujeres, Goldman Prize 2020, resistencia organizativa, 1995, Hopelchén
 
 ---
 

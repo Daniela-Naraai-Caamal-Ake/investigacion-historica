@@ -5,7 +5,6 @@
   "nodo_origen": "004 — Revolución, Reforma Agraria y Economía Chiclera (1910–1970)",
   "fecha_generacion": "2026-04-03",
   "estado": "Activo — pendiente de investigación",
-
   "CONTEXTO_PARA_PROXIMA_SESION": {
     "resumen_estado": "Nodos 001-004 completados. El repositorio cubre desde 300 a.C. hasta ~1970. Falta el período más reciente (1970-2026) que incluye: llegada de menonitas, agroindustria transgénica, conflictos mayas actuales, resistencia indígena contemporánea y el poder político reciente.",
     "nodo_siguiente": "NODO 005 — Hopelchén Contemporáneo (1970–2026): Menonitas, Transgénicos, Poder Político y Resistencia Maya",
@@ -33,76 +32,117 @@
       "Cogolludo — Historia de Yucatán (1688) — bataboob de 1669 (pendiente desde Nodo 002)"
     ]
   },
-
   "preguntas_urgentes": [
-
     {
       "pregunta_id": "P004-01",
       "pregunta": "¿Quiénes eran los hacendados específicos de Hopelchén que encabezaron la 'lucha antiagraria' post-Revolución (1910-1930)? ¿Sus apellidos? ¿Qué haciendas defendieron?",
       "contexto": "Wikipedia y otras fuentes dicen que Hopelchén fue 'uno de los principales focos de lucha antiagraria' sin nombrar a los protagonistas. Pedro Advíncula Lara es el único hacendado identificado, pero probablemente no fue el único.",
-      "fuentes": ["Aranda González (1985)", "Periódico Oficial Campeche 1910-1935", "Archivo Municipal Hopelchén", "DOF — amparos agrarios"],
+      "fuentes": [
+        "Aranda González (1985)",
+        "Periódico Oficial Campeche 1910-1935",
+        "Archivo Municipal Hopelchén",
+        "DOF — amparos agrarios"
+      ],
       "prioridad": "URGENTE",
       "conexion_hipotesis": "Identificar a los hacendados antiagrarios es identificar la élite que resistió la redistribución. Sus apellidos pueden conectar con el poder político actual."
     },
-
     {
       "pregunta_id": "P004-02",
       "pregunta": "¿Cuáles son las 10 comunidades fundadas en Hopelchén entre 1930-1950 como resultado de la Reforma Agraria? ¿De qué haciendas se tomaron sus tierras? ¿Qué resoluciones presidenciales las crearon?",
       "contexto": "El artículo de SciELO sobre Reforma Agraria en Campeche documenta que 10 nuevas comunidades se fundaron en Hopelchén entre 1930-1950, pero no las nombra. Identificarlas permite saber qué haciendas fueron afectadas — y por tanto qué familias perdieron poder.",
-      "fuentes": ["DOF — Resoluciones presidenciales ejidales", "RAN (Registro Agrario Nacional)", "SciELO Cantún Caamal (2012) — cuadros estadísticos del artículo"],
+      "fuentes": [
+        "DOF — Resoluciones presidenciales ejidales",
+        "RAN (Registro Agrario Nacional)",
+        "SciELO Cantún Caamal (2012) — cuadros estadísticos del artículo"
+      ],
       "prioridad": "Alta"
     },
-
     {
       "pregunta_id": "P004-03",
       "pregunta": "¿Quiénes eran los principales contratistas chicleros de Hopelchén y Dzibalchén? ¿Sus nombres y apellidos? ¿Qué fortunas acumularon?",
       "contexto": "Los contratistas chicleros tenían el monopolio de la compra, transporte y abasto en Los Chenes durante 3-4 décadas. Sus apellidos y fortunas son el equivalente chiclero de los encomenderos del siglo XVI. Ponce Jiménez (1990) puede tenerlos.",
-      "fuentes": ["Ponce Jiménez (1990) — La Montaña Chiclera", "Aranda González (1985)", "Archivo Municipal Hopelchén"],
+      "fuentes": [
+        "Ponce Jiménez (1990) — La Montaña Chiclera",
+        "Aranda González (1985)",
+        "Archivo Municipal Hopelchén"
+      ],
       "prioridad": "Alta"
     },
-
     {
       "pregunta_id": "P004-04",
       "pregunta": "¿Qué fue de los campos aéreos de Hopelchén y X Can Há después del fin del auge chiclero? ¿Las tierras donde estaban los campos pasaron a ser ejido, propiedad privada o terreno nacional?",
       "contexto": "Los campos aéreos de Hopelchén y X Can Há fueron construidos por contratistas chicleros en los años 30. Al abandonarse en los 40-50, esas tierras deberían haber tenido un destino jurídico. Ese destino podría conectar con el poder sobre la tierra en décadas posteriores.",
-      "fuentes": ["Archivo Municipal Hopelchén", "RAN", "Schüren (2013)"],
+      "fuentes": [
+        "Archivo Municipal Hopelchén",
+        "RAN",
+        "Schüren (2013)"
+      ],
       "prioridad": "Media"
     },
-
     {
       "pregunta_id": "P004-05",
       "pregunta": "¿Cuándo llegaron los primeros menonitas a Hopelchén y cuántas hectáreas han adquirido históricamente? ¿Cuál es el mecanismo legal de adquisición de tierras ejidales por menonitas?",
       "contexto": "Wikipedia menciona la expansión menonita como factor de conflicto actual en Hopelchén. Los menonitas llegaron a Campeche en las décadas 1980-1990. El mecanismo de adquisición es clave: ¿compraron ejidos modificados por el Artículo 27 reformado en 1992?",
-      "fuentes": ["Wikipedia — Hopelchén", "Estudios académicos sobre menonitas en Campeche", "Freie Universität Berlin / Humboldt-Universität — investigaciones sobre menonitas en México"],
+      "fuentes": [
+        "Wikipedia — Hopelchén",
+        "Estudios académicos sobre menonitas en Campeche",
+        "Freie Universität Berlin / Humboldt-Universität — investigaciones sobre menonitas en México"
+      ],
       "prioridad": "Alta — conecta con Nodo 005",
-      "conexion_hipotesis": "La llegada de menonitas y agroindustria es el nuevo ciclo del patrón extractivo: nueva élite externa que llena el vacío dejado por el fin del chicle y controla el siguiente recurso (tierra agrícola)."
+      "conexion_hipotesis": "La llegada de menonitas y agroindustria es el nuevo ciclo del patrón extractivo: nueva élite externa que llena el vacío dejado por el fin del chicle y controla el siguiente recurso (tierra agrícola).",
+      "estado": "RESPONDIDA PARCIALMENTE",
+      "registro_respuesta": "004-I",
+      "nota_respuesta": "Registro 004-I: llegada 1987 de Chihuahua/Durango/Tamaulipas/Zacatecas, Colonia Nuevo Progreso; 8,000 integrantes en Hopelchén en 2021 en 11 colonias. Hectáreas totales históricamente adquiridas requieren RAN."
     },
-
     {
       "pregunta_id": "P004-06",
       "pregunta": "¿Quién fue Jorge Carlos Hurtado Valdez (gobernador en 2007 cuando Hopelchén fue declarada Capital del Estado por un día)? ¿Qué red de poder representa?",
       "contexto": "Su nombre aparece en Wikipedia como el gobernador presente en la declaración de Hopelchén como capital en 2007. Es el primer gobernador de Campeche nominado en el repositorio con fecha reciente.",
-      "fuentes": ["Wikipedia — gobernadores de Campeche", "Periódico Oficial Campeche"],
+      "fuentes": [
+        "Wikipedia — gobernadores de Campeche",
+        "Periódico Oficial Campeche"
+      ],
       "prioridad": "Media — conexión con poder político reciente"
     }
-
   ],
-
   "patron_estructural_500_anos": {
     "descripcion": "Hallazgo analítico más importante del proyecto hasta el momento: el ciclo extractivo de 500 años en Hopelchén",
     "ciclos": [
-      {"era": "Prehispánico (300-1517)", "recurso": "Territorio, trabajo, tributo", "elite_controladora": "Clase dirigente maya (gobernantes de Xtampak, Hochob)", "instrumento": "Poder político-religioso"},
-      {"era": "Colonial (1517-1821)", "recurso": "Trabajo indígena, maíz, miel, cera, maderas", "elite_controladora": "Encomenderos españoles + Iglesia franciscana", "instrumento": "Encomienda + congregación + tributo"},
-      {"era": "Independencia-Porfiriato (1821-1910)", "recurso": "Tierras, caña de azúcar, maderas preciosas, palo de tinte", "elite_controladora": "Hacendados criollos/mestizos + compañías deslindadoras + empresas extranjeras", "instrumento": "Hacienda + ley de baldíos 1883"},
-      {"era": "Revolución-Chicle (1910-1970)", "recurso": "Chicle, maderas, trabajo forestal", "elite_controladora": "Contratistas nacionales + compañías norteamericanas (Wrigley's)", "instrumento": "Concesiones + sistema de enganche/deuda"},
-      {"era": "Contemporáneo (1970-2026)", "recurso": "Tierra ejidal, agua subterránea, biodiversidad, soya/sorgo/transgénicos", "elite_controladora": "Colonias menonitas + agroindustria + empresarios foráneos", "instrumento": "Reforma al Art. 27 (1992) + compra de ejidos + concesiones de agua"}
+      {
+        "era": "Prehispánico (300-1517)",
+        "recurso": "Territorio, trabajo, tributo",
+        "elite_controladora": "Clase dirigente maya (gobernantes de Xtampak, Hochob)",
+        "instrumento": "Poder político-religioso"
+      },
+      {
+        "era": "Colonial (1517-1821)",
+        "recurso": "Trabajo indígena, maíz, miel, cera, maderas",
+        "elite_controladora": "Encomenderos españoles + Iglesia franciscana",
+        "instrumento": "Encomienda + congregación + tributo"
+      },
+      {
+        "era": "Independencia-Porfiriato (1821-1910)",
+        "recurso": "Tierras, caña de azúcar, maderas preciosas, palo de tinte",
+        "elite_controladora": "Hacendados criollos/mestizos + compañías deslindadoras + empresas extranjeras",
+        "instrumento": "Hacienda + ley de baldíos 1883"
+      },
+      {
+        "era": "Revolución-Chicle (1910-1970)",
+        "recurso": "Chicle, maderas, trabajo forestal",
+        "elite_controladora": "Contratistas nacionales + compañías norteamericanas (Wrigley's)",
+        "instrumento": "Concesiones + sistema de enganche/deuda"
+      },
+      {
+        "era": "Contemporáneo (1970-2026)",
+        "recurso": "Tierra ejidal, agua subterránea, biodiversidad, soya/sorgo/transgénicos",
+        "elite_controladora": "Colonias menonitas + agroindustria + empresarios foráneos",
+        "instrumento": "Reforma al Art. 27 (1992) + compra de ejidos + concesiones de agua"
+      }
     ],
     "constante": "En cada ciclo, los mayas de Los Chenes son la mano de obra o los despojados. Los beneficios económicos salen de la región. La élite controladora cambia pero la estructura permanece.",
     "excepcion_parcial": "El período cardenista (1934-1940) y la sindicalización chiclera mostraron que cuando el Estado rompe el monopolio externo, los productores locales se benefician (+300% ingresos). Pero fue efímero."
   },
-
   "siguiente_nodo_sugerido": "NODO 005 — Hopelchén Contemporáneo (1970–2026): Menonitas, Transgénicos, Poder Político y Resistencia Maya",
-
   "metadatos": {
     "generado_desde": "HOPELCHEN_NODO_004_Revolucion_Chicle.json",
     "fecha": "2026-04-03",

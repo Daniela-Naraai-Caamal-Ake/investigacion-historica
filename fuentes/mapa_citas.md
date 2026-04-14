@@ -6,7 +6,7 @@
 ---
 
 **Total fuentes en catálogo:** 43  
-**Fuentes con al menos una cita:** 1  
+**Fuentes con al menos una cita:** 2  
 
 ---
 
@@ -23,7 +23,7 @@ _Sin citas detectadas en trabajo/ ni mapa/_
 
 ### F008 — Manuel Ferrer Muñoz. "La independencia de México vivida en l
 
-_Sin citas detectadas en trabajo/ ni mapa/_
+- `trabajo/periodos/nodo-003-colonia-tardia-independencia-guerra-de.md`
 
 ### F009 — Carlos Vadillo Buenfil. "La Guerra de Castas en La rebelión 
 

@@ -183,3 +183,69 @@ _Origen: Análisis propio — cruce de datos de registros 003-D y 003-E_
 
 ---
 
+
+### Bloque 003-I — Serapio Baqueiro Preve (1838–1900): El historiador nacido en Hopelchén
+
+| Campo | Valor |
+|---|---|
+| **Tipo** | Biográfico — fuente académica verificada |
+| **Fecha / Período** | 1838 — 1900 |
+| **Lugar** | Dzitbalchén, municipio de Hopelchén, Campeche — Mérida, Yucatán |
+| **Personajes** | Serapio Baqueiro Preve (Abogado, historiador, periodista, gobernador provisional de Yucatán 1883) |
+| **Cargos** | Abogado, historiador, periodista, gobernador provisional de Yucatán 1883 |
+| **Fuente(s)** | Ferrer Muñoz, Manuel — 'La independencia de México vivida en la periferia: el caso de Yucatán'. *Ius Fugit* 8-9 (1999-2000): 321-355. Instituto de Investigaciones Jurídicas, UNAM.; AV_FUENTES.md — F008 (datos sobre Serapio Baqueiro Preve) |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_003_ColoniaTardia_Porfiriato.json` |
+
+> Serapio Baqueiro Preve nació el 14 de noviembre de 1838 en Dzitbalchén, municipio de Hopelchén, Campeche. Es el primer historiador sistemático de la Guerra de Castas y la fuente primaria más importante para entender ese conflicto desde la perspectiva del Estado yucateco del siglo XIX. Estudió en el Seminario Conciliar de San Ildefonso de Mérida. Combatió el Imperio de Maximiliano con su pluma. En 1883 fue gobernador provisional de Yucatán. Su obra principal — *Ensayo histórico sobre las revoluciones de Yucatán desde el año 1840 hasta 1864* (1878, 5 volúmenes, reedición UADY 1990) — documenta el ataque de Juan de Dios May a Hopelchén en mayo de 1848, las palabras de los mayas durante el conflicto, los Tratados de Tzucacab de abril de 1848 y la mecánica de la resistencia maya en Los Chenes. La contradicción biográfica de Serapio Baqueiro Preve es estructuralmente reveladora: nació en el municipio cuya historia documenta, su hermano menor fue el trovador Cirilo 'Chan Cil' Baqueiro Preve (patriarca de la trova yucateca), pero se casó con una hija del gobernador Pantaleón Barrera — el mismo traficante de mayas. Y en su obra escribió que los indios eran 'el obstáculo más insuperable para la civilización'. El historiador de Hopelchén documentó a su pueblo mientras lo despreciaba.
+
+_Origen: Ferrer Muñoz, Manuel — 'La independencia de México vivida en la periferia: el caso de Yucatán'. *Ius Fugit* 8-9 (1999-2000): 321-355. Instituto de Investigaciones Jurídicas, UNAM._
+**⚠ Nota/contradicción:** Justo Sierra O'Reilly escribió en el periódico *El Fénix* (1847): 'Yo quisiera hoy que desapareciera esa raza maldita' y 'Esta raza debe ser sojuzgada severamente y aun lanzada del país'. Serapio Baqueiro Preve, historiador nacido en Hopelchén, reprodujo el mismo discurso de exterminación sobre la c
+**→ Conexión hipótesis:** Serapio Baqueiro Preve encarna el 'control del conocimiento' que es el tercer eje de la hipótesis del proyecto: la historia de Hopelchén fue escrita por alguien nacido allí pero integrado a la élite c
+**Etiquetas:** Serapio Baqueiro Preve, historiador, Dzitbalchén, Guerra de Castas, gobernador Yucatán 1883, Pantaleón Barrera, control del conocimiento, historia sesgada, racismo, siglo XIX
+
+---
+
+
+### Bloque 003-J — Pantaleón Barrera Cámara: gobernador de Yucatán, traficante de mayas a
+
+| Campo | Valor |
+|---|---|
+| **Tipo** | Biográfico — múltiples fuentes académicas y documentales |
+| **Fecha / Período** | 1840 — c. 1870 |
+| **Lugar** | Hopelchén, Campeche — Mérida, Yucatán |
+| **Personajes** | Pantaleón Barrera Cámara (Síndico de Hopelchén 1840-1843; gobernador de Yucatán (dos períodos); traficante de mayas; novelista bajo seudónimo) |
+| **Cargos** | Síndico de Hopelchén 1840-1843; gobernador de Yucatán (dos períodos); traficante de mayas; novelista bajo seudónimo |
+| **Fuente(s)** | Ferrer Muñoz, Manuel — 'La independencia de México vivida en la periferia: el caso de Yucatán'. *Ius Fugit* 8-9 (1999-2000): 321-355. Instituto de Investigaciones Jurídicas, UNAM.; AV_PERSONAS.md — PANTALEÓN BARRERA CÁMARA / AV_HILOS.md — HILO CUBA |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_003_ColoniaTardia_Porfiriato.json` |
+
+> Pantaleón Barrera Cámara nació en Hopelchén y llegó a ejercer el poder político, económico, militar, simbólico y literario simultáneamente — la expresión más completa del patrón documentado por la hipótesis del proyecto. Su trayectoria documentada: En 1840-1843 fue síndico del municipio de Hopelchén. Fue gobernador de Yucatán en dos períodos distintos. En 1848 firmó el decreto que permitió la venta y deportación forzada de mayas yucatecos a Cuba como mano de obra esclava encubierta. Entre 1849 y 1861 se vendieron entre 1,046 y 2,000 mayas a ingenios azucareros cubanos — los apellidos de los vendidos incluyen Che, Nagua y Cusán, apellidos de Los Chenes, municipio de Hopelchén. En 1865, el Imperio de Maximiliano lo condecora: la emperatriz Carlota le otorga una medalla imperial. En algún momento escribió una novela firmada como 'Napoleón Trebarra' — anagrama imperfecto de su nombre — titulada *La novela de Pantaleón Barrera*. El libro existe en la Universidad de Wisconsin; nadie en Hopelchén lo ha leído. Se casó y dio su hija en matrimonio a Serapio Baqueiro Preve — el historiador nacido en Hopelchén que documentó la Guerra de Castas. El traficante y el historiador, unidos por la sangre.
+
+_Origen: Ferrer Muñoz, Manuel — 'La independencia de México vivida en la periferia: el caso de Yucatán'. *Ius Fugit* 8-9 (1999-2000): 321-355. Instituto de Investigaciones Jurídicas, UNAM._
+**⚠ Nota/contradicción:** El Imperio de Maximiliano — considerado en la narrativa liberal mexicana como el enemigo de la República — condecora al mismo gobernador que vendió mayas a Cuba. El 'enemigo' imperial y el republicano-liberal traficante de personas comparten el mismo orden de dominación sobre las comunidades mayas d
+**→ Conexión hipótesis:** Pantaleón Barrera Cámara es el nodo de convergencia más explícito de la hipótesis: una persona nacida en Hopelchén ejerce poder político (gobernador), económico (haciendas), penal (decreto de deportac
+**Etiquetas:** Pantaleón Barrera, gobernador Yucatán, traficante de mayas, Cuba, esclavitud encubierta, Carlota, Maximiliano, Napoleón Trebarra, novela, Hopelchén, despojo, siglo XIX
+
+---
+
+
+### Bloque 003-K — Olegario Molina Solís: nacido en Bolonchenticul, 'El Olegariato', Secr
+
+| Campo | Valor |
+|---|---|
+| **Tipo** | Biográfico — verificado en historiografía del Porfiriato |
+| **Fecha / Período** | c. 1843 — 1925 |
+| **Lugar** | Bolonchenticul (hoy municipio de Hopelchén) — Mérida — Ciudad de México — La Habana |
+| **Personajes** | Olegario Molina Solís (Secretario de Fomento, Colonización e Industria — gobierno de Porfirio Díaz) |
+| **Cargos** | Secretario de Fomento, Colonización e Industria — gobierno de Porfirio Díaz |
+| **Fuente(s)** | AV_PERSONAS.md — OLEGARIO MOLINA SOLÍS / AV_HILOS.md — HILO CUBA |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_003_ColoniaTardia_Porfiriato.json` |
+
+> Olegario Molina Solís nació en Bolonchenticul — el pueblo de los nueve pozos, a 34 kilómetros de Hopelchén — en el mismo municipio que hoy lleva el nombre de Hopelchén. Fue el empresario henequenero más poderoso de la Península de Yucatán durante el Porfiriato. 'El Olegariato' — como se llamó al período de su dominio absoluto sobre el henequén — describe el control total que Molina ejerció sobre el mercado de una fibra que conectaba la economía yucateca con los mercados globales (principalmente con la empresa International Harvester de los Estados Unidos). Fue Secretario de Fomento, Colonización e Industria durante el gobierno de Porfirio Díaz. Cuando el Imperio porfiriano colapsó, Molina Solís murió exiliado en La Habana, Cuba, en 1925 — la misma ciudad a donde habían sido deportados los mayas de Los Chenes durante la Guerra de Castas. El hombre más poderoso producido por el municipio de Hopelchén terminó en la misma isla que los hombres más despojados. La familia Molina Solís permanece en Cuba hasta la actualidad.
+
+_Origen: AV_PERSONAS.md — OLEGARIO MOLINA SOLÍS / AV_HILOS.md — HILO CUBA_
+**⚠ Nota/contradicción:** El circuito Cuba se cierra aquí de manera brutal: los mayas de Hopelchén fueron enviados a Cuba como esclavos encubiertos en 1848-1861 (Pantaleón Barrera). El empresario más poderoso nacido en el mismo municipio murió exiliado en la misma isla en 1925 (Olegario Molina). La isla que recibió el trabaj
+**→ Conexión hipótesis:** Olegario Molina Solís es la evidencia más clara de que Hopelchén produce personas de poder de escala nacional (Secretario de Estado) sin que ese poder se devuelva al municipio de origen en forma de in
+**Etiquetas:** Olegario Molina Solís, Bolonchenticul, Porfiriato, henequén, El Olegariato, Secretario de Fomento, Cuba, exilio, despojo económico, siglo XIX-XX
+
+---
+

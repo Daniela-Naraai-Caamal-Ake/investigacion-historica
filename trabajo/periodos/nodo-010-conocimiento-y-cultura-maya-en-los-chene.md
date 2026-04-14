@@ -148,14 +148,59 @@ _Origen: INEGI — Censo de Población y Vivienda 2020: datos de hablantes de le
 | **Lugar** | Los Chenes, Hopelchén, Campeche |
 | **Personajes** | — |
 | **Cargos** | — |
-| **Fuente(s)** | — |
+| **Fuente(s)** | leydy_pech_perfil.json — meliponicultura y Xunáan Kab; síntesis del proyecto Archivo Vivo |
 | **Origen** | `datos/hopelchen/HOPELCHEN_NODO_010_Conocimiento_Cultura.json` |
 
 > ANÁLISIS DE SÍNTESIS. Al cruzar los registros de los Nodos 001-010, emerge un patrón claro sobre el control del conocimiento maya en Los Chenes: el poder colonial y sus sucesores atacaron específicamente el conocimiento que podía organizar la resistencia y mantener la autonomía cultural. Los tres tipos de conocimiento atacados fueron: (1) El conocimiento cosmológico-político codificado en textos (códices, estelas): destruido en el auto de fe de Maní (1562) y en las misiones franciscanas locales; (2) El conocimiento calendárico-ritual que organizaba la vida pública maya: suprimido por las misiones que convirtieron los rituales en crimen; (3) El conocimiento de élite especializado (sacerdotes-astrónomos, escribas): eliminado al matar o asimilar a sus portadores. El conocimiento que sobrevivió es el que tenía utilidad práctica distribuida en toda la comunidad y que no requería la mediación de una élite especializada: la meliponicultura, el manejo de milpa, la lengua, el conocimiento botánico y médico cotidiano. La distribución del conocimiento fue su mejor defensa.
 
+_Origen: leydy_pech_perfil.json — meliponicultura y Xunáan Kab; síntesis del proyecto Archivo Vivo_
 **⚠ Nota/contradicción:** La destrucción del conocimiento concentrado en élites especializadas dejó a las comunidades mayas sin sus sistemas más sofisticados de organización política y cosmológica. No se puede romanticizar la supervivencia del conocimiento distribuido sin reconocer lo que se perdió: la capacidad de producir 
 **→ Conexión hipótesis:** CONFIRMACIÓN DEL TERCER EJE: El control del conocimiento en Hopelchén siguió el mismo patrón que el control de la tierra y del cuerpo — fue selectivo, sostenido y consciente. Su objetivo no era elimin
 **Etiquetas:** control conocimiento, tercer eje hipótesis, destrucción epistémica, supervivencia cultural, distribución conocimiento, síntesis transversal, Los Chenes 500 años
+
+---
+
+
+### Bloque 010-H — Los Xtoles de Chan Cil: 3,000 años de música maya documentados en 1869
+
+| Campo | Valor |
+|---|---|
+| **Tipo** | Cultural-musicológico — verificado en publicación académica |
+| **Fecha / Período** | c. 1850 — 1941 (documentación) / 1939 (apropiación por Revueltas) |
+| **Lugar** | Dzitbalchén, Hopelchén — Ciudad de México — Alemania |
+| **Personajes** | Cirilo 'Chan Cil' Baqueiro Preve (Trovador y compositor de Los Chenes — fuente original de Los Xtoles); Gerónimo Baqueiro Foster (Musicólogo; documentó Los Xtoles (1869); publicó académicamente (1941); primer académico que sistematizó la música maya); Silvestre Revueltas (Compositor — incorporó Los Xtoles en *La noche de los mayas* (1939)) |
+| **Cargos** | Trovador y compositor de Los Chenes — fuente original de Los Xtoles; Musicólogo; documentó Los Xtoles (1869); publicó académicamente (1941); primer académico que sistematizó la música maya; Compositor — incorporó Los Xtoles en *La noche de los mayas* (1939) |
+| **Fuente(s)** | Baqueiro Foster, Gerónimo — 'Música maya'. En: *Los Mayas Antiguos: monografías de arqueología, etnografía y lingüística mayas*. El Colegio de México, 1941. Pp. 264-271.; AV_PERSONAS.md — CHAN CIL, GERÓNIMO BAQUEIRO FOSTER, JULIÁN CARRILLO / AV_HILOS.md — HILO BERLÍN, HILO musical |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_010_Conocimiento_Cultura.json` |
+
+> Los Xtoles son canciones de tradición oral de Los Chenes, compuestas o transmitidas por Cirilo 'Chan Cil' Baqueiro Preve de Dzitbalchén, Hopelchén. Representan uno de los conocimientos culturales vivos más importantes que el municipio produjo y que fue extractado sin retorno. La cadena de apropiación es documentable: (1) Chan Cil (c.1848-1910) compone/transmite Los Xtoles en Dzitbalchén. (2) Su sobrino Gerónimo Baqueiro Foster (1892-1967), musicólogo del Conservatorio Nacional, los transcribe en 1869 y los convierte en conocimiento académico. (3) En 1939, el compositor Silvestre Revueltas — considerado el compositor modernista mexicano más importante — los incorpora en su suite sinfónica *La noche de los mayas*. (4) En 1941, Gerónimo Baqueiro Foster los publica académicamente en el libro colectivo *Los Mayas Antiguos* (El Colegio de México). (5) *La noche de los mayas* fue reorquestada en 1961 por José Yves Limantour y se convirtió en una de las piezas musicales mexicanas más grabadas e interpretadas en el mundo. La música de Dzitbalchén/Hopelchén llegó a salas de concierto de todo el mundo — sin que ningún programa de sala dijera 'Los Chenes, Campeche'.
+
+_Origen: Baqueiro Foster, Gerónimo — 'Música maya'. En: *Los Mayas Antiguos: monografías de arqueología, etnografía y lingüística mayas*. El Colegio de México, 1941. Pp. 264-271._
+**⚠ Nota/contradicción:** La apropiación cultural de Los Xtoles no fue maliciosa — fue el resultado de cómo funciona la transmisión del conocimiento en un sistema donde las comunidades rurales mayas no tienen acceso a los mecanismos de protección intelectual. El conocimiento de Chan Cil entró al repertorio académico y clásic
+**→ Conexión hipótesis:** Los Xtoles son el caso más documentable de 'control del conocimiento' en el Nodo 010: el conocimiento musical maya de Los Chenes fue extraído, transformado, publicado y ejecutado en el mundo sin retri
+**Etiquetas:** Los Xtoles, Chan Cil, Baqueiro Foster, Revueltas, La noche de los mayas, música maya, apropiación cultural, Dzitbalchén, Colegio de México, conocimiento sin crédito, Hopelchén
+
+---
+
+
+### Bloque 010-I — Hernán Lara Zavala (1947–2025): el escritor de Ciudad de México que do
+
+| Campo | Valor |
+|---|---|
+| **Tipo** | Literario-testimonial — archivos locales disponibles |
+| **Fecha / Período** | 1947 — 2025 / obras: 1981, 1990, 2008 |
+| **Lugar** | Ciudad de México — Hopelchén (veranos de infancia) |
+| **Personajes** | Hernán Lara Zavala |
+| **Cargos** | — |
+| **Fuente(s)** | Lara Zavala, Hernán. *De Zitilchén* (FCE, 2012), *Charras* (Alfaguara, 2022), *Península, Península* (2008). Archivos locales: sources/De Zitilchen - Hernan Lara Zavala.pdf, sources/Charras - Hernan Lara Zavala.pdf, sources/Peninsula Peninsula - Hernan Lara Zavala.pdf |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_010_Conocimiento_Cultura.json` |
+
+> Hernán Lara Zavala (1947-2025) fue escritor, académico de la UNAM y primo en segundo grado de Efraín 'El Charras' Calderón Lara. Pasaba sus veranos en Hopelchén visitando a sus abuelos. Cuando nadie más documentó sistemáticamente la historia de Hopelchén en formato literario, Lara Zavala lo hizo en tres novelas que conforman un archivo paralelo al de los documentos históricos: (1) *De Zitilchén* (1981, FCE 2012) — Hopelchén como 'Zitilchén'; ficción que documenta la estructura social, los apellidos del poder, el reloj de la plaza, la violencia contra las mujeres, los jóvenes mayas sin futuro. La 'Carta al autor' en el libro: el cronista del pueblo le reclama haber distorsionado Zitilchén/Hopelchén. (2) *Charras* (1990, Alfaguara 2022) — novela testimonial sobre el asesinato de su primo El Charras, construida con artículos de prensa y entrevistas. (3) *Península, Península* (2008, Premio de la Real Academia Española 2010) — la Guerra de Castas narrada desde cuatro voces, con Hopelchén como escenario central. Lara Zavala murió el 15 de marzo de 2025 — tres días antes de que Daniela Naraai Caamal iniciara esta investigación.
+
+_Origen: Lara Zavala, Hernán. *De Zitilchén* (FCE, 2012), *Charras* (Alfaguara, 2022), *Península, Península* (2008). Archivos locales: sources/De Zitilchen - Hernan Lara Zavala.pdf, sources/Charras - Hernan Lara Zavala.pdf, sources/Peninsula Peninsula - Hernan Lara Zavala.pdf_
+**⚠ Nota/contradicción:** Las novelas de Lara Zavala son ficción — tienen personajes reales bajo nombres modificados (Zitilchén = Hopelchén, Quintín Silvestre = hacendado ficticio, Carpizu = presidente ficticio). Esto las hace inutilizables como fuentes históricas directas pero extraordinariamente útiles como documentos cult
+**→ Conexión hipótesis:** Las tres novelas de Lara Zavala sobre Hopelchén son el único archivo literario sistemático del municipio. Que ese archivo exista en Ciudad de México — no en Hopelchén — replica el patrón del repositor
+**Etiquetas:** Hernán Lara Zavala, De Zitilchén, Charras, Península Península, memoria literaria, Hopelchén, ficción testimonial, Premio RAE, 2025, conocimiento fuera de Hopelchén
 
 ---
 

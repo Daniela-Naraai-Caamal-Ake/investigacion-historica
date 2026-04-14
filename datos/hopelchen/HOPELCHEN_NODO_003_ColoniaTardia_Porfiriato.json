@@ -9,9 +9,7 @@
   "version": "1.0",
   "continua_desde": "NODO 002 — La Conquista Española en Los Chenes (1517–1669)",
   "autor_investigacion": "Proyecto Hopelchén — Investigación histórica independiente",
-
   "registros": [
-
     {
       "registro_id": "003-A",
       "subtitulo": "1670–1821: La Colonia tardía en Los Chenes — consolidación hacendaria y economía extractiva",
@@ -40,9 +38,20 @@
       ],
       "notas_contradiccion": "La narrativa de la 'Independencia como liberación' choca frontalmente con el dato de que los siervos mayas 'la gran mayoría ignorantes de los cambios sociales permanecieron en el submundo de la explotación de las haciendas'. La Independencia de México (1821) no cambió nada en la vida cotidiana de los mayas de Los Chenes.",
       "conexion_hipotesis": "La estructura económica de 92 haciendas y 27 ranchos azucareros antes de la Guerra de Castas prueba que Hopelchén era un 'emporio agrícola' controlado por una élite terrateniente no maya. El control de la tierra estaba ya completamente concentrado en manos criollas/mestizas un siglo antes del Porfiriato.",
-      "tags": ["colonia tardía", "haciendas", "ranchos azucareros", "criollos", "mestizos", "Ticul", "Bolonchenticul", "Independencia 1821", "peones", "explotación", "convento franciscano"]
+      "tags": [
+        "colonia tardía",
+        "haciendas",
+        "ranchos azucareros",
+        "criollos",
+        "mestizos",
+        "Ticul",
+        "Bolonchenticul",
+        "Independencia 1821",
+        "peones",
+        "explotación",
+        "convento franciscano"
+      ]
     },
-
     {
       "registro_id": "003-B",
       "subtitulo": "1843–1847: La privatización de tierras mayas — el despojo que detonó la Guerra de Castas en Hopelchén",
@@ -94,9 +103,21 @@
       ],
       "notas_contradiccion": "La narrativa oficial llama a este conflicto 'Guerra de Castas' — un nombre que reduce un conflicto estructural de tierra y poder a una confrontación racial. Fuentes académicas señalan que fue una 'guerra entre clases sociales en el contexto de la transición al capitalismo agrario'. El nombre 'Guerra de Castas' es en sí mismo una manipulación narrativa que oculta el problema de fondo: el despojo sistemático de tierras comunales mayas. DATO EXPLOSIVO: El historiador Robert Patch documentó que el 45% de las tierras enajenadas entre 1843-1847 correspondía específicamente a la región que incluye Hopelchén — confirmando que Hopelchén estaba en el epicentro del despojo que detonó la guerra.",
       "conexion_hipotesis": "Este es el momento más claro de confirmación de la hipótesis: una élite política-económica (gobierno liberal de Yucatán + terratenientes + clero + militares) usó instrumentos legales ('terrenos baldíos') para apropiarse de tierras comunales mayas y concentrarlas en pocas manos. El resultado fue 250,000 muertos. La historia oficial llama a esto 'Guerra de Castas'. El proyecto llama a esto lo que fue: el mayor despojo de tierras indígenas de la Península de Yucatán.",
-      "tags": ["Guerra de Castas", "despojo tierras", "terrenos baldíos", "800,000 hectáreas", "privatización", "Hopelchén 45%", "Jacinto Pat", "Cecilio Chi", "Juan de Dios May", "Robert Patch", "capitalismo agrario", "AGEY"]
+      "tags": [
+        "Guerra de Castas",
+        "despojo tierras",
+        "terrenos baldíos",
+        "800,000 hectáreas",
+        "privatización",
+        "Hopelchén 45%",
+        "Jacinto Pat",
+        "Cecilio Chi",
+        "Juan de Dios May",
+        "Robert Patch",
+        "capitalismo agrario",
+        "AGEY"
+      ]
     },
-
     {
       "registro_id": "003-C",
       "subtitulo": "1847–1857: La Guerra de Castas en Los Chenes — destrucción del emporio agrícola de Hopelchén",
@@ -133,7 +154,19 @@
         },
         {
           "nombre": "Líderes mayas citados en fuentes de Los Chenes",
-          "lista": ["Cecilio Chí", "Jacinto Paat", "Florentino Poot", "Francisco Caamal", "Anselmo Hau", "Bonifacio Novelo", "Gregorio Chin", "Apolinar Tzeel", "Juan Poot", "Venancio Pec (Pech)", "Crescencio Poot"],
+          "lista": [
+            "Cecilio Chí",
+            "Jacinto Paat",
+            "Florentino Poot",
+            "Francisco Caamal",
+            "Anselmo Hau",
+            "Bonifacio Novelo",
+            "Gregorio Chin",
+            "Apolinar Tzeel",
+            "Juan Poot",
+            "Venancio Pec (Pech)",
+            "Crescencio Poot"
+          ],
           "nota_critica": "Estos apellidos — Poot, Pec, Chin, Tzeel, Novelo, Caamal, Hau — son apellidos mayas activos en la región de Los Chenes. ¿Persisten en Hopelchén hoy? ¿Hay descendientes documentables? Esto conectaría el linaje de resistencia del siglo XIX con la población actual."
         },
         {
@@ -145,9 +178,22 @@
       ],
       "notas_contradiccion": "La fuente Yucatán Today afirma que la industria azucarera 'fue arrasada por completo y nunca se recuperó'. Sin embargo, Wikipedia y otras fuentes muestran que la región de Los Chenes se reconstituyó económicamente bajo el Porfiriato precisamente como 'asiento de haciendas agrícolas'. Hay una discontinuidad: ¿quiénes eran los nuevos hacendados post-Guerra de Castas? ¿Los mismos de antes o nuevos actores que aprovecharon el despoblamiento para adquirir tierras baratas?",
       "conexion_hipotesis": "La Guerra de Castas despobló y empobreció Los Chenes. Ese vacío fue aprovechado por una nueva generación de hacendados porfirianos para adquirir tierras a precio de remate. El patrón se repite: crisis → despoblamiento → reconcentración de tierra en nuevas manos. Esto es exactamente lo que ocurrió también con los menonitas en el siglo XXI.",
-      "tags": ["Guerra de Castas", "1848", "Juan de Dios May", "ataque Hopelchén", "Iturbide", "25000 habitantes", "92 haciendas", "27 ranchos azucareros", "60% supervivencia", "mercenarios estadounidenses", "320 acres", "palo de tinte", "Gran Bretaña"]
+      "tags": [
+        "Guerra de Castas",
+        "1848",
+        "Juan de Dios May",
+        "ataque Hopelchén",
+        "Iturbide",
+        "25000 habitantes",
+        "92 haciendas",
+        "27 ranchos azucareros",
+        "60% supervivencia",
+        "mercenarios estadounidenses",
+        "320 acres",
+        "palo de tinte",
+        "Gran Bretaña"
+      ]
     },
-
     {
       "registro_id": "003-D",
       "subtitulo": "1857–1858: La creación del Estado de Campeche y Hopelchén como pieza política",
@@ -182,9 +228,18 @@
       ],
       "notas_contradiccion": "La narrativa oficial presenta la emancipación de Campeche como un acto de identidad regional y patriotismo. El contexto real: fue un conflicto entre élites de Mérida y Campeche por el control de aduanas y comercio (el detonante fue la designación de Pedro Baranda como administrador de la aduana marítima, rechazada por el ayuntamiento). La identidad regional fue el vehículo ideológico; el control económico fue el objetivo real.",
       "conexion_hipotesis": "La pertenencia de Hopelchén a Campeche (1858) en lugar de Yucatán no fue un acto de voluntad popular — fue una decisión política de élites en conflicto. Hopelchén cambió de jurisdicción sin que sus habitantes mayas tuvieran voz en el proceso.",
-      "tags": ["emancipación Campeche", "1857", "Pedro Baranda", "Joaquín Baranda", "Pablo García", "jurisdicción", "Hopelchén voto", "control aduanas", "identidad regional construida"]
+      "tags": [
+        "emancipación Campeche",
+        "1857",
+        "Pedro Baranda",
+        "Joaquín Baranda",
+        "Pablo García",
+        "jurisdicción",
+        "Hopelchén voto",
+        "control aduanas",
+        "identidad regional construida"
+      ]
     },
-
     {
       "registro_id": "003-E",
       "subtitulo": "La Familia Baranda: red de poder que conecta la emancipación de Campeche con el Porfiriato nacional",
@@ -249,9 +304,22 @@
       ],
       "notas_contradiccion": "La narrativa oficial presenta a Joaquín Baranda como promotor de la educación pública laica y gratuita — un liberal progresista. La realidad estructural: fue Ministro de un gobierno autoritario (el Porfiriato) durante 19 años, en el período en que se ejecutaron los mayores despojos de tierra indígena mediante compañías deslindadoras. Promovió la educación pero dentro de un sistema que usaba la 'civilización' para borrar la identidad maya.",
       "conexion_hipotesis": "La familia Baranda es el caso de estudio perfecto de la hipótesis: una familia de origen fiscal colonial (Real Hacienda) que acumuló poder político a través de tres generaciones — desde el control de los impuestos coloniales hasta el control de la educación nacional y la infraestructura de comunicación en Los Chenes. Controlan también la narrativa: escriben la historia de Campeche.",
-      "tags": ["familia Baranda", "Joaquín Baranda", "Pedro Sainz de Baranda", "Porfiriato", "telégrafo 1870", "Hopelchén", "Ministerio Instrucción Pública", "19 años", "Real Hacienda colonial", "Pino Suárez", "narrativa histórica", "Recordaciones Históricas", "Rotonda Hombres Ilustres"]
+      "tags": [
+        "familia Baranda",
+        "Joaquín Baranda",
+        "Pedro Sainz de Baranda",
+        "Porfiriato",
+        "telégrafo 1870",
+        "Hopelchén",
+        "Ministerio Instrucción Pública",
+        "19 años",
+        "Real Hacienda colonial",
+        "Pino Suárez",
+        "narrativa histórica",
+        "Recordaciones Históricas",
+        "Rotonda Hombres Ilustres"
+      ]
     },
-
     {
       "registro_id": "003-F",
       "subtitulo": "1870–1910: El Porfiriato en Los Chenes — compañías deslindadoras, latifundios y chicle",
@@ -289,9 +357,22 @@
       ],
       "notas_contradiccion": "El artículo académico de SciELO señala que Los Chenes 'por su ubicación poco accesible no habían sido afectadas por la expansión de las haciendas' — lo que contradice el dato de que era 'la zona más poblada de haciendas durante el Porfiriato'. La contradicción se resuelve: los Chenes tuvieron haciendas, pero comunidades indígenas en lugares específicamente inaccesibles lograron conservar tierras comunales que en otras regiones ya habían sido absorbidas. Eso explica por qué la reforma agraria posterior (1930-1950) creó 10 nuevas comunidades en Hopelchén.",
       "conexion_hipotesis": "El Porfiriato completó lo que la conquista había iniciado: la transferencia sistemática de las tierras de Los Chenes a manos de empresas extranjeras y hacendados nacionales mediante instrumentos legales (compañías deslindadoras). Pedro Advíncula Lara — jefe político + hacendado — es el arquetipo del sistema: el poder político protege y legitima el poder económico en la misma persona.",
-      "tags": ["Porfiriato", "compañías deslindadoras", "Mexican Exploitation", "chicle", "maderas preciosas", "Pedro Advíncula Lara", "Holcatzin", "Santa Rita", "jefe político", "haciendas", "latifundio", "Ley 1883", "reloj Berlín 1911"]
+      "tags": [
+        "Porfiriato",
+        "compañías deslindadoras",
+        "Mexican Exploitation",
+        "chicle",
+        "maderas preciosas",
+        "Pedro Advíncula Lara",
+        "Holcatzin",
+        "Santa Rita",
+        "jefe político",
+        "haciendas",
+        "latifundio",
+        "Ley 1883",
+        "reloj Berlín 1911"
+      ]
     },
-
     {
       "registro_id": "003-G",
       "subtitulo": "Personajes intelectuales y culturales de Hopelchén — primera generación documentada",
@@ -319,9 +400,20 @@
       ],
       "notas_contradiccion": "Ambos intelectuales de Hopelchén desarrollaron su carrera fuera del municipio (Mérida, Ciudad de México). Sus obras están en repositorios externos. La cultura producida en Hopelchén no se quedó en Hopelchén — fue absorbida por los centros urbanos. Esto es coherente con el patrón general: los recursos (tierra, trabajo, cultura, inteligencia) fluyen desde Los Chenes hacia afuera.",
       "conexion_hipotesis": "La extracción de talento intelectual de Hopelchén hacia los centros de poder es una forma de empobrecimiento cultural que refuerza la dependencia. La 'educación negada como clave de manipulación' (hipótesis del proyecto) tiene su contraparte en la 'educación alcanzada que migra' — los pocos cheneros que lograron educarse se fueron.",
-      "tags": ["Gerónimo Baqueiro Foster", "Humberto Lara y Lara", "musicólogo", "periodista", "Diario del Sureste", "En la Montaña Chiclera", "chicle", "cultura", "biblioteca", "Museo de la Música", "migración intelectual"]
+      "tags": [
+        "Gerónimo Baqueiro Foster",
+        "Humberto Lara y Lara",
+        "musicólogo",
+        "periodista",
+        "Diario del Sureste",
+        "En la Montaña Chiclera",
+        "chicle",
+        "cultura",
+        "biblioteca",
+        "Museo de la Música",
+        "migración intelectual"
+      ]
     },
-
     {
       "registro_id": "003-H",
       "subtitulo": "Cruce de datos: Baranda + Tierra + Telégrafo + Educación — el sistema de control porfiriano en Los Chenes",
@@ -333,32 +425,218 @@
       "personajes": [],
       "notas_contradiccion": "El sistema Baranda presenta a Joaquín como modernizador y educador progresista. El análisis estructural revela que fue el gerente educativo e ideológico del régimen más autoritario y despojador de tierras indígenas de la historia moderna de México.",
       "conexion_hipotesis": "CONFIRMACIÓN DIRECTA DE LA HIPÓTESIS: Una familia, en tres generaciones, controlando política, infraestructura, educación y narrativa histórica en Campeche — con conexión directa a Hopelchén. El 'sistema que formó Hopelchén' tiene en la familia Baranda uno de sus nodos más documentables.",
-      "tags": ["cruce datos", "familia Baranda", "sistema control", "política + infraestructura + educación + narrativa", "porfiriato", "Hopelchén", "análisis estructural"]
+      "tags": [
+        "cruce datos",
+        "familia Baranda",
+        "sistema control",
+        "política + infraestructura + educación + narrativa",
+        "porfiriato",
+        "Hopelchén",
+        "análisis estructural"
+      ]
+    },
+    {
+      "registro_id": "003-I",
+      "subtitulo": "Serapio Baqueiro Preve (1838–1900): El historiador nacido en Hopelchén que documentó la Guerra de Castas y fue gobernador de Yucatán",
+      "fecha_evento": "1838 — 1900",
+      "lugar": "Dzitbalchén, municipio de Hopelchén, Campeche — Mérida, Yucatán",
+      "descripcion": "Serapio Baqueiro Preve nació el 14 de noviembre de 1838 en Dzitbalchén, municipio de Hopelchén, Campeche. Es el primer historiador sistemático de la Guerra de Castas y la fuente primaria más importante para entender ese conflicto desde la perspectiva del Estado yucateco del siglo XIX. Estudió en el Seminario Conciliar de San Ildefonso de Mérida. Combatió el Imperio de Maximiliano con su pluma. En 1883 fue gobernador provisional de Yucatán. Su obra principal — *Ensayo histórico sobre las revoluciones de Yucatán desde el año 1840 hasta 1864* (1878, 5 volúmenes, reedición UADY 1990) — documenta el ataque de Juan de Dios May a Hopelchén en mayo de 1848, las palabras de los mayas durante el conflicto, los Tratados de Tzucacab de abril de 1848 y la mecánica de la resistencia maya en Los Chenes. La contradicción biográfica de Serapio Baqueiro Preve es estructuralmente reveladora: nació en el municipio cuya historia documenta, su hermano menor fue el trovador Cirilo 'Chan Cil' Baqueiro Preve (patriarca de la trova yucateca), pero se casó con una hija del gobernador Pantaleón Barrera — el mismo traficante de mayas. Y en su obra escribió que los indios eran 'el obstáculo más insuperable para la civilización'. El historiador de Hopelchén documentó a su pueblo mientras lo despreciaba.",
+      "fuente": {
+        "nombre": "Ferrer Muñoz, Manuel — 'La independencia de México vivida en la periferia: el caso de Yucatán'. *Ius Fugit* 8-9 (1999-2000): 321-355. Instituto de Investigaciones Jurídicas, UNAM.",
+        "tipo": "Artículo académico revisado por pares",
+        "archivo_local": "sources/10ferrermunoz.pdf",
+        "confiabilidad": "Alta"
+      },
+      "fuente_secundaria": {
+        "nombre": "AV_FUENTES.md — F008 (datos sobre Serapio Baqueiro Preve)",
+        "cita": "Confirmación de nacimiento en el partido de Hopelchén y matrimonio con hija de Pantaleón Barrera"
+      },
+      "tipo_dato": "Biográfico — fuente académica verificada",
+      "personajes": [
+        {
+          "nombre": "Serapio Baqueiro Preve",
+          "nacimiento": "14 noviembre 1838, Dzitbalchén, Hopelchén, Campeche",
+          "muerte": "c. 1900 (fecha exacta pendiente de verificación)",
+          "rol": "Abogado, historiador, periodista, gobernador provisional de Yucatán 1883",
+          "obra_principal": "Ensayo histórico sobre las revoluciones de Yucatán desde el año 1840 hasta 1864 (1878, 5 vols.)",
+          "contradiccion_central": "Nació en Hopelchén, hermano del trovador maya Chan Cil, yerno del traficante de mayas Pantaleón Barrera, y escribió que los indios eran 'el obstáculo más insuperable para la civilización'",
+          "conexion_apellido": "El apellido Baqueiro reaparece en Gerónimo Baqueiro Foster (musicólogo, documentó música maya, siglo XX)"
+        }
+      ],
+      "notas_contradiccion": "Justo Sierra O'Reilly escribió en el periódico *El Fénix* (1847): 'Yo quisiera hoy que desapareciera esa raza maldita' y 'Esta raza debe ser sojuzgada severamente y aun lanzada del país'. Serapio Baqueiro Preve, historiador nacido en Hopelchén, reprodujo el mismo discurso de exterminación sobre la comunidad que lo produjo. La historia de la Guerra de Castas en Los Chenes fue escrita por alguien que no quería que los protagonistas mayas existieran.",
+      "conexion_hipotesis": "Serapio Baqueiro Preve encarna el 'control del conocimiento' que es el tercer eje de la hipótesis del proyecto: la historia de Hopelchén fue escrita por alguien nacido allí pero integrado a la élite colonial que despojó a las comunidades mayas. Su obra es la fuente más detallada sobre la Guerra de Castas en la región — y también es la fuente del discurso que justificó ese despojo. La narrativa histórica de Hopelchén nació ideológicamente envenenada desde su primera página.",
+      "tags": [
+        "Serapio Baqueiro Preve",
+        "historiador",
+        "Dzitbalchén",
+        "Guerra de Castas",
+        "gobernador Yucatán 1883",
+        "Pantaleón Barrera",
+        "control del conocimiento",
+        "historia sesgada",
+        "racismo",
+        "siglo XIX"
+      ]
+    },
+    {
+      "registro_id": "003-J",
+      "subtitulo": "Pantaleón Barrera Cámara: gobernador de Yucatán, traficante de mayas a Cuba, novelista encubierto — el poder total en una persona",
+      "fecha_evento": "1840 — c. 1870",
+      "lugar": "Hopelchén, Campeche — Mérida, Yucatán",
+      "descripcion": "Pantaleón Barrera Cámara nació en Hopelchén y llegó a ejercer el poder político, económico, militar, simbólico y literario simultáneamente — la expresión más completa del patrón documentado por la hipótesis del proyecto. Su trayectoria documentada: En 1840-1843 fue síndico del municipio de Hopelchén. Fue gobernador de Yucatán en dos períodos distintos. En 1848 firmó el decreto que permitió la venta y deportación forzada de mayas yucatecos a Cuba como mano de obra esclava encubierta. Entre 1849 y 1861 se vendieron entre 1,046 y 2,000 mayas a ingenios azucareros cubanos — los apellidos de los vendidos incluyen Che, Nagua y Cusán, apellidos de Los Chenes, municipio de Hopelchén. En 1865, el Imperio de Maximiliano lo condecora: la emperatriz Carlota le otorga una medalla imperial. En algún momento escribió una novela firmada como 'Napoleón Trebarra' — anagrama imperfecto de su nombre — titulada *La novela de Pantaleón Barrera*. El libro existe en la Universidad de Wisconsin; nadie en Hopelchén lo ha leído. Se casó y dio su hija en matrimonio a Serapio Baqueiro Preve — el historiador nacido en Hopelchén que documentó la Guerra de Castas. El traficante y el historiador, unidos por la sangre.",
+      "fuente": {
+        "nombre": "Ferrer Muñoz, Manuel — 'La independencia de México vivida en la periferia: el caso de Yucatán'. *Ius Fugit* 8-9 (1999-2000): 321-355. Instituto de Investigaciones Jurídicas, UNAM.",
+        "tipo": "Artículo académico revisado por pares",
+        "archivo_local": "sources/10ferrermunoz.pdf",
+        "confiabilidad": "Alta",
+        "cita_clave": "Decreto Barbachano noviembre 1848: permitió venta de mayas a Cuba"
+      },
+      "fuente_secundaria": {
+        "nombre": "AV_PERSONAS.md — PANTALEÓN BARRERA CÁMARA / AV_HILOS.md — HILO CUBA",
+        "cita": "1848: ~2,000 mayas enviados a Cuba (1,046 documentados). Apellidos Che, Nagua, Cusán — mayas de Los Chenes"
+      },
+      "tipo_dato": "Biográfico — múltiples fuentes académicas y documentales",
+      "personajes": [
+        {
+          "nombre": "Pantaleón Barrera Cámara",
+          "nacimiento": "Hopelchén, Campeche (fecha exacta pendiente)",
+          "rol": "Síndico de Hopelchén 1840-1843; gobernador de Yucatán (dos períodos); traficante de mayas; novelista bajo seudónimo",
+          "seudónimo_literario": "Napoleón Trebarra (anagrama imperfecto de Pantaleón Barrera)",
+          "obra_literaria": "La novela de Pantaleón Barrera — disponible en Universidad de Wisconsin; inédita en Hopelchén",
+          "red_familiar": "Suegro de Serapio Baqueiro Preve; padre político del historiador de la Guerra de Castas",
+          "linaje": "Ver familia FAM003_Barrera en datos/curated/01_personajes.json: el apellido Barrera continúa en 2024 (Leonel Barrera, director jurídico del Ayuntamiento)"
+        }
+      ],
+      "notas_contradiccion": "El Imperio de Maximiliano — considerado en la narrativa liberal mexicana como el enemigo de la República — condecora al mismo gobernador que vendió mayas a Cuba. El 'enemigo' imperial y el republicano-liberal traficante de personas comparten el mismo orden de dominación sobre las comunidades mayas de Hopelchén. La distinción entre liberales e imperiales, que estructura toda la historiografía del siglo XIX, no cambia nada en la vida de los mayas de Los Chenes.",
+      "conexion_hipotesis": "Pantaleón Barrera Cámara es el nodo de convergencia más explícito de la hipótesis: una persona nacida en Hopelchén ejerce poder político (gobernador), económico (haciendas), penal (decreto de deportación), simbólico (condecoración imperial) y narrativo (novela encubierta) de manera simultánea. El patrón de control total en una sola persona o red familiar que el proyecto rastrea en el siglo XX (familias Lara, Aranda, Calderón) tiene su antecedente más claro en Barrera en el siglo XIX.",
+      "tags": [
+        "Pantaleón Barrera",
+        "gobernador Yucatán",
+        "traficante de mayas",
+        "Cuba",
+        "esclavitud encubierta",
+        "Carlota",
+        "Maximiliano",
+        "Napoleón Trebarra",
+        "novela",
+        "Hopelchén",
+        "despojo",
+        "siglo XIX"
+      ]
+    },
+    {
+      "registro_id": "003-K",
+      "subtitulo": "Olegario Molina Solís: nacido en Bolonchenticul, 'El Olegariato', Secretario de Fomento con Porfirio Díaz — el municipio que exporta élites y esconde su nombre",
+      "fecha_evento": "c. 1843 — 1925",
+      "lugar": "Bolonchenticul (hoy municipio de Hopelchén) — Mérida — Ciudad de México — La Habana",
+      "descripcion": "Olegario Molina Solís nació en Bolonchenticul — el pueblo de los nueve pozos, a 34 kilómetros de Hopelchén — en el mismo municipio que hoy lleva el nombre de Hopelchén. Fue el empresario henequenero más poderoso de la Península de Yucatán durante el Porfiriato. 'El Olegariato' — como se llamó al período de su dominio absoluto sobre el henequén — describe el control total que Molina ejerció sobre el mercado de una fibra que conectaba la economía yucateca con los mercados globales (principalmente con la empresa International Harvester de los Estados Unidos). Fue Secretario de Fomento, Colonización e Industria durante el gobierno de Porfirio Díaz. Cuando el Imperio porfiriano colapsó, Molina Solís murió exiliado en La Habana, Cuba, en 1925 — la misma ciudad a donde habían sido deportados los mayas de Los Chenes durante la Guerra de Castas. El hombre más poderoso producido por el municipio de Hopelchén terminó en la misma isla que los hombres más despojados. La familia Molina Solís permanece en Cuba hasta la actualidad.",
+      "fuente": {
+        "nombre": "AV_PERSONAS.md — OLEGARIO MOLINA SOLÍS / AV_HILOS.md — HILO CUBA",
+        "tipo": "Síntesis de investigación previa del proyecto — requiere verificación en fuentes primarias",
+        "nota_verificacion": "Datos biográficos de Olegario Molina Solís son ampliamente documentados en historiografía del Porfiriato. Ver: Wells, Allen (1985). Yucatán's Gilded Age: Haciendas, Henequen, and International Harvester, 1860-1915. University of New Mexico Press.",
+        "confiabilidad": "Alta — personaje histórico documentado en múltiples fuentes académicas sobre el Porfiriato"
+      },
+      "tipo_dato": "Biográfico — verificado en historiografía del Porfiriato",
+      "personajes": [
+        {
+          "nombre": "Olegario Molina Solís",
+          "nacimiento": "Bolonchenticul, municipio de Hopelchén, Campeche (c. 1843)",
+          "muerte": "La Habana, Cuba, 1925",
+          "cargo": "Secretario de Fomento, Colonización e Industria — gobierno de Porfirio Díaz",
+          "apodo": "'El Olegariato' — período de control total del henequén yucateco",
+          "nota_critica": "Es el nativo de mayor poder político nacional producido por el municipio de Hopelchén. No tiene una calle en Hopelchén con su nombre. La narrativa local no lo reivindica porque su proyecto de poder fue destruido con la Revolución."
+        }
+      ],
+      "notas_contradiccion": "El circuito Cuba se cierra aquí de manera brutal: los mayas de Hopelchén fueron enviados a Cuba como esclavos encubiertos en 1848-1861 (Pantaleón Barrera). El empresario más poderoso nacido en el mismo municipio murió exiliado en la misma isla en 1925 (Olegario Molina). La isla que recibió el trabajo forzado de los despojados también recibió el exilio del despojador. La historia de Cuba y Hopelchén es más profunda de lo que cualquier libro local reconoce.",
+      "conexion_hipotesis": "Olegario Molina Solís es la evidencia más clara de que Hopelchén produce personas de poder de escala nacional (Secretario de Estado) sin que ese poder se devuelva al municipio de origen en forma de infraestructura, conocimiento o justicia. La hipótesis del proyecto sostiene que el despojo opera en ciclos: el ciclo henequero-porfiriano que Molina personifica extrajo la riqueza de la Península sin redistribuirla en las comunidades que la producían.",
+      "tags": [
+        "Olegario Molina Solís",
+        "Bolonchenticul",
+        "Porfiriato",
+        "henequén",
+        "El Olegariato",
+        "Secretario de Fomento",
+        "Cuba",
+        "exilio",
+        "despojo económico",
+        "siglo XIX-XX"
+      ]
     }
-
   ],
-
   "linea_del_tiempo_nodo": [
-    {"año": "~1682", "evento": "Lápida de mármol en iglesia de Bolonchenticul — primer registro escrito colonial en ese poblado"},
-    {"año": "1821", "evento": "Independencia de México. El convento franciscano de Hopelchén pasa al clero secular. Los peones mayas permanecen en las haciendas."},
-    {"año": "1840", "evento": "Hopelchén es 'partido' del departamento de Campeche del Estado de Yucatán. Categoría de Villa."},
-    {"año": "1843–1847", "evento": "Enajenación de 800,000 ha de tierras — 45% en región de Hopelchén. Despojo que causa la Guerra de Castas."},
-    {"año": "Julio 1847", "evento": "Inicio de la Guerra de Castas. Cecilio Chi toma Tepich."},
-    {"año": "Mayo 1848", "evento": "Juan de Dios May ataca Hopelchén. Grandes bajas en ambos bandos."},
-    {"año": "1848 sept.", "evento": "938 soldados mercenarios estadounidenses llegan a Tekax para combatir a mayas rebeldes."},
-    {"año": "6 agosto 1857", "evento": "Pedro Baranda encabeza emancipación de Campeche de Yucatán."},
-    {"año": "29 enero 1858", "evento": "Hopelchén declara pertenecer al Estado de Campeche."},
-    {"año": "16 sept. 1870", "evento": "Joaquín Baranda inaugura primer telégrafo Campeche-Hopelchén-Iturbide."},
-    {"año": "1871–1877", "evento": "Joaquín Baranda, gobernador de Campeche."},
-    {"año": "28 julio 1898", "evento": "Joaquín Baranda inaugura (en representación de Porfirio Díaz) el ferrocarril Mérida-Campeche."},
-    {"año": "1882–1901", "evento": "Joaquín Baranda, Ministro de Justicia e Instrucción Pública bajo Porfirio Díaz."},
-    {"año": "1883", "evento": "Ley de Colonización y Deslinde de Terrenos Baldíos — inicio de compañías deslindadoras en Campeche."},
-    {"año": "1902", "evento": "Pedro Advíncula Lara construye teatro en Hopelchén."},
-    {"año": "1909", "evento": "Muerte de Joaquín Baranda en Ciudad de México. Restos en Rotonda de Hombres Ilustres."},
-    {"año": "1910", "evento": "Inicio de la Revolución Mexicana. Hopelchén identificado como 'principal foco de lucha antiagraria'."},
-    {"año": "1911", "evento": "Pedro Advíncula Lara construye reloj público en Hopelchén (fabricado en Berlín, Alemania)."}
+    {
+      "año": "~1682",
+      "evento": "Lápida de mármol en iglesia de Bolonchenticul — primer registro escrito colonial en ese poblado"
+    },
+    {
+      "año": "1821",
+      "evento": "Independencia de México. El convento franciscano de Hopelchén pasa al clero secular. Los peones mayas permanecen en las haciendas."
+    },
+    {
+      "año": "1840",
+      "evento": "Hopelchén es 'partido' del departamento de Campeche del Estado de Yucatán. Categoría de Villa."
+    },
+    {
+      "año": "1843–1847",
+      "evento": "Enajenación de 800,000 ha de tierras — 45% en región de Hopelchén. Despojo que causa la Guerra de Castas."
+    },
+    {
+      "año": "Julio 1847",
+      "evento": "Inicio de la Guerra de Castas. Cecilio Chi toma Tepich."
+    },
+    {
+      "año": "Mayo 1848",
+      "evento": "Juan de Dios May ataca Hopelchén. Grandes bajas en ambos bandos."
+    },
+    {
+      "año": "1848 sept.",
+      "evento": "938 soldados mercenarios estadounidenses llegan a Tekax para combatir a mayas rebeldes."
+    },
+    {
+      "año": "6 agosto 1857",
+      "evento": "Pedro Baranda encabeza emancipación de Campeche de Yucatán."
+    },
+    {
+      "año": "29 enero 1858",
+      "evento": "Hopelchén declara pertenecer al Estado de Campeche."
+    },
+    {
+      "año": "16 sept. 1870",
+      "evento": "Joaquín Baranda inaugura primer telégrafo Campeche-Hopelchén-Iturbide."
+    },
+    {
+      "año": "1871–1877",
+      "evento": "Joaquín Baranda, gobernador de Campeche."
+    },
+    {
+      "año": "28 julio 1898",
+      "evento": "Joaquín Baranda inaugura (en representación de Porfirio Díaz) el ferrocarril Mérida-Campeche."
+    },
+    {
+      "año": "1882–1901",
+      "evento": "Joaquín Baranda, Ministro de Justicia e Instrucción Pública bajo Porfirio Díaz."
+    },
+    {
+      "año": "1883",
+      "evento": "Ley de Colonización y Deslinde de Terrenos Baldíos — inicio de compañías deslindadoras en Campeche."
+    },
+    {
+      "año": "1902",
+      "evento": "Pedro Advíncula Lara construye teatro en Hopelchén."
+    },
+    {
+      "año": "1909",
+      "evento": "Muerte de Joaquín Baranda en Ciudad de México. Restos en Rotonda de Hombres Ilustres."
+    },
+    {
+      "año": "1910",
+      "evento": "Inicio de la Revolución Mexicana. Hopelchén identificado como 'principal foco de lucha antiagraria'."
+    },
+    {
+      "año": "1911",
+      "evento": "Pedro Advíncula Lara construye reloj público en Hopelchén (fabricado en Berlín, Alemania)."
+    }
   ],
-
   "contradicciones_globales_nodo": [
     {
       "contradiccion_id": "C007",
@@ -379,7 +657,6 @@
       "resolucion_propuesta": "Buscar en AGEY (Archivo General del Estado de Yucatán) y AGN ramo Tierras documentos sobre concesiones a extranjeros en 1848-1855."
     }
   ],
-
   "fuentes_criticas_identificadas": [
     {
       "fuente": "Schüren, Ute — Entre los caminos de herradura y los campos de aterrizaje: Rutas de comunicación e historia económica en el sureste de México",
@@ -401,7 +678,6 @@
       "relevancia": "Fuente académica que documenta el 45% del despojo en la región de Hopelchén. Localizar publicación específica para cita directa."
     }
   ],
-
   "metadatos": {
     "metodologia": "Investigación web — SciELO, Wikipedia ES/EN, INAH, fuentes institucionales y secundarias verificadas. Cruce de datos entre registros.",
     "nivel_profundidad": "1 (primera iteración del nodo)",

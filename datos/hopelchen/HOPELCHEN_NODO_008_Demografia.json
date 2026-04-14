@@ -9,9 +9,7 @@
   "version": "1.0",
   "continua_desde": "NODO 007 — Rutas, Territorio y Control del Espacio (1517–2026)",
   "autor_investigacion": "Proyecto Hopelchén — Investigación histórica independiente",
-
   "registros": [
-
     {
       "registro_id": "008-A",
       "subtitulo": "Demografía prehispánica estimada — el apogeo de Xtampak y Los Chenes",
@@ -31,9 +29,15 @@
       "tipo_dato": "Estimado — sin fuente primaria directa para período prehispánico",
       "notas_contradiccion": "No es posible establecer la población prehispánica de Los Chenes con precisión. Sin datos LiDAR completos del municipio y sin excavaciones estratigráficas sistemáticas en Xtampak y Hochob, cualquier número es una estimación. Lo que sí es verificable: en su apogeo (600-900 d.C.), Los Chenes era un territorio de alta densidad poblacional con múltiples ciudades activas simultáneamente.",
       "conexion_hipotesis": "El colapso demográfico post-1000 d.C. — cuando las ciudades de Los Chenes fueron abandonadas — es el primer evento de despoblamiento documentado arqueológicamente. Los colapsos posteriores (Guerra de Castas, post-chicle) repiten un patrón que comienza antes de la conquista.",
-      "tags": ["demografía prehispánica", "estimación", "Xtampak", "Los Chenes", "26000 habitantes 1846", "apogeo maya"]
+      "tags": [
+        "demografía prehispánica",
+        "estimación",
+        "Xtampak",
+        "Los Chenes",
+        "26000 habitantes 1846",
+        "apogeo maya"
+      ]
     },
-
     {
       "registro_id": "008-B",
       "subtitulo": "El ciclo de población colonial: congregación (20,000), expansión, colapso por Guerra de Castas",
@@ -63,9 +67,15 @@
       "tipo_dato": "Citado — múltiples fuentes secundarias con base en documentos coloniales",
       "notas_contradiccion": "La cifra de 20,000 en 1630 se refiere al pueblo de congregación de Hopelchén específicamente (o a la región directamente administrada). La cifra de 26,000 en 1846 se refiere al distrito completo de Los Chenes. Las dos cifras no son comparables directamente. La aparente diferencia (20,000 → 26,000 en 216 años) oculta una historia más compleja: probablemente hubo mayor crecimiento en el siglo XVIII-XIX que fue seguido por estancamiento o retroceso antes de la Guerra.",
       "conexion_hipotesis": "La congregación de 1621 con 20,000 indígenas es el momento de mayor control demográfico colonial en Hopelchén: concentrar a la población en un punto era el prerrequisito para controlar su trabajo y su religión. La Guerra de Castas deshace ese control en décadas.",
-      "tags": ["congregación 1621", "20000 indígenas 1630", "26000 habitantes 1846", "Guerra de Castas", "despoblamiento", "coloniales"]
+      "tags": [
+        "congregación 1621",
+        "20000 indígenas 1630",
+        "26000 habitantes 1846",
+        "Guerra de Castas",
+        "despoblamiento",
+        "coloniales"
+      ]
     },
-
     {
       "registro_id": "008-C",
       "subtitulo": "Los censos del siglo XX — la reconstrucción demográfica bajo el PRI",
@@ -130,25 +140,54 @@
           "fuente": "INEGI — Censo de Población y Vivienda 2020",
           "url": "https://www.economia.gob.mx/datamexico/es/profile/geo/hopelchen",
           "rangos_edad_mayores": [
-            {"rango": "0-4 años", "habitantes": 4419},
-            {"rango": "10-14 años", "habitantes": 4373},
-            {"rango": "5-9 años", "habitantes": 4275}
+            {
+              "rango": "0-4 años",
+              "habitantes": 4419
+            },
+            {
+              "rango": "10-14 años",
+              "habitantes": 4373
+            },
+            {
+              "rango": "5-9 años",
+              "habitantes": 4275
+            }
           ],
           "nota": "El 31% de la población tiene menos de 15 años — estructura poblacional joven típica de comunidades con alta natalidad y emigración de adultos"
         }
       ],
       "fuentes": [
-        {"nombre": "Data México — Hopelchén", "url": "https://www.economia.gob.mx/datamexico/es/profile/geo/hopelchen"},
-        {"nombre": "CONEVAL — Ficha Hopelchén 2010", "url": "https://www.gob.mx/cms/uploads/attachment/file/31927/Campeche_006.pdf"},
-        {"nombre": "Wikipedia — Municipio de Hopelchén", "url": "https://es.wikipedia.org/wiki/Municipio_de_Hopelch%C3%A9n"},
-        {"nombre": "Pueblos América — Hopelchén", "url": "https://mexico.pueblosamerica.com/i/hopelchen/"}
+        {
+          "nombre": "Data México — Hopelchén",
+          "url": "https://www.economia.gob.mx/datamexico/es/profile/geo/hopelchen"
+        },
+        {
+          "nombre": "CONEVAL — Ficha Hopelchén 2010",
+          "url": "https://www.gob.mx/cms/uploads/attachment/file/31927/Campeche_006.pdf"
+        },
+        {
+          "nombre": "Wikipedia — Municipio de Hopelchén",
+          "url": "https://es.wikipedia.org/wiki/Municipio_de_Hopelch%C3%A9n"
+        },
+        {
+          "nombre": "Pueblos América — Hopelchén",
+          "url": "https://mexico.pueblosamerica.com/i/hopelchen/"
+        }
       ],
       "tipo_dato": "Citado — fuentes institucionales INEGI y CONEVAL",
       "notas_contradiccion": "Los datos censales del siglo XX temprano (1900-1990) no están digitalizados por municipio de manera accesible. El Quinto Censo de 1930 existe en formato físico en INEGI. FamilySearch tiene el 'Censo de población del municipio de Hopelchén, Campeche, 1930' disponible con restricciones de acceso. Esta brecha de 150 años (1846-2000) en los datos demográficos accesibles es uno de los vacíos más importantes del nodo.",
       "conexion_hipotesis": "La curva 2005-2020 (de ~6,760 en la cabecera a 42,140 en el municipio) refleja la dispersión de la población en comunidades pequeñas — patrón consistente con comunidades mayas que históricamente se alejaron de los centros de control. El 75.6% de pobreza en 2010 es la cifra más contundente del repositorio para demostrar el efecto acumulado de 500 años de extracción.",
-      "tags": ["censos", "INEGI", "37777 habitantes 2010", "42140 habitantes 2020", "75.6% pobreza", "CONEVAL", "siglo XX", "datos históricos"]
+      "tags": [
+        "censos",
+        "INEGI",
+        "37777 habitantes 2010",
+        "42140 habitantes 2020",
+        "75.6% pobreza",
+        "CONEVAL",
+        "siglo XX",
+        "datos históricos"
+      ]
     },
-
     {
       "registro_id": "008-D",
       "subtitulo": "El perfil indígena de Hopelchén en 2020 — los mayas siguen siendo mayoría, en pobreza",
@@ -160,7 +199,10 @@
         "hablantes_lengua_indigena_3_anos_mas": 12777,
         "porcentaje_hablantes": "30.5%",
         "lengua_principal": "Maya (12,777 hablantes)",
-        "otras_lenguas": ["Ch'ol (43)", "Yaqui (14)"],
+        "otras_lenguas": [
+          "Ch'ol (43)",
+          "Yaqui (14)"
+        ],
         "poblacion_indigena_criterio_amplio": "70.93% (dato del Censo 2010, PueblosAmérica)",
         "hablantes_lengua_no_hablan_español": "1.55% — monolingüismo maya residual",
         "fuente": "Data México — INEGI Censo 2020 / PueblosAmérica (datos 2010)"
@@ -195,17 +237,38 @@
         }
       ],
       "fuentes": [
-        {"nombre": "Data México — Hopelchén 2020", "url": "https://www.economia.gob.mx/datamexico/es/profile/geo/hopelchen"},
-        {"nombre": "PorEsto — Marginación indígena Campeche (Dic 2021)", "url": "https://www.poresto.com/campeche/2021/12/29/calakmul-otros-seis-municipios-de-campeche-con-altos-indices-de-marginacion-indigenas.html"},
-        {"nombre": "Tribuna Campeche — Marginados pueblos indígenas (Ago 2023)", "url": "https://tribunacampeche.com/09/marginados-pueblos-indigenas/624994/"},
-        {"nombre": "PueblosAmérica — Municipio Hopelchén", "url": "https://mexico.pueblosamerica.com/campeche/hopelchen/"}
+        {
+          "nombre": "Data México — Hopelchén 2020",
+          "url": "https://www.economia.gob.mx/datamexico/es/profile/geo/hopelchen"
+        },
+        {
+          "nombre": "PorEsto — Marginación indígena Campeche (Dic 2021)",
+          "url": "https://www.poresto.com/campeche/2021/12/29/calakmul-otros-seis-municipios-de-campeche-con-altos-indices-de-marginacion-indigenas.html"
+        },
+        {
+          "nombre": "Tribuna Campeche — Marginados pueblos indígenas (Ago 2023)",
+          "url": "https://tribunacampeche.com/09/marginados-pueblos-indigenas/624994/"
+        },
+        {
+          "nombre": "PueblosAmérica — Municipio Hopelchén",
+          "url": "https://mexico.pueblosamerica.com/campeche/hopelchen/"
+        }
       ],
       "tipo_dato": "Citado — fuentes institucionales y periodísticas",
       "notas_contradiccion": "El dato de 70.93% de población indígena corresponde al Censo 2010. El dato de 30.5% de hablantes de lengua maya corresponde al Censo 2020. La diferencia entre ambas cifras refleja el criterio de medición: el 70.93% usa criterio de adscripción identitaria (quién se considera indígena), mientras el 30.5% usa criterio lingüístico estricto (quién habla la lengua). La brecha entre identidad y lengua en Hopelchén (70% vs 30%) es evidencia directa de la pérdida lingüística acelerada en las últimas décadas — probablemente acelerada por la llegada de menonitas, la escolarización en español y la urbanización.",
       "conexion_hipotesis": "El dato más poderoso del repositorio en términos de confirmación de la hipótesis: en el municipio donde los mayas son el 70% de la población, el 75.6% vive en pobreza y el 83% carece de acceso a seguridad social. Los descendientes de quienes construyeron Xtampak, resistieron la conquista por 150 años, sobrevivieron la Guerra de Castas y explotaron el chicle para los mercados mundiales — son hoy los más pobres del estado más pobre de la región.",
-      "tags": ["población indígena 70.93%", "hablantes maya 30.5%", "pobreza 75.6%", "analfabetismo", "marginación", "CONEVAL", "INEGI 2020", "pérdida lingüística", "identidad vs lengua"]
+      "tags": [
+        "población indígena 70.93%",
+        "hablantes maya 30.5%",
+        "pobreza 75.6%",
+        "analfabetismo",
+        "marginación",
+        "CONEVAL",
+        "INEGI 2020",
+        "pérdida lingüística",
+        "identidad vs lengua"
+      ]
     },
-
     {
       "registro_id": "008-E",
       "subtitulo": "Geografía de la dispersión — las 170 localidades del municipio y la distribución del poder",
@@ -253,16 +316,34 @@
       ],
       "dato_migracion": "El 12.80% de la población del municipio proviene de fuera del Estado de Campeche (Censo 2010, PueblosAmérica). Este porcentaje incluye menonitas de Chihuahua y trabajadores agroindustriales de otras regiones.",
       "fuentes": [
-        {"nombre": "Wikipedia — Municipio de Hopelchén", "url": "https://es.wikipedia.org/wiki/Municipio_de_Hopelch%C3%A9n"},
-        {"nombre": "PueblosAmérica — Municipio Hopelchén", "url": "https://mexico.pueblosamerica.com/campeche/hopelchen/"},
-        {"nombre": "PueblosAmérica — Cancabchén", "url": "https://mexico.pueblosamerica.com/i/cancabchen/"}
+        {
+          "nombre": "Wikipedia — Municipio de Hopelchén",
+          "url": "https://es.wikipedia.org/wiki/Municipio_de_Hopelch%C3%A9n"
+        },
+        {
+          "nombre": "PueblosAmérica — Municipio Hopelchén",
+          "url": "https://mexico.pueblosamerica.com/campeche/hopelchen/"
+        },
+        {
+          "nombre": "PueblosAmérica — Cancabchén",
+          "url": "https://mexico.pueblosamerica.com/i/cancabchen/"
+        }
       ],
       "tipo_dato": "Citado — fuentes institucionales",
       "notas_contradiccion": "La ciudad de Hopelchén tiene solo 8,048 habitantes de un total municipal de 42,140. Esto significa que el 81% de la población del municipio vive fuera de la cabecera — en pequeñas comunidades dispersas. Este patrón de dispersión extrema coexiste con la centralización del poder político en la cabecera (presidencia municipal, ayuntamiento, juzgados). Las comunidades dispersas son mayoritariamente mayas, pobres y con acceso limitado a servicios — la distancia del poder es también distancia física.",
       "conexion_hipotesis": "La dispersión de 170 localidades en un municipio de 7,460 km² refleja la estrategia histórica maya de alejarse de los centros de control. La cabecera tiene el poder político; las comunidades dispersas tienen la mayoría demográfica maya. Esta geografía del poder es la estructura espacial de la hipótesis.",
-      "tags": ["170 localidades", "dispersión", "Hopelchén 8048", "Cancabchén 91% indígena", "12.8% foráneos", "menonitas", "Ich Ek", "Leydy Pech", "geografía poder"]
+      "tags": [
+        "170 localidades",
+        "dispersión",
+        "Hopelchén 8048",
+        "Cancabchén 91% indígena",
+        "12.8% foráneos",
+        "menonitas",
+        "Ich Ek",
+        "Leydy Pech",
+        "geografía poder"
+      ]
     },
-
     {
       "registro_id": "008-F",
       "subtitulo": "FamilySearch y el Censo de 1930 de Hopelchén — fuente genealógica no explorada",
@@ -282,9 +363,16 @@
       "tipo_dato": "Identificado — no consultado directamente",
       "accion_pendiente": "Acceder al Censo de 1930 de Hopelchén en FamilySearch. Los Centros FamilySearch en México incluyen Ciudad de México y Mérida (más cercano a Hopelchén). El INEGI tiene el archivo histórico accesible en línea: https://www.inegi.org.mx/app/archivohistorico/",
       "conexion_hipotesis": "El Censo de 1930 captura exactamente el momento del auge chiclero máximo. Los nombres de familias, ocupaciones ('chiclero', 'contratista', 'comerciante', 'hacendado') y las localidades habitadas vs. deshabitadas son datos directos sobre quién controlaba qué en el municipio en ese momento crítico.",
-      "tags": ["FamilySearch", "censo 1930", "INEGI archivo histórico", "genealogía", "chicleros 1930", "datos nominales", "fuente no consultada"]
+      "tags": [
+        "FamilySearch",
+        "censo 1930",
+        "INEGI archivo histórico",
+        "genealogía",
+        "chicleros 1930",
+        "datos nominales",
+        "fuente no consultada"
+      ]
     },
-
     {
       "registro_id": "008-G",
       "subtitulo": "CRUCE DE DATOS: La curva demográfica como lectura del ciclo extractivo",
@@ -348,23 +436,99 @@
       "tipo_dato": "Análisis estructural",
       "notas_contradiccion": "El crecimiento demográfico de 37,777 (2010) a 42,140 (2020) — un 11.5% en una década — coincide con el período de mayor deforestación y conflicto. La llegada de menonitas y trabajadores agroindustriales (el 12.8% de foráneos) influyó en ese crecimiento. El municipio crece no porque las comunidades mayas mejoren — sino porque llegan nuevos actores del ciclo extractivo.",
       "conexion_hipotesis": "La curva demográfica de Hopelchén confirma la hipótesis en su dimensión más humana: no hay prosperidad generalizada en 500 años de extracción. El 75.6% de pobreza en 2010 es el resultado acumulado de todos los ciclos documentados en los Nodos 001-007.",
-      "tags": ["cruce datos", "demografía y ciclos", "26000 a 42140", "crecimiento lento", "pobreza acumulada", "12.8% foráneos", "deforestación vs población", "análisis estructural"]
+      "tags": [
+        "cruce datos",
+        "demografía y ciclos",
+        "26000 a 42140",
+        "crecimiento lento",
+        "pobreza acumulada",
+        "12.8% foráneos",
+        "deforestación vs población",
+        "análisis estructural"
+      ]
+    },
+    {
+      "registro_id": "008-H",
+      "subtitulo": "Deforestación menonita y transformación demográfica del territorio (1987–2026): 153,809 hectáreas perdidas en 20 años",
+      "fecha_evento": "1987 — 2026",
+      "lugar": "Municipio de Hopelchén, Campeche",
+      "descripcion": "La llegada de los colonos menonitas a Hopelchén en 1987 y su expansión agroindustrial acelerada después de la reforma al Artículo 27 (1992) produjo la transformación territorial y demográfica más dramática del municipio desde la Guerra de Castas. Los datos disponibles muestran: (1) En 20 años, Hopelchén perdió 153,809 hectáreas de cobertura arbórea — la mayor pérdida de cualquier municipio de Campeche. (2) Entre 2010 y 2020, el municipio perdió 26,900 hectáreas adicionales de selva — el número más alto del estado. (3) Campeche como estado ocupa el primer lugar nacional en pérdida de cobertura arbórea: 80,900 hectáreas. (4) La Profepa documentó 69 procedimientos administrativos contra la comunidad menonita en el período 2015-2022. (5) Para 2021, la población menonita en el municipio superaba los 8,000 integrantes, distribuidos en 11 colonias. Esa cifra representaba aproximadamente el 21% de la población total del municipio (~38,000 habitantes) y modificó radicalmente la estructura demográfica de un municipio que en 2020 era 70.93% indígena.",
+      "fuentes": [
+        {
+          "nombre": "Animal Político — 'Cómo los menonitas están devastando la Selva Maya en México'. 2022.",
+          "tipo": "Periodismo de investigación con datos de Global Forest Watch",
+          "citado_en": "menonitas_hopelchen.json del proyecto"
+        },
+        {
+          "nombre": "Global Forest Watch — datos satelitales de pérdida de cobertura arbórea en Hopelchén, Campeche",
+          "tipo": "Datos satelitales institucionales",
+          "confiabilidad": "Alta"
+        },
+        {
+          "nombre": "PorEsto — reportajes sobre colonias menonitas en Hopelchén 2019, 2021, 2023",
+          "tipo": "Fuente periodística local/regional",
+          "confiabilidad": "Media-Alta"
+        }
+      ],
+      "tipo_dato": "Cuantitativo — datos satelitales y de gobierno verificados",
+      "notas_contradiccion": "El Estado mexicano protegió la llegada de los menonitas a Hopelchén en 1987 y facilitó su expansión con la reforma al Artículo 27 en 1992. Al mismo tiempo, la Profepa documentó 69 procedimientos administrativos contra esa misma comunidad entre 2015 y 2022 — sin que ninguno produjera una reducción documentada de la deforestación. El Estado habilitó el despojo y luego respondió con procedimientos que no detuvieron el despojo.",
+      "conexion_hipotesis": "La pérdida de 153,809 hectáreas de selva en 20 años es la expresión cuantitativa más contundente de la hipótesis: el ciclo extractivo contemporáneo (menonitas + agroindustria transnacional + Estado inactivo) produce una devastación territorial comparable en escala a la de las compañías deslindadoras del Porfiriato y a la de la habilitación chiclera. La curva demográfica (Nodo 008) no puede leerse sin este dato territorial.",
+      "tags": [
+        "deforestación",
+        "menonitas",
+        "153809 hectáreas",
+        "Global Forest Watch",
+        "Artículo 27",
+        "soya",
+        "Selva Maya",
+        "Hopelchén",
+        "demografía contemporánea",
+        "despojo territorial"
+      ]
     }
   ],
-
   "linea_del_tiempo_nodo": [
-    {"año": "~600-900 d.C.", "evento": "Apogeo de Xtampak y Los Chenes — población estimada en decenas de miles en la región"},
-    {"año": "~1000-1200 d.C.", "evento": "Colapso maya — abandono de ciudades, migración regional"},
-    {"año": "~1630", "evento": "Congregación de Hopelchén: ~20,000 indígenas concentrados — primer número documentado"},
-    {"año": "18 sep 1846", "evento": "Memoria del Gobierno: ~26,000 habitantes en Los Chenes (11 haciendas, 116 ranchos)"},
-    {"año": "1847-1901", "evento": "Guerra de Castas: 40% de establecimientos agrícolas desaparecen. Fuerte despoblamiento y migración"},
-    {"año": "1930", "evento": "Censo disponible en FamilySearch — no consultado directamente. Auge chiclero en pleno desarrollo"},
-    {"año": "2005", "evento": "Localidad de Hopelchén: 6,760 habitantes (solo la cabecera)"},
-    {"año": "2010", "evento": "Municipio: 37,777 habitantes. 75.6% en pobreza. 70.93% indígena. 46.85% hablantes de maya"},
-    {"año": "2015", "evento": "Municipio: 40,100 habitantes"},
-    {"año": "2020", "evento": "Municipio: 42,140 habitantes (+11.5% vs 2010). 30.5% hablantes de maya. 12.8% población foránea"}
+    {
+      "año": "~600-900 d.C.",
+      "evento": "Apogeo de Xtampak y Los Chenes — población estimada en decenas de miles en la región"
+    },
+    {
+      "año": "~1000-1200 d.C.",
+      "evento": "Colapso maya — abandono de ciudades, migración regional"
+    },
+    {
+      "año": "~1630",
+      "evento": "Congregación de Hopelchén: ~20,000 indígenas concentrados — primer número documentado"
+    },
+    {
+      "año": "18 sep 1846",
+      "evento": "Memoria del Gobierno: ~26,000 habitantes en Los Chenes (11 haciendas, 116 ranchos)"
+    },
+    {
+      "año": "1847-1901",
+      "evento": "Guerra de Castas: 40% de establecimientos agrícolas desaparecen. Fuerte despoblamiento y migración"
+    },
+    {
+      "año": "1930",
+      "evento": "Censo disponible en FamilySearch — no consultado directamente. Auge chiclero en pleno desarrollo"
+    },
+    {
+      "año": "2005",
+      "evento": "Localidad de Hopelchén: 6,760 habitantes (solo la cabecera)"
+    },
+    {
+      "año": "2010",
+      "evento": "Municipio: 37,777 habitantes. 75.6% en pobreza. 70.93% indígena. 46.85% hablantes de maya"
+    },
+    {
+      "año": "2015",
+      "evento": "Municipio: 40,100 habitantes"
+    },
+    {
+      "año": "2020",
+      "evento": "Municipio: 42,140 habitantes (+11.5% vs 2010). 30.5% hablantes de maya. 12.8% población foránea"
+    }
   ],
-
   "contradicciones_globales_nodo": [
     {
       "contradiccion_id": "C021",
@@ -379,7 +543,6 @@
       "resolucion_propuesta": "Calcular la tasa de pérdida de cobertura forestal vs. tasa de crecimiento de la población indígena para proyectar cuándo el umbral ecológico de subsistencia será superado."
     }
   ],
-
   "fuentes_demograficas_pendientes": [
     "INEGI — Archivo Histórico: censos 1900, 1910, 1921, 1930, 1940, 1950, 1960, 1970, 1980, 1990 para municipio de Hopelchén",
     "FamilySearch — Censo de población del municipio de Hopelchén, Campeche, 1930 (imágenes disponibles en Centro FamilySearch)",
@@ -387,7 +550,6 @@
     "CONAPO — Índice de Marginación histórico para Hopelchén (evolución 1990-2020)",
     "INALI — Datos de vitalidad de la lengua maya en Hopelchén específicamente"
   ],
-
   "metadatos": {
     "metodologia": "Investigación web — INEGI, Data México, CONEVAL, CONAPO, PueblosAmérica, PorEsto, Tribuna Campeche, FamilySearch. Complementado con datos históricos de Schüren (2013) y fuentes de nodos anteriores.",
     "nivel_profundidad": "1 (primera iteración — censos modernos accesibles; censos históricos pendientes de consulta directa)",

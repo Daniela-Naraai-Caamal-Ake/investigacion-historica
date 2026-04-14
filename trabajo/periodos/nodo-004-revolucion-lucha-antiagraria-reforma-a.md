@@ -61,11 +61,12 @@ _Origen: El Bable — La antigua hacienda de Dzibalchén (cita resolución presi
 | **Lugar** | Hopelchén, Dzibalchén, Los Chenes — Campeche |
 | **Personajes** | Contratistas chicleros de Hopelchén (no identificados nominalmente) (Intermediarios entre las compañías norteamericanas y los chicleros. Controlaban concesiones, transporte y abasto. Tenían el monopolio de la compra de productos agrícolas y forestales.); Compañías norteamericanas (Wrigley's y otras) (Controlaban la exportación y el precio del chicle. Tenían agentes en Mérida, Campeche, Ciudad del Carmen, Cozumel y Belice.); Humberto Lara y Lara (Periodista nacido en Hopelchén. Escribió 'En la Montaña Chiclera' — novela histórica sobre la industria chiclera de Los Chenes.) |
 | **Cargos** | Intermediarios entre las compañías norteamericanas y los chicleros. Controlaban concesiones, transporte y abasto. Tenían el monopolio de la compra de productos agrícolas y forestales.; Controlaban la exportación y el precio del chicle. Tenían agentes en Mérida, Campeche, Ciudad del Carmen, Cozumel y Belice.; Periodista nacido en Hopelchén. Escribió 'En la Montaña Chiclera' — novela histórica sobre la industria chiclera de Los Chenes. |
-| **Fuente(s)** | — |
+| **Fuente(s)** | Información consolidada de fuentes secundarias sobre la economía chiclera en Campeche |
 | **Origen** | `datos/hopelchen/HOPELCHEN_NODO_004_Revolucion_Chicle.json` |
 
 > La industria chiclera dominó la economía de Los Chenes durante medio siglo. En los años 30, Dzibalchén y Hopelchén se convirtieron en centros de extracción chiclera. En los años 40, el 60% de la población chenera económicamente activa trabajaba en las chiclerías durante la temporada de lluvias (julio-marzo). En 1940, Campeche aportó el 52% de la producción nacional de chicle, y México el 80% de la producción mundial. La estructura era monopolista y colonial: compañías norteamericanas (Wrigley's y otras) controlaban la exportación. Agentes de las compañías firmaban contratos con contratistas locales. Los contratistas pagaban anticipos a los chicleros en vales de provisiones — sistema de endeudamiento análogo a la tienda de raya de las haciendas. Un quintal (46 kg) de chicle valía 98 dólares en Nueva York; los agentes en los puertos pagaban 43 dólares; los chicleros recibían sólo 15-18 dólares. Los campos aéreos de Hopelchén, X Can Há y Xpuhil fueron construidos por contratistas en los años 30 para acceder a zonas de difícil acceso.
 
+_Origen: Información consolidada de fuentes secundarias sobre la economía chiclera en Campeche_
 **⚠ Nota/contradicción:** La narrativa popular presenta a los chicleros como 'hombres libres y aventureros'. La realidad documentada: vivían en deuda permanente, sin acceso a educación, expuestos a enfermedades tropicales (paludismo, disentería, mosca chiclera que carcomía orejas y nariz), sin contratos ni prestaciones. La '
 **→ Conexión hipótesis:** La industria chiclera reemplazó a la hacienda como mecanismo de extracción: misma estructura (poder local → contratista → compañía extranjera → mercado internacional), diferente recurso (chicle en lug
 **Etiquetas:** chicle, chicleros, contratistas, Wrigley's, compañías norteamericanas, Hopelchén campo aéreo, Dzibalchén, 60% población, 52% producción nacional, 80% mundial, peonaje, endeudamiento, Ponce Jiménez, Kawakami, La Montaña Chiclera
@@ -155,6 +156,50 @@ _Origen: Análisis propio — cruce de datos de Nodos 001-004_
 **⚠ Nota/contradicción:** Cada época presenta su mecanismo de explotación como 'modernización', 'desarrollo' o 'progreso': las encomiendas eran 'evangelización', las haciendas eran 'prosperidad', el chicle era 'empresa regional', los transgénicos son 'agricultura sostenible'. La narrativa del progreso es siempre construida p
 **→ Conexión hipótesis:** CONFIRMACIÓN MÁXIMA DE LA HIPÓTESIS: El sistema que formó Hopelchén no es una serie de eventos separados sino un patrón continuo de 500 años de extracción de recursos naturales y trabajo indígena por 
 **Etiquetas:** cruce datos, 500 años, ciclo extractivo, patrón estructural, recursos naturales, mano de obra maya, élites externas, encomienda, hacienda, chicle, transgénicos, continuidad histórica
+
+---
+
+
+### Bloque 004-H — Cirilo 'Chan Cil' Baqueiro Preve: el trovador de Hopelchén cuya canció
+
+| Campo | Valor |
+|---|---|
+| **Tipo** | Biográfico — verificado parcialmente; difusión musical requiere fuentes primarias musicológicas |
+| **Fecha / Período** | c. 1848 — 1910 (activo como trovador) / 1920-1941 (difusión nacional e internacional de su obra) |
+| **Lugar** | Dzitbalchén, Hopelchén — Mérida — Ciudad de México |
+| **Personajes** | Cirilo Baqueiro Preve 'Chan Cil' (Trovador; patriarca de la trova yucateca; compositor de Los Xtoles); Gerónimo Baqueiro Foster (Musicólogo; primer académico que documentó sistemáticamente la música maya; capítulo en Los Mayas Antiguos (1941)) |
+| **Cargos** | Trovador; patriarca de la trova yucateca; compositor de Los Xtoles; Musicólogo; primer académico que documentó sistemáticamente la música maya; capítulo en Los Mayas Antiguos (1941) |
+| **Fuente(s)** | Baqueiro Foster, Gerónimo — 'Música maya'. En: *Los Mayas Antiguos*. El Colegio de México, 1941. Pp. 264-271.; AV_PERSONAS.md — CHAN CIL (CIRILO BAQUEIRO PREVE) / AV_HILOS.md — HILO BERLÍN, HILO MUSICAL / Los Mayas Antiguos, Colegio de México 1941 (archivo local: sources/los-mayas-antiguos-monografias-de-arqueologia-etnografia-y-linguistica-mayas-899329.pdf) |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_004_Revolucion_Chicle.json` |
+
+> Cirilo Baqueiro Preve, conocido como 'Chan Cil' (en maya: pequeño Cil), nació en Dzitbalchén, municipio de Hopelchén, y fue el patriarca fundador de la trova yucateca. Hermano menor del historiador Serapio Baqueiro Preve, compuso canciones que combinaban la tradición oral maya con la forma musical de la trova peninsular. Su obra más conocida, 'Los Xtoles' (canciones tradicionales de Los Chenes), fue documentada musicalmente por Gerónimo Baqueiro Foster en 1869 y publicada académicamente en *Los Mayas Antiguos* (El Colegio de México, 1941). En 1920, el compositor Julián Carrillo — inventor del Sonido 13 y pionero de la microtonalidad — usó la canción de Chan Cil en un concierto de la Sinfónica Nacional. El compositor modernista Silvestre Revueltas la incorporó en su obra *La noche de los mayas* (1939), que más tarde fue reorquestada y grabada internacionalmente. La música de un trovador nacido en Hopelchén recorrió el mundo — sin que el mundo lo supiera ni Hopelchén lo reconociera.
+
+_Origen: Baqueiro Foster, Gerónimo — 'Música maya'. En: *Los Mayas Antiguos*. El Colegio de México, 1941. Pp. 264-271._
+**⚠ Nota/contradicción:** La encuentra musical más importante producida por Hopelchén en el siglo XIX-XX fue documentada y difundida por académicos (Baqueiro Foster), apropiada por compositores de vanguardia (Revueltas) y ejecutada en salas de concierto de todo el mundo. Sin atribución clara al municipio. Chan Cil no tiene e
+**→ Conexión hipótesis:** El patrón de extracción cultural replica el patrón de extracción territorial: Hopelchén produce valor (chicle, henequén, trova, meliponicultura, activismo) que es captado y reconocido fuera del munici
+**Etiquetas:** Chan Cil, Cirilo Baqueiro Preve, trova yucateca, Los Xtoles, Dzibalchén, Sinfónica Nacional, Silvestre Revueltas, La noche de los mayas, extracción cultural, invisibilidad histórica
+
+---
+
+
+### Bloque 004-I — 1987: Llegada de los primeros menonitas a Hopelchén — el inicio del nu
+
+| Campo | Valor |
+|---|---|
+| **Tipo** | Histórico documentado — fuentes periodísticas e institucionales |
+| **Fecha / Período** | 1987 |
+| **Lugar** | Hopelchén, Campeche — Colonia Nuevo Progreso |
+| **Personajes** | Pedro Woelke Wiebe (Gobernador de la Colonia Nuevo Progreso — interlocutor en acuerdo con Semarnat agosto 2021) |
+| **Cargos** | Gobernador de la Colonia Nuevo Progreso — interlocutor en acuerdo con Semarnat agosto 2021 |
+| **Fuente(s)** | menonitas_hopelchen.json — Base de datos documental del proyecto |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_004_Revolucion_Chicle.json` |
+
+> En 1987 llegó a Hopelchén el primer grupo de colonos menonitas, procedentes de estados del norte de México (Chihuahua, Durango, Tamaulipas, Zacatecas). Se establecieron en terrenos que el gobierno del estado les facilitó, fundando la Colonia Nuevo Progreso. Su llegada coincidió con el período de la gobernatura de un presidente municipal de Hopelchén no identificado nominalmente en fuentes disponibles — la pregunta P006-08 de VACIOS.md registra este vacío. En 1992, la reforma al Artículo 27 constitucional — que permitió la privatización de ejidos — abrió el camino legal para que las colonias menonitas expandieran sus tierras arrendando parcelas ejidales a comunidades mayas en condiciones de asimetría económica extrema. Para el año 2004, los campos menonitas de Hopelchén ya sembraban 196 hectáreas de soya. En 2005, esa cifra se disparó a 2,315 hectáreas — el punto de inflexión de la deforestación masiva que transformaría el municipio. En 2021, la población menonita en Hopelchén superaba los 8,000 integrantes, distribuidos en al menos 11 colonias: Nuevo Progreso, Santa Fe, Santa Rosa, Chavi, Trinidad, Nuevo Durango, Yalnón, Temporal, Valle Nuevo, Las Flores y Nueva Esperanza.
+
+_Origen: menonitas_hopelchen.json — Base de datos documental del proyecto_
+**⚠ Nota/contradicción:** El gobierno mexicano facilitó la llegada de colonos menonitas a Hopelchén al mismo tiempo que no dotaba a las comunidades mayas de servicios básicos completos. La llegada de los menonitas no fue un fenómeno espontáneo: fue habilitada por el Estado. La reforma al Artículo 27 (1992) — que privatizó lo
+**→ Conexión hipótesis:** La llegada de los menonitas a Hopelchén en 1987 y su expansión post-1992 es la expresión más reciente del patrón central: una élite externa (menonitas + agroindustria transnacional) accede al territor
+**Etiquetas:** menonitas, 1987, Nuevo Progreso, colonización, Artículo 27, ejidos, soya transgénica, deforestación, Hopelchén, despojo contemporáneo
 
 ---
 
