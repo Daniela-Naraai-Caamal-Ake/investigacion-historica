@@ -186,9 +186,56 @@ investigacion-historica/
 │   ├── investigacion/               # Reportes de sesiones de investigación
 │   ├── logs/                        # Logs de sesión y reportes de proceso
 │   └── pdfs/                        # PDFs fuente en datos/
+├── docs/                            # GitHub Pages (generado automáticamente)
+│   ├── index.html                   # Tablero interactivo de estadísticas
+│   ├── busqueda.html                # Motor de búsqueda semántica (web)
+│   ├── stats.json                   # Estadísticas generadas (auto)
+│   └── search_index.json            # Índice de búsqueda (auto)
 ├── tests/
 ├── requirements.txt
 └── README.md
+```
+
+---
+
+## Sistemas automáticos (nuevos)
+
+### 🤖 Validación automática de datos
+
+GitHub Actions que se ejecuta en cada commit que modifique `datos/`. Verifica:
+
+- Estructura de nodos y preguntas (campos requeridos, IDs únicos, fuentes)
+- Consistencia temporal de `fecha_evento` (años futuros, rangos invertidos)
+
+```bash
+python tools/validar_datos.py          # Validación estructural
+python tools/validar_datos.py --estricto
+python tools/validar_fechas.py         # Validación temporal
+```
+
+### 📊 Tablero interactivo de estadísticas
+
+Página web con gráficas en tiempo real del proyecto (registros, fuentes, preguntas).
+Desplegada automáticamente en GitHub Pages al hacer push a `main`.
+
+```bash
+python tools/generar_estadisticas.py   # Regenera docs/stats.json
+# Abre docs/index.html en el navegador
+```
+
+### 🔍 Motor de búsqueda semántica
+
+Busca por conceptos en lenguaje natural usando TF-IDF con similitud coseno.
+Funciona como CLI Python y como página web interactiva en GitHub Pages.
+
+```bash
+# Requiere: pip install scikit-learn (incluido en requirements.txt)
+python tools/busqueda_semantica.py "resistencia maya tierra despojo"
+python tools/busqueda_semantica.py "rutas territorio" --nodo 007 --top 8
+python tools/busqueda_semantica.py --interactivo
+
+python tools/generar_indice_busqueda.py  # Regenera docs/search_index.json
+# Abre docs/busqueda.html en el navegador
 ```
 
 ---
