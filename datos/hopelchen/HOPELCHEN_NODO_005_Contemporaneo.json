@@ -9,9 +9,7 @@
   "version": "1.0",
   "continua_desde": "NODO 004 — Revolución, Reforma Agraria y Economía Chiclera (1910–1970)",
   "autor_investigacion": "Proyecto Hopelchén — Investigación histórica independiente",
-
   "registros": [
-
     {
       "registro_id": "005-A",
       "subtitulo": "1987–2000: La llegada de los menonitas a Hopelchén — la nueva colonización",
@@ -42,9 +40,23 @@
       ],
       "notas_contradiccion": "La narrativa oficial presenta a los menonitas como 'trabajadores', 'productivos' y 'generadores de empleo'. La realidad documentada: su modelo agrícola es de monocultivo intensivo con transgénicos y agrotóxicos que destruye la selva y contamina acuíferos. La CNDH, Semarnat, Conafor y la SCJN han documentado violaciones legales sistemáticas. Los menonitas rechazaron la tecnología moderna para su comunidad pero la usan para extraer recursos de territorios indígenas.",
       "conexion_hipotesis": "El patrón del ciclo extractivo se repite con precisión: nueva élite externa que llega a Los Chenes, identifica recursos valiosos (tierras ejidales fértiles con agua), los adquiere mediante instrumentos legales disponibles (arrendamiento, compra), y extrae valor con mano de obra de bajo costo (incluidos mayas locales que trabajan para ellos). La selva tropical que protegió a los mayas durante siglos se convierte en su vulnerabilidad: los menonitas la ven como 'baldío'.",
-      "tags": ["menonitas", "1987", "Hopelchén", "Nuevo Durango", "El Temporal", "Las Flores", "La Nueva Trinidad", "Chihuahua", "colonias", "12000 menonitas", "18 colonias", "deforestación", "tierras ejidales", "baldíos"]
+      "tags": [
+        "menonitas",
+        "1987",
+        "Hopelchén",
+        "Nuevo Durango",
+        "El Temporal",
+        "Las Flores",
+        "La Nueva Trinidad",
+        "Chihuahua",
+        "colonias",
+        "12000 menonitas",
+        "18 colonias",
+        "deforestación",
+        "tierras ejidales",
+        "baldíos"
+      ]
     },
-
     {
       "registro_id": "005-B",
       "subtitulo": "2007–2021: La soya transgénica y el despojo silencioso — 153,809 hectáreas de selva perdidas",
@@ -86,9 +98,22 @@
       ],
       "notas_contradiccion": "El Estado mexicano, a través de la Semarnat, instaló 'una mesa permanente de diálogo' en agosto de 2021 para detener la deforestación en Hopelchén. Simultáneamente, el mismo Estado entregó 120 millones de pesos en subsidios a productores de soya — el 61% a menonitas. La 'mesa de diálogo' y los subsidios operaban en paralelo, contradiciendo abiertamente el discurso oficial de protección ambiental.",
       "conexion_hipotesis": "La reforma al Artículo 27 de 1992 es el equivalente neoliberal de la Ley de Terrenos Baldíos de 1883 (Porfiriato). Ambas leyes convirtieron tierras colectivas indígenas en mercancía. El patrón se repite con 109 años de diferencia. El nombre del mecanismo cambia; el resultado es el mismo.",
-      "tags": ["soya transgénica", "Monsanto", "Bayer", "Art. 27 1992", "arrendamiento ejidal", "153809 hectáreas", "60000 hectáreas 2007", "Gabriela Torres-Mazuera", "subsidios 120 millones", "61% menonitas", "Juan de Dios May Che", "Fidelio Tuz", "Layda Sansores"]
+      "tags": [
+        "soya transgénica",
+        "Monsanto",
+        "Bayer",
+        "Art. 27 1992",
+        "arrendamiento ejidal",
+        "153809 hectáreas",
+        "60000 hectáreas 2007",
+        "Gabriela Torres-Mazuera",
+        "subsidios 120 millones",
+        "61% menonitas",
+        "Juan de Dios May Che",
+        "Fidelio Tuz",
+        "Layda Sansores"
+      ]
     },
-
     {
       "registro_id": "005-C",
       "subtitulo": "2012–2017: La lucha jurídica de las comunidades mayas de Los Chenes contra Monsanto",
@@ -119,8 +144,14 @@
           "nombre": "Leydy Araceli Pech Martín",
           "nacimiento": "Ich Ek (ojo de estrella), comunidad maya del municipio de Hopelchén, Campeche",
           "rol": "Apicultora maya. Fundó en 1995 la cooperativa Koolel-Kab (mujeres que trabajan con abejas), dedicada a la abeja melipona Xunáan Kab. Lideró la coalición 'Sin Transgénicos' desde 2012. Premio Goldman 2020 (Nobel del medio ambiente). Primera mujer mexicana en ganar el Premio Goldman.",
-          "reconocimientos": ["Premio Goldman 2020 (Goldman Environmental Prize — categoría Norteamérica)"],
-          "organizaciones": ["Koolel-Kab/Muuchkambal (cooperativa apícola)", "Colectivo de Comunidades Mayas de los Chenes", "Coalición Sin Transgénicos"],
+          "reconocimientos": [
+            "Premio Goldman 2020 (Goldman Environmental Prize — categoría Norteamérica)"
+          ],
+          "organizaciones": [
+            "Koolel-Kab/Muuchkambal (cooperativa apícola)",
+            "Colectivo de Comunidades Mayas de los Chenes",
+            "Coalición Sin Transgénicos"
+          ],
           "cita_directa": "Los mayas estamos vivos y los mayas estamos luchando. Es una lucha de vida.",
           "nota_critica": "Leydy Pech es la figura de resistencia más visible de Hopelchén en el siglo XXI y la primera persona de Hopelchén con reconocimiento internacional de primer nivel. Su lucha conecta directamente con el linaje de resistencia documentado en el repositorio desde los bataboob de 1669."
         },
@@ -152,9 +183,23 @@
       ],
       "notas_contradiccion": "La SCJN suspendió los permisos en 2015, y el SENASICA los revocó en 2017. Sin embargo, fuentes periodísticas de 2022-2025 documentan que la siembra ilegal de soya transgénica continúa en Hopelchén. La sentencia judicial y la realidad territorial son dos mundos distintos. El Estado que revocó el permiso es el mismo que entregó 120 millones en subsidios a productores de soya en 2019.",
       "conexion_hipotesis": "LA RESISTENCIA ROMPE EL PATRÓN — parcialmente. Por primera vez en 500 años, una comunidad maya de Hopelchén llevó su caso al más alto tribunal del país y ganó. Leydy Pech ganó el Premio Goldman. Estas victorias no revierten el despojo acumulado pero prueban que el linaje de resistencia maya no fue extinguido — continuó desde los bataboob de 1669 hasta Leydy Pech en 2020.",
-      "tags": ["Leydy Pech", "Premio Goldman 2020", "Monsanto", "soya transgénica", "SCJN 2015", "amparo", "consulta previa", "Sin Transgénicos", "Colectivo Chenes", "Koolel-Kab", "abeja melipona", "Ich Ek", "Art. 2 Constitución", "Convenio 169 OIT"]
+      "tags": [
+        "Leydy Pech",
+        "Premio Goldman 2020",
+        "Monsanto",
+        "soya transgénica",
+        "SCJN 2015",
+        "amparo",
+        "consulta previa",
+        "Sin Transgénicos",
+        "Colectivo Chenes",
+        "Koolel-Kab",
+        "abeja melipona",
+        "Ich Ek",
+        "Art. 2 Constitución",
+        "Convenio 169 OIT"
+      ]
     },
-
     {
       "registro_id": "005-D",
       "subtitulo": "2015–2026: Crisis ambiental acumulativa — agua contaminada, abejas muertas, vestigios destruidos",
@@ -188,9 +233,25 @@
       ],
       "notas_contradiccion": "El glifosato encontrado en la orina de los habitantes de Hopelchén convierte a los residentes del municipio en víctimas documentadas de contaminación por una empresa transnacional (Monsanto/Bayer) con permiso del Estado mexicano. Este es el nivel más extremo de la hipótesis: el poder (Estado + corporación) no solo controla la tierra, sino que literalmente contamina los cuerpos de los mayas de Los Chenes.",
       "conexion_hipotesis": "La presencia de glifosato en la orina de los habitantes de Hopelchén es la forma más íntima y brutal del ciclo extractivo: ya no solo se extrae la tierra y el trabajo, se extrae la salud y se contamina el cuerpo mismo. La abeja melipona — animal sagrado para los mayas desde tiempos prehispánicos — muere por los agrotóxicos de la misma empresa que fabrica el herbicida con el que destruyen la selva.",
-      "tags": ["glifosato", "agua contaminada", "orina habitantes", "UNAM", "PNUD", "ECOSUR", "abejas muertas", "4800 colmenas 2023", "3600 colmenas 2024", "fipronil", "neonicotinoides", "miel orgánica", "Europa", "vestigios destruidos", "deforestación", "53000 hectáreas 2019"]
+      "tags": [
+        "glifosato",
+        "agua contaminada",
+        "orina habitantes",
+        "UNAM",
+        "PNUD",
+        "ECOSUR",
+        "abejas muertas",
+        "4800 colmenas 2023",
+        "3600 colmenas 2024",
+        "fipronil",
+        "neonicotinoides",
+        "miel orgánica",
+        "Europa",
+        "vestigios destruidos",
+        "deforestación",
+        "53000 hectáreas 2019"
+      ]
     },
-
     {
       "registro_id": "005-E",
       "subtitulo": "2020–2026: La lucha continúa — amparo por derechos de la naturaleza y presión internacional",
@@ -232,9 +293,22 @@
       ],
       "notas_contradiccion": "En 2021 los menonitas firmaron un acuerdo con el gobierno federal para frenar la deforestación. En 2022, continuaron invadiendo tierras ejidales en Hopelchén. En 2023-2024, las muertes masivas de abejas continuaron. Los acuerdos con el gobierno mexicano no se cumplen. La 'mesa de diálogo' de Semarnat es paralela a los subsidios gubernamentales a los mismos productores.",
       "conexion_hipotesis": "La lucha de las comunidades mayas de Hopelchén en el siglo XXI usa herramientas que no existían en el siglo XVI: amparos constitucionales, convenios internacionales (OIT 169), litigios ante la Comisión Interamericana de Derechos Humanos, presión mediática global. Esto no estaba disponible para los bataboob de 1669 ni para Juan de Dios May en 1848. La resistencia evoluciona. La estructura extractiva también.",
-      "tags": ["2025", "amparo derechos naturaleza", "SCJN", "17000 firmas", "Change.org", "CEMDA", "Utsil Kuxtal", "Colectivo Chenes", "Layda Sansores", "mesa diálogo 2021", "acuerdo incumplido", "ejido Vicente Guerrero", "4500 hectáreas"]
+      "tags": [
+        "2025",
+        "amparo derechos naturaleza",
+        "SCJN",
+        "17000 firmas",
+        "Change.org",
+        "CEMDA",
+        "Utsil Kuxtal",
+        "Colectivo Chenes",
+        "Layda Sansores",
+        "mesa diálogo 2021",
+        "acuerdo incumplido",
+        "ejido Vicente Guerrero",
+        "4500 hectáreas"
+      ]
     },
-
     {
       "registro_id": "005-F",
       "subtitulo": "CRUCE DE DATOS: La continuidad del ciclo extractivo — 2026 vs 1517",
@@ -245,35 +319,133 @@
       "tipo_dato": "Análisis estructural — síntesis del repositorio",
       "notas_contradiccion": "La única 'ruptura' parcial del patrón ocurrió bajo el cardenismo (1934-1940): cuando el Estado rompió el monopolio extranjero sobre el chicle, los ingresos de las comunidades productoras aumentaron 300%. Y en 2015-2017, cuando la SCJN dio la razón a los mayas contra Monsanto. Estas rupturas son reales pero frágiles — el patrón se reconstituye en cuanto cambia el gobierno o el recurso.",
       "conexion_hipotesis": "HIPÓTESIS CONFIRMADA. En 2000 años de historia documentada (300 a.C. - 2026 d.C.), el municipio de Hopelchén ha sido sistemáticamente un espacio de extracción de recursos por élites externas cambiantes, con instrumentos de control que evolucionan pero mantienen la misma función: despojar a los mayas de sus recursos, su trabajo y su conocimiento.",
-      "tags": ["hipótesis confirmada", "500 años", "2000 años", "ciclo extractivo", "instrumento legal cambia función permanece", "resistencia continua", "Leydy Pech vs bataboob 1669", "continuidad histórica", "despojo sistemático"]
+      "tags": [
+        "hipótesis confirmada",
+        "500 años",
+        "2000 años",
+        "ciclo extractivo",
+        "instrumento legal cambia función permanece",
+        "resistencia continua",
+        "Leydy Pech vs bataboob 1669",
+        "continuidad histórica",
+        "despojo sistemático"
+      ]
+    },
+    {
+      "registro_id": "005-G",
+      "subtitulo": "Meliponicultura de Xunáan Kab en Hopelchén: 3,000 años de tradición, 25,000 familias en Campeche, abejas que mueren con glifosato",
+      "fecha_evento": "Prehispánico — 2026 (continuidad documentada)",
+      "lugar": "Municipio de Hopelchén, Campeche — Península de Yucatán",
+      "descripcion": "La Melipona beecheii — llamada Xunáan Kab ('la dama de la miel' en maya yucateco) — es una abeja sin aguijón domesticada por los mayas de la Península de Yucatán durante al menos 3,000 años. Es endémica de la Península y construye sus colmenas en troncos huecos. La meliponicultura es la práctica agrícola con mayor continuidad temporal documentable en el municipio de Hopelchén: aparece en el Códice Madrid (códice maya del período Posclásico) y sobrevive como práctica viva hasta 2026. Datos de alcance regional disponibles: Hopelchén es el primer productor de miel del estado de Campeche; el 40% de la producción nacional de miel proviene de la Península de Yucatán; la apicultura sustenta a 25,000 familias en Campeche. La amenaza directa documentada: el glifosato y el fipronil — agroquímicos usados en los campos de soya menonita — son letales para las abejas, incluyendo la Xunáan Kab. La llegada del glifosato a Hopelchén a partir de 2004-2005 (inicio de la siembra menonita de soya) coincide con la contracción de las colmenas de meliponicultura tradicional. La UNAM confirmó presencia de polen de soya GM en el suministro local de miel. El PNUD y la UAC (EPOMEX) documentaron rastros de glifosato en el agua de Hopelchén y en la orina de sus residentes.",
+      "fuente": {
+        "nombre": "leydy_pech_perfil.json — 'Contexto Hopelchén: importancia de la apicultura'. Proyecto Hopelchén, 2026.",
+        "tipo": "Síntesis de: Goldman Environmental Prize (ficha oficial 2020), UNAM (estudio de miel), PNUD+EPOMEX-UAC (estudio glifosato en agua y orina)",
+        "confiabilidad": "Alta — concordancia entre fuentes institucionales"
+      },
+      "tipo_dato": "Económico-ambiental — datos institucionales verificados",
+      "notas_contradiccion": "Los datos disponibles sobre meliponicultura en Hopelchén son regionales (Campeche, Península) pero no locales específicos por municipio. El número de colmenas de Xunáan Kab activas en Hopelchén antes y después de la expansión menonita (2004-2020) es el dato faltante más crítico para cuantificar el daño con precisión histórica.",
+      "conexion_hipotesis": "La Xunáan Kab es el símbolo de continuidad más poderoso del proyecto: 3,000 años ininterrumpidos de conocimiento agrícola maya en Hopelchén, ahora amenazado por la agroindustria transnacional. El glifosato que mata las abejas de Leydy Pech es la versión contemporánea del instrumento de despojo más antiguo documentado: la destrucción del sustento productivo de las comunidades mayas para reemplazarlo con la economía extractiva de la élite externa.",
+      "tags": [
+        "Xunáan Kab",
+        "Melipona beecheii",
+        "meliponicultura",
+        "3000 años",
+        "25000 familias",
+        "glifosato",
+        "soya transgénica",
+        "abejas",
+        "continuidad cultural",
+        "Hopelchén",
+        "Goldman Prize"
+      ]
     }
-
   ],
-
   "linea_del_tiempo_nodo": [
-    {"año": "1959", "evento": "Hopelchén declarada ciudad"},
-    {"año": "1987", "evento": "Primeras colonias menonitas permanentes en Hopelchén"},
-    {"año": "1992", "evento": "Reforma al Artículo 27 constitucional — permite arrendamiento y privatización de ejidos"},
-    {"año": "1995", "evento": "Leydy Pech funda Koolel-Kab, cooperativa de mujeres apicultoras mayas en Ich Ek, Hopelchén"},
-    {"año": "2007", "evento": "El Estado mexicano comienza a autorizar y alentar la siembra de soya transgénica en Campeche"},
-    {"año": "2007", "evento": "Hopelchén declarada Capital del Estado por un día (26 febrero) — gobernador: Jorge Carlos Hurtado Valdez"},
-    {"año": "2010", "evento": "Se intensifica la renta de tierras ejidales a menonitas y agroindustriales en Hopelchén (datos Torres-Mazuera)"},
-    {"año": "2012", "evento": "SAGARPA otorga permiso a Monsanto para soya transgénica en 235,500 ha sin consultar a mayas"},
-    {"año": "2012 junio", "evento": "Leydy Pech y comunidades mayas crean coalición 'Sin Transgénicos' y presentan amparos"},
-    {"año": "2014", "evento": "Juzgados federales conceden amparos a apicultores mayas de Hopelchén"},
-    {"año": "2015 nov 4", "evento": "SCJN falla por unanimidad a favor de los mayas: gobierno violó derecho a consulta previa"},
-    {"año": "2017 sept", "evento": "SENASICA revoca definitivamente permisos de Monsanto para soya transgénica en 7 estados"},
-    {"año": "2019", "evento": "120 millones de pesos en subsidios a productores de soya en Campeche — 61% a menonitas"},
-    {"año": "2020 nov", "evento": "Leydy Pech gana el Premio Goldman 2020 — 'Nobel del medio ambiente'"},
-    {"año": "2021", "evento": "Semarnat instala 'mesa permanente de diálogo' sobre deforestación en Hopelchén"},
-    {"año": "2021", "evento": "Menonitas firman acuerdo con gobierno federal para frenar deforestación"},
-    {"año": "2022", "evento": "Ejidatarios de Vicente Guerrero (Iturbide) denuncian invasión menonita de 4,500 hectáreas"},
-    {"año": "2023 mar", "evento": "Muerte masiva: 4,800 colmenas afectadas en Hopelchén"},
-    {"año": "2024 ene", "evento": "Nueva muerte masiva: 3,600 colmenas en San Francisco Suctuc y Crucero de Oxá"},
-    {"año": "2025 mar", "evento": "Comunidades mayas presionan a SCJN; el 26 de marzo la Corte retira proyecto de sentencia"},
-    {"año": "2026", "evento": "La lucha continúa activa"}
+    {
+      "año": "1959",
+      "evento": "Hopelchén declarada ciudad"
+    },
+    {
+      "año": "1987",
+      "evento": "Primeras colonias menonitas permanentes en Hopelchén"
+    },
+    {
+      "año": "1992",
+      "evento": "Reforma al Artículo 27 constitucional — permite arrendamiento y privatización de ejidos"
+    },
+    {
+      "año": "1995",
+      "evento": "Leydy Pech funda Koolel-Kab, cooperativa de mujeres apicultoras mayas en Ich Ek, Hopelchén"
+    },
+    {
+      "año": "2007",
+      "evento": "El Estado mexicano comienza a autorizar y alentar la siembra de soya transgénica en Campeche"
+    },
+    {
+      "año": "2007",
+      "evento": "Hopelchén declarada Capital del Estado por un día (26 febrero) — gobernador: Jorge Carlos Hurtado Valdez"
+    },
+    {
+      "año": "2010",
+      "evento": "Se intensifica la renta de tierras ejidales a menonitas y agroindustriales en Hopelchén (datos Torres-Mazuera)"
+    },
+    {
+      "año": "2012",
+      "evento": "SAGARPA otorga permiso a Monsanto para soya transgénica en 235,500 ha sin consultar a mayas"
+    },
+    {
+      "año": "2012 junio",
+      "evento": "Leydy Pech y comunidades mayas crean coalición 'Sin Transgénicos' y presentan amparos"
+    },
+    {
+      "año": "2014",
+      "evento": "Juzgados federales conceden amparos a apicultores mayas de Hopelchén"
+    },
+    {
+      "año": "2015 nov 4",
+      "evento": "SCJN falla por unanimidad a favor de los mayas: gobierno violó derecho a consulta previa"
+    },
+    {
+      "año": "2017 sept",
+      "evento": "SENASICA revoca definitivamente permisos de Monsanto para soya transgénica en 7 estados"
+    },
+    {
+      "año": "2019",
+      "evento": "120 millones de pesos en subsidios a productores de soya en Campeche — 61% a menonitas"
+    },
+    {
+      "año": "2020 nov",
+      "evento": "Leydy Pech gana el Premio Goldman 2020 — 'Nobel del medio ambiente'"
+    },
+    {
+      "año": "2021",
+      "evento": "Semarnat instala 'mesa permanente de diálogo' sobre deforestación en Hopelchén"
+    },
+    {
+      "año": "2021",
+      "evento": "Menonitas firman acuerdo con gobierno federal para frenar deforestación"
+    },
+    {
+      "año": "2022",
+      "evento": "Ejidatarios de Vicente Guerrero (Iturbide) denuncian invasión menonita de 4,500 hectáreas"
+    },
+    {
+      "año": "2023 mar",
+      "evento": "Muerte masiva: 4,800 colmenas afectadas en Hopelchén"
+    },
+    {
+      "año": "2024 ene",
+      "evento": "Nueva muerte masiva: 3,600 colmenas en San Francisco Suctuc y Crucero de Oxá"
+    },
+    {
+      "año": "2025 mar",
+      "evento": "Comunidades mayas presionan a SCJN; el 26 de marzo la Corte retira proyecto de sentencia"
+    },
+    {
+      "año": "2026",
+      "evento": "La lucha continúa activa"
+    }
   ],
-
   "contradicciones_globales_nodo": [
     {
       "contradiccion_id": "C013",
@@ -291,14 +463,12 @@
       "implicacion": "La narrativa de resistencia y colaboracionismo no es racial ni genealógica — es de clase y coyuntura. El mismo apellido puede representar resistencia o capitulación dependiendo del contexto histórico y el incentivo económico."
     }
   ],
-
   "personajes_pendientes_investigar_nodo005": [
     "Presidentes municipales de Hopelchén 1970-2026 — apellidos, filiación política, relación con haciendas/empresas",
     "Beneficiarios específicos de subsidios Aserca 2019 en Hopelchén — nombres y apellidos de las SPR menonitas",
     "Gabriela Torres-Mazuera — publicaciones académicas completas sobre despojo ejidal en Hopelchén",
     "Cronología completa de alcaldes de Hopelchén — detectar redes familiares y nepotismo"
   ],
-
   "metadatos": {
     "metodologia": "Investigación web — periodismo de investigación, fuentes legales primarias (SCJN), Goldman Prize, organizaciones de derechos humanos, datos gubernamentales (Aserca, Global Forest Watch)",
     "nivel_profundidad": "1 (primera iteración del nodo)",

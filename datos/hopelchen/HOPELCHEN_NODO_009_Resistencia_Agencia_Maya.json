@@ -10,16 +10,18 @@
   "autor_investigacion": "Proyecto Hopelchén — Investigación histórica independiente",
   "continua_desde": "Todos los nodos anteriores — este nodo cruza transversalmente el hilo de resistencia presente en 001-008",
   "nota_metodologica": "Este nodo nació de la 'excepción productiva' identificada en el Nodo 005 (Leydy Pech, Goldman Prize 2020). Al revisar todos los nodos anteriores, el patrón de resistencia estaba presente pero disperso. Nodo 009 lo convierte en hilo narrativo propio, necesario para que el libro no cuente únicamente el despojo sino también la agencia.",
-
   "HALLAZGO_CRITICO_CENTRAL": {
     "titulo": "La resistencia es estructural, no excepcional",
     "descripcion": "En cada ciclo extractivo documentado (colonial, porfiriano, chiclero, contemporáneo), existe evidencia de resistencia maya organizada. Los bataboob de 1669 resistieron 122 años después de la 'conquista completa'. Juan de Dios May atacó Hopelchén en 1848 tras la privatización de tierras comunales. Las organizaciones ejidales del siglo XX bloquearon el sistema de habilitación cuando podían. Leydy Pech ganó en la Suprema Corte en 2015. La forma cambia, el actor es el mismo: la comunidad maya organizada desde su conocimiento ancestral.",
     "implicacion_para_hipotesis": "La hipótesis V4 ya incorpora la agencia maya como variable activa. Nodo 009 la eleva a tema principal: no solo 'el ciclo extractivo tiene excepciones' sino 'los mayas son el sujeto histórico central del libro, no solo sus víctimas'. Esto transforma la narrativa del libro de una historia del despojo a una historia de la tensión entre despojo y resistencia.",
-    "fuentes_verificadas": ["002-G (bataboob 1669)", "003-B (Juan de Dios May 1848)", "005-C (Leydy Pech 2020)", "datos/hopelchen/leydy_pech_perfil.json"]
+    "fuentes_verificadas": [
+      "002-G (bataboob 1669)",
+      "003-B (Juan de Dios May 1848)",
+      "005-C (Leydy Pech 2020)",
+      "datos/hopelchen/leydy_pech_perfil.json"
+    ]
   },
-
   "registros": [
-
     {
       "registro_id": "009-A",
       "subtitulo": "Los bataboob de 1669: 122 años de resistencia post-conquista — el primer caso documentado",
@@ -41,9 +43,16 @@
       ],
       "notas_contradiccion": "La narrativa colonial de la 'conquista completa' en 1541-1546 choca con este dato de 1669. El control español en Los Chenes fue geográficamente limitado y socialmente superficial durante más de un siglo. La resistencia no fue marginal — fue la norma de la vida política maya en ese período.",
       "conexion_hipotesis": "El caso de los bataboob de 1669 establece el patrón que se repetirá en todos los ciclos del despojo: el control externo nunca es completo, y las estructuras mayas sobreviven en espacios que el poder dominante no puede o no quiere controlar completamente.",
-      "tags": ["bataboob", "1669", "resistencia colonial", "gobierno maya", "122 años", "conquista incompleta", "Los Chenes"]
+      "tags": [
+        "bataboob",
+        "1669",
+        "resistencia colonial",
+        "gobierno maya",
+        "122 años",
+        "conquista incompleta",
+        "Los Chenes"
+      ]
     },
-
     {
       "registro_id": "009-B",
       "subtitulo": "Juan de Dios May y el 'Ataque a Hopelchén' de 1848 — resistencia armada como respuesta al despojo de tierras",
@@ -66,9 +75,17 @@
       ],
       "notas_contradiccion": "La narrativa histórica dominante llama a este conflicto 'Guerra de Castas' — un nombre que sugiere conflicto racial más que conflicto territorial. El análisis del Nodo 003 documenta que la causa directa fue la privatización de tierras comunales en 1843-47, no el odio racial. Renombrar el conflicto como 'Guerra de la Tierra' o 'Primera Resistencia Agraria Maya' cambiaría la interpretación de Juan de Dios May: de 'líder racial' a 'líder de resistencia territorial'.",
       "conexion_hipotesis": "Juan de Dios May no aparece como víctima del despojo sino como actor político que responde a él. Su acción en 1848 conecta directamente causa (Ley 1843-47) con respuesta (ataque 1848) — la 'agencia maya activa' como función de la resistencia al despojo territorial.",
-      "tags": ["Juan de Dios May", "1848", "ataque Hopelchén", "Guerra de Castas", "resistencia armada", "tierras comunales", "privatización", "agencia maya"]
+      "tags": [
+        "Juan de Dios May",
+        "1848",
+        "ataque Hopelchén",
+        "Guerra de Castas",
+        "resistencia armada",
+        "tierras comunales",
+        "privatización",
+        "agencia maya"
+      ]
     },
-
     {
       "registro_id": "009-C",
       "subtitulo": "La Chan Santa Cruz: el Estado maya independiente (1850–1901) y su impacto en Los Chenes",
@@ -83,9 +100,17 @@
       "tipo_dato": "Contextual — impacto indirecto en Hopelchén",
       "notas_contradiccion": "La historia oficial mexicana minimiza Chan Santa Cruz o lo presenta como 'fanatismo religioso'. La perspectiva maya lo presenta como el ejercicio del derecho a la autodeterminación. La 'Cruz Parlante' no era superstición: era el mecanismo organizativo de una comunidad que necesitaba una estructura de autoridad que el Estado mexicano no reconocía.",
       "conexion_hipotesis": "La existencia de Chan Santa Cruz demuestra que la resistencia maya podía escalar hasta la construcción de instituciones políticas propias. El nivel de organización alcanzado en la segunda mitad del siglo XIX fue aplastado, pero no olvidado: el movimiento neozapatista del siglo XX heredó esa memoria. En Hopelchén, la memoria de Chan Santa Cruz circuló oralmente durante décadas.",
-      "tags": ["Chan Santa Cruz", "Estado maya independiente", "Cruz Parlante", "resistencia", "autodeterminación", "1850-1901", "Porfiriato", "Los Chenes"]
+      "tags": [
+        "Chan Santa Cruz",
+        "Estado maya independiente",
+        "Cruz Parlante",
+        "resistencia",
+        "autodeterminación",
+        "1850-1901",
+        "Porfiriato",
+        "Los Chenes"
+      ]
     },
-
     {
       "registro_id": "009-D",
       "subtitulo": "Resistencia ejidal en el siglo XX: Las organizaciones de ejidatarios como mecanismo de negociación",
@@ -103,9 +128,18 @@
       "tipo_dato": "Análisis transversal",
       "notas_contradiccion": "La narrativa sobre el ejido tiende a ser ambivalente: el Estado lo presenta como la 'solución' a la demanda agraria; la realidad es que fue una solución incompleta que transfirió el control de la tierra del hacendado al Estado, sin devolverlo plenamente a las comunidades. La reforma de 1992 mostró que el ejido era un préstamo del Estado, no un derecho soberano.",
       "conexion_hipotesis": "Las organizaciones ejidales del siglo XX son la forma institucionalizada de la misma resistencia que los bataboob ejercieron en 1669 y Juan de Dios May en 1848. El instrumento cambia (de la autoridad tradicional maya a las estructuras legales del Estado mexicano), pero el objetivo es el mismo: defender el territorio comunitario frente al despojo externo.",
-      "tags": ["ejidos", "reforma agraria", "Cárdenas", "1934", "comisariados ejidales", "Art. 27", "1992", "resistencia institucional", "defensa tierra"]
+      "tags": [
+        "ejidos",
+        "reforma agraria",
+        "Cárdenas",
+        "1934",
+        "comisariados ejidales",
+        "Art. 27",
+        "1992",
+        "resistencia institucional",
+        "defensa tierra"
+      ]
     },
-
     {
       "registro_id": "009-E",
       "subtitulo": "La meliponicultura como continuidad cultural y económica: la abeja Xunáan Kab como acto de resistencia cotidiana",
@@ -123,9 +157,19 @@
       "tipo_dato": "Análisis cultural-histórico con evidencia científica contemporánea",
       "notas_contradiccion": "La narrativa agroindustrial presenta la soya transgénica como 'progreso' y la meliponicultura como 'actividad artesanal de subsistencia'. La realidad documentada: la miel de Xunáan Kab es un producto de exportación certificado con denominación de origen; la meliponicultura maya es una biotecnología de 3,000 años que mantiene la diversidad genética del ecosistema de la Selva Maya. La 'actividad artesanal' produce divisas; la 'biotecnología' transgénica produce deuda y contaminación.",
       "conexion_hipotesis": "La meliponicultura es el hilo más largo de resistencia cultural documentado en el repositorio: 3,000 años de continuidad práctica frente a todos los ciclos de despojo. Que Leydy Pech haya usado la Xunáan Kab como eje de la demanda jurídica no fue casual — fue la afirmación de que el conocimiento maya ancestral es válido en el marco legal del Estado moderno.",
-      "tags": ["Xunáan Kab", "meliponicultura", "abeja nativa", "3000 años", "resistencia cultural", "continuidad maya", "glifosato", "biodiversidad", "Leydy Pech", "conocimiento ancestral"]
+      "tags": [
+        "Xunáan Kab",
+        "meliponicultura",
+        "abeja nativa",
+        "3000 años",
+        "resistencia cultural",
+        "continuidad maya",
+        "glifosato",
+        "biodiversidad",
+        "Leydy Pech",
+        "conocimiento ancestral"
+      ]
     },
-
     {
       "registro_id": "009-F",
       "subtitulo": "Leydy Pech y la organización Maya Ka'an (2000–2020): la victoria jurídica como forma de resistencia en el siglo XXI",
@@ -149,9 +193,20 @@
       ],
       "notas_contradiccion": "La victoria de Leydy Pech fue parcial: suspendió la soya transgénica en Campeche y Yucatán pero no resolvió el problema de fondo (la reforma al Art. 27, el sistema de arrendamiento ejidal, la deforestación menonita). En 2021, Semarnat instaló una 'mesa permanente de diálogo' que aún no ha producido resultados estructurales. La victoria jurídica no equivale a recuperación de las tierras perdidas.",
       "conexion_hipotesis": "El caso Leydy Pech/Maya Ka'an es la evidencia más sólida de agencia maya activa en el repositorio. Confirma que la hipótesis central (control externo sobre el conocimiento, la tierra y el cuerpo de las comunidades mayas) puede ser interrumpida desde abajo, usando el conocimiento ancestral como herramienta política en contextos contemporáneos.",
-      "tags": ["Leydy Pech", "Maya Ka'an", "Goldman Prize 2020", "SCJN 2015", "Amparo 441/2015", "soya transgénica", "consulta previa", "OIT Convenio 169", "victoria jurídica", "meliponicultura", "resistencia contemporánea"]
+      "tags": [
+        "Leydy Pech",
+        "Maya Ka'an",
+        "Goldman Prize 2020",
+        "SCJN 2015",
+        "Amparo 441/2015",
+        "soya transgénica",
+        "consulta previa",
+        "OIT Convenio 169",
+        "victoria jurídica",
+        "meliponicultura",
+        "resistencia contemporánea"
+      ]
     },
-
     {
       "registro_id": "009-G",
       "subtitulo": "CRUCE TRANSVERSAL: El patrón de resistencia maya a lo largo de 500 años — formas cambiantes, objetivo constante",
@@ -198,26 +253,185 @@
       ],
       "notas_contradiccion": "El patrón de resistencia exitosa siempre fue parcial y temporal: los bataboob de 1669 eventualmente fueron integrados o eliminados; Juan de Dios May no recuperó las tierras privatizadas; Chan Santa Cruz fue derrotado en 1901; los ejidos fueron reformados en 1992; la victoria de Leydy Pech no revirtió la deforestación ni recuperó las tierras arrendadas a menonitas. La resistencia maya interrumpe el ciclo extractivo pero no lo termina. Sin embargo, que el ciclo extractivo nunca haya sido completamente exitoso también es evidencia de la resistencia: en 500 años, los mayas de Los Chenes no fueron eliminados ni completamente asimilados.",
       "conexion_hipotesis": "El Nodo 009 complica y enriquece la hipótesis central: el control externo sobre Hopelchén no ha sido total ni ininterrumpido — ha sido constestado, negociado y resistido en cada era por las mismas comunidades que el ciclo extractivo pretende controlar. La hipótesis V4 necesita esta dimensión para no construir una historia de victimización pasiva sino una historia de tensión activa entre despojo y resistencia.",
-      "tags": ["resistencia transversal", "500 años", "formas de resistencia", "agencia maya", "continuidad", "despojo y resistencia", "patrón histórico"]
+      "tags": [
+        "resistencia transversal",
+        "500 años",
+        "formas de resistencia",
+        "agencia maya",
+        "continuidad",
+        "despojo y resistencia",
+        "patrón histórico"
+      ],
+      "fuente": {
+        "nombre": "leydy_pech_perfil.json — datos sobre la lucha jurídica y el Premio Goldman 2020; síntesis del proyecto",
+        "tipo": "Síntesis de fuentes verificadas sobre el caso Leydy Pech",
+        "confiabilidad": "Alta"
+      }
+    },
+    {
+      "registro_id": "009-H",
+      "subtitulo": "Francisco Caamal: comandante maya de Los Chenes en la Guerra de Castas — el apellido que vuelve 175 años después",
+      "fecha_evento": "1847 — 1850",
+      "lugar": "Los Chenes, Hopelchén, Campeche",
+      "descripcion": "Francisco Caamal fue uno de los líderes mayas de la región de Los Chenes durante el período más agudo de la Guerra de Castas (1847-1850). Su apellido — Caamal — es un apellido maya ampliamente presente en el municipio de Hopelchén hasta la actualidad. Junto a Juan de Dios May, Francisco Caamal representa la dirección político-militar de la resistencia maya organizada en Los Chenes durante el conflicto. El apellido Caamal aparece documentado en el municipio en tres momentos históricos significativos: como apellido de comandante maya insurgente en 1847-1850; como apellido del escritor Miguel Ángel Suárez Caamal (Calkiní, 1953), autor de la única novela campechana sobre la Guerra de Castas (*La rebelión de los Cruzoob*, 1997); y como apellido de la autora de esta investigación, Daniela Naraai Caamal Ake, originaria de Hopelchén. La continuidad del apellido en el municipio durante 175 años es evidencia de que el linaje maya de Los Chenes — despojado en cada ciclo — persiste genealógicamente en sus descendientes.",
+      "fuente": {
+        "nombre": "AV_PERSONAS.md — FRANCISCO CAAMAL (síntesis de investigación previa del proyecto)",
+        "tipo": "Síntesis de fuentes académicas sobre la Guerra de Castas en Los Chenes",
+        "nota_verificacion": "La documentación directa de Francisco Caamal como líder de Los Chenes requiere consulta de: Baqueiro Preve, Serapio. *Ensayo histórico sobre las revoluciones de Yucatán* (1878, 5 vols.) Vol. 2. Disponible en UADY.",
+        "confiabilidad": "Media — confirmado como apellido de líder maya de Los Chenes; datos biográficos específicos requieren fuente primaria"
+      },
+      "tipo_dato": "Biográfico — verificación parcial; requiere fuente primaria directa",
+      "personajes": [
+        {
+          "nombre": "Francisco Caamal",
+          "rol": "Comandante maya de Los Chenes durante la Guerra de Castas 1847-1850",
+          "apellido_maya": "Caamal — ampliamente presente en Hopelchén hasta 2026",
+          "sin_monumento": "No tiene estatua, calle ni mención en libros locales de Hopelchén",
+          "continuidad_apellido": "Miguel Ángel Suárez Caamal (escritor, 1953) y Daniela Naraai Caamal Ake (investigadora, 2026) llevan el mismo apellido"
+        }
+      ],
+      "notas_contradiccion": "Juan de Dios May y Francisco Caamal son los dos comandantes mayas de Los Chenes más documentados de la Guerra de Castas — y ninguno tiene reconocimiento público en el municipio. No hay calle, plaza ni placa con su nombre en Hopelchén. La narrativa local de la Guerra de Castas en Los Chenes, cuando existe, se narra desde la perspectiva de los hacendados y el Estado que resistieron 'los ataques'. La perspectiva de los comandantes mayas está ausente del espacio público.",
+      "conexion_hipotesis": "Francisco Caamal es evidencia directa del Nodo 009: la resistencia armada organizada en Los Chenes en 1848 no fue un evento aislado sino el resultado de la agencia política de líderes mayas locales con nombres y apellidos rastreables. La ausencia de su nombre en el espacio público de Hopelchén es parte del mismo patrón de control del conocimiento (Nodo 010) que el proyecto documenta.",
+      "tags": [
+        "Francisco Caamal",
+        "Guerra de Castas",
+        "Los Chenes",
+        "comandante maya",
+        "resistencia 1848",
+        "apellido Caamal",
+        "líderes mayas",
+        "invisibilidad histórica",
+        "Hopelchén"
+      ]
+    },
+    {
+      "registro_id": "009-I",
+      "subtitulo": "Los Siete de Bolonchenticul (julio 1849): mayas de Hopelchén que pelearon del lado del gobierno y recibieron títulos de hidalgos — la resistencia tiene múltiples formas",
+      "fecha_evento": "Julio 1849",
+      "lugar": "Bolonchenticul (hoy municipio de Hopelchén), Campeche",
+      "descripcion": "En julio de 1849, siete indígenas mayas de Bolonchenticul (municipio de Hopelchén) acudieron voluntariamente a defender la guarnición del 6o. Batallón de la Guardia Nacional contra un ataque de los insurrectos mayas. Como recompensa por su lealtad al Estado, recibieron 'credenciales de hidalgos' — el único reconocimiento formal posible bajo la legislación de la época. Este dato, documentado en el Archivo General del Estado de Yucatán (AGEY, caja 169, vol.119, exp.24), es metodológicamente crucial: revela que la Guerra de Castas en Hopelchén no fue un conflicto binario entre 'mayas vs. mestizos'. Las comunidades mayas del municipio estuvieron divididas: algunos pelearon con Juan de Dios May y Francisco Caamal contra el Estado; otros pelearon con la Guardia Nacional del Estado contra los insurgentes. Esta complejidad interna de la comunidad maya de Los Chenes en 1848-1849 es políticamente incómoda para cualquier narrativa que presente la resistencia maya como monolítica.",
+      "fuente": {
+        "nombre": "Kosichenko, Ivan Nikítovich — 'Voluntarios mayas en la Guardia Nacional de Yucatán (1847-1851)'. *Латинская Америка* (América Latina) nº 2/2025, pp. 87-101. DOI: 10.31857/S0044748X25020078.",
+        "tipo": "Artículo académico revisado por pares — fuente primaria citada: AGEY caja 169, vol.119, exp.24",
+        "archivo_local": "sources/700747-5268499-1-PB.pdf",
+        "confiabilidad": "Alta — fuente primaria de archivo"
+      },
+      "tipo_dato": "Citado académico — fuente primaria de archivo verificada",
+      "personajes": [
+        {
+          "nombre": "Los Siete de Bolonchenticul (nombres individuales no identificados aún)",
+          "rol": "Mayas de Hopelchén que defendieron la guarnición del Estado en julio 1849",
+          "recompensa": "Credenciales de hidalgos — reconocimiento formal del Estado",
+          "fuente_primaria": "AGEY, Poder Ejecutivo, Comandancia Militar, caja 169, vol.119, exp.24 — 'Relación de los indígenas de Bolonchenticul que considero acreedores de que se les libre sus credenciales de hidalgos'",
+          "pregunta_abierta": "P010 — ¿Cuáles son los nombres individuales de los siete mayas de Bolonchenticul? Su identificación permitiría rastrear si sus apellidos reaparecen en el registro ejidal del siglo XX."
+        }
+      ],
+      "notas_contradiccion": "El artículo de Kosichenko también documenta otro caso de Bolonchenticul (AGEY caja 111, vol.61, exp.50): José Chan, sirviente deudor de 52 pesos, se alistó como voluntario en la Guardia Nacional para escapar de la servidumbre. Fue 'devuelto a su dueña' por la autoridad. El mismo Estado que otorgó credenciales de hidalgos a los Siete también devolvió a la esclavitud a José Chan. Los mayas no tenían un Estado: tenían relaciones individuales de conveniencia o coerción con el poder.",
+      "conexion_hipotesis": "Los Siete de Bolonchenticul son evidencia de que la agencia maya no es monolítica ni unidireccional: en 1849, mayas de Hopelchén tomaron decisiones individuales de supervivencia que los colocaron en lados opuestos del conflicto. La hipótesis del proyecto necesita esta complejidad para no simplificar la historia en un relato de 'mayas buenos vs. colonizadores malos'.",
+      "tags": [
+        "Los Siete de Bolonchenticul",
+        "1849",
+        "Guardia Nacional",
+        "hidalgos",
+        "lealtad",
+        "divididos",
+        "AGEY",
+        "Kosichenko",
+        "complejidad maya",
+        "resistencia múltiple"
+      ]
+    },
+    {
+      "registro_id": "009-J",
+      "subtitulo": "Koolel-Kab / Muuchkambal (1995): la cooperativa de mujeres mayas de Hopelchén que precedió al Premio Goldman — la organización detrás del ícono",
+      "fecha_evento": "1995 — 2026",
+      "lugar": "Ich Ek, municipio de Hopelchén, Campeche",
+      "descripcion": "Antes de que Leydy Pech recibiera el Premio Goldman en 2020, la infraestructura organizativa que hizo posible su victoria jurídica ya existía. En 1995, Leydy Pech y un grupo de mujeres mayas de Ich Ek fundaron Koolel-Kab / Muuchkambal — cooperativa de agricultura orgánica y agroforestería exclusivamente de mujeres mayas. La cooperativa se especializó en meliponicultura (cría de la abeja sin aguijón Melipona beecheii, llamada Xunáan Kab — 'la dama de la miel' en maya) y en la producción de mieles, jabones y cremas de base orgánica. Ich Ek es una pequeña localidad de Hopelchén cuyo nombre en maya significa 'ojo de estrella'. La cooperativa no nació del activismo contra los transgénicos — nació del rescate de una práctica agrícola ancestral que estaba desapareciendo ante la expansión de la agroindustria menonita. La Xunáan Kab tiene al menos 3,000 años de tradición en la Península de Yucatán (documentada en el Códice Madrid). La meliponicultura es el hilo de continuidad cultural más largo verificable del repositorio.",
+      "fuente": {
+        "nombre": "leydy_pech_perfil.json — 'Perfil Completo de Leydy Pech Martín'. Proyecto Hopelchén, 2026.",
+        "tipo": "Síntesis de múltiples fuentes: Goldman Environmental Prize (ficha oficial), Proceso nov 2020, Mongabay España dic 2020",
+        "confiabilidad": "Alta — concordancia entre fuentes de distintas organizaciones"
+      },
+      "tipo_dato": "Organizativo-histórico — verificado en múltiples fuentes sobre el caso Leydy Pech",
+      "personajes": [
+        {
+          "nombre": "Leydy Araceli Pech Martín",
+          "nacimiento": "c. 1965, Ich Ek, municipio de Hopelchén",
+          "rol": "Fundadora de Koolel-Kab/Muuchkambal (1995); apicultora; activista ambiental; Premio Goldman 2020",
+          "organizacion_koolel_kab": "Cooperativa exclusivamente de mujeres mayas — meliponicultura, jabones, cremas",
+          "victoria_scjn": "noviembre 2015 — La SCJN dictaminó por unanimidad que el gobierno violó derechos constitucionales al otorgar permisos de soya GM sin consulta previa",
+          "segunda_revocacion": "septiembre 2017 — SENASICA revocó el permiso en 7 estados",
+          "situacion_2020": "Con dos revocaciones y una sentencia, la siembra ilegal continuaba con fumigación aérea, pistas clandestinas y deforestación"
+        }
+      ],
+      "notas_contradiccion": "La victoria jurídica de Leydy Pech (2015-2017) no detuvo la siembra ilegal ni la deforestación. Para 2020 — año en que recibió el Premio Goldman — la situación en Hopelchén seguía siendo crítica: siembra con fumigación aérea, pistas clandestinas, deforestación continuada. El Premio Goldman reconoce la resistencia, pero la realidad en el territorio no cambió proporcionalmente a la visibilidad del reconocimiento. Esta brecha entre el símbolo (Premio Nobel del medio ambiente) y el territorio (deforestación continua) es el dato más importante del Nodo 009 para la hipótesis.",
+      "conexion_hipotesis": "Koolel-Kab/Muuchkambal es el modelo organizativo que demuestra que la agencia maya en Hopelchén tiene profundidad institucional — no es solo la historia de un liderazgo individual. La cooperativa fundada en 1995 (10 años antes de que la soya menonita se disparara a 2,315 hectáreas en 2005) es evidencia de resistencia preventiva: las mujeres mayas de Ich Ek construyeron su organización antes de que el despojo alcanzara su máxima intensidad.",
+      "tags": [
+        "Koolel-Kab",
+        "Muuchkambal",
+        "Leydy Pech",
+        "meliponicultura",
+        "Xunáan Kab",
+        "Ich Ek",
+        "cooperativa maya",
+        "mujeres",
+        "Goldman Prize 2020",
+        "resistencia organizativa",
+        "1995",
+        "Hopelchén"
+      ]
     }
-
   ],
-
   "linea_del_tiempo_nodo": [
-    {"año": "1541-1546", "evento": "Conquista española 'completa' de Yucatán — pero los bataboob de Los Chenes mantienen autoridad paralela"},
-    {"año": "1669", "evento": "Bataboob de Hopelchén documentados 'repudiando el control de los blancos' — 122 años después de la conquista"},
-    {"año": "1843-1847", "evento": "Privatización de tierras comunales — causa directa de la resistencia armada siguiente"},
-    {"año": "1848", "evento": "Juan de Dios May ataca Hopelchén — respuesta directa al despojo territorial"},
-    {"año": "1850-1901", "evento": "Chan Santa Cruz — Estado maya soberano en el Caribe yucateco durante 51 años"},
-    {"año": "1934-1940", "evento": "Reforma Agraria cardenista — ejidos como instrumento de protección territorial (parcial)"},
-    {"año": "1992", "evento": "Reforma al Art. 27 — desmantela la protección ejidal; fin del período de resistencia institucional"},
-    {"año": "2007+", "evento": "Glifosato mata colmenas — ataque al hilo de continuidad cultural más largo (3,000 años de meliponicultura)"},
-    {"año": "2012", "evento": "Maya Ka'an presenta amparo — inicio de la resistencia jurídica contemporánea"},
-    {"año": "Noviembre 2015", "evento": "SCJN falla a favor de las comunidades mayas — Amparo en Revisión 441/2015"},
-    {"año": "Septiembre 2017", "evento": "SENASICA revoca permiso de soya transgénica en Campeche y Yucatán"},
-    {"año": "2020", "evento": "Leydy Pech recibe Goldman Environmental Prize — máximo reconocimiento internacional"}
+    {
+      "año": "1541-1546",
+      "evento": "Conquista española 'completa' de Yucatán — pero los bataboob de Los Chenes mantienen autoridad paralela"
+    },
+    {
+      "año": "1669",
+      "evento": "Bataboob de Hopelchén documentados 'repudiando el control de los blancos' — 122 años después de la conquista"
+    },
+    {
+      "año": "1843-1847",
+      "evento": "Privatización de tierras comunales — causa directa de la resistencia armada siguiente"
+    },
+    {
+      "año": "1848",
+      "evento": "Juan de Dios May ataca Hopelchén — respuesta directa al despojo territorial"
+    },
+    {
+      "año": "1850-1901",
+      "evento": "Chan Santa Cruz — Estado maya soberano en el Caribe yucateco durante 51 años"
+    },
+    {
+      "año": "1934-1940",
+      "evento": "Reforma Agraria cardenista — ejidos como instrumento de protección territorial (parcial)"
+    },
+    {
+      "año": "1992",
+      "evento": "Reforma al Art. 27 — desmantela la protección ejidal; fin del período de resistencia institucional"
+    },
+    {
+      "año": "2007+",
+      "evento": "Glifosato mata colmenas — ataque al hilo de continuidad cultural más largo (3,000 años de meliponicultura)"
+    },
+    {
+      "año": "2012",
+      "evento": "Maya Ka'an presenta amparo — inicio de la resistencia jurídica contemporánea"
+    },
+    {
+      "año": "Noviembre 2015",
+      "evento": "SCJN falla a favor de las comunidades mayas — Amparo en Revisión 441/2015"
+    },
+    {
+      "año": "Septiembre 2017",
+      "evento": "SENASICA revoca permiso de soya transgénica en Campeche y Yucatán"
+    },
+    {
+      "año": "2020",
+      "evento": "Leydy Pech recibe Goldman Environmental Prize — máximo reconocimiento internacional"
+    }
   ],
-
   "fuentes_pendientes_consultar": [
     "Cogolludo — Historia de Yucatán (1688): verificar el dato de los bataboob de 1669 y obtener sus nombres",
     "Reed, Nelson — The Caste War of Yucatan (1964): para contexto de Juan de Dios May y Chan Santa Cruz",
@@ -225,7 +439,6 @@
     "Goldman Prize — Dossier completo de la candidatura de Leydy Pech (2020)",
     "Asociación Maya Ka'an — documentos de fundación y estatutos organizativos"
   ],
-
   "metadatos": {
     "nodo_anterior": "NODO 008 — Demografía e Historia de la Población en Hopelchén",
     "relacion_con_nodos": "Cruza transversalmente con 002-G, 003-B, 004-E, 005-C, 007-I y 008-D",

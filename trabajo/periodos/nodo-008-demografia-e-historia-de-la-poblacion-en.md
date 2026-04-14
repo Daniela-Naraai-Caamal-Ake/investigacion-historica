@@ -155,3 +155,24 @@ _Origen: Análisis cruzado — Nodos 001-008_
 
 ---
 
+
+### Bloque 008-H — Deforestación menonita y transformación demográfica del territorio (19
+
+| Campo | Valor |
+|---|---|
+| **Tipo** | Cuantitativo — datos satelitales y de gobierno verificados |
+| **Fecha / Período** | 1987 — 2026 |
+| **Lugar** | Municipio de Hopelchén, Campeche |
+| **Personajes** | — |
+| **Cargos** | — |
+| **Fuente(s)** | — |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_008_Demografia.json` |
+
+> La llegada de los colonos menonitas a Hopelchén en 1987 y su expansión agroindustrial acelerada después de la reforma al Artículo 27 (1992) produjo la transformación territorial y demográfica más dramática del municipio desde la Guerra de Castas. Los datos disponibles muestran: (1) En 20 años, Hopelchén perdió 153,809 hectáreas de cobertura arbórea — la mayor pérdida de cualquier municipio de Campeche. (2) Entre 2010 y 2020, el municipio perdió 26,900 hectáreas adicionales de selva — el número más alto del estado. (3) Campeche como estado ocupa el primer lugar nacional en pérdida de cobertura arbórea: 80,900 hectáreas. (4) La Profepa documentó 69 procedimientos administrativos contra la comunidad menonita en el período 2015-2022. (5) Para 2021, la población menonita en el municipio superaba los 8,000 integrantes, distribuidos en 11 colonias. Esa cifra representaba aproximadamente el 21% de la población total del municipio (~38,000 habitantes) y modificó radicalmente la estructura demográfica de un municipio que en 2020 era 70.93% indígena.
+
+**⚠ Nota/contradicción:** El Estado mexicano protegió la llegada de los menonitas a Hopelchén en 1987 y facilitó su expansión con la reforma al Artículo 27 en 1992. Al mismo tiempo, la Profepa documentó 69 procedimientos administrativos contra esa misma comunidad entre 2015 y 2022 — sin que ninguno produjera una reducción do
+**→ Conexión hipótesis:** La pérdida de 153,809 hectáreas de selva en 20 años es la expresión cuantitativa más contundente de la hipótesis: el ciclo extractivo contemporáneo (menonitas + agroindustria transnacional + Estado in
+**Etiquetas:** deforestación, menonitas, 153809 hectáreas, Global Forest Watch, Artículo 27, soya, Selva Maya, Hopelchén, demografía contemporánea, despojo territorial
+
+---
+

@@ -164,11 +164,12 @@
 | **Lugar** | Los Chenes, Campeche |
 | **Personajes** | — |
 | **Cargos** | — |
-| **Fuente(s)** | — |
+| **Fuente(s)** | Síntesis de investigación del proyecto — datos sobre rutas y territorio en Hopelchén |
 | **Origen** | `datos/hopelchen/HOPELCHEN_NODO_007_Rutas_Territorio.json` |
 
 > El artículo de Schüren (2013) contiene una bibliografía de fuentes primarias y secundarias sobre Los Chenes que no han sido consultadas en el repositorio. Muchas de estas fuentes son anteriores al proyecto y contienen datos específicos sobre Hopelchén que ninguna otra fuente tiene. Este registro documenta sistemáticamente esas fuentes como objetivos de investigación.
 
+_Origen: Síntesis de investigación del proyecto — datos sobre rutas y territorio en Hopelchén_
 **→ Conexión hipótesis:** La bibliografía de Schüren revela que existe una tradición de investigación sobre Los Chenes de casi 100 años (desde Schuller en 1923 hasta Schüren en 2013) que el proyecto no ha consultado directamen
 **Etiquetas:** bibliografía Schüren, fuentes no consultadas, Pacheco Blanco 1928, Peña 1942, Schuller 1923, Schüren 2003a, Konrad, Archivo Municipal Hopelchén, Stephens 1843, investigación Los Chenes
 

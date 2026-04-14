@@ -17,11 +17,12 @@
 | **Lugar** | Hopelchén, Campeche |
 | **Personajes** | — |
 | **Cargos** | — |
-| **Fuente(s)** | — |
+| **Fuente(s)** | PorEsto — 'Homenaje 67 aniversario de Hopelchén como ciudad' (febrero 2026); IEEC — Acuerdo CG 26/06 (2006) |
 | **Origen** | `datos/hopelchen/HOPELCHEN_NODO_006_PoderPolitico_Local.json` |
 
 > La cadena de presidentes municipales identificados a partir de fuentes periodísticas, electorales e institucionales, con sus filiaciones políticas cuando disponibles.
 
+_Origen: PorEsto — 'Homenaje 67 aniversario de Hopelchén como ciudad' (febrero 2026); IEEC — Acuerdo CG 26/06 (2006)_
 **⚠ Nota/contradicción:** La lista de presidentes municipales de Hopelchén no existe en ninguna fuente centralizada pública. Ha sido reconstruida a partir de referencias cruzadas en noticias, actas electorales y documentos oficiales. Hay períodos sin identificar (c.1960-1983 y partes de los 2000s) donde faltan nombres. La au
 **→ Conexión hipótesis:** La cadena de presidentes municipales confirma: (1) hegemonía priista ininterrumpida desde al menos 1959 hasta ~2021; (2) circulación del poder entre un grupo reducido de apellidos cheneros (Lara, Cald
 **Etiquetas:** presidentes municipales, Hopelchén, PRI, genealogía poder, Lara Calderón, España Novelo, Sandy Baas, nepotismo, Hiram Aranda, Emilio Lara, lista histórica, hegemonía priista, 2024
@@ -144,14 +145,37 @@ _Origen: Wikipedia — Elecciones estatales de Campeche 2021 <https://es.wikiped
 | **Lugar** | Hopelchén, Los Chenes |
 | **Personajes** | — |
 | **Cargos** | — |
-| **Fuente(s)** | — |
+| **Fuente(s)** | legisladores_hopelchen_1861-2003.json — Digesto Constitucional Mexicano — Campeche (SCJN 2010); datos/curated/01_personajes.json |
 | **Origen** | `datos/hopelchen/HOPELCHEN_NODO_006_PoderPolitico_Local.json` |
 
 > ANÁLISIS TRANSVERSAL. Al cruzar los apellidos que aparecen en posiciones de poder a lo largo de la historia documentada de Hopelchén, emerge un patrón de transmisión genealógica del poder que refuerza la hipótesis central del proyecto.
 
+_Origen: legisladores_hopelchen_1861-2003.json — Digesto Constitucional Mexicano — Campeche (SCJN 2010); datos/curated/01_personajes.json_
 **⚠ Nota/contradicción:** La presencia de apellidos mayas en el cabildo (regidores, síndicos) podría interpretarse como representación. Sin embargo, el poder ejecutivo real — quien firma los cambios de uso de suelo, los contratos, las concesiones — recayó históricamente en los apellidos mestizos. Los apellidos mayas en el ca
 **→ Conexión hipótesis:** CONFIRMACIÓN GENEALÓGICA DE LA HIPÓTESIS: La transmisión del poder político en Hopelchén sigue líneas familiares documentables durante al menos 120 años (y potencialmente desde el Porfiriato). No es s
 **Etiquetas:** cruce apellidos, transmisión genealógica, Lara, Baranda, España, Calderón, Sansores, apellidos mayas en cabildo, poder ejecutivo mestizo, continuidad 120 años
+
+---
+
+
+### Bloque 006-H — Efraín 'El Charras' Calderón Lara (1947–1974): el sindicalista de Hope
+
+| Campo | Valor |
+|---|---|
+| **Tipo** | Biográfico — documentado en fuente testimonial literaria y fuente periodística |
+| **Fecha / Período** | 1947 — 14 febrero 1974 |
+| **Lugar** | Hopelchén, Campeche — Mérida, Yucatán — km 101.5 Carretera Carrillo Puerto–Chetumal |
+| **Personajes** | Efraín Calderón Lara 'El Charras' |
+| **Cargos** | — |
+| **Fuente(s)** | Lara Zavala, Hernán. *Charras*. 1a ed. 1990; reed. Alfaguara, 2022.; AV_PERSONAS.md — EFRAÍN 'EL CHARRAS' CALDERÓN LARA / PorEsto — 'Recuerdos de Efraín Calderón Lara Charras' (feb 2019) |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_006_PoderPolitico_Local.json` |
+
+> Efraín Calderón Lara, apodado 'El Charras' por las cicatrices de accidentes de infancia, nació el 13 de noviembre de 1947 en Hopelchén. Su apellido compuesto — Calderón Lara — une dos de los linajes de poder más importantes del municipio: Calderón y Lara. Su madre, doña Adda Lara, era de la familia que lleva el apellido del jefe político porfiriano. Su padre, Efraín Calderón, fue uno de los comerciantes más prósperos de Hopelchén: apicultor, dueño de aserradero, fundador de la gasolinera local. El Charras estudió leyes en la Universidad Autónoma de Yucatán sin terminar la carrera. Fundó 9 sindicatos independientes en Yucatán, comenzando con el sindicato de choferes urbanos 'Jacinto Canek'. Cuando el gobernador de Yucatán Carlos Loret de Mola le ofreció un cargo a cambio de su lealtad, lo rechazó. El 13 de febrero de 1974 fue secuestrado. El 18 de febrero de 1974, el campesino Evaristo Poot Cruz encontró su cuerpo en el km 101.5 de la Carretera Carrillo Puerto-Chetumal: pies y manos atados, venda en los ojos, herida en la ingle. Sus asesinos fueron identificados: el Coronel Felipe Gamboa Gamboa (director de Seguridad Pública de Yucatán), Chan López, Marrufo y Cicero. Todos fueron procesados. Todos fueron liberados antes de cumplir su pena. El teatro de la UADY llevó su nombre — luego se lo quitaron. Su primo en segundo grado, el escritor Hernán Lara Zavala (1947-2025), narró el asesinato en la novela testimonial *Charras* (1990, Alfaguara 2022), considerada una de las más importantes de la literatura campechana del siglo XX.
+
+_Origen: Lara Zavala, Hernán. *Charras*. 1a ed. 1990; reed. Alfaguara, 2022._
+**⚠ Nota/contradicción:** El Charras tenía el apellido del poder (Lara) y el apellido del comercio próspero (Calderón). Era parte de la red familiar que históricamente controlaba Hopelchén — y por eso su resistencia fue más intolerable para el sistema: no era un desconocido ni un outsider, era alguien del interior del entram
+**→ Conexión hipótesis:** El asesinato de Efraín Calderón Lara en 1974 documenta el límite de la agencia política dentro del sistema: se puede resistir desde fuera (Juan de Dios May, 1848) o desde dentro (el Charras, 1974), pe
+**Etiquetas:** El Charras, Efraín Calderón Lara, Hopelchén, sindicalismo, asesinato político, crimen de estado, 1974, Lara, Calderón, 9 sindicatos, Hernán Lara Zavala, Jacinto Canek
 
 ---
 

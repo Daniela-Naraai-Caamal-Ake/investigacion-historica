@@ -9,7 +9,6 @@
   "version": "1.0",
   "continua_desde": "NODO 005 — Hopelchén Contemporáneo (1970–2026)",
   "autor_investigacion": "Proyecto Hopelchén — Investigación histórica independiente",
-
   "HALLAZGO_CRITICO_CENTRAL": {
     "titulo": "La dinastía Lara: de hacendado porfiriano a alcalde del siglo XXI",
     "descripcion": "El apellido Lara aparece documentado en posiciones de poder en Hopelchén en al menos cuatro momentos distintos que abarcan 120 años: (1) Pedro Advíncula Lara — hacendado y jefe político del Porfiriato (c.1900-1911); (2) José Antonio 'Xuna' Lara Cauich — alcalde desde 1998; (3) José Rafael Lara Dzib — regidor 2006; (4) Jorge Carlos Lara Solís — primer regidor 2006; (5) Humberto Lara y Lara — intelectual, periodista; (6) Emilio Lara Calderón — alcalde 2021-2024 y posterior diputado federal plurinominal del PRI.",
@@ -19,9 +18,7 @@
     ],
     "implicacion_para_hipotesis": "La transmisión del poder político local en Hopelchén tiene continuidad familiar documentable desde el Porfiriato hasta el siglo XXI. El apellido Lara — el mismo del hacendado y jefe político Pedro Advíncula Lara — sigue apareciendo en el ejercicio del poder municipal más de un siglo después. Esto confirma la hipótesis de transmisión generacional del poder."
   },
-
   "registros": [
-
     {
       "registro_id": "006-A",
       "subtitulo": "Presidentes municipales de Hopelchén identificados: cadena de poder 1959–2026",
@@ -159,9 +156,27 @@
       "tipo_dato": "Citado — múltiples fuentes periodísticas e institucionales verificadas",
       "notas_contradiccion": "La lista de presidentes municipales de Hopelchén no existe en ninguna fuente centralizada pública. Ha sido reconstruida a partir de referencias cruzadas en noticias, actas electorales y documentos oficiales. Hay períodos sin identificar (c.1960-1983 y partes de los 2000s) donde faltan nombres. La ausencia de un registro histórico oficial de los presidentes municipales de Hopelchén en sí misma es un dato: la transparencia histórica de quién ha gobernado el municipio no existe formalmente.",
       "conexion_hipotesis": "La cadena de presidentes municipales confirma: (1) hegemonía priista ininterrumpida desde al menos 1959 hasta ~2021; (2) circulación del poder entre un grupo reducido de apellidos cheneros (Lara, Calderón, España, Baas, Sansores); (3) al menos un caso grave de nepotismo documentado (España Novelo 2012-2018); (4) el apellido Lara — el mismo del hacendado porfiriano — sigue en el poder municipal en 2021-2024.",
-      "tags": ["presidentes municipales", "Hopelchén", "PRI", "genealogía poder", "Lara Calderón", "España Novelo", "Sandy Baas", "nepotismo", "Hiram Aranda", "Emilio Lara", "lista histórica", "hegemonía priista", "2024"]
+      "tags": [
+        "presidentes municipales",
+        "Hopelchén",
+        "PRI",
+        "genealogía poder",
+        "Lara Calderón",
+        "España Novelo",
+        "Sandy Baas",
+        "nepotismo",
+        "Hiram Aranda",
+        "Emilio Lara",
+        "lista histórica",
+        "hegemonía priista",
+        "2024"
+      ],
+      "fuente": {
+        "nombre": "PorEsto — 'Homenaje 67 aniversario de Hopelchén como ciudad' (febrero 2026); IEEC — Acuerdo CG 26/06 (2006)",
+        "tipo": "Fuentes periodísticas y electorales",
+        "confiabilidad": "Media-Alta"
+      }
     },
-
     {
       "registro_id": "006-B",
       "subtitulo": "El linaje familiar Lara-Calderón-Solís-Baqueiro-Barrera: el árbol genealógico del poder en Hopelchén",
@@ -212,16 +227,52 @@
         }
       ],
       "mapa_de_apellidos_cheneros_documentados": {
-        "apellidos_mestizos_de_poder": ["Lara", "Calderón", "Solís", "Barrera", "España", "Novelo", "González", "Guerrero", "Aranda", "Sansores"],
-        "apellidos_mayas_documentados_en_cargos": ["Baas", "Cauich", "Poot", "Chan", "Dzul", "Caamal", "Tun", "Ek", "Chi"],
-        "apellidos_que_aparecen_en_ambos_registros": ["Baas Cauich (alcaldesa 2018-2021)", "Tun Montoy (alcalde sustituto 2024)"],
+        "apellidos_mestizos_de_poder": [
+          "Lara",
+          "Calderón",
+          "Solís",
+          "Barrera",
+          "España",
+          "Novelo",
+          "González",
+          "Guerrero",
+          "Aranda",
+          "Sansores"
+        ],
+        "apellidos_mayas_documentados_en_cargos": [
+          "Baas",
+          "Cauich",
+          "Poot",
+          "Chan",
+          "Dzul",
+          "Caamal",
+          "Tun",
+          "Ek",
+          "Chi"
+        ],
+        "apellidos_que_aparecen_en_ambos_registros": [
+          "Baas Cauich (alcaldesa 2018-2021)",
+          "Tun Montoy (alcalde sustituto 2024)"
+        ],
         "nota": "Los apellidos mayas aparecen principalmente en cargos de alcaldesa o sustituto/regidor, mientras que las familias de apellidos mestizos han dominado históricamente la presidencia municipal. Sandy Baas Cauich (2018-2021) es la primera mujer y una de las pocas alcaldesas con apellidos mayas en posición de poder."
       },
       "notas_contradiccion": "El artículo periodístico sobre Efraín Calderón Lara documenta que fue asesinado por sus posiciones sindicales y de izquierda — lo que significa que dentro del mismo linaje familiar chenero hubo división política profunda: unos miembros de la familia controlaban el poder priista y económico de Hopelchén mientras otro miembro del mismo linaje fue asesinado por oponerse a ese poder. La 'familia chenera' no es una élite homogénea — es una red de relaciones con conflictos internos.",
       "conexion_hipotesis": "La documentación de los apellidos cheneros como redes familiares de poder confirma que la transmisión del control político en Hopelchén no es solo institucional (PRI) sino también genealógica. El mismo tipo de transmisión familiar que operó entre encomiendas del siglo XVI, haciendas del Porfiriato y presidencias municipales del siglo XX sigue activo. Los apellidos cambian de cargo pero no de función.",
-      "tags": ["apellidos cheneros", "Lara", "Calderón", "Barrera", "Baqueiro", "genealogía", "poder familiar", "PRI", "sindicalismo", "fractura interna", "transmisión poder", "Efraín Calderón Lara"]
+      "tags": [
+        "apellidos cheneros",
+        "Lara",
+        "Calderón",
+        "Barrera",
+        "Baqueiro",
+        "genealogía",
+        "poder familiar",
+        "PRI",
+        "sindicalismo",
+        "fractura interna",
+        "transmisión poder",
+        "Efraín Calderón Lara"
+      ]
     },
-
     {
       "registro_id": "006-C",
       "subtitulo": "Interrogante estratégica: ¿Hay parentesco entre Julio Alberto Sansores Sansores y Layda Sansores San Román?",
@@ -236,9 +287,17 @@
       "tipo_dato": "Hipótesis pendiente de verificación — alta prioridad",
       "accion_pendiente": "Buscar árbol genealógico de la familia Sansores en Campeche. Wikipedia Layda Sansores, biografías familiares. Periódico Oficial de Campeche.",
       "conexion_hipotesis": "Si se confirma el parentesco, el conflicto político entre el alcalde priista Emilio Lara y la gobernadora Sansores no es solo ideológico (PRI vs Morena) sino también genealógico: dos ramas de las élites cheneras compitiendo por el control del territorio municipal — exactamente el patrón documentado desde los Cocomes vs Xiúes en el siglo XVI.",
-      "tags": ["Sansores", "Layda Sansores", "Julio Sansores", "gobernadora", "Hopelchén", "parentesco", "PRI vs Morena", "élites regionales"]
+      "tags": [
+        "Sansores",
+        "Layda Sansores",
+        "Julio Sansores",
+        "gobernadora",
+        "Hopelchén",
+        "parentesco",
+        "PRI vs Morena",
+        "élites regionales"
+      ]
     },
-
     {
       "registro_id": "006-D",
       "subtitulo": "Nepotismo documentado: el caso España Novelo — el ayuntamiento como empresa familiar",
@@ -264,9 +323,19 @@
       "contexto_regional": "El período España Novelo coincide con: (1) el inicio de los amparos contra Monsanto (2012); (2) la sentencia de la SCJN a favor de los mayas (2015). PREGUNTA: ¿Autorizó España Novelo cambios de uso de suelo para menonitas o agroindustria durante su gestión?",
       "notas_contradiccion": "El reportaje de Tabasco HOY cita al campesino Francisco Ek como fuente de la indignación popular ('Ignacio España Novelo es muy dado a mentir'). El apellido Ek es maya. El campesino maya que denuncia la corrupción del alcalde mestizo — patrón histórico que se repite.",
       "conexion_hipotesis": "El nepotismo de España Novelo no es una anomalía — es la versión contemporánea del mismo mecanismo que operó en las haciendas del Porfiriato: el control del erario público (en lugar del trabajo agrícola) como recurso extractivo para la élite familiar local.",
-      "tags": ["España Novelo", "nepotismo", "nómina municipal", "familia en gobierno", "corrupción", "Hopelchén", "Francisco Ek", "Sindicato Jubilados", "PRI", "comunicación social"]
+      "tags": [
+        "España Novelo",
+        "nepotismo",
+        "nómina municipal",
+        "familia en gobierno",
+        "corrupción",
+        "Hopelchén",
+        "Francisco Ek",
+        "Sindicato Jubilados",
+        "PRI",
+        "comunicación social"
+      ]
     },
-
     {
       "registro_id": "006-E",
       "subtitulo": "Hiram Aranda Calderón (2024-2027): el alcalde actual y el apellido del historiador",
@@ -285,9 +354,18 @@
       "accion_pendiente_urgente": "Investigar si existe parentesco entre Hiram Aranda Calderón (alcalde 2024-2027) y Mario Heberto Aranda González (historiador local, 1985). Si existe, el custodio de la narrativa histórica de Hopelchén y el ejecutor del poder municipal pertenecen a la misma red familiar — lo que convertiría al libro de Aranda González en una fuente con potencial sesgo de clase hacia los intereses de esa familia.",
       "tipo_dato": "Citado — pendiente verificación genealógica",
       "conexion_hipotesis": "Si el alcalde actual es pariente del único historiador local conocido, entonces el control de la narrativa histórica (hipótesis central del proyecto) y el control del poder político actual convergen en la misma red familiar. Eso no invalida la monografía de Aranda González — pero obliga a leerla con conciencia del contexto de quien la escribió.",
-      "tags": ["Hiram Aranda Calderón", "alcalde 2024", "Aranda González", "historiador local", "Calderón", "parentesco", "narrativa histórica", "poder familiar", "fuente primaria local"]
+      "tags": [
+        "Hiram Aranda Calderón",
+        "alcalde 2024",
+        "Aranda González",
+        "historiador local",
+        "Calderón",
+        "parentesco",
+        "narrativa histórica",
+        "poder familiar",
+        "fuente primaria local"
+      ]
     },
-
     {
       "registro_id": "006-F",
       "subtitulo": "La hegemonía priista en Hopelchén (1959–2021) y su ruptura parcial con Morena",
@@ -302,9 +380,19 @@
       "tipo_dato": "Citado con análisis",
       "notas_contradiccion": "La narrativa priista en Hopelchén presenta al partido como el constructor de la ciudad y el gestor del desarrollo. La realidad documentada muestra: (1) deuda de 20 millones al final de la administración Baas Cauich; (2) nepotismo sistémico en la administración España Novelo; (3) investigación por presunto secuestro en la administración Lara Calderón; (4) incumplimiento de promesas de fertilizante a 300 campesinos de Iturbide. El PRI gobernó Hopelchén durante décadas mientras la deforestación alcanzó 153,809 hectáreas y las comunidades mayas perdieron tierras ejidales.",
       "conexion_hipotesis": "La hegemonía priista de 62+ años en Hopelchén es el eslabón político que conecta el sistema hacendario porfiriano con el despojo agroindustrial contemporáneo: los presidentes municipales del PRI fueron quienes autorizaron (o no bloquearon) los cambios de uso de suelo que permitieron la deforestación por menonitas y la siembra de transgénicos. La continuidad del PRI en el municipio es la continuidad del patrón extractivo en su dimensión político-administrativa.",
-      "tags": ["hegemonía PRI", "62 años", "Hopelchén", "Morena", "Layda Sansores", "ruptura 2021", "cateo alcalde", "primer vez sin PRI", "gobernatura Campeche", "elecciones municipales"]
+      "tags": [
+        "hegemonía PRI",
+        "62 años",
+        "Hopelchén",
+        "Morena",
+        "Layda Sansores",
+        "ruptura 2021",
+        "cateo alcalde",
+        "primer vez sin PRI",
+        "gobernatura Campeche",
+        "elecciones municipales"
+      ]
     },
-
     {
       "registro_id": "006-G",
       "subtitulo": "CRUCE DE DATOS: Apellidos del poder en Hopelchén — de la Colonia al siglo XXI",
@@ -362,26 +450,132 @@
       "patron_global": "Los apellidos mestizos/criollos (Lara, Calderón, Baranda, España, Sansores) dominan los cargos ejecutivos. Los apellidos mayas (Baas, Cauich, Poot, Chan, Tun, Ek) aparecen principalmente en cargos de regidores, síndicos, o excepcionalmente como alcaldes. La única presidenta municipal con apellidos mayas fue Sandy Baas Cauich (2018-2021) — período en que el conflicto por los transgénicos alcanzó su punto más alto.",
       "notas_contradiccion": "La presencia de apellidos mayas en el cabildo (regidores, síndicos) podría interpretarse como representación. Sin embargo, el poder ejecutivo real — quien firma los cambios de uso de suelo, los contratos, las concesiones — recayó históricamente en los apellidos mestizos. Los apellidos mayas en el cabildo funcionan como legitimación sin poder real. Excepción notable: Sandy Baas Cauich como alcaldesa, aunque durante su gestión la deuda se acumuló y el conflicto agroindustrial no se resolvió.",
       "conexion_hipotesis": "CONFIRMACIÓN GENEALÓGICA DE LA HIPÓTESIS: La transmisión del poder político en Hopelchén sigue líneas familiares documentables durante al menos 120 años (y potencialmente desde el Porfiriato). No es solo el PRI como partido lo que garantiza la continuidad del poder — es la red familiar de apellidos cheneros quien da continuidad al control, cambiando de vehículo político cuando es necesario.",
-      "tags": ["cruce apellidos", "transmisión genealógica", "Lara", "Baranda", "España", "Calderón", "Sansores", "apellidos mayas en cabildo", "poder ejecutivo mestizo", "continuidad 120 años"]
+      "tags": [
+        "cruce apellidos",
+        "transmisión genealógica",
+        "Lara",
+        "Baranda",
+        "España",
+        "Calderón",
+        "Sansores",
+        "apellidos mayas en cabildo",
+        "poder ejecutivo mestizo",
+        "continuidad 120 años"
+      ],
+      "fuente": {
+        "nombre": "legisladores_hopelchen_1861-2003.json — Digesto Constitucional Mexicano — Campeche (SCJN 2010); datos/curated/01_personajes.json",
+        "tipo": "Fuente institucional — SCJN 2010 + síntesis del proyecto",
+        "archivo_local": "sources/83536.pdf",
+        "confiabilidad": "Alta"
+      }
+    },
+    {
+      "registro_id": "006-H",
+      "subtitulo": "Efraín 'El Charras' Calderón Lara (1947–1974): el sindicalista de Hopelchén asesinado por el Estado — fusión de apellidos y el precio de resistir desde dentro del sistema",
+      "fecha_evento": "1947 — 14 febrero 1974",
+      "lugar": "Hopelchén, Campeche — Mérida, Yucatán — km 101.5 Carretera Carrillo Puerto–Chetumal",
+      "descripcion": "Efraín Calderón Lara, apodado 'El Charras' por las cicatrices de accidentes de infancia, nació el 13 de noviembre de 1947 en Hopelchén. Su apellido compuesto — Calderón Lara — une dos de los linajes de poder más importantes del municipio: Calderón y Lara. Su madre, doña Adda Lara, era de la familia que lleva el apellido del jefe político porfiriano. Su padre, Efraín Calderón, fue uno de los comerciantes más prósperos de Hopelchén: apicultor, dueño de aserradero, fundador de la gasolinera local. El Charras estudió leyes en la Universidad Autónoma de Yucatán sin terminar la carrera. Fundó 9 sindicatos independientes en Yucatán, comenzando con el sindicato de choferes urbanos 'Jacinto Canek'. Cuando el gobernador de Yucatán Carlos Loret de Mola le ofreció un cargo a cambio de su lealtad, lo rechazó. El 13 de febrero de 1974 fue secuestrado. El 18 de febrero de 1974, el campesino Evaristo Poot Cruz encontró su cuerpo en el km 101.5 de la Carretera Carrillo Puerto-Chetumal: pies y manos atados, venda en los ojos, herida en la ingle. Sus asesinos fueron identificados: el Coronel Felipe Gamboa Gamboa (director de Seguridad Pública de Yucatán), Chan López, Marrufo y Cicero. Todos fueron procesados. Todos fueron liberados antes de cumplir su pena. El teatro de la UADY llevó su nombre — luego se lo quitaron. Su primo en segundo grado, el escritor Hernán Lara Zavala (1947-2025), narró el asesinato en la novela testimonial *Charras* (1990, Alfaguara 2022), considerada una de las más importantes de la literatura campechana del siglo XX.",
+      "fuente": {
+        "nombre": "Lara Zavala, Hernán. *Charras*. 1a ed. 1990; reed. Alfaguara, 2022.",
+        "tipo": "Novela testimonial construida con artículos de prensa, entrevistas y artificio literario",
+        "archivo_local": "sources/Charras - Hernan Lara Zavala.pdf",
+        "confiabilidad": "Alta como fuente testimonial — requiere contraste con expediente judicial o registro periodístico de la época"
+      },
+      "fuente_secundaria": {
+        "nombre": "AV_PERSONAS.md — EFRAÍN 'EL CHARRAS' CALDERÓN LARA / PorEsto — 'Recuerdos de Efraín Calderón Lara Charras' (feb 2019)",
+        "cita": "PorEsto 2019: '9 sindicatos fundados; teatro con su nombre luego cambió de nombre'"
+      },
+      "tipo_dato": "Biográfico — documentado en fuente testimonial literaria y fuente periodística",
+      "personajes": [
+        {
+          "nombre": "Efraín Calderón Lara 'El Charras'",
+          "nacimiento": "13 noviembre 1947, Hopelchén, Campeche",
+          "muerte": "14 febrero 1974 (Día de San Valentín), km 101.5 Carretera Carrillo Puerto-Chetumal",
+          "apellidos": "Calderón (familia comerciante/apicultor) + Lara (familia de poder político/hacendario del municipio)",
+          "sindicatos": "9 sindicatos independientes fundados; el primero: choferes urbanos 'Jacinto Canek'",
+          "asesinos_identificados": [
+            "Coronel Felipe Gamboa Gamboa (director Seguridad Pública Yucatán)",
+            "Chan López",
+            "Marrufo",
+            "Cicero"
+          ],
+          "consecuencia_legal": "Todos procesados. Todos liberados antes de cumplir pena.",
+          "hermano": "José Calderón Lara — líder estudiantil UADY",
+          "primo_literario": "Hernán Lara Zavala (escritor, 1947-2025) — documentó el caso en novela testimonial"
+        }
+      ],
+      "notas_contradiccion": "El Charras tenía el apellido del poder (Lara) y el apellido del comercio próspero (Calderón). Era parte de la red familiar que históricamente controlaba Hopelchén — y por eso su resistencia fue más intolerable para el sistema: no era un desconocido ni un outsider, era alguien del interior del entramado que eligió el lado equivocado. Su asesinato es el precio del disenso desde dentro de la élite.",
+      "conexion_hipotesis": "El asesinato de Efraín Calderón Lara en 1974 documenta el límite de la agencia política dentro del sistema: se puede resistir desde fuera (Juan de Dios May, 1848) o desde dentro (el Charras, 1974), pero cuando la resistencia organiza trabajo y desafía al poder directamente, el instrumento del despojo disponible en ese siglo — el crimen de Estado — se activa. La hipótesis del proyecto incluye 'control del cuerpo de las comunidades mayas': el cuerpo de El Charras, encontrado con pies y manos atados y ojos vendados, es la evidencia más literal de ese control.",
+      "tags": [
+        "El Charras",
+        "Efraín Calderón Lara",
+        "Hopelchén",
+        "sindicalismo",
+        "asesinato político",
+        "crimen de estado",
+        "1974",
+        "Lara",
+        "Calderón",
+        "9 sindicatos",
+        "Hernán Lara Zavala",
+        "Jacinto Canek"
+      ]
     }
   ],
-
   "linea_del_tiempo_nodo": [
-    {"año": "~1900-1911", "evento": "Pedro Advíncula Lara — hacendado y jefe político de los Chenes"},
-    {"año": "1959", "evento": "José Guerrero Barahona — presidente municipal en funciones cuando Hopelchén recibe título de Ciudad (Decreto 196, 26 Feb 1959)"},
-    {"año": "1984", "evento": "Enrique González Vargas 'Don Lico' — alcalde en funciones en el 25 aniversario de la titulación"},
-    {"año": "c.1990s", "evento": "Alonso Julián Pacheco Ucan — alcalde (fecha exacta pendiente)"},
-    {"año": "c.1990s", "evento": "Julio Alberto Sansores Sansores — alcalde (fecha exacta pendiente, mencionado en acta IEEC 2006)"},
-    {"año": "1998", "evento": "José Antonio 'Xuna' Lara Cauich — alcalde (retoma festejos del aniversario de la ciudad)"},
-    {"año": "2006", "evento": "José Antonio Lara Cauich — listado como presidente municipal en acta IEEC con regidor José Rafael Lara Dzib y Jorge Carlos Lara Solís"},
-    {"año": "~2012-2018", "evento": "José Ignacio España Novelo — alcalde. Nepotismo documentado: 10+ familiares en nómina"},
-    {"año": "2018-2021", "evento": "Sandy Areli Baas Cauich (PRI-PVEM-NA) — primera alcaldesa de apellidos mayas. Deja deuda de 20 mdp"},
-    {"año": "2021-2024", "evento": "Emilio Lara Calderón (PRI) — alcalde. Cateo de la Fiscalía en su domicilio (Ene 2023). Toma del palacio municipal por campesinos (May 2022). Pide licencia definitiva (Feb 2024)"},
-    {"año": "2021", "evento": "Layda Sansores (Morena) gana gubernatura de Campeche — primera vez en 92 años que el PRI pierde en el estado"},
-    {"año": "Feb 2024", "evento": "Efraín Tun Montoy — alcalde sustituto hasta Sep 2024"},
-    {"año": "Oct 2024", "evento": "Hiram Aranda Calderón — nuevo alcalde 2024-2027"}
+    {
+      "año": "~1900-1911",
+      "evento": "Pedro Advíncula Lara — hacendado y jefe político de los Chenes"
+    },
+    {
+      "año": "1959",
+      "evento": "José Guerrero Barahona — presidente municipal en funciones cuando Hopelchén recibe título de Ciudad (Decreto 196, 26 Feb 1959)"
+    },
+    {
+      "año": "1984",
+      "evento": "Enrique González Vargas 'Don Lico' — alcalde en funciones en el 25 aniversario de la titulación"
+    },
+    {
+      "año": "c.1990s",
+      "evento": "Alonso Julián Pacheco Ucan — alcalde (fecha exacta pendiente)"
+    },
+    {
+      "año": "c.1990s",
+      "evento": "Julio Alberto Sansores Sansores — alcalde (fecha exacta pendiente, mencionado en acta IEEC 2006)"
+    },
+    {
+      "año": "1998",
+      "evento": "José Antonio 'Xuna' Lara Cauich — alcalde (retoma festejos del aniversario de la ciudad)"
+    },
+    {
+      "año": "2006",
+      "evento": "José Antonio Lara Cauich — listado como presidente municipal en acta IEEC con regidor José Rafael Lara Dzib y Jorge Carlos Lara Solís"
+    },
+    {
+      "año": "~2012-2018",
+      "evento": "José Ignacio España Novelo — alcalde. Nepotismo documentado: 10+ familiares en nómina"
+    },
+    {
+      "año": "2018-2021",
+      "evento": "Sandy Areli Baas Cauich (PRI-PVEM-NA) — primera alcaldesa de apellidos mayas. Deja deuda de 20 mdp"
+    },
+    {
+      "año": "2021-2024",
+      "evento": "Emilio Lara Calderón (PRI) — alcalde. Cateo de la Fiscalía en su domicilio (Ene 2023). Toma del palacio municipal por campesinos (May 2022). Pide licencia definitiva (Feb 2024)"
+    },
+    {
+      "año": "2021",
+      "evento": "Layda Sansores (Morena) gana gubernatura de Campeche — primera vez en 92 años que el PRI pierde en el estado"
+    },
+    {
+      "año": "Feb 2024",
+      "evento": "Efraín Tun Montoy — alcalde sustituto hasta Sep 2024"
+    },
+    {
+      "año": "Oct 2024",
+      "evento": "Hiram Aranda Calderón — nuevo alcalde 2024-2027"
+    }
   ],
-
   "contradicciones_globales_nodo": [
     {
       "contradiccion_id": "C016",
@@ -402,7 +596,6 @@
       "resolucion_propuesta": "Investigar más sobre Efraín Calderón Lara — ¿cuándo fue asesinado? ¿quién lo asesinó? ¿tenía conexiones con movimientos agrarios o chicleros?"
     }
   ],
-
   "fuentes_pendientes_identificadas": [
     "Aranda González, Mario Heberto — Apuntaciones históricas y literarias del municipio de Hopelchén (1985) — SIGUE SIENDO PRIORIDAD MÁXIMA",
     "IEEC — Actas electorales de Hopelchén 1990-2012 para completar la lista de presidentes municipales",
@@ -412,7 +605,6 @@
     "Investigación genealógica: parentesco Aranda González (historiador) / Aranda Calderón (alcalde actual)",
     "Registro Agrario Nacional (RAN) — cambios de uso de suelo autorizados en Hopelchén por administración municipal"
   ],
-
   "metadatos": {
     "metodologia": "Investigación web — PorEsto, La Jornada, Infobae, Milenio, Crónica Campeche, Tabasco HOY, IEEC (documentos electorales), Periódico Oficial del Estado de Campeche. Cruce de apellidos entre nodos 001-005 y registros contemporáneos.",
     "nivel_profundidad": "1 (primera iteración del nodo)",

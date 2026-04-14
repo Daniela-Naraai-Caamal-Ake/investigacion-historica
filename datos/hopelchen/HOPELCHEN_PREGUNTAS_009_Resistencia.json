@@ -5,9 +5,7 @@
   "nodo_origen": "009 — Resistencia y Agencia Maya en Hopelchén (1669–2026)",
   "fecha_generacion": "2026-04-13",
   "estado": "Activo — pendiente de investigación",
-
   "preguntas": [
-
     {
       "pregunta_id": "P009-01",
       "pregunta": "¿Quiénes eran los bataboob de Hopelchén en 1669? ¿Sus nombres, linajes y relación con las comunidades que gobernaban?",
@@ -22,7 +20,6 @@
       "conexion_hipotesis": "Identificar a los bataboob por nombre y linaje permitiría rastrear si sus descendientes aparecen como aliados o víctimas del sistema colonial posterior, o si sus apellidos reaparecen en el registro ejidal del siglo XX.",
       "estado": "PENDIENTE"
     },
-
     {
       "pregunta_id": "P009-02",
       "pregunta": "¿Qué pasó con Juan de Dios May después del ataque a Hopelchén en 1848? ¿Fue capturado, huyó, murió? ¿Cuál era su comunidad de origen?",
@@ -38,7 +35,6 @@
       "conexion_hipotesis": "Si Juan de Dios May tenía vínculos con comunidades específicas de Los Chenes, la resistencia de 1848 no fue un evento externo sino una expresión directa de la agencia de las comunidades locales de Hopelchén.",
       "estado": "PENDIENTE"
     },
-
     {
       "pregunta_id": "P009-03",
       "pregunta": "¿Cuándo exactamente comenzó la organización Maya Ka'an? ¿Qué comunidades la integran? ¿Cómo se distribuye el poder interno en la organización?",
@@ -52,9 +48,10 @@
       ],
       "prioridad": "Alta",
       "conexion_hipotesis": "Si Maya Ka'an es un modelo organizativo replicable (y no solo el resultado de la personalidad excepcional de Leydy Pech), entonces la resistencia jurídica puede escalarse en otras comunidades mayas de la región que enfrentan el mismo despojo.",
-      "estado": "PENDIENTE"
+      "estado": "RESPONDIDA PARCIALMENTE",
+      "registro_respuesta": "009-J",
+      "nota_respuesta": "Registro 009-J documenta: Koolel-Kab/Muuchkambal fundada en 1995 en Ich Ek, Hopelchén. Cooperativa exclusivamente de mujeres mayas, meliponicultura + jabones + cremas. Organización que precedió a la lucha jurídica contra transgénicos. Modelo organizativo de 30 años. Las 25 comunidades que integran Maya Ka'an requieren verificación directa con la organización."
     },
-
     {
       "pregunta_id": "P009-04",
       "pregunta": "¿Qué ocurrió después de la victoria de Leydy Pech en 2017? ¿Las comunidades de Hopelchén recuperaron tierra o miel perdida? ¿La deforestación se detuvo?",
@@ -68,9 +65,10 @@
       ],
       "prioridad": "Alta — situación activa",
       "conexion_hipotesis": "Si la victoria jurídica de 2015-2017 no produjo recuperación real de tierras ni reducción de la deforestación, confirma que la resistencia jurídica puede interrumpir el ciclo pero no revertirlo. Esto afecta la conclusión del libro: ¿qué tipo de victorias son posibles?",
-      "estado": "PENDIENTE"
+      "estado": "RESPONDIDA PARCIALMENTE",
+      "registro_respuesta": "009-J",
+      "nota_respuesta": "Registro 009-J y leydy_pech_perfil.json: segunda revocación sep 2017, tercera instancia ago 2020. Situación 2020: la siembra ilegal continuaba con fumigación aérea y pistas clandestinas. La victoria jurídica no detuvo el despojo territorial. Caso ante CIDH activo. Deforestación continua documentada en registro 008-H (153,809 ha en 20 años)."
     },
-
     {
       "pregunta_id": "P009-05",
       "pregunta": "¿Existen organizaciones mayas activas en Hopelchén que no sean Maya Ka'an? ¿Redes de comunidades ejidales, cooperativas de productores, organizaciones culturales o de jóvenes mayas?",
@@ -86,7 +84,6 @@
       "conexion_hipotesis": "Un ecosistema organizativo diverso y activo es evidencia de que la agencia maya en Hopelchén no depende de un solo líder o una sola organización — es una característica estructural de las comunidades, compatible con la hipótesis de resistencia continua documentada en este nodo.",
       "estado": "PENDIENTE"
     },
-
     {
       "pregunta_id": "P009-06",
       "pregunta": "¿Cómo se organiza actualmente la meliponicultura de Xunáan Kab en Hopelchén? ¿Cuántas familias la practican? ¿Qué porcentaje de ingresos representa para las comunidades?",
@@ -100,11 +97,11 @@
       ],
       "prioridad": "Media",
       "conexion_hipotesis": "El estado actual de la meliponicultura es el indicador más directo del estado de la continuidad cultural maya en Hopelchén. Si está recuperándose, la resistencia tiene éxito tangible. Si sigue contrayéndose, la victoria jurídica no fue suficiente para revertir el daño.",
-      "estado": "PENDIENTE"
+      "estado": "RESPONDIDA PARCIALMENTE",
+      "registro_respuesta": "005-G",
+      "nota_respuesta": "Registro 005-G: meliponicultura Xunáan Kab sustenta 25,000 familias en Campeche; Hopelchén es primer productor de miel del estado; 40% de producción nacional de miel viene de la Península. Número específico de colmenas de Xunáan Kab en Hopelchén antes/después de la expansión soya (2004-2020) requiere SADER/SAGARPA."
     }
-
   ],
-
   "hallazgos_para_iteracion_profunda": [
     {
       "hallazgo": "La meliponicultura es el hilo de continuidad más largo del repositorio: 3,000 años documentados, desde el período Preclásico (Códice Madrid) hasta 2020 (Goldman Prize). Ningún otro elemento cultural maya en Hopelchén tiene una continuidad tan larga y verificable.",
@@ -117,7 +114,6 @@
       "accion_siguiente": "Desarrollar esta lectura en el capítulo del libro sobre el Nodo 009: 'Los mayas no se quedaron atrapados en el siglo XVI — aprendieron a usar el sistema de cada siglo para defenderse del despojo de ese mismo siglo.'"
     }
   ],
-
   "metadatos": {
     "generado_desde": "HOPELCHEN_NODO_009_Resistencia_Agencia_Maya.json",
     "fecha": "2026-04-13",

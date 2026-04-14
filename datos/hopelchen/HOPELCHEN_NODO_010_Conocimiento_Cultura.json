@@ -10,16 +10,18 @@
   "autor_investigacion": "Proyecto Hopelchén — Investigación histórica independiente",
   "continua_desde": "Nodo 001 (astronomía y cerámica prehispánica), Nodo 002 (destrucción de códices coloniales), Nodo 009 (meliponicultura como conocimiento vivo)",
   "nota_metodologica": "La hipótesis central del proyecto V4 menciona 'control del conocimiento' pero ese hilo está disperso en los nodos anteriores. Este nodo lo convierte en eje temático propio. Algunos registros de este nodo son análisis e inferencias a partir de evidencia arqueológica y epigráfica — el nivel de certeza se indica explícitamente en cada caso.",
-
   "HALLAZGO_CRITICO_CENTRAL": {
     "titulo": "El conocimiento maya en Los Chenes sobrevivió donde el sistema de poder no pudo llegar",
     "descripcion": "El auto de fe de Maní (1562) destruyó los códices. Las misiones franciscanas transformaron el calendario y los rituales en crimen. El sistema escolar porfiriano y posrevolucionario enseñó historia desde la perspectiva del Estado colonial. Sin embargo, la astronomía sobrevivió en los alineamientos arquitectónicos de Xtampak; la escritura sobrevivió en la Estela 2; la botánica medicinal sobrevivió en práctica cotidiana; la meliponicultura sobrevivió como tecnología viva durante 3,000 años. El conocimiento que sobrevivió es el que tenía utilidad práctica cotidiana o el que estaba literalmente grabado en piedra. El conocimiento que se perdió es el que requería transmisión activa de una élite especializada (sacerdotes, escribas) — ese fue el objetivo específico de la destrucción colonial.",
     "implicacion_para_hipotesis": "El control del conocimiento en Hopelchén no fue total. Fue selectivo: atacó el conocimiento codificado y transmitido por las élites intelectuales mayas (sacerdotes-astrónomos, escribas), pero no pudo eliminar el conocimiento práctico distribuido en toda la comunidad. La resistencia del conocimiento sigue el mismo patrón que la resistencia política documentada en el Nodo 009: sobrevive en los espacios que el poder dominante no puede o no quiere controlar.",
-    "fuentes_verificadas": ["001-B (cerámica y arquitectura Xtampak)", "001-D (Estela 2)", "002-C (misiones y destrucción)", "009-E (meliponicultura)"]
+    "fuentes_verificadas": [
+      "001-B (cerámica y arquitectura Xtampak)",
+      "001-D (Estela 2)",
+      "002-C (misiones y destrucción)",
+      "009-E (meliponicultura)"
+    ]
   },
-
   "registros": [
-
     {
       "registro_id": "010-A",
       "subtitulo": "Astronomía y arquitectura en Los Chenes: los alineamientos de Santa Rosa Xtampak como conocimiento espacial",
@@ -34,9 +36,15 @@
       "tipo_dato": "Análisis arqueológico-astronómico",
       "notas_contradiccion": "Los alineamientos astronómicos en arquitectura maya son bien documentados en sitios como Chichén Itzá, Uxmal y Monte Albán. La evidencia específica de Xtampak requiere consultar los informes técnicos del proyecto arqueológico del INAH, que no han sido revisados directamente en este repositorio.",
       "conexion_hipotesis": "La arquitectura astronómica de Xtampak es evidencia de que Los Chenes producía conocimiento científico avanzado — no en el sentido colonial de 'salvajes asombrados por el sol' sino en el sentido de una tradición astronómica sofisticada que se codificó en los edificios para sobrevivir a la destrucción de los textos. Cuando Landa quemó los códices en 1562, los edificios de Xtampak ya tenían 700 años grabados en piedra.",
-      "tags": ["astronomía maya", "Xtampak", "alineamiento arquitectónico", "conocimiento codificado en piedra", "Clásico Tardío", "Los Chenes"]
+      "tags": [
+        "astronomía maya",
+        "Xtampak",
+        "alineamiento arquitectónico",
+        "conocimiento codificado en piedra",
+        "Clásico Tardío",
+        "Los Chenes"
+      ]
     },
-
     {
       "registro_id": "010-B",
       "subtitulo": "Escritura jeroglífica en Los Chenes: la Estela 2 de Santa Rosa Xtampak y el gobernante JOL",
@@ -58,9 +66,17 @@
       ],
       "notas_contradiccion": "La descifracion de la escritura maya (Maya: completo en ~80-85% según Coe, 1992) permite leer la Estela 2 de Xtampak — pero ese trabajo epigráfico específico no ha sido reportado en las publicaciones consultadas en este repositorio. Las preguntas abiertas sobre la Estela 2 (P001-04) siguen sin respuesta.",
       "conexion_hipotesis": "La escritura jeroglífica en Xtampak es el caso más directo de conocimiento maya producido en Hopelchén que la conquista española intentó borrar. La Estela 2 sobrevivió al auto de fe de Maní (1562) y a cinco siglos de colonización porque estaba tallada en piedra. El conocimiento que se grabó en texto portátil (códices) fue destruido; el que se grabó en piedra sobrevivió.",
-      "tags": ["escritura jeroglífica", "Estela 2", "Xtampak", "JOL", "epigrafía maya", "Los Chenes", "Clásico", "conocimiento maya"]
+      "tags": [
+        "escritura jeroglífica",
+        "Estela 2",
+        "Xtampak",
+        "JOL",
+        "epigrafía maya",
+        "Los Chenes",
+        "Clásico",
+        "conocimiento maya"
+      ]
     },
-
     {
       "registro_id": "010-C",
       "subtitulo": "El auto de fe de Maní (1562): la mayor destrucción documentada del conocimiento maya en la región",
@@ -82,9 +98,17 @@
       ],
       "notas_contradiccion": "El número exacto de códices destruidos en el auto de fe de Maní varía según la fuente (Landa dice 'gran número'; otras fuentes dan cifras específicas). Lo verificable: de todos los códices mayas del mundo prehispánico, solo cuatro sobrevivieron. La escala del conocimiento perdido es incalculable.",
       "conexion_hipotesis": "El auto de fe de Maní es el acto de destrucción del conocimiento más documentado del proyecto. No fue un acto de ignorancia: fue una decisión consciente del poder colonial de eliminar la tradición intelectual maya para hacer imposible la resistencia cultural organizada. La hipótesis central del proyecto tiene en este evento su evidencia más directa.",
-      "tags": ["auto de fe", "Maní", "1562", "Diego de Landa", "códices mayas", "destrucción conocimiento", "franciscanos", "colonialismo epistémico"]
+      "tags": [
+        "auto de fe",
+        "Maní",
+        "1562",
+        "Diego de Landa",
+        "códices mayas",
+        "destrucción conocimiento",
+        "franciscanos",
+        "colonialismo epistémico"
+      ]
     },
-
     {
       "registro_id": "010-D",
       "subtitulo": "El calendario maya en Los Chenes: el Tzolk'in y el Haab como sistemas de conocimiento agrícola y astronómico vivos",
@@ -99,9 +123,17 @@
       "tipo_dato": "Análisis contextual — inferencia razonada",
       "notas_contradiccion": "No hay evidencia directa del uso específico del calendario en Hopelchén en el período prehispánico (más allá de la Estela 2). La continuidad agrícola del conocimiento calendárico en la actualidad requeriría una investigación etnográfica directa con comunidades meliponicultoras y milperas de Los Chenes.",
       "conexion_hipotesis": "El ataque al calendario maya fue un ataque a la estructura cognitiva que organizaba la vida comunitaria. Al destruir el conocimiento calendárico formal, el sistema colonial no solo eliminó una 'superstición' — desarticuló el sistema de organización del conocimiento agrícola, médico y político que hacía funcionar a la comunidad de manera autónoma.",
-      "tags": ["calendario maya", "Tzolk'in", "Haab", "conocimiento agrícola", "astronomía práctica", "misiones franciscanas", "destrucción colonial", "continuidad agroecológica"]
+      "tags": [
+        "calendario maya",
+        "Tzolk'in",
+        "Haab",
+        "conocimiento agrícola",
+        "astronomía práctica",
+        "misiones franciscanas",
+        "destrucción colonial",
+        "continuidad agroecológica"
+      ]
     },
-
     {
       "registro_id": "010-E",
       "subtitulo": "La meliponicultura como biotecnología de 3,000 años: el conocimiento vivo más documentado de Los Chenes",
@@ -119,9 +151,18 @@
       "tipo_dato": "Histórico-científico verificado con continuidad documentada",
       "notas_contradiccion": "La continuidad de la meliponicultura no implica que el conocimiento sea idéntico al prehispánico — 500 años de contacto, sincretismo y adaptación han modificado las prácticas. Lo que sobrevivió es el núcleo técnico (manejo de colmenas, extracción de miel) y el conocimiento agroecológico del entorno. Los rituales específicos y el conocimiento calendárico asociado se perdieron parcialmente.",
       "conexion_hipotesis": "La meliponicultura es la prueba más sólida de que el conocimiento maya en Los Chenes no fue eliminado por el ciclo extractivo: fue reducido, presionado y atacado (por el glifosato desde 2007), pero no destruido. Leydy Pech usó este conocimiento vivo como argumento jurídico ante la SCJN — y ganó. Es el caso más claro de que el conocimiento ancestral puede ser herramienta política en el siglo XXI.",
-      "tags": ["meliponicultura", "Xunáan Kab", "Códice Madrid", "biotecnología maya", "3000 años", "continuidad", "conocimiento vivo", "ECOSUR", "Leydy Pech"]
+      "tags": [
+        "meliponicultura",
+        "Xunáan Kab",
+        "Códice Madrid",
+        "biotecnología maya",
+        "3000 años",
+        "continuidad",
+        "conocimiento vivo",
+        "ECOSUR",
+        "Leydy Pech"
+      ]
     },
-
     {
       "registro_id": "010-F",
       "subtitulo": "La lengua maya yucateca en Hopelchén: supervivencia lingüística como resistencia epistémica",
@@ -136,9 +177,16 @@
       "tipo_dato": "Estadístico con análisis lingüístico-cultural",
       "notas_contradiccion": "Los datos del INEGI miden 'hablantes de lengua indígena' pero no distinguen entre bilingüismo pleno, hablantes pasivos o nivel de retención del conocimiento cultural asociado. El número de hablantes puede ser mayor que el registrado por el efecto de estigma (hablar maya en contextos formales puede percibirse como marcador de discriminación). Inversamente, hablar maya no garantiza la transmisión del conocimiento cultural más profundo.",
       "conexion_hipotesis": "La supervivencia del maya yucateco en Hopelchén es el archivo vivo del conocimiento cultural maya que no fue codificado en documentos escritos. La lengua es el contenedor del 'tercer eje' de la hipótesis: el conocimiento que no se puede quemar, porque vive en la boca de las personas.",
-      "tags": ["lengua maya yucateca", "supervivencia lingüística", "INEGI", "conocimiento agroecológico", "archivo cognitivo", "resistencia epistémica", "Hopelchén"]
+      "tags": [
+        "lengua maya yucateca",
+        "supervivencia lingüística",
+        "INEGI",
+        "conocimiento agroecológico",
+        "archivo cognitivo",
+        "resistencia epistémica",
+        "Hopelchén"
+      ]
     },
-
     {
       "registro_id": "010-G",
       "subtitulo": "CRUCE TRANSVERSAL: El control del conocimiento maya en Los Chenes — destrucción, apropiación y supervivencia",
@@ -187,25 +235,166 @@
       "patron_global": "El conocimiento que sobrevivió es inversamente proporcional a su nivel de concentración en élites especializadas. El conocimiento más concentrado (escribas-astrónomos-sacerdotes) fue el más destruido. El conocimiento más distribuido (lengua, meliponicultura, botánica) fue el más resistente. La 'democratización del conocimiento' no fue un proyecto ilustrado colonial — fue la condición de supervivencia del conocimiento maya.",
       "notas_contradiccion": "La destrucción del conocimiento concentrado en élites especializadas dejó a las comunidades mayas sin sus sistemas más sofisticados de organización política y cosmológica. No se puede romanticizar la supervivencia del conocimiento distribuido sin reconocer lo que se perdió: la capacidad de producir textos escritos, de transmitir astronomía compleja a través de generaciones, de mantener una tradición epigráfica propia.",
       "conexion_hipotesis": "CONFIRMACIÓN DEL TERCER EJE: El control del conocimiento en Hopelchén siguió el mismo patrón que el control de la tierra y del cuerpo — fue selectivo, sostenido y consciente. Su objetivo no era eliminar todo el conocimiento maya sino eliminar el conocimiento que podía organizar la resistencia. En ese objetivo, el sistema colonial fue parcialmente exitoso: los mayas de Los Chenes no tienen hoy ni los códices ni los sacerdotes-astrónomos. Pero la Xunáan Kab sigue volando.",
-      "tags": ["control conocimiento", "tercer eje hipótesis", "destrucción epistémica", "supervivencia cultural", "distribución conocimiento", "síntesis transversal", "Los Chenes 500 años"]
+      "tags": [
+        "control conocimiento",
+        "tercer eje hipótesis",
+        "destrucción epistémica",
+        "supervivencia cultural",
+        "distribución conocimiento",
+        "síntesis transversal",
+        "Los Chenes 500 años"
+      ],
+      "fuente": {
+        "nombre": "leydy_pech_perfil.json — meliponicultura y Xunáan Kab; síntesis del proyecto Archivo Vivo",
+        "tipo": "Síntesis de fuentes sobre meliponicultura maya en Los Chenes",
+        "confiabilidad": "Alta"
+      }
+    },
+    {
+      "registro_id": "010-H",
+      "subtitulo": "Los Xtoles de Chan Cil: 3,000 años de música maya documentados en 1869, apropiados en 1939, publicados en 1941 — el conocimiento musical de Hopelchén en el mundo sin crédito",
+      "fecha_evento": "c. 1850 — 1941 (documentación) / 1939 (apropiación por Revueltas)",
+      "lugar": "Dzitbalchén, Hopelchén — Ciudad de México — Alemania",
+      "descripcion": "Los Xtoles son canciones de tradición oral de Los Chenes, compuestas o transmitidas por Cirilo 'Chan Cil' Baqueiro Preve de Dzitbalchén, Hopelchén. Representan uno de los conocimientos culturales vivos más importantes que el municipio produjo y que fue extractado sin retorno. La cadena de apropiación es documentable: (1) Chan Cil (c.1848-1910) compone/transmite Los Xtoles en Dzitbalchén. (2) Su sobrino Gerónimo Baqueiro Foster (1892-1967), musicólogo del Conservatorio Nacional, los transcribe en 1869 y los convierte en conocimiento académico. (3) En 1939, el compositor Silvestre Revueltas — considerado el compositor modernista mexicano más importante — los incorpora en su suite sinfónica *La noche de los mayas*. (4) En 1941, Gerónimo Baqueiro Foster los publica académicamente en el libro colectivo *Los Mayas Antiguos* (El Colegio de México). (5) *La noche de los mayas* fue reorquestada en 1961 por José Yves Limantour y se convirtió en una de las piezas musicales mexicanas más grabadas e interpretadas en el mundo. La música de Dzitbalchén/Hopelchén llegó a salas de concierto de todo el mundo — sin que ningún programa de sala dijera 'Los Chenes, Campeche'.",
+      "fuente": {
+        "nombre": "Baqueiro Foster, Gerónimo — 'Música maya'. En: *Los Mayas Antiguos: monografías de arqueología, etnografía y lingüística mayas*. El Colegio de México, 1941. Pp. 264-271.",
+        "tipo": "Publicación académica — fuente primaria de la documentación de Los Xtoles",
+        "archivo_local": "sources/los-mayas-antiguos-monografias-de-arqueologia-etnografia-y-linguistica-mayas-899329.pdf",
+        "confiabilidad": "Alta"
+      },
+      "fuente_secundaria": {
+        "nombre": "AV_PERSONAS.md — CHAN CIL, GERÓNIMO BAQUEIRO FOSTER, JULIÁN CARRILLO / AV_HILOS.md — HILO BERLÍN, HILO musical"
+      },
+      "tipo_dato": "Cultural-musicológico — verificado en publicación académica",
+      "personajes": [
+        {
+          "nombre": "Cirilo 'Chan Cil' Baqueiro Preve",
+          "rol": "Trovador y compositor de Los Chenes — fuente original de Los Xtoles",
+          "nacimiento": "Dzitbalchén, Hopelchén (fecha exacta pendiente)",
+          "muerte": "c. 1910"
+        },
+        {
+          "nombre": "Gerónimo Baqueiro Foster",
+          "rol": "Musicólogo; documentó Los Xtoles (1869); publicó académicamente (1941); primer académico que sistematizó la música maya",
+          "nacimiento": "Hopelchén, Campeche (c. 1892)",
+          "muerte": "Ciudad de México (c. 1967)",
+          "nota": "'Llegó con siete pesos' a la Ciudad de México. Publicó más de 6,000 artículos. Sin reconocimiento en Hopelchén."
+        },
+        {
+          "nombre": "Silvestre Revueltas",
+          "rol": "Compositor — incorporó Los Xtoles en *La noche de los mayas* (1939)",
+          "nota": "Considerado el compositor mexicano moderno más importante. Su uso de Los Xtoles no documentó el origen en Los Chenes."
+        }
+      ],
+      "notas_contradiccion": "La apropiación cultural de Los Xtoles no fue maliciosa — fue el resultado de cómo funciona la transmisión del conocimiento en un sistema donde las comunidades rurales mayas no tienen acceso a los mecanismos de protección intelectual. El conocimiento de Chan Cil entró al repertorio académico y clásico a través de intermediarios (Baqueiro Foster, Revueltas) sin que el municipio ni la comunidad de origen recibieran reconocimiento ni retribución.",
+      "conexion_hipotesis": "Los Xtoles son el caso más documentable de 'control del conocimiento' en el Nodo 010: el conocimiento musical maya de Los Chenes fue extraído, transformado, publicado y ejecutado en el mundo sin retribución al origen. Este patrón es idéntico al de la extracción de chicle (Nodo 004) y al de la expansión menonita (Nodo 005): el valor se genera en Hopelchén y se captura fuera de él.",
+      "tags": [
+        "Los Xtoles",
+        "Chan Cil",
+        "Baqueiro Foster",
+        "Revueltas",
+        "La noche de los mayas",
+        "música maya",
+        "apropiación cultural",
+        "Dzitbalchén",
+        "Colegio de México",
+        "conocimiento sin crédito",
+        "Hopelchén"
+      ]
+    },
+    {
+      "registro_id": "010-I",
+      "subtitulo": "Hernán Lara Zavala (1947–2025): el escritor de Ciudad de México que documentó Hopelchén en tres novelas — la memoria literaria como resistencia del conocimiento",
+      "fecha_evento": "1947 — 2025 / obras: 1981, 1990, 2008",
+      "lugar": "Ciudad de México — Hopelchén (veranos de infancia)",
+      "descripcion": "Hernán Lara Zavala (1947-2025) fue escritor, académico de la UNAM y primo en segundo grado de Efraín 'El Charras' Calderón Lara. Pasaba sus veranos en Hopelchén visitando a sus abuelos. Cuando nadie más documentó sistemáticamente la historia de Hopelchén en formato literario, Lara Zavala lo hizo en tres novelas que conforman un archivo paralelo al de los documentos históricos: (1) *De Zitilchén* (1981, FCE 2012) — Hopelchén como 'Zitilchén'; ficción que documenta la estructura social, los apellidos del poder, el reloj de la plaza, la violencia contra las mujeres, los jóvenes mayas sin futuro. La 'Carta al autor' en el libro: el cronista del pueblo le reclama haber distorsionado Zitilchén/Hopelchén. (2) *Charras* (1990, Alfaguara 2022) — novela testimonial sobre el asesinato de su primo El Charras, construida con artículos de prensa y entrevistas. (3) *Península, Península* (2008, Premio de la Real Academia Española 2010) — la Guerra de Castas narrada desde cuatro voces, con Hopelchén como escenario central. Lara Zavala murió el 15 de marzo de 2025 — tres días antes de que Daniela Naraai Caamal iniciara esta investigación.",
+      "fuente": {
+        "nombre": "Lara Zavala, Hernán. *De Zitilchén* (FCE, 2012), *Charras* (Alfaguara, 2022), *Península, Península* (2008). Archivos locales: sources/De Zitilchen - Hernan Lara Zavala.pdf, sources/Charras - Hernan Lara Zavala.pdf, sources/Peninsula Peninsula - Hernan Lara Zavala.pdf",
+        "tipo": "Fuentes literarias testimoniales — archivos locales verificados",
+        "archivos_locales": [
+          "sources/De Zitilchen - Hernan Lara Zavala.pdf",
+          "sources/Charras - Hernan Lara Zavala.pdf",
+          "sources/Peninsula Peninsula - Hernan Lara Zavala.pdf"
+        ],
+        "confiabilidad": "Alta como testimonios literarios; Media para datos históricos específicos"
+      },
+      "tipo_dato": "Literario-testimonial — archivos locales disponibles",
+      "personajes": [
+        {
+          "nombre": "Hernán Lara Zavala",
+          "nacimiento": "1947, Ciudad de México",
+          "muerte": "15 marzo 2025, Ciudad de México",
+          "obras_hopelchen": [
+            "De Zitilchén (1981)",
+            "Charras (1990)",
+            "Península, Península (2008, Premio RAE 2010)"
+          ],
+          "conexion_familiar": "Primo en segundo grado de Efraín 'El Charras' Calderón Lara. Padre: Hernán Lara y Lara, de Hopelchén.",
+          "nota_temporal": "Murió tres días antes de que la autora de esta investigación, Daniela Naraai Caamal, iniciara el proyecto."
+        }
+      ],
+      "notas_contradiccion": "Las novelas de Lara Zavala son ficción — tienen personajes reales bajo nombres modificados (Zitilchén = Hopelchén, Quintín Silvestre = hacendado ficticio, Carpizu = presidente ficticio). Esto las hace inutilizables como fuentes históricas directas pero extraordinariamente útiles como documentos culturales que capturan la estructura social del municipio con una precisión que ningún archivo gubernamental tiene. El cronista del pueblo que le reclama en 'Carta al autor' tiene razón: la ficción distorsiona. Y también tiene razón Lara Zavala: la ficción dice lo que el archivo no dice.",
+      "conexion_hipotesis": "Las tres novelas de Lara Zavala sobre Hopelchén son el único archivo literario sistemático del municipio. Que ese archivo exista en Ciudad de México — no en Hopelchén — replica el patrón del repositorio: el conocimiento sobre Hopelchén se produce y guarda fuera de Hopelchén. Las bibliotecas de Hopelchén no tienen estas novelas. La novela que documenta el asesinato de El Charras fue publicada por Alfaguara en 2022 — 48 años después del crimen — y aún no tiene distribución local en el municipio.",
+      "tags": [
+        "Hernán Lara Zavala",
+        "De Zitilchén",
+        "Charras",
+        "Península Península",
+        "memoria literaria",
+        "Hopelchén",
+        "ficción testimonial",
+        "Premio RAE",
+        "2025",
+        "conocimiento fuera de Hopelchén"
+      ]
     }
-
   ],
-
   "linea_del_tiempo_nodo": [
-    {"año": "c.300 a.C.", "evento": "Inicio de la tradición astronómica en Los Chenes — evidencia cerámica en Xtampak"},
-    {"año": "c.600-900 d.C.", "evento": "Clásico Tardío — producción de escritura jeroglífica en Xtampak (Estela 2); alineamientos arquitectónicos astronómicos"},
-    {"año": "1541-1562", "evento": "Conquista y misiones franciscanas — primer ciclo de destrucción del conocimiento maya en Los Chenes"},
-    {"año": "12 julio 1562", "evento": "Auto de fe de Maní — Diego de Landa quema 27 códices mayas y 5,000 ídolos"},
-    {"año": "1580-1620", "evento": "Misiones franciscanas en Los Chenes — destrucción de 'ídolos' y prohibición de rituales calendáricos en Hopelchén y región"},
-    {"año": "c.1700-1850", "evento": "Periodo de sincretismo — el conocimiento maya sobrevive mezclado con catolicismo popular; la meliponicultura continúa sin interrupción"},
-    {"año": "1895", "evento": "Sistema escolar porfiriano — llega a Los Chenes; enseña historia desde la conquista; el maya en las aulas se suprime progresivamente"},
-    {"año": "c.1930-1940", "evento": "SEP posrevolucionaria — proyecto de 'mexicanización' intenta sustituir el maya yucateco por el español en las comunidades de Los Chenes"},
-    {"año": "2007+", "evento": "Glifosato de soya transgénica ataca colmenas — el conocimiento meliponícola de 3,000 años bajo amenaza directa"},
-    {"año": "2015", "evento": "SCJN falla en favor de las comunidades mayas — el conocimiento meliponícola es reconocido jurídicamente como argumento válido"},
-    {"año": "2020", "evento": "Goldman Prize a Leydy Pech — reconocimiento internacional del conocimiento meliponícola como biotecnología de 3,000 años"}
+    {
+      "año": "c.300 a.C.",
+      "evento": "Inicio de la tradición astronómica en Los Chenes — evidencia cerámica en Xtampak"
+    },
+    {
+      "año": "c.600-900 d.C.",
+      "evento": "Clásico Tardío — producción de escritura jeroglífica en Xtampak (Estela 2); alineamientos arquitectónicos astronómicos"
+    },
+    {
+      "año": "1541-1562",
+      "evento": "Conquista y misiones franciscanas — primer ciclo de destrucción del conocimiento maya en Los Chenes"
+    },
+    {
+      "año": "12 julio 1562",
+      "evento": "Auto de fe de Maní — Diego de Landa quema 27 códices mayas y 5,000 ídolos"
+    },
+    {
+      "año": "1580-1620",
+      "evento": "Misiones franciscanas en Los Chenes — destrucción de 'ídolos' y prohibición de rituales calendáricos en Hopelchén y región"
+    },
+    {
+      "año": "c.1700-1850",
+      "evento": "Periodo de sincretismo — el conocimiento maya sobrevive mezclado con catolicismo popular; la meliponicultura continúa sin interrupción"
+    },
+    {
+      "año": "1895",
+      "evento": "Sistema escolar porfiriano — llega a Los Chenes; enseña historia desde la conquista; el maya en las aulas se suprime progresivamente"
+    },
+    {
+      "año": "c.1930-1940",
+      "evento": "SEP posrevolucionaria — proyecto de 'mexicanización' intenta sustituir el maya yucateco por el español en las comunidades de Los Chenes"
+    },
+    {
+      "año": "2007+",
+      "evento": "Glifosato de soya transgénica ataca colmenas — el conocimiento meliponícola de 3,000 años bajo amenaza directa"
+    },
+    {
+      "año": "2015",
+      "evento": "SCJN falla en favor de las comunidades mayas — el conocimiento meliponícola es reconocido jurídicamente como argumento válido"
+    },
+    {
+      "año": "2020",
+      "evento": "Goldman Prize a Leydy Pech — reconocimiento internacional del conocimiento meliponícola como biotecnología de 3,000 años"
+    }
   ],
-
   "fuentes_pendientes_consultar": [
     "Códice Madrid — sección completa de meliponicultura (Ah Muzen Cab)",
     "Landa, Diego de — Relación de las cosas de Yucatán (c.1566): descripción de los rituales destruidos en 1562",
@@ -214,7 +403,6 @@
     "ECOSUR — investigaciones sobre meliponicultura maya en Los Chenes y conocimiento agroecológico asociado",
     "Álvarez Torres, Ignacio — investigaciones etnobotánicas en comunidades de Los Chenes (si existen)"
   ],
-
   "metadatos": {
     "nodo_anterior": "NODO 009 — Resistencia y Agencia Maya (1669–2026)",
     "relacion_con_nodos": "Cruza con 001-B, 001-C, 001-D, 002-C, 009-E",

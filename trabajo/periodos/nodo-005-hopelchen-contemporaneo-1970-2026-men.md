@@ -134,3 +134,25 @@ _Origen: Análisis cruzado — Nodos 001-005_
 
 ---
 
+
+### Bloque 005-G — Meliponicultura de Xunáan Kab en Hopelchén: 3,000 años de tradición, 2
+
+| Campo | Valor |
+|---|---|
+| **Tipo** | Económico-ambiental — datos institucionales verificados |
+| **Fecha / Período** | Prehispánico — 2026 (continuidad documentada) |
+| **Lugar** | Municipio de Hopelchén, Campeche — Península de Yucatán |
+| **Personajes** | — |
+| **Cargos** | — |
+| **Fuente(s)** | leydy_pech_perfil.json — 'Contexto Hopelchén: importancia de la apicultura'. Proyecto Hopelchén, 2026. |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_005_Contemporaneo.json` |
+
+> La Melipona beecheii — llamada Xunáan Kab ('la dama de la miel' en maya yucateco) — es una abeja sin aguijón domesticada por los mayas de la Península de Yucatán durante al menos 3,000 años. Es endémica de la Península y construye sus colmenas en troncos huecos. La meliponicultura es la práctica agrícola con mayor continuidad temporal documentable en el municipio de Hopelchén: aparece en el Códice Madrid (códice maya del período Posclásico) y sobrevive como práctica viva hasta 2026. Datos de alcance regional disponibles: Hopelchén es el primer productor de miel del estado de Campeche; el 40% de la producción nacional de miel proviene de la Península de Yucatán; la apicultura sustenta a 25,000 familias en Campeche. La amenaza directa documentada: el glifosato y el fipronil — agroquímicos usados en los campos de soya menonita — son letales para las abejas, incluyendo la Xunáan Kab. La llegada del glifosato a Hopelchén a partir de 2004-2005 (inicio de la siembra menonita de soya) coincide con la contracción de las colmenas de meliponicultura tradicional. La UNAM confirmó presencia de polen de soya GM en el suministro local de miel. El PNUD y la UAC (EPOMEX) documentaron rastros de glifosato en el agua de Hopelchén y en la orina de sus residentes.
+
+_Origen: leydy_pech_perfil.json — 'Contexto Hopelchén: importancia de la apicultura'. Proyecto Hopelchén, 2026._
+**⚠ Nota/contradicción:** Los datos disponibles sobre meliponicultura en Hopelchén son regionales (Campeche, Península) pero no locales específicos por municipio. El número de colmenas de Xunáan Kab activas en Hopelchén antes y después de la expansión menonita (2004-2020) es el dato faltante más crítico para cuantificar el d
+**→ Conexión hipótesis:** La Xunáan Kab es el símbolo de continuidad más poderoso del proyecto: 3,000 años ininterrumpidos de conocimiento agrícola maya en Hopelchén, ahora amenazado por la agroindustria transnacional. El glif
+**Etiquetas:** Xunáan Kab, Melipona beecheii, meliponicultura, 3000 años, 25000 familias, glifosato, soya transgénica, abejas, continuidad cultural, Hopelchén, Goldman Prize
+
+---
+

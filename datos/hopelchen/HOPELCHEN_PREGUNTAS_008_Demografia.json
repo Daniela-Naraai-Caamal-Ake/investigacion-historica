@@ -5,9 +5,7 @@
   "nodo_origen": "008 — Demografía e Historia de la Población en Hopelchén",
   "fecha_generacion": "2026-04-08",
   "estado": "Activo — pendiente de investigación",
-
   "preguntas_urgentes": [
-
     {
       "pregunta_id": "P008-01",
       "pregunta": "¿Cuál fue la población del municipio de Hopelchén en los censos de 1900, 1910, 1921, 1930, 1940, 1950, 1960, 1970, 1980 y 1990? ¿Qué curva demográfica describe esos 90 años?",
@@ -22,7 +20,6 @@
       "prioridad": "URGENTE",
       "conexion_hipotesis": "Sin los datos censales del siglo XX no es posible construir la curva demográfica completa de Hopelchén. Los picos y valles de esa curva son la huella numérica de los ciclos extractivos. Si la población cayó durante la Guerra de Castas y subió durante el auge chiclero, eso confirma estructuralmente la relación entre extracción y demografía."
     },
-
     {
       "pregunta_id": "P008-02",
       "pregunta": "¿Qué datos nominales contiene el Censo de 1930 de Hopelchén disponible en FamilySearch? ¿Aparecen apellidos de contratistas chicleros, comerciantes o jefes políticos?",
@@ -35,7 +32,6 @@
       "prioridad": "Alta",
       "conexion_hipotesis": "Los apellidos en el Censo de 1930 de Hopelchén pueden conectar directamente con los apellidos de poder del Nodo 006 (presidentes municipales 1959-2026) y con los contratistas chicleros del Nodo 004. Si los mismos apellidos aparecen como 'propietarios' o 'comerciantes' en 1930 y como alcaldes en 1960-1970, la cadena de transmisión del poder quedaría documentada numéricamente."
     },
-
     {
       "pregunta_id": "P008-03",
       "pregunta": "¿Cómo ha evolucionado el porcentaje de hablantes de lengua maya en Hopelchén entre 1960 y 2020? ¿Hay datos censales que permitan construir la curva de pérdida lingüística?",
@@ -50,7 +46,6 @@
       "prioridad": "Alta",
       "conexion_hipotesis": "La pérdida lingüística acelerada en Hopelchén es la evidencia más directa del proceso de destrucción cultural documentado desde la quema de los códices en 1562 (Nodo 002). Si la pérdida se aceleró con la llegada de menonitas (1987) y la expansión agroindustrial (2007), entonces hay causalidad directa entre el ciclo extractivo contemporáneo y la destrucción de la lengua."
     },
-
     {
       "pregunta_id": "P008-04",
       "pregunta": "¿Cuál fue el impacto demográfico específico de la Guerra de Castas en Hopelchén? ¿Cuántas personas murieron, huyeron o desaparecieron entre 1847 y 1880 en el distrito de Los Chenes?",
@@ -64,7 +59,6 @@
       "prioridad": "Alta",
       "conexion_hipotesis": "El impacto demográfico de la Guerra de Castas en Hopelchén es el momento más documentable del patrón extractivo como catástrofe humana. No es abstracto — son personas concretas muertas o desplazadas como consecuencia directa del despojo de tierras que detonó la guerra (Nodo 003: 45% de las 800,000 ha enajenadas correspondían a la región de Hopelchén)."
     },
-
     {
       "pregunta_id": "P008-05",
       "pregunta": "¿Cuál es la tasa de emigración de jóvenes desde Hopelchén hacia las ciudades (Campeche, Mérida, Ciudad del México)? ¿Qué proporción de la población joven abandona el municipio?",
@@ -78,7 +72,6 @@
       "prioridad": "Media-Alta",
       "conexion_hipotesis": "Si la emigración de jóvenes es masiva, Hopelchén no solo pierde su ecosistema natural — pierde su capital humano. El mismo patrón que Schüren documentó para el período post-chicle (intelectuales como Gerónimo Baqueiro Foster y Humberto Lara que se fueron a Ciudad de México y Mérida) continúa hoy con los jóvenes cheneros."
     },
-
     {
       "pregunta_id": "P008-06",
       "pregunta": "¿Cuántos menonitas viven actualmente en el municipio de Hopelchén? ¿En qué colonias? ¿Qué porcentaje representan de la población total del municipio?",
@@ -90,9 +83,11 @@
         "INEGI — Censo 2020: localidades con apellidos alemanes o categorías de comunidades menonitas"
       ],
       "prioridad": "Media-Alta",
-      "conexion_hipotesis": "Si los menonitas representan el 12-19% de la población del municipio, son ya una minoría demográfica significativa que controla una proporción desproporcionada de la tierra y los recursos. La redistribución demográfica del municipio — de mayoría maya a mezcla maya-menonita — es la dimensión poblacional del despojo territorial."
+      "conexion_hipotesis": "Si los menonitas representan el 12-19% de la población del municipio, son ya una minoría demográfica significativa que controla una proporción desproporcionada de la tierra y los recursos. La redistribución demográfica del municipio — de mayoría maya a mezcla maya-menonita — es la dimensión poblacional del despojo territorial.",
+      "estado": "RESPONDIDA PARCIALMENTE",
+      "registro_respuesta": "004-I",
+      "nota_respuesta": "~8,000 menonitas en Hopelchén en 2021 en 11 colonias (Nuevo Progreso, Santa Fe, Santa Rosa, Chavi, Trinidad, Nuevo Durango, Yalnón, Temporal, Valle Nuevo, Las Flores, Nueva Esperanza). ~21% de la población total del municipio. Fuente: PorEsto, Página 66 — citados en menonitas_hopelchen.json."
     },
-
     {
       "pregunta_id": "P008-07",
       "pregunta": "¿Qué dice el escritor en lengua maya Romualdo Eleazar Méndez Huchín sobre la pérdida cultural en Hopelchén? ¿Hay otras obras literarias o testimonios en maya de autores cheneros?",
@@ -107,7 +102,6 @@
       "prioridad": "Media",
       "conexion_hipotesis": "Un escritor en lengua maya de Hopelchén activo en el siglo XXI es la encarnación más directa de la resistencia cultural documentada desde el Nodo 001. La lengua que el poder colonial intentó destruir desde 1562 (auto de fe de Maní) sigue produciendo literatura en 2023."
     },
-
     {
       "pregunta_id": "P008-08",
       "pregunta": "¿Cuántas comunidades del municipio de Hopelchén tienen más del 90% de población indígena como Cancabchén (91%)? ¿Son las más pobres y las más alejadas de la cabecera?",
@@ -121,9 +115,7 @@
       "prioridad": "Media",
       "conexion_hipotesis": "Si las comunidades más indígenas son las más pobres y más alejadas del poder, la estructura espacial del municipio replica en miniatura la estructura histórica del despojo documentada en los Nodos 001-007: los mayas, en los márgenes; el poder, en el centro."
     }
-
   ],
-
   "hallazgos_para_siguiente_nodo": [
     {
       "hallazgo": "El 30.5% de hablantes de lengua maya en 2020 vs. 46.85% en 2010 — una pérdida de 16 puntos en 10 años — es la evidencia más alarmante de destrucción cultural acelerada en Hopelchén. Al ritmo actual, la lengua maya podría caer por debajo del umbral de transmisión generacional en 20-30 años.",
@@ -141,9 +133,7 @@
       "accion_siguiente": "Verificar la extensión y uso actual del área del antiguo campo de aviación de Hopelchén. ¿Hay casas? ¿El panteón ocupa exactamente ese terreno? Esto puede conectar el ciclo chiclero con la geografía urbana actual de la cabecera."
     }
   ],
-
   "siguiente_nodo_sugerido": "NODO 009 — Cultura, Lengua Maya y Resistencia Simbólica en Hopelchén: Lo que Sobrevive, lo que se Pierde y lo que se Recupera",
-
   "metadatos": {
     "generado_desde": "HOPELCHEN_NODO_008_Demografia.json",
     "fecha": "2026-04-08",

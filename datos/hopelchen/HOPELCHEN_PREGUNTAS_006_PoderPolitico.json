@@ -6,9 +6,7 @@
   "fecha_generacion": "2026-04-13",
   "nota_consolidacion": "Archivo consolidado 2026-04-13: fusión de PREGUNTAS_006_Poder_Politico.json (2026-04-03) y PREGUNTAS_006_PoderPolitico.json (2026-04-08). Los IDs P006-01..P006-08 son los originales referenciados en datos/VACIOS.md y deben preservarse. P006-09..P006-11 son preguntas nuevas del segundo archivo.",
   "estado": "Activo — pendiente de investigación",
-
   "preguntas": [
-
     {
       "pregunta_id": "P006-01",
       "pregunta": "¿Existe conexión genealógica entre Hiram Aranda Calderón (alcalde 2024-2027), Mario Heberto Aranda González (cronista 1985) y la familia Baranda que controló Campeche desde la Colonia hasta el Porfiriato?",
@@ -24,7 +22,6 @@
       "conexion_hipotesis": "Confirmar o descartar la continuidad genealógica del apellido Aranda/Baranda en el poder de Hopelchén desde el Porfiriato hasta 2024.",
       "estado": "PENDIENTE"
     },
-
     {
       "pregunta_id": "P006-02",
       "pregunta": "¿Quiénes fueron los presidentes municipales de Hopelchén entre 1970 y 2018? ¿Sus nombres, apellidos, partidos, períodos y relación con la llegada de menonitas (1987) y la reforma al Art. 27 (1992)?",
@@ -40,7 +37,6 @@
       "conexion_hipotesis": "El presidente municipal de 1987-1992 es el eslabón político más importante faltante en la cadena del despojo contemporáneo de Hopelchén.",
       "estado": "EN PROCESO"
     },
-
     {
       "pregunta_id": "P006-03",
       "pregunta": "¿Cuál fue el resultado de la investigación de la Fiscalía General del Estado de Campeche sobre el presunto secuestro en el domicilio de Emilio Lara Calderón (7 enero 2023)? ¿Hubo detenidos, víctimas identificadas o archivamiento?",
@@ -55,7 +51,6 @@
       "conexion_hipotesis": "Si la investigación fue archivada sin consecuencias, confirma que el sistema judicial campechano opera como herramienta política más que como garantía de justicia.",
       "estado": "PENDIENTE"
     },
-
     {
       "pregunta_id": "P006-04",
       "pregunta": "¿Cuál es el estado actual de la denuncia de Edgar Manuel Poot Yeh contra Hiram Aranda Calderón y Herminio May Dzib por abuso de poder, manipulación del sistema catastral y falsificación de documentos (noviembre 2025)?",
@@ -70,7 +65,6 @@
       "conexion_hipotesis": "Si se confirma la manipulación catastral, conecta el poder político municipal directamente con el despojo territorial de tierras ejidales.",
       "estado": "PENDIENTE"
     },
-
     {
       "pregunta_id": "P006-05",
       "pregunta": "¿Quién es la persona que recibe directamente los fondos del FAIS para obra pública en Hopelchén, saltando al municipio? ¿A qué red política está vinculada?",
@@ -85,7 +79,6 @@
       "conexion_hipotesis": "Si los recursos FAIS van a una red Morena en un municipio PRI, revela que el conflicto político entre élites nacionales tiene consecuencias directas en el territorio de Hopelchén.",
       "estado": "PENDIENTE"
     },
-
     {
       "pregunta_id": "P006-06",
       "pregunta": "¿Qué vínculos existen entre los presidentes municipales de Hopelchén (2018-2026) y los menonitas, las empresas de soya o los contratistas agroindustriales que operan en el municipio?",
@@ -99,9 +92,9 @@
       ],
       "prioridad": "Alta — central para la hipótesis",
       "conexion_hipotesis": "Si los presidentes municipales facilitaron el despojo, se cierra el círculo del ciclo extractivo: poder político local → complicidad con capital externo → despojo de tierras mayas.",
-      "estado": "RESPONDIDA PARCIALMENTE — registro 006-G documenta estructuralmente que la hegemonía PRI 1959-2021 coincide con la llegada de menonitas (1987) y reforma Art. 27 (1992). Complicidad activa no documentada con fuente primaria."
+      "estado": "RESPONDIDA PARCIALMENTE — registro 006-G documenta estructuralmente que la hegemonía PRI 1959-2021 coincide con la llegada de menonitas (1987) y reforma Art. 27 (1992). Complicidad activa no documentada con fuente primaria.",
+      "registro_respuesta": "006-G"
     },
-
     {
       "pregunta_id": "P006-07",
       "pregunta": "¿Existe continuidad genealógica entre Pedro Advíncula Lara (jefe político-hacendado porfiriano de Los Chenes) y Emilio Lara Calderón (presidente municipal 2021-2024, diputado federal 2024-2027)?",
@@ -115,9 +108,9 @@
       ],
       "prioridad": "Media-Alta",
       "conexion_hipotesis": "Si hay continuidad genealógica Advíncula Lara → Emilio Lara, la misma familia controlará Hopelchén como hacendados-jefes políticos porfirianos Y como diputados federales del siglo XXI.",
-      "estado": "RESPONDIDA PARCIALMENTE — legisladores_hopelchen_1861-2003.json: el apellido Lara aparece en el poder desde 1862 hasta 2024. Confirmación genealógica directa requiere Registro Civil."
+      "estado": "RESPONDIDA PARCIALMENTE — legisladores_hopelchen_1861-2003.json: el apellido Lara aparece en el poder desde 1862 hasta 2024. Confirmación genealógica directa requiere Registro Civil.",
+      "registro_respuesta": "006-B"
     },
-
     {
       "pregunta_id": "P006-08",
       "pregunta": "¿Quién fue el presidente municipal de Hopelchén durante 1987-1992 — período en que llegaron los primeros menonitas y se reformó el Artículo 27 constitucional?",
@@ -130,9 +123,9 @@
       ],
       "prioridad": "URGENTE — Alta",
       "conexion_hipotesis": "Identificar a este funcionario cierra el eslabón político que conecta el inicio del despojo contemporáneo (llegada de menonitas + reforma ejidal) con el sistema de poder local de Hopelchén.",
-      "estado": "RESPONDIDA PARCIALMENTE — registro 006-A: Enrique González Vargas ('Don Lico') en funciones en 1984; Julio Alberto Sansores Sansores es probable ~1992-1995. El presidente de 1987-1990 es González Vargas o un sucesor no identificado. Requiere IEEC para nombre exacto."
+      "estado": "RESPONDIDA PARCIALMENTE — registro 006-A: Enrique González Vargas ('Don Lico') en funciones en 1984; Julio Alberto Sansores Sansores es probable ~1992-1995. El presidente de 1987-1990 es González Vargas o un sucesor no identificado. Requiere IEEC para nombre exacto.",
+      "registro_respuesta": "006-A"
     },
-
     {
       "pregunta_id": "P006-09",
       "pregunta": "¿Existe parentesco entre Julio Alberto Sansores Sansores (ex-presidente municipal de Hopelchén, mencionado en acta IEEC 2006) y Layda Sansores San Román (gobernadora de Campeche 2021-2027)?",
@@ -148,7 +141,6 @@
       "conexion_hipotesis": "Si se confirma parentesco, el ciclo de élites que controlan Hopelchén no se rompe con el cambio de partido — simplemente una rama familiar distinta (Sansores-Morena) reemplaza a otra (Lara-PRI) en el control del poder sobre el municipio.",
       "estado": "PENDIENTE"
     },
-
     {
       "pregunta_id": "P006-10",
       "pregunta": "¿Qué cambios de uso de suelo autorizó cada administración municipal de Hopelchén entre 1987 y 2024? ¿En qué períodos se otorgaron permisos que permitieron la deforestación menonita y la siembra de soya transgénica?",
@@ -164,7 +156,6 @@
       "conexion_hipotesis": "Si los permisos de deforestación y expansión agroindustrial se otorgaron sistemáticamente durante las administraciones priistas de Hopelchén, el PRI local no es solo el partido que gobernó el municipio durante 62 años — es el habilitador político directo del ciclo extractivo contemporáneo.",
       "estado": "PENDIENTE"
     },
-
     {
       "pregunta_id": "P006-11",
       "pregunta": "¿Quién es Efraín Calderón Lara 'Charras'? ¿Cuándo y por qué fue asesinado? ¿Cuál era su relación exacta con los linajes Calderón y Lara de Hopelchén?",
@@ -177,11 +168,11 @@
       ],
       "prioridad": "Alta",
       "conexion_hipotesis": "El asesinato de Efraín Calderón Lara demuestra que la élite chenera no es un bloque homogéneo — produce tanto figuras de poder priista como disidentes asesinados. La historia del poder en Hopelchén no es solo la historia de sus presidentes municipales sino también la de quienes dentro de esas mismas familias se opusieron al sistema.",
-      "estado": "PENDIENTE"
+      "estado": "RESPONDIDA PARCIALMENTE",
+      "registro_respuesta": "006-H",
+      "nota_respuesta": "Registro 006-H documenta: nacimiento 13 nov 1947 Hopelchén, asesinato 14 feb 1974, 9 sindicatos fundados, asesinos identificados (Coronel Gamboa Gamboa + 3), todos liberados. Fuente: Charras de Hernán Lara Zavala + PorEsto 2019."
     }
-
   ],
-
   "hallazgos_para_iteracion_profunda": [
     {
       "hallazgo": "El apellido LARA aparece en posiciones de poder en Hopelchén desde el Porfiriato (~1900) hasta 2024, abarcando al menos 124 años documentados. Fuente periodística (PorEsto 2019) documenta explícitamente que Lara, Calderón, Solís, Baqueiro y Barrera son los linajes familiares 'totalmente identificados con Hopelchén'.",
@@ -199,7 +190,6 @@
       "accion_siguiente": "Investigar los resultados electorales específicos de Hopelchén en 2021 y 2024: ¿quién votó por el PRI y por qué?"
     }
   ],
-
   "temas_pendientes_sin_datos": [
     {
       "tema": "Lista completa de presidentes municipales de Hopelchén 1915-1998",
@@ -214,7 +204,6 @@
       "por_que_importa": "¿Qué hizo el ayuntamiento de Hopelchén antes, durante y después de la batalla legal ganada por Leydy Pech?"
     }
   ],
-
   "hallazgo_estrategico_para_proximas_iteraciones": {
     "fuente_clave": "Periódico Oficial del Estado de Campeche",
     "url": "periodicooficial.campeche.gob.mx",
@@ -225,7 +214,6 @@
       "Años 2007-2012: autorizaciones de cambio de uso de suelo y contratos ejidales — desbloquea P006-10"
     ]
   },
-
   "metadatos": {
     "generado_desde": "HOPELCHEN_NODO_006_PoderPolitico_Local.json",
     "fecha": "2026-04-13",

@@ -3,7 +3,7 @@
 > Proyecto: *Dos Mil Años en Silencio* — Hopelchén: 2000 años de historia  
 > Autora: Daniela Naraai Caamal  
 > Fuente: Consolidado de `datos/hopelchen/HOPELCHEN_PREGUNTAS_*.json`  
-> Última actualización: 2026-04-13  
+> Última actualización: 2026-04-14  
 > ⚙ Generado automáticamente por `tools/actualizar_vacios.py`
 
 
@@ -18,9 +18,9 @@ Estado posible: `PENDIENTE` · `EN PROCESO` · `RESPONDIDA PARCIALMENTE` · `RES
 
 | Estado | Cantidad |
 |--------|----------|
-| 🔴 PENDIENTE | 58 |
+| 🔴 PENDIENTE | 52 |
 | 🟡 EN PROCESO | 1 |
-| 🟠 RESPONDIDA PARCIALMENTE | 3 |
+| 🟠 RESPONDIDA PARCIALMENTE | 9 |
 | 🟢 RESPONDIDA | 0 |
 | **TOTAL** | **62** |
 
@@ -122,7 +122,7 @@ Estas preguntas son cuellos de botella: sin ellas, capítulos enteros quedan inc
 | **P006-04** | ¿Cuál es el estado actual de la denuncia de Edgar Manuel Poot Yeh contra Hiram Aranda Calderón y Herminio M… | 006 | Fiscalía Anticorrupción del Estado de Campeche; Tribuna Campeche — seguimiento desde noviembre 2025 | 🔴 PENDIENTE |
 | **P006-05** | ¿Quién es la persona que recibe directamente los fondos del FAIS para obra pública en Hopelchén, saltando a… | 006 | Congreso del Estado de Campeche — actas de sesión diciembre 2025; SHCP — padrón de beneficiarios del FAIS en Hopelchén (datos.gob.mx) | 🔴 PENDIENTE |
 | **P006-06** | ¿Qué vínculos existen entre los presidentes municipales de Hopelchén (2018-2026) y los menonitas, las empre… | 006 | RAN — contratos de arrendamiento ejidal en Hopelchén 2010-2026; Aserca — padrón de subsidios agrícolas en Hopelchén | 🟠 RESPONDIDA PARCIALMENTE — registro 006-G documenta estructuralmente que la hegemonía PRI 1959-2021 coincide con la ll… |
-| **P006-11** | ¿Quién es Efraín Calderón Lara 'Charras'? ¿Cuándo y por qué fue asesinado? ¿Cuál era su relación exacta con… | 006 | PorEsto — 'Recuerdos de Efraín Calderón Lara Charras' (Feb 2019): https://www.poresto.com/yucatan/2019/2/11/recuerdos-de-efrain-calderon-lara-charras.html; Yucatán Cultura — 'Efraín Calderón Lara Charras: ¡Asesinado por la reacción!' (Feb 2021): https://yucatancultura.com/asesinado-efrain-calderon-charras/ | 🔴 PENDIENTE |
+| **P006-11** | ¿Quién es Efraín Calderón Lara 'Charras'? ¿Cuándo y por qué fue asesinado? ¿Cuál era su relación exacta con… | 006 | PorEsto — 'Recuerdos de Efraín Calderón Lara Charras' (Feb 2019): https://www.poresto.com/yucatan/2019/2/11/recuerdos-de-efrain-calderon-lara-charras.html; Yucatán Cultura — 'Efraín Calderón Lara Charras: ¡Asesinado por la reacción!' (Feb 2021): https://yucatancultura.com/asesinado-efrain-calderon-charras/ | 🟠 RESPONDIDA PARCIALMENTE |
 
 
 ### Nodo 007 — Rutas, Territorio y Control del Espacio en Hopelchén (1517–2
@@ -148,8 +148,8 @@ Estas preguntas son cuellos de botella: sin ellas, capítulos enteros quedan inc
 | ID | Pregunta | Nodo | Dónde buscar | Estado |
 |----|----------|------|--------------|--------|
 | **P009-01** | ¿Quiénes eran los bataboob de Hopelchén en 1669? ¿Sus nombres, linajes y relación con las comunidades que g… | 009 | Cogolludo, Diego López de — Historia de Yucatán (1688): buscar referencias a 'bataboob', 'Los Chenes', 'Hopelchén'; Archivo General de Indias (PARES) — Sección Audiencia de México, siglo XVII | 🔴 PENDIENTE |
-| **P009-03** | ¿Cuándo exactamente comenzó la organización Maya Ka'an? ¿Qué comunidades la integran? ¿Cómo se distribuye e… | 009 | Sociedad de Productores de Miel Maya Ka'an — documentos de fundación y estatutos; Goldman Prize dossier 2020 — ficha técnica de la candidatura de Leydy Pech | 🔴 PENDIENTE |
-| **P009-04** | ¿Qué ocurrió después de la victoria de Leydy Pech en 2017? ¿Las comunidades de Hopelchén recuperaron tierra… | 009 | AIDA — actualizaciones del caso Hopelchén post-2017; Semarnat — informes de la mesa permanente de diálogo (2021-2026) | 🔴 PENDIENTE |
+| **P009-03** | ¿Cuándo exactamente comenzó la organización Maya Ka'an? ¿Qué comunidades la integran? ¿Cómo se distribuye e… | 009 | Sociedad de Productores de Miel Maya Ka'an — documentos de fundación y estatutos; Goldman Prize dossier 2020 — ficha técnica de la candidatura de Leydy Pech | 🟠 RESPONDIDA PARCIALMENTE |
+| **P009-04** | ¿Qué ocurrió después de la victoria de Leydy Pech en 2017? ¿Las comunidades de Hopelchén recuperaron tierra… | 009 | AIDA — actualizaciones del caso Hopelchén post-2017; Semarnat — informes de la mesa permanente de diálogo (2021-2026) | 🟠 RESPONDIDA PARCIALMENTE |
 
 
 ---
@@ -198,7 +198,7 @@ Estas preguntas son cuellos de botella: sin ellas, capítulos enteros quedan inc
 | ID | Pregunta | Nodo | Dónde buscar | Estado |
 |----|----------|------|--------------|--------|
 | **P008-05** | ¿Cuál es la tasa de emigración de jóvenes desde Hopelchén hacia las ciudades (Campeche, Mérida, Ciudad del … | 008 | Data México — pirámide de edad de Hopelchén comparando 2005 y 2020; INEGI — Censo 2020: migrantes internos por municipio de origen/destino | 🔴 PENDIENTE |
-| **P008-06** | ¿Cuántos menonitas viven actualmente en el municipio de Hopelchén? ¿En qué colonias? ¿Qué porcentaje repres… | 008 | Observatorio Ciudadano — Menonitas arrasan selvas de Campeche: https://obsci.org/menonitas-arrasan-selvas-de-campeche/; PorEsto — datos de colonias menonitas en Hopelchén | 🔴 PENDIENTE |
+| **P008-06** | ¿Cuántos menonitas viven actualmente en el municipio de Hopelchén? ¿En qué colonias? ¿Qué porcentaje repres… | 008 | Observatorio Ciudadano — Menonitas arrasan selvas de Campeche: https://obsci.org/menonitas-arrasan-selvas-de-campeche/; PorEsto — datos de colonias menonitas en Hopelchén | 🟠 RESPONDIDA PARCIALMENTE |
 
 
 ### Nodo 009 — Resistencia y Agencia Maya en Hopelchén (1669–2026)
@@ -269,7 +269,7 @@ Estas preguntas son cuellos de botella: sin ellas, capítulos enteros quedan inc
 | ID | Pregunta | Nodo | Dónde buscar | Estado |
 |----|----------|------|--------------|--------|
 | **P009-05** | ¿Existen organizaciones mayas activas en Hopelchén que no sean Maya Ka'an? ¿Redes de comunidades ejidales, … | 009 | INPI (Instituto Nacional de los Pueblos Indígenas) — directorio de organizaciones indígenas en Campeche; CDI / INPI — proyectos productivos financiados en Hopelchén 2000-2026 | 🔴 PENDIENTE |
-| **P009-06** | ¿Cómo se organiza actualmente la meliponicultura de Xunáan Kab en Hopelchén? ¿Cuántas familias la practican… | 009 | SAGARPA / SADER — padrón de apicultores en Hopelchén; CONAPESCA / SADER — volumen y valor de producción de miel en Hopelchén | 🔴 PENDIENTE |
+| **P009-06** | ¿Cómo se organiza actualmente la meliponicultura de Xunáan Kab en Hopelchén? ¿Cuántas familias la practican… | 009 | SAGARPA / SADER — padrón de apicultores en Hopelchén; CONAPESCA / SADER — volumen y valor de producción de miel en Hopelchén | 🟠 RESPONDIDA PARCIALMENTE |
 
 
 ---
@@ -296,7 +296,7 @@ Estas preguntas son cuellos de botella: sin ellas, capítulos enteros quedan inc
 
 | ID | Pregunta | Nodo | Dónde buscar | Estado |
 |----|----------|------|--------------|--------|
-| **P004-05** | ¿Cuándo llegaron los primeros menonitas a Hopelchén y cuántas hectáreas han adquirido históricamente? ¿Cuál… | 004 | — | 🔴 PENDIENTE |
+| **P004-05** | ¿Cuándo llegaron los primeros menonitas a Hopelchén y cuántas hectáreas han adquirido históricamente? ¿Cuál… | 004 | — | 🟠 RESPONDIDA PARCIALMENTE |
 | **P004-06** | ¿Quién fue Jorge Carlos Hurtado Valdez (gobernador en 2007 cuando Hopelchén fue declarada Capital del Estad… | 004 | — | 🔴 PENDIENTE |
 
 
@@ -312,4 +312,4 @@ Estas preguntas son cuellos de botella: sin ellas, capítulos enteros quedan inc
 ---
 
 *Fuente de datos: `datos/hopelchen/HOPELCHEN_PREGUNTAS_*.json`*  
-*Generado: 2026-04-13 — ver también `datos/SINTESIS.md` para resumen ejecutivo del estado del repositorio*
+*Generado: 2026-04-14 — ver también `datos/SINTESIS.md` para resumen ejecutivo del estado del repositorio*
