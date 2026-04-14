@@ -44,7 +44,8 @@
         "DOF — amparos agrarios"
       ],
       "prioridad": "URGENTE",
-      "conexion_hipotesis": "Identificar a los hacendados antiagrarios es identificar la élite que resistió la redistribución. Sus apellidos pueden conectar con el poder político actual."
+      "conexion_hipotesis": "Identificar a los hacendados antiagrarios es identificar la élite que resistió la redistribución. Sus apellidos pueden conectar con el poder político actual.",
+      "estado": "PENDIENTE"
     },
     {
       "pregunta_id": "P004-02",
@@ -55,7 +56,8 @@
         "RAN (Registro Agrario Nacional)",
         "SciELO Cantún Caamal (2012) — cuadros estadísticos del artículo"
       ],
-      "prioridad": "Alta"
+      "prioridad": "Alta",
+      "estado": "PENDIENTE"
     },
     {
       "pregunta_id": "P004-03",
@@ -66,7 +68,8 @@
         "Aranda González (1985)",
         "Archivo Municipal Hopelchén"
       ],
-      "prioridad": "Alta"
+      "prioridad": "Alta",
+      "estado": "PENDIENTE"
     },
     {
       "pregunta_id": "P004-04",
@@ -77,7 +80,8 @@
         "RAN",
         "Schüren (2013)"
       ],
-      "prioridad": "Media"
+      "prioridad": "Media",
+      "estado": "PENDIENTE"
     },
     {
       "pregunta_id": "P004-05",
@@ -102,7 +106,9 @@
         "Wikipedia — gobernadores de Campeche",
         "Periódico Oficial Campeche"
       ],
-      "prioridad": "Media — conexión con poder político reciente"
+      "prioridad": "Media — conexión con poder político reciente",
+      "estado": "RESPONDIDA PARCIALMENTE — registro 004-J: Hurtado Valdez gobernador PRI 2003-2009; contexto de expansión agroindustrial menonita y GMO; verificación biográfica completa pendiente.",
+      "registro_respuesta": "004-J"
     }
   ],
   "patron_estructural_500_anos": {

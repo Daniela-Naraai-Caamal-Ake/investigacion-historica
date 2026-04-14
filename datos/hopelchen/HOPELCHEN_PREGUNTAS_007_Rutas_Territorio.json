@@ -5,9 +5,7 @@
   "nodo_origen": "007 — Rutas, Territorio y Control del Espacio en Hopelchén (1517–2026)",
   "fecha_generacion": "2026-04-08",
   "estado": "Activo — pendiente de investigación",
-
   "preguntas_urgentes": [
-
     {
       "pregunta_id": "P007-01",
       "pregunta": "¿Dónde se pueden consultar las obras de Pacheco Blanco (1928) y Peña (1942) sobre la economía de Los Chenes? ¿Contienen nombres de contratistas chicleros y hacendados de Hopelchén?",
@@ -20,9 +18,9 @@
         "Ibero-Amerikanisches Institut, Berlín — pueden tener copia dada la cita en Schüren"
       ],
       "prioridad": "URGENTE",
-      "conexion_hipotesis": "Los contratistas chicleros son el equivalente del siglo XX a los encomenderos del siglo XVI: la élite local que controlaba el trabajo y los recursos de Los Chenes. Si sus nombres están en Pacheco Blanco o Peña, la cadena de apellidos de poder en Hopelchén se extiende al período chiclero."
+      "conexion_hipotesis": "Los contratistas chicleros son el equivalente del siglo XX a los encomenderos del siglo XVI: la élite local que controlaba el trabajo y los recursos de Los Chenes. Si sus nombres están en Pacheco Blanco o Peña, la cadena de apellidos de poder en Hopelchén se extiende al período chiclero.",
+      "estado": "PENDIENTE"
     },
-
     {
       "pregunta_id": "P007-02",
       "pregunta": "¿Cuándo llegaron por primera vez escuelas, centros de salud y autoridades civiles permanentes a las comunidades del sur del municipio de Hopelchén (Dzibalchén, Xkanhá, montaña chenera)?",
@@ -35,9 +33,9 @@
         "Archivo Municipal de Hopelchén — expedientes de juntas municipales del sur"
       ],
       "prioridad": "Alta",
-      "conexion_hipotesis": "La llegada tardía del Estado al sur de Hopelchén confirma que la resistencia maya no fue solo política — fue territorial y geográfica. La selva como escudo fue la estrategia de resistencia más efectiva. Cuando llegaron las escuelas y los médicos, llegaron también los contratistas chicleros y después los menonitas."
+      "conexion_hipotesis": "La llegada tardía del Estado al sur de Hopelchén confirma que la resistencia maya no fue solo política — fue territorial y geográfica. La selva como escudo fue la estrategia de resistencia más efectiva. Cuando llegaron las escuelas y los médicos, llegaron también los contratistas chicleros y después los menonitas.",
+      "estado": "PENDIENTE"
     },
-
     {
       "pregunta_id": "P007-03",
       "pregunta": "¿Cuál es el paradero del Archivo Municipal de Hopelchén y qué fondos documentales tiene disponibles para consulta? Schüren (2013) cita documentos de 1947-1950 con nombres específicos (Ricardo Avila Briceño, Manuel Ruíz).",
@@ -50,9 +48,9 @@
         "Contrato de investigación: presentarse como investigador independiente y solicitar acceso a fondos históricos"
       ],
       "prioridad": "Alta",
-      "conexion_hipotesis": "El Archivo Municipal de Hopelchén es la fuente primaria más directamente accesible para el proyecto. Si contiene documentos desde los años 1940s, puede responder preguntas pendientes desde el Nodo 002 (fundación colonial), el Nodo 004 (contratistas chicleros) y el Nodo 006 (lista de presidentes municipales históricos)."
+      "conexion_hipotesis": "El Archivo Municipal de Hopelchén es la fuente primaria más directamente accesible para el proyecto. Si contiene documentos desde los años 1940s, puede responder preguntas pendientes desde el Nodo 002 (fundación colonial), el Nodo 004 (contratistas chicleros) y el Nodo 006 (lista de presidentes municipales históricos).",
+      "estado": "PENDIENTE"
     },
-
     {
       "pregunta_id": "P007-04",
       "pregunta": "¿Existe la obra mayor de Schüren sobre Los Chenes (Schüren 2003a, libro completo)? ¿Dónde se puede consultar?",
@@ -65,9 +63,9 @@
         "ResearchGate — perfil de Ute Schüren y lista de publicaciones"
       ],
       "prioridad": "Alta",
-      "conexion_hipotesis": "La obra mayor de Schüren sobre Los Chenes podría contener los nombres de los contratistas chicleros, los ejidatarios originales, la historia de las comunidades específicas y datos que ninguna otra fuente tiene. Es el equivalente académico del libro de Aranda González (1985) pero para el período 1900-2000."
+      "conexion_hipotesis": "La obra mayor de Schüren sobre Los Chenes podría contener los nombres de los contratistas chicleros, los ejidatarios originales, la historia de las comunidades específicas y datos que ninguna otra fuente tiene. Es el equivalente académico del libro de Aranda González (1985) pero para el período 1900-2000.",
+      "estado": "PENDIENTE"
     },
-
     {
       "pregunta_id": "P007-05",
       "pregunta": "¿Cuándo llegó la Carretera Federal 261 a Hopelchén y Dzibalchén? ¿Bajo qué gobierno federal y estatal fue construida cada tramo? ¿Cambió el patrón de deforestación con su llegada?",
@@ -80,9 +78,10 @@
         "Periódico Oficial del Estado de Campeche — decretos de construcción de carreteras en Los Chenes"
       ],
       "prioridad": "Media-Alta",
-      "conexion_hipotesis": "Si la CF-261 fue construida bajo el gobierno de Carlos Sansores Pérez (1967-1973) — cuyo apellido aparece también en la lista de ex-alcaldes de Hopelchén — el control de la infraestructura y el control político del municipio convergieron en la misma red familiar. La carretera que facilitó el despojo contemporáneo pudo haber sido construida por la misma familia que gobernó Hopelchén."
+      "conexion_hipotesis": "Si la CF-261 fue construida bajo el gobierno de Carlos Sansores Pérez (1967-1973) — cuyo apellido aparece también en la lista de ex-alcaldes de Hopelchén — el control de la infraestructura y el control político del municipio convergieron en la misma red familiar. La carretera que facilitó el despojo contemporáneo pudo haber sido construida por la misma familia que gobernó Hopelchén.",
+      "estado": "RESPONDIDA PARCIALMENTE — registro 007-J: CF-261 conecta Mérida–Hopelchén–Dzibalché–Campeche; fue vector de entrada menonita desde 1987; fecha exacta de pavimentación requiere SCT.",
+      "registro_respuesta": "007-J"
     },
-
     {
       "pregunta_id": "P007-06",
       "pregunta": "¿Qué pasó con los terrenos de los campos de aterrizaje chicleros de Hopelchén y X Can Há después del abandono en los años 1950? ¿Son hoy ejido, propiedad privada o terreno nacional?",
@@ -95,9 +94,9 @@
         "Comunidad de X Can Há — testimonio oral sobre el campo de aterrizaje"
       ],
       "prioridad": "Media",
-      "conexion_hipotesis": "Si las tierras de los campos de aterrizaje chicleros terminaron siendo adquiridas por menonitas o agroindustria en los años 1980-1990, el patrón se confirmaría con precisión: la misma tierra que sirvió a la extracción chiclera sirvió después a la extracción agroindustrial, sin ningún período de beneficio para la comunidad local."
+      "conexion_hipotesis": "Si las tierras de los campos de aterrizaje chicleros terminaron siendo adquiridas por menonitas o agroindustria en los años 1980-1990, el patrón se confirmaría con precisión: la misma tierra que sirvió a la extracción chiclera sirvió después a la extracción agroindustrial, sin ningún período de beneficio para la comunidad local.",
+      "estado": "PENDIENTE"
     },
-
     {
       "pregunta_id": "P007-07",
       "pregunta": "¿Cuál era el itinerario exacto del viajero Rodolfo Schuller (1923) en el sur de Los Chenes? ¿El diario completo está disponible en el Ibero-Amerikanisches Institut de Berlín?",
@@ -109,9 +108,9 @@
         "Dialnet / WorldCat — búsqueda 'Schuller Campeche 1923'"
       ],
       "prioridad": "Media",
-      "conexion_hipotesis": "El diario de Schuller de 1923 es probablemente la descripción más detallada del territorio de Los Chenes en el período inmediatamente anterior al auge chiclero. Las distancias entre pueblos que cita implican el estado de los caminos — y los pueblos que ya habían desaparecido en 1923 son evidencia de la devastación demográfica de la Guerra de Castas."
+      "conexion_hipotesis": "El diario de Schuller de 1923 es probablemente la descripción más detallada del territorio de Los Chenes en el período inmediatamente anterior al auge chiclero. Las distancias entre pueblos que cita implican el estado de los caminos — y los pueblos que ya habían desaparecido en 1923 son evidencia de la devastación demográfica de la Guerra de Castas.",
+      "estado": "PENDIENTE"
     },
-
     {
       "pregunta_id": "P007-08",
       "pregunta": "¿Hay mapas históricos del municipio de Hopelchén del siglo XIX y principios del XX que muestren la distribución de haciendas, ranchos, caminos y poblados antes de la guerra de castas y durante el auge chiclero?",
@@ -125,11 +124,10 @@
         "AGI Sevilla — PARES: mapas coloniales de los Chenes"
       ],
       "prioridad": "Media",
-      "conexion_hipotesis": "Los mapas históricos son la forma más directa de visualizar el despojo territorial: comparar la distribución de haciendas de 1846 con los ejidos de 1950 y la deforestación de 2020 muestra el ciclo completo de transformación del territorio en tres dimensiones espaciales."
+      "conexion_hipotesis": "Los mapas históricos son la forma más directa de visualizar el despojo territorial: comparar la distribución de haciendas de 1846 con los ejidos de 1950 y la deforestación de 2020 muestra el ciclo completo de transformación del territorio en tres dimensiones espaciales.",
+      "estado": "PENDIENTE"
     }
-
   ],
-
   "hallazgos_para_siguiente_nodo": [
     {
       "hallazgo": "Schüren (2013) identifica que Los Chenes tenían aproximadamente 26,000 habitantes antes de la Guerra de Castas (1847), de los cuales la mitad vivía en 11 haciendas y 116 ranchos. Fuente: Memoria del Secretario General de Gobierno 18.9.1846, Apéndice Núm. 16.",
@@ -150,9 +148,7 @@
       "accion_siguiente": "Investigar el árbol genealógico de la familia Sansores en Campeche: ¿es Carlos Sansores Pérez (gobernador) pariente de Julio Sansores Sansores (alcalde Hopelchén) y de Layda Sansores (gobernadora actual)?"
     }
   ],
-
   "siguiente_nodo_sugerido": "NODO 008 — Demografía e Historia de la Población en Hopelchén (siglo XVI–2026): Censos, Migraciones, Colapsos y Reconstrucciones",
-
   "metadatos": {
     "generado_desde": "HOPELCHEN_NODO_007_Rutas_Territorio.json",
     "fecha": "2026-04-08",

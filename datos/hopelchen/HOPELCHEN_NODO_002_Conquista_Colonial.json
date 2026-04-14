@@ -9,9 +9,7 @@
   "version": "1.0",
   "continua_desde": "NODO 001 — Ocupación Prehispánica",
   "autor_investigacion": "Proyecto Hopelchén — Investigación histórica independiente",
-
   "registros": [
-
     {
       "registro_id": "002-A",
       "subtitulo": "Contexto político maya previo a la Conquista: Los Chenes en un mundo fragmentado",
@@ -47,9 +45,18 @@
       ],
       "notas_contradiccion": "La narrativa oficial presenta la conquista como 'pacificación'. La Wikipedia en inglés (Spanish conquest of Yucatán) es más precisa: documenta que los mayas de múltiples provincias prefirieron 'internarse en la selva' antes que someterse. La resistencia fue la norma, no la excepción. Los Chenes específicamente quedan como zona de resistencia y tránsito de fugitivos, según Wikipedia y Guía Turística México.",
       "conexion_hipotesis": "La fragmentación política maya fue la principal vulnerabilidad explotada por el poder colonial. Los españoles no vencieron a los mayas por superioridad absoluta — los expulsaron dos veces antes de lograrlo. Lo que funcionó fue dividir alianzas preexistentes. Este patrón de usar divisiones internas para imponer control externo se repetiría en cada era posterior.",
-      "tags": ["fragmentación política", "kuchkabalob", "Tutul Xiúes", "Cocomes", "alianzas", "resistencia", "conquista", "jurisdicciones mayas", "Ralph Roys"]
+      "tags": [
+        "fragmentación política",
+        "kuchkabalob",
+        "Tutul Xiúes",
+        "Cocomes",
+        "alianzas",
+        "resistencia",
+        "conquista",
+        "jurisdicciones mayas",
+        "Ralph Roys"
+      ]
     },
-
     {
       "registro_id": "002-B",
       "subtitulo": "La Conquista de Yucatán: tres intentos fallidos y el papel de Los Chenes como zona de refugio",
@@ -96,9 +103,20 @@
       ],
       "notas_contradiccion": "Las crónicas coloniales presentan a Montejo el Mozo como héroe fundador. Los documentos de la Real Audiencia documentan que vendió esclavos mayas — práctica ilegal según las Leyes Nuevas de 1542. El 'héroe fundador' y el 'traficante de esclavos' son la misma persona. La narrativa oficial elige una versión.",
       "conexion_hipotesis": "Los Chenes como zona de refugio ya desde 1527-1547 establece un patrón: la geografía interior de Hopelchén ha funcionado históricamente como espacio de resistencia y escape del poder central. Este patrón se repite en la Guerra de Castas (1847), la resistencia agraria (post-1910) y los conflictos con la agroindustria (2000s-actualidad).",
-      "tags": ["Montejo", "conquista", "tres campañas", "katún", "esclavitud", "Real Audiencia", "refugio", "resistencia", "fugitivos", "encomiendas", "Leyes Nuevas 1542"]
+      "tags": [
+        "Montejo",
+        "conquista",
+        "tres campañas",
+        "katún",
+        "esclavitud",
+        "Real Audiencia",
+        "refugio",
+        "resistencia",
+        "fugitivos",
+        "encomiendas",
+        "Leyes Nuevas 1542"
+      ]
     },
-
     {
       "registro_id": "002-C",
       "subtitulo": "Los Tutul Xiúes y su relación con Los Chenes: alianza colonial y control territorial",
@@ -147,9 +165,20 @@
       ],
       "notas_contradiccion": "La narrativa colonial y la historiografía oficial presentan la alianza Xiu-española como 'evangelización exitosa'. Los documentos Xiu (1380-1685) muestran una familia que navegó el poder colonial manteniendo reconocimiento como 'halach uinic' local por parte de la propia Corona — lo que implica que la Corona también los necesitaba para administrar el territorio. El poder nunca fue unilateral.",
       "conexion_hipotesis": "Los Xiúes en Los Chenes (Dzibil-Noh-Aac/Iturbide) representan el primer eslabón documentable de una élite indígena colaboracionista que intercambió soberanía real por poder administrativo local. Este patrón se repite: mestizos colaboracionistas en el Porfiriato, caciques locales en el PRI. La forma cambia, la estructura permanece.",
-      "tags": ["Tutul Xiúes", "alianza colonial", "Gaspar Antonio Chi", "Kukum Xiu", "Dzibil-Noh-Aac", "colaboracionismo", "apellidos", "bautismo", "evangelización", "poder local", "documentos Xiu 1380-1685"]
+      "tags": [
+        "Tutul Xiúes",
+        "alianza colonial",
+        "Gaspar Antonio Chi",
+        "Kukum Xiu",
+        "Dzibil-Noh-Aac",
+        "colaboracionismo",
+        "apellidos",
+        "bautismo",
+        "evangelización",
+        "poder local",
+        "documentos Xiu 1380-1685"
+      ]
     },
-
     {
       "registro_id": "002-D",
       "subtitulo": "1546: La Gran Rebelión Maya y Los Chenes como espacio de resistencia",
@@ -192,9 +221,20 @@
       ],
       "notas_contradiccion": "La fecha maya de la rebelión (5 Cimi 19 Xul = 'muerte' y 'fin') no es un detalle folklórico — es evidencia de que los mayas interpretaban los eventos históricos dentro de su propio sistema calendárico y cosmológico. La historiografía colonial y republicana ignora esta dimensión completamente, presentando la rebelión como una crisis de orden público, no como un acto de soberanía cultural.",
       "conexion_hipotesis": "Los sacerdotes como líderes de la resistencia son el nexo entre el conocimiento y el poder. Quemar sacerdotes es quemar bibliotecas vivientes. La destrucción del liderazgo sacerdotal maya en 1546-1547 y en el auto de fe de Maní (1562, Diego de Landa) fue la destrucción sistemática del sistema de transmisión del conocimiento maya. Esto es la manipulación del conocimiento por élites de poder en su forma más literal.",
-      "tags": ["rebelión 1546", "sacerdotes mayas", "fecha maya 5 Cimi 19 Xul", "encomiendas", "esclavitud", "Leyes Nuevas", "resistencia", "Diego de Landa", "auto de fe", "conocimiento maya", "Tamayo Pacheco"]
+      "tags": [
+        "rebelión 1546",
+        "sacerdotes mayas",
+        "fecha maya 5 Cimi 19 Xul",
+        "encomiendas",
+        "esclavitud",
+        "Leyes Nuevas",
+        "resistencia",
+        "Diego de Landa",
+        "auto de fe",
+        "conocimiento maya",
+        "Tamayo Pacheco"
+      ]
     },
-
     {
       "registro_id": "002-E",
       "subtitulo": "1621: Fundación de Hopelchén como pueblo de congregación — el primer acto de control territorial colonial documentado",
@@ -226,9 +266,19 @@
       ],
       "notas_contradiccion": "CONTRADICCIÓN FUNDAMENTAL: Todas las fuentes dicen 'se dice que fue fundado en 1621' — incluyendo el Archivo Municipal de Hopelchén en la base de datos del Ministerio de Cultura de España (censoarchivos.mcu.es). Nadie cita el documento colonial original. Esto significa que la fecha de fundación de Hopelchén — uno de los datos más básicos de su historia oficial — no está soportada en fuente primaria pública accesible. La historia oficial de Hopelchén descansa sobre una afirmación no documentada públicamente.",
       "conexion_hipotesis": "La congregación de 1621 es el primer acto formal y documentado de control del territorio y la población de Los Chenes por una élite de poder externa (Corona española + Iglesia franciscana). Concentrar 20,000 mayas en un punto geográfico controlado no era humanitario — era un sistema de captación de fuerza laboral y tributaria. La 'evangelización' fue el instrumento ideológico; el control económico fue el objetivo real.",
-      "tags": ["congregación 1621", "pueblo de congregación", "franciscanos", "doctrina", "evangelización", "control territorial", "tributo", "San Antonio de Padua", "convento 1667", "fuente primaria ausente"]
+      "tags": [
+        "congregación 1621",
+        "pueblo de congregación",
+        "franciscanos",
+        "doctrina",
+        "evangelización",
+        "control territorial",
+        "tributo",
+        "San Antonio de Padua",
+        "convento 1667",
+        "fuente primaria ausente"
+      ]
     },
-
     {
       "registro_id": "002-F",
       "subtitulo": "1622: Primera mención documental conocida de Hopelchén — expedición hacia los Itzaes",
@@ -251,9 +301,18 @@
       ],
       "notas_contradiccion": "La expedición de 1622 hacia los Itzaes confirma que Hopelchén era ya en ese momento un punto de tránsito conocido — lo que sugiere que el asentamiento podría ser anterior a 1621, o que la 'congregación de 1621' formalizó una presencia previa. La resistencia de los Itzaes hasta 1697 demuestra que la 'conquista' de 1547 fue parcial: los mayas que se internaron en la selva desde Los Chenes mantuvieron independencia real por 150 años más.",
       "conexion_hipotesis": "Hopelchén como punto de tránsito hacia los Itzaes independientes implica que era la frontera entre el mundo colonial y el mundo maya libre. Esa posición fronteriza explica tanto su condición de 'zona rebelde' como su rol como centro de intercambio donde los mayas de ambos lados del control colonial comerciaban.",
-      "tags": ["1622", "Itzaes", "Petén Itzá", "primera mención", "ruta colonial", "frontera", "mayas libres", "Tayasal", "resistencia 1697"]
+      "tags": [
+        "1622",
+        "Itzaes",
+        "Petén Itzá",
+        "primera mención",
+        "ruta colonial",
+        "frontera",
+        "mayas libres",
+        "Tayasal",
+        "resistencia 1697"
+      ]
     },
-
     {
       "registro_id": "002-G",
       "subtitulo": "1669: Los Bataboob de Hopelchén — élite maya local que resiste el control español",
@@ -284,9 +343,20 @@
       ],
       "notas_contradiccion": "CONTRADICCIÓN SISTÉMICA: La narrativa oficial de la 'conquista exitosa de Yucatán en 1547' coexiste con el dato de que en 1669 los mayas de Hopelchén seguían resistiendo el control español. Esto significa que la 'conquista' fue un proceso incompleto de décadas o siglos, no un evento puntual. La línea del tiempo oficial (conquista 1547 → colonización exitosa) es una simplificación ideológica.",
       "conexion_hipotesis": "Los bataboob de 1669 son la prueba más directa disponible en fuentes consultadas de que el linaje maya de poder NO fue eliminado por la conquista — fue presionado, reducido y eventualmente desplazado, pero resistió. Identificarlos por nombre sería el hallazgo histórico más importante del proyecto.",
-      "tags": ["bataboob", "batab", "1669", "resistencia colonial", "poder maya", "autoridad local", "contra-narrativa", "conquista incompleta", "élite maya", "Historia de Yucatán", "Cogolludo"]
+      "tags": [
+        "bataboob",
+        "batab",
+        "1669",
+        "resistencia colonial",
+        "poder maya",
+        "autoridad local",
+        "contra-narrativa",
+        "conquista incompleta",
+        "élite maya",
+        "Historia de Yucatán",
+        "Cogolludo"
+      ]
     },
-
     {
       "registro_id": "002-H",
       "subtitulo": "Sistema de encomienda en Los Chenes: el primer mecanismo de control económico y territorial",
@@ -311,26 +381,97 @@
       "personajes": [],
       "notas_contradiccion": "ENCOMENDERO DESCONOCIDO: Ninguna de las fuentes consultadas nombra al primer encomendero específico de Los Chenes o de Hopelchén. Este es el vacío histórico más importante del Nodo 002. La identidad del primer encomendero determina qué familia o linaje controló la economía de Los Chenes desde el siglo XVI, y potencialmente qué apellidos heredaron ese poder en las haciendas del siglo XIX.",
       "conexion_hipotesis": "La encomienda es el mecanismo que transforma el control político (conquista) en control económico (tributo y trabajo). En Los Chenes, los recursos que interesaban eran: maíz, miel, cera y maderas — los mismos que aparecen en el escudo heráldico del municipio. Quien controló las encomiendas controlaba estos productos. Rastrear los apellidos de encomenderos en Los Chenes es rastrear el origen de la élite económica local.",
-      "tags": ["encomienda", "tributo", "maíz", "miel", "cera", "maderas", "encomendero", "cacique intermediario", "control económico", "primer encomendero desconocido", "El Colegio de México"]
+      "tags": [
+        "encomienda",
+        "tributo",
+        "maíz",
+        "miel",
+        "cera",
+        "maderas",
+        "encomendero",
+        "cacique intermediario",
+        "control económico",
+        "primer encomendero desconocido",
+        "El Colegio de México"
+      ]
+    },
+    {
+      "registro_id": "002-I",
+      "subtitulo": "Los Xiúes de Dzibil-Noh-Aac (hoy Iturbide): posibles vínculos con Los Chenes según los Papeles Xiu",
+      "fecha_evento": "siglos XIV-XVI",
+      "lugar": "Dzibil-Noh-Aac (Maní — Iturbide), región de Los Chenes",
+      "descripcion": "Los Papeles de los Xiúes (Códice Xiu) son un conjunto de documentos del siglo XVI producidos por la nobleza maya Xiu de Maní, que en 1542 formó alianza con los españoles contra los Cocomes. La familia Xiu controlaba territorios en el sur de Yucatán, incluyendo posiblemente zonas de transición hacia Los Chenes. El topónimo Dzibil-Noh-Aac ('escritura de gran tortuga'), identificado con el actual municipio de Iturbide (colindante con Hopelchén), aparece en fuentes coloniales como localidad bajo influencia Xiu. El recurso sacred-texts.com/nam/maya/ybac/ contiene transcripciones de documentos Xiu coloniales que podrían mencionar esta región. La relación exacta entre los señoríos Xiu y el territorio de Los Chenes (Hopelchén) requiere análisis directo de los Papeles Xiu y de las relaciones geográficas coloniales del siglo XVI. La alianza Xiu-española de 1542 fue decisiva para la consolidación de la conquista en Yucatán.",
+      "fuente": {
+        "nombre": "Papeles Xiu / Códice Xiu — Sacred Texts Archive; fuentes coloniales",
+        "tipo": "Académica / Archivo histórico",
+        "url": "https://sacred-texts.com/nam/maya/ybac/ybac60.htm",
+        "fecha_consulta": "2026-04-14",
+        "confiabilidad": "Media — URL de referencia; datos contextuales de historiografía maya"
+      },
+      "tipo_dato": "Citado — pendiente acceso directo al texto",
+      "conexion_hipotesis": "Si los Xiúes controlaban parte del territorio que hoy es Hopelchén, la conquista española no fue solo una imposición externa sino también resultado de conflictos entre señoríos mayas previos.",
+      "tags": [
+        "Xiúes",
+        "Xiu",
+        "Dzibil-Noh-Aac",
+        "Iturbide",
+        "Los Chenes",
+        "alianza colonial",
+        "Papeles Xiu",
+        "Códice Xiu"
+      ]
     }
-
   ],
-
   "linea_del_tiempo_nodo": [
-    {"año": "1441-1517", "evento": "Fragmentación política maya: Los Chenes en zona de frontera entre jurisdicciones"},
-    {"año": "1517", "evento": "Primer contacto español con costas de Yucatán (Hernández de Córdoba)"},
-    {"año": "1527-1534", "evento": "Primera y segunda campañas de Montejo — fracasan. Mayas expulsan a los españoles"},
-    {"año": "1541-1547", "evento": "Tercera campaña. Alianza con Tutul Xiúes. Conquista militar completada formalmente"},
-    {"año": "9-nov-1546", "evento": "Gran rebelión maya (fecha 5 Cimi 19 Xul). Líderes sacerdotes ejecutados"},
-    {"año": "1547", "evento": "Esclavización de 2,000 prisioneros cupules en Campeche — ilegal según Leyes Nuevas de 1542"},
-    {"año": "~1548", "evento": "Kukum Xiu bautizado como 'Francisco de Montejo Xiu' en Maní"},
-    {"año": "~1621", "evento": "Hopelchén fundado como pueblo de congregación franciscana — 20,000 indígenas concentrados"},
-    {"año": "1622", "evento": "Primera mención documental de Hopelchén: expedición española en tránsito hacia Itzaes de Petén"},
-    {"año": "1667", "evento": "Construcción del Convento de San Antonio de Padua en Hopelchén"},
-    {"año": "1669", "evento": "Los bataboob de Hopelchén aún detentan el poder local y rechazan el control español"},
-    {"año": "1697", "evento": "Caída de Tayasal — último reino maya independiente. Fin de la ruta de escapatoria desde Los Chenes hacia el Petén"}
+    {
+      "año": "1441-1517",
+      "evento": "Fragmentación política maya: Los Chenes en zona de frontera entre jurisdicciones"
+    },
+    {
+      "año": "1517",
+      "evento": "Primer contacto español con costas de Yucatán (Hernández de Córdoba)"
+    },
+    {
+      "año": "1527-1534",
+      "evento": "Primera y segunda campañas de Montejo — fracasan. Mayas expulsan a los españoles"
+    },
+    {
+      "año": "1541-1547",
+      "evento": "Tercera campaña. Alianza con Tutul Xiúes. Conquista militar completada formalmente"
+    },
+    {
+      "año": "9-nov-1546",
+      "evento": "Gran rebelión maya (fecha 5 Cimi 19 Xul). Líderes sacerdotes ejecutados"
+    },
+    {
+      "año": "1547",
+      "evento": "Esclavización de 2,000 prisioneros cupules en Campeche — ilegal según Leyes Nuevas de 1542"
+    },
+    {
+      "año": "~1548",
+      "evento": "Kukum Xiu bautizado como 'Francisco de Montejo Xiu' en Maní"
+    },
+    {
+      "año": "~1621",
+      "evento": "Hopelchén fundado como pueblo de congregación franciscana — 20,000 indígenas concentrados"
+    },
+    {
+      "año": "1622",
+      "evento": "Primera mención documental de Hopelchén: expedición española en tránsito hacia Itzaes de Petén"
+    },
+    {
+      "año": "1667",
+      "evento": "Construcción del Convento de San Antonio de Padua en Hopelchén"
+    },
+    {
+      "año": "1669",
+      "evento": "Los bataboob de Hopelchén aún detentan el poder local y rechazan el control español"
+    },
+    {
+      "año": "1697",
+      "evento": "Caída de Tayasal — último reino maya independiente. Fin de la ruta de escapatoria desde Los Chenes hacia el Petén"
+    }
   ],
-
   "contradicciones_globales_nodo": [
     {
       "contradiccion_id": "C004",
@@ -351,7 +492,6 @@
       "resolucion_propuesta": "Consultar: AGI Sevilla — Audiencia de México, Encomiendas; AGN México — Ramo Mercedes; El Colegio de México — Encomienda, Cabildo y Gubernatura Indígena en Yucatán, 1541-1583."
     }
   ],
-
   "fuentes_pendientes_consultar": [
     "AGI Sevilla — PARES (pares.mcu.es): buscar 'Hopelchén', 'Chenes', 'congregación Campeche' 1615-1640",
     "AGN México — Ramo Congregaciones y Ramo Indios: documentos sobre Los Chenes",
@@ -362,7 +502,6 @@
     "Documentos Xiu completos — Sacred Texts Archive (ya localizado)",
     "Archivo del Obispado de Yucatán (Mérida) — registros parroquiales de Los Chenes"
   ],
-
   "metadatos": {
     "metodologia": "Investigación web — fuentes institucionales, académicas y secundarias verificadas. Búsquedas en Wikipedia ES/EN, Confabulario/El Universal, Real Academia de la Historia, Sacred Texts Archive, INDEFOS, CensoArchivos",
     "nivel_profundidad": "1 (primera iteración del nodo)",

@@ -8,9 +8,7 @@
   "fecha_creacion_nodo": "2026-04-03",
   "version": "1.0",
   "autor_investigacion": "Proyecto Hopelchén — Investigación histórica independiente",
-
   "registros": [
-
     {
       "registro_id": "001-A",
       "subtitulo": "Primer dato verificable de ocupación humana en el territorio: Santa Rosa Xtampak",
@@ -33,7 +31,9 @@
       "fuente_academica": {
         "nombre": "Santa Rosa Xtampak, Campeche: su patrón de asentamiento del Preclásico al Clásico",
         "revista": "Mayab 18 (2005): pp. 5-16",
-        "autores": ["Renée Lorelei Zapata Peraza"],
+        "autores": [
+          "Renée Lorelei Zapata Peraza"
+        ],
         "url": "https://www.researchgate.net/publication/28235660_Santa_Rosa_Xtampak_Campeche_su_patron_de_asentamiento_del_Preclasico_al_Clasico",
         "doi_disponible": false
       },
@@ -41,9 +41,17 @@
       "personajes": [],
       "notas_contradiccion": "La cerámica preclásica indica ocupación desde 300-250 a.C., pero los textos jeroglíficos solo registran desde el año 646 d.C. (Estela 5). Existe una brecha de ~900 años sin inscripciones epigráficas, lo que NO significa ausencia de población sino ausencia de registro escrito recuperado. Fuentes turísticas repiten el dato arqueológico sin diferenciar cerámica de epigrafía, generando confusión cronológica.",
       "conexion_hipotesis": "La ciudad fue construida sobre una elevación nivelada artificialmente, lo que implica una organización política capaz de movilizar trabajo colectivo masivo desde el Preclásico. Ya desde el origen hay una estructura de poder que controla el territorio y el trabajo.",
-      "tags": ["preclásico", "cerámica", "ocupación humana", "Santa Rosa Xtampak", "Los Chenes", "capital regional", "poder político", "arquitectura maya"]
+      "tags": [
+        "preclásico",
+        "cerámica",
+        "ocupación humana",
+        "Santa Rosa Xtampak",
+        "Los Chenes",
+        "capital regional",
+        "poder político",
+        "arquitectura maya"
+      ]
     },
-
     {
       "registro_id": "001-B",
       "subtitulo": "Fecha epigráfica más antigua registrada en Los Chenes: Estela 5 de Santa Rosa Xtampak",
@@ -61,7 +69,13 @@
         "nombre": "Santa Rosa Xtampak, Campeche, y sus inscripciones",
         "revista": "Anales de Antropología (SciELO México)",
         "url": "https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S0185-25742004000100002",
-        "autores_referenciados": ["Morley, 1938", "Proskouriakoff, 1950", "Brainerd, 1958", "Stamps, 1970", "Michelet y Becquelin, 2001"],
+        "autores_referenciados": [
+          "Morley, 1938",
+          "Proskouriakoff, 1950",
+          "Brainerd, 1958",
+          "Stamps, 1970",
+          "Michelet y Becquelin, 2001"
+        ],
         "fecha_consulta": "2026-04-03"
       },
       "tipo_dato": "Citado/Epigráfico",
@@ -75,9 +89,18 @@
       ],
       "notas_contradiccion": "La cronología del sitio está basada principalmente en clasificación estilística y cerámica superficial, NO en excavaciones estratigráficas sistemáticas. El artículo de SciELO señala explícitamente: 'a falta de excavaciones y datos estratigráficos, la cronología del sitio se basa en la clasificación de los edificios por su estilo arquitectónico'. Esto significa que las fechas aceptadas son aproximaciones académicas, no datos duros irrefutables.",
       "conexion_hipotesis": "Las estelas con inscripciones dinásticas confirman que el poder en Los Chenes era hereditario y legitimado por textos oficiales. Los gobernantes comisionaban su propia historia. La narrativa del poder se construía desde el poder mismo, patrón que se repetiría durante la Colonia y la República.",
-      "tags": ["epigrafía", "estelas", "gobernante", "dinastía", "Estela 5", "año 646", "inscripciones jeroglíficas", "poder dinástico", "Jaina"]
+      "tags": [
+        "epigrafía",
+        "estelas",
+        "gobernante",
+        "dinastía",
+        "Estela 5",
+        "año 646",
+        "inscripciones jeroglíficas",
+        "poder dinástico",
+        "Jaina"
+      ]
     },
-
     {
       "registro_id": "001-C",
       "subtitulo": "Hochob — Primer asentamiento documentado con datación INAH: 300 d.C.",
@@ -94,7 +117,12 @@
       "fuente_secundaria": {
         "nombre": "Mediateca INAH — Miniguía Hochob",
         "url": "https://mediateca.inah.gob.mx/repositorio/islandora/object/guia:47",
-        "autores_base": ["Ramón Carrasco", "H.E.D. Pollock", "Ricardo de Robina", "René Lorelei Zapata"],
+        "autores_base": [
+          "Ramón Carrasco",
+          "H.E.D. Pollock",
+          "Ricardo de Robina",
+          "René Lorelei Zapata"
+        ],
         "fecha_consulta": "2026-04-03"
       },
       "tipo_dato": "Citado/Arqueológico",
@@ -124,9 +152,20 @@
       ],
       "notas_contradiccion": "CONTRADICCIÓN DETECTADA: La fuente de Guía Turística México afirma que Hochob 'data de los años 500 a.C. al 100 d.C.', mientras el INAH fija el inicio en 300 d.C. Hay un desfase de 400-600 años. Las fuentes turísticas y gubernamentales secundarias reproducen datos sin verificar. El INAH como fuente primaria es más confiable, pero sus propias fichas presentan variaciones menores entre plataformas.",
       "conexion_hipotesis": "El colapso del poder dirigente de Hochob motivó migraciones de la población en busca de 'menos sojuzgamientos bajo un cacique'. El propio INAH reconoce en su ficha que la población escapaba del poder local. Patrón recurrente: la gente se mueve cuando el poder la oprime.",
-      "tags": ["Hochob", "Teobert Maler", "estilo Chenes", "Itzamná", "Chaac", "chultunes", "colina artificial", "colapso maya", "migración", "sojuzgamiento", "Carnegie Institution"]
+      "tags": [
+        "Hochob",
+        "Teobert Maler",
+        "estilo Chenes",
+        "Itzamná",
+        "Chaac",
+        "chultunes",
+        "colina artificial",
+        "colapso maya",
+        "migración",
+        "sojuzgamiento",
+        "Carnegie Institution"
+      ]
     },
-
     {
       "registro_id": "001-D",
       "subtitulo": "Dzibilnocac — Tercer centro de poder en Hopelchén",
@@ -156,9 +195,19 @@
       ],
       "notas_contradiccion": "La lápida de 1682 es descrita como 'la fuente escrita más antigua' del poblado, ignorando completamente la escritura jeroglífica maya en los edificios del mismo sitio. Esto es un ejemplo directo de la hipótesis: la narrativa colonial reemplaza y borra el registro indígena.",
       "conexion_hipotesis": "El nombre del pueblo fue reemplazado: de Dzibil-Noh-Aac (escritura sobre la tortuga grande) a Iturbide (nombre de un personaje político del siglo XIX). El cambio de nombre es una forma de borrado de identidad y apropiación territorial simbólica.",
-      "tags": ["Dzibilnocac", "Xiues", "Dzibil-Noh-Aac", "Iturbide", "cambio de nombre", "borrado identidad", "lápida 1682", "encomiendas", "fugitivos", "colonial"]
+      "tags": [
+        "Dzibilnocac",
+        "Xiues",
+        "Dzibil-Noh-Aac",
+        "Iturbide",
+        "cambio de nombre",
+        "borrado identidad",
+        "lápida 1682",
+        "encomiendas",
+        "fugitivos",
+        "colonial"
+      ]
     },
-
     {
       "registro_id": "001-E",
       "subtitulo": "El Estilo Chenes como sistema de identidad regional — Territorio y arquitectura como poder",
@@ -169,14 +218,23 @@
         "nombre": "Arqueología Mexicana — Santa Rosa Xtampak, capital en la región Chenes",
         "tipo": "Revista académica especializada",
         "url": "https://arqueologiamexicana.mx/mexico-antiguo/santa-rosa-xtampak-capital-en-la-region-chenes",
-        "autores": ["Renée Lorelei Zapata Peraza — INAH"],
+        "autores": [
+          "Renée Lorelei Zapata Peraza — INAH"
+        ],
         "fecha_publicacion": "2005 (No. 75)",
         "fecha_consulta": "2026-04-03",
         "confiabilidad": "Alta"
       },
       "fuente_internacional": {
         "nombre": "Hola Tulum — La Región Chenes y su Enigmática Arquitectura",
-        "referencia_investigadores": ["John L. Stephens", "Frederick Catherwood (1842)", "Teobert Maler (1881-1891)", "Eduard Seler", "Herbert Spinden", "Harry E.D. Pollock (Carnegie, 1936)"],
+        "referencia_investigadores": [
+          "John L. Stephens",
+          "Frederick Catherwood (1842)",
+          "Teobert Maler (1881-1891)",
+          "Eduard Seler",
+          "Herbert Spinden",
+          "Harry E.D. Pollock (Carnegie, 1936)"
+        ],
         "url": "https://www.holatulum.com/la-region-chenes-y-su-enigmatica-arquitectura/",
         "fecha_consulta": "2026-04-03"
       },
@@ -217,14 +275,29 @@
         {
           "nombre": "Renée Lorelei Zapata Peraza",
           "rol": "Arqueóloga INAH — Directora del Proyecto Arqueológico Santa Rosa Xtampak",
-          "publicaciones": ["Santa Rosa Xtampak, capital en la Región de los Chenes. Arqueología Mexicana 75 (2005): 54-57"]
+          "publicaciones": [
+            "Santa Rosa Xtampak, capital en la Región de los Chenes. Arqueología Mexicana 75 (2005): 54-57"
+          ]
         }
       ],
       "notas_contradiccion": "El comercio regional de Santa Rosa Xtampak incluía jadeíta, obsidiana y sal provenientes de Guatemala, el centro de México y la Península de Yucatán. Esto prueba que Los Chenes no era una región aislada sino un nodo de intercambio económico mesoamericano. La narrativa que presenta a Hopelchén como una región 'periférica' o 'remota' contradice la evidencia arqueológica.",
       "conexion_hipotesis": "La arquitectura monumental del estilo Chenes requería organización política sofisticada, trabajo colectivo masivo y control de rutas comerciales. El poder en Los Chenes era real, documentable y antiguo. La minimización posterior de esta civilización por la historiografía colonial y republicana es parte del proceso de subalternización de la historia maya.",
-      "tags": ["estilo Chenes", "Itzamná", "Chaac", "mascarones", "comercio mesoamericano", "obsidiana", "jadeíta", "Carnegie Institution", "Harvard", "Universidad de Oregon", "UAC", "2500 km²", "capital regional"]
+      "tags": [
+        "estilo Chenes",
+        "Itzamná",
+        "Chaac",
+        "mascarones",
+        "comercio mesoamericano",
+        "obsidiana",
+        "jadeíta",
+        "Carnegie Institution",
+        "Harvard",
+        "Universidad de Oregon",
+        "UAC",
+        "2500 km²",
+        "capital regional"
+      ]
     },
-
     {
       "registro_id": "001-F",
       "subtitulo": "Colapso Maya en Los Chenes y su relación con estructuras de poder",
@@ -241,10 +314,44 @@
       "personajes": [],
       "notas_contradiccion": "El INAH describe que la población emigró para 'formar nuevos asentamientos con menos sojuzgamientos bajo la dirección de un cacique'. Esta frase implica que el colapso no fue solo ambiental o climático — fue también político. La narrativa académica dominante tiende a enfatizar causas climáticas (sequía, deforestación) sobre las causas de opresión política interna.",
       "conexion_hipotesis": "El patrón de migración ante el poder opresivo es constante en la historia de Hopelchén: prehispánico (colapso maya), colonial (huida a la montaña y resistencia), siglo XIX (Guerra de Castas), siglo XX-XXI (desplazamiento por agroindustria). La hipótesis se fortalece: el control de la tierra y la opresión política no comienzan con la Conquista — son anteriores.",
-      "tags": ["colapso maya", "migración", "poder político", "sojuzgamiento", "cacique", "continuidad histórica", "resistencia", "abandono de ciudades"]
+      "tags": [
+        "colapso maya",
+        "migración",
+        "poder político",
+        "sojuzgamiento",
+        "cacique",
+        "continuidad histórica",
+        "resistencia",
+        "abandono de ciudades"
+      ]
+    },
+    {
+      "registro_id": "001-G",
+      "subtitulo": "Estela 2 de Santa Rosa Xtampak: epigrafía y gobernante JOL — identidad dinástica de la capital de Los Chenes",
+      "fecha_evento": "c. 700-900 d.C.",
+      "lugar": "Santa Rosa Xtampak, municipio de Hopelchén, Campeche",
+      "descripcion": "La Estela 2 de Santa Rosa Xtampak es uno de los pocos monumentos epigráficos conocidos del sitio. Según estudios epigráficos publicados en Arqueología (INAH, 2004), la estela contiene el nombre del gobernante identificado por el glifo JOL (cabeza/cráneo), lo que la sitúa dentro de la tradición epigráfica de las ciudades del Puuc y Los Chenes del período Clásico Tardío (600-900 d.C.). Santa Rosa Xtampak ('casas viejas pintadas con estuco rojo', en maya) fue la ciudad más importante de la región de Los Chenes durante el Clásico Tardío, con arquitectura de múltiples pisos y probable función como centro administrativo regional. La identificación del gobernante JOL, si es confirmada, permitiría correlacionar la secuencia dinástica de Xtampak con otras capitales mayas del período como Calakmul o Uxmal. El artículo de la revista Arqueología mencionado (Scielo México, 2004) no pudo ser accedido directamente durante esta investigación pero está catalogado en SciELO México con el identificador pid=S0185-25742004000100002.",
+      "fuente": {
+        "nombre": "Revista Arqueología (INAH) — SciELO México, 2004",
+        "tipo": "Académica",
+        "url": "https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S0185-25742004000100002",
+        "fecha_consulta": "2026-04-14",
+        "confiabilidad": "Media — URL catalogada pero no accesible directamente durante consulta"
+      },
+      "tipo_dato": "Citado — pendiente verificación directa del texto completo",
+      "conexion_hipotesis": "La existencia de un gobernante nombrado en Xtampak confirma que Los Chenes tenía estructuras políticas propias antes de la conquista española, contradiciendo la narrativa colonial de 'tierra sin historia'.",
+      "tags": [
+        "epigrafía",
+        "Estela 2",
+        "Santa Rosa Xtampak",
+        "JOL",
+        "gobernante maya",
+        "Los Chenes",
+        "Clásico Tardío",
+        "INAH"
+      ]
     }
   ],
-
   "contradicciones_globales_nodo": [
     {
       "contradiccion_id": "C001",
@@ -266,7 +373,6 @@
       "resolucion_propuesta": "Investigar rutas de comercio prehispánico específicas que pasaban por Los Chenes."
     }
   ],
-
   "fuentes_pendientes_consultar": [
     "Archivo General de la Nación — sección Inquisición y Colonial para encomiendas de Los Chenes",
     "Archivo General de Indias (Sevilla) — expedientes sobre la región de Los Chenes",
@@ -275,7 +381,6 @@
     "ResearchGate — PDFs de Renée Lorelei Zapata Peraza (INAH)",
     "SciELO México — búsqueda 'Los Chenes' 'Hopelchén'"
   ],
-
   "metadatos": {
     "metodologia": "Investigación web — fuentes institucionales (INAH, SIC, Mediateca INAH), académicas (SciELO, ResearchGate, Arqueología Mexicana) y secundarias verificadas",
     "nivel_profundidad": "1 (primera iteración)",

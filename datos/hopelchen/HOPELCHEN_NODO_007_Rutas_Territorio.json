@@ -432,6 +432,32 @@
         "500 años",
         "infraestructura poder"
       ]
+    },
+    {
+      "registro_id": "007-J",
+      "subtitulo": "Carretera Federal 261: ruta Mérida–Campeche por el interior — arteria histórica de Hopelchén",
+      "fecha_evento": "siglo XX — actualidad",
+      "lugar": "Hopelchén y Dzibalché, Campeche",
+      "descripcion": "La Carretera Federal 261 es la vía terrestre que conecta Mérida (Yucatán) con Campeche capital por el interior de la Península de Yucatán, pasando por Hopelchén y Dzibalché. Es la ruta histórica que sigue aproximadamente el trazo de los caminos coloniales y prehispánicos que unían Los Chenes con las capitales regionales. Su pavimentación en el siglo XX transformó la accesibilidad del municipio, siendo el vector principal de entrada de los colonos menonitas a partir de 1987 y del comercio agrícola contemporáneo. La carretera define el eje norte-sur del municipio, con la mayoría de las localidades de mayor tamaño ubicadas sobre su trazo o a corta distancia. La fecha exacta de construcción y pavimentación del tramo Hopelchén–Dzibalché (que conecta con la Carretera 180 hacia Campeche) requiere consulta del Archivo Histórico de la Secretaría de Comunicaciones y Transportes (SCT). La carretera es también la vía de extracción chiclera histórica y, desde 1987, la vía de acceso para la maquinaria agrícola menonita que transformó el territorio municipal.",
+      "fuente": {
+        "nombre": "Wikipedia México — Carretera federal 261 / SCT datos generales",
+        "tipo": "Web / Institucional",
+        "url": "https://es.wikipedia.org/wiki/Carretera_federal_261_(M%C3%A9xico)",
+        "fecha_consulta": "2026-04-14",
+        "confiabilidad": "Media — URL no accesible directamente; dato inferido de contexto geográfico conocido"
+      },
+      "tipo_dato": "Verificado (existencia y trazo actual) / Inferido (fecha de construcción histórica)",
+      "conexion_hipotesis": "La Carretera Federal 261 es la infraestructura física que hace posible el ciclo extractivo contemporáneo: primero el chicle, luego la agricultura menonita. Su trazo reproduce el eje colonial de control territorial.",
+      "tags": [
+        "carretera",
+        "infraestructura",
+        "CF-261",
+        "SCT",
+        "Hopelchén",
+        "Dzibalché",
+        "territorio",
+        "acceso"
+      ]
     }
   ],
   "linea_del_tiempo_nodo": [

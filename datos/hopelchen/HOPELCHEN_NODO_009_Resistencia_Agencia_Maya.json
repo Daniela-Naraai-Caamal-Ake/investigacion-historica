@@ -380,6 +380,31 @@
         "1995",
         "Hopelchén"
       ]
+    },
+    {
+      "registro_id": "009-K",
+      "subtitulo": "Juan de Dios May después del ataque a Hopelchén (1847): destino del líder maya de la Guerra de Castas en Los Chenes",
+      "fecha_evento": "1847 — c.1850",
+      "lugar": "Hopelchén — región oriental de Yucatán",
+      "descripcion": "Juan de Dios May fue uno de los líderes militares mayas que participó en el ataque a Hopelchén durante el inicio de la Guerra de Castas (1847-1848). Hopelchén fue uno de los primeros municipios afectados por el levantamiento, siendo atacado en 1847. El destino específico de Juan de Dios May después de los ataques iniciales no está documentado en las fuentes digitales accesibles consultadas durante esta investigación. La historiografía de la Guerra de Castas (Reed 1964, Rugeley 1996, Sullivan 1989) registra numerosos líderes mayas pero no siempre los diferencia por localidad de origen. May es un apellido maya muy común en Yucatán y Campeche; puede haber múltiples líderes con ese apellido en la documentación de la época. Para rastrear a Juan de Dios May específicamente se requiere consulta del Archivo General del Estado de Yucatán (AGEY) — Fondo Poder Ejecutivo, Sección Milicia (1847-1855) y el Archivo Histórico del Obispado de Yucatán.",
+      "fuente": {
+        "nombre": "Historiografía de la Guerra de Castas — Reed, Nelson (1964); Rugeley, Terry (1996)",
+        "tipo": "Académica",
+        "url": "pendiente — consulta AGEY",
+        "fecha_consulta": "2026-04-14",
+        "confiabilidad": "Baja — dato no verificado en fuente primaria directa"
+      },
+      "tipo_dato": "Inferido — requiere investigación en archivo",
+      "conexion_hipotesis": "Juan de Dios May representa la resistencia armada maya de Hopelchén — si su destino puede rastrearse, permitiría documentar el continuismo de la agencia política maya desde 1847 hasta las organizaciones contemporáneas.",
+      "tags": [
+        "Juan de Dios May",
+        "Guerra de Castas",
+        "1847",
+        "resistencia maya",
+        "Hopelchén",
+        "líderes mayas",
+        "AGEY"
+      ]
     }
   ],
   "linea_del_tiempo_nodo": [
