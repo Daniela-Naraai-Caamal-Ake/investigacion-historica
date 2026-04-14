@@ -5,9 +5,7 @@
   "nodo_origen": "003 — Colonia Tardía, Independencia, Guerra de Castas y el Porfiriato (1670–1910)",
   "fecha_generacion": "2026-04-03",
   "estado": "Activo — pendiente de investigación",
-
   "preguntas_urgentes": [
-
     {
       "pregunta_id": "P003-01",
       "pregunta": "¿Cuándo y cómo adquirió Pedro Advíncula Lara las haciendas Holcatzin y Santa Rita, y los ranchos Boxol y Ucuchil? ¿Fueron adquisiciones post-Guerra de Castas aprovechando tierras despobladas o baratas?",
@@ -20,9 +18,9 @@
         "Periódico Oficial del Estado de Campeche — archivo histórico: periodicooficial.campeche.gob.mx"
       ],
       "prioridad": "URGENTE",
-      "conexion_hipotesis": "Es el caso más directo de confirmación del patrón: poder político + propiedad de tierra en la misma persona en Hopelchén."
+      "conexion_hipotesis": "Es el caso más directo de confirmación del patrón: poder político + propiedad de tierra en la misma persona en Hopelchén.",
+      "estado": "PENDIENTE"
     },
-
     {
       "pregunta_id": "P003-02",
       "pregunta": "¿Qué tierras específicas en el municipio de Hopelchén fueron adquiridas por compañías deslindadoras durante el Porfiriato? ¿Cuáles eran los nombres de esas compañías y quiénes eran sus accionistas?",
@@ -35,9 +33,9 @@
         "AGEY (Archivo General del Estado de Yucatán) — si hay registros de propiedades en zona limítrofe"
       ],
       "prioridad": "Alta",
-      "conexion_hipotesis": "Las compañías deslindadoras son el mecanismo de la globalización porfiriana para transferir tierras indígenas a capital extranjero. En Los Chenes, esta transferencia fue ejecutada por empresas como 'Mexican Exploitation'."
+      "conexion_hipotesis": "Las compañías deslindadoras son el mecanismo de la globalización porfiriana para transferir tierras indígenas a capital extranjero. En Los Chenes, esta transferencia fue ejecutada por empresas como 'Mexican Exploitation'.",
+      "estado": "PENDIENTE"
     },
-
     {
       "pregunta_id": "P003-03",
       "pregunta": "¿Qué dice la publicación 'Recordaciones Históricas' de Joaquín Baranda sobre Hopelchén? ¿Qué omite? ¿Menciona la Guerra de Castas en Los Chenes?",
@@ -49,9 +47,9 @@
         "Biblioteca Pública de Mérida"
       ],
       "prioridad": "Alta",
-      "conexion_hipotesis": "La historia oficial de Campeche fue escrita por el político más poderoso de la región durante el Porfiriato. Analizar qué dice sobre los mayas de Los Chenes es analizar cómo el poder construye su propia narrativa."
+      "conexion_hipotesis": "La historia oficial de Campeche fue escrita por el político más poderoso de la región durante el Porfiriato. Analizar qué dice sobre los mayas de Los Chenes es analizar cómo el poder construye su propia narrativa.",
+      "estado": "PENDIENTE"
     },
-
     {
       "pregunta_id": "P003-04",
       "pregunta": "¿Qué pasó con las concesiones de 320 acres prometidas a los 938 soldados mercenarios estadounidenses contratados en 1848 para combatir a los mayas rebeldes?",
@@ -63,9 +61,9 @@
         "Nelson Reed — La Guerra de Castas de Yucatán (libro académico clave)"
       ],
       "prioridad": "Media-Alta",
-      "conexion_hipotesis": "Si las concesiones de tierra a mercenarios extranjeros se ejecutaron en territorio de Los Chenes, habría propiedades con origen en la violencia armada de 1848 que luego pasarían a ser 'legítimas' bajo el registro porfiriano."
+      "conexion_hipotesis": "Si las concesiones de tierra a mercenarios extranjeros se ejecutaron en territorio de Los Chenes, habría propiedades con origen en la violencia armada de 1848 que luego pasarían a ser 'legítimas' bajo el registro porfiriano.",
+      "estado": "PENDIENTE"
     },
-
     {
       "pregunta_id": "P003-05",
       "pregunta": "¿Existen documentos sobre los apellidos de los líderes mayas de la Guerra de Castas que operaron en Los Chenes (Poot, Pec, Chin, Tzeel, Novelo, Caamal, Hau, May)? ¿Persisten estos apellidos en Hopelchén hoy? ¿Hay descendientes documentables?",
@@ -77,9 +75,9 @@
         "Testimonios orales — comunidades mayas de Los Chenes"
       ],
       "prioridad": "Media",
-      "conexion_hipotesis": "La supervivencia de apellidos de líderes de resistencia en Hopelchén sería evidencia de que el linaje maya no fue eliminado — sigue presente, aunque invisibilizado por la narrativa dominante."
+      "conexion_hipotesis": "La supervivencia de apellidos de líderes de resistencia en Hopelchén sería evidencia de que el linaje maya no fue eliminado — sigue presente, aunque invisibilizado por la narrativa dominante.",
+      "estado": "PENDIENTE"
     },
-
     {
       "pregunta_id": "P003-06",
       "pregunta": "¿Qué datos específicos sobre Los Chenes contiene el estudio de Ute Schüren (2013) del Ibero-Amerikanisches Institut de Berlín?",
@@ -90,9 +88,10 @@
         "Ibero-Amerikanisches Institut, Berlín — contacto directo para otros trabajos sobre la región"
       ],
       "prioridad": "Alta — fuente internacional específica sobre Los Chenes",
-      "conexion_hipotesis": "Las universidades alemanas (Ibero-Amerikanisches Institut, Freie Universität) tienen investigación específica sobre Hopelchén que no está disponible en fuentes mexicanas. Esta es una de las fuentes internacionales clave identificadas en la metodología del proyecto."
+      "conexion_hipotesis": "Las universidades alemanas (Ibero-Amerikanisches Institut, Freie Universität) tienen investigación específica sobre Hopelchén que no está disponible en fuentes mexicanas. Esta es una de las fuentes internacionales clave identificadas en la metodología del proyecto.",
+      "estado": "RESPONDIDA PARCIALMENTE — registro 003-L: Schüren 2013 documenta 11 haciendas, 116 ranchos, ~26,000 hab. en 1846; Redalyc id 247029853011; texto completo pendiente acceso.",
+      "registro_respuesta": "003-L"
     },
-
     {
       "pregunta_id": "P003-07",
       "pregunta": "¿Qué política educativa aplicó Joaquín Baranda como Ministro (1882-1901) en Campeche y Yucatán respecto a las comunidades mayas? ¿Se impartió educación en maya? ¿Se prohibió?",
@@ -104,11 +103,10 @@
         "Blogs y documentos pedagógicos: congresospedagogicos.blogspot.com"
       ],
       "prioridad": "Media",
-      "conexion_hipotesis": "La 'educación negada como clave de manipulación' es uno de los ejes del proyecto. Si bajo Baranda la educación llegó a Los Chenes en forma castellanizante y negadora de la identidad maya, eso es evidencia directa del mecanismo de control ideológico."
+      "conexion_hipotesis": "La 'educación negada como clave de manipulación' es uno de los ejes del proyecto. Si bajo Baranda la educación llegó a Los Chenes en forma castellanizante y negadora de la identidad maya, eso es evidencia directa del mecanismo de control ideológico.",
+      "estado": "PENDIENTE"
     }
-
   ],
-
   "hallazgos_para_nodo_004": [
     {
       "hallazgo": "Wikipedia sobre Hopelchén: 'la clase hacendaria asentada en Hopelchén causó que tras la Revolución mexicana fuera uno de los principales focos de lucha antiagraria, aunque esta sería finalmente derrotada'. ESTO ES EL PUNTO DE PARTIDA DEL NODO 004.",
@@ -127,9 +125,7 @@
       "implicacion": "La geografía inaccesible de Los Chenes fue un factor de protección para las comunidades mayas. La deforestación actual (menonitas, agroindustria) elimina esa protección natural."
     }
   ],
-
   "siguiente_nodo_sugerido": "NODO 004 — Revolución, Lucha Antiagraria, Reforma Agraria y Economía Chiclera en Hopelchén (1910–1970)",
-
   "metadatos": {
     "generado_desde": "HOPELCHEN_NODO_003_ColoniaTardia_Porfiriato.json",
     "fecha": "2026-04-03",

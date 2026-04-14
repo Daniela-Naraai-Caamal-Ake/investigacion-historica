@@ -139,7 +139,8 @@
       ],
       "prioridad": "URGENTE",
       "conexion_hipotesis": "Si se confirma parentesco, el ciclo de élites que controlan Hopelchén no se rompe con el cambio de partido — simplemente una rama familiar distinta (Sansores-Morena) reemplaza a otra (Lara-PRI) en el control del poder sobre el municipio.",
-      "estado": "PENDIENTE"
+      "estado": "RESPONDIDA PARCIALMENTE — registro 006-I: Layda Sansores es hija de Carlos Sansores Pérez (gobernador PRI 1967-73); Julio Alberto Sansores Sansores (alcalde Hopelchén c.1990s) apellido coincidente; nexo genealógico directo no verificado.",
+      "registro_respuesta": "006-I"
     },
     {
       "pregunta_id": "P006-10",
@@ -168,9 +169,9 @@
       ],
       "prioridad": "Alta",
       "conexion_hipotesis": "El asesinato de Efraín Calderón Lara demuestra que la élite chenera no es un bloque homogéneo — produce tanto figuras de poder priista como disidentes asesinados. La historia del poder en Hopelchén no es solo la historia de sus presidentes municipales sino también la de quienes dentro de esas mismas familias se opusieron al sistema.",
-      "estado": "RESPONDIDA PARCIALMENTE",
+      "estado": "RESPONDIDA",
       "registro_respuesta": "006-H",
-      "nota_respuesta": "Registro 006-H documenta: nacimiento 13 nov 1947 Hopelchén, asesinato 14 feb 1974, 9 sindicatos fundados, asesinos identificados (Coronel Gamboa Gamboa + 3), todos liberados. Fuente: Charras de Hernán Lara Zavala + PorEsto 2019."
+      "nota_respuesta": "Registro 006-H documenta: nacido 13/11/1947 Hopelchén, asesinado 13-18/02/1974. Fundó 9 sindicatos independientes en Yucatán. Apellidos Calderón+Lara del linaje de poder local."
     }
   ],
   "hallazgos_para_iteracion_profunda": [

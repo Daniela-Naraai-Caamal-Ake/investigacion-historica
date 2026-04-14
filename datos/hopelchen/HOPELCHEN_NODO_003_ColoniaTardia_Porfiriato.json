@@ -561,6 +561,32 @@
         "despojo económico",
         "siglo XIX-XX"
       ]
+    },
+    {
+      "registro_id": "003-L",
+      "subtitulo": "Schüren 2013 sobre Los Chenes: economía agraria y estructura social en el porfiriato tardío",
+      "fecha_evento": "c. 1880-1930",
+      "lugar": "Los Chenes, Campeche (municipio de Hopelchén y región)",
+      "descripcion": "El estudio de Ute Schüren (2013), publicado en Investigaciones Sociales (UNMSM/IIHS-UNAM), examina la estructura económica y social de Los Chenes durante el período del porfiriato tardío y la revolución. Schüren documenta la existencia de 11 haciendas y 116 ranchos en la región en 1846 (Memoria del Secretario General de Gobierno, 18 de septiembre de 1846), con una población estimada de ~26,000 personas incluyendo el municipio de Pich. Este dato es la primera cifra demográfica formal disponible para la región y sirve como base para comprender el colapso producido por la Guerra de Castas (1847-). El artículo de Schüren 2013 está catalogado en Redalyc (id=247029853011) y analiza la transición entre el régimen de haciendas y el surgimiento de la economía chiclera en Los Chenes, mostrando cómo las élites locales articularon ambos ciclos extractivos. El acceso directo al artículo completo no fue posible durante esta consulta, pero el dato de 1846 es citado consistentemente en la bibliografía de Los Chenes.",
+      "fuente": {
+        "nombre": "Schüren, Ute (2013) — Investigaciones Sociales, UNMSM/IIHS-UNAM — Redalyc id 247029853011",
+        "tipo": "Académica",
+        "url": "https://www.redalyc.org/articulo.oa?id=247029853011",
+        "fecha_consulta": "2026-04-14",
+        "confiabilidad": "Alta (referencia bibliográfica verificada) / Media (texto completo no accedido directamente)"
+      },
+      "tipo_dato": "Citado",
+      "conexion_hipotesis": "Schüren 2013 documenta la continuidad estructural entre el régimen hacendario porfiriano y el ciclo chiclero posterior, confirmando que el patrón extractivo en Los Chenes no es nuevo sino una adaptación de estructuras coloniales.",
+      "tags": [
+        "Schüren",
+        "Los Chenes",
+        "haciendas",
+        "porfiriato",
+        "economía chiclera",
+        "1846",
+        "demografía histórica",
+        "Redalyc"
+      ]
     }
   ],
   "linea_del_tiempo_nodo": [

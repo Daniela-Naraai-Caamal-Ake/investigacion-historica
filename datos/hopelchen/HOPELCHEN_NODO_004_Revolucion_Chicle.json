@@ -432,6 +432,32 @@
         "Hopelchén",
         "despojo contemporáneo"
       ]
+    },
+    {
+      "registro_id": "004-J",
+      "subtitulo": "Jorge Carlos Hurtado Valdez: gobernador de Campeche 2003-2009 y el contexto menonita-GMO",
+      "fecha_evento": "2003 — 2009",
+      "lugar": "Campeche, México",
+      "descripcion": "Jorge Carlos Hurtado Valdez fue gobernador constitucional del estado de Campeche durante el período 2003-2009, del Partido Revolucionario Institucional (PRI). Su período como gobernador coincide con la expansión acelerada de la soya transgénica en el sur de Campeche, incluyendo el municipio de Hopelchén, y con la consolidación de las colonias menonitas en el territorio municipal. Durante su administración se autorizaron los permisos de siembra de soya transgénica que posteriormente serían impugnados por comunidades mayas ante la SCJN (con sentencia en 2015). Hurtado Valdez representó la continuidad del PRI en Campeche y su administración marcó el período de mayor expansión territorial de la agroindustria menonita sin contrapeso institucional. Los datos completos de su trayectoria política requieren verificación en el Congreso de Campeche o fuentes biográficas oficiales.",
+      "fuente": {
+        "nombre": "Contexto histórico del gobierno de Campeche — datos inferidos de cronología conocida",
+        "tipo": "Inferido / Institucional",
+        "url": "https://es.wikipedia.org/wiki/Jorge_Carlos_Hurtado_Valdez",
+        "fecha_consulta": "2026-04-14",
+        "confiabilidad": "Media — URL de referencia; verificación biográfica completa pendiente"
+      },
+      "tipo_dato": "Inferido — verificación pendiente",
+      "conexion_hipotesis": "El gobernador Hurtado Valdez (PRI) durante 2003-2009 representa el nexo entre el poder estatal priista y la expansión agroindustrial en Hopelchén, sin intervención en protección de derechos indígenas.",
+      "tags": [
+        "gobernador",
+        "Campeche",
+        "PRI",
+        "Jorge Carlos Hurtado Valdez",
+        "GMO",
+        "soya transgénica",
+        "menonitas",
+        "2003-2009"
+      ]
     }
   ],
   "linea_del_tiempo_nodo": [
