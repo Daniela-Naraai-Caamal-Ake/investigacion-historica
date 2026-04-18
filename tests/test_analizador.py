@@ -746,14 +746,16 @@ class TestExportarCsv(unittest.TestCase):
     def test_contiene_datos(self):
         ruta = os.path.join(self.directorio_temp, "salida.csv")
         exportar_csv(EVENTOS_PRUEBA, ruta)
-        contenido = open(ruta, encoding="utf-8").read()
+        with open(ruta, encoding="utf-8") as f:
+            contenido = f.read()
         self.assertIn("Independencia de México", contenido)
 
     def test_lista_convertida_a_cadena(self):
         elementos = [{"id": "1", "personajes": ["Hidalgo", "Allende"]}]
         ruta = os.path.join(self.directorio_temp, "lista.csv")
         exportar_csv(elementos, ruta)
-        contenido = open(ruta, encoding="utf-8").read()
+        with open(ruta, encoding="utf-8") as f:
+            contenido = f.read()
         self.assertIn("Hidalgo", contenido)
 
     def test_error_lista_vacia(self):
@@ -838,7 +840,8 @@ class TestAnalizadorNuevosFlags(unittest.TestCase):
             ruta_ret = self.analizador.exportar_resultados_md(resumenes, args, ruta_out)
         self.assertTrue(os.path.exists(ruta_out))
         self.assertEqual(ruta_ret, ruta_out)
-        contenido = open(ruta_out, encoding="utf-8").read()
+        with open(ruta_out, encoding="utf-8") as f:
+            contenido = f.read()
         self.assertIn("Prueba", contenido)
         self.assertIn("Exportación", contenido)
 
