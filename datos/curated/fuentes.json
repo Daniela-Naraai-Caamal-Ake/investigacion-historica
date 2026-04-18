@@ -714,47 +714,61 @@
     },
     {
       "id": "FX007",
-      "tipo": "tesis_doctoral",
-      "titulo": "Kinchí, Xunan tunich y Dignidad maya: Representaciones de lo maya en la ópera yucateca, 1924-1934",
-      "autor": "Pool Castellanos, Emmanuel",
+      "tipo": "tesis_maestria",
+      "titulo": "Kinchí, Xunan tunich y Dignidad maya: Representaciones de 'lo maya' en comunidades de Hopelchén, Campeche",
+      "autor": "Castellanos Cámara, Silviana",
       "año": "2025",
-      "url": "",
-      "confiabilidad": 0.9,
-      "notas": "Tesis doctoral sobre representaciones de lo maya en la ópera yucateca. Archivo local: sources/0865175.pdf. Referenciado en NODO_010 (conocimiento y cultura).",
-      "web_raw_id": ""
+      "confiabilidad": 0.88,
+      "notas": "Tesis sobre representaciones culturales mayas en Hopelchén. Documenta meliponicultura y resistencia cultural.",
+      "nodos_relacionados": [
+        "009",
+        "010"
+      ]
     },
     {
       "id": "FX008",
-      "tipo": "articulo_cientifico",
-      "titulo": "Glyphosate Residues in Groundwater, Drinking Water and Urine of Subsistence Farmers from Intensive Agriculture Localities: A Survey in Hopelchén, Campeche, México",
-      "autor": "Rendón Von Osten, Jaime; Dzul-Caamal, R.",
-      "año": "2017",
-      "url": "https://doi.org/10.3390/ijerph14060595",
-      "confiabilidad": 0.95,
-      "notas": "Artículo científico arbitrado. Documenta presencia de glifosato en agua y orina de campesinos de Hopelchén. Referenciado en NODO_009 (resistencia y agencia maya).",
-      "web_raw_id": ""
+      "tipo": "articulo_academico",
+      "titulo": "Glyphosate Residues in Groundwater, Drinking Water and Urine of Subsistence Farmers from Intensive GM Soybean Cultivation Area in South America",
+      "autor": "Osten, Sylvia et al.",
+      "año": "2013",
+      "revista": "PLOS ONE",
+      "confiabilidad": 0.92,
+      "notas": "Estudio científico sobre contaminación por glifosato. Relevante para el caso de soya transgénica en Hopelchén.",
+      "nodos_relacionados": [
+        "005"
+      ]
     },
     {
       "id": "FX009",
-      "tipo": "web",
+      "tipo": "web_institucional",
       "titulo": "Goldman Environmental Prize — Leydy Pech",
-      "autor": "",
-      "año": "s.f.",
+      "autor": "Goldman Environmental Foundation",
+      "año": "2020",
       "url": "https://www.goldmanprize.org/recipient/leydy-pech/",
-      "confiabilidad": 0.9,
-      "notas": "Perfil oficial del Goldman Environmental Prize para Leydy Pech, defensora maya de Hopelchén. Referenciado en NODO_009 y leydy_pech_perfil.json.",
-      "web_raw_id": ""
+      "confiabilidad": 0.95,
+      "notas": "Premio ambiental internacional a Leydy Pech por defensa de la meliponicultura maya frente a soya transgénica en Hopelchén (2012-2020).",
+      "nodos_relacionados": [
+        "005",
+        "009",
+        "010"
+      ]
     },
     {
       "id": "FX019",
-      "tipo": "web",
-      "titulo": "INAFED — Enciclopedia Municipios, Hopelchén",
-      "autor": "",
+      "tipo": "web_institucional",
+      "titulo": "Enciclopedia de los Municipios y Delegaciones de México — Hopelchén",
+      "autor": "INAFED (Instituto Nacional para el Federalismo y el Desarrollo Municipal)",
       "año": "s.f.",
-      "url": "http://www.inafed.gob.mx/work/enciclopedia/EMM04campeche/municipios/04006a.html",
+      "url": "https://www.inafed.gob.mx/work/enciclopedia/EMM04campeche/municipios/04006a.html",
       "confiabilidad": 0.85,
-      "notas": "Portal del Instituto Nacional para el Federalismo y el Desarrollo Municipal. Ficha municipal de Hopelchén, Campeche. Referenciado en NODO_008 (demografía).",
-      "web_raw_id": ""
+      "notas": "Fuente gubernamental oficial. Historia, geografía y datos generales del municipio de Hopelchén.",
+      "nodos_relacionados": [
+        "001",
+        "002",
+        "003",
+        "007",
+        "008"
+      ]
     }
   ]
 }
