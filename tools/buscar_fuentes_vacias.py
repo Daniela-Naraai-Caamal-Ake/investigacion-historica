@@ -10,8 +10,7 @@ que respalden cada registro.
 Uso:
     python tools/buscar_fuentes_vacias.py            # Busca en todos los registros sin fuente
     python tools/buscar_fuentes_vacias.py --parchear # También agrega fuentes_candidatas al JSON
-    python tools/buscar_fuentes_vacias.py --seco --permitir-busqueda-local
-                                                   # Solo detecta vacíos, sin búsqueda web
+    python tools/buscar_fuentes_vacias.py --seco     # Solo detecta vacíos, sin búsqueda web
     python tools/buscar_fuentes_vacias.py --nodo 004 # Solo procesa el nodo especificado
 
 Fuentes consultadas:
@@ -26,9 +25,8 @@ Configuración de Firecrawl:
     Si no se configura la clave, el motor Firecrawl se omite silenciosamente.
 
 Diagnóstico de red:
-    Antes de buscar, el script valida resolución DNS hacia hosts externos clave
-    (Wikipedia, OpenLibrary, DuckDuckGo y Firecrawl). Si no hay DNS saliente,
-    aborta para evitar una ejecución "local" sin datos nuevos.
+    Al iniciar, el script reporta qué hosts externos resuelven por DNS.
+    El diagnóstico es informativo; errores de DNS no detienen la ejecución.
 
 Salidas:
     datos/investigacion/fuentes_vacias_YYYYMMDD.json
@@ -856,14 +854,6 @@ def main() -> int:
         ),
     )
     parser.add_argument(
-        "--permitir-busqueda-local",
-        action="store_true",
-        help=(
-            "Permite usar --seco (modo local de diagnóstico). "
-            "Por defecto se exige búsqueda web externa."
-        ),
-    )
-    parser.add_argument(
         "--nodo",
         metavar="ID",
         help="Procesa únicamente el nodo con el ID especificado (ej: 004, 006).",
@@ -879,13 +869,6 @@ def main() -> int:
 
     if not args.seco:
         _verificar_dependencias()
-    elif not args.permitir_busqueda_local:
-        print(
-            "\n❌  Modo local (--seco) deshabilitado para esta tarea.\n"
-            "    Usa búsqueda web externa para obtener datos nuevos.\n"
-            "    Si necesitas diagnóstico local, agrega --permitir-busqueda-local.\n"
-        )
-        return 2
 
     print(f"\n{'=' * 65}")
     print("   BÚSQUEDA DE FUENTES — Registros sin fuente")
@@ -896,8 +879,8 @@ def main() -> int:
     if not args.seco:
         diag_red = _diagnosticar_red_externa()
         _imprimir_diagnostico_red(diag_red)
-        if not diag_red.get("acceso_dns_externo"):
-            return 2
+        # El diagnóstico DNS es informativo; la búsqueda continúa aunque algún
+        # host no resuelva (los errores de conexión se manejan por búsqueda).
 
     # ── Paso 1: Detectar registros sin fuente ────────────────────────────────
     print("── Paso 1: Detectando registros sin campo de fuente…")
