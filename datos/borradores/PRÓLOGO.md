@@ -51,16 +51,16 @@ Y con la pregunta que no cambia: ¿por qué los grandes de este municipio han si
 
 ## Lo que encontrarás aquí
 
-Archivo Vivo documenta la historia de Hopelchén —el municipio, la región de Los Chenes, sus personas, sus apellidos, sus guerras, sus músicos, sus traficantes, sus poetas, sus borrados, sus tierras— a través de entradas organizadas en ocho bloques:
+Archivo Vivo documenta la historia de Hopelchén —el municipio, la región de Los Chenes, sus personas, sus apellidos, sus guerras, sus músicos, sus traficantes, sus poetas, sus borrados, sus tierras— a través de entradas organizadas en bloques. Los dos primeros están en marcha; el resto es el camino que queda por recorrer:
 
-**A — Los orígenes mayas y la arqueología de Los Chenes**
-**B — Los personajes que el municipio olvidó**
-**C — El poder y sus apellidos**
-**D — La tierra: deforestación, menonitas, Leydy Pech**
-**E — La educación**
-**F — La prensa**
-**G — La actualidad**
-**H — Los que llegaron de afuera**
+**A — Los orígenes mayas y la arqueología de Los Chenes** *(en curso)*
+**B — Los personajes que el municipio olvidó** *(en curso)*
+**C — El poder y sus apellidos** *(pendiente)*
+**D — La tierra: deforestación, menonitas, Leydy Pech** *(pendiente)*
+**E — La educación** *(pendiente)*
+**F — La prensa** *(pendiente)*
+**G — La actualidad** *(pendiente)*
+**H — Los que llegaron de afuera** *(pendiente)*
 
 Cada entrada tiene fuentes verificables. Cada dato tiene origen documentado. Cada reflexión personal está marcada como tal, separada de la evidencia histórica.
 

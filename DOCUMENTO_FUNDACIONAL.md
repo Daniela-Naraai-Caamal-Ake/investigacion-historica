@@ -83,7 +83,7 @@ Siempre que sea posible, la investigación trabaja con documentos originales: ac
 Cada dato tiene un ID de fuente (`F001`, `F012`, etc.) registrado en [`fuentes/catalogo_fuentes.md`](fuentes/catalogo_fuentes.md). Cada bloque histórico indica de dónde viene. El objetivo es que cualquier afirmación de este proyecto sea rastreable hasta su origen.
 
 **5.3 Organización por nodos temáticos**  
-La historia no es lineal. Por eso el proyecto está organizado en 8 nodos temáticos que pueden leerse en paralelo: ocupación territorial, conquista, colonia, revolución, período contemporáneo, poder político, rutas y demografía. Cada nodo tiene su propia línea de tiempo, pero todos están conectados por la hipótesis central.
+La historia no es lineal. Por eso el proyecto está organizado en nodos temáticos que pueden leerse en paralelo: al inicio eran 8 (ocupación territorial, conquista, colonia, revolución, período contemporáneo, poder político, rutas y demografía); a medida que la investigación avanzó se sumaron dos nodos más (resistencia maya y conocimiento/cultura maya), llegando a 10. Cada nodo tiene su propia línea de tiempo, pero todos están conectados por la hipótesis central.
 
 **5.4 Registro de los vacíos**  
 Lo que no se sabe es tan importante como lo que se sabe. El archivo [`datos/VACIOS.md`](datos/VACIOS.md) documenta todas las preguntas abiertas con su estado y prioridad. Un vacío registrado es un vacío que puede ser llenado.
@@ -98,7 +98,7 @@ Todas las fuentes bibliográficas siguen el formato Chicago: `Apellido, Nombre. 
 
 ## 6. El libro como destino
 
-El resultado de esta investigación es *Dos Mil Años en Silencio*, un libro organizado en 21 capítulos que recorre la historia de Hopelchén desde aproximadamente 300 a.C. hasta 2026.
+El resultado de esta investigación es *Dos Mil Años en Silencio*, un libro que al comenzar el proyecto tenía una estructura provisional de 21 capítulos. A medida que la investigación avanzó, surgieron nuevos nodos temáticos, nuevos personajes y nuevas conexiones — el libro creció. La estructura actual está en [`datos/borradores/INDICE_LIBRO.md`](datos/borradores/INDICE_LIBRO.md).
 
 La decisión de escribir un libro —no un artículo, no un blog, no una tesis— fue deliberada. Un libro es la forma más accesible de devolver esta historia al lugar donde ocurrió. Es algo que puede estar en una biblioteca municipal, en una escuela, en casa de alguien que también se preguntó por qué no existía.
 
@@ -108,15 +108,21 @@ Si este proyecto termina siendo ese libro, habrá cumplido su propósito.
 
 ## 7. Registro de inicio
 
-| Campo | Valor |
+*Este es el punto cero — los números y estructuras aquí son los del momento de arranque.
+El proyecto creció: ver [`datos/borradores/INDICE_LIBRO.md`](datos/borradores/INDICE_LIBRO.md)
+para el estado editorial actual.*
+
+| Campo | Valor al inicio (marzo 2026) |
 |---|---|
 | **Fecha de inicio** | Marzo 2026 |
 | **Motivación declarada** | Vacío bibliográfico sobre Hopelchén / gusto por la lectura e historia local |
 | **Hipótesis inicial** | "La historia de Hopelchén ha sido ocultada sistemáticamente" |
-| **Hipótesis actual** | Ver [`HIPOTESIS.md`](HIPOTESIS.md) v4 |
-| **Nodos documentados** | 8 (001–008) |
+| **Hipótesis actual** | Ver [`HIPOTESIS.md`](HIPOTESIS.md) — versión operativa v5 |
+| **Nodos al inicio** | 8 (001–008) |
+| **Nodos actuales** | 10 (001–010, sumados Resistencia Maya y Conocimiento/Cultura) |
+| **Capítulos al inicio** | 21 planificados |
+| **Capítulos actuales** | 24 escritos + ~6 sin iniciar — ver índice |
 | **Fuentes catalogadas** | Ver [`fuentes/catalogo_fuentes.md`](fuentes/catalogo_fuentes.md) |
-| **Producto final esperado** | Libro: *Dos Mil Años en Silencio* (21 capítulos) |
 | **Estado del proyecto** | En curso — archivo vivo |
 
 ---
