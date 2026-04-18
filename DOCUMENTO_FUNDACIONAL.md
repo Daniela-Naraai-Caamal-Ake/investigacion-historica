@@ -1,130 +1,176 @@
-# Documento Fundacional — *Dos Mil Años en Silencio*
-### Investigación histórica de Hopelchén y la región de Los Chenes, Campeche
+# Documento Fundacional
+### Sistema de información histórica sobre Hopelchén y la región de Los Chenes, Campeche
 
 > Autora: Daniela Naraai Caamal Ake  
-> Fecha de apertura: 2026  
-> Estado: documento vivo — registro del punto de origen
+> Proyecto: *Dos Mil Años en Silencio*  
+> Estado: documento vivo — marco conceptual inicial  
+> DOI: https://doi.org/10.5281/zenodo.19140910
 
 ---
 
-## 1. Por qué empezó esto
+## 1. Punto de partida
 
-Crecí con Hopelchén adentro. No de la manera abstracta en que uno dice que ama su pueblo, sino de la manera concreta en que uno busca un libro que explique lo que tiene enfrente y no lo encuentra.
+Desde su origen, el proyecto reconoce que la información histórica no se presenta de forma unificada ni uniforme. Por el contrario, existe distribuida entre múltiples tipos de fuentes —documentales, académicas, institucionales, digitales y de memoria oral— producidas en distintos momentos, con propósitos diversos y bajo marcos interpretativos no compatibles entre sí.
 
-Desde pequeña supe que algo en la historia de este municipio no estaba escrito. Había relatos en la familia, anécdotas en la plaza, frases sueltas que los mayores dejaban caer sin terminar. Pero no había un libro. No uno solo, consistente, que tomara la historia de Hopelchén desde sus raíces mayas hasta el presente y la contara como merece ser contada: con rigor, con fuentes, con el peso completo de dos mil años.
-
-Mi gusto por la lectura llegó antes que esta investigación. Leí historia de México, historia maya, crónicas coloniales, teoría política. Y cada vez que terminaba un libro sobre Campeche o la región Chenes, la misma pregunta aparecía: *¿por qué Hopelchén no está aquí?* ¿Por qué aparece solo como dato geográfico o nota al pie, nunca como protagonista?
-
-Ese vacío es el origen de este proyecto.
+Este documento no describe una implementación técnica ni un sistema concluido. Su propósito es definir el marco estructural inicial que permitirá, posteriormente, diseñar un sistema coherente con la naturaleza del problema planteado.
 
 ---
 
-## 2. El vacío bibliográfico
+## 2. Planteamiento del problema
 
-No existe, hasta donde he podido documentar, un libro de historia comprehensivo dedicado a Hopelchén y la región de Los Chenes que abarque:
+El problema central que motiva este proyecto no es la inexistencia de información histórica, sino su **dispersión estructural**. La información disponible sobre un mismo territorio suele encontrarse fragmentada, desarticulada y organizada bajo criterios incompatibles, lo que dificulta su análisis comparativo y su comprensión como conjunto.
 
-- La ocupación prehispánica con referencia a los sitios arqueológicos propios de la región (Hochob, Dzibilnocac, Santa Rosa Xtampak)
-- La conquista española en este territorio específico y sus consecuencias sobre las estructuras de poder locales
-- El período colonial tardío y las haciendas
-- La Guerra de Castas y su impacto real en la región de Los Chenes
-- El ciclo chiclero como economía política
-- El siglo XX y la transición al municipio contemporáneo
-- El conflicto agrario menonita-maya como hilo vivo hasta hoy
+Las estructuras tradicionales de organización de información tienden a:
 
-Lo que existe son fragmentos: menciones en obras sobre Campeche en general, estudios parciales sobre la arqueología de la zona, algunos artículos académicos sobre el conflicto agroecológico reciente. Nada que cosa todo.
+- jerarquizar fuentes de antemano,
+- imponer cronologías rígidas,
+- asumir homogeneidad en los datos,
+- o reducir la complejidad narrativa a una sola versión de los hechos.
 
-Esa escasez no es accidental. Es parte de lo que este proyecto intenta documentar: que la historia de ciertos territorios y ciertas comunidades no ha sido considerada digna de ser contada completa.
+En contextos donde existen múltiples narrativas coexistentes —incluyendo contradicciones, silencios y versiones parciales—, estos enfoques resultan insuficientes. El problema, por tanto, es **cómo organizar información histórica heterogénea sin perder su contexto, su diversidad ni sus tensiones internas**.
 
 ---
 
-## 3. Hipótesis inicial (punto de partida)
+## 3. Enfoque del proyecto
 
-La hipótesis con la que abrí esta investigación, antes de tener datos, era intuitiva:
+El proyecto se concibe desde una perspectiva tecnológica y sistémica. No busca producir una narrativa histórica definitiva ni validar una versión del pasado sobre otras, sino diseñar una herramienta estructural que permita registrar, organizar y comparar información histórica sin imponer interpretaciones anticipadas.
 
-> *"La historia de Hopelchén ha sido ocultada sistemáticamente."*
+El sistema que se derive de este enfoque funcionará como un **soporte para el análisis**, no como un sustituto del criterio humano. Su tarea principal será facilitar la trazabilidad, la comparación y la visibilización de relaciones entre múltiples registros históricos.
 
-No sabía aún si ese ocultamiento era deliberado o estructural. No sabía si lo que faltaba eran las fuentes o la voluntad de escribir. Solo sabía que el vacío existía y que algo lo producía.
+Este enfoque se alinea con principios propios de la ingeniería en sistemas y la tecnología de la información, particularmente en problemas relacionados con:
 
-A medida que avancé en la investigación, esa hipótesis se fue afinando. Las versiones sucesivas están registradas en [`HIPOTESIS.md`](HIPOTESIS.md). La versión canónica actual (v4) sostiene:
-
-> *"El control de Hopelchén — sobre el conocimiento, la tierra, el poder político y el cuerpo de las comunidades mayas — ha sido ejercido históricamente por élites de poder externas que cambian de forma en cada era pero mantienen la misma estructura de despojo. El linaje maya ha sido el objeto constante de ese control."*
-
-Pero la hipótesis de origen —la intuición de que algo faltaba y de que esa falta no era casual— sigue siendo el motor de todo.
-
----
-
-## 4. Principios éticos
-
-Esta investigación parte de un posicionamiento ético claro, no neutro:
-
-**4.1 Compromiso con las comunidades mayas de la región**  
-Los datos que aquí se reúnen son, en su mayoría, sobre personas y comunidades que siguen existiendo. El uso de esta información debe respetar su dignidad, su autonomía y su capacidad de interpretar su propia historia. Este proyecto no habla *por* las comunidades mayas: intenta construir un registro que ellas también puedan usar.
-
-**4.2 Transparencia sobre la posición de la autora**  
-Soy originaria de este municipio. Eso me da acceso a ciertas memorias y perspectivas que una investigadora externa no tendría. También significa que tengo puntos ciegos, afectos y deudas que una investigadora externa no tendría. Ambas cosas son verdad y las declaro abiertamente.
-
-**4.3 Distinción entre dato y interpretación**  
-Cada registro en este proyecto distingue entre lo que dice la fuente (transcripción, paráfrasis directa) y lo que yo concluyo de esa fuente (interpretación, conexión con la hipótesis). Esta distinción no siempre es perfecta, pero es el compromiso.
-
-**4.4 Las fuentes tienen nombre**  
-Toda afirmación en este proyecto tiene una fuente citable. La memoria oral, cuando es usada, es identificada como tal. Lo que no se puede documentar, no se afirma como hecho.
-
-**4.5 El libro no es propaganda ni denuncia, es análisis**  
-La hipótesis puede ser refutada. Está formulada de manera que pueda serlo. Si la evidencia acumulada muestra que el patrón no se sostiene, el proyecto lo registrará. La honestidad intelectual tiene más valor que confirmar la tesis con la que se empezó.
+- manejo de información no estructurada,
+- diseño de estructuras flexibles,
+- organización de conocimiento complejo,
+- y tolerancia a la incompletitud y al cambio.
 
 ---
 
-## 5. Principios metodológicos
+## 4. Principio rector del sistema
 
-**5.1 Fuente primaria antes que interpretación secundaria**  
-Siempre que sea posible, la investigación trabaja con documentos originales: actas notariales, censos, mapas históricos, crónicas coloniales, expedientes judiciales. Las fuentes secundarias (libros de historia, artículos académicos) se usan para orientar, no para sustituir.
+La estructura del sistema se organiza alrededor de una función central:
 
-**5.2 Sistema de trazabilidad**  
-Cada dato tiene un ID de fuente (`F001`, `F012`, etc.) registrado en [`fuentes/catalogo_fuentes.md`](fuentes/catalogo_fuentes.md). Cada bloque histórico indica de dónde viene. El objetivo es que cualquier afirmación de este proyecto sea rastreable hasta su origen.
+> **Registrar información histórica diversa y permitir su comparación sin perder el contexto de producción.**
 
-**5.3 Organización por nodos temáticos**  
-La historia no es lineal. Por eso el proyecto está organizado en nodos temáticos que pueden leerse en paralelo: al inicio eran 8 (ocupación territorial, conquista, colonia, revolución, período contemporáneo, poder político, rutas y demografía); a medida que la investigación avanzó se sumaron dos nodos más (resistencia maya y conocimiento/cultura maya), llegando a 10. Cada nodo tiene su propia línea de tiempo, pero todos están conectados por la hipótesis central.
+Este principio actúa como criterio de diseño. Todo componente futuro del sistema deberá contribuir explícitamente a:
 
-**5.4 Registro de los vacíos**  
-Lo que no se sabe es tan importante como lo que se sabe. El archivo [`datos/VACIOS.md`](datos/VACIOS.md) documenta todas las preguntas abiertas con su estado y prioridad. Un vacío registrado es un vacío que puede ser llenado.
+1. registrar información sin deformarla,
+2. conservar el contexto en el que fue producida,
+3. permitir su comparación con otros registros.
 
-**5.5 Versión viva, no versión definitiva**  
-Este proyecto no tiene fecha de cierre. Cada sesión de investigación puede agregar datos, corregir errores o reabrir preguntas. La hipótesis misma puede cambiar. Lo que importa es que los cambios queden registrados con fecha y razón.
-
-**5.6 Formato de cita: Chicago**  
-Todas las fuentes bibliográficas siguen el formato Chicago: `Apellido, Nombre. *Título*. Ciudad: Editorial, Año.` Para fuentes digitales se incluye URL y fecha de consulta.
+Cualquier elemento que no cumpla estas funciones no forma parte del núcleo del sistema.
 
 ---
 
-## 6. El libro como destino
+## 5. Estructura conceptual propuesta
 
-El resultado de esta investigación es *Dos Mil Años en Silencio*, un libro que al comenzar el proyecto tenía una estructura provisional de 21 capítulos. A medida que la investigación avanzó, surgieron nuevos nodos temáticos, nuevos personajes y nuevas conexiones — el libro creció. La estructura actual está en [`datos/borradores/INDICE_LIBRO.md`](datos/borradores/INDICE_LIBRO.md).
+En esta etapa inicial, la estructura del sistema se describe en términos de **capas conceptuales**, entendidas como responsabilidades funcionales y no como componentes técnicos. Estas capas permiten avanzar en el diseño sin imponer una tecnología específica ni una forma cerrada.
 
-La decisión de escribir un libro —no un artículo, no un blog, no una tesis— fue deliberada. Un libro es la forma más accesible de devolver esta historia al lugar donde ocurrió. Es algo que puede estar en una biblioteca municipal, en una escuela, en casa de alguien que también se preguntó por qué no existía.
+### 5.1 Capa de registro de información
 
-Si este proyecto termina siendo ese libro, habrá cumplido su propósito.
+Esta capa constituye el punto de entrada de información al sistema. Su función es capturar información tal como existe en el mundo real, sin análisis ni validación previa.
+
+Debe admitir:
+- textos completos o fragmentos,
+- transcripciones de memoria oral,
+- citas documentales,
+- notas descriptivas,
+- referencias históricas diversas.
+
+En este nivel no se jerarquiza ni se interpreta la información. Registrar es un acto técnico que busca evitar la pérdida o distorsión del contenido original.
+
+*En el repositorio:* `datos/hopelchen/HOPELCHEN_NODO_*.json` — cada registro es una unidad de información con su contenido original preservado.
 
 ---
 
-## 7. Registro de inicio
+### 5.2 Capa de contextualización
 
-*Este es el punto cero — los números y estructuras aquí son los del momento de arranque.
-El proyecto creció: ver [`datos/borradores/INDICE_LIBRO.md`](datos/borradores/INDICE_LIBRO.md)
-para el estado editorial actual.*
+Toda información adquiere significado a partir de su contexto de producción. Esta capa incorpora información que permite entender desde dónde se produce cada narración.
 
-| Campo | Valor al inicio (marzo 2026) |
+Incluye, de manera general:
+- origen de la información,
+- autoría o entidad productora,
+- momento de producción,
+- propósito aparente o marco discursivo.
+
+Esta capa no evalúa la veracidad del contenido, pero evita que los registros se presenten como neutros o universales.
+
+*En el repositorio:* campos `fuente`, `fuente_academica`, `tipo_dato` y `notas_contradiccion` en cada registro. El campo `tipo_dato` hace visible la posición epistemológica del dato (citado, inferido, estimado, analítico).
+
+---
+
+### 5.3 Capa de descomposición analítica
+
+Dado que las narraciones extensas no son directamente comparables entre sí, el sistema debe permitir su descomposición en unidades más pequeñas, tales como afirmaciones, enunciados o ideas explícitas.
+
+Este proceso no altera el contenido original, pero lo vuelve analíticamente manejable. Gracias a esta capa, distintas versiones sobre un mismo tema pueden ponerse en relación sin necesidad de homogeneizarlas.
+
+*En el repositorio:* los registros individuales dentro de cada nodo son las unidades de análisis. `datos/VACIOS.md` documenta las preguntas abiertas — lo que no se sabe tiene el mismo peso estructural que lo que sí se sabe.
+
+---
+
+### 5.4 Capa de relaciones
+
+La última capa permite registrar relaciones entre unidades de información previamente descompuestas. Estas relaciones no son automáticas ni generadas por el sistema, sino declaradas a partir del análisis humano.
+
+Entre estas relaciones pueden existir:
+- coincidencias,
+- contradicciones,
+- complementos,
+- silencios,
+- continuidades o rupturas.
+
+La función de esta capa no es producir conclusiones, sino **hacer visibles patrones y tensiones entre narrativas**.
+
+*En el repositorio:* campo `conexion_hipotesis` en cada registro — vincula el dato con la pregunta estructural sin cerrar su interpretación. `fuentes/mapa_citas.md` mapea relaciones entre fuentes y nodos.
+
+---
+
+## 6. Uso de la estructura como guía de desarrollo
+
+La estructura propuesta no implica que todas las capas deban implementarse o utilizarse simultáneamente. El sistema puede operar parcialmente en cualquiera de ellas, según el estado del proyecto.
+
+El orden lógico de trabajo sugerido es:
+
+1. registrar información,
+2. agregar contexto,
+3. descomponer cuando sea necesario,
+4. establecer relaciones cuando el análisis lo permita.
+
+Este enfoque permite que el proyecto crezca de manera orgánica, sin forzar cierres prematuros ni interpretaciones definitivas.
+
+---
+
+## 7. Alcance del documento
+
+Este documento define el marco conceptual inicial del sistema, no su implementación técnica. No presupone forma final, arquitectura, tecnología ni producto terminado. Su función es establecer un criterio estructural estable sobre el cual puedan tomarse decisiones futuras de diseño e implementación sin contradicciones conceptuales.
+
+---
+
+## 8. Caso de aplicación: Hopelchén, Campeche
+
+El sistema se desarrolla sobre un caso concreto: la historia del municipio de Hopelchén y la región de Los Chenes, Campeche, México. Este territorio presenta las condiciones que el problema plantea — información dispersa entre archivos en Berlín, La Habana, Ciudad de México y el propio municipio; narrativas producidas desde posiciones radicalmente distintas (cronistas coloniales, académicos externos, comunidades mayas, prensa local); silencios estructurales sobre ciertos períodos y actores.
+
+El caso no es el límite del sistema. Es su punto de prueba. Si la estructura funciona para organizar dos mil años de información heterogénea sobre un territorio como Hopelchén, el modelo es transferible a otros contextos con condiciones similares.
+
+Los materiales producidos durante el desarrollo del sistema — nodos de datos, catálogo de fuentes, preguntas abiertas, análisis narrativos — constituyen a su vez el andamiaje documental que sustentará el libro *Dos Mil Años en Silencio*.
+
+---
+
+## 9. Estado del proyecto
+
+El proyecto se encuentra en **fase de fundamentación y construcción simultánea**. La estructura conceptual aquí presentada orienta el desarrollo posterior del sistema y garantiza coherencia entre el problema identificado y las decisiones que se tomen más adelante.
+
+| Componente | Estado actual |
 |---|---|
-| **Fecha de inicio** | Marzo 2026 |
-| **Motivación declarada** | Vacío bibliográfico sobre Hopelchén / gusto por la lectura e historia local |
-| **Hipótesis inicial** | "La historia de Hopelchén ha sido ocultada sistemáticamente" |
-| **Hipótesis actual** | Ver [`HIPOTESIS.md`](HIPOTESIS.md) — versión operativa v5 |
-| **Nodos al inicio** | 8 (001–008) |
-| **Nodos actuales** | 10 (001–010, sumados Resistencia Maya y Conocimiento/Cultura) |
-| **Capítulos al inicio** | 21 planificados |
-| **Capítulos actuales** | 24 escritos + ~6 sin iniciar — ver índice |
-| **Fuentes catalogadas** | Ver [`fuentes/catalogo_fuentes.md`](fuentes/catalogo_fuentes.md) |
-| **Estado del proyecto** | En curso — archivo vivo |
+| Marco conceptual | ✅ Definido (este documento) |
+| Hipótesis de trabajo | ✅ Operativa — ver `HIPOTESIS.md` v5 |
+| Nodos de información | ✅ 10 nodos · 96 registros · 100% con fuente |
+| Catálogo de fuentes | ✅ 68 fuentes catalogadas (F### y FX###) |
+| Preguntas abiertas | ✅ 62 preguntas · 0 pendientes · 1 en proceso |
+| Capas implementadas | Capa 1 ✅ · Capa 2 ✅ · Capa 3 ✅ · Capa 4 parcial |
+| Forma técnica final | 🔲 Por definir |
 
 ---
 
-*Este documento es el punto cero. Registra de dónde vino esta investigación antes de que el peso de los datos hiciera difícil recordarlo.*
+*Este documento es el criterio estructural del proyecto. No describe lo que el sistema es hoy en su totalidad, sino el principio que debe guiar cada decisión de diseño.*
