@@ -225,6 +225,27 @@ _Origen: leydy_pech_perfil.json — 'Perfil Completo de Leydy Pech Martín'. Pro
 
 ---
 
+
+### Bloque 009-K — Juan de Dios May después del ataque a Hopelchén (1847): destino del lí
+
+| Campo | Valor |
+|---|---|
+| **Tipo** | Inferido — requiere investigación en archivo |
+| **Fecha / Período** | 1847 — c.1850 |
+| **Lugar** | Hopelchén — región oriental de Yucatán |
+| **Personajes** | — |
+| **Cargos** | — |
+| **Fuente(s)** | [Historiografía de la Guerra de Castas — Reed, Nelson (1964); Rugeley, Terry (1996)](<pendiente — consulta AGEY>) |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_009_Resistencia_Agencia_Maya.json` |
+
+> Juan de Dios May fue uno de los líderes militares mayas que participó en el ataque a Hopelchén durante el inicio de la Guerra de Castas (1847-1848). Hopelchén fue uno de los primeros municipios afectados por el levantamiento, siendo atacado en 1847. El destino específico de Juan de Dios May después de los ataques iniciales no está documentado en las fuentes digitales accesibles consultadas durante esta investigación. La historiografía de la Guerra de Castas (Reed 1964, Rugeley 1996, Sullivan 1989) registra numerosos líderes mayas pero no siempre los diferencia por localidad de origen. May es un apellido maya muy común en Yucatán y Campeche; puede haber múltiples líderes con ese apellido en la documentación de la época. Para rastrear a Juan de Dios May específicamente se requiere consulta del Archivo General del Estado de Yucatán (AGEY) — Fondo Poder Ejecutivo, Sección Milicia (1847-1855) y el Archivo Histórico del Obispado de Yucatán.
+
+_Origen: Historiografía de la Guerra de Castas — Reed, Nelson (1964); Rugeley, Terry (1996) <pendiente — consulta AGEY>_
+**→ Conexión hipótesis:** Juan de Dios May representa la resistencia armada maya de Hopelchén — si su destino puede rastrearse, permitiría documentar el continuismo de la agencia política maya desde 1847 hasta las organizacion
+**Etiquetas:** Juan de Dios May, Guerra de Castas, 1847, resistencia maya, Hopelchén, líderes mayas, AGEY
+
+---
+
 ## Fuentes pendientes de consulta
 
 - Cogolludo — Historia de Yucatán (1688): verificar el dato de los bataboob de 1669 y obtener sus nombres

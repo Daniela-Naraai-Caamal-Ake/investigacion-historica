@@ -55,7 +55,8 @@
         "conquista",
         "jurisdicciones mayas",
         "Ralph Roys"
-      ]
+      ],
+      "nota_cronologica": "Registro de contexto previo al inicio formal del nodo (1517). Documenta el estado político maya inmediatamente anterior a la Conquista; su inclusión es necesaria para explicar el punto de partida del período."
     },
     {
       "registro_id": "002-B",
@@ -398,7 +399,7 @@
     {
       "registro_id": "002-I",
       "subtitulo": "Los Xiúes de Dzibil-Noh-Aac (hoy Iturbide): posibles vínculos con Los Chenes según los Papeles Xiu",
-      "fecha_evento": "siglos XIV-XVI",
+      "fecha_evento": "c. 1300–1517",
       "lugar": "Dzibil-Noh-Aac (Maní — Iturbide), región de Los Chenes",
       "descripcion": "Los Papeles de los Xiúes (Códice Xiu) son un conjunto de documentos del siglo XVI producidos por la nobleza maya Xiu de Maní, que en 1542 formó alianza con los españoles contra los Cocomes. La familia Xiu controlaba territorios en el sur de Yucatán, incluyendo posiblemente zonas de transición hacia Los Chenes. El topónimo Dzibil-Noh-Aac ('escritura de gran tortuga'), identificado con el actual municipio de Iturbide (colindante con Hopelchén), aparece en fuentes coloniales como localidad bajo influencia Xiu. El recurso sacred-texts.com/nam/maya/ybac/ contiene transcripciones de documentos Xiu coloniales que podrían mencionar esta región. La relación exacta entre los señoríos Xiu y el territorio de Los Chenes (Hopelchén) requiere análisis directo de los Papeles Xiu y de las relaciones geográficas coloniales del siglo XVI. La alianza Xiu-española de 1542 fue decisiva para la consolidación de la conquista en Yucatán.",
       "fuente": {
@@ -419,7 +420,8 @@
         "alianza colonial",
         "Papeles Xiu",
         "Códice Xiu"
-      ]
+      ],
+      "nota_cronologica": "Registro de contexto previo al inicio formal del nodo (1517). Documenta los vínculos territoriales de los Xiúes con Los Chenes durante el Posclásico tardío; su inclusión es necesaria para rastrear las alianzas políticas mayas al momento de la Conquista."
     }
   ],
   "linea_del_tiempo_nodo": [

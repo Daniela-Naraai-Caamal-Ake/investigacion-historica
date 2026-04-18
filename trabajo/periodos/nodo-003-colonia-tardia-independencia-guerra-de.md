@@ -145,7 +145,7 @@ _Origen: SciELO México — La reforma agraria en Campeche, ¿permanencia de una
 | Campo | Valor |
 |---|---|
 | **Tipo** | Citado — requiere ampliación con fuentes directas |
-| **Fecha / Período** | Siglo XIX tardío — siglo XX temprano |
+| **Fecha / Período** | c. 1880–1910 |
 | **Lugar** | Hopelchén, Campeche |
 | **Personajes** | Gerónimo Baqueiro Foster (Musicólogo. Nacido en Hopelchén. Artista de la banda de música. Coleccionó una biblioteca especializada en música, folklore e historia musical. La donó al pueblo de México — actualmente en el Museo de la Música del Distrito Federal.); Humberto Lara y Lara (Periodista nacido en Hopelchén. Director del Diario del Sureste (Mérida). Corresponsal de la revista Tiempo. Autor de: 'Por el rojo camino polvoriento', 'Mesticita de mi tierra', 'Tríptico de Yucatán' (poemas); 'En la Montaña Chiclera' (novela histórica); crónicas de Hopelchén.) |
 | **Cargos** | Musicólogo. Nacido en Hopelchén. Artista de la banda de música. Coleccionó una biblioteca especializada en música, folklore e historia musical. La donó al pueblo de México — actualmente en el Museo de la Música del Distrito Federal.; Periodista nacido en Hopelchén. Director del Diario del Sureste (Mérida). Corresponsal de la revista Tiempo. Autor de: 'Por el rojo camino polvoriento', 'Mesticita de mi tierra', 'Tríptico de Yucatán' (poemas); 'En la Montaña Chiclera' (novela histórica); crónicas de Hopelchén. |
@@ -246,6 +246,27 @@ _Origen: AV_PERSONAS.md — OLEGARIO MOLINA SOLÍS / AV_HILOS.md — HILO CUBA_
 **⚠ Nota/contradicción:** El circuito Cuba se cierra aquí de manera brutal: los mayas de Hopelchén fueron enviados a Cuba como esclavos encubiertos en 1848-1861 (Pantaleón Barrera). El empresario más poderoso nacido en el mismo municipio murió exiliado en la misma isla en 1925 (Olegario Molina). La isla que recibió el trabaj
 **→ Conexión hipótesis:** Olegario Molina Solís es la evidencia más clara de que Hopelchén produce personas de poder de escala nacional (Secretario de Estado) sin que ese poder se devuelva al municipio de origen en forma de in
 **Etiquetas:** Olegario Molina Solís, Bolonchenticul, Porfiriato, henequén, El Olegariato, Secretario de Fomento, Cuba, exilio, despojo económico, siglo XIX-XX
+
+---
+
+
+### Bloque 003-L — Schüren 2013 sobre Los Chenes: economía agraria y estructura social en
+
+| Campo | Valor |
+|---|---|
+| **Tipo** | Citado |
+| **Fecha / Período** | c. 1880-1930 |
+| **Lugar** | Los Chenes, Campeche (municipio de Hopelchén y región) |
+| **Personajes** | — |
+| **Cargos** | — |
+| **Fuente(s)** | [Schüren, Ute (2013) — Investigaciones Sociales, UNMSM/IIHS-UNAM — Redalyc id 247029853011](<https://www.redalyc.org/articulo.oa?id=247029853011>) |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_003_ColoniaTardia_Porfiriato.json` |
+
+> El estudio de Ute Schüren (2013), publicado en Investigaciones Sociales (UNMSM/IIHS-UNAM), examina la estructura económica y social de Los Chenes durante el período del porfiriato tardío y la revolución. Schüren documenta la existencia de 11 haciendas y 116 ranchos en la región en 1846 (Memoria del Secretario General de Gobierno, 18 de septiembre de 1846), con una población estimada de ~26,000 personas incluyendo el municipio de Pich. Este dato es la primera cifra demográfica formal disponible para la región y sirve como base para comprender el colapso producido por la Guerra de Castas (1847-). El artículo de Schüren 2013 está catalogado en Redalyc (id=247029853011) y analiza la transición entre el régimen de haciendas y el surgimiento de la economía chiclera en Los Chenes, mostrando cómo las élites locales articularon ambos ciclos extractivos. El acceso directo al artículo completo no fue posible durante esta consulta, pero el dato de 1846 es citado consistentemente en la bibliografía de Los Chenes.
+
+_Origen: Schüren, Ute (2013) — Investigaciones Sociales, UNMSM/IIHS-UNAM — Redalyc id 247029853011 <https://www.redalyc.org/articulo.oa?id=247029853011>_
+**→ Conexión hipótesis:** Schüren 2013 documenta la continuidad estructural entre el régimen hacendario porfiriano y el ciclo chiclero posterior, confirmando que el patrón extractivo en Los Chenes no es nuevo sino una adaptaci
+**Etiquetas:** Schüren, Los Chenes, haciendas, porfiriato, economía chiclera, 1846, demografía histórica, Redalyc
 
 ---
 

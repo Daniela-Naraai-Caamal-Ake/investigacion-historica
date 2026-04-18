@@ -3,7 +3,7 @@
 > **Dos Mil Años en Silencio** — Investigación histórica sobre Hopelchén y Los Chenes  
 > Autora: **Daniela Naraai Caamal Ake**  
 > ⚙ Generado automáticamente por `tools/generar_sintesis.py`  
-> Última actualización: **2026-04-14 03:32**
+> Última actualización: **2026-04-18 08:04**
 
 ---
 
@@ -29,81 +29,96 @@ de acceso progresivo. Para navegar:
 
 > Autora: Daniela Naraai Caamal  
 > Libro en desarrollo: *Dos Mil Años en Silencio*  
-> Frase eje: *"Dos mil años de historia y la pregunta sigue siendo la misma: ¿de quién es esta tierra?"*
+> Pregunta guía: *¿Quién controla la tierra, el conocimiento y la representación política en Hopelchén a lo largo del tiempo?*
 
 ---
 
-## HIPÓTESIS CENTRAL (versión canónica — v4)
+## 1) Objetivo de esta hipótesis
 
-**El control de Hopelchén — sobre el conocimiento, la tierra, el poder político y el cuerpo de las comunidades mayas — ha sido ejercido históricamente por élites de poder externas que cambian de forma en cada era pero mantienen la misma estructura de despojo. El linaje maya ha sido el objeto constante de ese control.**
+Definir una **proposición verificable** que organice la investigación histórica del libro y permita:
 
----
+1. comparar periodos distintos con el mismo criterio,
+2. identificar continuidades y rupturas del poder,
+3. decidir qué evidencia confirma, matiza o refuta la tesis.
 
-## ¿POR QUÉ IMPORTA?
-
-**Si la hipótesis es verdadera:**  
-La historia de Hopelchén no es local ni excepcional. Es el mismo patrón colonial que opera en toda Mesoamérica con nombres distintos en cada siglo. El libro no es una crónica municipal — es una anatomía del poder.
-
-**Si la hipótesis es falsa:**  
-Existen períodos donde el control de la tierra y el poder político pertenecieron efectivamente a la comunidad maya y se transmitieron sin despojo. Esos períodos son los que el libro necesita explicar y documentar con igual rigor.
-
-**Qué necesitaría la hipótesis para ser refutada:**  
-Que exista al menos un período documentado donde (a) la tierra de Hopelchén fuera controlada y gestionada por la comunidad maya sin intermediario externo, y (b) ese control se transmitiera generacionalmente sin interrupción violenta. El Nodo 005 (Leydy Pech, Goldman Prize 2020) es el primer dato que no confirma la hipótesis sino que la *complica productivamente*: por primera vez en 500 años, una mujer maya de Los Chenes gana el equivalente al Nobel del medio ambiente precisamente por resistir el ciclo — lo que abre la pregunta de si la resistencia es la nueva forma de demostrar el patrón, o su primera ruptura real.
+Esta hipótesis no es un texto literario: es una herramienta de trabajo para los nodos del proyecto.
 
 ---
 
-## PATRÓN DOCUMENTADO (lo que los 8 nodos confirman)
+## 2) Hipótesis central (versión operativa v5)
 
-| Era | Agente externo de control | Instrumento de despojo | Registro en el proyecto |
-|---|---|---|---|
-| Prehispánica tardía (1200–1517) | Desintegración del orden maya clásico | Abandono forzado de ciudades / vacío de poder | Nodo 001-F |
-| Conquista colonial (1517–1669) | Corona española + encomenderos + franciscanos | Congregación, encomienda, destrucción de conocimiento | Nodo 002 |
-| Colonia tardía / Independencia (1670–1847) | Hacendados criollos + familia Baranda | Haciendas azucareras + 92 propiedades privadas | Nodo 003-A, 003-E |
-| Guerra de Castas / Porfiriato (1847–1910) | Estado liberal + compañías deslindadoras | Ley de Terrenos Baldíos 1883 — privatización de ejidos | Nodo 003-B, 003-F |
-| Revolución / Chicle (1910–1970) | Contratistas chicleros + monopolios extranjeros | Habilitación — deuda permanente como control | Nodo 004-C, 004-E |
-| Contemporáneo (1987–2026) | Menonitas + agroindustria transnacional + Estado | Reforma Art. 27 (1992) + arrendamiento ejidal | Nodo 005-A, 005-B |
-| Poder político local (1959–2026) | Familias Lara, Calderón, Baranda, Aranda | Hegemonía PRI 62 años + nepotismo documentado | Nodo 006 |
+En Hopelchén, entre 1200 y 2026, el control efectivo de la tierra, del conocimiento público y de la decisión política ha tendido a concentrarse en élites externas o élites locales articuladas con poderes externos, reproduciendo un patrón de despojo y subordinación sobre comunidades mayas.
 
 ---
 
-## LA EXCEPCIÓN QUE COMPLICA EL PATRÓN
+## 3) Alcance generalizable
 
-**Leydy Pech — Goldman Environmental Prize 2020**  
-Apicultora de Hopelchén. Lideró el proceso judicial que logró la primera suspensión de soya transgénica en México (2012–2017). En 2020 recibió el equivalente al Nobel del medio ambiente. Primer caso documentado de una mujer maya de Los Chenes que gana en el campo político, jurídico y simbólico contra una élite extractiva externa.
+La hipótesis se formula para Hopelchén, pero es **generalizable** como modelo analítico a otros territorios mesoamericanos cuando se observen tres condiciones:
 
-La hipótesis original no anticipaba este dato. El registro 005-C documenta que, por primera vez en 500 años, una comunidad maya de Hopelchén gana un proceso legal de alcance nacional contra el patrón. Eso no refuta la hipótesis — porque el patrón intentó operar y la resistencia lo detuvo parcialmente — pero sí obliga a incorporar la *agencia maya* como variable activa, no solo como víctima.
+- disputa por control territorial,
+- mediación estatal/colonial sobre comunidades indígenas,
+- traducción del poder económico en poder político y narrativo.
 
----
-
-## VERSIONES DE LA HIPÓTESIS (registro de evolución)
-
-| Versión | Formulación | Qué la cambió |
-|---------|------------|---------------|
-| **V1** — inicio del proyecto (marzo 2026) | "La historia de Hopelchén ha sido ocultada sistemáticamente" | Punto de partida intuitivo, sin datos |
-| **V2** — tras Nodos 001-002 | "El control de la tierra y el conocimiento han sido manipulados por élites de poder, dejando atrás el linaje maya" | Los registros 001-F (brecha epigráfica de 900 años) y 002-G (los bataboob de 1669) revelaron que la manipulación tiene dos dimensiones: tierra y conocimiento |
-| **V3** — tras Nodo 003 | "El control de la tierra ha sido definido por quien gobierna o tiene poder. Los mecanismos de despojo más violentos ocurrieron entre 1843 y 1910" | El registro 003-B (privatización de tierras comunales mayas que detonó la Guerra de Castas) y 003-E (familia Baranda) mostraron que hay un período concreto donde el despojo es máximo y documentable |
-| **V3.5** — tras Nodo 004 | "El patrón se repite: haciendas → Revolución → redistribución incompleta → nueva forma de explotación (chicle). Cada 'cambio' redistribuye poder superficialmente pero mantiene la estructura de dependencia" | El ciclo extractivo chiclero reveló que los cambios de régimen político no rompen el patrón — lo reformulan |
-| **V4** — tras Nodo 005 (versión canónica actual) | *Ver arriba* | El Goldman Prize 2020 de Leydy Pech introdujo la primera evidencia de que el patrón puede ser resistido exitosamente con herramientas jurídicas modernas. La hipótesis tuvo que incorporar la resistencia como elemento activo, no solo el despojo |
+Si Hopelchén muestra una trayectoria distinta, el caso sirve para delimitar dónde el modelo deja de funcionar.
 
 ---
 
-## PREGUNTAS QUE LA HIPÓTESIS GENERA (prioridad máxima)
+## 4) Variables de análisis (qué se medirá en cada nodo)
 
-1. ¿Hay continuidad genealógica entre Pedro Advíncula Lara (hacendado porfiriano ~1900) y Emilio Lara Calderón (alcalde 2021-2024, diputado federal 2024-2027)?
-2. ¿Qué apellido exacto firmó el documento de fundación de Hopelchén como pueblo de congregación en 1621?
-3. ¿Por qué el Estado protegió a los menonitas en 1987 y a las comunidades mayas no?
-4. ¿La curva demográfica del Nodo 008 cae exactamente en los mismos años que los eventos de despojo documentados?
-5. ¿Existe un período en la historia de Hopelchén donde el poder no pasó por una familia o apellido específico?
-
----
-
-## CONEXIÓN CON EL LIBRO
-
-El libro *Dos Mil Años en Silencio* está organizado en 21 capítulos. La hipótesis es el hilo que atraviesa todos. Cada capítulo confirma, complica o matiza un aspecto del patrón. Los **cruces de datos** (registros 001-F, 003-H, 004-G, 005-F, 006-G, 007-I, 008-G) son los momentos donde la hipótesis se formula más directamente en el texto.
+1. **Tierra**: propiedad, acceso, uso productivo y mecanismos legales de transferencia.
+2. **Conocimiento**: quién produce/valida la historia y quién queda fuera del archivo.
+3. **Poder político**: continuidad de familias, redes partidistas y captura institucional.
+4. **Agencia maya**: capacidad de negociación, resistencia y victorias sostenidas.
 
 ---
 
-*Última actualización: 2026-04-13 | Extraído de: `datos/hopelchen/HOPELCHEN_NODO_001-008.json` | Ver síntesis completa en: `datos/SINTESIS.md`*
+## 5) Qué evidencias confirmarían la hipótesis
+
+La hipótesis gana fuerza si, de forma repetida entre nodos, se documenta que:
+
+- los cambios de régimen modifican actores pero no la estructura de control,
+- los instrumentos de despojo se actualizan (encomienda, hacienda, legislación agraria, arrendamiento, captura institucional),
+- la población maya conserva menor control material y político sobre su territorio,
+- la memoria histórica local aparece fragmentada frente a archivos oficiales externos.
+
+---
+
+## 6) Qué evidencias podrían refutarla o limitarla
+
+La hipótesis se refuta (o se restringe) si se demuestra un periodo prolongado donde:
+
+- la comunidad maya controló territorio y decisión política sin intermediación dominante externa,
+- ese control se sostuvo por más de una generación,
+- hubo transmisión institucional estable sin despojo posterior equivalente,
+- la narrativa histórica local fue producida y legitimada desde la propia comunidad.
+
+---
+
+## 7) Estado actual de la evidencia (nodos 001–009)
+
+- **Tendencia dominante observada**: continuidad del patrón de concentración del poder.
+- **Dato que complejiza**: el caso de Leydy Pech (2012–2020) muestra capacidad de freno jurídico y político al ciclo extractivo.
+- **Lectura provisional**: no anula el patrón histórico, pero obliga a incorporar la agencia maya como variable central y no secundaria.
+
+---
+
+## 8) Preguntas estratégicas para cerrar vacíos
+
+1. ¿Qué continuidades familiares concretas existen entre élites hacendarias, élites partidistas y control municipal contemporáneo?
+2. ¿En qué periodos hay evidencia de control comunitario maya sostenido y con qué límites?
+3. ¿Qué decisiones estatales explican protección diferencial entre actores menonitas y comunidades mayas?
+4. ¿Cómo se correlacionan demografía, cambios de propiedad y eventos de conflicto por periodo?
+5. ¿Qué tipo de victoria (legal, territorial, institucional, cultural) logra modificar el patrón y cuál solo lo contiene temporalmente?
+
+---
+
+## 9) Uso directo en el libro
+
+Cada capítulo debe declarar si su evidencia **confirma, matiza o contradice** la hipótesis en al menos una de las cuatro variables (tierra, conocimiento, poder político, agencia maya). Esta regla conecta el trabajo documental con el objetivo final del libro: producir una historia integral, verificable y útil para la comunidad.
+
+---
+
+*Última actualización: 2026-04-18 | Sustituye la versión canónica previa (v4) para mejorar foco analítico y objetivo operativo.*
 
 ---
 
@@ -119,7 +134,7 @@ El libro está organizado en 10 nodos que combinan cronología y temática:
 | **004** | 1910 — 1970 | Revolución, Lucha Antiagraria, Reforma Agraria y la Economía Chic… | 10 |
 | **005** | 1970 — 2026 | Hopelchén Contemporáneo (1970–2026): Menonitas, Agroindustria Tra… | 7 |
 | **006** | 1959 — 2026 | La Genealogía del Poder Político Local en Hopelchén (1959–2026): … | 9 |
-| **007** | 1517 — 2026 | Rutas, Territorio y Control del Espacio en Hopelchén (1517–2026):… | 10 |
+| **007** | 1517 — 2026 | Rutas, Territorio y Control del Espacio en Hopelchén (1517–2026):… | 11 |
 | **008** | 300 a.C. — 2026 | Demografía e Historia de la Población en Hopelchén (300 a.C.–2026… | 11 |
 | **009** | 1669 — 2026 | Resistencia y Agencia Maya en Hopelchén (1669–2026): De los Batab… | 11 |
 | **010** | 300 a.C. — 2026 | Conocimiento y Cultura Maya en Los Chenes (300 a.C. – 2026): Astr… | 9 |
@@ -158,7 +173,7 @@ El libro está organizado en 10 nodos que combinan cronología y temática:
 | `002-F` | 1622 | 1622: Primera mención documental conocida de Hopelchén — exp… | ✅ Archivo Municipal de Hopelchén — CensoArchivos / M |
 | `002-G` | 1669 | 1669: Los Bataboob de Hopelchén — élite maya local que resis… | ✅ INDEFOS — Hopelchén / Archivo Municipal de Hopelch |
 | `002-H` | 1541–finales del siglo XVII | Sistema de encomienda en Los Chenes: el primer mecanismo de … | ✅ Wikipedia — Encomienda / Nueva Escuela Mexicana SE |
-| `002-I` | siglos XIV-XVI | Los Xiúes de Dzibil-Noh-Aac (hoy Iturbide): posibles vínculo… | ✅ Papeles Xiu / Códice Xiu — Sacred Texts Archive; f |
+| `002-I` | c. 1300–1517 | Los Xiúes de Dzibil-Noh-Aac (hoy Iturbide): posibles vínculo… | ✅ Papeles Xiu / Códice Xiu — Sacred Texts Archive; f |
 
 ---
 
@@ -174,7 +189,7 @@ El libro está organizado en 10 nodos que combinan cronología y temática:
 | `003-D` | 6 agosto 1857 — 29 enero 1858 | 1857–1858: La creación del Estado de Campeche y Hopelchén co… | ✅ Wikipedia — Hopelchén |
 | `003-E` | 1787–1909 | La Familia Baranda: red de poder que conecta la emancipación… | ✅ Wikipedia — Joaquín Baranda |
 | `003-F` | 1870–1910 | 1870–1910: El Porfiriato en Los Chenes — compañías deslindad… | ✅ SciELO México — La reforma agraria en Campeche, ¿p |
-| `003-G` | Siglo XIX tardío — siglo XX te | Personajes intelectuales y culturales de Hopelchén — primera… | ✅ Pueblos América — Hopelchén (sección personajes) |
+| `003-G` | c. 1880–1910 | Personajes intelectuales y culturales de Hopelchén — primera… | ✅ Pueblos América — Hopelchén (sección personajes) |
 | `003-H` | 1857–1901 | Cruce de datos: Baranda + Tierra + Telégrafo + Educación — e… | ✅ Análisis propio — cruce de datos de registros 003- |
 | `003-I` | 1838 — 1900 | Serapio Baqueiro Preve (1838–1900): El historiador nacido en… | ✅ Ferrer Muñoz, Manuel — 'La independencia de México |
 | `003-J` | 1840 — c. 1870 | Pantaleón Barrera Cámara: gobernador de Yucatán, traficante … | ✅ Ferrer Muñoz, Manuel — 'La independencia de México |
@@ -249,11 +264,12 @@ El libro está organizado en 10 nodos que combinan cronología y temática:
 | `007-C` | 1920s — 1934 | 1920s–1950s: El aislamiento de Hopelchén antes del auge chic… | ❌  |
 | `007-D` | 1934 — c.1950 | 1934–1950: Los campos de aterrizaje chicleros — la aviación … | ❌  |
 | `007-E` | 1850 — 1920 | El surgimiento de los 'mayas pacíficos' y el comercio sur de… | ❌  |
-| `007-F` | 1950s — 1970s | La 'recampesinación' post-chicle y la nueva importancia de l… | ❌  |
-| `007-G` | c.1960s–1980s — presente | La Carretera Federal 261 — la ruta moderna que conectó Los C… | ❌  |
+| `007-F` | c. 1950–1970 | La 'recampesinación' post-chicle y la nueva importancia de l… | ❌  |
+| `007-G` | c. 1960–2026 | La Carretera Federal 261 — la ruta moderna que conectó Los C… | ❌  |
 | `007-H` | 1923 — 2013 | La bibliografía de Schüren (2013) — mapa de fuentes sobre Lo… | ✅ Síntesis de investigación del proyecto — datos sob |
 | `007-I` | 1517 — 2026 | CRUCE DE DATOS: Rutas = extracción — el patrón de 500 años e… | ✅ Análisis cruzado — Nodos 001-007 + Schüren (2013) |
-| `007-J` | siglo XX — actualidad | Carretera Federal 261: ruta Mérida–Campeche por el interior … | ✅ Wikipedia México — Carretera federal 261 / SCT dat |
+| `007-J` | c. 1940–2026 | Carretera Federal 261: ruta Mérida–Campeche por el interior … | ✅ Wikipedia México — Carretera federal 261 / SCT dat |
+| `007-K` | 1935–1950s (documentación cita | Archivo Municipal de Hopelchén — inventario preliminar citad… | ❌  |
 
 ---
 
@@ -335,6 +351,7 @@ Todos los eventos documentados, ordenados cronológicamente.
 | 646 d.C. | Fecha epigráfica más antigua registrada en Los Chenes: Estela 5 de San… | 001 |
 | c. 700-900 d.C. | Estela 2 de Santa Rosa Xtampak: epigrafía y gobernante JOL — identidad… | 001 |
 | 1000 — 1200 d.C. | Colapso Maya en Los Chenes y su relación con estructuras de poder… | 001 |
+| c. 1300–1517 | Los Xiúes de Dzibil-Noh-Aac (hoy Iturbide): posibles vínculos con Los … | 002 |
 | 1441–1517 | Contexto político maya previo a la Conquista: Los Chenes en un mundo f… | 002 |
 | 1517–1970 | CRUCE DE DATOS: El ciclo extractivo de Hopelchén — un patrón de 500 añ… | 004 |
 | 1517 — 2026 | CRUCE DE DATOS: La continuidad del ciclo extractivo — 2026 vs 1517… | 005 |
@@ -372,6 +389,7 @@ Todos los eventos documentados, ordenados cronológicamente.
 | 1857–1901 | Cruce de datos: Baranda + Tierra + Telégrafo + Educación — el sistema … | 003 |
 | 1870–1910 | 1870–1910: El Porfiriato en Los Chenes — compañías deslindadoras, lati… | 003 |
 | 16 septiembre 1870 | 1870: El telégrafo — primera infraestructura de comunicación instantán… | 007 |
+| c. 1880–1910 | Personajes intelectuales y culturales de Hopelchén — primera generació… | 003 |
 | c. 1880-1930 | Schüren 2013 sobre Los Chenes: economía agraria y estructura social en… | 003 |
 | 1900–1950 | 1900–1950: La economía chiclera en Los Chenes — estructura de explotac… | 004 |
 | 1900 — 2000 | Los censos del siglo XX — la reconstrucción demográfica bajo el PRI… | 008 |
@@ -383,14 +401,16 @@ Todos los eventos documentados, ordenados cronológicamente.
 | 1930 | FamilySearch y el Censo de 1930 de Hopelchén — fuente genealógica no e… | 008 |
 | 1934 — c.1950 | 1934–1950: Los campos de aterrizaje chicleros — la aviación como instr… | 007 |
 | 1934 — 1992 | Resistencia ejidal en el siglo XX: Las organizaciones de ejidatarios c… | 009 |
+| 1935–1950s (documentación citada) | Archivo Municipal de Hopelchén — inventario preliminar citado por Schü… | 007 |
 | 1938–1985 | Fuentes literarias y académicas de Los Chenes — el testimonio como his… | 004 |
 | 1940–1970 | 1940–1970: El fin del chicle y el inicio de la crisis — Hopelchén en l… | 004 |
+| c. 1940–2026 | Carretera Federal 261: ruta Mérida–Campeche por el interior — arteria … | 007 |
 | 1947 — 14 febrero 1974 | Efraín 'El Charras' Calderón Lara (1947–1974): el sindicalista de Hope… | 006 |
 | 1947 — 2025 / obras: 1981, 1990, 2008 | Hernán Lara Zavala (1947–2025): el escritor de Ciudad de México que do… | 010 |
-| 1950s — 1970s | La 'recampesinación' post-chicle y la nueva importancia de los ejidos … | 007 |
+| c. 1950–1970 | La 'recampesinación' post-chicle y la nueva importancia de los ejidos … | 007 |
 | 1959 — 2026 | Presidentes municipales de Hopelchén identificados: cadena de poder 19… | 006 |
 | 1959 — 2026 | La hegemonía priista en Hopelchén (1959–2021) y su ruptura parcial con… | 006 |
-| c.1960s–1980s — presente | La Carretera Federal 261 — la ruta moderna que conectó Los Chenes con … | 007 |
+| c. 1960–2026 | La Carretera Federal 261 — la ruta moderna que conectó Los Chenes con … | 007 |
 | 1987 | 1987: Llegada de los primeros menonitas a Hopelchén — el inicio del nu… | 004 |
 | 1987 — 2000 | 1987–2000: La llegada de los menonitas a Hopelchén — la nueva coloniza… | 005 |
 | 1987 — 2026 | Deforestación menonita y transformación demográfica del territorio (19… | 008 |
@@ -413,9 +433,6 @@ Todos los eventos documentados, ordenados cronológicamente.
 | Prehispánico — 2026 (continuidad documentada) | Meliponicultura de Xunáan Kab en Hopelchén: 3,000 años de tradición, 2… | 005 |
 | Siglo XIX tardío — 2026 | El linaje familiar Lara-Calderón-Solís-Baqueiro-Barrera: el árbol gene… | 006 |
 | Prehispánico — 2026 | La lengua maya yucateca en Hopelchén: supervivencia lingüística como r… | 010 |
-| siglos XIV-XVI | Los Xiúes de Dzibil-Noh-Aac (hoy Iturbide): posibles vínculos con Los … | 002 |
-| Siglo XIX tardío — siglo XX temprano | Personajes intelectuales y culturales de Hopelchén — primera generació… | 003 |
-| siglo XX — actualidad | Carretera Federal 261: ruta Mérida–Campeche por el interior — arteria … | 007 |
 
 ---
 
@@ -593,9 +610,9 @@ Efraín (padre)
 
 | Estado | Cantidad |
 |--------|----------|
-| 🔴 PENDIENTE | 47 |
+| 🔴 PENDIENTE | 45 |
 | 🟡 EN PROCESO | 1 |
-| 🟠 RESPONDIDA PARCIALMENTE | 19 |
+| 🟠 RESPONDIDA PARCIALMENTE | 21 |
 | 🟢 RESPONDIDA | 1 |
 | **TOTAL** | **68** |
 
@@ -653,9 +670,7 @@ Efraín (padre)
 | `P007-07` | PREGUNTAS | Media | ¿Cuál era el itinerario exacto del viajero Rodolfo Schuller (1923) en el sur de Los Chenes? ¿El diar… |
 | `P007-08` | PREGUNTAS | Media | ¿Hay mapas históricos del municipio de Hopelchén del siglo XIX y principios del XX que muestren la d… |
 | `P008-02` | PREGUNTAS | Alta | ¿Qué datos nominales contiene el Censo de 1930 de Hopelchén disponible en FamilySearch? ¿Aparecen ap… |
-| `P008-04` | PREGUNTAS | Alta | ¿Cuál fue el impacto demográfico específico de la Guerra de Castas en Hopelchén? ¿Cuántas personas m… |
 | `P008-05` | PREGUNTAS | Media-Alta | ¿Cuál es la tasa de emigración de jóvenes desde Hopelchén hacia las ciudades (Campeche, Mérida, Ciud… |
-| `P008-07` | PREGUNTAS | Media | ¿Qué dice el escritor en lengua maya Romualdo Eleazar Méndez Huchín sobre la pérdida cultural en Hop… |
 | `P009-01` | PREGUNTAS | Alta | ¿Quiénes eran los bataboob de Hopelchén en 1669? ¿Sus nombres, linajes y relación con las comunidade… |
 | `P009-05` | PREGUNTAS | Media | ¿Existen organizaciones mayas activas en Hopelchén que no sean Maya Ka'an? ¿Redes de comunidades eji… |
 
@@ -673,7 +688,9 @@ Efraín (padre)
 | `P006-07` | PREGUNTAS | ¿Existe continuidad genealógica entre Pedro Advíncula Lara (jefe político-hacendado porfiriano de Lo… |
 | `P007-05` | PREGUNTAS | ¿Cuándo llegó la Carretera Federal 261 a Hopelchén y Dzibalchén? ¿Bajo qué gobierno federal y estata… |
 | `P008-03` | PREGUNTAS | ¿Cómo ha evolucionado el porcentaje de hablantes de lengua maya en Hopelchén entre 1960 y 2020? ¿Hay… |
+| `P008-04` | PREGUNTAS | ¿Cuál fue el impacto demográfico específico de la Guerra de Castas en Hopelchén? ¿Cuántas personas m… |
 | `P008-06` | PREGUNTAS | ¿Cuántos menonitas viven actualmente en el municipio de Hopelchén? ¿En qué colonias? ¿Qué porcentaje… |
+| `P008-07` | PREGUNTAS | ¿Qué dice el escritor en lengua maya Romualdo Eleazar Méndez Huchín sobre la pérdida cultural en Hop… |
 | `P008-08` | PREGUNTAS | ¿Cuántas comunidades del municipio de Hopelchén tienen más del 90% de población indígena como Cancab… |
 | `P009-02` | PREGUNTAS | ¿Qué pasó con Juan de Dios May después del ataque a Hopelchén en 1848? ¿Fue capturado, huyó, murió? … |
 | `P009-03` | PREGUNTAS | ¿Cuándo exactamente comenzó la organización Maya Ka'an? ¿Qué comunidades la integran? ¿Cómo se distr… |
@@ -859,7 +876,7 @@ Total borradores: **28**
 
 ## Notas de generación
 
-- **Generado:** 2026-04-14 03:32
+- **Generado:** 2026-04-18 08:04
 - **Script:** `tools/generar_sintesis.py`
 - **Repositorio:** Daniela-Naraai-Caamal-Ake/investigacion-historica
 - **Regenerar:** `python tools/generar_sintesis.py`

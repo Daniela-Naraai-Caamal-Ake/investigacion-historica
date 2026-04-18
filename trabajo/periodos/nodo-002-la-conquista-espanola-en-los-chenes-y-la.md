@@ -183,6 +183,27 @@ _Origen: Wikipedia — Encomienda / Nueva Escuela Mexicana SEP_
 
 ---
 
+
+### Bloque 002-I — Los Xiúes de Dzibil-Noh-Aac (hoy Iturbide): posibles vínculos con Los 
+
+| Campo | Valor |
+|---|---|
+| **Tipo** | Citado — pendiente acceso directo al texto |
+| **Fecha / Período** | c. 1300–1517 |
+| **Lugar** | Dzibil-Noh-Aac (Maní — Iturbide), región de Los Chenes |
+| **Personajes** | — |
+| **Cargos** | — |
+| **Fuente(s)** | [Papeles Xiu / Códice Xiu — Sacred Texts Archive; fuentes coloniales](<https://sacred-texts.com/nam/maya/ybac/ybac60.htm>) |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_002_Conquista_Colonial.json` |
+
+> Los Papeles de los Xiúes (Códice Xiu) son un conjunto de documentos del siglo XVI producidos por la nobleza maya Xiu de Maní, que en 1542 formó alianza con los españoles contra los Cocomes. La familia Xiu controlaba territorios en el sur de Yucatán, incluyendo posiblemente zonas de transición hacia Los Chenes. El topónimo Dzibil-Noh-Aac ('escritura de gran tortuga'), identificado con el actual municipio de Iturbide (colindante con Hopelchén), aparece en fuentes coloniales como localidad bajo influencia Xiu. El recurso sacred-texts.com/nam/maya/ybac/ contiene transcripciones de documentos Xiu coloniales que podrían mencionar esta región. La relación exacta entre los señoríos Xiu y el territorio de Los Chenes (Hopelchén) requiere análisis directo de los Papeles Xiu y de las relaciones geográficas coloniales del siglo XVI. La alianza Xiu-española de 1542 fue decisiva para la consolidación de la conquista en Yucatán.
+
+_Origen: Papeles Xiu / Códice Xiu — Sacred Texts Archive; fuentes coloniales <https://sacred-texts.com/nam/maya/ybac/ybac60.htm>_
+**→ Conexión hipótesis:** Si los Xiúes controlaban parte del territorio que hoy es Hopelchén, la conquista española no fue solo una imposición externa sino también resultado de conflictos entre señoríos mayas previos.
+**Etiquetas:** Xiúes, Xiu, Dzibil-Noh-Aac, Iturbide, Los Chenes, alianza colonial, Papeles Xiu, Códice Xiu
+
+---
+
 ## Fuentes pendientes de consulta
 
 - AGI Sevilla — PARES (pares.mcu.es): buscar 'Hopelchén', 'Chenes', 'congregación Campeche' 1615-1640

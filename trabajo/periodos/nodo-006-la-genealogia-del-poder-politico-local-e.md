@@ -179,3 +179,24 @@ _Origen: Lara Zavala, Hernán. *Charras*. 1a ed. 1990; reed. Alfaguara, 2022._
 
 ---
 
+
+### Bloque 006-I — Layda Sansores San Román (gobernadora 2021-2027) y el apellido Sansore
+
+| Campo | Valor |
+|---|---|
+| **Tipo** | Inferido — hipótesis pendiente de verificación |
+| **Fecha / Período** | c. 1990s — 2027 |
+| **Lugar** | Hopelchén, Campeche — Ciudad de México |
+| **Personajes** | — |
+| **Cargos** | — |
+| **Fuente(s)** | [IEEC Acuerdo CG 26/06 — Registro Wikipedia Layda Sansores (no accesible directamente)](<https://www.ieec.org.mx/documentacion/acuerdosactas/2006/mayo/acuerdocg2606_a1.pdf>) |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_006_PoderPolitico_Local.json` |
+
+> Layda Elena Sansores San Román es la gobernadora de Campeche (2021-2027), electa por Morena. Su padre fue Carlos Sansores Pérez, político campechano del PRI y gobernador de Campeche (1967-1973). El apellido Sansores es de raigambre campechana. El documento del IEEC (Acuerdo CG 26/06, mayo 2006) registra a 'JULIO ALBERTO SANSORES SANSORES' como presidente municipal de Hopelchén electo en un proceso previo a 2006, probablemente el período 1990-1993 o 1993-1996. La coincidencia del apellido Sansores en el poder local (Hopelchén) y en el poder estatal (gobernatura) es significativa: si Julio Alberto Sansores Sansores es familiar de Layda Sansores San Román, el conflicto político contemporáneo entre Morena y el PRI en Hopelchén adquiriría una dimensión de fractura familiar interna. Sin embargo, la conexión genealógica directa no ha podido verificarse con fuentes primarias disponibles en línea. La verificación requiere: (1) árbol genealógico de la familia Sansores campechana, (2) actas del Registro Civil de Campeche, o (3) declaración directa de Layda Sansores.
+
+_Origen: IEEC Acuerdo CG 26/06 — Registro Wikipedia Layda Sansores (no accesible directamente) <https://www.ieec.org.mx/documentacion/acuerdosactas/2006/mayo/acuerdocg2606_a1.pdf>_
+**→ Conexión hipótesis:** Si el ex alcalde priista de Hopelchén y la gobernadora morenista son familia, la lucha política sobre el territorio y los menonitas tiene raíces en una fractura del mismo linaje político campechano.
+**Etiquetas:** Layda Sansores, Julio Alberto Sansores Sansores, familia política, Campeche, IEEC, poder político, PRI, Morena
+
+---
+

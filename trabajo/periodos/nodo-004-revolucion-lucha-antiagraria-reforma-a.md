@@ -203,3 +203,24 @@ _Origen: menonitas_hopelchen.json — Base de datos documental del proyecto_
 
 ---
 
+
+### Bloque 004-J — Jorge Carlos Hurtado Valdez: gobernador de Campeche 2003-2009 y el con
+
+| Campo | Valor |
+|---|---|
+| **Tipo** | Inferido — verificación pendiente |
+| **Fecha / Período** | 2003 — 2009 |
+| **Lugar** | Campeche, México |
+| **Personajes** | — |
+| **Cargos** | — |
+| **Fuente(s)** | [Contexto histórico del gobierno de Campeche — datos inferidos de cronología conocida](<https://es.wikipedia.org/wiki/Jorge_Carlos_Hurtado_Valdez>) |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_004_Revolucion_Chicle.json` |
+
+> Jorge Carlos Hurtado Valdez fue gobernador constitucional del estado de Campeche durante el período 2003-2009, del Partido Revolucionario Institucional (PRI). Su período como gobernador coincide con la expansión acelerada de la soya transgénica en el sur de Campeche, incluyendo el municipio de Hopelchén, y con la consolidación de las colonias menonitas en el territorio municipal. Durante su administración se autorizaron los permisos de siembra de soya transgénica que posteriormente serían impugnados por comunidades mayas ante la SCJN (con sentencia en 2015). Hurtado Valdez representó la continuidad del PRI en Campeche y su administración marcó el período de mayor expansión territorial de la agroindustria menonita sin contrapeso institucional. Los datos completos de su trayectoria política requieren verificación en el Congreso de Campeche o fuentes biográficas oficiales.
+
+_Origen: Contexto histórico del gobierno de Campeche — datos inferidos de cronología conocida <https://es.wikipedia.org/wiki/Jorge_Carlos_Hurtado_Valdez>_
+**→ Conexión hipótesis:** El gobernador Hurtado Valdez (PRI) durante 2003-2009 representa el nexo entre el poder estatal priista y la expansión agroindustrial en Hopelchén, sin intervención en protección de derechos indígenas.
+**Etiquetas:** gobernador, Campeche, PRI, Jorge Carlos Hurtado Valdez, GMO, soya transgénica, menonitas, 2003-2009
+
+---
+

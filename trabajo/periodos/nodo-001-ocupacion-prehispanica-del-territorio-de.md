@@ -139,6 +139,27 @@ _Origen: INAH — Zona Arqueológica Hochob <https://inah.gob.mx/zonas/zona-arqu
 
 ---
 
+
+### Bloque 001-G — Estela 2 de Santa Rosa Xtampak: epigrafía y gobernante JOL — identidad
+
+| Campo | Valor |
+|---|---|
+| **Tipo** | Citado — pendiente verificación directa del texto completo |
+| **Fecha / Período** | c. 700-900 d.C. |
+| **Lugar** | Santa Rosa Xtampak, municipio de Hopelchén, Campeche |
+| **Personajes** | — |
+| **Cargos** | — |
+| **Fuente(s)** | [Revista Arqueología (INAH) — SciELO México, 2004](<https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S0185-25742004000100002>) |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_001_Ocupacion_Prehispanica.json` |
+
+> La Estela 2 de Santa Rosa Xtampak es uno de los pocos monumentos epigráficos conocidos del sitio. Según estudios epigráficos publicados en Arqueología (INAH, 2004), la estela contiene el nombre del gobernante identificado por el glifo JOL (cabeza/cráneo), lo que la sitúa dentro de la tradición epigráfica de las ciudades del Puuc y Los Chenes del período Clásico Tardío (600-900 d.C.). Santa Rosa Xtampak ('casas viejas pintadas con estuco rojo', en maya) fue la ciudad más importante de la región de Los Chenes durante el Clásico Tardío, con arquitectura de múltiples pisos y probable función como centro administrativo regional. La identificación del gobernante JOL, si es confirmada, permitiría correlacionar la secuencia dinástica de Xtampak con otras capitales mayas del período como Calakmul o Uxmal. El artículo de la revista Arqueología mencionado (Scielo México, 2004) no pudo ser accedido directamente durante esta investigación pero está catalogado en SciELO México con el identificador pid=S0185-25742004000100002.
+
+_Origen: Revista Arqueología (INAH) — SciELO México, 2004 <https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S0185-25742004000100002>_
+**→ Conexión hipótesis:** La existencia de un gobernante nombrado en Xtampak confirma que Los Chenes tenía estructuras políticas propias antes de la conquista española, contradiciendo la narrativa colonial de 'tierra sin histo
+**Etiquetas:** epigrafía, Estela 2, Santa Rosa Xtampak, JOL, gobernante maya, Los Chenes, Clásico Tardío, INAH
+
+---
+
 ## Fuentes pendientes de consulta
 
 - Archivo General de la Nación — sección Inquisición y Colonial para encomiendas de Los Chenes

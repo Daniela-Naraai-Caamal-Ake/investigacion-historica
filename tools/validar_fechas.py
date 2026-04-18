@@ -168,20 +168,24 @@ def validar_nodo_fechas(path: Path, res: Resultado, estricto: bool) -> None:
                 f"rango temporal invertido en '{fecha}'"
             )
 
-        # Verificar coherencia con rango_temporal del nodo (holgura ±50 años)
+        # Verificar coherencia con rango_temporal del nodo (holgura ±50 años).
+        # Los registros con 'nota_cronologica' declaran explícitamente su alcance
+        # temporal inusual; no se generan advertencias de rango para ellos.
+        tiene_nota_cronologica = bool(reg.get("nota_cronologica", ""))
         HOLGURA = 50
-        if año_min_nodo is not None and año_min_reg < año_min_nodo - HOLGURA:
-            res.advertencia(
-                f"{nombre} (nodo {nodo_id}): registro '{rid}' — "
-                f"año {año_min_reg} es anterior al inicio del nodo "
-                f"({año_min_nodo}) con holgura de {HOLGURA} años"
-            )
-        if año_max_nodo is not None and año_max_reg > año_max_nodo + HOLGURA:
-            res.advertencia(
-                f"{nombre} (nodo {nodo_id}): registro '{rid}' — "
-                f"año {año_max_reg} es posterior al fin del nodo "
-                f"({año_max_nodo}) con holgura de {HOLGURA} años"
-            )
+        if not tiene_nota_cronologica:
+            if año_min_nodo is not None and año_min_reg < año_min_nodo - HOLGURA:
+                res.advertencia(
+                    f"{nombre} (nodo {nodo_id}): registro '{rid}' — "
+                    f"año {año_min_reg} es anterior al inicio del nodo "
+                    f"({año_min_nodo}) con holgura de {HOLGURA} años"
+                )
+            if año_max_nodo is not None and año_max_reg > año_max_nodo + HOLGURA:
+                res.advertencia(
+                    f"{nombre} (nodo {nodo_id}): registro '{rid}' — "
+                    f"año {año_max_reg} es posterior al fin del nodo "
+                    f"({año_max_nodo}) con holgura de {HOLGURA} años"
+                )
 
 
 def main() -> int:
