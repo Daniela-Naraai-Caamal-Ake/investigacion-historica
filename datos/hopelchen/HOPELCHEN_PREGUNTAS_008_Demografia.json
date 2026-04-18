@@ -63,7 +63,9 @@
       ],
       "prioridad": "Alta",
       "conexion_hipotesis": "El impacto demográfico de la Guerra de Castas en Hopelchén es el momento más documentable del patrón extractivo como catástrofe humana. No es abstracto — son personas concretas muertas o desplazadas como consecuencia directa del despojo de tierras que detonó la guerra (Nodo 003: 45% de las 800,000 ha enajenadas correspondían a la región de Hopelchén).",
-      "estado": "PENDIENTE"
+      "estado": "RESPONDIDA PARCIALMENTE — registro 008-B: 1846 ~26,000 hab. en Los Chenes y desaparición del 40% de establecimientos agrícolas tras la Guerra de Castas; faltan cifras nominales de muertes/desplazamiento por localidad.",
+      "registro_respuesta": "008-B",
+      "nota_respuesta": "Con evidencia interna ya consolidada en 008-B se documenta el impacto estructural, pero no el conteo nominal de personas fallecidas o desplazadas."
     },
     {
       "pregunta_id": "P008-05",
@@ -108,7 +110,9 @@
       ],
       "prioridad": "Media",
       "conexion_hipotesis": "Un escritor en lengua maya de Hopelchén activo en el siglo XXI es la encarnación más directa de la resistencia cultural documentada desde el Nodo 001. La lengua que el poder colonial intentó destruir desde 1562 (auto de fe de Maní) sigue produciendo literatura en 2023.",
-      "estado": "PENDIENTE"
+      "estado": "RESPONDIDA PARCIALMENTE — registro 008-D: testimonio documentado de Romualdo Eleazar Méndez Huchín sobre pérdida cultural y marginación; falta catálogo completo de obras y otros autores cheneros en maya.",
+      "registro_respuesta": "008-D",
+      "nota_respuesta": "Se incorporó testimonio directo del escritor chenero en lengua maya con fuente periodística; pendiente profundizar bibliografía y corpus literario local."
     },
     {
       "pregunta_id": "P008-08",

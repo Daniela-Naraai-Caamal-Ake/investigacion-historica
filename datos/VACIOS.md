@@ -3,7 +3,7 @@
 > Proyecto: *Dos Mil Años en Silencio* — Hopelchén: 2000 años de historia  
 > Autora: Daniela Naraai Caamal  
 > Fuente: Consolidado de `datos/hopelchen/HOPELCHEN_PREGUNTAS_*.json`  
-> Última actualización: 2026-04-14  
+> Última actualización: 2026-04-18  
 > ⚙ Generado automáticamente por `tools/actualizar_vacios.py`
 
 
@@ -18,9 +18,9 @@ Estado posible: `PENDIENTE` · `EN PROCESO` · `RESPONDIDA PARCIALMENTE` · `RES
 
 | Estado | Cantidad |
 |--------|----------|
-| 🔴 PENDIENTE | 41 |
+| 🔴 PENDIENTE | 39 |
 | 🟡 EN PROCESO | 1 |
-| 🟠 RESPONDIDA PARCIALMENTE | 19 |
+| 🟠 RESPONDIDA PARCIALMENTE | 21 |
 | 🟢 RESPONDIDA | 1 |
 | **TOTAL** | **62** |
 
@@ -140,7 +140,7 @@ Estas preguntas son cuellos de botella: sin ellas, capítulos enteros quedan inc
 |----|----------|------|--------------|--------|
 | **P008-02** | ¿Qué datos nominales contiene el Censo de 1930 de Hopelchén disponible en FamilySearch? ¿Aparecen apellidos… | 008 | FamilySearch — Centro de la Ciudad de México o Mérida; INEGI — Quinto Censo de Población 1930, Estado de Campeche (PDF disponible pero difícil de leer) | 🔴 PENDIENTE |
 | **P008-03** | ¿Cómo ha evolucionado el porcentaje de hablantes de lengua maya en Hopelchén entre 1960 y 2020? ¿Hay datos … | 008 | INEGI — Censos históricos con datos de hablantes de lengua indígena por municipio; INALI — Catálogo de Lenguas Indígenas y datos de vitalidad de la lengua maya | 🟠 RESPONDIDA PARCIALMENTE — registro 008-J: 2020 = 12,777 hablantes maya (30.5%); autoadscripción indígena 70.93%; mono… |
-| **P008-04** | ¿Cuál fue el impacto demográfico específico de la Guerra de Castas en Hopelchén? ¿Cuántas personas murieron… | 008 | Memoria del partido de los Chenes 1868 (citada en Schüren 2013 — buscar original en Archivo General del Estado de Campeche); Nelson Reed — La Guerra de Castas de Yucatán (libro académico clave con datos demográficos) | 🔴 PENDIENTE |
+| **P008-04** | ¿Cuál fue el impacto demográfico específico de la Guerra de Castas en Hopelchén? ¿Cuántas personas murieron… | 008 | Memoria del partido de los Chenes 1868 (citada en Schüren 2013 — buscar original en Archivo General del Estado de Campeche); Nelson Reed — La Guerra de Castas de Yucatán (libro académico clave con datos demográficos) | 🟠 RESPONDIDA PARCIALMENTE — registro 008-B: 1846 ~26,000 hab. en Los Chenes y desaparición del 40% de establecimientos … |
 
 
 ### Nodo 009 — Resistencia y Agencia Maya en Hopelchén (1669–2026)
@@ -260,7 +260,7 @@ Estas preguntas son cuellos de botella: sin ellas, capítulos enteros quedan inc
 
 | ID | Pregunta | Nodo | Dónde buscar | Estado |
 |----|----------|------|--------------|--------|
-| **P008-07** | ¿Qué dice el escritor en lengua maya Romualdo Eleazar Méndez Huchín sobre la pérdida cultural en Hopelchén?… | 008 | Tribuna Campeche — artículos sobre Romualdo Eleazar Méndez Huchín; INALI — catálogo de escritores en lengua indígena | 🔴 PENDIENTE |
+| **P008-07** | ¿Qué dice el escritor en lengua maya Romualdo Eleazar Méndez Huchín sobre la pérdida cultural en Hopelchén?… | 008 | Tribuna Campeche — artículos sobre Romualdo Eleazar Méndez Huchín; INALI — catálogo de escritores en lengua indígena | 🟠 RESPONDIDA PARCIALMENTE — registro 008-D: testimonio documentado de Romualdo Eleazar Méndez Huchín sobre pérdida cult… |
 | **P008-08** | ¿Cuántas comunidades del municipio de Hopelchén tienen más del 90% de población indígena como Cancabchén (9… | 008 | INEGI — ITER 2020: datos por localidad para las 170 localidades de Hopelchén; PueblosAmérica — estadísticas individuales por localidad del municipio | 🟠 RESPONDIDA PARCIALMENTE — registro 008-K: 70.93% autoadscripción indígena municipal; colonias menonitas 0% maya; loca… |
 
 
@@ -312,4 +312,4 @@ Estas preguntas son cuellos de botella: sin ellas, capítulos enteros quedan inc
 ---
 
 *Fuente de datos: `datos/hopelchen/HOPELCHEN_PREGUNTAS_*.json`*  
-*Generado: 2026-04-14 — ver también `datos/SINTESIS.md` para resumen ejecutivo del estado del repositorio*
+*Generado: 2026-04-18 — ver también `datos/SINTESIS.md` para resumen ejecutivo del estado del repositorio*
