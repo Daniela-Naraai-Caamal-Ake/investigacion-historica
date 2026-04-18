@@ -3,7 +3,7 @@
 > **Dos Mil Años en Silencio** — Investigación histórica sobre Hopelchén y Los Chenes  
 > Autora: **Daniela Naraai Caamal Ake**  
 > ⚙ Generado automáticamente por `tools/generar_sintesis.py`  
-> Última actualización: **2026-04-18 20:41**
+> Última actualización: **2026-04-18 20:48**
 
 ---
 
@@ -136,7 +136,7 @@ El libro está organizado en 10 nodos que combinan cronología y temática:
 | **006** | 1959 — 2026 | La Genealogía del Poder Político Local en Hopelchén (1959–2026): … | 10 |
 | **007** | 1517 — 2026 | Rutas, Territorio y Control del Espacio en Hopelchén (1517–2026):… | 11 |
 | **008** | 300 a.C. — 2026 | Demografía e Historia de la Población en Hopelchén (300 a.C.–2026… | 11 |
-| **009** | 1669 — 2026 | Resistencia y Agencia Maya en Hopelchén (1669–2026): De los Batab… | 11 |
+| **009** | 1669 — 2026 | Resistencia y Agencia Maya en Hopelchén (1669–2026): De los Batab… | 12 |
 | **010** | 300 a.C. — 2026 | Conocimiento y Cultura Maya en Los Chenes (300 a.C. – 2026): Astr… | 9 |
 
 ---
@@ -312,6 +312,7 @@ El libro está organizado en 10 nodos que combinan cronología y temática:
 | `009-I` | Julio 1849 | Los Siete de Bolonchenticul (julio 1849): mayas de Hopelchén… | ✅ Kosichenko, Ivan Nikítovich — 'Voluntarios mayas e |
 | `009-J` | 1995 — 2026 | Koolel-Kab / Muuchkambal (1995): la cooperativa de mujeres m… | ✅ leydy_pech_perfil.json — 'Perfil Completo de Leydy |
 | `009-K` | 1847 — c.1850 | Juan de Dios May después del ataque a Hopelchén (1847): dest… | ✅ Historiografía de la Guerra de Castas — Reed, Nels |
+| `009-L` | 1848-2015 | El Hilo Cuba (1848-hoy): deportación forzada, cimarronaje y … | ✅ CNDH México (2021) [FX003]; IPS Cuba (2015) [FX004 |
 
 ---
 
@@ -384,6 +385,7 @@ Todos los eventos documentados, ordenados cronológicamente.
 | 1847 — c.1850 | Juan de Dios May después del ataque a Hopelchén (1847): destino del lí… | 009 |
 | c. 1848 — 1910 (activo como trovador) / 1920-1941 (difusión nacional e internacional de su obra) | Cirilo 'Chan Cil' Baqueiro Preve: el trovador de Hopelchén cuya canció… | 004 |
 | Mayo 1848 | Juan de Dios May y el 'Ataque a Hopelchén' de 1848 — resistencia armad… | 009 |
+| 1848-2015 | El Hilo Cuba (1848-hoy): deportación forzada, cimarronaje y comunidad … | 009 |
 | Julio 1849 | Los Siete de Bolonchenticul (julio 1849): mayas de Hopelchén que pelea… | 009 |
 | 1850 — 1920 | El surgimiento de los 'mayas pacíficos' y el comercio sur de Los Chene… | 007 |
 | 1850 — 1901 | La Chan Santa Cruz: el Estado maya independiente (1850–1901) y su impa… | 009 |
@@ -884,7 +886,7 @@ Total borradores: **25**
 
 ## Notas de generación
 
-- **Generado:** 2026-04-18 20:41
+- **Generado:** 2026-04-18 20:48
 - **Script:** `tools/generar_sintesis.py`
 - **Repositorio:** Daniela-Naraai-Caamal-Ake/investigacion-historica
 - **Regenerar:** `python tools/generar_sintesis.py`

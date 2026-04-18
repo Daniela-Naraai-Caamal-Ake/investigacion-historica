@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-04-18T20:41:41Z",
+  "generado_en": "2026-04-18T20:48:35Z",
   "nodos": [
     {
       "id": "001",
@@ -103,9 +103,9 @@
       "rango_temporal": "1669 — 2026",
       "año_inicio": 1669,
       "año_fin": 2026,
-      "n_registros": 11,
-      "n_con_fuente": 11,
-      "n_con_conexion": 11,
+      "n_registros": 12,
+      "n_con_fuente": 12,
+      "n_con_conexion": 12,
       "pct_fuente": 100.0,
       "pct_conexion": 100.0
     },
@@ -124,10 +124,10 @@
   ],
   "resumen": {
     "total_nodos": 10,
-    "total_registros": 98,
-    "total_con_fuente": 98,
+    "total_registros": 99,
+    "total_con_fuente": 99,
     "total_sin_fuente": 0,
-    "total_con_conexion": 98,
+    "total_con_conexion": 99,
     "total_sin_conexion": 0,
     "total_preguntas": 68,
     "pct_fuente_global": 100.0,
@@ -221,7 +221,7 @@
       "Citado — fuentes primarias institucionales IEEC verificadas parcialmente": 1,
       "Genealógico — síntesis de múltiples fuentes documentales": 1,
       "Hipótesis pendiente de verificación — alta prioridad": 1,
-      "Citado — pendiente verificación genealógica": 1,
+      "Citado — IEEC 2006 confirma candidatura previa; partido en 2006 requiere verificación": 1,
       "Citado con análisis": 1,
       "Biográfico — documentado en fuente testimonial literaria y fuente periodística": 1,
       "Inferido — hipótesis pendiente de verificación": 1,
@@ -255,6 +255,7 @@
       "Citado académico — fuente primaria de archivo verificada": 1,
       "Organizativo-histórico — verificado en múltiples fuentes sobre el caso Leydy Pech": 1,
       "Inferido — requiere investigación en archivo": 1,
+      "Citado académico — múltiples fuentes verificadas (primarias y secundarias)": 1,
       "Análisis arqueológico-astronómico": 1,
       "Citado académico — evidencia epigráfica": 1,
       "Histórico verificado — evento documentado en fuente primaria": 1,
@@ -266,7 +267,7 @@
       "Literario-testimonial — archivos locales disponibles": 1
     },
     "tipos_agrupados": {
-      "Citado": 53,
+      "Citado": 54,
       "Análisis": 12,
       "Biográfico": 6,
       "Inferido": 6,

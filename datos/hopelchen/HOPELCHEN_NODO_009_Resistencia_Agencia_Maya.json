@@ -424,6 +424,48 @@
         "líderes mayas",
         "AGEY"
       ]
+    },
+    {
+      "registro_id": "009-L",
+      "subtitulo": "El Hilo Cuba (1848-hoy): deportación forzada, cimarronaje y comunidad maya en Madruga",
+      "fecha_evento": "1848-2015",
+      "lugar": "Los Chenes → Puerto de Campeche → Cuba (Madruga, provincia Mayabeque)",
+      "descripcion": "MECANISMO DEL TRÁFICO (1848-1861): El decreto del gobernador Barbachano (6-nov-1848) ordenó que todo rebelde capturado fuera exiliado 10 años. Las autoridades yucatecas recibían 25 pesos de casas comerciales españolas por cada maya entregado; los soldados cobraban 5 pesos por captura. Entre 700 y 2,000 indios fueron deportados 1849-1861. Firmas traficantes: 'Zangroniz y Hnos.' y 'Goicuría y Cía.'. El traficante individual más documentado es Pancho Marty (Francisco Marti y Torrens), activo 1847-1853. El barco La Unión (empresa Zangroniz) fue identificado por arqueología subacuática INAH en 2020 en aguas de Yucatán. En octubre 1860 fue descubierto en Campeche un cargamento de 29 esclavos mayas, incluidos niños de 7-10 años. El 6 de mayo de 1861 Benito Juárez prohibió la deportación. \nLA COMUNIDAD EN CUBA: Los mayas deportados fueron catalogados como 'guachinangos'. Los que pudieron huir se convirtieron en cimarrones y se refugiaron en la Sierra del Grillo, cordillera Bejucal-Madruga-Coliseo. Excavaciones del Grupo Espeleo-Arqueológico Copey encontraron cerámica mexicana de finales del siglo XVIII y principios del XIX en cuevas de la zona — evidencia material de asentamientos de resistencia esclava. \nESTADO ACTUAL: ~200 descendientes viven en Madruga, provincia Mayabeque. Desde 2012 la Asociación Cultural Maya-Yucateca y Amigos de Madruga (presidenta: Deysi Chusco) trabaja en recuperar su identidad. En registros civiles aparecen inscritos como 'raza blanca' (ej. Alfonso Chusco y Calderón, 1931). Apellidos registrados: Chusco Chan, Valencia Chusco, Calderón Chusco. Mantienen: cocina yucateca, plantas medicinales, relación con la tierra. En el barrio de Campeche en La Habana Vieja, investigadores cubanos identificaron cerámica maya del siglo XVI y registros de indios de Yucatán que habitaron ahí.",
+      "fuente": "CNDH México (2021) [FX003]; IPS Cuba (2015) [FX004]; Rodríguez Piña, Javier (1990) [FX001]; Álvarez Cuartero (2012) [FX002]; Monografias.com — Artiles Avela, Ramón: 'La migración Yucateca hacia Cuba'",
+      "fuente_academica": "Rodríguez Piña, Javier. Guerra de Castas: La venta de indios mayas a Cuba, 1848-1861. CONACULTA, 1990. [FX001] — fuente académica primaria del tema. Álvarez Cuartero, Izaskun. 'De españoles, yucatecos e indios.' Clio 30:1, 2012. [FX002]",
+      "tipo_dato": "Citado académico — múltiples fuentes verificadas (primarias y secundarias)",
+      "personajes": [
+        {
+          "nombre": "Miguel Barbachano",
+          "cargo": "Gobernador de Yucatán que decretó el exilio/tráfico el 6-nov-1848"
+        },
+        {
+          "nombre": "Benito Juárez",
+          "cargo": "Prohibió el tráfico el 6-may-1861 con pena de muerte"
+        },
+        {
+          "nombre": "Pancho Marty (Francisco Marti y Torrens)",
+          "cargo": "Traficante de familias mayas 1847-1853"
+        },
+        {
+          "nombre": "Deysi Chusco",
+          "cargo": "Presidenta de la Asociación Cultural Maya-Yucateca y Amigos de Madruga, Cuba (s. XXI)"
+        }
+      ],
+      "conexion_hipotesis": "El Hilo Cuba es la evidencia más contundente de la hipótesis del proyecto: los mayas de Los Chenes no solo resistieron militarmente (Guerra de Castas) sino que fueron literalmente arrancados de su territorio por el Estado mexicano y vendidos como esclavos. La continuidad de 170 años — desde la Sierra del Grillo hasta la Asociación Cultural de Madruga — demuestra que la resistencia maya es también una resistencia identitaria que trasciende fronteras nacionales. El 'silencio' sobre este hilo en el archivo histórico de Hopelchén es estructural: ningún registro local documenta nombres de personas deportadas de Los Chenes específicamente.",
+      "tags": [
+        "Cuba",
+        "Madruga",
+        "tráfico",
+        "esclavitud",
+        "cimarrón",
+        "1848-1861",
+        "Juárez",
+        "Barbachano",
+        "Zangroniz",
+        "Sierra del Grillo",
+        "diáspora maya"
+      ]
     }
   ],
   "linea_del_tiempo_nodo": [
