@@ -1,5 +1,9 @@
 # Reportes generados automáticamente
 reportes/
+datos/logs/*
+datos/investigacion/*
+!datos/logs/.gitkeep
+!datos/investigacion/.gitkeep
 
 # Python
 __pycache__/
