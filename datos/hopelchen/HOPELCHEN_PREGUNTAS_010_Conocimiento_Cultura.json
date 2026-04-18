@@ -1,0 +1,134 @@
+{
+  "repositorio": "Hopelchén: 2000 años de historia",
+  "archivo_id": "PREGUNTAS-010",
+  "titulo": "Preguntas Abiertas e Iteraciones Pendientes — Derivadas del Nodo 010: Conocimiento y Cultura Maya en Los Chenes",
+  "nodo_origen": "010 — Conocimiento y Cultura Maya en Los Chenes (300 a.C. – 2026): Astronomía, Escritura, Destrucción y Continuidad",
+  "fecha_generacion": "2026-04-18",
+  "estado": "Activo — pendiente de investigación",
+  "preguntas": [
+    {
+      "pregunta_id": "P010-01",
+      "pregunta": "¿Existen informes técnicos del INAH sobre los alineamientos astronómicos específicos de Santa Rosa Xtampak (orientaciones de puertas, ventanas y ejes hacia eventos solares o venusinos)?",
+      "contexto": "El registro 010-A documenta que los edificios de Xtampak presentan orientaciones cardinales precisas, pero la evidencia directa sobre alineamientos astronómicos específicos no ha sido revisada en las publicaciones del proyecto arqueológico del INAH. El estudio de Aveni, Dowd y Vining (2003) aborda orientaciones calendáricas en Los Chenes, pero no se ha accedido directamente.",
+      "tipo": "Arqueológico / Astronómico / Técnico",
+      "fuentes_a_consultar": [
+        "INAH Centro Campeche — Proyecto Arqueológico Santa Rosa Xtampak (informes técnicos)",
+        "Aveni, Dowd y Vining (2003) — 'Maya Calendar Reform? Evidence from Orientations of Specialized Architectural Assemblages'. Latin American Antiquity 14(2):159-178",
+        "Ibero-Amerikanisches Institut Berlin — informes del proyecto 2020-2022",
+        "INAH Mediateca — archivos de Hochob, Xtampak y Dzibilnocac"
+      ],
+      "prioridad": "Alta",
+      "conexion_hipotesis": "Si los alineamientos astronómicos en Xtampak son verificables con precisión técnica, refuerzan que Los Chenes producía conocimiento científico sofisticado. Este es el tercer eje de la hipótesis: el control del conocimiento como eje de poder.",
+      "estado": "PENDIENTE",
+      "hallazgos": "",
+      "registro_respuesta": ""
+    },
+    {
+      "pregunta_id": "P010-02",
+      "pregunta": "¿Puede identificarse el nombre completo y la posición dinástica del gobernante con glifo JOL en la Estela 2 de Santa Rosa Xtampak? ¿Qué dice el artículo completo de SciELO sobre epigrafía de Xtampak?",
+      "contexto": "El registro 010-B cita un artículo de SciELO que menciona al gobernante JOL con posible conexión a la isla de Jaina. El nombre completo del gobernante no ha sido identificado y el artículo completo de SciELO no ha sido accedido directamente en el proyecto. La pregunta P001-04 aborda el mismo problema desde el nodo prehispánico.",
+      "tipo": "Epigrafía / Poder dinástico / Arqueológico",
+      "fuentes_a_consultar": [
+        "SciELO — artículo completo sobre epigrafía de Santa Rosa Xtampak (recuperar cita completa)",
+        "FAMSI — Foundation for the Advancement of Mesoamerican Studies — base epigráfica",
+        "Nikolai Grube — publicaciones sobre epigrafía del noroeste de Yucatán",
+        "Antonio Benavides Castillo — INAH Campeche"
+      ],
+      "prioridad": "Alta",
+      "conexion_hipotesis": "El nombre y la posición dinástica del gobernante JOL es el caso más directo de conocimiento maya producido localmente en Hopelchén. Identificarlo demostraría que Los Chenes tenía producción epigráfica propia, no era periferia cultural.",
+      "estado": "RESPONDIDA PARCIALMENTE",
+      "hallazgos": "Registro 001-D (Nodo 001) cataloga el artículo de SciELO pero no reporta el acceso directo al texto completo. El nombre completo del gobernante JOL sigue sin identificarse en las publicaciones consultadas.",
+      "registro_respuesta": "Registro 010-B: el artículo de SciELO referenciado en 001-D necesita recuperación de cita completa y acceso al texto."
+    },
+    {
+      "pregunta_id": "P010-03",
+      "pregunta": "¿Cuántos hablantes de maya yucateco en Hopelchén son bilingües plenos versus hablantes pasivos? ¿En qué comunidades específicas del municipio se usa el maya como primera lengua en la vida cotidiana?",
+      "contexto": "El registro 010-F documenta que Hopelchén tiene una de las tasas de hablantes de lengua maya más altas de Campeche, pero los datos del INEGI no distinguen entre bilingüismo pleno y hablantes pasivos. La diferencia es crucial para evaluar si la lengua está en proceso de recuperación o de pérdida acelerada.",
+      "tipo": "Sociolingüístico / Demográfico / Contemporáneo",
+      "fuentes_a_consultar": [
+        "INEGI — Censo 2020 — tabulados de lengua indígena por municipio y localidad",
+        "Instituto Nacional de Lenguas Indígenas (INALI) — datos de vitalidad del maya yucateco",
+        "CEDEHM — Centro de Derechos Humanos de la Montaña — informes de comunidades mayas de Hopelchén",
+        "CIESAS — investigaciones sociolingüísticas sobre maya yucateco en Campeche"
+      ],
+      "prioridad": "Alta",
+      "conexion_hipotesis": "La lengua es el marcador más vivo del conocimiento maya. Si el maya yucateco está en retroceso en Hopelchén, el tercer eje de la hipótesis (control del conocimiento) sigue activo en el presente. Si está en recuperación, documenta resistencia cultural contemporánea.",
+      "estado": "PENDIENTE",
+      "hallazgos": "",
+      "registro_respuesta": ""
+    },
+    {
+      "pregunta_id": "P010-04",
+      "pregunta": "¿Existen grabaciones, transcripciones o estudios académicos de Los Xtoles de Chan Cil (Hopelchén) además del registro de Baqueiro Fóster de 1869?",
+      "contexto": "El registro 010-H documenta que Gerónimo Baqueiro Fóster transcribió Los Xtoles de Chan Cil en 1869 en Hopelchén. Este es uno de los registros más tempranos de música maya documentada. El Centro de Documentación Gerónimo Baqueiro Fóster en la Universidad de las Artes de Yucatán puede tener material adicional.",
+      "tipo": "Música / Patrimonio cultural / Documentación",
+      "fuentes_a_consultar": [
+        "Centro de Documentación Gerónimo Baqueiro Fóster — Universidad de las Artes de Yucatán",
+        "CENIDIM (Centro Nacional de Investigación, Documentación e Información Musical) — INBA",
+        "Pool Castellanos (2025) — tesis sobre ópera yucateca y Los Xtoles [FX007]",
+        "Fonoteca Nacional INAH — colecciones de música indígena de Yucatán y Campeche"
+      ],
+      "prioridad": "Media",
+      "conexion_hipotesis": "Los Xtoles documentados en Hopelchén en 1869 son evidencia de que el conocimiento musical maya sobrevivió 300 años después de la conquista. Encontrar grabaciones o estudios adicionales ampliaría el registro de la continuidad cultural.",
+      "estado": "PENDIENTE",
+      "hallazgos": "",
+      "registro_respuesta": ""
+    },
+    {
+      "pregunta_id": "P010-05",
+      "pregunta": "¿Las novelas de Hernán Lara Zavala (Charras, El lugar donde crece la hierba) contienen datos históricos verificables sobre Hopelchén que no aparecen en las fuentes académicas? ¿Qué documentos o tradiciones orales usó Lara Zavala para escribirlas?",
+      "contexto": "El registro 010-I documenta que Lara Zavala (1947–2025) usó Hopelchén como escenario de sus novelas con nombres alterados (Zitilchén = Hopelchén, Quintero = personaje histórico real). Sus novelas pueden contener memoria histórica oral que no está documentada en fuentes académicas. Lara Zavala declaró haber basado sus textos en tradiciones orales de la región.",
+      "tipo": "Literatura / Memoria oral / Fuente literaria",
+      "fuentes_a_consultar": [
+        "Lara Zavala, Hernán — entrevistas y declaraciones sobre su proceso de investigación",
+        "ELEM — Enciclopedia de la Literatura en México [FX017] — entrada completa de Lara Zavala",
+        "Archivo personal de Lara Zavala — posiblemente en el INBA o UNAM tras su muerte en 2025",
+        "Informantes en Hopelchén que puedan haber sido fuentes del escritor"
+      ],
+      "prioridad": "Media",
+      "conexion_hipotesis": "La literatura como fuente histórica es un recurso metodológico válido para la historia oral. Si las novelas de Lara Zavala contienen datos verificables, amplían el registro histórico de Hopelchén con memorias que no llegaron a los archivos oficiales.",
+      "estado": "PENDIENTE",
+      "hallazgos": "",
+      "registro_respuesta": ""
+    },
+    {
+      "pregunta_id": "P010-06",
+      "pregunta": "¿Qué evidencia existe sobre el uso actual de medicina botánica tradicional maya en el municipio de Hopelchén? ¿Qué plantas medicinales son conocidas por nombre en maya yucateco en las comunidades del municipio?",
+      "contexto": "El registro 010-E documenta que la meliponicultura sobrevivió como biotecnología de 3,000 años. El registro 010-G menciona que el conocimiento práctico cotidiano (botánica, agricultura, meliponicultura) fue el que sobrevivió la destrucción colonial. La medicina botánica tradicional es parte de ese conocimiento pero no ha sido documentada específicamente para Hopelchén en el repositorio.",
+      "tipo": "Etnobotánica / Conocimiento ancestral / Contemporáneo",
+      "fuentes_a_consultar": [
+        "CIBNOR — Centro de Investigaciones Biológicas del Noroeste — estudios de etnobotánica en Campeche",
+        "UNAM Instituto de Biología — base de datos de plantas medicinales mayas",
+        "INAH Centro Campeche — Atlas de patrimonio natural y cultural",
+        "Entrevistas directas con curanderos (h-men) y parteras en comunidades de Hopelchén"
+      ],
+      "prioridad": "Media-Alta",
+      "conexion_hipotesis": "La medicina botánica tradicional es conocimiento vivo — si está documentada en Hopelchén, confirma que el tercer eje de la hipótesis (control del conocimiento) no fue total: hay conocimiento que sobrevivió 500 años de colonización.",
+      "estado": "PENDIENTE",
+      "hallazgos": "",
+      "registro_respuesta": ""
+    }
+  ],
+  "temas_sin_datos_aun": [
+    {
+      "tema": "Número de códices mayas específicamente de Los Chenes destruidos en Maní o en autos de fe locales",
+      "por_que_importa": "El auto de fe de Maní (1562) afectó toda la región. ¿Había códices producidos en Los Chenes? ¿Qué contenían? La respuesta es imposible directamente, pero puede aproximarse por comparación con lo que se sabe de otras regiones."
+    },
+    {
+      "tema": "Estado actual de la transmisión de la meliponicultura de generación en generación en Hopelchén",
+      "por_que_importa": "Leydy Pech documentó la resistencia meliponicultora ante el glifosato. Pero ¿hay jóvenes en Hopelchén que aprendan meliponicultura hoy? ¿O está en peligro la transmisión generacional del conocimiento?"
+    },
+    {
+      "tema": "Investigadores académicos mayas originarios de Hopelchén o de Los Chenes",
+      "por_que_importa": "¿Hay investigadores con apellidos mayas de la región que estén recuperando o produciendo conocimiento sobre Hopelchén desde una perspectiva propia? La producción académica de la región sobre sí misma es parte del tercer eje de la hipótesis."
+    }
+  ],
+  "metadatos": {
+    "generado_desde": "HOPELCHEN_NODO_010_Conocimiento_Cultura.json",
+    "fecha": "2026-04-18",
+    "total_preguntas": 6,
+    "total_temas_pendientes": 3,
+    "estado": "Activo — primera iteración",
+    "siguiente_nodo_sugerido": "Síntesis transversal de los tres ejes: tierra, cuerpo y conocimiento"
+  }
+}
