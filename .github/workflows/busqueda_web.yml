@@ -1,0 +1,81 @@
+name: Búsqueda Web
+
+# Busca fuentes candidatas para registros sin cita y amplía los nodos históricos
+# usando Wikipedia (ES/EN), OpenLibrary y DuckDuckGo — sin API key.
+#
+# Se activa:
+#   - Manualmente desde la pestaña Actions (workflow_dispatch).
+#   - Automáticamente cada lunes a las 07:00 UTC (schedule).
+#
+# Para ejecutar solo un nodo concreto, usa el campo "nodo" en workflow_dispatch
+# (por ejemplo "009"). Déjalo vacío para procesar todos los registros.
+
+on:
+  workflow_dispatch:
+    inputs:
+      nodo:
+        description: "Nodo a procesar (p. ej. 009). Vacío = todos."
+        required: false
+        default: ""
+      limite:
+        description: "Número máximo de búsquedas por modo (0 = sin límite)."
+        required: false
+        default: "0"
+      modo:
+        description: "Modo: todo | validar | fuentes | ampliar"
+        required: false
+        default: "todo"
+  schedule:
+    - cron: "0 7 * * 1"   # Cada lunes a las 07:00 UTC
+
+jobs:
+  busqueda:
+    name: Búsqueda Web
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      # ── buscar_fuentes_vacias.py ─────────────────────────────────────────
+      - name: Buscar fuentes para registros sin cita
+        run: |
+          ARGS=""
+          if [ -n "${{ github.event.inputs.nodo }}" ]; then
+            ARGS="$ARGS --nodo ${{ github.event.inputs.nodo }}"
+          fi
+          if [ "${{ github.event.inputs.limite }}" != "0" ] && [ -n "${{ github.event.inputs.limite }}" ]; then
+            ARGS="$ARGS --limite ${{ github.event.inputs.limite }}"
+          fi
+          python tools/buscar_fuentes_vacias.py $ARGS
+
+      # ── validar_citas.py ─────────────────────────────────────────────────
+      - name: Validar citas y ampliar nodos
+        run: |
+          ARGS="--modo ${{ github.event.inputs.modo || 'todo' }}"
+          if [ -n "${{ github.event.inputs.nodo }}" ]; then
+            ARGS="$ARGS --nodo ${{ github.event.inputs.nodo }}"
+          fi
+          if [ "${{ github.event.inputs.limite }}" != "0" ] && [ -n "${{ github.event.inputs.limite }}" ]; then
+            ARGS="$ARGS --limite ${{ github.event.inputs.limite }}"
+          fi
+          python tools/validar_citas.py $ARGS
+
+      # ── Subir resultados como artefactos ─────────────────────────────────
+      - name: Guardar resultados como artefactos
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: resultados-busqueda-${{ github.run_id }}
+          path: datos/investigacion/
+          retention-days: 30
