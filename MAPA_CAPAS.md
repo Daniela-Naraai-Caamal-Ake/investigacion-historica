@@ -101,3 +101,18 @@ python tools/buscar_fuentes_vacias.py
 # Validar URLs del catálogo
 python tools/validar_citas.py
 ```
+
+---
+
+## Capa 8 — Análisis de cruces y silencios *(nueva)*
+
+- `analisis/cruce_informacion.md` → actores, mecanismos y temas que atraviesan múltiples nodos
+- `analisis/contradicciones.md` → 82 tensiones entre fuentes (factuales, interpretativas, silencios)
+- `analisis/mapa_silencios.md` → ausencias estructurales del archivo histórico disponible
+
+```bash
+# Regenerar los tres análisis
+python tools/generar_matriz_cruces.py
+python tools/generar_contradicciones.py
+python tools/generar_mapa_silencios.py
+```
