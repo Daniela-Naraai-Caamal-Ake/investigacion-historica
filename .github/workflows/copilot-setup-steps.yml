@@ -17,7 +17,6 @@ jobs:
     runs-on: ubuntu-latest
 
     # Referencia al entorno "copilot" donde se almacenan los secretos del agente.
-    # Agrega FIRECRAWL_API_KEY como secreto en:
     # Settings > Environments > copilot > Environment secrets
     environment: copilot
 
@@ -25,9 +24,7 @@ jobs:
       contents: read
 
     # Expone los secretos del entorno "copilot" como variables de entorno
-    # para que las herramientas de Firecrawl puedan autenticarse con la API.
     env:
-      FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
 
     steps:
       - name: Checkout del repositorio

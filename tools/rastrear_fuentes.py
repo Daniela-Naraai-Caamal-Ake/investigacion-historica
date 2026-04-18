@@ -12,7 +12,6 @@ Uso:
     python tools/rastrear_fuentes.py --modulo scjn
     python tools/rastrear_fuentes.py --modulo poe_campeche
     python tools/rastrear_fuentes.py --modulo familysearch --guia
-    python tools/rastrear_fuentes.py --modulo firecrawl
 
 Módulos disponibles:
     pares         — PARES (Portal de Archivos Españoles / AGI Sevilla)
@@ -20,7 +19,6 @@ Módulos disponibles:
     scjn          — Buscador de jurisprudencia SCJN (caso soya transgénica)
     poe_campeche  — Periódico Oficial del Estado de Campeche (presidentes municipales)
     familysearch  — Guía de búsqueda en FamilySearch (registros coloniales)
-    firecrawl     — Búsqueda web avanzada mediante la API de Firecrawl (requiere FIRECRAWL_API_KEY)
 
 Notas éticas y técnicas:
     - Todos los módulos acceden únicamente a recursos de acceso público.
@@ -30,7 +28,7 @@ Notas éticas y técnicas:
       el módulo genera la solicitud de acceso en formato de texto.
 
 Dependencias:
-    pip install requests beautifulsoup4 firecrawl-py
+    pip install requests beautifulsoup4
 """
 
 from __future__ import annotations
@@ -61,23 +59,7 @@ try:
 except ImportError:
     _REQUESTS_OK = False
 
-try:
-    from firecrawl import FirecrawlApp as _FirecrawlApp  # type: ignore
-    _FIRECRAWL_OK = True
-except ImportError:
-    _FIRECRAWL_OK = False
-
 # Clave Firecrawl: se lee de la variable de entorno o del archivo .env
-_FIRECRAWL_API_KEY: str | None = os.environ.get("FIRECRAWL_API_KEY")
-if not _FIRECRAWL_API_KEY:
-    _dotenv_path = ROOT / ".env"
-    if _dotenv_path.exists():
-        for _line in _dotenv_path.read_text(encoding="utf-8").splitlines():
-            _line = _line.strip()
-            if _line.startswith("FIRECRAWL_API_KEY=") and not _line.startswith("#"):
-                _FIRECRAWL_API_KEY = _line.split("=", 1)[1].strip().strip('"').strip("'")
-                break
-
 
 def _verificar_dependencias() -> None:
     if not _REQUESTS_OK:
@@ -608,60 +590,12 @@ def modulo_familysearch(solo_guia: bool = False) -> None:
 
 # ─── Módulo Firecrawl ─────────────────────────────────────────────────────────
 
-# Términos prioritarios para búsqueda avanzada con Firecrawl.
-# Se derivan de las preguntas pendientes (PENDIENTE) de VACIOS.md y de los
-# nodos con registros sin fuente.
-_FIRECRAWL_TERMINOS: list[dict] = [
-    {
-        "query": "Hopelchén historia colonial encomienda siglo XVII",
-        "descripcion": "Historia colonial y encomiendas en Hopelchén / Los Chenes",
-        "nodos_relacionados": ["001", "002"],
-        "preguntas_relacionadas": ["P001-02", "P002-01"],
-    },
-    {
-        "query": "resistencia maya Campeche siglo XIX independencia",
-        "descripcion": "Resistencia maya en Campeche durante el siglo XIX",
-        "nodos_relacionados": ["003", "004"],
-        "preguntas_relacionadas": ["P003-01", "P004-01"],
-    },
-    {
-        "query": "industria chiclera Hopelchén Campeche economía siglo XX",
-        "descripcion": "Economía chiclera en Los Chenes y Hopelchén",
-        "nodos_relacionados": ["005"],
-        "preguntas_relacionadas": ["P005-01"],
-    },
-    {
-        "query": "presidentes municipales Hopelchén Campeche historia política",
-        "descripcion": "Presidentes municipales de Hopelchén y dynastías políticas",
-        "nodos_relacionados": ["006"],
-        "preguntas_relacionadas": ["P006-01", "P006-07", "P006-08", "P006-09"],
-    },
-    {
-        "query": "menonitas Hopelchén Campeche tierra deforestación soya transgénica",
-        "descripcion": "Comunidades menonitas, uso de tierra y soya transgénica en Hopelchén",
-        "nodos_relacionados": ["007"],
-        "preguntas_relacionadas": ["P007-01"],
-    },
-    {
-        "query": "conocimiento ecológico maya Hopelchén milpa semillas",
-        "descripcion": "Conocimiento ecológico tradicional maya en Los Chenes",
-        "nodos_relacionados": ["008"],
-        "preguntas_relacionadas": ["P008-01"],
-    },
-    {
-        "query": "Hopelchén Campeche siglo XXI territorio autonomía comunidades mayas",
-        "descripcion": "Luchas territoriales contemporáneas en Hopelchén",
-        "nodos_relacionados": ["009"],
-        "preguntas_relacionadas": ["P009-01", "P009-02"],
-    },
-]
-
 
 def _recopilar_terminos_desde_nodos() -> list[dict]:
     """
     Lee los nodos HOPELCHEN_NODO_*.json y extrae términos de búsqueda para
     registros que tengan estado PENDIENTE o carezcan de fuente.
-    Complementa los términos fijos de ``_FIRECRAWL_TERMINOS``.
+    Extrae términos desde los nodos con preguntas pendientes o sin fuente.
     """
     terminos_extra: list[dict] = []
     if not DATOS_HOPELCHEN.exists():
@@ -721,158 +655,6 @@ def _recopilar_terminos_desde_nodos() -> list[dict]:
     return terminos_extra
 
 
-def modulo_firecrawl() -> None:
-    """
-    Usa la API de Firecrawl para realizar búsquedas web avanzadas sobre los
-    temas con datos y fuentes pendientes en el proyecto.
-
-    Requiere la variable de entorno ``FIRECRAWL_API_KEY`` o un archivo ``.env``
-    en la raíz del repositorio con esa clave.
-
-    Los resultados se guardan en ``datos/investigacion/firecrawl_resultados_YYYYMMDD.json``.
-    """
-    print("\n🔍  Módulo Firecrawl — Búsqueda web avanzada")
-
-    if not _FIRECRAWL_OK:
-        print(
-            "\n❌  Módulo Firecrawl no disponible.\n"
-            "     Instala el SDK con:  pip install firecrawl-py\n"
-        )
-        return
-
-    if not _FIRECRAWL_API_KEY:
-        print(
-            "\n⚠   No se encontró FIRECRAWL_API_KEY.\n"
-            "     Exporta la variable antes de ejecutar:\n"
-            "       export FIRECRAWL_API_KEY=fc-xxxx\n"
-            "     o agrégala al archivo .env en la raíz del proyecto.\n"
-        )
-        return
-
-    try:
-        app = _FirecrawlApp(api_key=_FIRECRAWL_API_KEY)
-    except Exception as exc:
-        print(f"\n❌  Error al inicializar Firecrawl: {exc}\n")
-        return
-
-    # Combinar términos fijos con los derivados de los nodos
-    terminos_nodos = _recopilar_terminos_desde_nodos()
-    todos_terminos = _FIRECRAWL_TERMINOS + terminos_nodos
-
-    print(f"    Términos a buscar: {len(todos_terminos)} "
-          f"({len(_FIRECRAWL_TERMINOS)} fijos + {len(terminos_nodos)} desde nodos)")
-
-    busquedas: list[dict] = []
-
-    for item in todos_terminos:
-        query = item["query"]
-        descripcion = item.get("descripcion", query[:70])
-        print(f"\n  → {descripcion}")
-        print(f"    Query: {query}")
-
-        try:
-            resp = app.search(query, limit=5)
-            # La API actual devuelve SearchData con campo .web (lista de SearchResultWeb)
-            docs = getattr(resp, "web", None) or []
-            if not docs and isinstance(resp, list):
-                docs = resp
-
-            resultados: list[dict] = []
-            for doc in docs:
-                if hasattr(doc, "model_dump"):
-                    doc_dict = doc.model_dump()
-                elif hasattr(doc, "__dict__"):
-                    doc_dict = vars(doc)
-                else:
-                    doc_dict = dict(doc) if isinstance(doc, dict) else {}
-
-                # SearchResultWeb tiene url, title, description directamente
-                titulo = doc_dict.get("title") or doc_dict.get("metadata", {}).get("title", "")
-                descripcion_res = doc_dict.get("description") or doc_dict.get("metadata", {}).get("description", "")
-                url = doc_dict.get("url", "")
-
-                if not titulo and not url:
-                    continue
-
-                entrada_resultado: dict = {"titulo": titulo, "url": url}
-                if descripcion_res:
-                    entrada_resultado["descripcion"] = str(descripcion_res)[:300]
-                markdown = doc_dict.get("markdown") or ""
-                if markdown:
-                    entrada_resultado["extracto"] = markdown[:400]
-                resultados.append(entrada_resultado)
-
-            n = len(resultados)
-            icono = "✓" if n > 0 else "○"
-            print(f"     {icono} {n} resultado(s)")
-
-            busquedas.append({
-                "query": query,
-                "descripcion": item.get("descripcion", ""),
-                "nodos_relacionados": item.get("nodos_relacionados", []),
-                "preguntas_relacionadas": item.get("preguntas_relacionadas", []),
-                "registro_id": item.get("registro_id", ""),
-                "estado": "ok",
-                "total_resultados": n,
-                "resultados": resultados,
-                "timestamp": datetime.now().isoformat(),
-            })
-
-        except Exception as exc:
-            # Detectar errores de conexión de red en la cadena de causas
-            causa = exc
-            es_red = False
-            while causa is not None:
-                if isinstance(causa, (OSError, ConnectionError)):
-                    es_red = True
-                    break
-                causa = getattr(causa, "__cause__", None) or getattr(causa, "__context__", None)
-            if es_red:
-                msg_error = "error_red: no se pudo conectar a api.firecrawl.dev"
-                print(f"     ⚠  Error de red — sin acceso a api.firecrawl.dev")
-            else:
-                msg_error = f"error: {exc}"
-                print(f"     ⚠  Error en búsqueda: {exc}")
-            busquedas.append({
-                "query": query,
-                "descripcion": item.get("descripcion", ""),
-                "nodos_relacionados": item.get("nodos_relacionados", []),
-                "preguntas_relacionadas": item.get("preguntas_relacionadas", []),
-                "registro_id": item.get("registro_id", ""),
-                "estado": msg_error,
-                "total_resultados": 0,
-                "resultados": [],
-                "timestamp": datetime.now().isoformat(),
-            })
-
-        time.sleep(1)  # Respetar límites de la API
-
-    total_resultados = sum(b.get("total_resultados", 0) for b in busquedas)
-
-    resultado_final = {
-        "modulo": "firecrawl",
-        "fecha_consulta": datetime.now().isoformat(),
-        "api": "Firecrawl Search API",
-        "terminos_fijos": len(_FIRECRAWL_TERMINOS),
-        "terminos_desde_nodos": len(terminos_nodos),
-        "total_busquedas": len(busquedas),
-        "total_resultados": total_resultados,
-        "busquedas": busquedas,
-        "nota_metodologica": (
-            "Las búsquedas fueron realizadas con la API de Firecrawl. "
-            "Los resultados incluyen páginas web con contenido relevante para los "
-            "temas y registros pendientes del proyecto. "
-            "Verificar y validar manualmente antes de incorporar como fuentes definitivas."
-        ),
-    }
-
-    guardar_resultados("firecrawl", resultado_final)
-    print(
-        f"\n  ✅  Módulo Firecrawl completado — "
-        f"{len(busquedas)} búsquedas, {total_resultados} resultados totales"
-    )
-
-
 # ─── Punto de entrada ─────────────────────────────────────────────────────────
 
 _MODULOS = {
@@ -881,7 +663,6 @@ _MODULOS = {
     "scjn": modulo_scjn,
     "poe_campeche": modulo_poe_campeche,
     "familysearch": modulo_familysearch,
-    "firecrawl": modulo_firecrawl,
 }
 
 
@@ -904,15 +685,9 @@ def main() -> None:
     )
     args = parser.parse_args()
 
-    # Verificar dependencias de requests/bs4 solo cuando se usan módulos que las necesitan.
-    # El módulo 'firecrawl' solo requiere firecrawl-py (verificado internamente).
-    # El módulo 'familysearch --guia' tampoco hace peticiones HTTP.
-    necesita_requests = not (
-        args.modulo == "firecrawl"
-        or (args.modulo == "familysearch" and args.guia)
-        or (args.modulo is None)  # Al ejecutar todos los módulos, firecrawl no requiere requests
-    )
-    if args.modulo is None or necesita_requests:
+    # familysearch --guia no hace peticiones HTTP.
+    necesita_requests = not (args.modulo == "familysearch" and args.guia)
+    if necesita_requests:
         _verificar_dependencias()
 
     print(f"\n{'=' * 65}")

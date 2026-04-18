@@ -1,11 +1,4 @@
 {
-  "META": {
-    "fecha": "2026-03-22",
-    "proyecto": "ARCHIVO VIVO — Hopelchén, Campeche, México",
-    "total_fuentes": 53,
-    "nota": "Incluye fuentes web de .firecrawl/search-hopelchen-historia.json y fuentes académicas/documentales ya conocidas del proyecto",
-    "nota_actualizacion": "Actualizado PASO 6: añadidas 11 nuevas fuentes de searches adicionales (Hochob, Guerra Castas, Menonitas, Baqueiro)."
-  },
   "fuentes": [
     {
       "id": "F001",
