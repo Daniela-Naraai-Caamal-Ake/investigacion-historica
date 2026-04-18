@@ -34,12 +34,12 @@ su estado, el nodo histórico al que corresponden y la palabra estimada.
 
 | # | Archivo | Título | Estado | Palabras |
 |---|---|---|---|---|
-| A1 | `A1.md` | Cinco pozos y dos mil años: lo que el nombre de tu municipio lleva cargando | ✅ | ~1,473 |
-| A2 | `A2.md` | Hochob: la ciudad donde la entrada al templo era la boca de un dios | ✅ | ~1,456 |
-| A3 | `A3.md` | Dzibilnocac y Santa Rosa Xtampak: las otras dos ciudades mayas del municipio | ✅ | ~1,425 |
-| A4 | `A4.md` | Teobert Maler: el soldado que usó al Imperio para llegar a las ruinas mayas | ✅ | ~1,545 |
-| A5 | `A5.md` | La guerra que llegó a Los Chenes: Hopelchén en el centro de la Guerra de Castas | ✅ | ~1,313 |
-| A6 | `A6.md` | Hopelchén y sus guerras: dos mil años de un territorio que nunca dejó de ser disputado | ✅ | ~1,895 |
+| A1 | `entradas/aprobadas/A1.md` | Cinco pozos y dos mil años: lo que el nombre de tu municipio lleva cargando | ✅ | ~1,473 |
+| A2 | `entradas/aprobadas/A2.md` | Hochob: la ciudad donde la entrada al templo era la boca de un dios | ✅ | ~1,456 |
+| A3 | `entradas/aprobadas/A3.md` | Dzibilnocac y Santa Rosa Xtampak: las otras dos ciudades mayas del municipio | ✅ | ~1,425 |
+| A4 | `entradas/aprobadas/A4.md` | Teobert Maler: el soldado que usó al Imperio para llegar a las ruinas mayas | ✅ | ~1,545 |
+| A5 | `entradas/aprobadas/A5.md` | La guerra que llegó a Los Chenes: Hopelchén en el centro de la Guerra de Castas | ✅ | ~1,313 |
+| A6 | `entradas/aprobadas/A6.md` | Hopelchén y sus guerras: dos mil años de un territorio que nunca dejó de ser disputado | ✅ | ~1,895 |
 
 **Subtotal Bloque A:** 6 capítulos · ~9,107 palabras · 6/6 aprobados ✅
 
@@ -51,22 +51,22 @@ su estado, el nodo histórico al que corresponden y la palabra estimada.
 
 | # | Archivo | Título | Capítulo libro | Estado | Palabras |
 |---|---|---|---|---|---|
-| B1 | `B1.md` | Pantaleón Barrera: el hopelcheneño que gobernó Yucatán, vendió mayas y recibió una medalla imperial | Cap. I | ✅ | ~2,016 |
-| B1-BIS | `B1-BIS.md` | Los misterios de Chan Santa Cruz: la única novela que un hopelcheneño escribió en el siglo XIX | Cap. II (bis) | ✅ | ~1,665 |
+| B1 | `entradas/aprobadas/B1.md` | Pantaleón Barrera: el hopelcheneño que gobernó Yucatán, vendió mayas y recibió una medalla imperial | Cap. I | ✅ | ~2,016 |
+| B1-BIS | `entradas/aprobadas/B1-BIS.md` | Los misterios de Chan Santa Cruz: la única novela que un hopelcheneño escribió en el siglo XIX | Cap. II (bis) | ✅ | ~1,665 |
 | B-Madruga | `B-Madruga_borrador.md` | Madruga: lo que Hopelchén vendió y Cuba no olvidó | Cap. II | 📝 | ~1,482 |
-| B2 | `B2.md` | Pedro Advíncula Lara: el hombre que mandó traer el reloj de Berlín | Cap. III | ✅ | ~1,631 |
+| B2 | `entradas/aprobadas/B2.md` | Pedro Advíncula Lara: el hombre que mandó traer el reloj de Berlín | Cap. III | ✅ | ~1,631 |
 | B9 | `B9_borrador.md` | Los apellidos del poder antes del Porfiriato: cinco capas de gobierno | Cap. III | 📝 | ~1,972 |
-| B3 | `B3.md` | Olegario Molina Solís: el niño de Bolonchenticul que se convirtió en el rey del henequén | Cap. IV | ✅ | ~2,261 |
-| B4 | `B4.md` | Humberto Lara y Lara: el poeta del PRI cuyo nombre está en la biblioteca de Hopelchén | Cap. V | ✅ | ~2,158 |
-| B5 | `B5.md` | Gerónimo Baqueiro Foster: el hopelcheneño que llegó a la Ciudad de México con siete pesos | Cap. VI | ✅ | ~1,687 |
-| B5-BIS | `B5-BIS.md` | El secreto armónico: lo que Gerónimo Baqueiro Foster escuchó en la selva de Los Chenes | Cap. VI (bis) | ✅ | ~1,540 |
-| B7 | `B7.md` | El Sonido 13 y Los Xtoles: lo que Julián Carrillo descubrió con una navaja | Cap. VII | ✅ | ~1,590 |
-| B6 | `B6.md` | El hilo de Berlín: cuatro veces que Hopelchén cruzó el Atlántico | Cap. VIII | ✅ | ~2,005 |
-| B12 | `B12.md` | Juan de Dios May, Francisco Caamal y los siete de Bolonchenticul | Cap. IX | ✅ | ~2,073 |
+| B3 | `entradas/aprobadas/B3.md` | Olegario Molina Solís: el niño de Bolonchenticul que se convirtió en el rey del henequén | Cap. IV | ✅ | ~2,261 |
+| B4 | `entradas/aprobadas/B4.md` | Humberto Lara y Lara: el poeta del PRI cuyo nombre está en la biblioteca de Hopelchén | Cap. V | ✅ | ~2,158 |
+| B5 | `entradas/aprobadas/B5.md` | Gerónimo Baqueiro Foster: el hopelcheneño que llegó a la Ciudad de México con siete pesos | Cap. VI | ✅ | ~1,687 |
+| B5-BIS | `entradas/aprobadas/B5-BIS.md` | El secreto armónico: lo que Gerónimo Baqueiro Foster escuchó en la selva de Los Chenes | Cap. VI (bis) | ✅ | ~1,540 |
+| B7 | `entradas/aprobadas/B7.md` | El Sonido 13 y Los Xtoles: lo que Julián Carrillo descubrió con una navaja | Cap. VII | ✅ | ~1,590 |
+| B6 | `entradas/aprobadas/B6.md` | El hilo de Berlín: cuatro veces que Hopelchén cruzó el Atlántico | Cap. VIII | ✅ | ~2,005 |
+| B12 | `entradas/aprobadas/B12.md` | Juan de Dios May, Francisco Caamal y los siete de Bolonchenticul | Cap. IX | ✅ | ~2,073 |
 | B-Serapio | `B-Serapio.md` | Serapio Baqueiro Preve: el historiador que era yerno del traficante | Cap. X | 📝 | ~1,438 |
 | B-Oswaldo | `B-Oswaldo.md` | Oswaldo Baqueiro Anduze: el nieto que escribió sobre el fin de lo que el abuelo llamó obstáculo | Cap. XI | 📝 | ~1,231 |
 | B-LZavala | `B-LZavala.md` | Hernán Lara Zavala: el escritor que murió mientras investigábamos | Cap. XII | 📝 | ~1,837 |
-| B8 | `B8.md` | Raúl Emiliano Lara Baqueiro: un hombre, dos árboles, todo el Bloque B en un apellido compuesto | Cap. XIII | ✅ | ~2,203 |
+| B8 | `entradas/aprobadas/B8.md` | Raúl Emiliano Lara Baqueiro: un hombre, dos árboles, todo el Bloque B en un apellido compuesto | Cap. XIII | ✅ | ~2,203 |
 | B11 | `B11_borrador.md` | Efraín "El Charras" Calderón Lara: el apellido que se rebeló contra sí mismo | Cap. XIV | 📝 | ~1,524 |
 
 **Subtotal Bloque B:** 17 capítulos · ~30,313 palabras · 11/17 aprobados · 6 pendientes 📝
