@@ -1,9 +1,9 @@
 {
   "META": {
     "archivo": "av_bloques.json",
-    "version": "2.4",
-    "actualizado": "2026-03-31",
-    "cambios_v2.4": "B-Serapio, B-LZavala, B-Oswaldo aprobadas. A6 título confirmado. Bloque A completo revisado y actualizado con toda la información nueva. Entradas aprobadas: 22."
+    "version": "2.5",
+    "actualizado": "2026-04-18",
+    "cambios_v2.5": "Publicación en rama de trabajo de todos los borradores con etiqueta '**Estado:** ✅ Aprobada' en /entradas/aprobadas/. Se conservan originales en /datos/borradores/ para trazabilidad. Entradas aprobadas registradas: 22."
   },
 
   "resumen_general": {
