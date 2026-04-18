@@ -158,7 +158,6 @@ _Origen: Autor, Título. Ciudad: Editorial, Año._
 ```
 investigacion-historica/
 ├── src/
-│   ├── analizador.py                # Analizador CLI (buscar, filtrar, reportar)
 │   └── utilidades.py                # Funciones auxiliares compartidas
 ├── trabajo/
 │   ├── indice.md                    # Índice de períodos — empieza aquí
@@ -248,19 +247,10 @@ python tools/generar_indice_busqueda.py  # Regenera docs/search_index.json
 python tools/generar_redaccion.py
 ```
 
-### Analizar archivos de datos
-
-```bash
-python src/analizador.py
-python src/analizador.py datos/curated/01_personajes.json
-python src/analizador.py --buscar "Hopelchén"
-python src/analizador.py --reporte
-```
-
 ### Ejecutar pruebas
 
 ```bash
-python -m unittest tests/test_analizador.py -v
+python -m unittest discover -s tests -v
 ```
 
 ### Buscar fuentes faltantes (web abierta)
