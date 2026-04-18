@@ -19,7 +19,7 @@
       ],
       "prioridad": "URGENTE",
       "conexion_hipotesis": "Es el caso más directo de confirmación del patrón: poder político + propiedad de tierra en la misma persona en Hopelchén.",
-      "estado": "EN PROCESO — Fase 1 (2026-04-14): guía FamilySearch para registros de propiedad/genealogía; ver datos/investigacion/familysearch_resultados_20260414.json."
+      "estado": "PENDIENTE"
     },
     {
       "pregunta_id": "P003-02",
@@ -34,7 +34,7 @@
       ],
       "prioridad": "Alta",
       "conexion_hipotesis": "Las compañías deslindadoras son el mecanismo de la globalización porfiriana para transferir tierras indígenas a capital extranjero. En Los Chenes, esta transferencia fue ejecutada por empresas como 'Mexican Exploitation'.",
-      "estado": "RESPONDIDA PARCIALMENTE — Mexican Exploitation identificada como compañía en Los Chenes (HOPELCHEN_NODO_003); faltan tierras específicas/accionistas."
+      "estado": "PENDIENTE"
     },
     {
       "pregunta_id": "P003-03",

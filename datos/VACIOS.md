@@ -18,9 +18,9 @@ Estado posible: `PENDIENTE` · `EN PROCESO` · `RESPONDIDA PARCIALMENTE` · `RES
 
 | Estado | Cantidad |
 |--------|----------|
-| 🔴 PENDIENTE | 31 |
-| 🟡 EN PROCESO | 8 |
-| 🟠 RESPONDIDA PARCIALMENTE | 22 |
+| 🔴 PENDIENTE | 41 |
+| 🟡 EN PROCESO | 1 |
+| 🟠 RESPONDIDA PARCIALMENTE | 19 |
 | 🟢 RESPONDIDA | 1 |
 | **TOTAL** | **62** |
 
@@ -36,38 +36,38 @@ Estas preguntas son cuellos de botella: sin ellas, capítulos enteros quedan inc
 
 | ID | Pregunta | Nodo | Dónde buscar | Estado |
 |----|----------|------|--------------|--------|
-| **P002-01** | ¿Cuál es el documento colonial original que funda Hopelchén como pueblo de congregación en 1621? ¿Existe en… | 002 | PARES — pares.mcu.es: Archivo General de Indias, Audiencia de México; AGN México — Ramo Congregaciones, Ramo Indios, Ramo Mercedes | 🟡 EN PROCESO — Fase 1 (2026-04-14): rastreo PARES/AGN/POE sin conexión; ver datos/investigacion/pares_resultados_202604… |
+| **P002-01** | ¿Cuál es el documento colonial original que funda Hopelchén como pueblo de congregación en 1621? ¿Existe en… | 002 | PARES — pares.mcu.es: Archivo General de Indias, Audiencia de México; AGN México — Ramo Congregaciones, Ramo Indios, Ramo Mercedes | 🔴 PENDIENTE |
 
 
 ### Nodo 003 — Colonia Tardía, Independencia, Guerra de Castas y el Porfiri
 
 | ID | Pregunta | Nodo | Dónde buscar | Estado |
 |----|----------|------|--------------|--------|
-| **P003-01** | ¿Cuándo y cómo adquirió Pedro Advíncula Lara las haciendas Holcatzin y Santa Rita, y los ranchos Boxol y Uc… | 003 | Registro Público de la Propiedad de Campeche — títulos de haciendas Holcatzin y Santa Rita; Archivo Municipal de Hopelchén — registros de jefes políticos | 🟡 EN PROCESO — Fase 1 (2026-04-14): guía FamilySearch para registros de propiedad/genealogía; ver datos/investigacion/f… |
+| **P003-01** | ¿Cuándo y cómo adquirió Pedro Advíncula Lara las haciendas Holcatzin y Santa Rita, y los ranchos Boxol y Uc… | 003 | Registro Público de la Propiedad de Campeche — títulos de haciendas Holcatzin y Santa Rita; Archivo Municipal de Hopelchén — registros de jefes políticos | 🔴 PENDIENTE |
 
 
 ### Nodo 004 — Revolución, Reforma Agraria y Economía Chiclera (1910–1970)
 
 | ID | Pregunta | Nodo | Dónde buscar | Estado |
 |----|----------|------|--------------|--------|
-| **P004-01** | ¿Quiénes eran los hacendados específicos de Hopelchén que encabezaron la 'lucha antiagraria' post-Revolució… | 004 | — | 🟠 RESPONDIDA PARCIALMENTE — candidato principal Pedro Advíncula Lara (HOPELCHEN_NODO_004_Revolucion_Chicle); fuente bas… |
+| **P004-01** | ¿Quiénes eran los hacendados específicos de Hopelchén que encabezaron la 'lucha antiagraria' post-Revolució… | 004 | — | 🔴 PENDIENTE |
 
 
 ### Nodo 006 — La Genealogía del Poder Político Local en Hopelchén (1959–20
 
 | ID | Pregunta | Nodo | Dónde buscar | Estado |
 |----|----------|------|--------------|--------|
-| **P006-01** | ¿Existe conexión genealógica entre Hiram Aranda Calderón (alcalde 2024-2027), Mario Heberto Aranda González… | 006 | Registro Civil del Estado de Campeche — actas con apellido Aranda/Baranda; Archivo Notarial de Campeche — testamentos y escrituras de la familia Baranda, siglos XIX-XX | 🟡 EN PROCESO — Fase 1 (2026-04-14): guía FamilySearch para apellidos Baranda/Aranda; ver datos/investigacion/familysear… |
+| **P006-01** | ¿Existe conexión genealógica entre Hiram Aranda Calderón (alcalde 2024-2027), Mario Heberto Aranda González… | 006 | Registro Civil del Estado de Campeche — actas con apellido Aranda/Baranda; Archivo Notarial de Campeche — testamentos y escrituras de la familia Baranda, siglos XIX-XX | 🔴 PENDIENTE |
 | **P006-08** | ¿Quién fue el presidente municipal de Hopelchén durante 1987-1992 — período en que llegaron los primeros me… | 006 | Periódico Oficial del Estado de Campeche — ediciones 1987-1993: periodicooficial.campeche.gob.mx; IEEC — registros electorales municipales Campeche 1988-1992 | 🟠 RESPONDIDA PARCIALMENTE — registro 006-A: Enrique González Vargas ('Don Lico') en funciones en 1984; Julio Alberto Sa… |
 | **P006-09** | ¿Existe parentesco entre Julio Alberto Sansores Sansores (ex-presidente municipal de Hopelchén, mencionado … | 006 | Wikipedia — Layda Sansores San Román (sección familia y origen); IEEC — Acuerdo CG 26/06 (2006): https://www.ieec.org.mx/documentacion/acuerdosactas/2006/mayo/acuerdocg2606_a1.pdf | 🟠 RESPONDIDA PARCIALMENTE — registro 006-I: Layda Sansores es hija de Carlos Sansores Pérez (gobernador PRI 1967-73); J… |
-| **P006-10** | ¿Qué cambios de uso de suelo autorizó cada administración municipal de Hopelchén entre 1987 y 2024? ¿En qué… | 006 | Registro Agrario Nacional (RAN) — cambios de uso de suelo en Hopelchén por año; Semarnat — expedientes de cambio de uso de suelo en municipio de Hopelchén | 🟡 EN PROCESO — Fase 1 (2026-04-14): búsqueda POE sin conexión; solicitud manual en datos/investigacion/poe_campeche_res… |
+| **P006-10** | ¿Qué cambios de uso de suelo autorizó cada administración municipal de Hopelchén entre 1987 y 2024? ¿En qué… | 006 | Registro Agrario Nacional (RAN) — cambios de uso de suelo en Hopelchén por año; Semarnat — expedientes de cambio de uso de suelo en municipio de Hopelchén | 🔴 PENDIENTE |
 
 
 ### Nodo 007 — Rutas, Territorio y Control del Espacio en Hopelchén (1517–2
 
 | ID | Pregunta | Nodo | Dónde buscar | Estado |
 |----|----------|------|--------------|--------|
-| **P007-01** | ¿Dónde se pueden consultar las obras de Pacheco Blanco (1928) y Peña (1942) sobre la economía de Los Chenes… | 007 | Biblioteca del Estado de Campeche — fondos históricos; Biblioteca Nacional de México (UNAM) — búsqueda: 'Pacheco Blanco Campeche 1928' | 🟠 RESPONDIDA PARCIALMENTE — Schüren (2013) cita Pacheco Blanco (1928) y Peña (1942) con datos de aislamiento/chicle; ac… |
+| **P007-01** | ¿Dónde se pueden consultar las obras de Pacheco Blanco (1928) y Peña (1942) sobre la economía de Los Chenes… | 007 | Biblioteca del Estado de Campeche — fondos históricos; Biblioteca Nacional de México (UNAM) — búsqueda: 'Pacheco Blanco Campeche 1928' | 🔴 PENDIENTE |
 
 
 ### Nodo 008 — Demografía e Historia de la Población en Hopelchén
@@ -86,8 +86,8 @@ Estas preguntas son cuellos de botella: sin ellas, capítulos enteros quedan inc
 
 | ID | Pregunta | Nodo | Dónde buscar | Estado |
 |----|----------|------|--------------|--------|
-| **P001-01** | ¿Quiénes eran exactamente los bataboob que en 1669 aún detentaban el poder local en Hopelchén y 'repudiaban… | 001 | Archivo General de la Nación — Ramo Inquisición, Congregaciones; Archivo del Obispado de Yucatán (Mérida) | 🟡 EN PROCESO — Fase 1 (2026-04-14): guía FamilySearch para registros parroquiales; rastreo PARES/AGN sin conexión. |
-| **P001-02** | ¿Existe documentación del Archivo de Indias o del AGN sobre encomiendas específicas otorgadas en Los Chenes… | 001 | Archivo General de Indias, Sevilla — Sección Audiencia de México; AGN México — Ramo Mercedes y Encomiendas | 🟡 EN PROCESO — Fase 1 (2026-04-14): rastreo PARES/AGN sin conexión; ver datos/investigacion/pares_resultados_20260414.j… |
+| **P001-01** | ¿Quiénes eran exactamente los bataboob que en 1669 aún detentaban el poder local en Hopelchén y 'repudiaban… | 001 | Archivo General de la Nación — Ramo Inquisición, Congregaciones; Archivo del Obispado de Yucatán (Mérida) | 🔴 PENDIENTE |
+| **P001-02** | ¿Existe documentación del Archivo de Indias o del AGN sobre encomiendas específicas otorgadas en Los Chenes… | 001 | Archivo General de Indias, Sevilla — Sección Audiencia de México; AGN México — Ramo Mercedes y Encomiendas | 🔴 PENDIENTE |
 | **P001-05** | ¿Qué documentos o evidencias existen sobre los Xiues en el territorio de lo que hoy es Hopelchén? ¿Qué rela… | 001 | Libros de Chilam Balam — especialmente el de Chumayel y el de Maní; Ralph Roys — The Political Geography of the Yucatan Maya (Carnegie Institution, 1957) | 🟠 RESPONDIDA PARCIALMENTE — registro 002-I: Los Xiúes de Dzibil-Noh-Aac (Iturbide) documentados; nexo exacto con Los Ch… |
 
 
@@ -95,14 +95,14 @@ Estas preguntas son cuellos de botella: sin ellas, capítulos enteros quedan inc
 
 | ID | Pregunta | Nodo | Dónde buscar | Estado |
 |----|----------|------|--------------|--------|
-| **P002-03** | ¿Quién fue el primer encomendero de Los Chenes / Hopelchén? ¿Qué productos específicos tributaban los mayas… | 002 | AGI Sevilla — PARES: Audiencia de México, Encomiendas, siglo XVI; El Colegio de México — Encomienda, Cabildo y Gubernatura Indígena en Yucatán 1541-1583 | 🟡 EN PROCESO — Fase 1 (2026-04-14): rastreo PARES/AGN sin conexión; ver datos/investigacion/pares_resultados_20260414.j… |
+| **P002-03** | ¿Quién fue el primer encomendero de Los Chenes / Hopelchén? ¿Qué productos específicos tributaban los mayas… | 002 | AGI Sevilla — PARES: Audiencia de México, Encomiendas, siglo XVI; El Colegio de México — Encomienda, Cabildo y Gubernatura Indígena en Yucatán 1541-1583 | 🔴 PENDIENTE |
 
 
 ### Nodo 003 — Colonia Tardía, Independencia, Guerra de Castas y el Porfiri
 
 | ID | Pregunta | Nodo | Dónde buscar | Estado |
 |----|----------|------|--------------|--------|
-| **P003-02** | ¿Qué tierras específicas en el municipio de Hopelchén fueron adquiridas por compañías deslindadoras durante… | 003 | Archivo General de la Nación — Ramo Tierras / Compañías Deslindadoras; Periódico Oficial del Estado de Campeche — concesiones forestales y de terrenos | 🟠 RESPONDIDA PARCIALMENTE — Mexican Exploitation identificada como compañía en Los Chenes (HOPELCHEN_NODO_003); faltan … |
+| **P003-02** | ¿Qué tierras específicas en el municipio de Hopelchén fueron adquiridas por compañías deslindadoras durante… | 003 | Archivo General de la Nación — Ramo Tierras / Compañías Deslindadoras; Periódico Oficial del Estado de Campeche — concesiones forestales y de terrenos | 🔴 PENDIENTE |
 | **P003-03** | ¿Qué dice la publicación 'Recordaciones Históricas' de Joaquín Baranda sobre Hopelchén? ¿Qué omite? ¿Mencio… | 003 | Biblioteca del Estado de Campeche — Recordaciones Históricas (2 tomos); Biblioteca Nacional de México — fondo Baranda | 🔴 PENDIENTE |
 
 

@@ -42,6 +42,9 @@ jobs:
       - name: Generar search_index.json
         run: python tools/generar_indice_busqueda.py --salida docs/search_index.json
 
+      - name: Generar SINTESIS_MAESTRA.md
+        run: python tools/generar_sintesis.py
+
       - name: Confirmar archivos generados
         run: |
           echo "=== stats.json ===" && python -m json.tool docs/stats.json | head -20

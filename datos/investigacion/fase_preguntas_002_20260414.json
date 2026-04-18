@@ -1,0 +1,282 @@
+{
+  "META": {
+    "titulo": "Fase 2 — Preguntas pendientes (10/10)",
+    "fase": 2,
+    "fecha": "2026-04-14",
+    "preguntas_incluidas": [
+      "P003-03",
+      "P004-02",
+      "P004-03",
+      "P006-02",
+      "P006-04",
+      "P006-05",
+      "P006-06",
+      "P007-02",
+      "P007-03",
+      "P007-04"
+    ],
+    "resultados_rastreo": {
+      "poe_campeche": "datos/investigacion/poe_campeche_resultados_20260414.json (sin conexión; solicitud manual incluida)",
+      "fuentes_internas": "trabajo/periodos/nodo-003-colonia-tardia-independencia-guerra-de.md; trabajo/periodos/nodo-004-revolucion-lucha-antiagraria-reforma-a.md; trabajo/periodos/nodo-007-rutas-territorio-y-control-del-espacio.md; fuentes/catalogo_fuentes.md"
+    },
+    "limitaciones": [
+      "Acceso web externo bloqueado en esta sesión (WorldCat, SEP/IMSS, SHCP).",
+      "Consultas a POE/IEEC requieren revisión manual y/o presencial."
+    ]
+  },
+  "preguntas": [
+    {
+      "pregunta_id": "P003-03",
+      "estado": "EN PROCESO",
+      "acciones_fase": [
+        "Referencias internas a Joaquín Baranda/Recordaciones identificadas en nodo-003 y nodo-007.",
+        "Cruce preliminar con el sistema Baranda (telégrafo, educación, narrativa histórica)."
+      ],
+      "conexiones_clave": [
+        "P003-01",
+        "P004-03",
+        "P006-02"
+      ],
+      "fuentes_internas": [
+        "trabajo/periodos/nodo-003-colonia-tardia-independencia-guerra-de.md",
+        "trabajo/periodos/nodo-007-rutas-territorio-y-control-del-espacio.md"
+      ],
+      "siguientes_pasos": [
+        "Ubicar los tomos en Biblioteca del Estado de Campeche y BNM-UNAM.",
+        "Extraer menciones de Los Chenes, Guerra de Castas y listados de haciendas/hacendados."
+      ]
+    },
+    {
+      "pregunta_id": "P004-02",
+      "estado": "RESPONDIDA PARCIALMENTE",
+      "acciones_fase": [
+        "Nodo-004 confirma la cifra de 10 comunidades 1930-1950 con base en SciELO.",
+        "Fuentes DOF/RAN consolidadas para obtener lista nominal."
+      ],
+      "conexiones_clave": [
+        "P004-01",
+        "P003-01",
+        "P004-03"
+      ],
+      "fuentes_internas": [
+        "trabajo/periodos/nodo-004-revolucion-lucha-antiagraria-reforma-a.md"
+      ],
+      "siguientes_pasos": [
+        "Revisar resoluciones presidenciales ejidales 1930-1950 en el DOF.",
+        "Solicitar al RAN la lista de ejidos creados en Hopelchén (1930-1950).",
+        "Cruzar comunidades con haciendas identificadas en P004-01/P003-01."
+      ]
+    },
+    {
+      "pregunta_id": "P004-03",
+      "estado": "RESPONDIDA PARCIALMENTE",
+      "acciones_fase": [
+        "Registro 004-C documenta estructura chiclera y fuentes clave (Ponce Jiménez, Aranda González).",
+        "Relación con Pacheco Blanco/Peña y bibliografía Schüren señalada para ampliar la lista nominal."
+      ],
+      "conexiones_clave": [
+        "P007-01",
+        "P004-02",
+        "P003-02"
+      ],
+      "fuentes_internas": [
+        "trabajo/periodos/nodo-004-revolucion-lucha-antiagraria-reforma-a.md",
+        "datos/curated/REPOSITORIO_BIBLIOGRAFICO.md"
+      ],
+      "siguientes_pasos": [
+        "Consultar 'La Montaña Chiclera' (Ponce Jiménez, 1990) y extraer nombres de contratistas.",
+        "Cruzar nombres con Archivo Municipal y padrones ejidales."
+      ]
+    },
+    {
+      "pregunta_id": "P006-02",
+      "estado": "RESPONDIDA PARCIALMENTE",
+      "acciones_fase": [
+        "Registro 006-A aporta lista parcial de alcaldes (1959, 1984, 1990s, 1998+).",
+        "Ruta POE/IEEC confirmada para completar 1970-2018."
+      ],
+      "conexiones_clave": [
+        "P006-08",
+        "P006-10",
+        "P007-03",
+        "P006-06"
+      ],
+      "fuentes_internas": [
+        "datos/hopelchen/HOPELCHEN_PREGUNTAS_006_PoderPolitico.json"
+      ],
+      "siguientes_pasos": [
+        "Consultar POE Campeche 1970-2018 para tomas de protesta de alcaldes.",
+        "Solicitar al IEEC listados electorales municipales históricos.",
+        "Cruzar con llegada menonita (1987) y reforma al Art. 27 (1992)."
+      ]
+    },
+    {
+      "pregunta_id": "P006-04",
+      "estado": "EN PROCESO",
+      "acciones_fase": [
+        "Rutas de seguimiento definidas (Fiscalía Anticorrupción, POE, Tribuna Campeche)."
+      ],
+      "conexiones_clave": [
+        "P006-05",
+        "P006-06",
+        "P006-02"
+      ],
+      "fuentes_internas": [
+        "datos/hopelchen/HOPELCHEN_PREGUNTAS_006_PoderPolitico.json"
+      ],
+      "siguientes_pasos": [
+        "Revisar boletines y resoluciones de la Fiscalía Anticorrupción.",
+        "Buscar notas de seguimiento en Tribuna Campeche y registrar fechas clave."
+      ]
+    },
+    {
+      "pregunta_id": "P006-05",
+      "estado": "EN PROCESO",
+      "acciones_fase": [
+        "Identificadas actas del Congreso y padrón FAIS como fuentes clave de seguimiento."
+      ],
+      "conexiones_clave": [
+        "P006-04",
+        "P006-02",
+        "P006-06"
+      ],
+      "fuentes_internas": [
+        "datos/hopelchen/HOPELCHEN_PREGUNTAS_006_PoderPolitico.json"
+      ],
+      "siguientes_pasos": [
+        "Localizar actas del Congreso de Campeche (diciembre 2025).",
+        "Solicitar padrón FAIS Hopelchén en SHCP/datos.gob.mx.",
+        "Cruzar beneficiarios con redes políticas locales."
+      ]
+    },
+    {
+      "pregunta_id": "P006-06",
+      "estado": "RESPONDIDA PARCIALMENTE",
+      "acciones_fase": [
+        "Revisado el registro 006-G y la línea temporal de hegemonía PRI vs. llegada menonita.",
+        "Listada la necesidad de cruce con contratos RAN/Aserca y alcaldes recientes."
+      ],
+      "conexiones_clave": [
+        "P006-02",
+        "P006-10",
+        "P004-05"
+      ],
+      "fuentes_internas": [
+        "datos/hopelchen/HOPELCHEN_PREGUNTAS_006_PoderPolitico.json",
+        "datos/hopelchen/menonitas_hopelchen.json"
+      ],
+      "siguientes_pasos": [
+        "Cruzar contratos ejidales RAN con la lista de alcaldes 2018-2026.",
+        "Revisar subsidios Aserca y reportajes de Animal Político/La Jornada Maya."
+      ]
+    },
+    {
+      "pregunta_id": "P007-02",
+      "estado": "EN PROCESO",
+      "acciones_fase": [
+        "Referencias internas de Schüren (2013) y Schuller (1923) ubicadas en nodo-007."
+      ],
+      "conexiones_clave": [
+        "P007-04",
+        "P007-03",
+        "P004-03"
+      ],
+      "fuentes_internas": [
+        "trabajo/periodos/nodo-007-rutas-territorio-y-control-del-espacio.md"
+      ],
+      "siguientes_pasos": [
+        "Consultar SEP sobre fundación de escuelas rurales en el sur de Hopelchén.",
+        "Consultar IMSS/SSA sobre la primera clínica o centro de salud en Dzibalchén y Xkanhá.",
+        "Cruzar fechas con expedientes del Archivo Municipal."
+      ]
+    },
+    {
+      "pregunta_id": "P007-03",
+      "estado": "RESPONDIDA PARCIALMENTE",
+      "acciones_fase": [
+        "Ficha FX027 confirmada con dirección/teléfono del Archivo Municipal.",
+        "Referencias internas a expedientes 1947-1950 localizadas en nodo-007.",
+        "Inventario preliminar de fondos citado por Schüren: CSTCS (1937-1941), PNR (1935), FS, JLC, PM, SC, SE."
+      ],
+      "conexiones_clave": [
+        "P006-02",
+        "P004-03",
+        "P007-02"
+      ],
+      "fuentes_internas": [
+        "fuentes/catalogo_fuentes.md",
+        "trabajo/periodos/nodo-007-rutas-territorio-y-control-del-espacio.md"
+      ],
+      "siguientes_pasos": [
+        "Contactar el Archivo Municipal de Hopelchén para inventario completo de fondos.",
+        "Solicitar acceso a cajas 1947-1950 y registros de alcaldes/permiso de maíz."
+      ]
+    },
+    {
+      "pregunta_id": "P007-04",
+      "estado": "EN PROCESO",
+      "acciones_fase": [
+        "Bibliografía interna de Schüren mapeada en el repositorio bibliográfico.",
+        "Relación con Pacheco Blanco/Peña identificada para completar la cadena de fuentes."
+      ],
+      "conexiones_clave": [
+        "P007-01",
+        "P007-02",
+        "P004-03"
+      ],
+      "fuentes_internas": [
+        "datos/curated/REPOSITORIO_BIBLIOGRAFICO.md",
+        "trabajo/periodos/nodo-007-rutas-territorio-y-control-del-espacio.md"
+      ],
+      "siguientes_pasos": [
+        "Buscar el libro en WorldCat, IAI Berlín y Universität Bern.",
+        "Contactar bibliotecas para acceso o préstamo interbibliotecario."
+      ]
+    }
+  ],
+  "conexiones": [
+    {
+      "eje": "Narrativa oficial y control histórico",
+      "preguntas": [
+        "P003-03",
+        "P006-02",
+        "P007-03"
+      ],
+      "implicacion": "La historia oficial de Baranda, la lista de alcaldes y el Archivo Municipal son el trípode documental para reconstruir cómo el poder local controló la narrativa y el territorio durante el siglo XX."
+    },
+    {
+      "eje": "Reforma agraria y economía chiclera",
+      "preguntas": [
+        "P004-02",
+        "P004-03",
+        "P007-04"
+      ],
+      "implicacion": "Identificar comunidades ejidales y contratistas chicleros revela qué familias perdieron o conservaron poder tras 1930-1950 y conecta con las fuentes académicas clave aún no consultadas."
+    },
+    {
+      "eje": "Poder municipal contemporáneo y recursos públicos",
+      "preguntas": [
+        "P006-02",
+        "P006-04",
+        "P006-05",
+        "P006-06"
+      ],
+      "implicacion": "La lista de alcaldes 1970-2018 es el eje para interpretar denuncias de corrupción y vínculos con agroindustria/menonitas en el período 2018-2026."
+    },
+    {
+      "eje": "Llegada tardía del Estado al sur de Los Chenes",
+      "preguntas": [
+        "P007-02",
+        "P007-03",
+        "P007-04"
+      ],
+      "implicacion": "Determinar cuándo llegaron escuelas, salud y autoridades al sur de Hopelchén fija el límite temporal de la resistencia territorial maya y define dónde buscar evidencia primaria."
+    }
+  ],
+  "siguientes_pasos_fase_2": [
+    "Contactar el Archivo Municipal de Hopelchén (FX027) para inventario y acceso a cajas 1947-1950.",
+    "Revisar POE/IEEC para consolidar la lista de presidentes municipales 1970-2018.",
+    "Localizar fuentes bibliográficas clave: Recordaciones Históricas, La Montaña Chiclera y Schüren 2003a.",
+    "Consultar DOF/RAN para resoluciones ejidales 1930-1950 en Hopelchén."
+  ]
+}
