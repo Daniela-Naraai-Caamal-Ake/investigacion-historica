@@ -191,9 +191,49 @@ _Origen: Síntesis de investigación del proyecto — datos sobre rutas y territ
 > ANÁLISIS TRANSVERSAL. Al cruzar las rutas de comunicación con los ciclos extractivos documentados en los Nodos 001-006, emerge un patrón estructural: cada nueva ruta de comunicación en Los Chenes coincide cronológicamente con la apertura de un nuevo recurso de extracción. No hay ninguna ruta construida en Hopelchén para beneficio de la comunidad local — todas fueron construidas para extraer hacia afuera.
 
 _Origen: Análisis cruzado — Nodos 001-007 + Schüren (2013)_
-**⚠ Nota/contradicción:** El único contraejemplo parcial identificado es el Programa Nacional de Caminos Rurales de los años 1970-1980, que abrió caminos a comunidades ejidales de Los Chenes. Pero incluso esas brechas facilitaron después la llegada de los menonitas y la expansión agroindustrial. La infraestructura neutral no
-**→ Conexión hipótesis:** CONFIRMACIÓN ESPACIAL DE LA HIPÓTESIS: El control del territorio de Hopelchén se ha ejercido históricamente a través del control de las rutas de acceso. Las rutas no son infraestructura — son el mecan
+**⚠ Nota/contradicción:** El único contraejemplo parcial identificado es el Programa Nacional de Caminos Rurales de los años 1970-1980, que abrió caminos a comunidades ejidales de Los Chenes. Pero incluso esas brechas facilitaron después la llegada de los menonitas y la expansión agroindustrial. La infraestructura neutral no existe en Los Chenes.
+**→ Conexión hipótesis:** CONFIRMACIÓN ESPACIAL DE LA HIPÓTESIS: El control del territorio de Hopelchén se ha ejercido históricamente a través del control de las rutas de acceso. Las rutas no son infraestructura — son el mecanismo por el cual las élites externas mantienen el ciclo extractivo. Cada ruta nueva es la apertura de un nuevo ciclo de despojo.
 **Etiquetas:** cruce datos, rutas como extracción, patrón estructural, Camino Real, telégrafo, campos aterrizaje, carretera 261, brechas menonitas, 500 años, infraestructura poder
 
 ---
 
+
+### Bloque 007-J — Carretera Federal 261: ruta Mérida–Campeche por el interior — arteria histórica de Hopelchén
+
+| Campo | Valor |
+|---|---|
+| **Tipo** | Verificado (existencia y trazo actual) / Inferido (fecha de construcción histórica) |
+| **Fecha / Período** | siglo XX — actualidad |
+| **Lugar** | Hopelchén y Dzibalché, Campeche |
+| **Personajes** | — |
+| **Cargos** | — |
+| **Fuente(s)** | [Wikipedia México — Carretera federal 261 / SCT datos generales](<https://es.wikipedia.org/wiki/Carretera_federal_261_(M%C3%A9xico)>) |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_007_Rutas_Territorio.json` |
+
+> La Carretera Federal 261 es la vía terrestre que conecta Mérida (Yucatán) con Campeche capital por el interior de la Península de Yucatán, pasando por Hopelchén y Dzibalché. Es la ruta histórica que sigue aproximadamente el trazo de los caminos coloniales y prehispánicos que unían Los Chenes con las capitales regionales. Su pavimentación en el siglo XX transformó la accesibilidad del municipio, siendo el vector principal de entrada de los colonos menonitas a partir de 1987 y del comercio agrícola contemporáneo. La carretera define el eje norte-sur del municipio, con la mayoría de las localidades de mayor tamaño ubicadas sobre su trazo o a corta distancia. La fecha exacta de construcción y pavimentación del tramo Hopelchén–Dzibalché (que conecta con la Carretera 180 hacia Campeche) requiere consulta del Archivo Histórico de la Secretaría de Comunicaciones y Transportes (SCT). La carretera es también la vía de extracción chiclera histórica y, desde 1987, la vía de acceso para la maquinaria agrícola menonita que transformó el territorio municipal.
+
+_Origen: Wikipedia México — Carretera federal 261 / SCT datos generales <https://es.wikipedia.org/wiki/Carretera_federal_261_(M%C3%A9xico)>_
+**→ Conexión hipótesis:** La Carretera Federal 261 es la infraestructura física que hace posible el ciclo extractivo contemporáneo: primero el chicle, luego la agricultura menonita. Su trazo reproduce el eje colonial de control territorial.
+**Etiquetas:** carretera, infraestructura, CF-261, SCT, Hopelchén, Dzibalché, territorio, acceso
+
+---
+
+
+### Bloque 007-K — Archivo Municipal de Hopelchén — inventario preliminar citado por Schüren
+
+| Campo | Valor |
+|---|---|
+| **Tipo** | Inventario preliminar (referencia bibliográfica) |
+| **Fecha / Período** | 1935–1950s (documentación citada) |
+| **Lugar** | Archivo Municipal de Hopelchén, Campeche |
+| **Personajes** | — |
+| **Cargos** | — |
+| **Fuente(s)** | — |
+| **Origen** | `datos/hopelchen/HOPELCHEN_NODO_007_Rutas_Territorio.json` |
+
+> La bibliografía de campo de Schüren (trabajo en Los Chenes 1993-1998) incluye un inventario preliminar de fondos del Archivo Municipal de Hopelchén. Enumera series internas que confirman organización archivística y periodización: correspondencia sindical chiclera, expedientes del PNR, formación de sindicatos, junta local de los censos, presidencia municipal, sección de correspondencia y sección estadística. Este listado sirve como guía de las cajas/series disponibles y confirma que el archivo conserva documentación municipal previa a 1950.
+
+**→ Conexión hipótesis:** El inventario preliminar del Archivo Municipal confirma que existen series capaces de documentar el ciclo chiclero y la formación de sindicatos locales. Esto conecta la historia económica (Nodo 004) con el control político municipal (Nodo 006) desde documentación primaria.
+**Etiquetas:** Archivo Municipal, inventario preliminar, CSTCS, PNR 1935, sindicatos, censos, correspondencia, estadística, Hopelchén
+
+---

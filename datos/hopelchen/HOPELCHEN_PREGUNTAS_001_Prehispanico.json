@@ -19,7 +19,7 @@
       ],
       "prioridad": "Alta",
       "conexion_hipotesis": "Identificar a los bataboob por nombre y linaje permitiría rastrear si sus descendientes aparecen luego como aliados o víctimas del sistema colonial, o si sus apellidos reaparecen en el registro de tierras del siglo XIX.",
-      "estado": "EN PROCESO — Fase 1 (2026-04-14): guía FamilySearch para registros parroquiales; rastreo PARES/AGN sin conexión."
+      "estado": "PENDIENTE"
     },
     {
       "pregunta_id": "P001-02",
@@ -34,7 +34,7 @@
       ],
       "prioridad": "Alta",
       "conexion_hipotesis": "El primer encomendero de Los Chenes es el primer eslabón documentable de la cadena de control de la tierra. Si ese apellido reaparece en haciendas del Porfiriato, se confirma la transmisión generacional del poder sobre el territorio.",
-      "estado": "EN PROCESO — Fase 1 (2026-04-14): rastreo PARES/AGN sin conexión; ver datos/investigacion/pares_resultados_20260414.json, agn_resultados_20260414.json."
+      "estado": "PENDIENTE"
     },
     {
       "pregunta_id": "P001-03",

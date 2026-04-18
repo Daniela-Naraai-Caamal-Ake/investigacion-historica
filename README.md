@@ -77,14 +77,20 @@ Daniela Naraai Caamal Ake es originaria de Hopelchén. Eso otorga acceso a memor
 
 ---
 
-## Navegación principal
+## Navegación principal — Capas de acceso
 
-| Carpeta / Archivo | Contenido |
-|---|---|
-| [`trabajo/indice.md`](trabajo/indice.md) | **Índice de períodos históricos** — empieza aquí |
-| [`fuentes/catalogo_fuentes.md`](fuentes/catalogo_fuentes.md) | Catálogo Chicago completo con IDs `F001…` |
-| [`mapa/personajes.md`](mapa/personajes.md) | Mapa de personajes con fuentes rastreables |
-| [`datos/`](datos/) | Datos fuente originales (JSON, MD, PDF) — no modificar |
+El proyecto está organizado en capas de profundidad creciente. Empieza desde arriba.
+
+| Capa | Archivo | Descripción |
+|------|---------|-------------|
+| **Capa 0** | `README.md` ← (aquí) | Descripción general y punto de entrada |
+| **Capa 1** | [`SINTESIS_MAESTRA.md`](SINTESIS_MAESTRA.md) | **Síntesis de todo el proyecto en un lugar** — nodos, cronología, personajes, vacíos |
+| **Capa 2** | [`trabajo/periodos/`](trabajo/periodos/) | Redacción detallada por período histórico |
+| **Capa 3** | [`datos/VACIOS.md`](datos/VACIOS.md) | Preguntas abiertas por prioridad (62 total, 41 pendientes) |
+| **Capa 4** | [`fuentes/catalogo_fuentes.md`](fuentes/catalogo_fuentes.md) | Catálogo bibliográfico Chicago con IDs F### |
+| **Capa 5** | [`datos/hopelchen/`](datos/hopelchen/) | JSON canónicos: nodos, preguntas, datos de soporte |
+
+> Ver **[`MAPA_CAPAS.md`](MAPA_CAPAS.md)** para navegación detallada y estado de completitud por nodo.
 
 ### Flujo de investigación (archivos del marco teórico)
 
@@ -248,6 +254,12 @@ python tools/generar_indice_busqueda.py  # Regenera docs/search_index.json
 python tools/generar_redaccion.py
 ```
 
+### Regenerar Síntesis Maestra
+
+```bash
+python tools/generar_sintesis.py
+```
+
 ### Analizar archivos de datos
 
 ```bash
@@ -260,28 +272,35 @@ python src/analizador.py --reporte
 ### Ejecutar pruebas
 
 ```bash
-python -m unittest tests/test_analizador.py -v
+python -m unittest discover -s tests -v
 ```
 
-### Buscar fuentes faltantes (web abierta)
+### Validar citas y ampliar nodos con Firecrawl
 
-Herramienta integral que detecta registros sin cita y realiza búsquedas en
-Wikipedia, OpenLibrary y DuckDuckGo:
+Herramienta integral que valida las URLs del catálogo, busca fuentes para
+registros sin cita y lanza búsquedas para ampliar los nodos:
 
 ```bash
-python tools/buscar_fuentes_vacias.py            # Ejecutar búsquedas
-python tools/buscar_fuentes_vacias.py --seco     # Solo detectar, sin web
-python tools/buscar_fuentes_vacias.py --nodo 004 # Filtrar por nodo
-python tools/buscar_fuentes_vacias.py --parchear # Agregar fuentes_candidatas
+# Requiere: FIRECRAWL_API_KEY en .env o variable de entorno
+# Obtén una clave gratuita en https://www.firecrawl.dev
+
+python tools/validar_citas_firecrawl.py               # Todo (validar + fuentes + ampliar)
+python tools/validar_citas_firecrawl.py --modo validar # Solo validar URLs del catálogo
+python tools/validar_citas_firecrawl.py --modo fuentes # Solo buscar fuentes faltantes
+python tools/validar_citas_firecrawl.py --modo ampliar # Solo ampliar nodos con búsquedas
+python tools/validar_citas_firecrawl.py --nodo 009     # Filtrar por nodo específico
+python tools/validar_citas_firecrawl.py --limite 10    # Limitar a N búsquedas por modo
 ```
 
 Salidas en `datos/investigacion/`:
-- `fuentes_vacias_YYYYMMDD.json` — Reporte completo
+- `firecrawl_validacion_YYYYMMDD.json` — Resultados completos
+- `firecrawl_reporte_YYYYMMDD.md` — Reporte legible en Markdown
 
 También disponible el rastreador de fuentes en archivos digitales públicos:
 
 ```bash
 python tools/rastrear_fuentes.py               # Todos los módulos
+python tools/rastrear_fuentes.py --modulo firecrawl
 ```
 
 ### Instalar dependencias
@@ -326,3 +345,4 @@ El contenido de este repositorio es trabajo de investigación en curso. Si utili
 ---
 
 *Archivo vivo — iniciado en marzo de 2026. La historia de Hopelchén merece ser contada completa.*
+

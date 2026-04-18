@@ -458,6 +458,43 @@
         "territorio",
         "acceso"
       ]
+    },
+    {
+      "registro_id": "007-K",
+      "subtitulo": "Archivo Municipal de Hopelchén — inventario preliminar citado por Schüren",
+      "fecha_evento": "1935–1950s (documentación citada)",
+      "lugar": "Archivo Municipal de Hopelchén, Campeche",
+      "descripcion": "La bibliografía de campo de Schüren (trabajo en Los Chenes 1993-1998) incluye un inventario preliminar de fondos del Archivo Municipal de Hopelchén. Enumera series internas que confirman organización archivística y periodización: correspondencia sindical chiclera, expedientes del PNR, formación de sindicatos, junta local de los censos, presidencia municipal, sección de correspondencia y sección estadística. Este listado sirve como guía de las cajas/series disponibles y confirma que el archivo conserva documentación municipal previa a 1950.",
+      "fondos_identificados": [
+        "CSTCS — Correspondencia Sindicato de Trabajadores Chicleros (1937-1941)",
+        "DPNR — PNR (1935)",
+        "FS — Formación de Sindicatos",
+        "JLC — Junta Local de los Censos",
+        "PM — Presidencia Municipal",
+        "SC — Sección Correspondencia",
+        "SE — Sección Estadística"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Schüren, Ute — bibliografía de campo (1993-1998)",
+          "tipo": "PDF interno — 17_biblio.pdf",
+          "nota": "Listado de archivos consultados en Los Chenes; incluye AMH y sus series internas.",
+          "confiabilidad": "Media-Alta"
+        }
+      ],
+      "tipo_dato": "Inventario preliminar (referencia bibliográfica)",
+      "conexion_hipotesis": "El inventario preliminar del Archivo Municipal confirma que existen series capaces de documentar el ciclo chiclero y la formación de sindicatos locales. Esto conecta la historia económica (Nodo 004) con el control político municipal (Nodo 006) desde documentación primaria.",
+      "tags": [
+        "Archivo Municipal",
+        "inventario preliminar",
+        "CSTCS",
+        "PNR 1935",
+        "sindicatos",
+        "censos",
+        "correspondencia",
+        "estadística",
+        "Hopelchén"
+      ]
     }
   ],
   "linea_del_tiempo_nodo": [

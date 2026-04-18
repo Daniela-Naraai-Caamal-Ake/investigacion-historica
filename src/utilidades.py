@@ -4,6 +4,8 @@ Proporciona funciones auxiliares para cargar, validar y procesar datos
 en formato JSON, Markdown y PDF.
 """
 
+import hashlib
+import hmac
 import json
 import os
 import re
@@ -643,3 +645,71 @@ def formatear_tabla(elementos, campos=None, ancho_col=25):
 
     return "\n".join(lineas)
 
+
+def verificar_firma_webhook(payload: bytes, firma_recibida: str, secreto: str | None = None) -> bool:
+    """
+    Verifica la firma HMAC-SHA256 de un payload de webhook de Firecrawl.
+
+    Firecrawl incluye la firma en la cabecera ``X-Webhook-Signature`` con el
+    formato ``sha256=<hex_digest>``.  Esta función compara la firma recibida
+    contra la calculada localmente usando el secreto compartido.
+
+    Si no se proporciona ``secreto``, se intenta leerlo desde la variable de
+    entorno ``FIRECRAWL_WEBHOOK_SECRET`` o desde el archivo ``.env`` en la
+    raíz del proyecto.
+
+    Args:
+        payload (bytes): Cuerpo crudo de la petición HTTP (sin decodificar).
+        firma_recibida (str): Valor de la cabecera ``X-Webhook-Signature``
+            (por ejemplo ``"sha256=abc123..."``).
+        secreto (str | None): Secreto compartido configurado en Firecrawl.
+            Si es None, se lee de ``FIRECRAWL_WEBHOOK_SECRET``.
+
+    Returns:
+        bool: ``True`` si la firma es válida, ``False`` en caso contrario.
+
+    Raises:
+        ValueError: Si no se puede obtener el secreto de ninguna fuente.
+
+    Ejemplo::
+
+        from flask import Flask, request, abort
+        from src.utilidades import verificar_firma_webhook
+
+        app = Flask(__name__)
+
+        @app.route("/webhook/firecrawl", methods=["POST"])
+        def recibir_webhook():
+            firma = request.headers.get("X-Webhook-Signature", "")
+            if not verificar_firma_webhook(request.get_data(), firma):
+                abort(403)
+            datos = request.get_json()
+            # … procesar datos …
+            return "", 200
+    """
+    # Resolver secreto
+    if not secreto:
+        secreto = os.environ.get("FIRECRAWL_WEBHOOK_SECRET")
+    if not secreto:
+        _dotenv = os.path.normpath(
+            os.path.join(os.path.dirname(__file__), "..", ".env")
+        )
+        if os.path.exists(_dotenv):
+            with open(_dotenv, encoding="utf-8") as _f:
+                for _linea in _f:
+                    _linea = _linea.strip()
+                    if _linea.startswith("FIRECRAWL_WEBHOOK_SECRET=") and not _linea.startswith("#"):
+                        secreto = _linea.split("=", 1)[1].strip().strip('"').strip("'")
+                        break
+    if not secreto:
+        raise ValueError(
+            "No se encontró FIRECRAWL_WEBHOOK_SECRET. "
+            "Defínelo en la variable de entorno o en el archivo .env."
+        )
+
+    # Calcular firma esperada
+    digest = hmac.new(secreto.encode("utf-8"), payload, hashlib.sha256).hexdigest()
+    firma_esperada = f"sha256={digest}"
+
+    # Comparación segura contra ataques de timing
+    return hmac.compare_digest(firma_esperada, firma_recibida)
