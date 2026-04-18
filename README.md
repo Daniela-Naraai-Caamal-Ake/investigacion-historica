@@ -63,6 +63,9 @@ python tools/generar_sintesis.py
 
 # Actualizar vacíos
 python tools/actualizar_vacios.py
+
+# Buscar nuevas fuentes en la web externa (con diagnóstico DNS/red)
+python tools/buscar_fuentes_vacias.py
 ```
 
 ---

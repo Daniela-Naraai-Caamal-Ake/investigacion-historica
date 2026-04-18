@@ -1,42 +1,37 @@
 #!/usr/bin/env python3
 """
-validar_citas_firecrawl.py
-==========================
-Herramienta integral de validación y ampliación de investigación mediante Firecrawl.
+validar_citas.py
+================
+Herramienta integral de validación y ampliación de investigación usando
+búsqueda web pública (sin API key).
 
 Realiza tres operaciones complementarias:
 
-1. **Validar citas**: Usa Firecrawl `scrape` para comprobar que las URLs del
-   ``fuentes/catalogo_fuentes.md`` responden y extraer un extracto de contenido
-   que confirme o cuestione la cita documentada.
+1. **Validar citas**: Comprueba que las URLs del ``fuentes/catalogo_fuentes.md``
+   responden con HTTP 200 y extrae un fragmento de contenido.
 
 2. **Buscar fuentes faltantes**: Para los registros de ``datos/hopelchen/`` que
-   carecen de campo de fuente, ejecuta búsquedas Firecrawl y propone candidatas.
+   carecen de campo de fuente, lanza búsquedas en Wikipedia, OpenLibrary y
+   DuckDuckGo y propone fuentes candidatas.
 
 3. **Ampliar nodos**: Lanza búsquedas temáticas orientadas a las preguntas
    prioritarias de ``datos/VACIOS.md`` y a los nodos con más vacíos
    (especialmente Nodo 009 — Resistencia Maya y Nodo 010 — Conocimiento y Cultura).
 
 Uso:
-    python tools/validar_citas_firecrawl.py                   # Todo
-    python tools/validar_citas_firecrawl.py --modo validar    # Solo validar URLs
-    python tools/validar_citas_firecrawl.py --modo fuentes    # Solo buscar fuentes
-    python tools/validar_citas_firecrawl.py --modo ampliar    # Solo ampliar nodos
-    python tools/validar_citas_firecrawl.py --nodo 009        # Solo nodo específico
-    python tools/validar_citas_firecrawl.py --limite 10       # Limitar búsquedas
-
-Configuración de Firecrawl:
-    Crea un archivo ``.env`` en la raíz del proyecto con:
-        FIRECRAWL_API_KEY=fc-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-    o exporta la variable de entorno FIRECRAWL_API_KEY.
-    Obtén una clave gratuita en https://www.firecrawl.dev
+    python tools/validar_citas.py                   # Todo
+    python tools/validar_citas.py --modo validar    # Solo validar URLs
+    python tools/validar_citas.py --modo fuentes    # Solo buscar fuentes
+    python tools/validar_citas.py --modo ampliar    # Solo ampliar nodos
+    python tools/validar_citas.py --nodo 009        # Solo nodo específico
+    python tools/validar_citas.py --limite 10       # Limitar búsquedas
 
 Salidas (en ``datos/investigacion/``):
-    firecrawl_validacion_YYYYMMDD.json  — Resultados completos en JSON
-    firecrawl_reporte_YYYYMMDD.md       — Reporte legible en Markdown
+    busqueda_validacion_YYYYMMDD.json  — Resultados completos en JSON
+    busqueda_reporte_YYYYMMDD.md       — Reporte legible en Markdown
 
 Dependencias:
-    pip install firecrawl-py requests beautifulsoup4
+    pip install requests beautifulsoup4
 """
 
 from __future__ import annotations
@@ -61,24 +56,14 @@ DATOS_INVESTIGACION.mkdir(parents=True, exist_ok=True)
 
 HOY = datetime.now().strftime("%Y%m%d")
 
-# ─── Dependencias opcionales ──────────────────────────────────────────────────
+# ─── Dependencias ─────────────────────────────────────────────────────────────
 
 try:
-    from firecrawl import FirecrawlApp as _FirecrawlApp  # type: ignore
-    _FIRECRAWL_OK = True
+    import requests  # type: ignore
+    from bs4 import BeautifulSoup  # type: ignore
+    _DEPS_OK = True
 except ImportError:
-    _FIRECRAWL_OK = False
-
-# Clave Firecrawl: variable de entorno → archivo .env
-_FIRECRAWL_API_KEY: str | None = os.environ.get("FIRECRAWL_API_KEY")
-if not _FIRECRAWL_API_KEY:
-    _dotenv_path = ROOT / ".env"
-    if _dotenv_path.exists():
-        for _line in _dotenv_path.read_text(encoding="utf-8").splitlines():
-            _line = _line.strip()
-            if _line.startswith("FIRECRAWL_API_KEY=") and not _line.startswith("#"):
-                _FIRECRAWL_API_KEY = _line.split("=", 1)[1].strip().strip('"').strip("'")
-                break
+    _DEPS_OK = False
 
 # ─── Campos de fuente reconocidos ─────────────────────────────────────────────
 
@@ -262,18 +247,139 @@ def _tiene_fuente(registro: dict) -> bool:
     return any(bool(registro.get(c)) for c in CAMPOS_FUENTE)
 
 
-def _mensaje_error_firecrawl(exc: Exception) -> str:
-    """Devuelve un mensaje legible para errores de la API de Firecrawl.
+_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (compatible; investigacion-historica/1.0; "
+        "+https://github.com/Daniela-Naraai-Caamal-Ake/investigacion-historica)"
+    )
+}
 
-    firecrawl-py ≥ 4.x puede lanzar ``AttributeError`` cuando no hay red
-    disponible porque su manejador de errores asume que siempre existe un
-    objeto ``response``.  Esta función detecta ese caso y devuelve un
-    mensaje claro en lugar del traza interna confusa.
-    """
-    causa = exc.__context__ or exc.__cause__
-    if isinstance(causa, OSError) or isinstance(exc, AttributeError):
-        return "Sin conexión a la API de Firecrawl — verifica el acceso a la red y la FIRECRAWL_API_KEY."
-    return str(exc)
+
+def _get(url: str, params: dict | None = None, timeout: int = 20) -> "requests.Response | None":
+    """GET con manejo de errores. Devuelve None si la petición falla."""
+    for intento in (1, 2):
+        try:
+            resp = requests.get(
+                url, params=params, headers=_HEADERS,
+                timeout=timeout, allow_redirects=True,
+            )
+            resp.raise_for_status()
+            return resp
+        except requests.exceptions.HTTPError as e:
+            print(f"    ⚠  HTTP {e.response.status_code}: {url[:70]}")
+            return None
+        except requests.exceptions.ConnectionError:
+            print(f"    ⚠  Sin conexión: {url[:70]}")
+            if intento == 1:
+                time.sleep(1)
+                continue
+            return None
+        except requests.exceptions.Timeout:
+            print(f"    ⚠  Tiempo agotado: {url[:70]}")
+            if intento == 1:
+                time.sleep(1)
+                continue
+            return None
+        except requests.exceptions.RequestException as e:
+            print(f"    ⚠  Error ({type(e).__name__}): {url[:70]}")
+            return None
+    return None
+
+
+# ─── Motores de búsqueda ──────────────────────────────────────────────────────
+
+from urllib.parse import quote_plus  # noqa: E402
+
+
+def _buscar_wikipedia(query: str, lang: str = "es") -> list[dict]:
+    """Busca en Wikipedia vía API REST y devuelve hasta 5 candidatos."""
+    url = f"https://{lang}.wikipedia.org/w/api.php"
+    params = {
+        "action": "query",
+        "list": "search",
+        "srsearch": query,
+        "srlimit": 5,
+        "format": "json",
+        "utf8": 1,
+    }
+    resp = _get(url, params=params)
+    if resp is None:
+        return []
+    try:
+        data = resp.json()
+    except ValueError:
+        return []
+
+    resultados: list[dict] = []
+    for item in data.get("query", {}).get("search", []):
+        titulo = item.get("title", "")
+        snippet = item.get("snippet", "")
+        try:
+            snippet = BeautifulSoup(snippet, "html.parser").get_text()
+        except Exception:
+            snippet = snippet.replace('<span class="searchmatch">', "").replace("</span>", "")
+        url_art = f"https://{lang}.wikipedia.org/wiki/{quote_plus(titulo.replace(' ', '_'))}"
+        resultados.append({
+            "titulo": titulo,
+            "extracto": snippet[:300],
+            "url": url_art,
+            "idioma": lang,
+        })
+    return resultados
+
+
+def _buscar_openlibrary(query: str) -> list[dict]:
+    """Busca en Open Library y devuelve hasta 5 obras."""
+    url = "https://openlibrary.org/search.json"
+    params = {"q": query, "limit": 5, "fields": "title,author_name,first_publish_year,key"}
+    resp = _get(url, params=params)
+    if resp is None:
+        return []
+    try:
+        data = resp.json()
+    except ValueError:
+        return []
+
+    resultados: list[dict] = []
+    for doc in data.get("docs", [])[:5]:
+        key = doc.get("key", "")
+        resultados.append({
+            "titulo": doc.get("title", ""),
+            "autores": doc.get("author_name", []),
+            "año_primera_publicacion": doc.get("first_publish_year", ""),
+            "url_catalogo": f"https://openlibrary.org{key}" if key else "",
+        })
+    return resultados
+
+
+def _buscar_duckduckgo(query: str) -> list[dict]:
+    """Busca en DuckDuckGo Lite (HTML, sin clave) y devuelve hasta 5 resultados."""
+    url = "https://lite.duckduckgo.com/lite/"
+    params = {"q": query, "kl": "mx-es"}
+    resp = _get(url, params=params)
+    if resp is None:
+        return []
+    try:
+        soup = BeautifulSoup(resp.text, "html.parser")
+    except Exception:
+        return []
+
+    resultados: list[dict] = []
+    for link in soup.select("a.result-link")[:5]:
+        titulo = link.get_text(strip=True)
+        href = link.get("href", "")
+        snippet = ""
+        parent_tr = link.find_parent("tr")
+        if parent_tr:
+            next_tr = parent_tr.find_next_sibling("tr")
+            if next_tr:
+                snippet_td = next_tr.find("td", class_="result-snippet")
+                if snippet_td:
+                    snippet = snippet_td.get_text(strip=True)[:300]
+        if titulo or href:
+            resultados.append({"titulo": titulo, "url": href, "snippet": snippet})
+    return resultados
+
 
 # ─── Extracción de URLs del catálogo ─────────────────────────────────────────
 
@@ -287,7 +393,6 @@ def extraer_urls_catalogo() -> list[dict]:
         return []
 
     texto = FUENTES_CATALOGO.read_text(encoding="utf-8")
-    # Detectar sección de fuente activa (## FX001, ## F001, etc.)
     patron_id = re.compile(r'^## (F[X]?\d+)', re.MULTILINE)
     patron_url = re.compile(r'(https?://[^\s>)\]"\'<]+)')
 
@@ -300,19 +405,14 @@ def extraer_urls_catalogo() -> list[dict]:
         fin = secciones[i + 1].start() if i + 1 < len(secciones) else len(texto)
         fragmento = texto[inicio:fin]
 
-        urls_en_seccion = patron_url.findall(fragmento)
-        # Deduplicar preservando orden
         urls_vistas: set[str] = set()
-        for url in urls_en_seccion:
-            # Limpiar puntuación final accidental
+        for url in patron_url.findall(fragmento):
             url = url.rstrip(".,;:)")
             if url in urls_vistas:
                 continue
             urls_vistas.add(url)
-            # Obtener línea de contexto
             linea_ctx = next(
-                (ln.strip() for ln in fragmento.splitlines() if url in ln),
-                "",
+                (ln.strip() for ln in fragmento.splitlines() if url in ln), ""
             )
             resultados.append({
                 "fuente_id": fuente_id,
@@ -328,7 +428,6 @@ def extraer_urls_catalogo() -> list[dict]:
 def extraer_registros_sin_fuente(solo_nodo: str | None = None) -> list[dict]:
     """
     Lee todos los HOPELCHEN_NODO_*.json y devuelve los registros sin campo de fuente.
-    Si ``solo_nodo`` se especifica (ej. '009'), filtra por ese nodo.
     """
     registros: list[dict] = []
 
@@ -360,10 +459,10 @@ def extraer_registros_sin_fuente(solo_nodo: str | None = None) -> list[dict]:
 
 # ─── Modo 1: Validar URLs del catálogo ───────────────────────────────────────
 
-def validar_urls_catalogo(app: Any, limite: int | None = None) -> list[dict]:
+def validar_urls_catalogo(limite: int | None = None) -> list[dict]:
     """
-    Para cada URL del catálogo, llama a Firecrawl `scrape` y verifica que responde.
-    Devuelve lista de resultados con estado y extracto de contenido.
+    Para cada URL del catálogo, hace una petición GET y verifica que responde.
+    Extrae título y fragmento de contenido vía BeautifulSoup.
     """
     print("\n📋  Modo 1 — Validando URLs del catálogo de fuentes")
 
@@ -380,88 +479,106 @@ def validar_urls_catalogo(app: Any, limite: int | None = None) -> list[dict]:
         url = item["url"]
         print(f"  → [{fuente_id}] {url[:70]}…")
 
-        try:
-            resp = app.scrape(
-                url,
-                formats=["markdown"],
-                only_main_content=True,
-                timeout=30000,
-            )
-            if hasattr(resp, "model_dump"):
-                resp_dict = resp.model_dump()
-            elif hasattr(resp, "__dict__"):
-                resp_dict = resp.__dict__
+        resp = _get(url, timeout=25)
+        if resp is None:
+            resultado = {
+                "fuente_id": fuente_id,
+                "url": url,
+                "contexto_catalogo": item["contexto"],
+                "estado": "error_conexion",
+                "extracto": "",
+                "timestamp": datetime.now().isoformat(),
+            }
+            print(f"     ⚠  Sin respuesta")
+        else:
+            content_type = resp.headers.get("content-type", "")
+            if "pdf" in content_type:
+                titulo = ""
+                extracto = f"[PDF — {len(resp.content)} bytes]"
+                estado = "ok"
             else:
-                resp_dict = dict(resp) if isinstance(resp, dict) else {}
+                try:
+                    soup = BeautifulSoup(resp.text, "html.parser")
+                    titulo = soup.title.string.strip() if soup.title and soup.title.string else ""
+                    # Extraer texto principal eliminando scripts/styles
+                    for tag in soup(["script", "style", "nav", "footer"]):
+                        tag.decompose()
+                    extracto = _texto_breve(
+                        soup.get_text(separator=" ", strip=True), 400
+                    )
+                    estado = "ok" if extracto else "sin_contenido"
+                except Exception:
+                    titulo = ""
+                    extracto = ""
+                    estado = "sin_contenido"
 
-            markdown = resp_dict.get("markdown") or ""
-            metadata = resp_dict.get("metadata") or {}
-            titulo = (
-                metadata.get("title", "")
-                or metadata.get("og:title", "")
-                if isinstance(metadata, dict) else ""
-            )
-            estado_http = metadata.get("statusCode", 200) if isinstance(metadata, dict) else 200
-            extracto = _texto_breve(markdown, 400)
+            icono = "✓" if estado == "ok" else "○"
+            print(f"     {icono} {titulo[:60] or '(sin título)'}")
 
             resultado = {
                 "fuente_id": fuente_id,
                 "url": url,
                 "contexto_catalogo": item["contexto"],
-                "estado": "ok" if extracto else "sin_contenido",
-                "estado_http": estado_http,
+                "estado": estado,
+                "estado_http": resp.status_code,
                 "titulo_pagina": titulo,
                 "extracto": extracto,
                 "timestamp": datetime.now().isoformat(),
             }
-            icono = "✓" if extracto else "○"
-            print(f"     {icono} {titulo[:60] or '(sin título)'}")
-
-        except Exception as exc:
-            msg = _mensaje_error_firecrawl(exc)
-            resultado = {
-                "fuente_id": fuente_id,
-                "url": url,
-                "contexto_catalogo": item["contexto"],
-                "estado": f"error: {msg}",
-                "extracto": "",
-                "timestamp": datetime.now().isoformat(),
-            }
-            print(f"     ⚠  {msg}")
 
         resultados.append(resultado)
-        time.sleep(1.5)  # Respetar límites de la API
+        time.sleep(1)
 
     ok = sum(1 for r in resultados if r["estado"] == "ok")
     print(f"\n  ✅  Validación completada — {ok}/{len(resultados)} URLs accesibles")
     return resultados
 
 
+# ─── Utilidad de búsqueda multi-motor ────────────────────────────────────────
+
+def _buscar_con_motores(query: str) -> list[dict]:
+    """
+    Lanza búsquedas en Wikipedia (ES+EN), OpenLibrary y DuckDuckGo.
+    Devuelve lista combinada con campo 'motor_busqueda' y 'query_utilizada'.
+    """
+    candidatas: list[dict] = []
+
+    for motor, fn in [
+        ("wikipedia_es", lambda q: _buscar_wikipedia(q, lang="es")),
+        ("wikipedia_en", lambda q: _buscar_wikipedia(q, lang="en")),
+        ("openlibrary",  _buscar_openlibrary),
+        ("duckduckgo",   _buscar_duckduckgo),
+    ]:
+        for r in fn(query):
+            r["motor_busqueda"] = motor
+            r["query_utilizada"] = query
+            candidatas.append(r)
+        time.sleep(0.5)
+
+    return candidatas
+
+
 # ─── Modo 2: Buscar fuentes para registros sin cita ──────────────────────────
 
 def buscar_fuentes_faltantes(
-    app: Any,
     solo_nodo: str | None = None,
     limite: int | None = None,
 ) -> list[dict]:
     """
-    Para registros sin fuente, genera una query de búsqueda y lanza Firecrawl.
+    Para registros sin fuente, genera queries y lanza búsquedas web públicas.
     """
     print("\n📋  Modo 2 — Buscando fuentes para registros sin cita")
 
-    # Combinar búsquedas específicas con registros detectados automáticamente
     busquedas_especificas: list[dict] = []
     if solo_nodo == "009" or solo_nodo is None:
         busquedas_especificas.extend(_BUSQUEDAS_NODO_009)
     if solo_nodo == "010" or solo_nodo is None:
         busquedas_especificas.extend(_BUSQUEDAS_NODO_010)
 
-    # Registros sin fuente detectados automáticamente
     registros_sin_fuente = extraer_registros_sin_fuente(solo_nodo)
     busquedas_auto: list[dict] = []
+    ids_especificos = {b.get("registro_id") for b in busquedas_especificas}
     for reg in registros_sin_fuente:
-        # Evitar duplicar si ya hay una búsqueda específica para ese registro_id
-        ids_especificos = {b.get("registro_id") for b in busquedas_especificas}
         if reg["registro_id"] in ids_especificos:
             continue
         partes = [reg["subtitulo"][:60]]
@@ -498,66 +615,26 @@ def buscar_fuentes_faltantes(
         print(f"\n  → [{registro_id}] {descripcion[:65]}")
         print(f"    Query: {query[:80]}")
 
-        try:
-            resp = app.search(query, limit=5)
-            docs = getattr(resp, "web", None) or getattr(resp, "data", None)
-            if docs is None:
-                docs = resp if isinstance(resp, list) else []
+        candidatas = _buscar_con_motores(query)
+        n = len(candidatas)
+        icono = "✓" if n > 0 else "○"
+        print(f"     {icono} {n} candidata(s)")
 
-            candidatas: list[dict] = []
-            for doc in docs:
-                if hasattr(doc, "model_dump"):
-                    d = doc.model_dump()
-                elif hasattr(doc, "__dict__"):
-                    d = doc.__dict__
-                else:
-                    d = dict(doc) if isinstance(doc, dict) else {}
-                meta = d.get("metadata") or {}
-                titulo = d.get("title") or (meta.get("title", "") or meta.get("og:title", "")) if isinstance(meta, dict) else d.get("title", "")
-                url = d.get("url", "")
-                desc = d.get("description") or ((meta.get("description", "") or meta.get("og:description", "")) if isinstance(meta, dict) else "")
-                extracto = _texto_breve(d.get("markdown") or "", 300)
-                if titulo or url:
-                    candidatas.append({
-                        "titulo": titulo,
-                        "url": url,
-                        "descripcion": _texto_breve(desc, 200),
-                        "extracto": extracto,
-                    })
-
-            n = len(candidatas)
-            icono = "✓" if n > 0 else "○"
-            print(f"     {icono} {n} candidata(s)")
-
-            resultados.append({
-                "registro_id": registro_id,
-                "nodo": item.get("nodo", ""),
-                "descripcion": descripcion,
-                "query": query,
-                "fuentes_sugeridas_manual": item.get("fuentes_sugeridas", []),
-                "estado": "ok",
-                "total_candidatas": n,
-                "fuentes_candidatas": candidatas,
-                "timestamp": datetime.now().isoformat(),
-            })
-
-        except Exception as exc:
-            msg = _mensaje_error_firecrawl(exc)
-            print(f"     ⚠  {msg}")
-            resultados.append({
-                "registro_id": registro_id,
-                "nodo": item.get("nodo", ""),
-                "descripcion": descripcion,
-                "query": query,
-                "estado": f"error: {msg}",
-                "total_candidatas": 0,
-                "fuentes_candidatas": [],
-                "timestamp": datetime.now().isoformat(),
-            })
+        resultados.append({
+            "registro_id": registro_id,
+            "nodo": item.get("nodo", ""),
+            "descripcion": descripcion,
+            "query": query,
+            "fuentes_sugeridas_manual": item.get("fuentes_sugeridas", []),
+            "estado": "ok",
+            "total_candidatas": n,
+            "fuentes_candidatas": candidatas,
+            "timestamp": datetime.now().isoformat(),
+        })
 
         time.sleep(1)
 
-    encontradas = sum(r["total_candidatas"] for r in resultados if isinstance(r.get("total_candidatas"), int))
+    encontradas = sum(r["total_candidatas"] for r in resultados)
     print(f"\n  ✅  Búsqueda fuentes completada — {encontradas} candidatas en {len(resultados)} búsquedas")
     return resultados
 
@@ -565,7 +642,6 @@ def buscar_fuentes_faltantes(
 # ─── Modo 3: Ampliar nodos — preguntas urgentes ──────────────────────────────
 
 def ampliar_nodos(
-    app: Any,
     solo_nodo: str | None = None,
     limite: int | None = None,
 ) -> list[dict]:
@@ -600,61 +676,21 @@ def ampliar_nodos(
         print(f"\n  → {etiqueta} {descripcion[:65]}")
         print(f"    Query: {query[:80]}")
 
-        try:
-            resp = app.search(query, limit=5)
-            docs = getattr(resp, "web", None) or getattr(resp, "data", None)
-            if docs is None:
-                docs = resp if isinstance(resp, list) else []
+        hallazgos = _buscar_con_motores(query)
+        n = len(hallazgos)
+        icono = "✓" if n > 0 else "○"
+        print(f"     {icono} {n} resultado(s)")
 
-            hallazgos: list[dict] = []
-            for doc in docs:
-                if hasattr(doc, "model_dump"):
-                    d = doc.model_dump()
-                elif hasattr(doc, "__dict__"):
-                    d = doc.__dict__
-                else:
-                    d = dict(doc) if isinstance(doc, dict) else {}
-                meta = d.get("metadata") or {}
-                titulo = d.get("title") or (meta.get("title", "") or meta.get("og:title", "")) if isinstance(meta, dict) else d.get("title", "")
-                url = d.get("url", "")
-                desc = d.get("description") or ((meta.get("description", "") or meta.get("og:description", "")) if isinstance(meta, dict) else "")
-                extracto = _texto_breve(d.get("markdown") or "", 400)
-                if titulo or url:
-                    hallazgos.append({
-                        "titulo": titulo,
-                        "url": url,
-                        "descripcion": _texto_breve(desc, 200),
-                        "extracto": extracto,
-                    })
-
-            n = len(hallazgos)
-            icono = "✓" if n > 0 else "○"
-            print(f"     {icono} {n} resultado(s)")
-
-            resultados.append({
-                "pregunta_id": pregunta_id,
-                "nodo": nodo,
-                "descripcion": descripcion,
-                "query": query,
-                "estado": "ok",
-                "total_resultados": n,
-                "hallazgos": hallazgos,
-                "timestamp": datetime.now().isoformat(),
-            })
-
-        except Exception as exc:
-            msg = _mensaje_error_firecrawl(exc)
-            print(f"     ⚠  {msg}")
-            resultados.append({
-                "pregunta_id": pregunta_id,
-                "nodo": nodo,
-                "descripcion": descripcion,
-                "query": query,
-                "estado": f"error: {msg}",
-                "total_resultados": 0,
-                "hallazgos": [],
-                "timestamp": datetime.now().isoformat(),
-            })
+        resultados.append({
+            "pregunta_id": pregunta_id,
+            "nodo": nodo,
+            "descripcion": descripcion,
+            "query": query,
+            "estado": "ok",
+            "total_resultados": n,
+            "hallazgos": hallazgos,
+            "timestamp": datetime.now().isoformat(),
+        })
 
         time.sleep(1)
 
@@ -669,11 +705,11 @@ def generar_reporte_md(resultado_final: dict) -> str:
     """Genera un reporte Markdown legible a partir del JSON de resultados."""
     fecha = resultado_final.get("fecha_consulta", HOY)
     lineas: list[str] = [
-        "# Reporte Firecrawl — Validación de Citas y Ampliación de Nodos",
+        "# Reporte de Búsqueda Web — Validación de Citas y Ampliación de Nodos",
         "",
         f"> Proyecto: *Dos Mil Años en Silencio* — Hopelchén: 2000 años de historia  ",
         f"> Fecha de ejecución: {fecha}  ",
-        f"> API: {resultado_final.get('api', 'Firecrawl')}",
+        f"> Motores: Wikipedia (ES/EN), OpenLibrary, DuckDuckGo",
         "",
         "---",
         "",
@@ -681,7 +717,6 @@ def generar_reporte_md(resultado_final: dict) -> str:
         "",
     ]
 
-    # Resumen
     resumen = resultado_final.get("resumen", {})
     for clave, valor in resumen.items():
         lineas.append(f"- **{clave}**: {valor}")
@@ -698,8 +733,8 @@ def generar_reporte_md(resultado_final: dict) -> str:
         lineas += [
             "## 1. Validación de URLs del Catálogo de Fuentes",
             "",
-            f"| Estado | Cantidad |",
-            f"|--------|----------|",
+            "| Estado | Cantidad |",
+            "|--------|----------|",
             f"| ✅ Accesible con contenido | {len(ok)} |",
             f"| ⚠ Accesible sin contenido | {len(sin_contenido)} |",
             f"| ❌ Error de acceso | {len(errores)} |",
@@ -713,17 +748,6 @@ def generar_reporte_md(resultado_final: dict) -> str:
                 lineas.append(f"- **[{v['fuente_id']}]** `{v['url']}`")
                 lineas.append(f"  - Error: `{v['estado']}`")
             lineas.append("")
-        if ok:
-            lineas.append("### URLs validadas con extracto de contenido")
-            lineas.append("")
-            for v in ok[:10]:  # Mostrar primeras 10
-                lineas.append(f"#### [{v['fuente_id']}] {v.get('titulo_pagina', '')[:60] or v['url'][:60]}")
-                lineas.append("")
-                lineas.append(f"> URL: `{v['url']}`")
-                if v.get("extracto"):
-                    lineas.append(f"> ")
-                    lineas.append(f"> {v['extracto'][:300]}")
-                lineas.append("")
         lineas.append("---")
         lineas.append("")
 
@@ -743,8 +767,8 @@ def generar_reporte_md(resultado_final: dict) -> str:
             lineas.append("")
             for c in item["fuentes_candidatas"][:3]:
                 titulo = c.get("titulo", "Sin título")
-                url = c.get("url", "")
-                desc = c.get("descripcion", "")
+                url = c.get("url") or c.get("url_catalogo", "")
+                desc = c.get("snippet") or c.get("extracto", "")
                 lineas.append(f"- **{titulo}**")
                 if url:
                     lineas.append(f"  - URL: <{url}>")
@@ -773,25 +797,21 @@ def generar_reporte_md(resultado_final: dict) -> str:
             lineas.append("")
             for h in item["hallazgos"][:3]:
                 titulo = h.get("titulo", "Sin título")
-                url = h.get("url", "")
-                desc = h.get("descripcion", "")
-                extracto = h.get("extracto", "")
+                url = h.get("url") or h.get("url_catalogo", "")
+                desc = h.get("snippet") or h.get("extracto", "")
                 lineas.append(f"- **{titulo}**")
                 if url:
                     lineas.append(f"  - URL: <{url}>")
                 if desc:
                     lineas.append(f"  - {desc[:150]}")
-                if extracto:
-                    lineas.append(f"  - *Extracto:* {extracto[:200]}")
             lineas.append("")
         lineas.append("---")
         lineas.append("")
 
-    # Nota metodológica
     lineas += [
         "## Nota metodológica",
         "",
-        "Los resultados de Firecrawl son candidatos que requieren verificación manual antes de",
+        "Los resultados son candidatos que requieren verificación manual antes de",
         "incorporarse como fuentes definitivas al catálogo. Para cada hallazgo:",
         "",
         "1. Verificar que el contenido corresponde al tema buscado",
@@ -799,7 +819,7 @@ def generar_reporte_md(resultado_final: dict) -> str:
         "3. Si es válida, agregarla al catálogo con el formato Chicago y asignarle ID `F###`",
         "4. Actualizar el registro en el nodo correspondiente con el campo `fuente` o `fuentes_candidatas`",
         "",
-        f"*Generado por: `tools/validar_citas_firecrawl.py` — {fecha}*",
+        f"*Generado por: `tools/validar_citas.py` — {fecha}*",
     ]
 
     return "\n".join(lineas)
@@ -808,8 +828,8 @@ def generar_reporte_md(resultado_final: dict) -> str:
 # ─── Guardado de resultados ───────────────────────────────────────────────────
 
 def guardar_resultados(datos: dict, reporte_md: str) -> tuple[Path, Path]:
-    ruta_json = DATOS_INVESTIGACION / f"firecrawl_validacion_{HOY}.json"
-    ruta_md = DATOS_INVESTIGACION / f"firecrawl_reporte_{HOY}.md"
+    ruta_json = DATOS_INVESTIGACION / f"busqueda_validacion_{HOY}.json"
+    ruta_md = DATOS_INVESTIGACION / f"busqueda_reporte_{HOY}.md"
 
     with open(ruta_json, "w", encoding="utf-8") as f:
         json.dump(datos, f, ensure_ascii=False, indent=2)
@@ -826,7 +846,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(
         description=(
             "Valida citas, busca fuentes faltantes y amplía nodos "
-            "usando la API de Firecrawl."
+            "usando Wikipedia, OpenLibrary y DuckDuckGo (sin API key)."
         ),
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog=__doc__,
@@ -856,37 +876,17 @@ def main() -> int:
     )
     args = parser.parse_args()
 
+    if not _DEPS_OK:
+        print(
+            "\n❌  Dependencias faltantes. Instala con:\n"
+            "     pip install requests beautifulsoup4\n"
+        )
+        return 1
+
     print(f"\n{'=' * 65}")
-    print("   VALIDACIÓN DE CITAS + AMPLIACIÓN DE NODOS — Firecrawl")
+    print("   BÚSQUEDA WEB — Validación de Citas y Ampliación de Nodos")
     print(f"{'=' * 65}")
-
-    # Verificar dependencias
-    if not _FIRECRAWL_OK:
-        print(
-            "\n❌  firecrawl-py no está instalado.\n"
-            "     Instala con:  pip install firecrawl-py\n"
-        )
-        return 1
-
-    if not _FIRECRAWL_API_KEY:
-        print(
-            "\n❌  No se encontró FIRECRAWL_API_KEY.\n"
-            "     Opciones:\n"
-            "       1. Crea un archivo .env en la raíz con:\n"
-            "             FIRECRAWL_API_KEY=fc-xxxx\n"
-            "       2. Exporta la variable:\n"
-            "             export FIRECRAWL_API_KEY=fc-xxxx\n"
-            "     Obtén una clave gratuita en https://www.firecrawl.dev\n"
-        )
-        return 1
-
-    # Inicializar cliente
-    try:
-        app = _FirecrawlApp(api_key=_FIRECRAWL_API_KEY)
-        print(f"\n  ✅  Cliente Firecrawl inicializado")
-    except Exception as exc:
-        print(f"\n❌  Error al inicializar Firecrawl: {exc}\n")
-        return 1
+    print("   Motores: Wikipedia (ES/EN) · OpenLibrary · DuckDuckGo")
 
     modo = args.modo
     nodo = args.nodo
@@ -897,11 +897,10 @@ def main() -> int:
     if limite:
         print(f"    Límite por modo: {limite}")
 
-    # Ejecutar modos
     resultado_final: dict = {
-        "herramienta": "validar_citas_firecrawl",
+        "herramienta": "validar_citas",
         "fecha_consulta": datetime.now().isoformat(),
-        "api": "Firecrawl",
+        "motores": ["wikipedia_es", "wikipedia_en", "openlibrary", "duckduckgo"],
         "modo": modo,
         "nodo_filtro": nodo,
         "limite": limite,
@@ -912,31 +911,27 @@ def main() -> int:
     ampliacion_nodos: list[dict] = []
 
     if modo in ("validar", "todo"):
-        validacion_urls = validar_urls_catalogo(app, limite if modo == "validar" else None)
+        validacion_urls = validar_urls_catalogo(limite if modo == "validar" else None)
         resultado_final["validacion_urls"] = validacion_urls
 
     if modo in ("fuentes", "todo"):
         fuentes_faltantes = buscar_fuentes_faltantes(
-            app, nodo, limite if modo == "fuentes" else None
+            nodo, limite if modo == "fuentes" else None
         )
         resultado_final["fuentes_faltantes"] = fuentes_faltantes
 
     if modo in ("ampliar", "todo"):
         ampliacion_nodos = ampliar_nodos(
-            app, nodo, limite if modo == "ampliar" else None
+            nodo, limite if modo == "ampliar" else None
         )
         resultado_final["ampliacion_nodos"] = ampliacion_nodos
 
-    # Resumen
     resumen: dict = {}
     if validacion_urls:
         ok = sum(1 for v in validacion_urls if v.get("estado") == "ok")
         resumen["URLs validadas"] = f"{ok}/{len(validacion_urls)} accesibles"
     if fuentes_faltantes:
-        total_cand = sum(
-            r.get("total_candidatas", 0) for r in fuentes_faltantes
-            if isinstance(r.get("total_candidatas"), int)
-        )
+        total_cand = sum(r.get("total_candidatas", 0) for r in fuentes_faltantes)
         resumen["Fuentes candidatas encontradas"] = str(total_cand)
         resumen["Registros sin fuente procesados"] = str(len(fuentes_faltantes))
     if ampliacion_nodos:
@@ -946,7 +941,6 @@ def main() -> int:
 
     resultado_final["resumen"] = resumen
 
-    # Guardar
     reporte_md = generar_reporte_md(resultado_final)
     guardar_resultados(resultado_final, reporte_md)
 
