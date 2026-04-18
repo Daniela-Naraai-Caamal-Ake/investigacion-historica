@@ -10,7 +10,8 @@ que respalden cada registro.
 Uso:
     python tools/buscar_fuentes_vacias.py            # Busca en todos los registros sin fuente
     python tools/buscar_fuentes_vacias.py --parchear # También agrega fuentes_candidatas al JSON
-    python tools/buscar_fuentes_vacias.py --seco     # Solo detecta vacíos, sin búsqueda web
+    python tools/buscar_fuentes_vacias.py --seco --permitir-busqueda-local
+                                                   # Solo detecta vacíos, sin búsqueda web
     python tools/buscar_fuentes_vacias.py --nodo 004 # Solo procesa el nodo especificado
 
 Fuentes consultadas:
@@ -23,6 +24,11 @@ Configuración de Firecrawl:
     Exporta la variable de entorno FIRECRAWL_API_KEY antes de ejecutar el script,
     o crea un archivo .env en la raíz del proyecto con el valor correspondiente.
     Si no se configura la clave, el motor Firecrawl se omite silenciosamente.
+
+Diagnóstico de red:
+    Antes de buscar, el script valida resolución DNS hacia hosts externos clave
+    (Wikipedia, OpenLibrary, DuckDuckGo y Firecrawl). Si no hay DNS saliente,
+    aborta para evitar una ejecución "local" sin datos nuevos.
 
 Salidas:
     datos/investigacion/fuentes_vacias_YYYYMMDD.json
@@ -43,6 +49,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import socket
 import sys
 import time
 from datetime import datetime
@@ -92,6 +99,79 @@ def _verificar_dependencias() -> None:
             "     pip install requests beautifulsoup4\n"
         )
         sys.exit(1)
+
+
+# ─── Diagnóstico de red externa (DNS + salida HTTPS) ──────────────────────────
+
+_HOSTS_EXTERNOS = (
+    "es.wikipedia.org",
+    "en.wikipedia.org",
+    "openlibrary.org",
+    "lite.duckduckgo.com",
+    "api.firecrawl.dev",
+)
+
+
+def _diagnosticar_red_externa() -> dict:
+    """
+    Verifica resolución DNS para los hosts externos usados por los motores
+    de búsqueda. Retorna un dict con detalle por host y estado global.
+    """
+    detalles: list[dict] = []
+    hosts_ok = 0
+
+    for host in _HOSTS_EXTERNOS:
+        try:
+            infos = socket.getaddrinfo(host, 443, proto=socket.IPPROTO_TCP)
+            ips = sorted({info[4][0] for info in infos if info and info[4]})
+            detalles.append({
+                "host": host,
+                "estado": "ok",
+                "ips": ips[:5],
+                "total_ips": len(ips),
+            })
+            hosts_ok += 1
+        except OSError as exc:
+            detalles.append({
+                "host": host,
+                "estado": "error_dns",
+                "error": str(exc),
+            })
+
+    return {
+        "hosts_total": len(_HOSTS_EXTERNOS),
+        "hosts_ok_dns": hosts_ok,
+        "acceso_dns_externo": hosts_ok > 0,
+        "detalles": detalles,
+    }
+
+
+def _imprimir_diagnostico_red(diag: dict) -> None:
+    print("\n── Diagnóstico técnico de red externa (DNS)…")
+    for d in diag.get("detalles", []):
+        if d.get("estado") == "ok":
+            print(f"   ✓ DNS {d['host']} -> {d.get('total_ips', 0)} IP(s)")
+        else:
+            print(f"   ⚠ DNS {d['host']} -> {d.get('error', 'error desconocido')}")
+    if diag.get("acceso_dns_externo"):
+        print("   ✅ Resolución DNS externa disponible.\n")
+    else:
+        print(
+            "   ❌ No hay resolución DNS externa.\n"
+            "      Revisa restricciones de red saliente, proxy corporativo y resolvers DNS.\n"
+        )
+
+
+def _es_error_dns(exc: Exception) -> bool:
+    texto = str(exc).lower()
+    patrones = (
+        "temporary failure in name resolution",
+        "name or service not known",
+        "failed to resolve",
+        "nodename nor servname provided",
+        "getaddrinfo failed",
+    )
+    return any(p in texto for p in patrones)
 
 
 # ─── Campos de fuente reconocidos (igual que validar_datos.py) ─────────────
@@ -339,22 +419,41 @@ _HEADERS = {
 
 def _get(url: str, params: dict | None = None, timeout: int = 20) -> "requests.Response | None":
     """GET con manejo de errores. Devuelve None si la petición falla."""
+    host = ""
     try:
-        resp = requests.get(url, params=params, headers=_HEADERS, timeout=timeout)
-        resp.raise_for_status()
-        return resp
-    except requests.exceptions.HTTPError as e:
-        print(f"    ⚠  HTTP {e.response.status_code}: {url[:70]}")
-        return None
-    except requests.exceptions.ConnectionError:
-        print(f"    ⚠  Sin conexión: {url[:70]}")
-        return None
-    except requests.exceptions.Timeout:
-        print(f"    ⚠  Tiempo agotado: {url[:70]}")
-        return None
-    except requests.exceptions.RequestException as e:
-        print(f"    ⚠  Error ({type(e).__name__}): {url[:70]}")
-        return None
+        from urllib.parse import urlparse
+        host = urlparse(url).hostname or ""
+    except Exception:
+        host = ""
+
+    for intento in (1, 2):
+        try:
+            resp = requests.get(url, params=params, headers=_HEADERS, timeout=timeout)
+            resp.raise_for_status()
+            return resp
+        except requests.exceptions.HTTPError as e:
+            print(f"    ⚠  HTTP {e.response.status_code}: {url[:70]}")
+            return None
+        except requests.exceptions.ConnectionError as e:
+            if _es_error_dns(e):
+                destino = host or url[:70]
+                print(f"    ⚠  DNS no resuelve '{destino}' — sin salida web externa.")
+            else:
+                print(f"    ⚠  Sin conexión: {url[:70]}")
+            if intento == 1:
+                time.sleep(1)
+                continue
+            return None
+        except requests.exceptions.Timeout:
+            print(f"    ⚠  Tiempo agotado: {url[:70]}")
+            if intento == 1:
+                time.sleep(1)
+                continue
+            return None
+        except requests.exceptions.RequestException as e:
+            print(f"    ⚠  Error ({type(e).__name__}): {url[:70]}")
+            return None
+    return None
 
 
 def _buscar_wikipedia(query: str, lang: str = "es") -> list[dict]:
@@ -757,6 +856,14 @@ def main() -> int:
         ),
     )
     parser.add_argument(
+        "--permitir-busqueda-local",
+        action="store_true",
+        help=(
+            "Permite usar --seco (modo local de diagnóstico). "
+            "Por defecto se exige búsqueda web externa."
+        ),
+    )
+    parser.add_argument(
         "--nodo",
         metavar="ID",
         help="Procesa únicamente el nodo con el ID especificado (ej: 004, 006).",
@@ -772,12 +879,25 @@ def main() -> int:
 
     if not args.seco:
         _verificar_dependencias()
+    elif not args.permitir_busqueda_local:
+        print(
+            "\n❌  Modo local (--seco) deshabilitado para esta tarea.\n"
+            "    Usa búsqueda web externa para obtener datos nuevos.\n"
+            "    Si necesitas diagnóstico local, agrega --permitir-busqueda-local.\n"
+        )
+        return 2
 
     print(f"\n{'=' * 65}")
     print("   BÚSQUEDA DE FUENTES — Registros sin fuente")
     print("   Hopelchén: 2000 años de historia")
     print(f"{'=' * 65}")
     print(f"📁 Directorio: {DATOS_HOPELCHEN}\n")
+
+    if not args.seco:
+        diag_red = _diagnosticar_red_externa()
+        _imprimir_diagnostico_red(diag_red)
+        if not diag_red.get("acceso_dns_externo"):
+            return 2
 
     # ── Paso 1: Detectar registros sin fuente ────────────────────────────────
     print("── Paso 1: Detectando registros sin campo de fuente…")
