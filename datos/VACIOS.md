@@ -18,9 +18,9 @@ Estado posible: `PENDIENTE` · `EN PROCESO` · `RESPONDIDA PARCIALMENTE` · `RES
 
 | Estado | Cantidad |
 |--------|----------|
-| 🔴 PENDIENTE | 39 |
+| 🔴 PENDIENTE | 37 |
 | 🟡 EN PROCESO | 1 |
-| 🟠 RESPONDIDA PARCIALMENTE | 21 |
+| 🟠 RESPONDIDA PARCIALMENTE | 23 |
 | 🟢 RESPONDIDA | 1 |
 | **TOTAL** | **62** |
 
@@ -36,7 +36,7 @@ Estas preguntas son cuellos de botella: sin ellas, capítulos enteros quedan inc
 
 | ID | Pregunta | Nodo | Dónde buscar | Estado |
 |----|----------|------|--------------|--------|
-| **P002-01** | ¿Cuál es el documento colonial original que funda Hopelchén como pueblo de congregación en 1621? ¿Existe en… | 002 | PARES — pares.mcu.es: Archivo General de Indias, Audiencia de México; AGN México — Ramo Congregaciones, Ramo Indios, Ramo Mercedes | 🔴 PENDIENTE |
+| **P002-01** | ¿Cuál es el documento colonial original que funda Hopelchén como pueblo de congregación en 1621? ¿Existe en… | 002 | PARES — pares.mcu.es: Archivo General de Indias, Audiencia de México; AGN México — Ramo Congregaciones, Ramo Indios, Ramo Mercedes | 🟠 RESPONDIDA PARCIALMENTE |
 
 
 ### Nodo 003 — Colonia Tardía, Independencia, Guerra de Castas y el Porfiri
@@ -57,9 +57,9 @@ Estas preguntas son cuellos de botella: sin ellas, capítulos enteros quedan inc
 
 | ID | Pregunta | Nodo | Dónde buscar | Estado |
 |----|----------|------|--------------|--------|
-| **P006-01** | ¿Existe conexión genealógica entre Hiram Aranda Calderón (alcalde 2024-2027), Mario Heberto Aranda González… | 006 | Registro Civil del Estado de Campeche — actas con apellido Aranda/Baranda; Archivo Notarial de Campeche — testamentos y escrituras de la familia Baranda, siglos XIX-XX | 🔴 PENDIENTE |
+| **P006-01** | ¿Existe conexión genealógica entre Hiram Aranda Calderón (alcalde 2024-2027), Mario Heberto Aranda González… | 006 | Registro Civil del Estado de Campeche — actas con apellido Aranda/Baranda; Archivo Notarial de Campeche — testamentos y escrituras de la familia Baranda, siglos XIX-XX | 🟠 RESPONDIDA PARCIALMENTE |
 | **P006-08** | ¿Quién fue el presidente municipal de Hopelchén durante 1987-1992 — período en que llegaron los primeros me… | 006 | Periódico Oficial del Estado de Campeche — ediciones 1987-1993: periodicooficial.campeche.gob.mx; IEEC — registros electorales municipales Campeche 1988-1992 | 🟠 RESPONDIDA PARCIALMENTE — registro 006-A: Enrique González Vargas ('Don Lico') en funciones en 1984; Julio Alberto Sa… |
-| **P006-09** | ¿Existe parentesco entre Julio Alberto Sansores Sansores (ex-presidente municipal de Hopelchén, mencionado … | 006 | Wikipedia — Layda Sansores San Román (sección familia y origen); IEEC — Acuerdo CG 26/06 (2006): https://www.ieec.org.mx/documentacion/acuerdosactas/2006/mayo/acuerdocg2606_a1.pdf | 🟠 RESPONDIDA PARCIALMENTE — registro 006-I: Layda Sansores es hija de Carlos Sansores Pérez (gobernador PRI 1967-73); J… |
+| **P006-09** | ¿Existe parentesco entre Julio Alberto Sansores Sansores (ex-presidente municipal de Hopelchén, mencionado … | 006 | Wikipedia — Layda Sansores San Román (sección familia y origen); IEEC — Acuerdo CG 26/06 (2006): https://www.ieec.org.mx/documentacion/acuerdosactas/2006/mayo/acuerdocg2606_a1.pdf | 🟠 RESPONDIDA PARCIALMENTE |
 | **P006-10** | ¿Qué cambios de uso de suelo autorizó cada administración municipal de Hopelchén entre 1987 y 2024? ¿En qué… | 006 | Registro Agrario Nacional (RAN) — cambios de uso de suelo en Hopelchén por año; Semarnat — expedientes de cambio de uso de suelo en municipio de Hopelchén | 🔴 PENDIENTE |
 
 
@@ -74,7 +74,7 @@ Estas preguntas son cuellos de botella: sin ellas, capítulos enteros quedan inc
 
 | ID | Pregunta | Nodo | Dónde buscar | Estado |
 |----|----------|------|--------------|--------|
-| **P008-01** | ¿Cuál fue la población del municipio de Hopelchén en los censos de 1900, 1910, 1921, 1930, 1940, 1950, 1960… | 008 | INEGI — Archivo Histórico: https://www.inegi.org.mx/app/archivohistorico/; FamilySearch — Censo de población del municipio de Hopelchén, Campeche, 1930: https://www.familysearch.org/es/wiki/Hopelch%C3%A9n,_Campeche,_M%C3%A9xico_-_Genealog%C3%ADa | 🟠 RESPONDIDA PARCIALMENTE — registro 008-I: 2020 = 38,017 hab. (INEGI oficial); datos 1900-1990 requieren Archivo Histó… |
+| **P008-01** | ¿Cuál fue la población del municipio de Hopelchén en los censos de 1900, 1910, 1921, 1930, 1940, 1950, 1960… | 008 | INEGI — Archivo Histórico: https://www.inegi.org.mx/app/archivohistorico/; FamilySearch — Censo de población del municipio de Hopelchén, Campeche, 1930: https://www.familysearch.org/es/wiki/Hopelch%C3%A9n,_Campeche,_M%C3%A9xico_-_Genealog%C3%ADa | 🟠 RESPONDIDA PARCIALMENTE |
 
 
 ---

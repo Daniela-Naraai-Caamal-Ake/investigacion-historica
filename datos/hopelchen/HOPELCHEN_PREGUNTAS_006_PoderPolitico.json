@@ -20,7 +20,8 @@
       ],
       "prioridad": "URGENTE — Alta",
       "conexion_hipotesis": "Confirmar o descartar la continuidad genealógica del apellido Aranda/Baranda en el poder de Hopelchén desde el Porfiriato hasta 2024.",
-      "estado": "PENDIENTE"
+      "estado": "RESPONDIDA PARCIALMENTE",
+      "hallazgos": "Confirmado: Hiram Aranda Calderón es presidente municipal de Hopelchén 2024-2027. En noviembre 2025 fue denunciado ante la Fiscalía Anticorrupción por abuso de poder, manipulación del sistema catastral y falsificación de documentos (Tribuna Campeche, nov 2025). El alcalde previo al periodo 2024 fue Emilio Lara Calderón (apellido Calderón compartido). No se ha encontrado documentación que confirme o refute la conexión genealógica entre Aranda Calderón, Mario Heberto Aranda González y la familia Baranda colonial. Pendiente: consulta directa en Registro Civil de Campeche y Archivo Notarial (testamentos y escrituras Baranda, siglos XIX-XX)."
     },
     {
       "pregunta_id": "P006-02",
@@ -139,8 +140,9 @@
       ],
       "prioridad": "URGENTE",
       "conexion_hipotesis": "Si se confirma parentesco, el ciclo de élites que controlan Hopelchén no se rompe con el cambio de partido — simplemente una rama familiar distinta (Sansores-Morena) reemplaza a otra (Lara-PRI) en el control del poder sobre el municipio.",
-      "estado": "RESPONDIDA PARCIALMENTE — registro 006-I: Layda Sansores es hija de Carlos Sansores Pérez (gobernador PRI 1967-73); Julio Alberto Sansores Sansores (alcalde Hopelchén c.1990s) apellido coincidente; nexo genealógico directo no verificado.",
-      "registro_respuesta": "006-I"
+      "estado": "RESPONDIDA PARCIALMENTE",
+      "registro_respuesta": "006-I",
+      "hallazgos": "Confirmado: Julio Alberto Sansores Sansores fue presidente municipal de Hopelchén (IEEC Acuerdo CG 26/06, 2006). Layda Sansores San Román (gobernadora de Campeche 2021-) es hija de Carlos Sansores Pérez (gobernador PRI 1967-73, originario de Champotón), y nieta de Ulises Sansores (presidente municipal entre 1926-1929). El apellido Sansores Sansores en Julio Alberto sugiere endogamia del apellido en la familia, pero la conexión genealógica directa entre Julio Alberto y Carlos/Layda Sansores no ha sido confirmada con documentos de registro civil. Pendiente: verificar en Registro Civil de Campeche y árbol genealógico del clan Sansores."
     },
     {
       "pregunta_id": "P006-10",
