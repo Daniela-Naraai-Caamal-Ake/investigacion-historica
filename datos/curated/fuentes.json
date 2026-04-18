@@ -550,6 +550,167 @@
       "confiabilidad": 0.72,
       "notas": "Artículo de La Jornada Maya sobre Baqueiro Fóster. Indica nacimiento 7 enero 1898, padres Teodosia Foster Villafaña y Francisco José Baqueiro Maldonado. Su primer maestro fue su primo Laureano Baqueiro. A los 14 años aprendió guitarra con Manuel Aranda, «padre de la música en la región de los Chenes».",
       "web_raw_id": "WEB030"
+    },
+    {
+      "id": "F054",
+      "tipo": "articulo_academico",
+      "titulo": "Las insurrecciones de Juan Yam y Jacinto Uc. Dos alzamientos mayas en la época colonial",
+      "autor": "José Manuel A. Chávez Gómez",
+      "año": "2024",
+      "url": "https://www.researchgate.net/publication/382077657",
+      "confiabilidad": 0.9,
+      "notas": "Documentación del batab Juan Yam y la rebelión de Sahcabchén (1669). Fuente primaria: AGI México 3050. Cita carta del fraile Cristóbal Sánchez desde San Antonio Sahcabchén.",
+      "nodos_relacionados": [
+        "001",
+        "002",
+        "009"
+      ]
+    },
+    {
+      "id": "F055",
+      "tipo": "libro",
+      "titulo": "Recordaciones Históricas (2 tomos)",
+      "autor": "Joaquín Baranda y Quijano",
+      "año": "1907-1913",
+      "editorial": "CONACULTA/FCE (reedición 1991)",
+      "isbn": "9682928435 (vol.1) / 9682928443 (vol.2)",
+      "confiabilidad": 0.95,
+      "notas": "Primera historia general de Campeche. Tomo I c.1907; Tomo II terminado por Perfecto Baranda MacGregor (1913). Fuente primaria para historia campechana del siglo XIX. Contiene información sobre la región de Hopelchén y Los Chenes en el Porfiriato.",
+      "nodos_relacionados": [
+        "003",
+        "006"
+      ]
+    },
+    {
+      "id": "F056",
+      "tipo": "tesis_doctoral",
+      "titulo": "Rationalität oder Irrationalität bäuerlichen Wirtschaftens im Kontext staatlicher Politik. Haushaltsstrategien in mexikanischen Ejidos: Das Beispiel der Chenes-Region, Campeche",
+      "autor": "Ute Schüren",
+      "año": "2002-2003",
+      "institucion": "Freie Universität Berlin",
+      "url": "https://www.uni-muenster.de/Geschichte/histsem/AE-G/personen/UteSchueren.html",
+      "confiabilidad": 0.95,
+      "notas": "Tesis doctoral (2002) publicada online 2003 en repositorio Darwin FU Berlin. Fuente académica central para Los Chenes: ejidos, reforma agraria, economía chiclera, política neoliberal. Schüren realizó trabajo de campo en Hopelchén 1993-1998.",
+      "nodos_relacionados": [
+        "004",
+        "007",
+        "005"
+      ]
+    },
+    {
+      "id": "F057",
+      "tipo": "articulo_academico",
+      "titulo": "Entre los caminos de herradura y los campos de aterrizaje: Rutas de comunicación e historia económica en el sureste de México",
+      "autor": "Ute Schüren",
+      "año": "2013",
+      "revista": "Indiana (Ibero-Amerikanisches Institut Preußischer Kulturbesitz, Alemania)",
+      "paginas": "199-215",
+      "url": "https://www.redalyc.org/articulo.oa?id=247029853011",
+      "confiabilidad": 0.95,
+      "notas": "Fuente directa sobre campos de aterrizaje chicleros de Hopelchén y X Can Há. Disponible en acceso abierto en Redalyc.",
+      "nodos_relacionados": [
+        "004",
+        "007"
+      ]
+    },
+    {
+      "id": "F058",
+      "tipo": "articulo_academico",
+      "titulo": "La reforma agraria en Campeche, ¿permanencia de una cultura indígena?",
+      "autor": "Cantún Caamal",
+      "año": "2012",
+      "revista": "Secuencia (Instituto Mora)",
+      "url": "http://secuencia.mora.edu.mx/index.php/Secuencia/article/view/1143/1007",
+      "confiabilidad": 0.88,
+      "notas": "Documenta el proceso de solicitudes de ejidos en Campeche. Los Chenes conservaron tierras durante el Porfiriato. Primera dotación Dzibalchén: 1927 (6,671 ha para 236 individuos).",
+      "nodos_relacionados": [
+        "004",
+        "003"
+      ]
+    },
+    {
+      "id": "F059",
+      "tipo": "proyecto_arqueologico",
+      "titulo": "Santa Rosa Xtampak: Cronología y vínculos de un centro suprarregional del Clásico maya",
+      "autor": "Ibero-Amerikanisches Institut Berlin / Centro INAH Campeche",
+      "año": "2020-2022",
+      "url": "https://www.iai.spk-berlin.de/es/investigacion/proyectos/proyecto/santa-rosa-xtampak-chronologie-und-vernetzung-eines-ueberregionalen-zentrums-der-klassischen-maya.html",
+      "confiabilidad": 0.97,
+      "notas": "Excavaciones estratigráficas en Santa Rosa Xtampak (2020-2022). Hallazgo clave: secuencia desde Preclásico Medio (1000 a.C.) hasta Clásico Terminal (950 d.C.). Se excavaron 9 calas y se encontraron enterramientos Clásico Tardío y Terminal. Codirigido por Antonio Benavides Castillo (INAH).",
+      "nodos_relacionados": [
+        "001"
+      ]
+    },
+    {
+      "id": "F060",
+      "tipo": "noticia",
+      "titulo": "INAH confirma descubrimiento de sitio maya en Campeche; habría otro en Hopelchén",
+      "autor": "PorEsto",
+      "año": "2024",
+      "fecha": "octubre 2024",
+      "url": "https://www.poresto.com/campeche/2024/10/31/inah-confirma-descubrimiento-de-sitio-maya-en-campeche-habria-otro-en-hopelchen.html",
+      "confiabilidad": 0.78,
+      "notas": "Noticia sobre descubrimiento de Valeriana (16.6 km²) mediante LiDAR. La arqueóloga del INAH señaló vestigios arqueológicos bajo tierra en Xmejía (municipio de Hopelchén). LiDAR en Campeche iniciado en 2013 para monitoreo forestal.",
+      "nodos_relacionados": [
+        "001"
+      ]
+    },
+    {
+      "id": "F061",
+      "tipo": "articulo_periodistico",
+      "titulo": "Expansión menonita en Campeche y QR: reporte",
+      "autor": "La Jornada de Oriente / MATRIA",
+      "año": "2024",
+      "url": "https://matria.com.mx/expansion-menonita-en-yucatan-y-campeche/",
+      "confiabilidad": 0.82,
+      "notas": "Documenta la expansión menonita desde 1987-1988. Comunidad Nuevo Progreso (La Honda, Zacatecas) fue la primera en Hopelchén (1988). Para 2022 Hopelchén era el municipio con mayor producción de soya nacional (49,870 ha). Actualmente 52 comunidades menonitas en Campeche.",
+      "nodos_relacionados": [
+        "005",
+        "006",
+        "007"
+      ]
+    },
+    {
+      "id": "F062",
+      "tipo": "noticia",
+      "titulo": "Denuncian al alcalde Hiram Aranda por abuso de poder, manipulación del sistema catastral y falsificación de documentos",
+      "autor": "Tribuna Campeche",
+      "año": "2025",
+      "fecha": "noviembre 2025",
+      "url": "https://tribunacampeche.com/11/denuncian-al-alcalde-hiram-aranda-por-abuso-de-poder-manipulacion-del-sistema-catastral-y-falsificacion-de-documentos/728424/",
+      "confiabilidad": 0.75,
+      "notas": "Denuncia de Edgar Manuel Poot Yeh ante Fiscalía Anticorrupción vs. alcalde Aranda Calderón (2024-2027), secretario May Dzib y jurídico Barrera. Cargos: abuso de poder, manipulación catastral, falsificación de documentos.",
+      "nodos_relacionados": [
+        "006"
+      ]
+    },
+    {
+      "id": "F063",
+      "tipo": "articulo_academico",
+      "titulo": "Clan Sansores: el gran aliado de Morena",
+      "autor": "Tribuna Campeche",
+      "año": "2024",
+      "url": "https://tribunacampeche.com/16/clan-sansoresel-gran-aliado-de-morena/696558/",
+      "confiabilidad": 0.72,
+      "notas": "Árbol genealógico del clan Sansores: Ulises Sansores (presidente municipal 1926-29) → Carlos Sansores Pérez (gobernador PRI 1967-73) → Layda Sansores San Román (gobernadora 2021-). Fundadores de las primeras instalaciones de producción de miel y cera en Campeche.",
+      "nodos_relacionados": [
+        "006"
+      ]
+    },
+    {
+      "id": "F064",
+      "tipo": "articulo_academico",
+      "titulo": "La dominación blanca sobre los territorios maya",
+      "autor": "Revista Bicentenario",
+      "año": "s.f.",
+      "url": "https://revistabicentenario.com.mx/index.php/archivos/la-dominacion-blanca-sobre-los-territorios-maya/",
+      "confiabilidad": 0.8,
+      "notas": "Documenta que Hopelchén y otras aldeas de Los Chenes eran 'gobernadas por sus bataboob (caciques), alejadas, pero no ajenas a la población indígena'. Describe el papel de los mayas pacíficos en la frontera durante la Guerra de Castas.",
+      "nodos_relacionados": [
+        "002",
+        "003",
+        "009"
+      ]
     }
   ]
 }

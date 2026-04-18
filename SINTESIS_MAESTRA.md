@@ -3,7 +3,7 @@
 > **Dos Mil Años en Silencio** — Investigación histórica sobre Hopelchén y Los Chenes  
 > Autora: **Daniela Naraai Caamal Ake**  
 > ⚙ Generado automáticamente por `tools/generar_sintesis.py`  
-> Última actualización: **2026-04-18 08:20**
+> Última actualización: **2026-04-18 08:24**
 
 ---
 
@@ -610,9 +610,9 @@ Efraín (padre)
 
 | Estado | Cantidad |
 |--------|----------|
-| 🔴 PENDIENTE | 7 |
+| 🔴 PENDIENTE | 6 |
 | 🟡 EN PROCESO | 1 |
-| 🟠 RESPONDIDA PARCIALMENTE | 59 |
+| 🟠 RESPONDIDA PARCIALMENTE | 60 |
 | 🟢 RESPONDIDA | 1 |
 | **TOTAL** | **68** |
 
@@ -839,7 +839,7 @@ Total registros: **61**
 
 ## 10. Estado de los Borradores
 
-Total borradores: **28**
+Total borradores: **24**
 
 | Archivo | Tamaño | Estado visible |
 |---------|--------|----------------|
@@ -855,8 +855,6 @@ Total borradores: **28**
 | `B-Serapio.md` | 9,062 chars | — |
 | `B1-BIS.md` | 10,312 chars | **Estado:** ✅ Aprobada — 22 marzo 2026 |
 | `B1.md` | 12,377 chars | **Estado:** ✅ Aprobada — 22 marzo 2026 |
-| `B10_CORRUPTO.md` | 19,234 chars | — |
-| `B11_CORRUPTO.md` | 19,233 chars | — |
 | `B11_borrador.md` | 9,592 chars | **Estado:** Borrador — pendiente revisión de Dan |
 | `B12.md` | 12,646 chars | **Estado:** ✅ Aprobada — pendiente aprobación de D |
 | `B2.md` | 9,694 chars | **Estado:** ✅ Aprobada — 22 marzo 2026 |
@@ -867,8 +865,6 @@ Total borradores: **28**
 | `B6.md` | 12,429 chars | **Estado:** ✅ Aprobada — 22 marzo 2026 |
 | `B7.md` | 9,922 chars | **Estado:** ✅ Aprobada — 22 marzo 2026 (versión fi |
 | `B8.md` | 13,631 chars | **Estado:** ✅ Aprobada |
-| `B8_CORRUPTO.md` | 19,249 chars | — |
-| `B9_CORRUPTO.md` | 19,241 chars | — |
 | `B9_borrador.md` | 12,859 chars | **Estado:** Borrador — pendiente revisión de Dan |
 | `PRÓLOGO.md` | 6,726 chars | **Estado:** 📝 Borrador generado para revisión de D |
 
@@ -876,7 +872,7 @@ Total borradores: **28**
 
 ## Notas de generación
 
-- **Generado:** 2026-04-18 08:20
+- **Generado:** 2026-04-18 08:24
 - **Script:** `tools/generar_sintesis.py`
 - **Repositorio:** Daniela-Naraai-Caamal-Ake/investigacion-historica
 - **Regenerar:** `python tools/generar_sintesis.py`

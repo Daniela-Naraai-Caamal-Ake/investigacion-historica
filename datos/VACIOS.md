@@ -18,9 +18,9 @@ Estado posible: `PENDIENTE` · `EN PROCESO` · `RESPONDIDA PARCIALMENTE` · `RES
 
 | Estado | Cantidad |
 |--------|----------|
-| 🔴 PENDIENTE | 1 |
+| 🔴 PENDIENTE | 0 |
 | 🟡 EN PROCESO | 1 |
-| 🟠 RESPONDIDA PARCIALMENTE | 59 |
+| 🟠 RESPONDIDA PARCIALMENTE | 60 |
 | 🟢 RESPONDIDA | 1 |
 | **TOTAL** | **62** |
 
@@ -43,7 +43,7 @@ Estas preguntas son cuellos de botella: sin ellas, capítulos enteros quedan inc
 
 | ID | Pregunta | Nodo | Dónde buscar | Estado |
 |----|----------|------|--------------|--------|
-| **P003-01** | ¿Cuándo y cómo adquirió Pedro Advíncula Lara las haciendas Holcatzin y Santa Rita, y los ranchos Boxol y Uc… | 003 | Registro Público de la Propiedad de Campeche — títulos de haciendas Holcatzin y Santa Rita; Archivo Municipal de Hopelchén — registros de jefes políticos | 🔴 PENDIENTE |
+| **P003-01** | ¿Cuándo y cómo adquirió Pedro Advíncula Lara las haciendas Holcatzin y Santa Rita, y los ranchos Boxol y Uc… | 003 | Registro Público de la Propiedad de Campeche — títulos de haciendas Holcatzin y Santa Rita; Archivo Municipal de Hopelchén — registros de jefes políticos | 🟠 RESPONDIDA PARCIALMENTE |
 
 
 ### Nodo 004 — Revolución, Reforma Agraria y Economía Chiclera (1910–1970)
