@@ -13,17 +13,17 @@
 | Campo | Valor |
 |---|---|
 | **Tipo** | Citado/Arqueológico |
-| **Fecha / Período** | 300–250 a.C. (Preclásico Tardío) |
+| **Fecha / Período** | c. 1000 a.C. — 950 d.C. (Preclásico Medio al Clásico Terminal) |
 | **Lugar** | Santa Rosa Xtampak, municipio de Hopelchén, Campeche |
 | **Personajes** | — |
 | **Cargos** | — |
 | **Fuente(s)** | [Sistema de Información Cultural — Secretaría de Cultura / INAH](<https://sic.cultura.gob.mx/ficha.php?table=zona_arqueologica&table_id=10>); [INAH Lugares — Zona Arqueológica Santa Rosa Xtampak](<https://lugares.inah.gob.mx/es/zonas-arqueologicas/zonas/1674-santa-rosa-xtampak.html>); [Santa Rosa Xtampak, Campeche: su patrón de asentamiento del Preclásico al Clásico](<https://www.researchgate.net/publication/28235660_Santa_Rosa_Xtampak_Campeche_su_patron_de_asentamiento_del_Preclasico_al_Clasico>) |
 | **Origen** | `datos/hopelchen/HOPELCHEN_NODO_001_Ocupacion_Prehispanica.json` |
 
-> Las primeras evidencias de ocupación humana en el territorio de lo que hoy es el municipio de Hopelchén corresponden al sitio de Santa Rosa Xtampak, con cerámica del Preclásico Tardío fechada entre 300 y 250 a.C. Este es el dato más antiguo arqueológicamente confirmado en la región. La ciudad funcionó como capital regional de Los Chenes durante aproximadamente 850 años.
+> Las primeras evidencias de ocupación humana en el territorio de Hopelchén corresponden a Santa Rosa Xtampak. La datación oficial del INAH señala el Preclásico Tardío (300-250 a.C.) como inicio documentado. Sin embargo, las excavaciones estratigráficas del Ibero-Amerikanisches Institut Berlin (IAI) y el Centro INAH Campeche (2020-2022) establecieron una secuencia que se extiende hasta el Preclásico Medio (c. 1000 a.C.), expandiendo significativamente el horizonte temporal conocido. El codirigido fue Antonio Benavides Castillo (INAH). La ciudad funcionó como capital regional de Los Chenes durante aproximadamente 850 años (c. 100 - 950 d.C.).
 
 _Origen: Sistema de Información Cultural — Secretaría de Cultura / INAH <https://sic.cultura.gob.mx/ficha.php?table=zona_arqueologica&table_id=10>_
-**⚠ Nota/contradicción:** La cerámica preclásica indica ocupación desde 300-250 a.C., pero los textos jeroglíficos solo registran desde el año 646 d.C. (Estela 5). Existe una brecha de ~900 años sin inscripciones epigráficas, lo que NO significa ausencia de población sino ausencia de registro escrito recuperado. Fuentes turí
+**⚠ Nota/contradicción:** ACTUALIZACIÓN 2026: Las excavaciones IAI Berlin/INAH (2020-2022) en 9 calas estratigráficas revelaron secuencia desde Preclásico Medio (1000 a.C.). Esto supera la datación oficial de 300-250 a.C. que se basaba en cerámica superficial sin excavación sistemática. Fuente: IAI Berlin proyecto SRX (https
 **→ Conexión hipótesis:** La ciudad fue construida sobre una elevación nivelada artificialmente, lo que implica una organización política capaz de movilizar trabajo colectivo masivo desde el Preclásico. Ya desde el origen hay 
 **Etiquetas:** preclásico, cerámica, ocupación humana, Santa Rosa Xtampak, Los Chenes, capital regional, poder político, arquitectura maya
 
@@ -155,6 +155,7 @@ _Origen: INAH — Zona Arqueológica Hochob <https://inah.gob.mx/zonas/zona-arqu
 > La Estela 2 de Santa Rosa Xtampak es uno de los pocos monumentos epigráficos conocidos del sitio. Según estudios epigráficos publicados en Arqueología (INAH, 2004), la estela contiene el nombre del gobernante identificado por el glifo JOL (cabeza/cráneo), lo que la sitúa dentro de la tradición epigráfica de las ciudades del Puuc y Los Chenes del período Clásico Tardío (600-900 d.C.). Santa Rosa Xtampak ('casas viejas pintadas con estuco rojo', en maya) fue la ciudad más importante de la región de Los Chenes durante el Clásico Tardío, con arquitectura de múltiples pisos y probable función como centro administrativo regional. La identificación del gobernante JOL, si es confirmada, permitiría correlacionar la secuencia dinástica de Xtampak con otras capitales mayas del período como Calakmul o Uxmal. El artículo de la revista Arqueología mencionado (Scielo México, 2004) no pudo ser accedido directamente durante esta investigación pero está catalogado en SciELO México con el identificador pid=S0185-25742004000100002.
 
 _Origen: Revista Arqueología (INAH) — SciELO México, 2004 <https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S0185-25742004000100002>_
+**⚠ Nota/contradicción:**  ACTUALIZACIÓN oct-2024: INAH confirmó que LiDAR aplicado desde 2013 reveló posibles vestigios en Xmejía (municipio de Hopelchén). La arqueóloga del INAH señaló que "pobladores mencionan vestigios arqueológicos que siguen bajo tierra". El equipo Tulane/INAH ha identificado 6,500+ estructuras en Camp
 **→ Conexión hipótesis:** La existencia de un gobernante nombrado en Xtampak confirma que Los Chenes tenía estructuras políticas propias antes de la conquista española, contradiciendo la narrativa colonial de 'tierra sin histo
 **Etiquetas:** epigrafía, Estela 2, Santa Rosa Xtampak, JOL, gobernante maya, Los Chenes, Clásico Tardío, INAH
 

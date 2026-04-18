@@ -3,7 +3,7 @@
 > **Dos Mil Años en Silencio** — Investigación histórica sobre Hopelchén y Los Chenes  
 > Autora: **Daniela Naraai Caamal Ake**  
 > ⚙ Generado automáticamente por `tools/generar_sintesis.py`  
-> Última actualización: **2026-04-18 08:24**
+> Última actualización: **2026-04-18 08:26**
 
 ---
 
@@ -149,7 +149,7 @@ El libro está organizado en 10 nodos que combinan cronología y temática:
 
 | ID | Fecha | Subtítulo | Fuente |
 |----|-------|-----------|--------|
-| `001-A` | 300–250 a.C. (Preclásico Tardí | Primer dato verificable de ocupación humana en el territorio… | ✅ Sistema de Información Cultural — Secretaría de Cu |
+| `001-A` | c. 1000 a.C. — 950 d.C. (Precl | Primer dato verificable de ocupación humana en el territorio… | ✅ Sistema de Información Cultural — Secretaría de Cu |
 | `001-B` | 646 d.C. | Fecha epigráfica más antigua registrada en Los Chenes: Estel… | ✅ Mediateca INAH — Santa Rosa Xtampak |
 | `001-C` | 300 d.C. — 1100 d.C. | Hochob — Primer asentamiento documentado con datación INAH: … | ✅ INAH — Zona Arqueológica Hochob |
 | `001-D` | 600 d.C. — 1100 d.C. | Dzibilnocac — Tercer centro de poder en Hopelchén… | ✅ Wikipedia — Municipio de Hopelchén |
@@ -337,7 +337,6 @@ Todos los eventos documentados, ordenados cronológicamente.
 
 | Fecha | Evento | Nodo |
 |-------|--------|------|
-| 300–250 a.C. (Preclásico Tardío) | Primer dato verificable de ocupación humana en el territorio: Santa Ro… | 001 |
 | 300 d.C. — 1100 d.C. | Hochob — Primer asentamiento documentado con datación INAH: 300 d.C.… | 001 |
 | 300 a.C. — 1200 d.C. | Demografía prehispánica estimada — el apogeo de Xtampak y Los Chenes… | 008 |
 | 300 a.C. — 2026 | CRUCE DE DATOS: La curva demográfica como lectura del ciclo extractivo… | 008 |
@@ -350,6 +349,7 @@ Todos los eventos documentados, ordenados cronológicamente.
 | c. 600 — 800 d.C. | Escritura jeroglífica en Los Chenes: la Estela 2 de Santa Rosa Xtampak… | 010 |
 | 646 d.C. | Fecha epigráfica más antigua registrada en Los Chenes: Estela 5 de San… | 001 |
 | c. 700-900 d.C. | Estela 2 de Santa Rosa Xtampak: epigrafía y gobernante JOL — identidad… | 001 |
+| c. 1000 a.C. — 950 d.C. (Preclásico Medio al Clásico Terminal) | Primer dato verificable de ocupación humana en el territorio: Santa Ro… | 001 |
 | 1000 — 1200 d.C. | Colapso Maya en Los Chenes y su relación con estructuras de poder… | 001 |
 | c. 1300–1517 | Los Xiúes de Dzibil-Noh-Aac (hoy Iturbide): posibles vínculos con Los … | 002 |
 | 1441–1517 | Contexto político maya previo a la Conquista: Los Chenes en un mundo f… | 002 |
@@ -872,7 +872,7 @@ Total borradores: **24**
 
 ## Notas de generación
 
-- **Generado:** 2026-04-18 08:24
+- **Generado:** 2026-04-18 08:26
 - **Script:** `tools/generar_sintesis.py`
 - **Repositorio:** Daniela-Naraai-Caamal-Ake/investigacion-historica
 - **Regenerar:** `python tools/generar_sintesis.py`

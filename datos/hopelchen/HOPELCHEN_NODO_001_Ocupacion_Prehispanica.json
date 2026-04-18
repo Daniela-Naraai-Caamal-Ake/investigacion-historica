@@ -12,10 +12,10 @@
     {
       "registro_id": "001-A",
       "subtitulo": "Primer dato verificable de ocupación humana en el territorio: Santa Rosa Xtampak",
-      "fecha_evento": "300–250 a.C. (Preclásico Tardío)",
+      "fecha_evento": "c. 1000 a.C. — 950 d.C. (Preclásico Medio al Clásico Terminal)",
       "lugar": "Santa Rosa Xtampak, municipio de Hopelchén, Campeche",
       "coordenadas_referencia": "Km 79 Carretera Federal 261, desvío 32 km al oriente",
-      "descripcion": "Las primeras evidencias de ocupación humana en el territorio de lo que hoy es el municipio de Hopelchén corresponden al sitio de Santa Rosa Xtampak, con cerámica del Preclásico Tardío fechada entre 300 y 250 a.C. Este es el dato más antiguo arqueológicamente confirmado en la región. La ciudad funcionó como capital regional de Los Chenes durante aproximadamente 850 años.",
+      "descripcion": "Las primeras evidencias de ocupación humana en el territorio de Hopelchén corresponden a Santa Rosa Xtampak. La datación oficial del INAH señala el Preclásico Tardío (300-250 a.C.) como inicio documentado. Sin embargo, las excavaciones estratigráficas del Ibero-Amerikanisches Institut Berlin (IAI) y el Centro INAH Campeche (2020-2022) establecieron una secuencia que se extiende hasta el Preclásico Medio (c. 1000 a.C.), expandiendo significativamente el horizonte temporal conocido. El codirigido fue Antonio Benavides Castillo (INAH). La ciudad funcionó como capital regional de Los Chenes durante aproximadamente 850 años (c. 100 - 950 d.C.).",
       "fuente": {
         "nombre": "Sistema de Información Cultural — Secretaría de Cultura / INAH",
         "tipo": "Fuente institucional gubernamental",
@@ -39,7 +39,7 @@
       },
       "tipo_dato": "Citado/Arqueológico",
       "personajes": [],
-      "notas_contradiccion": "La cerámica preclásica indica ocupación desde 300-250 a.C., pero los textos jeroglíficos solo registran desde el año 646 d.C. (Estela 5). Existe una brecha de ~900 años sin inscripciones epigráficas, lo que NO significa ausencia de población sino ausencia de registro escrito recuperado. Fuentes turísticas repiten el dato arqueológico sin diferenciar cerámica de epigrafía, generando confusión cronológica.",
+      "notas_contradiccion": "ACTUALIZACIÓN 2026: Las excavaciones IAI Berlin/INAH (2020-2022) en 9 calas estratigráficas revelaron secuencia desde Preclásico Medio (1000 a.C.). Esto supera la datación oficial de 300-250 a.C. que se basaba en cerámica superficial sin excavación sistemática. Fuente: IAI Berlin proyecto SRX (https://www.iai.spk-berlin.de/es/investigacion/proyectos/proyecto/santa-rosa-xtampak...).",
       "conexion_hipotesis": "La ciudad fue construida sobre una elevación nivelada artificialmente, lo que implica una organización política capaz de movilizar trabajo colectivo masivo desde el Preclásico. Ya desde el origen hay una estructura de poder que controla el territorio y el trabajo.",
       "tags": [
         "preclásico",
@@ -50,7 +50,16 @@
         "capital regional",
         "poder político",
         "arquitectura maya"
-      ]
+      ],
+      "fuentes_candidatas": [
+        {
+          "titulo": "IAI Berlin — Proyecto Santa Rosa Xtampak: Cronología y vínculos (2020-2022)",
+          "url": "https://www.iai.spk-berlin.de/es/investigacion/proyectos/proyecto/santa-rosa-xtampak-chronologie-und-vernetzung-eines-ueberregionalen-zentrums-der-klassischen-maya.html",
+          "confiabilidad": "alta",
+          "nota": "Fuente directa. Proyecto arqueológico con 9 calas estratigráficas. Codirigido con INAH Campeche."
+        }
+      ],
+      "nota_cronologica": "La fecha_evento se actualiza para reflejar el hallazgo del IAI Berlin/INAH (2020-2022): la secuencia cerámica estratigráfica alcanza el Preclásico Medio (c. 1000 a.C.), anterior al rango oficial del nodo (300 a.C.). El rango del nodo refleja la datación oficial INAH pre-2020; este registro documenta la revisión científica más reciente."
     },
     {
       "registro_id": "001-B",
@@ -349,7 +358,8 @@
         "Los Chenes",
         "Clásico Tardío",
         "INAH"
-      ]
+      ],
+      "notas_contradiccion": " ACTUALIZACIÓN oct-2024: INAH confirmó que LiDAR aplicado desde 2013 reveló posibles vestigios en Xmejía (municipio de Hopelchén). La arqueóloga del INAH señaló que \"pobladores mencionan vestigios arqueológicos que siguen bajo tierra\". El equipo Tulane/INAH ha identificado 6,500+ estructuras en Campeche con esta tecnología (PorEsto, oct 2024)."
     }
   ],
   "contradicciones_globales_nodo": [
