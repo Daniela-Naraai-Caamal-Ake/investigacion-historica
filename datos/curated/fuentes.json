@@ -711,6 +711,50 @@
         "003",
         "009"
       ]
+    },
+    {
+      "id": "FX007",
+      "tipo": "tesis_doctoral",
+      "titulo": "Kinchí, Xunan tunich y Dignidad maya: Representaciones de lo maya en la ópera yucateca, 1924-1934",
+      "autor": "Pool Castellanos, Emmanuel",
+      "año": "2025",
+      "url": "",
+      "confiabilidad": 0.9,
+      "notas": "Tesis doctoral sobre representaciones de lo maya en la ópera yucateca. Archivo local: sources/0865175.pdf. Referenciado en NODO_010 (conocimiento y cultura).",
+      "web_raw_id": ""
+    },
+    {
+      "id": "FX008",
+      "tipo": "articulo_cientifico",
+      "titulo": "Glyphosate Residues in Groundwater, Drinking Water and Urine of Subsistence Farmers from Intensive Agriculture Localities: A Survey in Hopelchén, Campeche, México",
+      "autor": "Rendón Von Osten, Jaime; Dzul-Caamal, R.",
+      "año": "2017",
+      "url": "https://doi.org/10.3390/ijerph14060595",
+      "confiabilidad": 0.95,
+      "notas": "Artículo científico arbitrado. Documenta presencia de glifosato en agua y orina de campesinos de Hopelchén. Referenciado en NODO_009 (resistencia y agencia maya).",
+      "web_raw_id": ""
+    },
+    {
+      "id": "FX009",
+      "tipo": "web",
+      "titulo": "Goldman Environmental Prize — Leydy Pech",
+      "autor": "",
+      "año": "s.f.",
+      "url": "https://www.goldmanprize.org/recipient/leydy-pech/",
+      "confiabilidad": 0.9,
+      "notas": "Perfil oficial del Goldman Environmental Prize para Leydy Pech, defensora maya de Hopelchén. Referenciado en NODO_009 y leydy_pech_perfil.json.",
+      "web_raw_id": ""
+    },
+    {
+      "id": "FX019",
+      "tipo": "web",
+      "titulo": "INAFED — Enciclopedia Municipios, Hopelchén",
+      "autor": "",
+      "año": "s.f.",
+      "url": "http://www.inafed.gob.mx/work/enciclopedia/EMM04campeche/municipios/04006a.html",
+      "confiabilidad": 0.85,
+      "notas": "Portal del Instituto Nacional para el Federalismo y el Desarrollo Municipal. Ficha municipal de Hopelchén, Campeche. Referenciado en NODO_008 (demografía).",
+      "web_raw_id": ""
     }
   ]
 }
