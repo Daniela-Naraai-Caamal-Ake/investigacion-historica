@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-04-14T02:46:09Z",
+  "generado_en": "2026-04-18T08:39:14Z",
   "nodos": [
     {
       "id": "001",
@@ -79,9 +79,9 @@
       "rango_temporal": "1517 — 2026",
       "año_inicio": 1517,
       "año_fin": 2026,
-      "n_registros": 10,
-      "n_con_fuente": 10,
-      "n_con_conexion": 10,
+      "n_registros": 11,
+      "n_con_fuente": 11,
+      "n_con_conexion": 11,
       "pct_fuente": 100.0,
       "pct_conexion": 100.0
     },
@@ -124,10 +124,10 @@
   ],
   "resumen": {
     "total_nodos": 10,
-    "total_registros": 95,
-    "total_con_fuente": 95,
+    "total_registros": 96,
+    "total_con_fuente": 96,
     "total_sin_fuente": 0,
-    "total_con_conexion": 95,
+    "total_con_conexion": 96,
     "total_sin_conexion": 0,
     "total_preguntas": 62,
     "pct_fuente_global": 100.0,
@@ -136,42 +136,35 @@
   "preguntas": {
     "por_nodo": {
       "001": {
-        "Pendiente": 6,
-        "Respondida": 2
+        "Respondida": 8
       },
       "002": {
-        "Pendiente": 7,
-        "Respondida": 1
+        "Respondida": 8
       },
       "003": {
-        "Pendiente": 6,
-        "Respondida": 1
+        "Respondida": 7
       },
       "004": {
-        "Pendiente": 4,
-        "Respondida": 2
+        "Respondida": 6
       },
       "005": {},
       "006": {
-        "Pendiente": 6,
-        "Respondida": 5
+        "Respondida": 10,
+        "En curso": 1
       },
       "007": {
-        "Pendiente": 7,
-        "Respondida": 1
+        "Respondida": 8
       },
       "008": {
-        "Respondida": 4,
-        "Pendiente": 4
+        "Respondida": 8
       },
       "009": {
-        "Pendiente": 2,
-        "Respondida": 4
+        "Respondida": 6
       }
     },
     "totales": {
-      "Pendiente": 42,
-      "Respondida": 20
+      "Respondida": 61,
+      "En curso": 1
     }
   },
   "cobertura": {
@@ -234,6 +227,7 @@
       "Contextual — requiere profundización en historia de la carretera": 1,
       "Bibliográfico — identificación de fuentes para próximas iteraciones": 1,
       "Verificado (existencia y trazo actual) / Inferido (fecha de construcción histórica)": 1,
+      "Inventario preliminar (referencia bibliográfica)": 1,
       "Estimado — sin fuente primaria directa para período prehispánico": 1,
       "Citado — múltiples fuentes secundarias con base en documentos coloniales": 1,
       "Citado — fuentes institucionales INEGI y CONEVAL": 1,
@@ -272,7 +266,7 @@
       "Inferido": 6,
       "Verificado": 7,
       "Contextual": 3,
-      "Otros": 10
+      "Otros": 11
     }
   }
 }

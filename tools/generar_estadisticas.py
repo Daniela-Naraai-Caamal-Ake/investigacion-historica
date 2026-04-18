@@ -87,7 +87,7 @@ def _contar_preguntas(path: Path) -> dict[str, int]:
         # Normalizar a RESPONDIDA / PENDIENTE / EN_CURSO / otro
         if estado.startswith("RESPONDIDA"):
             clave_estado = "Respondida"
-        elif estado.startswith("EN_CURSO") or estado.startswith("EN CURSO"):
+        elif estado.startswith("EN_CURSO") or estado.startswith("EN CURSO") or estado.startswith("EN PROCESO"):
             clave_estado = "En curso"
         else:
             clave_estado = "Pendiente"
