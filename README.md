@@ -30,6 +30,23 @@ Si solo vas a leer el proyecto, empieza por:
 
 ---
 
+## Configuración inicial
+
+```bash
+# 1. Instalar dependencias
+pip install -r requirements.txt
+
+# 2. Configurar credenciales (necesario solo para búsquedas con Firecrawl)
+cp .env.example .env
+# Edita .env y agrega tu FIRECRAWL_API_KEY
+# Obtén una clave en https://www.firecrawl.dev
+```
+
+> ⚠ **Nunca subas el archivo `.env` al repositorio.** Ya está en `.gitignore`.
+> Usa siempre `.env.example` como plantilla.
+
+---
+
 ## Flujo mínimo de trabajo
 
 ### 1) Editar datos
