@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-04-18T09:05:43Z",
+  "generado_en": "2026-04-18T16:12:49Z",
   "nodos": [
     {
       "id": "001",
@@ -7,9 +7,9 @@
       "rango_temporal": "~300 a.C. — 1517 d.C.",
       "año_inicio": -300,
       "año_fin": 1517,
-      "n_registros": 7,
-      "n_con_fuente": 7,
-      "n_con_conexion": 7,
+      "n_registros": 8,
+      "n_con_fuente": 8,
+      "n_con_conexion": 8,
       "pct_fuente": 100.0,
       "pct_conexion": 100.0
     },
@@ -124,12 +124,12 @@
   ],
   "resumen": {
     "total_nodos": 10,
-    "total_registros": 96,
-    "total_con_fuente": 96,
+    "total_registros": 97,
+    "total_con_fuente": 97,
     "total_sin_fuente": 0,
-    "total_con_conexion": 96,
+    "total_con_conexion": 97,
     "total_sin_conexion": 0,
-    "total_preguntas": 62,
+    "total_preguntas": 68,
     "pct_fuente_global": 100.0,
     "pct_conexion_global": 100.0
   },
@@ -160,11 +160,16 @@
       },
       "009": {
         "Respondida": 6
+      },
+      "010": {
+        "Pendiente": 5,
+        "Respondida": 1
       }
     },
     "totales": {
-      "Respondida": 61,
-      "En curso": 1
+      "Respondida": 62,
+      "En curso": 1,
+      "Pendiente": 5
     }
   },
   "cobertura": {
@@ -178,18 +183,19 @@
       "Citado con reserva — requiere verificación primaria": 1,
       "Citado/Académico": 1,
       "Citado — pendiente verificación directa del texto completo": 1,
+      "Citado — fuente institucional primaria (INAH 2023)": 1,
       "Citado con reserva — contexto regional": 1,
       "Citado/Narrativo — verificable en Chamberlain": 1,
       "Citado — con necesidad de profundización en documentos Xiu": 1,
       "Citado — requiere cotejo con AGN y AGI": 1,
       "Parcialmente citado — requiere fuente primaria": 1,
       "Citado con reserva": 1,
-      "Citado con reserva crítica — requiere fuente primaria urgente": 1,
+      "Citado académico — fuente primaria sobre bataboob en Los Chenes": 1,
       "Contextual — requiere aplicación específica a Los Chenes": 1,
       "Citado — pendiente acceso directo al texto": 1,
       "Citado con reserva — requiere verificación en fuentes primarias coloniales": 1,
       "Citado académico — dato verificable con fuente primaria en AGEY (Archivo General del Estado de Yucatán)": 1,
-      "Citado / Narrativo con soporte académico": 1,
+      "Citado académico — fuente directa sobre impacto en Los Chenes": 1,
       "Citado — verificable en historia institucional de Campeche": 1,
       "Citado — alta fiabilidad para datos genealógicos": 1,
       "Citado — requiere ampliación con fuentes directas": 1,
@@ -239,14 +245,14 @@
       "Verificado (2020) / Inferido (años anteriores)": 1,
       "Verificado": 1,
       "Verificado (total municipal) / Inferido (distribución por localidad)": 1,
-      "Citado — requiere verificación con fuente primaria": 1,
+      "Citado académico — fuente directa sobre bataboob Los Chenes": 1,
       "Citado histórico": 1,
       "Contextual — impacto indirecto en Hopelchén": 1,
       "Análisis transversal": 1,
       "Análisis cultural-histórico con evidencia científica contemporánea": 1,
       "Citado — verificado en múltiples fuentes": 1,
       "Análisis transversal de síntesis": 1,
-      "Biográfico — verificación parcial; requiere fuente primaria directa": 1,
+      "Biográfico — fuente primaria regional; Caamal requiere verificación adicional": 1,
       "Citado académico — fuente primaria de archivo verificada": 1,
       "Organizativo-histórico — verificado en múltiples fuentes sobre el caso Leydy Pech": 1,
       "Inferido — requiere investigación en archivo": 1,
@@ -261,7 +267,7 @@
       "Literario-testimonial — archivos locales disponibles": 1
     },
     "tipos_agrupados": {
-      "Citado": 51,
+      "Citado": 52,
       "Análisis": 12,
       "Biográfico": 6,
       "Inferido": 6,

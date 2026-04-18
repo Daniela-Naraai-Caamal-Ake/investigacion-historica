@@ -145,7 +145,7 @@
         "nombre": "Paul Sullivan — libros sobre la Guerra de Castas (acervo INAH Quintana Roo)",
         "nota": "Sullivan describe a los líderes rebeldes como 'de familias indígenas acomodadas; caciques y hacendados que sabían manejar gente, modos de producción y comercio'."
       },
-      "tipo_dato": "Citado / Narrativo con soporte académico",
+      "tipo_dato": "Citado académico — fuente directa sobre impacto en Los Chenes",
       "personajes": [
         {
           "nombre": "Juan de Dios May",
@@ -199,7 +199,8 @@
           "descripcion": "[F055] Joaquín Baranda y Quijano (1907-1913). Recordaciones Históricas (2 tomos).",
           "origen": "investigacion_web_2026-04-18"
         }
-      ]
+      ],
+      "fuente_academica": "Secuencia / Instituto Mora (2019). 'Guerra de castas y escasez de alimentos en la ciudad de Campeche, 1847-1850.' SciELO [F066]. Cita El Fénix de Campeche (5 marzo 1849): objetivo era 'arrojar a los bárbaros del partido del Hopelchén'. Los Chenes como principal proveedor de granos para Campeche."
     },
     {
       "registro_id": "003-D",

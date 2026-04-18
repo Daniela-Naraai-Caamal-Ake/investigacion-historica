@@ -769,6 +769,80 @@
         "007",
         "008"
       ]
+    },
+    {
+      "id": "F065",
+      "tipo": "articulo_academico",
+      "titulo": "Los señores del hacha y la lluvia. La organización sociopolítica de los Batabilob mayas en la Región de los Chenes, Campeche durante la época prehispánica",
+      "autor": "Chávez Gómez, José Manuel A.",
+      "año": "2012",
+      "url": "https://www.academia.edu/1751042/Los_se%C3%B1ores_del_hacha_y_la_lluvia",
+      "confiabilidad": 0.92,
+      "notas": "Estudio académico directo sobre los batabilob en Los Chenes. Propone continuidad estructural entre la organización política prehispánica y las familias mayas actuales. Aplica el modelo del Posclásico Tardío a épocas anteriores.",
+      "nodos_relacionados": [
+        "001",
+        "002",
+        "009"
+      ]
+    },
+    {
+      "id": "F066",
+      "tipo": "articulo_academico",
+      "titulo": "Guerra de castas y escasez de alimentos en la ciudad de Campeche, 1847-1850",
+      "autor": "Autor institucional",
+      "año": "2019",
+      "revista": "Secuencia (Instituto Mora), 2019",
+      "url": "https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S1870-11912019000100105",
+      "confiabilidad": 0.9,
+      "notas": "Documenta en detalle cómo la Guerra de Castas afectó Los Chenes como principal proveedor de granos para Campeche. Fuente primaria: El Fénix (1849): objetivo gubernamental era 'arrojar a los bárbaros del partido del Hopelchén'. Partido de los Chenes mencionado explícitamente.",
+      "nodos_relacionados": [
+        "003",
+        "008",
+        "009"
+      ]
+    },
+    {
+      "id": "F067",
+      "tipo": "web_institucional",
+      "titulo": "Descubren antigua ciudad maya en Campeche: Ocomtún, 'columna de piedra'",
+      "autor": "INAH — Instituto Nacional de Antropología e Historia",
+      "año": "2023",
+      "url": "https://www.inah.gob.mx/boletines/descubren-antigua-ciudad-maya-campeche-la-nombran-ocomtun-columna-de-piedra",
+      "confiabilidad": 0.95,
+      "notas": "Ciudad maya descubierta en 2023 en la reserva Balamkú, colindante al norte con la región de Los Chenes. Núcleo monumental de 50+ ha, pirámides de 15m, Clásico 250-1000 d.C. Coordinado por Ivan Šprajc. Relevante como contexto regional del sistema de ciudades en el sur de Los Chenes.",
+      "nodos_relacionados": [
+        "001"
+      ]
+    },
+    {
+      "id": "F068",
+      "tipo": "fuente_primaria_digital",
+      "titulo": "Carta en maya de Francisco Cimé, Capitán (Kancabchhen, 25 de marzo de 1848)",
+      "autor": "Cimé, Francisco (Capitán rebelde maya)",
+      "año": "1848",
+      "url": "https://soldadosenlatormenta.wordpress.com/2014/04/28/una-carta-escrita-en-maya-durante-la-guerra-de-castas/",
+      "confiabilidad": 0.85,
+      "notas": "Carta original en maya yucateco — una de las pocas fuentes primarias escritas por un capitán rebelde maya durante la Guerra de Castas. Documenta que los rebeldes mayas producían sus propias comunicaciones escritas en su lengua. Kancabchén está en el municipio de Hopelchén.",
+      "nodos_relacionados": [
+        "003",
+        "009"
+      ]
+    },
+    {
+      "id": "F069",
+      "tipo": "articulo_academico",
+      "titulo": "La Guerra de Castas en La rebelión de los Cruzoob, de Miguel Ángel Suárez Caamal: de la veracidad histórica a la ficción novelesca",
+      "autor": "Vadillo Buenfil, Claudia",
+      "año": "2017",
+      "revista": "Península, vol. 12, núm. 2 — UNAM/CEPHCIS",
+      "url": "https://www.elsevier.es/es-revista-peninsula-108-articulo-la-guerra-de-castas-en-S1870576617300156",
+      "confiabilidad": 0.88,
+      "notas": "Análisis de la novela campechana sobre la Guerra de Castas. Documenta la perspectiva maya de los vencidos. Cita directamente el Ensayo de Serapio Baqueiro Preve. Conecta con borradores B1-BIS, B-Serapio. DOI accesible.",
+      "nodos_relacionados": [
+        "003",
+        "009",
+        "010"
+      ]
     }
   ]
 }

@@ -1,7 +1,7 @@
 # Matriz de cruces — *Dos Mil Años en Silencio*
 
 > Autora: Daniela Naraai Caamal Ake  
-> Generado: 2026-04-18 16:06 UTC  
+> Generado: 2026-04-18 16:12 UTC  
 > ⚙ Generado automáticamente por `tools/generar_matriz_cruces.py`
 
 Este archivo es la **Capa 4 del sistema** (relaciones). Muestra cómo registros
@@ -296,7 +296,7 @@ Cuántos registros contribuye cada nodo a los cruces detectados.
 
 | Nodo | Título | Registros | En cruces de actores | En cruces de mecanismos |
 |---|---|---|---|---|
-| 001 | Prehispánico | 7 | 0 | 6 |
+| 001 | Prehispánico | 8 | 0 | 6 |
 | 002 | Conquista Colonial | 9 | 0 | 9 |
 | 003 | Colonia Tardía–Porfiriato | 12 | 3 | 10 |
 | 004 | Revolución–Chicle | 10 | 2 | 7 |

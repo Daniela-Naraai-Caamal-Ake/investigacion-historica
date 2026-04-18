@@ -3,7 +3,7 @@
 > **Dos Mil Años en Silencio** — Investigación histórica sobre Hopelchén y Los Chenes  
 > Autora: **Daniela Naraai Caamal Ake**  
 > ⚙ Generado automáticamente por `tools/generar_sintesis.py`  
-> Última actualización: **2026-04-18 09:05**
+> Última actualización: **2026-04-18 16:12**
 
 ---
 
@@ -128,7 +128,7 @@ El libro está organizado en 10 nodos que combinan cronología y temática:
 
 | Nodo | Período | Título | Registros |
 |------|---------|--------|-----------|
-| **001** | ~300 a.C. — 1517 d.C. | Ocupación Prehispánica del Territorio de Hopelchén — Los Chenes y… | 7 |
+| **001** | ~300 a.C. — 1517 d.C. | Ocupación Prehispánica del Territorio de Hopelchén — Los Chenes y… | 8 |
 | **002** | 1517 — 1669 | La Conquista Española en Los Chenes y la Fundación Colonial de Ho… | 9 |
 | **003** | 1670 — 1910 | Colonia Tardía, Independencia, Guerra de Castas y el Porfiriato e… | 12 |
 | **004** | 1910 — 1970 | Revolución, Lucha Antiagraria, Reforma Agraria y la Economía Chic… | 10 |
@@ -156,6 +156,7 @@ El libro está organizado en 10 nodos que combinan cronología y temática:
 | `001-E` | 600 — 900 d.C. (desarrollo pri | El Estilo Chenes como sistema de identidad regional — Territ… | ✅ Arqueología Mexicana — Santa Rosa Xtampak, capital |
 | `001-F` | 1000 — 1200 d.C. | Colapso Maya en Los Chenes y su relación con estructuras de … | ✅ INAH — Zona Arqueológica Hochob |
 | `001-G` | c. 700-900 d.C. | Estela 2 de Santa Rosa Xtampak: epigrafía y gobernante JOL —… | ✅ Revista Arqueología (INAH) — SciELO México, 2004 |
+| `001-H` | 250-1000 d.C. (descubierta en  | Ocomtún (2023): ciudad maya clásica en el borde sur de Los C… | ✅ INAH — Boletín oficial Ocomtún, junio 2023 |
 
 ---
 
@@ -337,6 +338,7 @@ Todos los eventos documentados, ordenados cronológicamente.
 
 | Fecha | Evento | Nodo |
 |-------|--------|------|
+| 250-1000 d.C. (descubierta en 2023) | Ocomtún (2023): ciudad maya clásica en el borde sur de Los Chenes — el… | 001 |
 | 300 d.C. — 1100 d.C. | Hochob — Primer asentamiento documentado con datación INAH: 300 d.C.… | 001 |
 | 300 a.C. — 1200 d.C. | Demografía prehispánica estimada — el apogeo de Xtampak y Los Chenes… | 008 |
 | 300 a.C. — 2026 | CRUCE DE DATOS: La curva demográfica como lectura del ciclo extractivo… | 008 |
@@ -610,11 +612,11 @@ Efraín (padre)
 
 | Estado | Cantidad |
 |--------|----------|
-| 🔴 PENDIENTE | 6 |
+| 🔴 PENDIENTE | 11 |
 | 🟡 EN PROCESO | 1 |
-| 🟠 RESPONDIDA PARCIALMENTE | 60 |
+| 🟠 RESPONDIDA PARCIALMENTE | 61 |
 | 🟢 RESPONDIDA | 1 |
-| **TOTAL** | **68** |
+| **TOTAL** | **74** |
 
 ### 🚨 URGENTES — Cuellos de botella
 
@@ -640,6 +642,11 @@ Efraín (padre)
 | `P005-04` | PREGUNTAS | Media-Alta | ¿Cuántas hectáreas ha perdido Hopelchén de cobertura forestal en total acumulado desde 1987 (llegada… |
 | `P005-05` | PREGUNTAS | MÁXIMA — pendiente desde Nodo 004 | ¿Qué dice el libro de Aranda González (1985) sobre la historia política de Hopelchén en el siglo XX?… |
 | `P005-06` | PREGUNTAS | Alta — acceso inmediato disponible | ¿Qué dice el estudio de Ute Schüren (Ibero-Amerikanisches Institut, Berlín, 2013) sobre las rutas de… |
+| `P010-01` | PREGUNTAS | Alta | ¿Existen informes técnicos del INAH sobre los alineamientos astronómicos específicos de Santa Rosa X… |
+| `P010-03` | PREGUNTAS | Alta | ¿Cuántos hablantes de maya yucateco en Hopelchén son bilingües plenos versus hablantes pasivos? ¿En … |
+| `P010-04` | PREGUNTAS | Media | ¿Existen grabaciones, transcripciones o estudios académicos de Los Xtoles de Chan Cil (Hopelchén) ad… |
+| `P010-05` | PREGUNTAS | Media | ¿Las novelas de Hernán Lara Zavala (Charras, El lugar donde crece la hierba) contienen datos históri… |
+| `P010-06` | PREGUNTAS | Media-Alta | ¿Qué evidencia existe sobre el uso actual de medicina botánica tradicional maya en el municipio de H… |
 
 ### 🟠 RESPONDIDAS PARCIALMENTE — completar
 
@@ -696,6 +703,7 @@ Efraín (padre)
 | `P009-04` | PREGUNTAS | ¿Qué ocurrió después de la victoria de Leydy Pech en 2017? ¿Las comunidades de Hopelchén recuperaron… |
 | `P009-05` | PREGUNTAS | ¿Existen organizaciones mayas activas en Hopelchén que no sean Maya Ka'an? ¿Redes de comunidades eji… |
 | `P009-06` | PREGUNTAS | ¿Cómo se organiza actualmente la meliponicultura de Xunáan Kab en Hopelchén? ¿Cuántas familias la pr… |
+| `P010-02` | PREGUNTAS | ¿Puede identificarse el nombre completo y la posición dinástica del gobernante con glifo JOL en la E… |
 
 ---
 
@@ -839,7 +847,7 @@ Total registros: **61**
 
 ## 10. Estado de los Borradores
 
-Total borradores: **24**
+Total borradores: **25**
 
 | Archivo | Tamaño | Estado visible |
 |---------|--------|----------------|
@@ -866,13 +874,14 @@ Total borradores: **24**
 | `B7.md` | 9,922 chars | **Estado:** ✅ Aprobada — 22 marzo 2026 (versión fi |
 | `B8.md` | 13,631 chars | **Estado:** ✅ Aprobada |
 | `B9_borrador.md` | 12,859 chars | **Estado:** Borrador — pendiente revisión de Dan |
-| `PRÓLOGO.md` | 6,726 chars | **Estado:** 📝 Borrador generado para revisión de D |
+| `INDICE_LIBRO.md` | 6,417 chars | — |
+| `PRÓLOGO.md` | 6,911 chars | **Estado:** 📝 Borrador generado para revisión de D |
 
 ---
 
 ## Notas de generación
 
-- **Generado:** 2026-04-18 09:05
+- **Generado:** 2026-04-18 16:12
 - **Script:** `tools/generar_sintesis.py`
 - **Repositorio:** Daniela-Naraai-Caamal-Ake/investigacion-historica
 - **Regenerar:** `python tools/generar_sintesis.py`

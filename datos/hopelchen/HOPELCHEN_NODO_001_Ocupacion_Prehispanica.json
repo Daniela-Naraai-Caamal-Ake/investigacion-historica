@@ -377,6 +377,36 @@
           "origen": "investigacion_web_2026-04-18"
         }
       ]
+    },
+    {
+      "registro_id": "001-H",
+      "subtitulo": "Ocomtún (2023): ciudad maya clásica en el borde sur de Los Chenes — el territorio sigue revelando",
+      "fecha_evento": "250-1000 d.C. (descubierta en 2023)",
+      "lugar": "Reserva ecológica Balamkú, municipio de Calakmul — colindante norte con región de Los Chenes",
+      "descripcion": "En junio de 2023 el INAH anunció el descubrimiento de Ocomtún ('columna de piedra' en maya yucateco), una ciudad maya con núcleo monumental de más de 50 hectáreas, pirámides de hasta 15 metros y una acrópolis rectangular de 80x80 metros con pirámide de 25 metros. Ubicada en Balamkú, al norte del municipio de Calakmul, colindante con la región de Los Chenes a más de 30 km al suroeste. El sitio fue localizado mediante LiDAR del National Center for Airborne Laser Mapping (Universidad de Houston, marzo 2023) y excavaciones de campo coordinadas por el arqueólogo Ivan Šprajc (Academia Eslovena de Ciencias). El período de ocupación principal es el Clásico Tardío (600-800 d.C.) con alteraciones en el Clásico Terminal (800-1000 d.C.), cuando cambios ideológicos y poblacionales condujeron al colapso de la organización sociopolítica regional.",
+      "fuente": {
+        "nombre": "INAH — Boletín oficial Ocomtún, junio 2023",
+        "url": "https://www.inah.gob.mx/boletines/descubren-antigua-ciudad-maya-campeche-la-nombran-ocomtun-columna-de-piedra"
+      },
+      "fuente_academica": "Šprajc, Ivan (coord.). Proyecto 'Ampliando el panorama arqueológico de las Tierras Bajas Centrales Mayas'. INAH / Academia Eslovena de Ciencias y Artes. 2023. [F067]",
+      "tipo_dato": "Citado — fuente institucional primaria (INAH 2023)",
+      "personajes": [
+        {
+          "nombre": "Ivan Šprajc",
+          "cargo": "Arqueólogo — coordinador del proyecto, Academia Eslovena de Ciencias y Artes"
+        }
+      ],
+      "conexion_hipotesis": "El descubrimiento de Ocomtún en 2023 confirma que 3,000 km² de selva mediana al sur de Los Chenes permanecían 'prácticamente desconocidos para la arqueología'. El territorio sigue produciendo evidencia de ocupación maya que el archivo histórico no había registrado. Refuerza la hipótesis de dispersión estructural de la información: lo que no se sabe sobre Hopelchén no es porque no exista, sino porque no se ha buscado con las herramientas disponibles.",
+      "tags": [
+        "arqueología",
+        "LiDAR",
+        "Clásico",
+        "Balamkú",
+        "Los Chenes",
+        "colapso maya",
+        "Ocomtún",
+        "2023"
+      ]
     }
   ],
   "contradicciones_globales_nodo": [

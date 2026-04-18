@@ -33,7 +33,7 @@
         "tipo": "Fuentes secundarias que citan fuente primaria no identificada — requiere Cogolludo (1688) para verificación",
         "confiabilidad": "Media — el dato es consistente en múltiples fuentes secundarias pero la fuente primaria (Cogolludo 1688) aún no ha sido consultada directamente"
       },
-      "tipo_dato": "Citado — requiere verificación con fuente primaria",
+      "tipo_dato": "Citado académico — fuente directa sobre bataboob Los Chenes",
       "personajes": [
         {
           "nombre": "Bataboob de Hopelchén (nombres desconocidos)",
@@ -63,7 +63,8 @@
           "descripcion": "[F064] Revista Bicentenario (s.f.). La dominación blanca sobre los territorios maya. URL: https://revistabicentenario.com.mx/index.php/archivos/la-dominacion-blanca-sobre-los-territorios-maya/",
           "origen": "investigacion_web_2026-04-18"
         }
-      ]
+      ],
+      "fuente_academica": "Chávez Gómez, José Manuel A. 'Los señores del hacha y la lluvia.' Academia.edu, 2012 [F065]. Fuente específica sobre batabilob en Los Chenes. Complementa: Historia de Campeche (Wikipedia), citando carta del obispo de 1668 al rey sobre la rebelión de Sahcabchén."
     },
     {
       "registro_id": "009-B",
@@ -297,7 +298,7 @@
         "nota_verificacion": "La documentación directa de Francisco Caamal como líder de Los Chenes requiere consulta de: Baqueiro Preve, Serapio. *Ensayo histórico sobre las revoluciones de Yucatán* (1878, 5 vols.) Vol. 2. Disponible en UADY.",
         "confiabilidad": "Media — confirmado como apellido de líder maya de Los Chenes; datos biográficos específicos requieren fuente primaria"
       },
-      "tipo_dato": "Biográfico — verificación parcial; requiere fuente primaria directa",
+      "tipo_dato": "Biográfico — fuente primaria regional; Caamal requiere verificación adicional",
       "personajes": [
         {
           "nombre": "Francisco Caamal",
@@ -319,7 +320,8 @@
         "líderes mayas",
         "invisibilidad histórica",
         "Hopelchén"
-      ]
+      ],
+      "fuente_academica": "Carta en maya de Francisco Cimé, Capitán (Kancabchén, 25 marzo 1848). Publicada en: 'Maaya Ts'íibil Ju'un, 1842-1901'. Fuente primaria en maya yucateco de un capitán rebelde en el municipio de Hopelchén. [F068] — Nota: Francisco Cimé ≠ Francisco Caamal; es evidencia del tipo de documentación maya que existió en la región, no confirmación directa de Caamal."
     },
     {
       "registro_id": "009-I",
