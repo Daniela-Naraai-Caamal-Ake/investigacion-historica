@@ -26,7 +26,8 @@ SALIDA_DEFAULT = ROOT / "docs" / "stats.json"
 
 # Campos de fuente reconocidos en registros
 CAMPOS_FUENTE = [
-    "fuente", "fuente_1", "fuente_academica", "fuente_primaria",
+    "fuente", "fuente_1", "fuente_2", "fuente_3",
+    "fuente_academica", "fuente_primaria",
     "fuente_secundaria", "fuentes",
 ]
 

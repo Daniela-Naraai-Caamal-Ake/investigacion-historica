@@ -70,8 +70,9 @@
       ],
       "prioridad": "Media-Alta",
       "conexion_hipotesis": "Si los gobernantes de Los Chenes tenían redes con Jaina y otros centros de poder maya, esto refuerza que Hopelchén no era periferia sino parte de una red política mesoamericana activa.",
-      "estado": "RESPONDIDA PARCIALMENTE — registro 001-G: Estela 2 contiene gobernante JOL; artículo SciELO 2004 catalogado pero no accedido directamente.",
-      "registro_respuesta": "001-G"
+      "estado": "RESPONDIDA PARCIALMENTE",
+      "registro_respuesta": "001-G",
+      "hallazgos": "registro 001-G: Estela 2 contiene gobernante JOL; artículo SciELO 2004 catalogado pero no accedido directamente."
     },
     {
       "pregunta_id": "P001-05",
@@ -86,8 +87,9 @@
       ],
       "prioridad": "Alta",
       "conexion_hipotesis": "Si los Xiues tenían presencia en Hopelchén y luego colaboraron con los españoles (como históricamente lo hicieron en Maní), esto explicaría por qué algunos mayas de la región aceptaron la congregación de 1621 mientras otros resistieron.",
-      "estado": "RESPONDIDA PARCIALMENTE — registro 002-I: Los Xiúes de Dzibil-Noh-Aac (Iturbide) documentados; nexo exacto con Los Chenes requiere Papeles Xiu.",
-      "registro_respuesta": "002-I"
+      "estado": "RESPONDIDA PARCIALMENTE",
+      "registro_respuesta": "002-I",
+      "hallazgos": "registro 002-I: Los Xiúes de Dzibil-Noh-Aac (Iturbide) documentados; nexo exacto con Los Chenes requiere Papeles Xiu."
     },
     {
       "pregunta_id": "P001-06",

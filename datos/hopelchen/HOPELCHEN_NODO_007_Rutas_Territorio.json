@@ -60,7 +60,9 @@
         "1871",
         "Schüren",
         "control territorial"
-      ]
+      ],
+      "fuente": "Schüren, Ute. \"Entre los caminos de herradura y los campos de aterrizaje: Rutas de comunicación e historia económica en el sureste de México.\" Indiana (IAI Berlín), 2013, pp. 199-215. Redalyc: https://www.redalyc.org/articulo.oa?id=247029853011 [F057]",
+      "fuente_academica": "Guía Turística México. \"Hopelchén, Campeche.\" https://guiaturisticamexico.com/municipio.php?id_Municipio=00193"
     },
     {
       "registro_id": "007-B",
@@ -91,7 +93,9 @@
         "Iturbide",
         "ferrocarril 1898",
         "infraestructura poder"
-      ]
+      ],
+      "fuente": "Wikipedia. \"Hopelchén.\" Sección historia: \"la línea telegráfica que unió Hopelchén con San Francisco de Campeche y con Iturbide, inaugurada el 16 de septiembre de 1870.\" https://es.wikipedia.org/wiki/Hopelch%C3%A9n",
+      "fuente_academica": "INAFED. Enciclopedia de los Municipios de México — Hopelchén. https://www.inafed.gob.mx [FX019]"
     },
     {
       "registro_id": "007-C",
@@ -125,6 +129,20 @@
         "geografía protección",
         "rutas de herradura",
         "Schüren 2013"
+      ],
+      "fuente": "Schüren, Ute. \"Entre los caminos de herradura y los campos de aterrizaje.\" Indiana (IAI Berlín), 2013, pp. 199-215. [F057]",
+      "fuente_academica": "Schüren, Ute. Haushaltsstrategien in mexikanischen Ejidos: Das Beispiel der Chenes-Region, Campeche. FU Berlin, 2002/2003. [F056]",
+      "fuentes_candidatas": [
+        {
+          "id": "F056",
+          "descripcion": "[F056] Ute Schüren (2002-2003). Rationalität oder Irrationalität bäuerlichen Wirtschaftens i. URL: https://www.uni-muenster.de/Geschichte/histsem/AE-G/personen/UteSchueren.html",
+          "origen": "investigacion_web_2026-04-18"
+        },
+        {
+          "id": "F057",
+          "descripcion": "[F057] Ute Schüren (2013). Entre los caminos de herradura y los campos de aterrizaje: R. URL: https://www.redalyc.org/articulo.oa?id=247029853011",
+          "origen": "investigacion_web_2026-04-18"
+        }
       ]
     },
     {
@@ -183,7 +201,8 @@
         "cicatriz",
         "1934",
         "Schüren 2013"
-      ]
+      ],
+      "fuente": "Schüren, Ute. \"Entre los caminos de herradura y los campos de aterrizaje.\" Indiana (IAI Berlín), 2013, pp. 199-215. Fuente directa sobre campos de aterrizaje de Hopelchén y X Can Há. [F057]"
     },
     {
       "registro_id": "007-E",
@@ -225,7 +244,9 @@
         "desintegración",
         "Schüren 2013",
         "resistencia continua"
-      ]
+      ],
+      "fuente": "Revista Bicentenario. \"La dominación blanca sobre los territorios maya.\" https://revistabicentenario.com.mx/index.php/archivos/la-dominacion-blanca-sobre-los-territorios-maya/ [F064]",
+      "fuente_academica": "Schüren, Ute. \"Los Chenes en la revolución.\" In Böttcher et al. (eds.), 2005, pp. 105-131."
     },
     {
       "registro_id": "007-F",
@@ -257,6 +278,15 @@
         "transición económica",
         "1950s",
         "Los Chenes"
+      ],
+      "fuente": "Schüren, Ute. Haushaltsstrategien in mexikanischen Ejidos: Das Beispiel der Chenes-Region, Campeche. FU Berlin, 2002/2003. Entrevistas de campo con ejidatarios de Hopelchén (1993-1998). [F056]",
+      "fuente_academica": "Cantún Caamal. \"La reforma agraria en Campeche, ¿permanencia de una cultura indígena?\" Secuencia, 2012. [F058]",
+      "fuentes_candidatas": [
+        {
+          "id": "F056",
+          "descripcion": "[F056] Ute Schüren (2002-2003). Rationalität oder Irrationalität bäuerlichen Wirtschaftens i. URL: https://www.uni-muenster.de/Geschichte/histsem/AE-G/personen/UteSchueren.html",
+          "origen": "investigacion_web_2026-04-18"
+        }
       ]
     },
     {
@@ -290,7 +320,9 @@
         "Hopelchén",
         "Dzibalchén",
         "Escárcega"
-      ]
+      ],
+      "fuente": "INAFED. Enciclopedia de los Municipios — Hopelchén. Descripción de carretera federal 261 como arteria principal. [FX019]",
+      "fuente_academica": "Schüren, Ute. \"Entre los caminos de herradura.\" Indiana, 2013. [F057]"
     },
     {
       "registro_id": "007-H",
@@ -494,7 +526,9 @@
         "correspondencia",
         "estadística",
         "Hopelchén"
-      ]
+      ],
+      "fuente": "Schüren, Ute. Haushaltsstrategien in mexikanischen Ejidos. FU Berlin, 2002/2003. Referencia al Archivo Municipal de Hopelchén. [F056]",
+      "fuente_academica": "Ayuntamiento de Hopelchén. Directorio oficial. presidencia@municipiohopelchen.com"
     }
   ],
   "linea_del_tiempo_nodo": [

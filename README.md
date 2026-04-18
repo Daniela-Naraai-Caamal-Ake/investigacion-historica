@@ -21,6 +21,8 @@ En términos simples, este repositorio existe para:
 - `fuentes/catalogo_fuentes.md` → catálogo bibliográfico con IDs `F###`.
 - `datos/VACIOS.md` → preguntas pendientes y estado.
 - `SINTESIS_MAESTRA.md` → consolidado general del proyecto.
+- `datos/borradores/` → capítulos del libro en preparación.
+- `docs/` → índice de búsqueda y estadísticas del proyecto.
 
 Si solo vas a leer el proyecto, empieza por:
 
@@ -36,23 +38,25 @@ Si solo vas a leer el proyecto, empieza por:
 # 1. Instalar dependencias
 pip install -r requirements.txt
 
+# 2. Configurar variables de entorno (si es necesario)
 cp .env.example .env
 # Edita .env y agrega las variables que requieras
 ```
 
 > ⚠ **Nunca subas el archivo `.env` al repositorio.** Ya está en `.gitignore`.
-> Usa siempre `.env.example` como plantilla.
 
 ---
 
 ## Flujo mínimo de trabajo
 
 ### 1) Editar datos
-Trabaja sobre JSON en `datos/hopelchen/`.
+Trabaja sobre los JSON en `datos/hopelchen/`.
 
-### 2) Regenerar redacción
+### 2) Regenerar redacción y síntesis
 ```bash
 python tools/generar_redaccion.py
+python tools/generar_sintesis.py
+python tools/actualizar_vacios.py
 ```
 
 ### 3) Validar
@@ -76,35 +80,76 @@ python src/analizador.py
 # Síntesis maestra
 python tools/generar_sintesis.py
 
-# Actualizar vacíos
+# Actualizar vacíos de investigación
 python tools/actualizar_vacios.py
 
-# Buscar nuevas fuentes en la web externa (con diagnóstico DNS/red)
+# Estadísticas del proyecto
+python tools/generar_estadisticas.py
+
+# Índice de búsqueda web (docs/)
+python tools/generar_indice_busqueda.py
+
+# Buscar nuevas fuentes en la web
 python tools/buscar_fuentes_vacias.py
+
+# Validar y ampliar citas existentes
+python tools/validar_citas.py
+
+# Rastrear fuentes en archivos digitales (PARES, AGN, FamilySearch...)
+python tools/rastrear_fuentes.py
 ```
 
 ---
 
-## Estructura simplificada
+## Estructura del repositorio
 
 ```text
 investigacion-historica/
-├── datos/                  # Evidencia, nodos, preguntas, archivo vivo
-├── trabajo/                # Redacción por períodos/nodos
-├── fuentes/                # Catálogo y mapa de citas
+├── datos/
+│   ├── hopelchen/          # Nodos y preguntas (JSON canónico)
+│   ├── borradores/         # Capítulos del libro en preparación
+│   ├── archivo_vivo/       # Contexto narrativo y personajes
+│   ├── curated/            # Datos curados y bibliografía
+│   └── pdfs/               # Fuentes primarias digitalizadas
+├── trabajo/
+│   ├── indice.md           # Índice general de la redacción
+│   └── periodos/           # Un archivo .md por nodo histórico
+├── fuentes/
+│   ├── catalogo_fuentes.md # Catálogo completo con IDs F###
+│   └── mapa_citas.md       # Mapa de uso de fuentes por nodo
+├── docs/
+│   ├── index.html          # Portal de búsqueda web
+│   ├── search_index.json   # Índice de 96 registros
+│   └── stats.json          # Estadísticas actualizadas
 ├── tools/                  # Scripts de generación y validación
 ├── src/                    # Analizador CLI y utilidades
-├── tests/                  # Pruebas automáticas
-├── SINTESIS_MAESTRA.md
-├── MAPA_CAPAS.md
-└── README.md
+├── tests/                  # 122 pruebas automáticas
+├── SINTESIS_MAESTRA.md     # Consolidado general del proyecto
+├── HIPOTESIS.md            # Hipótesis central (v5)
+├── DOCUMENTO_FUNDACIONAL.md
+└── MAPA_CAPAS.md           # Guía de navegación
 ```
+
+---
+
+## Estado actual del proyecto (2026-04-18)
+
+| Indicador | Valor |
+|---|---|
+| Nodos históricos | 10 |
+| Registros totales | 96 |
+| Cobertura de fuentes | 100% |
+| Preguntas respondidas | 61 |
+| Preguntas en proceso | 1 |
+| Preguntas pendientes | **0** |
+| Fuentes catalogadas | 64 |
+| Tests automáticos | 122 ✅ |
 
 ---
 
 ## Criterio de calidad del proyecto
 
-Un cambio “cumple” si:
+Un cambio "cumple" si:
 
 - mejora la trazabilidad de una afirmación histórica,
 - reduce un vacío de investigación,
@@ -115,7 +160,7 @@ Un cambio “cumple” si:
 ## Documentos marco
 
 - `DOCUMENTO_FUNDACIONAL.md` → origen, postura y principios del proyecto.
-- `HIPOTESIS.md` → hipótesis central y evolución.
+- `HIPOTESIS.md` → hipótesis central (versión operativa v5).
 - `MAPA_CAPAS.md` → navegación rápida por niveles de profundidad.
 
 ---
@@ -124,4 +169,5 @@ Un cambio “cumple” si:
 
 **Daniela Naraai Caamal Ake**
 
-Proyecto: *Dos Mil Años en Silencio* — Hopelchén, Campeche, México.
+Proyecto: *Dos Mil Años en Silencio* — Hopelchén, Campeche, México.  
+DOI: https://doi.org/10.5281/zenodo.19140910

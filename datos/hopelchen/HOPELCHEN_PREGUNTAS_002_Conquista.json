@@ -69,8 +69,9 @@
       ],
       "prioridad": "Media-Alta",
       "conexion_hipotesis": "Si los Xiúes de Dzibil-Noh-Aac recibieron reconocimiento colonial de tierras, esas tierras pueden rastrearse hasta las haciendas del Porfiriato o hasta los ejidos del siglo XX.",
-      "estado": "RESPONDIDA PARCIALMENTE — registro 002-I: Xiúes de Dzibil-Noh-Aac documentados; alianza Xiu-española 1542; nexo exacto con territorio Hopelchén requiere Papeles Xiu.",
-      "registro_respuesta": "002-I"
+      "estado": "RESPONDIDA PARCIALMENTE",
+      "registro_respuesta": "002-I",
+      "hallazgos": "registro 002-I: Xiúes de Dzibil-Noh-Aac documentados; alianza Xiu-española 1542; nexo exacto con territorio Hopelchén requiere Papeles Xiu."
     },
     {
       "pregunta_id": "P002-05",

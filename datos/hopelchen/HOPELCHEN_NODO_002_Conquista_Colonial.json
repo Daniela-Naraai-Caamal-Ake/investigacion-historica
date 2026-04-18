@@ -56,7 +56,19 @@
         "jurisdicciones mayas",
         "Ralph Roys"
       ],
-      "nota_cronologica": "Registro de contexto previo al inicio formal del nodo (1517). Documenta el estado político maya inmediatamente anterior a la Conquista; su inclusión es necesaria para explicar el punto de partida del período."
+      "nota_cronologica": "Registro de contexto previo al inicio formal del nodo (1517). Documenta el estado político maya inmediatamente anterior a la Conquista; su inclusión es necesaria para explicar el punto de partida del período.",
+      "fuentes_candidatas": [
+        {
+          "id": "F054",
+          "descripcion": "[F054] José Manuel A. Chávez Gómez (2024). Las insurrecciones de Juan Yam y Jacinto Uc. Dos alzamientos. URL: https://www.researchgate.net/publication/382077657",
+          "origen": "investigacion_web_2026-04-18"
+        },
+        {
+          "id": "F064",
+          "descripcion": "[F064] Revista Bicentenario (s.f.). La dominación blanca sobre los territorios maya. URL: https://revistabicentenario.com.mx/index.php/archivos/la-dominacion-blanca-sobre-los-territorios-maya/",
+          "origen": "investigacion_web_2026-04-18"
+        }
+      ]
     },
     {
       "registro_id": "002-B",
@@ -116,6 +128,13 @@
         "fugitivos",
         "encomiendas",
         "Leyes Nuevas 1542"
+      ],
+      "fuentes_candidatas": [
+        {
+          "id": "F054",
+          "descripcion": "[F054] José Manuel A. Chávez Gómez (2024). Las insurrecciones de Juan Yam y Jacinto Uc. Dos alzamientos. URL: https://www.researchgate.net/publication/382077657",
+          "origen": "investigacion_web_2026-04-18"
+        }
       ]
     },
     {

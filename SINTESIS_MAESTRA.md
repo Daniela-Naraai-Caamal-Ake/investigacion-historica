@@ -3,7 +3,7 @@
 > **Dos Mil Años en Silencio** — Investigación histórica sobre Hopelchén y Los Chenes  
 > Autora: **Daniela Naraai Caamal Ake**  
 > ⚙ Generado automáticamente por `tools/generar_sintesis.py`  
-> Última actualización: **2026-04-18 08:36**
+> Última actualización: **2026-04-18 09:05**
 
 ---
 
@@ -25,7 +25,7 @@ de acceso progresivo. Para navegar:
 
 ## 1. Hipótesis Central
 
-# HIPÓTESIS — Archivo Vivo / Hopelchén: 2000 años de historia
+### HIPÓTESIS — Archivo Vivo / Hopelchén: 2000 años de historia
 
 > Autora: Daniela Naraai Caamal  
 > Libro en desarrollo: *Dos Mil Años en Silencio*  
@@ -33,7 +33,7 @@ de acceso progresivo. Para navegar:
 
 ---
 
-## 1) Objetivo de esta hipótesis
+### 1) Objetivo de esta hipótesis
 
 Definir una **proposición verificable** que organice la investigación histórica del libro y permita:
 
@@ -45,13 +45,13 @@ Esta hipótesis no es un texto literario: es una herramienta de trabajo para los
 
 ---
 
-## 2) Hipótesis central (versión operativa v5)
+### 2) Hipótesis central (versión operativa v5)
 
 En Hopelchén, entre 1200 y 2026, el control efectivo de la tierra, del conocimiento público y de la decisión política ha tendido a concentrarse en élites externas o élites locales articuladas con poderes externos, reproduciendo un patrón de despojo y subordinación sobre comunidades mayas.
 
 ---
 
-## 3) Alcance generalizable
+### 3) Alcance generalizable
 
 La hipótesis se formula para Hopelchén, pero es **generalizable** como modelo analítico a otros territorios mesoamericanos cuando se observen tres condiciones:
 
@@ -63,7 +63,7 @@ Si Hopelchén muestra una trayectoria distinta, el caso sirve para delimitar dó
 
 ---
 
-## 4) Variables de análisis (qué se medirá en cada nodo)
+### 4) Variables de análisis (qué se medirá en cada nodo)
 
 1. **Tierra**: propiedad, acceso, uso productivo y mecanismos legales de transferencia.
 2. **Conocimiento**: quién produce/valida la historia y quién queda fuera del archivo.
@@ -72,7 +72,7 @@ Si Hopelchén muestra una trayectoria distinta, el caso sirve para delimitar dó
 
 ---
 
-## 5) Qué evidencias confirmarían la hipótesis
+### 5) Qué evidencias confirmarían la hipótesis
 
 La hipótesis gana fuerza si, de forma repetida entre nodos, se documenta que:
 
@@ -83,7 +83,7 @@ La hipótesis gana fuerza si, de forma repetida entre nodos, se documenta que:
 
 ---
 
-## 6) Qué evidencias podrían refutarla o limitarla
+### 6) Qué evidencias podrían refutarla o limitarla
 
 La hipótesis se refuta (o se restringe) si se demuestra un periodo prolongado donde:
 
@@ -94,7 +94,7 @@ La hipótesis se refuta (o se restringe) si se demuestra un periodo prolongado d
 
 ---
 
-## 7) Estado actual de la evidencia (nodos 001–009)
+### 7) Estado actual de la evidencia (nodos 001–009)
 
 - **Tendencia dominante observada**: continuidad del patrón de concentración del poder.
 - **Dato que complejiza**: el caso de Leydy Pech (2012–2020) muestra capacidad de freno jurídico y político al ciclo extractivo.
@@ -102,7 +102,7 @@ La hipótesis se refuta (o se restringe) si se demuestra un periodo prolongado d
 
 ---
 
-## 8) Preguntas estratégicas para cerrar vacíos
+### 8) Preguntas estratégicas para cerrar vacíos
 
 1. ¿Qué continuidades familiares concretas existen entre élites hacendarias, élites partidistas y control municipal contemporáneo?
 2. ¿En qué periodos hay evidencia de control comunitario maya sostenido y con qué límites?
@@ -112,7 +112,7 @@ La hipótesis se refuta (o se restringe) si se demuestra un periodo prolongado d
 
 ---
 
-## 9) Uso directo en el libro
+### 9) Uso directo en el libro
 
 Cada capítulo debe declarar si su evidencia **confirma, matiza o contradice** la hipótesis en al menos una de las cuatro variables (tierra, conocimiento, poder político, agencia maya). Esta regla conecta el trabajo documental con el objetivo final del libro: producir una historia integral, verificable y útil para la comunidad.
 
@@ -208,7 +208,7 @@ El libro está organizado en 10 nodos que combinan cronología y temática:
 | `004-B` | 1917–1930 | 1917–1930: Reforma Agraria en Campeche — dotación de ejidos … | ✅ El Bable — La antigua hacienda de Dzibalchén (cita |
 | `004-C` | 1900–1950 | 1900–1950: La economía chiclera en Los Chenes — estructura d… | ✅ Información consolidada de fuentes secundarias sob |
 | `004-D` | 1930–1947 | 1930–1947: Cárdenas, cooperativas y la expropiación chiclera… | ❌  |
-| `004-E` | 1940–1970 | 1940–1970: El fin del chicle y el inicio de la crisis — Hope… | ❌  |
+| `004-E` | 1940–1970 | 1940–1970: El fin del chicle y el inicio de la crisis — Hope… | ✅ Ponce Jiménez, Martha Patricia. La montaña chicler |
 | `004-F` | 1938–1985 | Fuentes literarias y académicas de Los Chenes — el testimoni… | ✅ EntreDiversidades — Bestializados y oprimidos: fig |
 | `004-G` | 1517–1970 | CRUCE DE DATOS: El ciclo extractivo de Hopelchén — un patrón… | ✅ Análisis propio — cruce de datos de Nodos 001-004 |
 | `004-H` | c. 1848 — 1910 (activo como tr | Cirilo 'Chan Cil' Baqueiro Preve: el trovador de Hopelchén c… | ✅ Baqueiro Foster, Gerónimo — 'Música maya'. En: *Lo |
@@ -225,11 +225,11 @@ El libro está organizado en 10 nodos que combinan cronología y temática:
 
 | ID | Fecha | Subtítulo | Fuente |
 |----|-------|-----------|--------|
-| `005-A` | 1987 — 2000 | 1987–2000: La llegada de los menonitas a Hopelchén — la nuev… | ❌  |
-| `005-B` | 2007 — 2021 | 2007–2021: La soya transgénica y el despojo silencioso — 153… | ❌  |
-| `005-C` | 2012 — 2017 | 2012–2017: La lucha jurídica de las comunidades mayas de Los… | ❌  |
-| `005-D` | 2015 — 2026 | 2015–2026: Crisis ambiental acumulativa — agua contaminada, … | ❌  |
-| `005-E` | 2020 — 2026 | 2020–2026: La lucha continúa — amparo por derechos de la nat… | ❌  |
+| `005-A` | 1987 — 2000 | 1987–2000: La llegada de los menonitas a Hopelchén — la nuev… | ✅ El Financiero. "Menonitas que huyeron de Chihuahua |
+| `005-B` | 2007 — 2021 | 2007–2021: La soya transgénica y el despojo silencioso — 153… | ✅ SADER (Secretaría de Agricultura y Desarrollo Rura |
+| `005-C` | 2012 — 2017 | 2012–2017: La lucha jurídica de las comunidades mayas de Los… | ✅ Suprema Corte de Justicia de la Nación (SCJN). Amp |
+| `005-D` | 2015 — 2026 | 2015–2026: Crisis ambiental acumulativa — agua contaminada, … | ✅ Osten, Sylvia et al. "Glyphosate Residues in Groun |
+| `005-E` | 2020 — 2026 | 2020–2026: La lucha continúa — amparo por derechos de la nat… | ✅ Goldman Environmental Prize. "Leydy Pech." 2020. h |
 | `005-F` | 1517 — 2026 | CRUCE DE DATOS: La continuidad del ciclo extractivo — 2026 v… | ✅ Análisis cruzado — Nodos 001-005 |
 | `005-G` | Prehispánico — 2026 (continuid | Meliponicultura de Xunáan Kab en Hopelchén: 3,000 años de tr… | ✅ leydy_pech_perfil.json — 'Contexto Hopelchén: impo |
 
@@ -242,10 +242,10 @@ El libro está organizado en 10 nodos que combinan cronología y temática:
 | ID | Fecha | Subtítulo | Fuente |
 |----|-------|-----------|--------|
 | `006-A` | 1959 — 2026 | Presidentes municipales de Hopelchén identificados: cadena d… | ✅ PorEsto — 'Homenaje 67 aniversario de Hopelchén co |
-| `006-B` | Siglo XIX tardío — 2026 | El linaje familiar Lara-Calderón-Solís-Baqueiro-Barrera: el … | ❌  |
+| `006-B` | Siglo XIX tardío — 2026 | El linaje familiar Lara-Calderón-Solís-Baqueiro-Barrera: el … | ✅ Caamal, Daniela Naraai. Datos de legisladores_hope |
 | `006-C` | c.1990s — 2021-2027 | Interrogante estratégica: ¿Hay parentesco entre Julio Albert… | ✅ IEEC — Acuerdo CG 26/06 (2006) |
 | `006-D` | ~2012–2018 | Nepotismo documentado: el caso España Novelo — el ayuntamien… | ✅ Tabasco HOY — 'Alcalde de Hopelchén tiene a toda s |
-| `006-E` | 2024 — 2027 | Hiram Aranda Calderón (2024-2027): el alcalde actual y el ap… | ❌  |
+| `006-E` | 2024 — 2027 | Hiram Aranda Calderón (2024-2027): el alcalde actual y el ap… | ✅ Tribuna Campeche. "Denuncian al alcalde Hiram Aran |
 | `006-F` | 1959 — 2026 | La hegemonía priista en Hopelchén (1959–2021) y su ruptura p… | ✅ Wikipedia — Elecciones estatales de Campeche 2021 |
 | `006-G` | 1517 — 2026 | CRUCE DE DATOS: Apellidos del poder en Hopelchén — de la Col… | ✅ legisladores_hopelchen_1861-2003.json — Digesto Co |
 | `006-H` | 1947 — 14 febrero 1974 | Efraín 'El Charras' Calderón Lara (1947–1974): el sindicalis… | ✅ Lara Zavala, Hernán. *Charras*. 1a ed. 1990; reed. |
@@ -259,17 +259,17 @@ El libro está organizado en 10 nodos que combinan cronología y temática:
 
 | ID | Fecha | Subtítulo | Fuente |
 |----|-------|-----------|--------|
-| `007-A` | ~1552 — 1870 | El Camino Real colonial (siglo XVI–XIX) — Hopelchén como nod… | ❌  |
-| `007-B` | 16 septiembre 1870 | 1870: El telégrafo — primera infraestructura de comunicación… | ❌  |
-| `007-C` | 1920s — 1934 | 1920s–1950s: El aislamiento de Hopelchén antes del auge chic… | ❌  |
-| `007-D` | 1934 — c.1950 | 1934–1950: Los campos de aterrizaje chicleros — la aviación … | ❌  |
-| `007-E` | 1850 — 1920 | El surgimiento de los 'mayas pacíficos' y el comercio sur de… | ❌  |
-| `007-F` | c. 1950–1970 | La 'recampesinación' post-chicle y la nueva importancia de l… | ❌  |
-| `007-G` | c. 1960–2026 | La Carretera Federal 261 — la ruta moderna que conectó Los C… | ❌  |
+| `007-A` | ~1552 — 1870 | El Camino Real colonial (siglo XVI–XIX) — Hopelchén como nod… | ✅ Schüren, Ute. "Entre los caminos de herradura y lo |
+| `007-B` | 16 septiembre 1870 | 1870: El telégrafo — primera infraestructura de comunicación… | ✅ Wikipedia. "Hopelchén." Sección historia: "la líne |
+| `007-C` | 1920s — 1934 | 1920s–1950s: El aislamiento de Hopelchén antes del auge chic… | ✅ Schüren, Ute. "Entre los caminos de herradura y lo |
+| `007-D` | 1934 — c.1950 | 1934–1950: Los campos de aterrizaje chicleros — la aviación … | ✅ Schüren, Ute. "Entre los caminos de herradura y lo |
+| `007-E` | 1850 — 1920 | El surgimiento de los 'mayas pacíficos' y el comercio sur de… | ✅ Revista Bicentenario. "La dominación blanca sobre  |
+| `007-F` | c. 1950–1970 | La 'recampesinación' post-chicle y la nueva importancia de l… | ✅ Schüren, Ute. Haushaltsstrategien in mexikanischen |
+| `007-G` | c. 1960–2026 | La Carretera Federal 261 — la ruta moderna que conectó Los C… | ✅ INAFED. Enciclopedia de los Municipios — Hopelchén |
 | `007-H` | 1923 — 2013 | La bibliografía de Schüren (2013) — mapa de fuentes sobre Lo… | ✅ Síntesis de investigación del proyecto — datos sob |
 | `007-I` | 1517 — 2026 | CRUCE DE DATOS: Rutas = extracción — el patrón de 500 años e… | ✅ Análisis cruzado — Nodos 001-007 + Schüren (2013) |
 | `007-J` | c. 1940–2026 | Carretera Federal 261: ruta Mérida–Campeche por el interior … | ✅ Wikipedia México — Carretera federal 261 / SCT dat |
-| `007-K` | 1935–1950s (documentación cita | Archivo Municipal de Hopelchén — inventario preliminar citad… | ❌  |
+| `007-K` | 1935–1950s (documentación cita | Archivo Municipal de Hopelchén — inventario preliminar citad… | ✅ Schüren, Ute. Haushaltsstrategien in mexikanischen |
 
 ---
 
@@ -279,14 +279,14 @@ El libro está organizado en 10 nodos que combinan cronología y temática:
 
 | ID | Fecha | Subtítulo | Fuente |
 |----|-------|-----------|--------|
-| `008-A` | 300 a.C. — 1200 d.C. | Demografía prehispánica estimada — el apogeo de Xtampak y Lo… | ❌  |
-| `008-B` | 1621 — 1857 | El ciclo de población colonial: congregación (20,000), expan… | ❌  |
-| `008-C` | 1900 — 2000 | Los censos del siglo XX — la reconstrucción demográfica bajo… | ❌  |
-| `008-D` | 2020 | El perfil indígena de Hopelchén en 2020 — los mayas siguen s… | ❌  |
-| `008-E` | 2010 — 2020 | Geografía de la dispersión — las 170 localidades del municip… | ❌  |
+| `008-A` | 300 a.C. — 1200 d.C. | Demografía prehispánica estimada — el apogeo de Xtampak y Lo… | ✅ IAI Berlin / INAH. "Santa Rosa Xtampak: Cronología |
+| `008-B` | 1621 — 1857 | El ciclo de población colonial: congregación (20,000), expan… | ✅ INDEFOS (Instituto de Desarrollo y Formación Socia |
+| `008-C` | 1900 — 2000 | Los censos del siglo XX — la reconstrucción demográfica bajo… | ✅ INEGI. Censos de Población y Vivienda 2010 y 2020. |
+| `008-D` | 2020 | El perfil indígena de Hopelchén en 2020 — los mayas siguen s… | ✅ INEGI. Censo 2010: 70.93% población indígena; 46.8 |
+| `008-E` | 2010 — 2020 | Geografía de la dispersión — las 170 localidades del municip… | ✅ INEGI. Censo 2010: 170 localidades en el municipio |
 | `008-F` | 1930 | FamilySearch y el Censo de 1930 de Hopelchén — fuente geneal… | ✅ FamilySearch Wiki — Hopelchén, Campeche, México —  |
 | `008-G` | 300 a.C. — 2026 | CRUCE DE DATOS: La curva demográfica como lectura del ciclo … | ✅ Análisis cruzado — Nodos 001-008 |
-| `008-H` | 1987 — 2026 | Deforestación menonita y transformación demográfica del terr… | ❌  |
+| `008-H` | 1987 — 2026 | Deforestación menonita y transformación demográfica del terr… | ✅ MATRIA / La Jornada de Oriente. "Expansión menonit |
 | `008-I` | 2000 — 2020 | Serie censal del municipio de Hopelchén (2000-2020): síntesi… | ✅ INEGI — Censo de Población y Vivienda 2020; Data M |
 | `008-J` | 2010 — 2020 | Hablantes de lengua maya en Hopelchén: perfil lingüístico 20… | ✅ INEGI — Censo de Población y Vivienda 2020; INALI; |
 | `008-K` | 2020 | Localidades del municipio de Hopelchén con alta concentració… | ✅ INEGI — Censo de Población y Vivienda 2020 / Base  |
@@ -302,8 +302,8 @@ El libro está organizado en 10 nodos que combinan cronología y temática:
 | `009-A` | 1669 | Los bataboob de 1669: 122 años de resistencia post-conquista… | ✅ INDEFOS, Archivo Municipal de Hopelchén, Guía Turí |
 | `009-B` | Mayo 1848 | Juan de Dios May y el 'Ataque a Hopelchén' de 1848 — resiste… | ✅ Registro F001 en fuentes del Nodo 003 — múltiples  |
 | `009-C` | 1850 — 1901 | La Chan Santa Cruz: el Estado maya independiente (1850–1901)… | ✅ Historiografía de la Guerra de Castas — Nelson Ree |
-| `009-D` | 1934 — 1992 | Resistencia ejidal en el siglo XX: Las organizaciones de eji… | ❌  |
-| `009-E` | 300 a.C. — 2026 (continuidad d | La meliponicultura como continuidad cultural y económica: la… | ❌  |
+| `009-D` | 1934 — 1992 | Resistencia ejidal en el siglo XX: Las organizaciones de eji… | ✅ Cantún Caamal. "La reforma agraria en Campeche, ¿p |
+| `009-E` | 300 a.C. — 2026 (continuidad d | La meliponicultura como continuidad cultural y económica: la… | ✅ Goldman Environmental Prize. "Leydy Pech." 2020. D |
 | `009-F` | 2000 — 2020 | Leydy Pech y la organización Maya Ka'an (2000–2020): la vict… | ✅ datos/hopelchen/leydy_pech_perfil.json — SCJN Ampa |
 | `009-G` | 1669 — 2026 | CRUCE TRANSVERSAL: El patrón de resistencia maya a lo largo … | ✅ leydy_pech_perfil.json — datos sobre la lucha jurí |
 | `009-H` | 1847 — 1850 | Francisco Caamal: comandante maya de Los Chenes en la Guerra… | ✅ AV_PERSONAS.md — FRANCISCO CAAMAL (síntesis de inv |
@@ -323,7 +323,7 @@ El libro está organizado en 10 nodos que combinan cronología y temática:
 | `010-B` | c. 600 — 800 d.C. | Escritura jeroglífica en Los Chenes: la Estela 2 de Santa Ro… | ✅ SciELO — artículo sobre epigrafía de Santa Rosa Xt |
 | `010-C` | 12 julio 1562 | El auto de fe de Maní (1562): la mayor destrucción documenta… | ✅ Landa, Diego de — Relación de las cosas de Yucatán |
 | `010-D` | c. 300 a.C. — presente (contin | El calendario maya en Los Chenes: el Tzolk'in y el Haab como… | ✅ Thompson, J. Eric S. — Maya Hieroglyphic Writing ( |
-| `010-E` | 300 a.C. — 2026 | La meliponicultura como biotecnología de 3,000 años: el cono… | ❌  |
+| `010-E` | 300 a.C. — 2026 | La meliponicultura como biotecnología de 3,000 años: el cono… | ✅ Goldman Environmental Prize. "Leydy Pech." 2020. R |
 | `010-F` | Prehispánico — 2026 | La lengua maya yucateca en Hopelchén: supervivencia lingüíst… | ✅ INEGI — Censo de Población y Vivienda 2020: datos  |
 | `010-G` | 1562 — 2026 | CRUCE TRANSVERSAL: El control del conocimiento maya en Los C… | ✅ leydy_pech_perfil.json — meliponicultura y Xunáan  |
 | `010-H` | c. 1850 — 1941 (documentación) | Los Xtoles de Chan Cil: 3,000 años de música maya documentad… | ✅ Baqueiro Foster, Gerónimo — 'Música maya'. En: *Lo |
@@ -701,7 +701,7 @@ Efraín (padre)
 
 ## 7. Fuentes Bibliográficas (extracto)
 
-# Catálogo de Fuentes — Investigación Histórica de Hopelchén
+### Catálogo de Fuentes — Investigación Histórica de Hopelchén
 
 > Proyecto: *Archivo Vivo — Hopelchén, Campeche*  
 > Autora: Daniela Naraai Caamal Ake  
@@ -715,11 +715,11 @@ Cada ID enlaza a la entrada de este catálogo.
 
 **Total de fuentes:** 43
 
-## Índice rápido
+#### Índice rápido
 - [F001](#f001) — Preve (1878) — Ensayo histórico sobre las revoluciones de Yucatán desd- [F007](#f007) — Kosichenko (s.f.) — Майяские волонтеры на службе Национальной гвардии Юката- [F008](#f008) — Muñoz (1999) — La independencia de México vivida en la periferia: el c- [F009](#f009) — Buenfil (2017) — La Guerra de Castas en La rebelión de los Cruzoob, de M- [F010](#f010) — Turriza (2013) — Península, Península; el Yucatán del siglo XIX en la me- [F012](#f012) — Salgado (2010) — Digesto Constitucional Mexicano — Campeche- [F014](#f014) — Trebarra) (1864) — Los misterios de Chan Santa Cruz: Historia verdadera co- [F016](#f016) — — (juli) — 'Relación de los indígenas de Bolonchenticul que consid- [F018](#f018) — Carrillo (1994) — De buhoneros a empresarios: la inmigración libanesa en - [F019](#f019) — González (2010) — Los primeros años de la posrevolución en Campeche (1921- [F020](#f020) — Ponce-Jiménez (1990) — La montaña chiclera. Campeche: vida cotidiana y trabajo- [F023](#f023) — — (s.f.) — Boletín Oficial del Gobierno de Yucatán- [F026](#f026) — Cuartero (2007) — De Tihosuco a La Habana: mayas yucatecos en Cuba (1848-- [F030](#f030) — Piña (1990) — Guerra de castas: la venta de indios mayas a Cuba, 1848- [FX001](#fx001) — — (1848) — Caso José Chan (siervo deudor, 52 pesos) y María Jesús - [FX002](#fx002) — — (s.f.) — Registros de bautizos, matrimonios y defunciones. Muest- [FX003](#fx003) — Castillo (s.f.) — Gerónimo Baqueiro Fóster y su legado documental- [FX004](#fx004) — Laynes (2017) — La Guerra de Castas en Península Península: del acontec- [FX005](#fx005) — Lozano (s.f.) — El proceso narrativo de Hernán Lara Zavala- [FX006](#fx006) — Arriola (2019) — De la nostalgia por la memoria a la memoria nostálgica:- [FX007](#fx007) — Castellanos (2025) — Kinchí, Xunan tunich y Dignidad maya: Representaciones - [FX008](#fx008) — Osten (2017) — Glyphosate Residues in Groundwater, Drinking Water and - [FX009](#fx009) — — (s.f.) — Goldman Environmental Prize — Leydy Pech- [FX010](#fx010) — — (s.f.) — IAI Berlín — Colección Teobert Maler- [FX011](#fx011) — — (s.f.) — IAI Berlín — Colección digital Maler- [FX012](#fx012) — — (s.f.) — HathiTrust — Los misterios de Chan Santa Cruz- [FX013](#fx013) — — (s.f.) — Sonido 13 — historia oficial Julián Carrillo- [FX014](#fx014) — — (s.f.) — UNESCO — Registro Memoria del Mundo — Julián Carrillo 2- [FX015](#fx015) — — (s.f.) — INAH — Zonas arqueológicas- [FX016](#fx016) — — (s.f.) — Enciclopedia Yet de Yucatán- [FX017](#fx017) — — (s.f.) — ELEM — Enciclopedia de la Literatura en México- [FX018](#fx018) — — (s.f.) — Revista Digital Universitaria UNAM — Mendoza Castillo 2- [FX019](#fx019) — — (s.f.) — INAFED — Enciclopedia Municipios, Hopelchén- [FX020](#fx020) — — (s.f.) — FamilySearch — Parroquia Hopelchén- [FX021](#fx021) — — (s.f.) — Boletín UNAM — Zalaquett Rock, Universos Sonoros Mayas,- [FX022](#fx022) — — (s.f.) — PorEsto Campeche — Valeriana, oct 2024- [FX023](#fx023) — — (s.f.) — La Jornada Maya — Grutas de Huachabí, 2023- [FX024](#fx024) — — (s.f.) — CIDE/ECOS — Olegario Molina a 100 años- [FX025](#fx025) — — (s.f.) — Archivo General del Estado de Yucatán, Mérida- [FX026](#fx026) — — (s.f.) — Archivo General del Estado de Campeche- [FX027](#fx027) — — (s.f.) — Archivo Municipal de Hopelchén- [FX028](#fx028) — — (s.f.) — Centro Nacional de Investigación, Documentación e Infor- [FX029](#fx029) — — (s.f.) — La Habana, Cuba
 ---
 
-## F001 — Ensayo histórico sobre las revoluciones de Yucatán desde el año 1840 h
+#### F001 — Ensayo histórico sobre las revoluciones de Yucatán desde el año 1840 h
 
 | Campo | Valor |
 |---|---|
@@ -740,7 +740,7 @@ Cada ID enlaza a la entrada de este catálogo.
 **Nota:** La fuente primaria más citada sobre la Guerra de Castas. Autor nació en Dzitbalchén, Hopelchén. Perspectiva criolla.
 
 ---
-## F007 — Майяские волонтеры на службе Национальной гвардии Юкатана (Voluntarios
+#### F007 — Майяские волонтеры на службе Национальной гвардии Юкатана (Voluntarios
 
 | Campo | Valor |
 |---|---|
@@ -762,7 +762,7 @@ Cada ID enlaza a la entrada de este catálogo.
 - Método: el apellido maya es el marcador más confiable para identificar 'indios' en documentos siglo XIX
 
 ---
-## F008 — La independencia de México vivida en la periferia: el caso de Yucatán
+#### F008 — La independencia de México vivida en la periferia: el caso de Yucatán
 
 | Campo | Valor |
 |---|---|
@@ -872,7 +872,7 @@ Total borradores: **24**
 
 ## Notas de generación
 
-- **Generado:** 2026-04-18 08:36
+- **Generado:** 2026-04-18 09:05
 - **Script:** `tools/generar_sintesis.py`
 - **Repositorio:** Daniela-Naraai-Caamal-Ake/investigacion-historica
 - **Regenerar:** `python tools/generar_sintesis.py`

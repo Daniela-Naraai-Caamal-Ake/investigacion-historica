@@ -51,6 +51,18 @@
         "122 años",
         "conquista incompleta",
         "Los Chenes"
+      ],
+      "fuentes_candidatas": [
+        {
+          "id": "F054",
+          "descripcion": "[F054] José Manuel A. Chávez Gómez (2024). Las insurrecciones de Juan Yam y Jacinto Uc. Dos alzamientos. URL: https://www.researchgate.net/publication/382077657",
+          "origen": "investigacion_web_2026-04-18"
+        },
+        {
+          "id": "F064",
+          "descripcion": "[F064] Revista Bicentenario (s.f.). La dominación blanca sobre los territorios maya. URL: https://revistabicentenario.com.mx/index.php/archivos/la-dominacion-blanca-sobre-los-territorios-maya/",
+          "origen": "investigacion_web_2026-04-18"
+        }
       ]
     },
     {
@@ -138,7 +150,9 @@
         "1992",
         "resistencia institucional",
         "defensa tierra"
-      ]
+      ],
+      "fuente": "Cantún Caamal. \"La reforma agraria en Campeche, ¿permanencia de una cultura indígena?\" Secuencia (Instituto Mora), 2012. [F058]",
+      "fuente_academica": "Schüren, Ute. Haushaltsstrategien in mexikanischen Ejidos. FU Berlin, 2002/2003. Dotación Dzibalchén 1927: 6,671 ha. [F056]"
     },
     {
       "registro_id": "009-E",
@@ -169,7 +183,9 @@
         "Leydy Pech",
         "conocimiento ancestral"
       ],
-      "nota_cronologica": "La práctica de la meliponicultura se documenta desde 300 a.C. (evidencia arqueológica y códices). El nodo la recoge a partir de 1669 en su dimensión de continuidad cultural activa durante la Colonia tardía y hasta el presente."
+      "nota_cronologica": "La práctica de la meliponicultura se documenta desde 300 a.C. (evidencia arqueológica y códices). El nodo la recoge a partir de 1669 en su dimensión de continuidad cultural activa durante la Colonia tardía y hasta el presente.",
+      "fuente": "Goldman Environmental Prize. \"Leydy Pech.\" 2020. Documentación de la meliponicultura maya y su defensa jurídica. [FX009]",
+      "fuente_academica": "IAI Berlin/INAH. \"Santa Rosa Xtampak.\" 2020-2022. Secuencia arqueológica de meliponicultura desde período prehispánico. [F059]"
     },
     {
       "registro_id": "009-F",

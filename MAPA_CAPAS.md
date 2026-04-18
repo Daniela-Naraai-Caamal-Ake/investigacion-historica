@@ -20,41 +20,56 @@ Guía corta para navegar el proyecto sin perderse.
 
 ---
 
-## Capa 2 — Redacción histórica
+## Capa 2 — Redacción literaria (el libro)
+
+- `datos/borradores/PRÓLOGO.md` y `datos/borradores/B*.md` / `A*.md`
+
+Úsala para leer los capítulos del libro en preparación.
+
+---
+
+## Capa 3 — Redacción histórica estructurada
 
 - `trabajo/indice.md`
 - `trabajo/periodos/nodo-*.md`
 
-Úsala para leer el contenido narrativo por nodo/período.
+Úsala para leer el contenido narrativo organizado por nodo/período.
 
 ---
 
-## Capa 3 — Evidencia y vacíos
+## Capa 4 — Evidencia y vacíos
 
 - `datos/hopelchen/HOPELCHEN_NODO_*.json`
 - `datos/hopelchen/HOPELCHEN_PREGUNTAS_*.json`
 - `datos/VACIOS.md`
 
-Úsala para verificar **dato, fuente y pendientes**.
+Úsala para verificar **dato, fuente y preguntas abiertas**.
 
 ---
 
-## Capa 4 — Fuentes
+## Capa 5 — Fuentes
 
 - `fuentes/catalogo_fuentes.md`
 - `fuentes/mapa_citas.md`
+- `datos/curated/fuentes.json`
 
 Úsala para rastrear cada afirmación a su origen.
 
 ---
 
-## Capa 5 — Herramientas técnicas
+## Capa 6 — Estadísticas y búsqueda
 
-- `tools/`
-- `src/`
-- `tests/`
+- `docs/stats.json` → métricas del proyecto (96 registros, 100% con fuente)
+- `docs/search_index.json` → índice de búsqueda de todos los registros
+- `docs/index.html` → portal de búsqueda web
 
-Úsala para generar salidas, validar consistencia y mantener calidad técnica.
+---
+
+## Capa 7 — Herramientas técnicas
+
+- `tools/` → generación, validación y búsqueda de fuentes
+- `src/` → analizador CLI
+- `tests/` → 122 pruebas automáticas
 
 ---
 
@@ -65,3 +80,24 @@ Guía corta para navegar el proyecto sin perderse.
 3. `trabajo/indice.md`
 4. `datos/VACIOS.md`
 5. `fuentes/catalogo_fuentes.md`
+
+---
+
+## Comandos de un vistazo
+
+```bash
+# Ver el estado del proyecto
+python tools/generar_estadisticas.py
+
+# Regenerar todo
+python tools/generar_redaccion.py && python tools/generar_sintesis.py && python tools/actualizar_vacios.py
+
+# Validar integridad
+python tools/validar_datos.py && python tools/validar_fechas.py
+
+# Buscar fuentes para registros sin citar
+python tools/buscar_fuentes_vacias.py
+
+# Validar URLs del catálogo
+python tools/validar_citas.py
+```

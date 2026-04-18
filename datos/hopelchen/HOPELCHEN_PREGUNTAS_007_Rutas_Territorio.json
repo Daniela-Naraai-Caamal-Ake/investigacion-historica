@@ -87,8 +87,9 @@
       ],
       "prioridad": "Media-Alta",
       "conexion_hipotesis": "Si la CF-261 fue construida bajo el gobierno de Carlos Sansores Pérez (1967-1973) — cuyo apellido aparece también en la lista de ex-alcaldes de Hopelchén — el control de la infraestructura y el control político del municipio convergieron en la misma red familiar. La carretera que facilitó el despojo contemporáneo pudo haber sido construida por la misma familia que gobernó Hopelchén.",
-      "estado": "RESPONDIDA PARCIALMENTE — registro 007-J: CF-261 conecta Mérida–Hopelchén–Dzibalché–Campeche; fue vector de entrada menonita desde 1987; fecha exacta de pavimentación requiere SCT.",
-      "registro_respuesta": "007-J"
+      "estado": "RESPONDIDA PARCIALMENTE",
+      "registro_respuesta": "007-J",
+      "hallazgos": "registro 007-J: CF-261 conecta Mérida–Hopelchén–Dzibalché–Campeche; fue vector de entrada menonita desde 1987; fecha exacta de pavimentación requiere SCT."
     },
     {
       "pregunta_id": "P007-06",

@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-04-18T08:39:14Z",
+  "generado_en": "2026-04-18T09:05:43Z",
   "nodos": [
     {
       "id": "001",
@@ -170,8 +170,8 @@
   "cobertura": {
     "tipos_dato": {
       "Citado/Arqueológico": 3,
-      "sin_tipo": 3,
       "Citado académico": 2,
+      "sin_tipo": 2,
       "Citado — fuente primaria académica": 2,
       "Análisis estructural": 2,
       "Citado/Epigráfico": 1,
@@ -215,6 +215,7 @@
       "Análisis estructural — síntesis del repositorio": 1,
       "Económico-ambiental — datos institucionales verificados": 1,
       "Citado — múltiples fuentes periodísticas e institucionales verificadas": 1,
+      "Genealógico — síntesis de múltiples fuentes documentales": 1,
       "Hipótesis pendiente de verificación — alta prioridad": 1,
       "Citado — pendiente verificación genealógica": 1,
       "Citado con análisis": 1,

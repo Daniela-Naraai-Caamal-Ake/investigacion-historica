@@ -6,7 +6,7 @@
 ---
 
 **Total fuentes en catálogo:** 43  
-**Fuentes con al menos una cita:** 2  
+**Fuentes con al menos una cita:** 14  
 
 ---
 
@@ -15,6 +15,7 @@
 ### F001 — Serapio Baqueiro Preve. *Ensayo histórico sobre las revoluci
 
 - `trabajo/indice.md`
+- `trabajo/periodos/nodo-008-demografia-e-historia-de-la-poblacion-en.md`
 - `trabajo/periodos/nodo-009-resistencia-y-agencia-maya-en-hopelchen.md`
 
 ### F007 — Ivan Nikítovich Kosichenko. "Майяские волонтеры на службе На
@@ -35,7 +36,7 @@ _Sin citas detectadas en trabajo/ ni mapa/_
 
 ### F012 — Manuel González Oropeza y David Cienfuegos Salgado. *Digesto
 
-_Sin citas detectadas en trabajo/ ni mapa/_
+- `trabajo/periodos/nodo-006-la-genealogia-del-poder-politico-local-e.md`
 
 ### F014 — Pantaleón Barrera (seudónimo: Napoleón Trebarra). *Los miste
 
@@ -55,7 +56,7 @@ _Sin citas detectadas en trabajo/ ni mapa/_
 
 ### F020 — Ponce-Jiménez, Martha Patricia. *La montaña chiclera. Campec
 
-_Sin citas detectadas en trabajo/ ni mapa/_
+- `trabajo/periodos/nodo-004-revolucion-lucha-antiagraria-reforma-a.md`
 
 ### F023 — "Boletín Oficial del Gobierno de Yucatán." <https://hndm.iib
 
@@ -99,11 +100,13 @@ _Sin citas detectadas en trabajo/ ni mapa/_
 
 ### FX008 — Rendón Von Osten, Jaime, Dzul-Caamal, R.. "Glyphosate Residu
 
-_Sin citas detectadas en trabajo/ ni mapa/_
+- `trabajo/periodos/nodo-005-hopelchen-contemporaneo-1970-2026-men.md`
 
 ### FX009 — "Goldman Environmental Prize — Leydy Pech." *Goldman Environ
 
-_Sin citas detectadas en trabajo/ ni mapa/_
+- `trabajo/periodos/nodo-005-hopelchen-contemporaneo-1970-2026-men.md`
+- `trabajo/periodos/nodo-009-resistencia-y-agencia-maya-en-hopelchen.md`
+- `trabajo/periodos/nodo-010-conocimiento-y-cultura-maya-en-los-chene.md`
 
 ### FX010 — "IAI Berlín — Colección Teobert Maler." *IAI Berlín — Colecc
 
@@ -143,7 +146,7 @@ _Sin citas detectadas en trabajo/ ni mapa/_
 
 ### FX019 — "INAFED — Enciclopedia Municipios, Hopelchén." *INAFED — Enc
 
-_Sin citas detectadas en trabajo/ ni mapa/_
+- `trabajo/periodos/nodo-007-rutas-territorio-y-control-del-espacio.md`
 
 ### FX020 — "FamilySearch — Parroquia Hopelchén." *FamilySearch — Parroq
 
@@ -184,4 +187,16 @@ _Sin citas detectadas en trabajo/ ni mapa/_
 ### FX029 — *La Habana, Cuba*.
 
 _Sin citas detectadas en trabajo/ ni mapa/_
+
+---
+
+## IDs citados pero sin entrada en el catálogo
+
+- **F056** → `trabajo/periodos/nodo-007-rutas-territorio-y-control-del-espacio.md`
+- **F057** → `trabajo/periodos/nodo-007-rutas-territorio-y-control-del-espacio.md`
+- **F058** → `trabajo/periodos/nodo-009-resistencia-y-agencia-maya-en-hopelchen.md`
+- **F059** → `trabajo/periodos/nodo-008-demografia-e-historia-de-la-poblacion-en.md`
+- **F061** → `trabajo/periodos/nodo-008-demografia-e-historia-de-la-poblacion-en.md`
+- **F062** → `trabajo/periodos/nodo-006-la-genealogia-del-poder-politico-local-e.md`
+- **F064** → `trabajo/periodos/nodo-007-rutas-territorio-y-control-del-espacio.md`
 

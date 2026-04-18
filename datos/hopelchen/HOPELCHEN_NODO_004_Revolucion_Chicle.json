@@ -98,6 +98,13 @@
         "dependencia",
         "67 predios 73.8%",
         "haciendas sobreviven"
+      ],
+      "fuentes_candidatas": [
+        {
+          "id": "F058",
+          "descripcion": "[F058] Cantún Caamal (2012). La reforma agraria en Campeche, ¿permanencia de una cultura . URL: http://secuencia.mora.edu.mx/index.php/Secuencia/article/view/1143/1007",
+          "origen": "investigacion_web_2026-04-18"
+        }
       ]
     },
     {
@@ -176,7 +183,14 @@
         "tipo": "Síntesis de investigación — requiere verificación con fuentes primarias",
         "nota": "Ver Schüren, Ute (2013) Indiana 30: 201 y Aranda González, Mario Heberto (1985) Apuntaciones históricas del municipio de Hopelchén",
         "confiabilidad": "Media"
-      }
+      },
+      "fuentes_candidatas": [
+        {
+          "id": "F056",
+          "descripcion": "[F056] Ute Schüren (2002-2003). Rationalität oder Irrationalität bäuerlichen Wirtschaftens i. URL: https://www.uni-muenster.de/Geschichte/histsem/AE-G/personen/UteSchueren.html",
+          "origen": "investigacion_web_2026-04-18"
+        }
+      ]
     },
     {
       "registro_id": "004-D",
@@ -226,7 +240,9 @@
         "reforma agraria",
         "300% aumento ingresos",
         "sustitutos sintéticos"
-      ]
+      ],
+      "fuente_academica": "Schüren, Ute. \"Los Chenes en la revolución: Cambios políticos en una zona fronteriza de Campeche.\" In Böttcher, Galaor y Hausberger (eds.), Los buenos, los malos y los feos. Frankfurt: Vervuert/Iberoamericana, 2005, pp. 105-131.",
+      "url_referencia": "https://www.uni-muenster.de/Geschichte/histsem/AE-G/personen/UteSchueren.html"
     },
     {
       "registro_id": "004-E",
@@ -266,6 +282,20 @@
         "un millón chicozapotes",
         "ciclo extractivo",
         "Calakmul 1968"
+      ],
+      "fuente_academica": "Schüren, Ute. \"El impacto de la política neoliberal en el campo mexicano: El caso de los Chenes.\" In Maihold (comp.), Las Modernidades de México. Berlin: IAI/ADLAF, 2004.",
+      "fuente": "Ponce Jiménez, Martha Patricia. La montaña chiclera. Campeche: vida cotidiana y trabajo (1900-1950). México: CIESAS, 1990. [F020]",
+      "fuentes_candidatas": [
+        {
+          "id": "F056",
+          "descripcion": "[F056] Ute Schüren (2002-2003). Rationalität oder Irrationalität bäuerlichen Wirtschaftens i. URL: https://www.uni-muenster.de/Geschichte/histsem/AE-G/personen/UteSchueren.html",
+          "origen": "investigacion_web_2026-04-18"
+        },
+        {
+          "id": "F057",
+          "descripcion": "[F057] Ute Schüren (2013). Entre los caminos de herradura y los campos de aterrizaje: R. URL: https://www.redalyc.org/articulo.oa?id=247029853011",
+          "origen": "investigacion_web_2026-04-18"
+        }
       ]
     },
     {

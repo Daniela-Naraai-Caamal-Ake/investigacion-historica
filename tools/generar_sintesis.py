@@ -87,9 +87,18 @@ def _seccion_hipotesis() -> str:
     hipotesis_file = ROOT / "HIPOTESIS.md"
     if hipotesis_file.exists():
         content = hipotesis_file.read_text(encoding="utf-8")
-        # Tomar solo primeras 120 líneas
+        # Bajar todos los headers un nivel para que queden dentro de H2
+        # H1 (#) → H3 (###), H2 (##) → H3 (###), H3+ sin cambio
         lines = content.splitlines()[:120]
-        return "## 1. Hipótesis Central\n\n" + "\n".join(lines) + "\n\n---\n"
+        adjusted = []
+        for line in lines:
+            if line.startswith("# ") and not line.startswith("## "):
+                adjusted.append("### " + line[2:])
+            elif line.startswith("## "):
+                adjusted.append("### " + line[3:])
+            else:
+                adjusted.append(line)
+        return "## 1. Hipótesis Central\n\n" + "\n".join(adjusted) + "\n\n---\n"
 
     return """## 1. Hipótesis Central
 
@@ -308,8 +317,15 @@ def _seccion_fuentes() -> str:
 
     content = catalogo.read_text(encoding="utf-8")
     lines_all = content.splitlines()
-    # Tomar hasta 80 líneas del catálogo
-    preview = lines_all[:80]
+    # Tomar hasta 80 líneas del catálogo y bajar headers un nivel
+    preview = []
+    for line in lines_all[:80]:
+        if line.startswith("# ") and not line.startswith("## "):
+            preview.append("### " + line[2:])
+        elif line.startswith("## "):
+            preview.append("#### " + line[3:])
+        else:
+            preview.append(line)
     if len(lines_all) > 80:
         preview.append(f"\n*… {len(lines_all) - 80} líneas adicionales en `fuentes/catalogo_fuentes.md`*")
 

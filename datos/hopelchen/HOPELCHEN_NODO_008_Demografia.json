@@ -36,7 +36,9 @@
         "Los Chenes",
         "26000 habitantes 1846",
         "apogeo maya"
-      ]
+      ],
+      "fuente": "IAI Berlin / INAH. \"Santa Rosa Xtampak: Cronología y vínculos de un centro suprarregional del Clásico Maya.\" Proyecto 2020-2022. Secuencia cerámica desde Preclásico Medio (1000 a.C.). [F059]",
+      "fuente_academica": "INAH/Secretaría de Cultura. \"Santa Rosa Xtampak.\" sic.cultura.gob.mx/ficha.php?table=zona_arqueologica&table_id=10"
     },
     {
       "registro_id": "008-B",
@@ -74,7 +76,9 @@
         "Guerra de Castas",
         "despoblamiento",
         "coloniales"
-      ]
+      ],
+      "fuente": "INDEFOS (Instituto de Desarrollo y Formación Social de Campeche). \"Hopelchén.\" https://indefos.gob.mx/portal/hopelchen/ \"fundado en 1621... para 1630 contaba con alrededor de 20,000 indígenas.\" [F001]",
+      "fuente_academica": "Guía Turística México. \"Hopelchén\": \"Antes de la guerra, en el distrito de Hopelchén, había una población de poco más de 25,000 habitantes.\""
     },
     {
       "registro_id": "008-C",
@@ -186,7 +190,9 @@
         "CONEVAL",
         "siglo XX",
         "datos históricos"
-      ]
+      ],
+      "fuente": "INEGI. Censos de Población y Vivienda 2010 y 2020. Datos por municipio de Hopelchén. https://www.inegi.org.mx",
+      "fuente_academica": "Wikipedia. \"Municipio de Hopelchén.\" Datos INEGI 2010: 37,777 hab. https://es.wikipedia.org/wiki/Municipio_de_Hopelch%C3%A9n"
     },
     {
       "registro_id": "008-D",
@@ -267,7 +273,8 @@
         "INEGI 2020",
         "pérdida lingüística",
         "identidad vs lengua"
-      ]
+      ],
+      "fuente": "INEGI. Censo 2010: 70.93% población indígena; 46.85% habla lengua indígena. Municipio de Hopelchén. PueblosAmérica.com (fuente: INEGI): https://mexico.pueblosamerica.com/campeche/hopelchen/"
     },
     {
       "registro_id": "008-E",
@@ -342,7 +349,9 @@
         "Ich Ek",
         "Leydy Pech",
         "geografía poder"
-      ]
+      ],
+      "fuente": "INEGI. Censo 2010: 170 localidades en el municipio. Principales localidades: Hopelchén (8,048 hab.), Bolonchén de Rejón (4,234 hab.), Vicente Guerrero (3,570 hab.).",
+      "fuente_academica": "Wikipedia. \"Municipio de Hopelchén.\" https://es.wikipedia.org/wiki/Municipio_de_Hopelch%C3%A9n"
     },
     {
       "registro_id": "008-F",
@@ -484,7 +493,9 @@
         "Hopelchén",
         "demografía contemporánea",
         "despojo territorial"
-      ]
+      ],
+      "fuente": "MATRIA / La Jornada de Oriente. \"Expansión menonita en Campeche y QR.\" 2024: 61,200 ha en agricultura extensiva (soya/maíz). [F061]",
+      "fuente_academica": "SADER 2022. Estadísticas de producción: Hopelchén = mayor productor nacional de soya (49,870 ha)."
     },
     {
       "registro_id": "008-I",

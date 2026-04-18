@@ -57,6 +57,16 @@
           "url": "https://www.iai.spk-berlin.de/es/investigacion/proyectos/proyecto/santa-rosa-xtampak-chronologie-und-vernetzung-eines-ueberregionalen-zentrums-der-klassischen-maya.html",
           "confiabilidad": "alta",
           "nota": "Fuente directa. Proyecto arqueológico con 9 calas estratigráficas. Codirigido con INAH Campeche."
+        },
+        {
+          "id": "F059",
+          "descripcion": "[F059] Ibero-Amerikanisches Institut Berlin / Centro INAH Campeche (2020-2022). Santa Rosa Xtampak: Cronología y vínculos de un centro supra. URL: https://www.iai.spk-berlin.de/es/investigacion/proyectos/proyecto/santa-rosa-xtampak-chronologie-und-vernetzung-eines-ueberregionalen-zentrums-der-klassischen-maya.html",
+          "origen": "investigacion_web_2026-04-18"
+        },
+        {
+          "id": "F060",
+          "descripcion": "[F060] PorEsto (2024). INAH confirma descubrimiento de sitio maya en Campeche; habr. URL: https://www.poresto.com/campeche/2024/10/31/inah-confirma-descubrimiento-de-sitio-maya-en-campeche-habria-otro-en-hopelchen.html",
+          "origen": "investigacion_web_2026-04-18"
         }
       ],
       "nota_cronologica": "La fecha_evento se actualiza para reflejar el hallazgo del IAI Berlin/INAH (2020-2022): la secuencia cerámica estratigráfica alcanza el Preclásico Medio (c. 1000 a.C.), anterior al rango oficial del nodo (300 a.C.). El rango del nodo refleja la datación oficial INAH pre-2020; este registro documenta la revisión científica más reciente."
@@ -359,7 +369,14 @@
         "Clásico Tardío",
         "INAH"
       ],
-      "notas_contradiccion": " ACTUALIZACIÓN oct-2024: INAH confirmó que LiDAR aplicado desde 2013 reveló posibles vestigios en Xmejía (municipio de Hopelchén). La arqueóloga del INAH señaló que \"pobladores mencionan vestigios arqueológicos que siguen bajo tierra\". El equipo Tulane/INAH ha identificado 6,500+ estructuras en Campeche con esta tecnología (PorEsto, oct 2024)."
+      "notas_contradiccion": " ACTUALIZACIÓN oct-2024: INAH confirmó que LiDAR aplicado desde 2013 reveló posibles vestigios en Xmejía (municipio de Hopelchén). La arqueóloga del INAH señaló que \"pobladores mencionan vestigios arqueológicos que siguen bajo tierra\". El equipo Tulane/INAH ha identificado 6,500+ estructuras en Campeche con esta tecnología (PorEsto, oct 2024).",
+      "fuentes_candidatas": [
+        {
+          "id": "F060",
+          "descripcion": "[F060] PorEsto (2024). INAH confirma descubrimiento de sitio maya en Campeche; habr. URL: https://www.poresto.com/campeche/2024/10/31/inah-confirma-descubrimiento-de-sitio-maya-en-campeche-habria-otro-en-hopelchen.html",
+          "origen": "investigacion_web_2026-04-18"
+        }
+      ]
     }
   ],
   "contradicciones_globales_nodo": [

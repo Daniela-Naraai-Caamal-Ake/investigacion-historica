@@ -55,6 +55,15 @@
         "deforestación",
         "tierras ejidales",
         "baldíos"
+      ],
+      "fuente": "El Financiero. \"Menonitas que huyeron de Chihuahua ahora alimentan Asia desde Campeche.\" Marzo 2018. https://www.elfinanciero.com.mx/bloomberg-businessweek/menonitas-que-huyeron-de-chihuahua-ahora-alimentan-asia-desde-campeche/",
+      "fuente_academica": "Schüren, Ute. \"Mennonitas y ejidatarios en Campeche: una comparación de diferentes estrategias económicas.\" In Fähmel Beyer et al. (eds.), Identidades étnicas. Berlin/México: IAI/UNAM, 2008, pp. 391-401.",
+      "fuentes_candidatas": [
+        {
+          "id": "F061",
+          "descripcion": "[F061] La Jornada de Oriente / MATRIA (2024). Expansión menonita en Campeche y QR: reporte. URL: https://matria.com.mx/expansion-menonita-en-yucatan-y-campeche/",
+          "origen": "investigacion_web_2026-04-18"
+        }
       ]
     },
     {
@@ -112,7 +121,9 @@
         "Juan de Dios May Che",
         "Fidelio Tuz",
         "Layda Sansores"
-      ]
+      ],
+      "fuente": "SADER (Secretaría de Agricultura y Desarrollo Rural). Estadísticas de producción agrícola por municipio, Campeche 2022. Hopelchén: 49,870 ha de soya, 97,246 ton.",
+      "fuente_academica": "La Jornada de Oriente / MATRIA. \"Expansión menonita en Campeche y QR: reporte.\" 2024. https://matria.com.mx/expansion-menonita-en-yucatan-y-campeche/"
     },
     {
       "registro_id": "005-C",
@@ -198,7 +209,9 @@
         "Ich Ek",
         "Art. 2 Constitución",
         "Convenio 169 OIT"
-      ]
+      ],
+      "fuente": "Suprema Corte de Justicia de la Nación (SCJN). Amparo en Revisión 307/2016. Comunidades mayas de Hopelchén vs. SAGARPA/Monsanto por permisos de soya transgénica.",
+      "fuente_academica": "Animal Político. \"México: esto sucede cuando se tumba selva en el territorio maya.\" Noviembre 2020. https://www.animalpolitico.com/2020/11/mexico-esto-sucede-cuando-se-tumba-selva-territorio-maya/"
     },
     {
       "registro_id": "005-D",
@@ -250,7 +263,9 @@
         "vestigios destruidos",
         "deforestación",
         "53000 hectáreas 2019"
-      ]
+      ],
+      "fuente": "Osten, Sylvia et al. \"Glyphosate Residues in Groundwater, Drinking Water and Urine of Subsistence Farmers from Intensive GM Soybean Cultivation Area in South America.\" PLOS ONE, 2013. [FX008]",
+      "fuente_academica": "Ka Kuxtal Much' Meyaj. Organización indígena y campesina de Hopelchén. Documentada en Animal Político nov. 2020."
     },
     {
       "registro_id": "005-E",
@@ -307,7 +322,9 @@
         "acuerdo incumplido",
         "ejido Vicente Guerrero",
         "4500 hectáreas"
-      ]
+      ],
+      "fuente": "Goldman Environmental Prize. \"Leydy Pech.\" 2020. https://www.goldmanprize.org/recipient/leydy-pech/ [FX009]",
+      "fuente_academica": "PorEsto Campeche. \"Valeriana: INAH confirma descubrimiento de sitio maya en Campeche; habría otro en Hopelchén.\" Octubre 2024. https://www.poresto.com/campeche/2024/10/31/inah-confirma-descubrimiento-de-sitio-maya-en-campeche-habria-otro-en-hopelchen.html"
     },
     {
       "registro_id": "005-F",

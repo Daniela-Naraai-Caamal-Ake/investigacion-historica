@@ -100,8 +100,9 @@
       ],
       "prioridad": "Alta — central para la hipótesis",
       "conexion_hipotesis": "Si los presidentes municipales facilitaron el despojo, se cierra el círculo del ciclo extractivo: poder político local → complicidad con capital externo → despojo de tierras mayas.",
-      "estado": "RESPONDIDA PARCIALMENTE — registro 006-G documenta estructuralmente que la hegemonía PRI 1959-2021 coincide con la llegada de menonitas (1987) y reforma Art. 27 (1992). Complicidad activa no documentada con fuente primaria.",
-      "registro_respuesta": "006-G"
+      "estado": "RESPONDIDA PARCIALMENTE",
+      "registro_respuesta": "006-G",
+      "hallazgos": "registro 006-G documenta estructuralmente que la hegemonía PRI 1959-2021 coincide con la llegada de menonitas (1987) y reforma Art. 27 (1992). Complicidad activa no documentada con fuente primaria."
     },
     {
       "pregunta_id": "P006-07",
@@ -116,8 +117,9 @@
       ],
       "prioridad": "Media-Alta",
       "conexion_hipotesis": "Si hay continuidad genealógica Advíncula Lara → Emilio Lara, la misma familia controlará Hopelchén como hacendados-jefes políticos porfirianos Y como diputados federales del siglo XXI.",
-      "estado": "RESPONDIDA PARCIALMENTE — legisladores_hopelchen_1861-2003.json: el apellido Lara aparece en el poder desde 1862 hasta 2024. Confirmación genealógica directa requiere Registro Civil.",
-      "registro_respuesta": "006-B"
+      "estado": "RESPONDIDA PARCIALMENTE",
+      "registro_respuesta": "006-B",
+      "hallazgos": "legisladores_hopelchen_1861-2003.json: el apellido Lara aparece en el poder desde 1862 hasta 2024. Confirmación genealógica directa requiere Registro Civil."
     },
     {
       "pregunta_id": "P006-08",
@@ -131,8 +133,9 @@
       ],
       "prioridad": "URGENTE — Alta",
       "conexion_hipotesis": "Identificar a este funcionario cierra el eslabón político que conecta el inicio del despojo contemporáneo (llegada de menonitas + reforma ejidal) con el sistema de poder local de Hopelchén.",
-      "estado": "RESPONDIDA PARCIALMENTE — registro 006-A: Enrique González Vargas ('Don Lico') en funciones en 1984; Julio Alberto Sansores Sansores es probable ~1992-1995. El presidente de 1987-1990 es González Vargas o un sucesor no identificado. Requiere IEEC para nombre exacto.",
-      "registro_respuesta": "006-A"
+      "estado": "RESPONDIDA PARCIALMENTE",
+      "registro_respuesta": "006-A",
+      "hallazgos": "registro 006-A: Enrique González Vargas ('Don Lico') en funciones en 1984; Julio Alberto Sansores Sansores es probable ~1992-1995. El presidente de 1987-1990 es González Vargas o un sucesor no identificado. Requiere IEEC para nombre exacto."
     },
     {
       "pregunta_id": "P006-09",

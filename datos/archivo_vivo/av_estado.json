@@ -3,41 +3,70 @@
     "archivo": "av_estado.json",
     "descripcion": "Estado real del proyecto — calculado contando archivos físicos, no escrito a mano",
     "instruccion_agente": "Actualizar este archivo al inicio de cada sesión contando los archivos en /entradas/aprobadas/ y /entradas/borradores/. NUNCA editar los contadores a mano.",
-    "actualizado": "2026-04-02"
+    "actualizado": "2026-04-18"
   },
-
   "entradas": {
     "aprobadas": {
       "total": 20,
       "lista": [
-        "A1", "A2", "A3", "A4", "A5", "A6",
-        "B1", "B1-BIS", "B2", "B3", "B4", "B5", "B5-BIS",
-        "B6", "B7", "B8", "B12",
-        "B-LZavala", "B-Oswaldo", "B-Serapio"
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "B-LZavala",
+        "B-Oswaldo",
+        "B-Serapio",
+        "B1-BIS",
+        "B1",
+        "B12",
+        "B2",
+        "B3",
+        "B4",
+        "B5-BIS",
+        "B5",
+        "B6",
+        "B7",
+        "B8"
       ],
-      "documentos_adicionales": ["PRÓLOGO", "QUÉ ES ARCHIVO VIVO"],
-      "nota": "Contado desde /entradas/aprobadas/ el 31 marzo 2026. 22 archivos en carpeta (20 entradas + PRÓLOGO + QUÉ ES ARCHIVO VIVO). Tres entradas nuevas aprobadas desde el 30 marzo: B-LZavala, B-Oswaldo, B-Serapio."
+      "documentos_adicionales": [
+        "PRÓLOGO"
+      ],
+      "nota": "Actualizado 2026-04-18. 20 entradas aprobadas en datos/borradores/."
     },
     "borradores": {
       "total": 3,
-      "lista": ["B9", "B11", "B-Madruga"],
-      "nota": "Contado desde /entradas/borradores/ el 2 abril 2026. Tres borradores presentes: B9_borrador.md, B11_borrador.md, B-Madruga_borrador.md. ALERTA: B-Madruga no aparece en AV_MAPA.md — requiere atención de Dan."
+      "lista": [
+        "B-Madruga_borrador",
+        "B11_borrador",
+        "B9_borrador"
+      ],
+      "nota": "Actualizado 2026-04-18. 3 borradores pendientes de aprobación de Dan."
     },
     "recuperar": {
-      "total": 3,
-      "lista": ["B9", "B10", "B11"],
-      "nota": "Archivos corruptos en /entradas/recuperar/. Solo B9, B10, B11 requieren recuperación real."
+      "total": 0,
+      "lista": [],
+      "nota": "Actualizado 2026-04-18. Los 4 archivos corruptos (B8-B11_CORRUPTO) fueron eliminados el 2026-04-18."
     },
     "pendientes_con_insumos": {
       "total": 8,
-      "lista": ["B-SuarezCaamal", "B-GuerraCastas", "B-Bolonchenticul", "A7", "A8", "E-ChanCil", "C8", "D3"]
+      "lista": [
+        "B-SuarezCaamal",
+        "B-GuerraCastas",
+        "B-Bolonchenticul",
+        "A7",
+        "A8",
+        "E-ChanCil",
+        "C8",
+        "D3"
+      ]
     },
     "pendientes_sin_insumos": {
       "total": 25,
       "nota": "Ver AV_MAPA.md para lista completa"
     }
   },
-
   "como_actualizar": {
     "instruccion": "Al iniciar sesión, el agente ejecuta estas verificaciones:",
     "pasos": [

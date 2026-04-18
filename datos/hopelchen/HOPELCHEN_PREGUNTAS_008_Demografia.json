@@ -50,8 +50,9 @@
       ],
       "prioridad": "Alta",
       "conexion_hipotesis": "La pérdida lingüística acelerada en Hopelchén es la evidencia más directa del proceso de destrucción cultural documentado desde la quema de los códices en 1562 (Nodo 002). Si la pérdida se aceleró con la llegada de menonitas (1987) y la expansión agroindustrial (2007), entonces hay causalidad directa entre el ciclo extractivo contemporáneo y la destrucción de la lengua.",
-      "estado": "RESPONDIDA PARCIALMENTE — registro 008-J: 2020 = 12,777 hablantes maya (30.5%); autoadscripción indígena 70.93%; monolingüismo 1.55%. Evolución histórica 1950-2000 requiere censos históricos.",
-      "registro_respuesta": "008-J"
+      "estado": "RESPONDIDA PARCIALMENTE",
+      "registro_respuesta": "008-J",
+      "hallazgos": "registro 008-J: 2020 = 12,777 hablantes maya (30.5%); autoadscripción indígena 70.93%; monolingüismo 1.55%. Evolución histórica 1950-2000 requiere censos históricos."
     },
     {
       "pregunta_id": "P008-04",
@@ -65,9 +66,10 @@
       ],
       "prioridad": "Alta",
       "conexion_hipotesis": "El impacto demográfico de la Guerra de Castas en Hopelchén es el momento más documentable del patrón extractivo como catástrofe humana. No es abstracto — son personas concretas muertas o desplazadas como consecuencia directa del despojo de tierras que detonó la guerra (Nodo 003: 45% de las 800,000 ha enajenadas correspondían a la región de Hopelchén).",
-      "estado": "RESPONDIDA PARCIALMENTE — registro 008-B: 1846 ~26,000 hab. en Los Chenes y desaparición del 40% de establecimientos agrícolas tras la Guerra de Castas; faltan cifras nominales de muertes/desplazamiento por localidad.",
+      "estado": "RESPONDIDA PARCIALMENTE",
       "registro_respuesta": "008-B",
-      "nota_respuesta": "Con evidencia interna ya consolidada en 008-B se documenta el impacto estructural, pero no el conteo nominal de personas fallecidas o desplazadas."
+      "nota_respuesta": "Con evidencia interna ya consolidada en 008-B se documenta el impacto estructural, pero no el conteo nominal de personas fallecidas o desplazadas.",
+      "hallazgos": "registro 008-B: 1846 ~26,000 hab. en Los Chenes y desaparición del 40% de establecimientos agrícolas tras la Guerra de Castas; faltan cifras nominales de muertes/desplazamiento por localidad."
     },
     {
       "pregunta_id": "P008-05",
@@ -114,9 +116,10 @@
       ],
       "prioridad": "Media",
       "conexion_hipotesis": "Un escritor en lengua maya de Hopelchén activo en el siglo XXI es la encarnación más directa de la resistencia cultural documentada desde el Nodo 001. La lengua que el poder colonial intentó destruir desde 1562 (auto de fe de Maní) sigue produciendo literatura en 2023.",
-      "estado": "RESPONDIDA PARCIALMENTE — registro 008-D: testimonio documentado de Romualdo Eleazar Méndez Huchín sobre pérdida cultural y marginación; falta catálogo completo de obras y otros autores cheneros en maya.",
+      "estado": "RESPONDIDA PARCIALMENTE",
       "registro_respuesta": "008-D",
-      "nota_respuesta": "Se incorporó testimonio directo del escritor chenero en lengua maya con fuente periodística; pendiente profundizar bibliografía y corpus literario local."
+      "nota_respuesta": "Se incorporó testimonio directo del escritor chenero en lengua maya con fuente periodística; pendiente profundizar bibliografía y corpus literario local.",
+      "hallazgos": "registro 008-D: testimonio documentado de Romualdo Eleazar Méndez Huchín sobre pérdida cultural y marginación; falta catálogo completo de obras y otros autores cheneros en maya."
     },
     {
       "pregunta_id": "P008-08",
@@ -130,8 +133,9 @@
       ],
       "prioridad": "Media",
       "conexion_hipotesis": "Si las comunidades más indígenas son las más pobres y más alejadas del poder, la estructura espacial del municipio replica en miniatura la estructura histórica del despojo documentada en los Nodos 001-007: los mayas, en los márgenes; el poder, en el centro.",
-      "estado": "RESPONDIDA PARCIALMENTE — registro 008-K: 70.93% autoadscripción indígena municipal; colonias menonitas 0% maya; localidades rurales pequeñas tienen mayor densidad. Dato por localidad (90%+) requiere base ITER-INEGI 2020.",
-      "registro_respuesta": "008-K"
+      "estado": "RESPONDIDA PARCIALMENTE",
+      "registro_respuesta": "008-K",
+      "hallazgos": "registro 008-K: 70.93% autoadscripción indígena municipal; colonias menonitas 0% maya; localidades rurales pequeñas tienen mayor densidad. Dato por localidad (90%+) requiere base ITER-INEGI 2020."
     }
   ],
   "hallazgos_para_siguiente_nodo": [

@@ -8,6 +8,7 @@ datos/investigacion/*
 # Python
 __pycache__/
 *.py[cod]
+*.pyc
 *.pyo
 *.pyd
 .Python

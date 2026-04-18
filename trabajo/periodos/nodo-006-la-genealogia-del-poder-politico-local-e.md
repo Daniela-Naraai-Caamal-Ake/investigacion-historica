@@ -34,7 +34,7 @@ _Origen: PorEsto — 'Homenaje 67 aniversario de Hopelchén como ciudad' (febrer
 
 | Campo | Valor |
 |---|---|
-| **Tipo** | contexto |
+| **Tipo** | Genealógico — síntesis de múltiples fuentes documentales |
 | **Fecha / Período** | Siglo XIX tardío — 2026 |
 | **Lugar** | Hopelchén, Campeche |
 | **Personajes** | — |
@@ -44,6 +44,7 @@ _Origen: PorEsto — 'Homenaje 67 aniversario de Hopelchén como ciudad' (febrer
 
 > Una fuente periodística (PorEsto, 2019) documenta explícitamente la existencia de un conjunto de apellidos 'profundamente cheneros' que han generado 'una serie de combinaciones familiares muy conocidas en toda la península': Lara, Calderón, Solís, Baqueiro, Barrera. Las combinaciones documentadas incluyen: Lara Calderón, Calderón Lara, Lara Solís, Lara Barrera, Barrera Baqueiro, Lara y Lara.
 
+_Origen: Caamal, Daniela Naraai. Datos de legisladores_hopelchen_1861-2003.json. Proyecto Archivo Vivo, 2026. Fuente: Digesto Constitucional Mexicano — Campeche (SCJN, 2010). [F012]_
 **⚠ Nota/contradicción:** El artículo periodístico sobre Efraín Calderón Lara documenta que fue asesinado por sus posiciones sindicales y de izquierda — lo que significa que dentro del mismo linaje familiar chenero hubo división política profunda: unos miembros de la familia controlaban el poder priista y económico de Hopelc
 **→ Conexión hipótesis:** La documentación de los apellidos cheneros como redes familiares de poder confirma que la transmisión del control político en Hopelchén no es solo institucional (PRI) sino también genealógica. El mism
 **Etiquetas:** apellidos cheneros, Lara, Calderón, Barrera, Baqueiro, genealogía, poder familiar, PRI, sindicalismo, fractura interna, transmisión poder, Efraín Calderón Lara
@@ -108,6 +109,7 @@ _Origen: Tabasco HOY — 'Alcalde de Hopelchén tiene a toda su familia en nómi
 
 > El alcalde electo en junio 2024 e inaugurado en octubre 2024 es el Ing. Hiram Aranda Calderón. Su apellido ARANDA coincide con el del autor de la monografía histórica más importante del municipio: Mario Heberto Aranda González (1985), cuya obra 'Apuntaciones históricas y literarias del municipio de Hopelchén, Campeche' es la fuente local histórica de mayor prioridad en todo el repositorio. Su segundo apellido CALDERÓN conecta directamente con el linaje chenero más documentado (familia Calderón-Lara). Fue electo con votación del 7 de junio de 2024, acreditado mediante Constancia de Mayoría del Consejo Distrital 18.
 
+_Origen: Tribuna Campeche. "Denuncian al alcalde Hiram Aranda por abuso de poder, manipulación del sistema catastral y falsificación de documentos." Noviembre 2025. https://tribunacampeche.com/11/denuncian-al-alcalde-hiram-aranda-por-abuso-de-poder-manipulacion-del-sistema-catastral-y-falsificacion-de-documentos/728424/ [F062]_
 **→ Conexión hipótesis:** Si el alcalde actual es pariente del único historiador local conocido, entonces el control de la narrativa histórica (hipótesis central del proyecto) y el control del poder político actual convergen e
 **Etiquetas:** Hiram Aranda Calderón, alcalde 2024, Aranda González, historiador local, Calderón, parentesco, narrativa histórica, poder familiar, fuente primaria local
 

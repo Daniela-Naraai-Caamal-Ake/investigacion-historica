@@ -271,7 +271,9 @@
         "fractura interna",
         "transmisión poder",
         "Efraín Calderón Lara"
-      ]
+      ],
+      "fuente": "Caamal, Daniela Naraai. Datos de legisladores_hopelchen_1861-2003.json. Proyecto Archivo Vivo, 2026. Fuente: Digesto Constitucional Mexicano — Campeche (SCJN, 2010). [F012]",
+      "tipo_dato": "Genealógico — síntesis de múltiples fuentes documentales"
     },
     {
       "registro_id": "006-C",
@@ -364,6 +366,15 @@
         "narrativa histórica",
         "poder familiar",
         "fuente primaria local"
+      ],
+      "fuente": "Tribuna Campeche. \"Denuncian al alcalde Hiram Aranda por abuso de poder, manipulación del sistema catastral y falsificación de documentos.\" Noviembre 2025. https://tribunacampeche.com/11/denuncian-al-alcalde-hiram-aranda-por-abuso-de-poder-manipulacion-del-sistema-catastral-y-falsificacion-de-documentos/728424/ [F062]",
+      "fuente_academica": "IEEC — Acuerdo CG 26/06 (2006). Lista de presidentes municipales electos de Hopelchén. https://www.ieec.org.mx/documentacion/acuerdosactas/2006/mayo/acuerdocg2606_a1.pdf",
+      "fuentes_candidatas": [
+        {
+          "id": "F062",
+          "descripcion": "[F062] Tribuna Campeche (2025). Denuncian al alcalde Hiram Aranda por abuso de poder, manipu. URL: https://tribunacampeche.com/11/denuncian-al-alcalde-hiram-aranda-por-abuso-de-poder-manipulacion-del-sistema-catastral-y-falsificacion-de-documentos/728424/",
+          "origen": "investigacion_web_2026-04-18"
+        }
       ]
     },
     {
@@ -546,6 +557,13 @@
         "poder político",
         "PRI",
         "Morena"
+      ],
+      "fuentes_candidatas": [
+        {
+          "id": "F063",
+          "descripcion": "[F063] Tribuna Campeche (2024). Clan Sansores: el gran aliado de Morena. URL: https://tribunacampeche.com/16/clan-sansoresel-gran-aliado-de-morena/696558/",
+          "origen": "investigacion_web_2026-04-18"
+        }
       ]
     }
   ],

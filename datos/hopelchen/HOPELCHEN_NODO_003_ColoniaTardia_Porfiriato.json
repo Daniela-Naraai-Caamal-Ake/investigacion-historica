@@ -192,6 +192,13 @@
         "320 acres",
         "palo de tinte",
         "Gran Bretaña"
+      ],
+      "fuentes_candidatas": [
+        {
+          "id": "F055",
+          "descripcion": "[F055] Joaquín Baranda y Quijano (1907-1913). Recordaciones Históricas (2 tomos).",
+          "origen": "investigacion_web_2026-04-18"
+        }
       ]
     },
     {
@@ -238,6 +245,18 @@
         "Hopelchén voto",
         "control aduanas",
         "identidad regional construida"
+      ],
+      "fuentes_candidatas": [
+        {
+          "id": "F055",
+          "descripcion": "[F055] Joaquín Baranda y Quijano (1907-1913). Recordaciones Históricas (2 tomos).",
+          "origen": "investigacion_web_2026-04-18"
+        },
+        {
+          "id": "F058",
+          "descripcion": "[F058] Cantún Caamal (2012). La reforma agraria en Campeche, ¿permanencia de una cultura . URL: http://secuencia.mora.edu.mx/index.php/Secuencia/article/view/1143/1007",
+          "origen": "investigacion_web_2026-04-18"
+        }
       ]
     },
     {

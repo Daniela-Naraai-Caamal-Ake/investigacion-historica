@@ -59,8 +59,6 @@ try:
 except ImportError:
     _REQUESTS_OK = False
 
-# Clave Firecrawl: se lee de la variable de entorno o del archivo .env
-
 def _verificar_dependencias() -> None:
     if not _REQUESTS_OK:
         print(
@@ -588,7 +586,7 @@ def modulo_familysearch(solo_guia: bool = False) -> None:
     print(f"  ✅  Módulo FamilySearch: guía guardada en {ruta.name}")
 
 
-# ─── Módulo Firecrawl ─────────────────────────────────────────────────────────
+# ─── Extracción de términos desde nodos ───────────────────────────────────────
 
 
 def _recopilar_terminos_desde_nodos() -> list[dict]:
