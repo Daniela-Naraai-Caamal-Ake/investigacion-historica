@@ -36,7 +36,8 @@
       ],
       "prioridad": "Alta — es la pregunta más importante del proyecto en este período",
       "conexion_hipotesis": "Los bataboob son el eslabón entre el poder prehispánico y el poder colonial. Si sus apellidos aparecen en haciendas del siglo XIX, se confirma la transmisión de élites.",
-      "estado": "PENDIENTE"
+      "estado": "RESPONDIDA PARCIALMENTE",
+      "hallazgos": "Los bataboob de Hopelchén en 1669 no han sido nombrados individualmente en fuentes secundarias accesibles. El caso documentado más cercano es el batab Juan Yam, líder de la rebelión de Sahcabchén (1669), quien enviaba mensajes a los pueblos colindantes con Hopelchén. Su rebelión se originó en Tzuctok. Fuente primaria: AGI México 3050 (autos 1669). Los bataboob organizados en linajes controlaban Bolonchén, Dzibalchén, Hopelchén y otras aldeas autónomas (Revista Bicentenario). Nombres específicos pendientes de consulta directa en AGI."
     },
     {
       "pregunta_id": "P002-03",
@@ -79,7 +80,8 @@
       ],
       "prioridad": "Media",
       "conexion_hipotesis": "La primera mención documental de Hopelchén puede contener el primer nombre propio asociado al asentamiento — sea un fraile, un encomendero, o un batab.",
-      "estado": "PENDIENTE"
+      "estado": "RESPONDIDA PARCIALMENTE",
+      "hallazgos": "La expedición de 1622 que pasó por Hopelchén iba rumbo a los Itzaes de Petén Itzá (Guatemala). Una fuente turística (Guía Turística México) menciona que \"en 1622, al pasar por este lugar un grupo español que intentaba conquistar a los itzaes... da a conocer las primeras noticias de lo que es hoy la ciudad de Hopelchén\". Los nombres de los integrantes de esa expedición no han sido localizados en fuentes secundarias accesibles. Pendiente: buscar en AGI Audiencia de México y en Scholes/Roys, \"The Maya Chontal Indians of Acalán-Tixchel\" (1948)."
     },
     {
       "pregunta_id": "P002-06",
@@ -94,7 +96,8 @@
       ],
       "prioridad": "Media",
       "conexion_hipotesis": "Los frailes fundadores de Hopelchén son los constructores de la narrativa religiosa y educativa colonial que reemplazó al conocimiento maya. Identificarlos es identificar quiénes quemaron la memoria.",
-      "estado": "PENDIENTE"
+      "estado": "RESPONDIDA PARCIALMENTE",
+      "hallazgos": "Los franciscanos administraron la doctrina de Hopelchén desde el siglo XVII. El fraile Cristóbal Sánchez está documentado en Sahcabchén en 1669 (zona colindante). Los siglos XVI-XVII corresponden a la construcción de los primeros templos católicos en los principales núcleos indígenas del área (múltiples fuentes). Los nombres específicos de los frailes de Hopelchén pendientes: consultar Archivo Franciscano (UNAM) y Cogolludo, \"Historia de Yucatán\" (1688)."
     },
     {
       "pregunta_id": "P002-07",
@@ -108,7 +111,8 @@
       ],
       "prioridad": "Media",
       "conexion_hipotesis": "Si hay ejecuciones de líderes mayas en Los Chenes en 1546-1547, eso explicaría el 'vacío de poder' que permitió la congregación de 1621 — eliminaron a la élite resistente y 74 años después formalizaron el control.",
-      "estado": "PENDIENTE"
+      "estado": "RESPONDIDA PARCIALMENTE",
+      "hallazgos": "La rebelión de 1546 (segunda gran rebelión maya peninsular) afectó el oriente de Yucatán. Los Chenes estaban en zona limítrofe entre territorios controlados y territorios de \"apóstatas y fugitivos\". No se han localizado menciones específicas de Hopelchén en los registros de 1546. Pendiente: consultar AGI Justicia 1016 (proceso contra caciques rebeldes 1546-1547) y Landa, \"Relación de las cosas de Yucatán\"."
     },
     {
       "pregunta_id": "P002-08",
@@ -123,7 +127,8 @@
       ],
       "prioridad": "Alta — conexión directa con hipótesis de destrucción del conocimiento",
       "conexion_hipotesis": "El auto de fe de Maní es el acto más literalmente documentado de destrucción del conocimiento maya por una élite de poder externo. Si afectó a Los Chenes, la hipótesis central del proyecto tiene evidencia directa.",
-      "estado": "PENDIENTE"
+      "estado": "RESPONDIDA PARCIALMENTE",
+      "hallazgos": "El auto de fe de Maní (julio 1562, Diego de Landa) afectó principalmente a mayas del área de Maní-Sotuta. No se han localizado referencias específicas a Los Chenes en los procesos de 1562. Los Chenes estaban en área limítrofe menos controlada por la iglesia. Pendiente: consultar Clendinnen, \"Ambivalent Conquests\" (1987) y los Autos de fe en AGI Justicia 249."
     }
   ],
   "hallazgos_criticos_para_siguiente_nodo": [

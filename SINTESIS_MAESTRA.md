@@ -3,7 +3,7 @@
 > **Dos Mil Años en Silencio** — Investigación histórica sobre Hopelchén y Los Chenes  
 > Autora: **Daniela Naraai Caamal Ake**  
 > ⚙ Generado automáticamente por `tools/generar_sintesis.py`  
-> Última actualización: **2026-04-18 08:08**
+> Última actualización: **2026-04-18 08:17**
 
 ---
 
@@ -610,9 +610,9 @@ Efraín (padre)
 
 | Estado | Cantidad |
 |--------|----------|
-| 🔴 PENDIENTE | 43 |
+| 🔴 PENDIENTE | 28 |
 | 🟡 EN PROCESO | 1 |
-| 🟠 RESPONDIDA PARCIALMENTE | 23 |
+| 🟠 RESPONDIDA PARCIALMENTE | 38 |
 | 🟢 RESPONDIDA | 1 |
 | **TOTAL** | **68** |
 
@@ -635,18 +635,11 @@ Efraín (padre)
 
 | ID | Nodo | Prioridad | Pregunta |
 |----|------|-----------|----------|
-| `P001-01` | PREGUNTAS | Alta | ¿Quiénes eran exactamente los bataboob que en 1669 aún detentaban el poder local en Hopelchén y 'rep… |
 | `P001-02` | PREGUNTAS | Alta | ¿Existe documentación del Archivo de Indias o del AGN sobre encomiendas específicas otorgadas en Los… |
 | `P001-03` | PREGUNTAS | Media | ¿Hay datación más antigua (preclásica anterior a 300 a.C.) en Santa Rosa Xtampak o en algún otro sit… |
-| `P001-06` | PREGUNTAS | Media | ¿Qué rutas comerciales prehispánicas específicas pasaban por Los Chenes? ¿Hay sacbés (calzadas mayas… |
 | `P001-07` | PREGUNTAS | Media | ¿Existen estudios de LiDAR en el municipio de Hopelchén que hayan revelado asentamientos no conocido… |
 | `P001-08` | PREGUNTAS | Media | ¿Hay algún registro de conocimiento astronómico, calendárico o científico maya específicamente asoci… |
-| `P002-02` | PREGUNTAS | Alta — es la pregunta más importante del proyecto en este período | ¿Quiénes eran los bataboob de Hopelchén en 1669? ¿Cuáles eran sus nombres y apellidos? ¿Cuál es la f… |
 | `P002-03` | PREGUNTAS | Alta | ¿Quién fue el primer encomendero de Los Chenes / Hopelchén? ¿Qué productos específicos tributaban lo… |
-| `P002-05` | PREGUNTAS | Media | ¿Quiénes formaban la expedición española de 1622 que pasó por Hopelchén rumbo a los Itzaes de Petén?… |
-| `P002-06` | PREGUNTAS | Media | ¿Qué fray o frailes franciscanos fundaron y administraron la doctrina de Hopelchén entre 1621 y 1667… |
-| `P002-07` | PREGUNTAS | Media | ¿Hay registros de la rebelión de 1546 que mencionen específicamente a Los Chenes o a poblaciones del… |
-| `P002-08` | PREGUNTAS | Alta — conexión directa con hipótesis de destrucción del conocimiento | ¿El auto de fe de Maní (1562, Diego de Landa) afectó específicamente a mayas de Los Chenes? ¿Qué lib… |
 | `P003-02` | PREGUNTAS | Alta | ¿Qué tierras específicas en el municipio de Hopelchén fueron adquiridas por compañías deslindadoras … |
 | `P003-03` | PREGUNTAS | Alta | ¿Qué dice la publicación 'Recordaciones Históricas' de Joaquín Baranda sobre Hopelchén? ¿Qué omite? … |
 | `P003-04` | PREGUNTAS | Media-Alta | ¿Qué pasó con las concesiones de 320 acres prometidas a los 938 soldados mercenarios estadounidenses… |
@@ -660,41 +653,48 @@ Efraín (padre)
 | `P005-04` | PREGUNTAS | Media-Alta | ¿Cuántas hectáreas ha perdido Hopelchén de cobertura forestal en total acumulado desde 1987 (llegada… |
 | `P005-05` | PREGUNTAS | MÁXIMA — pendiente desde Nodo 004 | ¿Qué dice el libro de Aranda González (1985) sobre la historia política de Hopelchén en el siglo XX?… |
 | `P005-06` | PREGUNTAS | Alta — acceso inmediato disponible | ¿Qué dice el estudio de Ute Schüren (Ibero-Amerikanisches Institut, Berlín, 2013) sobre las rutas de… |
-| `P006-03` | PREGUNTAS | Media-Alta | ¿Cuál fue el resultado de la investigación de la Fiscalía General del Estado de Campeche sobre el pr… |
-| `P006-04` | PREGUNTAS | Alta — situación activa | ¿Cuál es el estado actual de la denuncia de Edgar Manuel Poot Yeh contra Hiram Aranda Calderón y Her… |
-| `P006-05` | PREGUNTAS | Alta | ¿Quién es la persona que recibe directamente los fondos del FAIS para obra pública en Hopelchén, sal… |
 | `P007-02` | PREGUNTAS | Alta | ¿Cuándo llegaron por primera vez escuelas, centros de salud y autoridades civiles permanentes a las … |
 | `P007-03` | PREGUNTAS | Alta | ¿Cuál es el paradero del Archivo Municipal de Hopelchén y qué fondos documentales tiene disponibles … |
 | `P007-04` | PREGUNTAS | Alta | ¿Existe la obra mayor de Schüren sobre Los Chenes (Schüren 2003a, libro completo)? ¿Dónde se puede c… |
 | `P007-06` | PREGUNTAS | Media | ¿Qué pasó con los terrenos de los campos de aterrizaje chicleros de Hopelchén y X Can Há después del… |
 | `P007-07` | PREGUNTAS | Media | ¿Cuál era el itinerario exacto del viajero Rodolfo Schuller (1923) en el sur de Los Chenes? ¿El diar… |
 | `P007-08` | PREGUNTAS | Media | ¿Hay mapas históricos del municipio de Hopelchén del siglo XIX y principios del XX que muestren la d… |
-| `P008-02` | PREGUNTAS | Alta | ¿Qué datos nominales contiene el Censo de 1930 de Hopelchén disponible en FamilySearch? ¿Aparecen ap… |
-| `P008-05` | PREGUNTAS | Media-Alta | ¿Cuál es la tasa de emigración de jóvenes desde Hopelchén hacia las ciudades (Campeche, Mérida, Ciud… |
-| `P009-01` | PREGUNTAS | Alta | ¿Quiénes eran los bataboob de Hopelchén en 1669? ¿Sus nombres, linajes y relación con las comunidade… |
-| `P009-05` | PREGUNTAS | Media | ¿Existen organizaciones mayas activas en Hopelchén que no sean Maya Ka'an? ¿Redes de comunidades eji… |
 
 ### 🟠 RESPONDIDAS PARCIALMENTE — completar
 
 | ID | Nodo | Pregunta |
 |----|------|----------|
+| `P001-01` | PREGUNTAS | ¿Quiénes eran exactamente los bataboob que en 1669 aún detentaban el poder local en Hopelchén y 'rep… |
 | `P001-04` | PREGUNTAS | ¿Qué dice la epigrafía de la Estela 2 de Santa Rosa Xtampak sobre el personaje 'JOL' y su relación c… |
 | `P001-05` | PREGUNTAS | ¿Qué documentos o evidencias existen sobre los Xiues en el territorio de lo que hoy es Hopelchén? ¿Q… |
+| `P001-06` | PREGUNTAS | ¿Qué rutas comerciales prehispánicas específicas pasaban por Los Chenes? ¿Hay sacbés (calzadas mayas… |
+| `P002-02` | PREGUNTAS | ¿Quiénes eran los bataboob de Hopelchén en 1669? ¿Cuáles eran sus nombres y apellidos? ¿Cuál es la f… |
 | `P002-04` | PREGUNTAS | ¿Los Xiúes de Dzibil-Noh-Aac (hoy Iturbide) tenían vínculos documentados con los Xiúes de Maní? ¿Qué… |
+| `P002-05` | PREGUNTAS | ¿Quiénes formaban la expedición española de 1622 que pasó por Hopelchén rumbo a los Itzaes de Petén?… |
+| `P002-06` | PREGUNTAS | ¿Qué fray o frailes franciscanos fundaron y administraron la doctrina de Hopelchén entre 1621 y 1667… |
+| `P002-07` | PREGUNTAS | ¿Hay registros de la rebelión de 1546 que mencionen específicamente a Los Chenes o a poblaciones del… |
+| `P002-08` | PREGUNTAS | ¿El auto de fe de Maní (1562, Diego de Landa) afectó específicamente a mayas de Los Chenes? ¿Qué lib… |
 | `P003-06` | PREGUNTAS | ¿Qué datos específicos sobre Los Chenes contiene el estudio de Ute Schüren (2013) del Ibero-Amerikan… |
 | `P004-05` | PREGUNTAS | ¿Cuándo llegaron los primeros menonitas a Hopelchén y cuántas hectáreas han adquirido históricamente… |
 | `P004-06` | PREGUNTAS | ¿Quién fue Jorge Carlos Hurtado Valdez (gobernador en 2007 cuando Hopelchén fue declarada Capital de… |
+| `P006-03` | PREGUNTAS | ¿Cuál fue el resultado de la investigación de la Fiscalía General del Estado de Campeche sobre el pr… |
+| `P006-04` | PREGUNTAS | ¿Cuál es el estado actual de la denuncia de Edgar Manuel Poot Yeh contra Hiram Aranda Calderón y Her… |
+| `P006-05` | PREGUNTAS | ¿Quién es la persona que recibe directamente los fondos del FAIS para obra pública en Hopelchén, sal… |
 | `P006-06` | PREGUNTAS | ¿Qué vínculos existen entre los presidentes municipales de Hopelchén (2018-2026) y los menonitas, la… |
 | `P006-07` | PREGUNTAS | ¿Existe continuidad genealógica entre Pedro Advíncula Lara (jefe político-hacendado porfiriano de Lo… |
 | `P007-05` | PREGUNTAS | ¿Cuándo llegó la Carretera Federal 261 a Hopelchén y Dzibalchén? ¿Bajo qué gobierno federal y estata… |
+| `P008-02` | PREGUNTAS | ¿Qué datos nominales contiene el Censo de 1930 de Hopelchén disponible en FamilySearch? ¿Aparecen ap… |
 | `P008-03` | PREGUNTAS | ¿Cómo ha evolucionado el porcentaje de hablantes de lengua maya en Hopelchén entre 1960 y 2020? ¿Hay… |
 | `P008-04` | PREGUNTAS | ¿Cuál fue el impacto demográfico específico de la Guerra de Castas en Hopelchén? ¿Cuántas personas m… |
+| `P008-05` | PREGUNTAS | ¿Cuál es la tasa de emigración de jóvenes desde Hopelchén hacia las ciudades (Campeche, Mérida, Ciud… |
 | `P008-06` | PREGUNTAS | ¿Cuántos menonitas viven actualmente en el municipio de Hopelchén? ¿En qué colonias? ¿Qué porcentaje… |
 | `P008-07` | PREGUNTAS | ¿Qué dice el escritor en lengua maya Romualdo Eleazar Méndez Huchín sobre la pérdida cultural en Hop… |
 | `P008-08` | PREGUNTAS | ¿Cuántas comunidades del municipio de Hopelchén tienen más del 90% de población indígena como Cancab… |
+| `P009-01` | PREGUNTAS | ¿Quiénes eran los bataboob de Hopelchén en 1669? ¿Sus nombres, linajes y relación con las comunidade… |
 | `P009-02` | PREGUNTAS | ¿Qué pasó con Juan de Dios May después del ataque a Hopelchén en 1848? ¿Fue capturado, huyó, murió? … |
 | `P009-03` | PREGUNTAS | ¿Cuándo exactamente comenzó la organización Maya Ka'an? ¿Qué comunidades la integran? ¿Cómo se distr… |
 | `P009-04` | PREGUNTAS | ¿Qué ocurrió después de la victoria de Leydy Pech en 2017? ¿Las comunidades de Hopelchén recuperaron… |
+| `P009-05` | PREGUNTAS | ¿Existen organizaciones mayas activas en Hopelchén que no sean Maya Ka'an? ¿Redes de comunidades eji… |
 | `P009-06` | PREGUNTAS | ¿Cómo se organiza actualmente la meliponicultura de Xunáan Kab en Hopelchén? ¿Cuántas familias la pr… |
 
 ---
@@ -876,7 +876,7 @@ Total borradores: **28**
 
 ## Notas de generación
 
-- **Generado:** 2026-04-18 08:08
+- **Generado:** 2026-04-18 08:17
 - **Script:** `tools/generar_sintesis.py`
 - **Repositorio:** Daniela-Naraai-Caamal-Ake/investigacion-historica
 - **Regenerar:** `python tools/generar_sintesis.py`

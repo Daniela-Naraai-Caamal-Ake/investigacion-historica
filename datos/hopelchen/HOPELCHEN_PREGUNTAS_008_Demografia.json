@@ -33,7 +33,8 @@
       ],
       "prioridad": "Alta",
       "conexion_hipotesis": "Los apellidos en el Censo de 1930 de Hopelchén pueden conectar directamente con los apellidos de poder del Nodo 006 (presidentes municipales 1959-2026) y con los contratistas chicleros del Nodo 004. Si los mismos apellidos aparecen como 'propietarios' o 'comerciantes' en 1930 y como alcaldes en 1960-1970, la cadena de transmisión del poder quedaría documentada numéricamente.",
-      "estado": "PENDIENTE"
+      "estado": "RESPONDIDA PARCIALMENTE",
+      "hallazgos": "El Censo de 1930 de Hopelchén está microfilmado y disponible en FamilySearch: \"Censo de población del municipio de Hopelchén, Campeche, 1930\" (https://www.familysearch.org/es/wiki/Hopelchén,_Campeche,_México_-_Genealogía). Nota: algunas imágenes solo se pueden ver en un Centro FamilySearch o Biblioteca afiliada (por acuerdos contractuales). El censo de 1930 (INEGI) cubre localidades del municipio incluyendo haciendas y ranchos. Los datos nominales exactos del censo pendientes de consulta directa del microfilm."
     },
     {
       "pregunta_id": "P008-03",
@@ -79,7 +80,8 @@
       ],
       "prioridad": "Media-Alta",
       "conexion_hipotesis": "Si la emigración de jóvenes es masiva, Hopelchén no solo pierde su ecosistema natural — pierde su capital humano. El mismo patrón que Schüren documentó para el período post-chicle (intelectuales como Gerónimo Baqueiro Foster y Humberto Lara que se fueron a Ciudad de México y Mérida) continúa hoy con los jóvenes cheneros.",
-      "estado": "PENDIENTE"
+      "estado": "RESPONDIDA PARCIALMENTE",
+      "hallazgos": "Datos disponibles: municipio Hopelchén 2010 = 37,777 hab. (19,306 H / 18,471 M); 70.93% población indígena; 46.85% habla lengua indígena (INEGI 2010). Cabecera Hopelchén 2020 = ~8,048-9,000 hab. (PueblosAmérica.com). Tasa de emigración juvenil específica no documentada en fuentes digitales accesibles. El 12.80% de la población del municipio proviene de fuera del estado de Campeche (INEGI 2010) — incluye menonitas. Pendiente: INEGI microdatos del Censo 2020 y CONAPO proyecciones municipales."
     },
     {
       "pregunta_id": "P008-06",

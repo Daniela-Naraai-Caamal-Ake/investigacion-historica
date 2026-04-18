@@ -18,9 +18,9 @@ Estado posible: `PENDIENTE` · `EN PROCESO` · `RESPONDIDA PARCIALMENTE` · `RES
 
 | Estado | Cantidad |
 |--------|----------|
-| 🔴 PENDIENTE | 37 |
+| 🔴 PENDIENTE | 22 |
 | 🟡 EN PROCESO | 1 |
-| 🟠 RESPONDIDA PARCIALMENTE | 23 |
+| 🟠 RESPONDIDA PARCIALMENTE | 38 |
 | 🟢 RESPONDIDA | 1 |
 | **TOTAL** | **62** |
 
@@ -60,7 +60,7 @@ Estas preguntas son cuellos de botella: sin ellas, capítulos enteros quedan inc
 | **P006-01** | ¿Existe conexión genealógica entre Hiram Aranda Calderón (alcalde 2024-2027), Mario Heberto Aranda González… | 006 | Registro Civil del Estado de Campeche — actas con apellido Aranda/Baranda; Archivo Notarial de Campeche — testamentos y escrituras de la familia Baranda, siglos XIX-XX | 🟠 RESPONDIDA PARCIALMENTE |
 | **P006-08** | ¿Quién fue el presidente municipal de Hopelchén durante 1987-1992 — período en que llegaron los primeros me… | 006 | Periódico Oficial del Estado de Campeche — ediciones 1987-1993: periodicooficial.campeche.gob.mx; IEEC — registros electorales municipales Campeche 1988-1992 | 🟠 RESPONDIDA PARCIALMENTE — registro 006-A: Enrique González Vargas ('Don Lico') en funciones en 1984; Julio Alberto Sa… |
 | **P006-09** | ¿Existe parentesco entre Julio Alberto Sansores Sansores (ex-presidente municipal de Hopelchén, mencionado … | 006 | Wikipedia — Layda Sansores San Román (sección familia y origen); IEEC — Acuerdo CG 26/06 (2006): https://www.ieec.org.mx/documentacion/acuerdosactas/2006/mayo/acuerdocg2606_a1.pdf | 🟠 RESPONDIDA PARCIALMENTE |
-| **P006-10** | ¿Qué cambios de uso de suelo autorizó cada administración municipal de Hopelchén entre 1987 y 2024? ¿En qué… | 006 | Registro Agrario Nacional (RAN) — cambios de uso de suelo en Hopelchén por año; Semarnat — expedientes de cambio de uso de suelo en municipio de Hopelchén | 🔴 PENDIENTE |
+| **P006-10** | ¿Qué cambios de uso de suelo autorizó cada administración municipal de Hopelchén entre 1987 y 2024? ¿En qué… | 006 | Registro Agrario Nacional (RAN) — cambios de uso de suelo en Hopelchén por año; Semarnat — expedientes de cambio de uso de suelo en municipio de Hopelchén | 🟠 RESPONDIDA PARCIALMENTE |
 
 
 ### Nodo 007 — Rutas, Territorio y Control del Espacio en Hopelchén (1517–2
@@ -86,7 +86,7 @@ Estas preguntas son cuellos de botella: sin ellas, capítulos enteros quedan inc
 
 | ID | Pregunta | Nodo | Dónde buscar | Estado |
 |----|----------|------|--------------|--------|
-| **P001-01** | ¿Quiénes eran exactamente los bataboob que en 1669 aún detentaban el poder local en Hopelchén y 'repudiaban… | 001 | Archivo General de la Nación — Ramo Inquisición, Congregaciones; Archivo del Obispado de Yucatán (Mérida) | 🔴 PENDIENTE |
+| **P001-01** | ¿Quiénes eran exactamente los bataboob que en 1669 aún detentaban el poder local en Hopelchén y 'repudiaban… | 001 | Archivo General de la Nación — Ramo Inquisición, Congregaciones; Archivo del Obispado de Yucatán (Mérida) | 🟠 RESPONDIDA PARCIALMENTE |
 | **P001-02** | ¿Existe documentación del Archivo de Indias o del AGN sobre encomiendas específicas otorgadas en Los Chenes… | 001 | Archivo General de Indias, Sevilla — Sección Audiencia de México; AGN México — Ramo Mercedes y Encomiendas | 🔴 PENDIENTE |
 | **P001-05** | ¿Qué documentos o evidencias existen sobre los Xiues en el territorio de lo que hoy es Hopelchén? ¿Qué rela… | 001 | Libros de Chilam Balam — especialmente el de Chumayel y el de Maní; Ralph Roys — The Political Geography of the Yucatan Maya (Carnegie Institution, 1957) | 🟠 RESPONDIDA PARCIALMENTE — registro 002-I: Los Xiúes de Dzibil-Noh-Aac (Iturbide) documentados; nexo exacto con Los Ch… |
 
@@ -119,8 +119,8 @@ Estas preguntas son cuellos de botella: sin ellas, capítulos enteros quedan inc
 | ID | Pregunta | Nodo | Dónde buscar | Estado |
 |----|----------|------|--------------|--------|
 | **P006-02** | ¿Quiénes fueron los presidentes municipales de Hopelchén entre 1970 y 2018? ¿Sus nombres, apellidos, partid… | 006 | Periódico Oficial del Estado de Campeche — archivo histórico: periodicooficial.campeche.gob.mx; Instituto Electoral del Estado de Campeche (IEEC) — registros electorales históricos | 🟡 EN PROCESO |
-| **P006-04** | ¿Cuál es el estado actual de la denuncia de Edgar Manuel Poot Yeh contra Hiram Aranda Calderón y Herminio M… | 006 | Fiscalía Anticorrupción del Estado de Campeche; Tribuna Campeche — seguimiento desde noviembre 2025 | 🔴 PENDIENTE |
-| **P006-05** | ¿Quién es la persona que recibe directamente los fondos del FAIS para obra pública en Hopelchén, saltando a… | 006 | Congreso del Estado de Campeche — actas de sesión diciembre 2025; SHCP — padrón de beneficiarios del FAIS en Hopelchén (datos.gob.mx) | 🔴 PENDIENTE |
+| **P006-04** | ¿Cuál es el estado actual de la denuncia de Edgar Manuel Poot Yeh contra Hiram Aranda Calderón y Herminio M… | 006 | Fiscalía Anticorrupción del Estado de Campeche; Tribuna Campeche — seguimiento desde noviembre 2025 | 🟠 RESPONDIDA PARCIALMENTE |
+| **P006-05** | ¿Quién es la persona que recibe directamente los fondos del FAIS para obra pública en Hopelchén, saltando a… | 006 | Congreso del Estado de Campeche — actas de sesión diciembre 2025; SHCP — padrón de beneficiarios del FAIS en Hopelchén (datos.gob.mx) | 🟠 RESPONDIDA PARCIALMENTE |
 | **P006-06** | ¿Qué vínculos existen entre los presidentes municipales de Hopelchén (2018-2026) y los menonitas, las empre… | 006 | RAN — contratos de arrendamiento ejidal en Hopelchén 2010-2026; Aserca — padrón de subsidios agrícolas en Hopelchén | 🟠 RESPONDIDA PARCIALMENTE — registro 006-G documenta estructuralmente que la hegemonía PRI 1959-2021 coincide con la ll… |
 | **P006-11** | ¿Quién es Efraín Calderón Lara 'Charras'? ¿Cuándo y por qué fue asesinado? ¿Cuál era su relación exacta con… | 006 | PorEsto — 'Recuerdos de Efraín Calderón Lara Charras' (Feb 2019): https://www.poresto.com/yucatan/2019/2/11/recuerdos-de-efrain-calderon-lara-charras.html; Yucatán Cultura — 'Efraín Calderón Lara Charras: ¡Asesinado por la reacción!' (Feb 2021): https://yucatancultura.com/asesinado-efrain-calderon-charras/ | 🟢 RESPONDIDA |
 
@@ -138,7 +138,7 @@ Estas preguntas son cuellos de botella: sin ellas, capítulos enteros quedan inc
 
 | ID | Pregunta | Nodo | Dónde buscar | Estado |
 |----|----------|------|--------------|--------|
-| **P008-02** | ¿Qué datos nominales contiene el Censo de 1930 de Hopelchén disponible en FamilySearch? ¿Aparecen apellidos… | 008 | FamilySearch — Centro de la Ciudad de México o Mérida; INEGI — Quinto Censo de Población 1930, Estado de Campeche (PDF disponible pero difícil de leer) | 🔴 PENDIENTE |
+| **P008-02** | ¿Qué datos nominales contiene el Censo de 1930 de Hopelchén disponible en FamilySearch? ¿Aparecen apellidos… | 008 | FamilySearch — Centro de la Ciudad de México o Mérida; INEGI — Quinto Censo de Población 1930, Estado de Campeche (PDF disponible pero difícil de leer) | 🟠 RESPONDIDA PARCIALMENTE |
 | **P008-03** | ¿Cómo ha evolucionado el porcentaje de hablantes de lengua maya en Hopelchén entre 1960 y 2020? ¿Hay datos … | 008 | INEGI — Censos históricos con datos de hablantes de lengua indígena por municipio; INALI — Catálogo de Lenguas Indígenas y datos de vitalidad de la lengua maya | 🟠 RESPONDIDA PARCIALMENTE — registro 008-J: 2020 = 12,777 hablantes maya (30.5%); autoadscripción indígena 70.93%; mono… |
 | **P008-04** | ¿Cuál fue el impacto demográfico específico de la Guerra de Castas en Hopelchén? ¿Cuántas personas murieron… | 008 | Memoria del partido de los Chenes 1868 (citada en Schüren 2013 — buscar original en Archivo General del Estado de Campeche); Nelson Reed — La Guerra de Castas de Yucatán (libro académico clave con datos demográficos) | 🟠 RESPONDIDA PARCIALMENTE — registro 008-B: 1846 ~26,000 hab. en Los Chenes y desaparición del 40% de establecimientos … |
 
@@ -147,7 +147,7 @@ Estas preguntas son cuellos de botella: sin ellas, capítulos enteros quedan inc
 
 | ID | Pregunta | Nodo | Dónde buscar | Estado |
 |----|----------|------|--------------|--------|
-| **P009-01** | ¿Quiénes eran los bataboob de Hopelchén en 1669? ¿Sus nombres, linajes y relación con las comunidades que g… | 009 | Cogolludo, Diego López de — Historia de Yucatán (1688): buscar referencias a 'bataboob', 'Los Chenes', 'Hopelchén'; Archivo General de Indias (PARES) — Sección Audiencia de México, siglo XVII | 🔴 PENDIENTE |
+| **P009-01** | ¿Quiénes eran los bataboob de Hopelchén en 1669? ¿Sus nombres, linajes y relación con las comunidades que g… | 009 | Cogolludo, Diego López de — Historia de Yucatán (1688): buscar referencias a 'bataboob', 'Los Chenes', 'Hopelchén'; Archivo General de Indias (PARES) — Sección Audiencia de México, siglo XVII | 🟠 RESPONDIDA PARCIALMENTE |
 | **P009-03** | ¿Cuándo exactamente comenzó la organización Maya Ka'an? ¿Qué comunidades la integran? ¿Cómo se distribuye e… | 009 | Sociedad de Productores de Miel Maya Ka'an — documentos de fundación y estatutos; Goldman Prize dossier 2020 — ficha técnica de la candidatura de Leydy Pech | 🟠 RESPONDIDA PARCIALMENTE |
 | **P009-04** | ¿Qué ocurrió después de la victoria de Leydy Pech en 2017? ¿Las comunidades de Hopelchén recuperaron tierra… | 009 | AIDA — actualizaciones del caso Hopelchén post-2017; Semarnat — informes de la mesa permanente de diálogo (2021-2026) | 🟠 RESPONDIDA PARCIALMENTE |
 
@@ -182,7 +182,7 @@ Estas preguntas son cuellos de botella: sin ellas, capítulos enteros quedan inc
 
 | ID | Pregunta | Nodo | Dónde buscar | Estado |
 |----|----------|------|--------------|--------|
-| **P006-03** | ¿Cuál fue el resultado de la investigación de la Fiscalía General del Estado de Campeche sobre el presunto … | 006 | Fiscalía General del Estado de Campeche — expedientes públicos; Tribuna Campeche — seguimiento del caso desde enero 2023 | 🔴 PENDIENTE |
+| **P006-03** | ¿Cuál fue el resultado de la investigación de la Fiscalía General del Estado de Campeche sobre el presunto … | 006 | Fiscalía General del Estado de Campeche — expedientes públicos; Tribuna Campeche — seguimiento del caso desde enero 2023 | 🟠 RESPONDIDA PARCIALMENTE |
 | **P006-07** | ¿Existe continuidad genealógica entre Pedro Advíncula Lara (jefe político-hacendado porfiriano de Los Chene… | 006 | Registro Civil de Hopelchén — árboles genealógicos del apellido Lara; Aranda González (1985) — posibles menciones a la familia Lara | 🟠 RESPONDIDA PARCIALMENTE — legisladores_hopelchen_1861-2003.json: el apellido Lara aparece en el poder desde 1862 hast… |
 
 
@@ -197,7 +197,7 @@ Estas preguntas son cuellos de botella: sin ellas, capítulos enteros quedan inc
 
 | ID | Pregunta | Nodo | Dónde buscar | Estado |
 |----|----------|------|--------------|--------|
-| **P008-05** | ¿Cuál es la tasa de emigración de jóvenes desde Hopelchén hacia las ciudades (Campeche, Mérida, Ciudad del … | 008 | Data México — pirámide de edad de Hopelchén comparando 2005 y 2020; INEGI — Censo 2020: migrantes internos por municipio de origen/destino | 🔴 PENDIENTE |
+| **P008-05** | ¿Cuál es la tasa de emigración de jóvenes desde Hopelchén hacia las ciudades (Campeche, Mérida, Ciudad del … | 008 | Data México — pirámide de edad de Hopelchén comparando 2005 y 2020; INEGI — Censo 2020: migrantes internos por municipio de origen/destino | 🟠 RESPONDIDA PARCIALMENTE |
 | **P008-06** | ¿Cuántos menonitas viven actualmente en el municipio de Hopelchén? ¿En qué colonias? ¿Qué porcentaje repres… | 008 | Observatorio Ciudadano — Menonitas arrasan selvas de Campeche: https://obsci.org/menonitas-arrasan-selvas-de-campeche/; PorEsto — datos de colonias menonitas en Hopelchén | 🟠 RESPONDIDA PARCIALMENTE |
 
 
@@ -218,7 +218,7 @@ Estas preguntas son cuellos de botella: sin ellas, capítulos enteros quedan inc
 | ID | Pregunta | Nodo | Dónde buscar | Estado |
 |----|----------|------|--------------|--------|
 | **P001-03** | ¿Hay datación más antigua (preclásica anterior a 300 a.C.) en Santa Rosa Xtampak o en algún otro sitio de H… | 001 | Tesis de Maestría: Richard B. Stamps (1970) — Brigham Young University — 'A Study of Late Classic Maya Architecture at Santa Rosa Xtampak'; Informe Proyecto Arqueológico Santa Rosa Xtampak — INAH Centro Campeche | 🔴 PENDIENTE |
-| **P001-06** | ¿Qué rutas comerciales prehispánicas específicas pasaban por Los Chenes? ¿Hay sacbés (calzadas mayas) docum… | 001 | William Folan — Universidad Autónoma de Campeche — estudios de patrón de asentamiento; INAH Centro Campeche — mapas arqueológicos | 🔴 PENDIENTE |
+| **P001-06** | ¿Qué rutas comerciales prehispánicas específicas pasaban por Los Chenes? ¿Hay sacbés (calzadas mayas) docum… | 001 | William Folan — Universidad Autónoma de Campeche — estudios de patrón de asentamiento; INAH Centro Campeche — mapas arqueológicos | 🟠 RESPONDIDA PARCIALMENTE |
 | **P001-07** | ¿Existen estudios de LiDAR en el municipio de Hopelchén que hayan revelado asentamientos no conocidos o la … | 001 | NASA G-LiHT system — Goddard Space Flight Center; INAH Centro Campeche — atlas arqueológico | 🔴 PENDIENTE |
 | **P001-08** | ¿Hay algún registro de conocimiento astronómico, calendárico o científico maya específicamente asociado a L… | 001 | Anthony F. Aveni, Anne S. Dowd y Benjamin Vining (2003) — 'Maya Calendar Reform? Evidence from Orientations of Specialized Architectural Assemblages'. Latin American Antiquity 14(2):159-178; INAH — Mediateca — archivos de Hochob y Xtampak | 🔴 PENDIENTE |
 
@@ -227,9 +227,9 @@ Estas preguntas son cuellos de botella: sin ellas, capítulos enteros quedan inc
 
 | ID | Pregunta | Nodo | Dónde buscar | Estado |
 |----|----------|------|--------------|--------|
-| **P002-05** | ¿Quiénes formaban la expedición española de 1622 que pasó por Hopelchén rumbo a los Itzaes de Petén? ¿Hay u… | 002 | AGI Sevilla — Audiencia de México / Guatemala — expediciones al Petén 1620-1630; Crónicas franciscanas de Yucatán — siglo XVII | 🔴 PENDIENTE |
-| **P002-06** | ¿Qué fray o frailes franciscanos fundaron y administraron la doctrina de Hopelchén entre 1621 y 1667 (año d… | 002 | Archivo Franciscano de la Biblioteca Nacional de México; Registro de la Provincia de San José de Yucatán (franciscanos) | 🔴 PENDIENTE |
-| **P002-07** | ¿Hay registros de la rebelión de 1546 que mencionen específicamente a Los Chenes o a poblaciones del actual… | 002 | AGI — Justicia 1012-1016 (procesos de la rebelión de 1546); Landa, Diego de — Relación de las Cosas de Yucatán | 🔴 PENDIENTE |
+| **P002-05** | ¿Quiénes formaban la expedición española de 1622 que pasó por Hopelchén rumbo a los Itzaes de Petén? ¿Hay u… | 002 | AGI Sevilla — Audiencia de México / Guatemala — expediciones al Petén 1620-1630; Crónicas franciscanas de Yucatán — siglo XVII | 🟠 RESPONDIDA PARCIALMENTE |
+| **P002-06** | ¿Qué fray o frailes franciscanos fundaron y administraron la doctrina de Hopelchén entre 1621 y 1667 (año d… | 002 | Archivo Franciscano de la Biblioteca Nacional de México; Registro de la Provincia de San José de Yucatán (franciscanos) | 🟠 RESPONDIDA PARCIALMENTE |
+| **P002-07** | ¿Hay registros de la rebelión de 1546 que mencionen específicamente a Los Chenes o a poblaciones del actual… | 002 | AGI — Justicia 1012-1016 (procesos de la rebelión de 1546); Landa, Diego de — Relación de las Cosas de Yucatán | 🟠 RESPONDIDA PARCIALMENTE |
 
 
 ### Nodo 003 — Colonia Tardía, Independencia, Guerra de Castas y el Porfiri
@@ -268,7 +268,7 @@ Estas preguntas son cuellos de botella: sin ellas, capítulos enteros quedan inc
 
 | ID | Pregunta | Nodo | Dónde buscar | Estado |
 |----|----------|------|--------------|--------|
-| **P009-05** | ¿Existen organizaciones mayas activas en Hopelchén que no sean Maya Ka'an? ¿Redes de comunidades ejidales, … | 009 | INPI (Instituto Nacional de los Pueblos Indígenas) — directorio de organizaciones indígenas en Campeche; CDI / INPI — proyectos productivos financiados en Hopelchén 2000-2026 | 🔴 PENDIENTE |
+| **P009-05** | ¿Existen organizaciones mayas activas en Hopelchén que no sean Maya Ka'an? ¿Redes de comunidades ejidales, … | 009 | INPI (Instituto Nacional de los Pueblos Indígenas) — directorio de organizaciones indígenas en Campeche; CDI / INPI — proyectos productivos financiados en Hopelchén 2000-2026 | 🟠 RESPONDIDA PARCIALMENTE |
 | **P009-06** | ¿Cómo se organiza actualmente la meliponicultura de Xunáan Kab en Hopelchén? ¿Cuántas familias la practican… | 009 | SAGARPA / SADER — padrón de apicultores en Hopelchén; CONAPESCA / SADER — volumen y valor de producción de miel en Hopelchén | 🟠 RESPONDIDA PARCIALMENTE |
 
 
@@ -281,8 +281,8 @@ Estas preguntas son cuellos de botella: sin ellas, capítulos enteros quedan inc
 
 | ID | Pregunta | Nodo | Dónde buscar | Estado |
 |----|----------|------|--------------|--------|
-| **P002-02** | ¿Quiénes eran los bataboob de Hopelchén en 1669? ¿Cuáles eran sus nombres y apellidos? ¿Cuál es la fuente p… | 002 | Cogolludo, Diego López de — Historia de Yucatán (1688) — buscar menciones de Hopelchén; AGN México — Ramo Indios — siglo XVII | 🔴 PENDIENTE |
-| **P002-08** | ¿El auto de fe de Maní (1562, Diego de Landa) afectó específicamente a mayas de Los Chenes? ¿Qué libros o c… | 002 | Chuchiak, John F. IV — The Inquisition in New Spain 1536-1820 (Hopkins, 2012); Restall, Matthew — Maya Conquistador (Beacon Press, 1998) | 🔴 PENDIENTE |
+| **P002-02** | ¿Quiénes eran los bataboob de Hopelchén en 1669? ¿Cuáles eran sus nombres y apellidos? ¿Cuál es la fuente p… | 002 | Cogolludo, Diego López de — Historia de Yucatán (1688) — buscar menciones de Hopelchén; AGN México — Ramo Indios — siglo XVII | 🟠 RESPONDIDA PARCIALMENTE |
+| **P002-08** | ¿El auto de fe de Maní (1562, Diego de Landa) afectó específicamente a mayas de Los Chenes? ¿Qué libros o c… | 002 | Chuchiak, John F. IV — The Inquisition in New Spain 1536-1820 (Hopkins, 2012); Restall, Matthew — Maya Conquistador (Beacon Press, 1998) | 🟠 RESPONDIDA PARCIALMENTE |
 
 
 ### Nodo 003 — Colonia Tardía, Independencia, Guerra de Castas y el Porfiri
