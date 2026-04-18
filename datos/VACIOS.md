@@ -18,11 +18,11 @@ Estado posible: `PENDIENTE` · `EN PROCESO` · `RESPONDIDA PARCIALMENTE` · `RES
 
 | Estado | Cantidad |
 |--------|----------|
-| 🔴 PENDIENTE | 0 |
-| 🟡 EN PROCESO | 1 |
-| 🟠 RESPONDIDA PARCIALMENTE | 60 |
+| 🔴 PENDIENTE | 3 |
+| 🟡 EN PROCESO | 0 |
+| 🟠 RESPONDIDA PARCIALMENTE | 64 |
 | 🟢 RESPONDIDA | 1 |
-| **TOTAL** | **62** |
+| **TOTAL** | **68** |
 
 
 ---
@@ -118,7 +118,7 @@ Estas preguntas son cuellos de botella: sin ellas, capítulos enteros quedan inc
 
 | ID | Pregunta | Nodo | Dónde buscar | Estado |
 |----|----------|------|--------------|--------|
-| **P006-02** | ¿Quiénes fueron los presidentes municipales de Hopelchén entre 1970 y 2018? ¿Sus nombres, apellidos, partid… | 006 | Periódico Oficial del Estado de Campeche — archivo histórico: periodicooficial.campeche.gob.mx; Instituto Electoral del Estado de Campeche (IEEC) — registros electorales históricos | 🟡 EN PROCESO |
+| **P006-02** | ¿Quiénes fueron los presidentes municipales de Hopelchén entre 1970 y 2018? ¿Sus nombres, apellidos, partid… | 006 | Periódico Oficial del Estado de Campeche — archivo histórico: periodicooficial.campeche.gob.mx; Instituto Electoral del Estado de Campeche (IEEC) — registros electorales históricos | 🟠 RESPONDIDA PARCIALMENTE |
 | **P006-04** | ¿Cuál es el estado actual de la denuncia de Edgar Manuel Poot Yeh contra Hiram Aranda Calderón y Herminio M… | 006 | Fiscalía Anticorrupción del Estado de Campeche; Tribuna Campeche — seguimiento desde noviembre 2025 | 🟠 RESPONDIDA PARCIALMENTE |
 | **P006-05** | ¿Quién es la persona que recibe directamente los fondos del FAIS para obra pública en Hopelchén, saltando a… | 006 | Congreso del Estado de Campeche — actas de sesión diciembre 2025; SHCP — padrón de beneficiarios del FAIS en Hopelchén (datos.gob.mx) | 🟠 RESPONDIDA PARCIALMENTE |
 | **P006-06** | ¿Qué vínculos existen entre los presidentes municipales de Hopelchén (2018-2026) y los menonitas, las empre… | 006 | RAN — contratos de arrendamiento ejidal en Hopelchén 2010-2026; Aserca — padrón de subsidios agrícolas en Hopelchén | 🟠 RESPONDIDA PARCIALMENTE |
@@ -150,6 +150,15 @@ Estas preguntas son cuellos de botella: sin ellas, capítulos enteros quedan inc
 | **P009-01** | ¿Quiénes eran los bataboob de Hopelchén en 1669? ¿Sus nombres, linajes y relación con las comunidades que g… | 009 | Cogolludo, Diego López de — Historia de Yucatán (1688): buscar referencias a 'bataboob', 'Los Chenes', 'Hopelchén'; Archivo General de Indias (PARES) — Sección Audiencia de México, siglo XVII | 🟠 RESPONDIDA PARCIALMENTE |
 | **P009-03** | ¿Cuándo exactamente comenzó la organización Maya Ka'an? ¿Qué comunidades la integran? ¿Cómo se distribuye e… | 009 | Sociedad de Productores de Miel Maya Ka'an — documentos de fundación y estatutos; Goldman Prize dossier 2020 — ficha técnica de la candidatura de Leydy Pech | 🟠 RESPONDIDA PARCIALMENTE |
 | **P009-04** | ¿Qué ocurrió después de la victoria de Leydy Pech en 2017? ¿Las comunidades de Hopelchén recuperaron tierra… | 009 | AIDA — actualizaciones del caso Hopelchén post-2017; Semarnat — informes de la mesa permanente de diálogo (2021-2026) | 🟠 RESPONDIDA PARCIALMENTE |
+
+
+### Nodo 010 — Conocimiento y Cultura Maya en Los Chenes (300 a.C. – 2026):
+
+| ID | Pregunta | Nodo | Dónde buscar | Estado |
+|----|----------|------|--------------|--------|
+| **P010-01** | ¿Existen informes técnicos del INAH sobre los alineamientos astronómicos específicos de Santa Rosa Xtampak … | 010 | INAH Centro Campeche — Proyecto Arqueológico Santa Rosa Xtampak (informes técnicos); Aveni, Dowd y Vining (2003) — 'Maya Calendar Reform? Evidence from Orientations of Specialized Architectural Assemblages'. Latin American Antiquity 14(2):159-178 | 🔴 PENDIENTE |
+| **P010-02** | ¿Puede identificarse el nombre completo y la posición dinástica del gobernante con glifo JOL en la Estela 2… | 010 | SciELO — artículo completo sobre epigrafía de Santa Rosa Xtampak (recuperar cita completa); FAMSI — Foundation for the Advancement of Mesoamerican Studies — base epigráfica | 🟠 RESPONDIDA PARCIALMENTE |
+| **P010-03** | ¿Cuántos hablantes de maya yucateco en Hopelchén son bilingües plenos versus hablantes pasivos? ¿En qué com… | 010 | INEGI — Censo 2020 — tabulados de lengua indígena por municipio y localidad; Instituto Nacional de Lenguas Indígenas (INALI) — datos de vitalidad del maya yucateco | 🔴 PENDIENTE |
 
 
 ---
@@ -206,6 +215,13 @@ Estas preguntas son cuellos de botella: sin ellas, capítulos enteros quedan inc
 | ID | Pregunta | Nodo | Dónde buscar | Estado |
 |----|----------|------|--------------|--------|
 | **P009-02** | ¿Qué pasó con Juan de Dios May después del ataque a Hopelchén en 1848? ¿Fue capturado, huyó, murió? ¿Cuál e… | 009 | Reed, Nelson — The Caste War of Yucatan (1964, reedición 2001): índice por nombres; Rugeley, Terry — Yucatan's Maya Peasantry and the Origins of the Caste War (1996) | 🟠 RESPONDIDA PARCIALMENTE |
+
+
+### Nodo 010 — Conocimiento y Cultura Maya en Los Chenes (300 a.C. – 2026):
+
+| ID | Pregunta | Nodo | Dónde buscar | Estado |
+|----|----------|------|--------------|--------|
+| **P010-06** | ¿Qué evidencia existe sobre el uso actual de medicina botánica tradicional maya en el municipio de Hopelché… | 010 | CIBNOR — Centro de Investigaciones Biológicas del Noroeste — estudios de etnobotánica en Campeche; UNAM Instituto de Biología — base de datos de plantas medicinales mayas | 🟠 RESPONDIDA PARCIALMENTE |
 
 
 ---
@@ -270,6 +286,14 @@ Estas preguntas son cuellos de botella: sin ellas, capítulos enteros quedan inc
 |----|----------|------|--------------|--------|
 | **P009-05** | ¿Existen organizaciones mayas activas en Hopelchén que no sean Maya Ka'an? ¿Redes de comunidades ejidales, … | 009 | INPI (Instituto Nacional de los Pueblos Indígenas) — directorio de organizaciones indígenas en Campeche; CDI / INPI — proyectos productivos financiados en Hopelchén 2000-2026 | 🟠 RESPONDIDA PARCIALMENTE |
 | **P009-06** | ¿Cómo se organiza actualmente la meliponicultura de Xunáan Kab en Hopelchén? ¿Cuántas familias la practican… | 009 | SAGARPA / SADER — padrón de apicultores en Hopelchén; CONAPESCA / SADER — volumen y valor de producción de miel en Hopelchén | 🟠 RESPONDIDA PARCIALMENTE |
+
+
+### Nodo 010 — Conocimiento y Cultura Maya en Los Chenes (300 a.C. – 2026):
+
+| ID | Pregunta | Nodo | Dónde buscar | Estado |
+|----|----------|------|--------------|--------|
+| **P010-04** | ¿Existen grabaciones, transcripciones o estudios académicos de Los Xtoles de Chan Cil (Hopelchén) además de… | 010 | Centro de Documentación Gerónimo Baqueiro Fóster — Universidad de las Artes de Yucatán; CENIDIM (Centro Nacional de Investigación, Documentación e Información Musical) — INBA | 🟠 RESPONDIDA PARCIALMENTE |
+| **P010-05** | ¿Las novelas de Hernán Lara Zavala (Charras, El lugar donde crece la hierba) contienen datos históricos ver… | 010 | Lara Zavala, Hernán — entrevistas y declaraciones sobre su proceso de investigación; ELEM — Enciclopedia de la Literatura en México [FX017] — entrada completa de Lara Zavala | 🔴 PENDIENTE |
 
 
 ---

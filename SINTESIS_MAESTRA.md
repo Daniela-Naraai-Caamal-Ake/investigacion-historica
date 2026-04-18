@@ -3,7 +3,7 @@
 > **Dos Mil Años en Silencio** — Investigación histórica sobre Hopelchén y Los Chenes  
 > Autora: **Daniela Naraai Caamal Ake**  
 > ⚙ Generado automáticamente por `tools/generar_sintesis.py`  
-> Última actualización: **2026-04-18 16:12**
+> Última actualización: **2026-04-18 20:41**
 
 ---
 
@@ -133,7 +133,7 @@ El libro está organizado en 10 nodos que combinan cronología y temática:
 | **003** | 1670 — 1910 | Colonia Tardía, Independencia, Guerra de Castas y el Porfiriato e… | 12 |
 | **004** | 1910 — 1970 | Revolución, Lucha Antiagraria, Reforma Agraria y la Economía Chic… | 10 |
 | **005** | 1970 — 2026 | Hopelchén Contemporáneo (1970–2026): Menonitas, Agroindustria Tra… | 7 |
-| **006** | 1959 — 2026 | La Genealogía del Poder Político Local en Hopelchén (1959–2026): … | 9 |
+| **006** | 1959 — 2026 | La Genealogía del Poder Político Local en Hopelchén (1959–2026): … | 10 |
 | **007** | 1517 — 2026 | Rutas, Territorio y Control del Espacio en Hopelchén (1517–2026):… | 11 |
 | **008** | 300 a.C. — 2026 | Demografía e Historia de la Población en Hopelchén (300 a.C.–2026… | 11 |
 | **009** | 1669 — 2026 | Resistencia y Agencia Maya en Hopelchén (1669–2026): De los Batab… | 11 |
@@ -251,6 +251,7 @@ El libro está organizado en 10 nodos que combinan cronología y temática:
 | `006-G` | 1517 — 2026 | CRUCE DE DATOS: Apellidos del poder en Hopelchén — de la Col… | ✅ legisladores_hopelchen_1861-2003.json — Digesto Co |
 | `006-H` | 1947 — 14 febrero 1974 | Efraín 'El Charras' Calderón Lara (1947–1974): el sindicalis… | ✅ Lara Zavala, Hernán. *Charras*. 1a ed. 1990; reed. |
 | `006-I` | c. 1990s — 2027 | Layda Sansores San Román (gobernadora 2021-2027) y el apelli… | ✅ IEEC Acuerdo CG 26/06 — Registro Wikipedia Layda S |
+| `006-J` | 2018-2021 | Sandy Areli Baas Cauich (2018-2021): primera mujer president… | ✅ Alcaldes de México. 'Configuración política de Cam |
 
 ---
 
@@ -428,6 +429,7 @@ Todos los eventos documentados, ordenados cronológicamente.
 | 2012 — 2017 | 2012–2017: La lucha jurídica de las comunidades mayas de Los Chenes co… | 005 |
 | ~2012–2018 | Nepotismo documentado: el caso España Novelo — el ayuntamiento como em… | 006 |
 | 2015 — 2026 | 2015–2026: Crisis ambiental acumulativa — agua contaminada, abejas mue… | 005 |
+| 2018-2021 | Sandy Areli Baas Cauich (2018-2021): primera mujer presidenta municipa… | 006 |
 | 2020 — 2026 | 2020–2026: La lucha continúa — amparo por derechos de la naturaleza y … | 005 |
 | 2020 | El perfil indígena de Hopelchén en 2020 — los mayas siguen siendo mayo… | 008 |
 | 2020 | Localidades del municipio de Hopelchén con alta concentración de pobla… | 008 |
@@ -612,9 +614,9 @@ Efraín (padre)
 
 | Estado | Cantidad |
 |--------|----------|
-| 🔴 PENDIENTE | 11 |
-| 🟡 EN PROCESO | 1 |
-| 🟠 RESPONDIDA PARCIALMENTE | 61 |
+| 🔴 PENDIENTE | 9 |
+| 🟡 EN PROCESO | 0 |
+| 🟠 RESPONDIDA PARCIALMENTE | 64 |
 | 🟢 RESPONDIDA | 1 |
 | **TOTAL** | **74** |
 
@@ -644,9 +646,7 @@ Efraín (padre)
 | `P005-06` | PREGUNTAS | Alta — acceso inmediato disponible | ¿Qué dice el estudio de Ute Schüren (Ibero-Amerikanisches Institut, Berlín, 2013) sobre las rutas de… |
 | `P010-01` | PREGUNTAS | Alta | ¿Existen informes técnicos del INAH sobre los alineamientos astronómicos específicos de Santa Rosa X… |
 | `P010-03` | PREGUNTAS | Alta | ¿Cuántos hablantes de maya yucateco en Hopelchén son bilingües plenos versus hablantes pasivos? ¿En … |
-| `P010-04` | PREGUNTAS | Media | ¿Existen grabaciones, transcripciones o estudios académicos de Los Xtoles de Chan Cil (Hopelchén) ad… |
 | `P010-05` | PREGUNTAS | Media | ¿Las novelas de Hernán Lara Zavala (Charras, El lugar donde crece la hierba) contienen datos históri… |
-| `P010-06` | PREGUNTAS | Media-Alta | ¿Qué evidencia existe sobre el uso actual de medicina botánica tradicional maya en el municipio de H… |
 
 ### 🟠 RESPONDIDAS PARCIALMENTE — completar
 
@@ -678,6 +678,7 @@ Efraín (padre)
 | `P004-04` | PREGUNTAS | ¿Qué fue de los campos aéreos de Hopelchén y X Can Há después del fin del auge chiclero? ¿Las tierra… |
 | `P004-05` | PREGUNTAS | ¿Cuándo llegaron los primeros menonitas a Hopelchén y cuántas hectáreas han adquirido históricamente… |
 | `P004-06` | PREGUNTAS | ¿Quién fue Jorge Carlos Hurtado Valdez (gobernador en 2007 cuando Hopelchén fue declarada Capital de… |
+| `P006-02` | PREGUNTAS | ¿Quiénes fueron los presidentes municipales de Hopelchén entre 1970 y 2018? ¿Sus nombres, apellidos,… |
 | `P006-03` | PREGUNTAS | ¿Cuál fue el resultado de la investigación de la Fiscalía General del Estado de Campeche sobre el pr… |
 | `P006-04` | PREGUNTAS | ¿Cuál es el estado actual de la denuncia de Edgar Manuel Poot Yeh contra Hiram Aranda Calderón y Her… |
 | `P006-05` | PREGUNTAS | ¿Quién es la persona que recibe directamente los fondos del FAIS para obra pública en Hopelchén, sal… |
@@ -704,6 +705,8 @@ Efraín (padre)
 | `P009-05` | PREGUNTAS | ¿Existen organizaciones mayas activas en Hopelchén que no sean Maya Ka'an? ¿Redes de comunidades eji… |
 | `P009-06` | PREGUNTAS | ¿Cómo se organiza actualmente la meliponicultura de Xunáan Kab en Hopelchén? ¿Cuántas familias la pr… |
 | `P010-02` | PREGUNTAS | ¿Puede identificarse el nombre completo y la posición dinástica del gobernante con glifo JOL en la E… |
+| `P010-04` | PREGUNTAS | ¿Existen grabaciones, transcripciones o estudios académicos de Los Xtoles de Chan Cil (Hopelchén) ad… |
+| `P010-06` | PREGUNTAS | ¿Qué evidencia existe sobre el uso actual de medicina botánica tradicional maya en el municipio de H… |
 
 ---
 
@@ -881,7 +884,7 @@ Total borradores: **25**
 
 ## Notas de generación
 
-- **Generado:** 2026-04-18 16:12
+- **Generado:** 2026-04-18 20:41
 - **Script:** `tools/generar_sintesis.py`
 - **Repositorio:** Daniela-Naraai-Caamal-Ake/investigacion-historica
 - **Regenerar:** `python tools/generar_sintesis.py`

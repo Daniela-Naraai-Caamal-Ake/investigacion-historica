@@ -1,7 +1,7 @@
 # Matriz de cruces — *Dos Mil Años en Silencio*
 
 > Autora: Daniela Naraai Caamal Ake  
-> Generado: 2026-04-18 16:12 UTC  
+> Generado: 2026-04-18 20:41 UTC  
 > ⚙ Generado automáticamente por `tools/generar_matriz_cruces.py`
 
 Este archivo es la **Capa 4 del sistema** (relaciones). Muestra cómo registros
@@ -93,6 +93,7 @@ evidencia del patrón estructural que la hipótesis propone verificar.
 | 006-E | 006 Poder Político Local | Si el alcalde actual es pariente del único historiador local conocido, entonces el control de la narrativa histórica (hi… |
 | 006-G | 006 Poder Político Local | CONFIRMACIÓN GENEALÓGICA DE LA HIPÓTESIS: La transmisión del poder político en Hopelchén sigue líneas familiares documen… |
 | 006-H | 006 Poder Político Local | El asesinato de Efraín Calderón Lara en 1974 documenta el límite de la agencia política dentro del sistema: se puede res… |
+| 006-J | 006 Poder Político Local | La elección de una mujer con apellido maya (Baas) como presidenta municipal en 2018 puede interpretarse como una ruptura… |
 | 007-A | 007 Rutas y Territorio | El Camino Real fue el primer instrumento de control territorial colonial en la Península — y Hopelchén era el último nod… |
 | 007-B | 007 Rutas y Territorio | El telégrafo es el instrumento de control político más directo de su era: permite que el poder central (Campeche, Ciudad… |
 | 007-I | 007 Rutas y Territorio | CONFIRMACIÓN ESPACIAL DE LA HIPÓTESIS: El control del territorio de Hopelchén se ha ejercido históricamente a través del… |
@@ -141,6 +142,7 @@ evidencia del patrón estructural que la hipótesis propone verificar.
 | 006-E | 006 Poder Político Local | Si el alcalde actual es pariente del único historiador local conocido, entonces el control de la narrativa histórica (hi… |
 | 006-G | 006 Poder Político Local | CONFIRMACIÓN GENEALÓGICA DE LA HIPÓTESIS: La transmisión del poder político en Hopelchén sigue líneas familiares documen… |
 | 006-H | 006 Poder Político Local | El asesinato de Efraín Calderón Lara en 1974 documenta el límite de la agencia política dentro del sistema: se puede res… |
+| 006-J | 006 Poder Político Local | La elección de una mujer con apellido maya (Baas) como presidenta municipal en 2018 puede interpretarse como una ruptura… |
 | 007-B | 007 Rutas y Territorio | El telégrafo es el instrumento de control político más directo de su era: permite que el poder central (Campeche, Ciudad… |
 | 008-D | 008 Demografía | El dato más poderoso del repositorio en términos de confirmación de la hipótesis: en el municipio donde los mayas son el… |
 | 008-E | 008 Demografía | La dispersión de 170 localidades en un municipio de 7,460 km² refleja la estrategia histórica maya de alejarse de los ce… |
@@ -242,6 +244,7 @@ evidencia del patrón estructural que la hipótesis propone verificar.
 | 006-A | 006 Poder Político Local | La cadena de presidentes municipales confirma: (1) hegemonía priista ininterrumpida desde al menos 1959 hasta ~2021; (2)… |
 | 006-B | 006 Poder Político Local | La documentación de los apellidos cheneros como redes familiares de poder confirma que la transmisión del control políti… |
 | 006-G | 006 Poder Político Local | CONFIRMACIÓN GENEALÓGICA DE LA HIPÓTESIS: La transmisión del poder político en Hopelchén sigue líneas familiares documen… |
+| 006-J | 006 Poder Político Local | La elección de una mujer con apellido maya (Baas) como presidenta municipal en 2018 puede interpretarse como una ruptura… |
 | 009-H | 009 Resistencia Maya | Francisco Caamal es evidencia directa del Nodo 009: la resistencia armada organizada en Los Chenes en 1848 no fue un eve… |
 
 ### `linaje` — 4 nodos
@@ -301,7 +304,7 @@ Cuántos registros contribuye cada nodo a los cruces detectados.
 | 003 | Colonia Tardía–Porfiriato | 12 | 3 | 10 |
 | 004 | Revolución–Chicle | 10 | 2 | 7 |
 | 005 | Contemporáneo | 7 | 1 | 7 |
-| 006 | Poder Político Local | 9 | 0 | 9 |
+| 006 | Poder Político Local | 10 | 0 | 10 |
 | 007 | Rutas y Territorio | 11 | 0 | 9 |
 | 008 | Demografía | 11 | 0 | 6 |
 | 009 | Resistencia Maya | 11 | 3 | 10 |

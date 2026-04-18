@@ -24,7 +24,7 @@
       "subtitulo": "Presidentes municipales de Hopelchén identificados: cadena de poder 1959–2026",
       "fecha_evento": "1959 — 2026",
       "lugar": "Hopelchén, Campeche",
-      "descripcion": "La cadena de presidentes municipales identificados a partir de fuentes periodísticas, electorales e institucionales, con sus filiaciones políticas cuando disponibles.",
+      "descripcion": "La cadena de presidentes municipales identificados a partir de fuentes periodísticas, electorales e institucionales, con sus filiaciones políticas cuando disponibles.\n\nPRESIDENTES MUNICIPALES DOCUMENTADOS (fuentes primarias IEEC):\n1959: José Guerrero Barahona | ~1984: Enrique González Vargas 'Don Lico' | ~1994: Pedro Lara y Lara | ~1995-97: Julio Alberto Sansores Sansores | ~1998-2000: Prof. José Antonio 'Xuna' Lara Cauich | 2000-2003: Jorge Lara López (PRI) | 2003-2006: Nidia Mildred Yeh Pantí (PRI) | 2006-2018: pendiente verificación directa en IEEC | 2018-2021: Sandy Areli Baas Cauich (PRI) | 2021-2024: Emilio Lara Calderón (PRI, licencia feb 2024) / Efraín Tun Montoy (suplente) | 2024-2027: Hiram Aranda Calderón (Fuerza y Corazón)",
       "cadena_presidentes": [
         {
           "nombre": "José Guerrero Barahona",
@@ -153,7 +153,7 @@
           "url": "https://www.alcaldesdemexico.com/notas-principales/configuracion-politica-de-campeche-2018-2021/"
         }
       ],
-      "tipo_dato": "Citado — múltiples fuentes periodísticas e institucionales verificadas",
+      "tipo_dato": "Citado — fuentes primarias institucionales IEEC verificadas parcialmente",
       "notas_contradiccion": "La lista de presidentes municipales de Hopelchén no existe en ninguna fuente centralizada pública. Ha sido reconstruida a partir de referencias cruzadas en noticias, actas electorales y documentos oficiales. Hay períodos sin identificar (c.1960-1983 y partes de los 2000s) donde faltan nombres. La ausencia de un registro histórico oficial de los presidentes municipales de Hopelchén en sí misma es un dato: la transparencia histórica de quién ha gobernado el municipio no existe formalmente.",
       "conexion_hipotesis": "La cadena de presidentes municipales confirma: (1) hegemonía priista ininterrumpida desde al menos 1959 hasta ~2021; (2) circulación del poder entre un grupo reducido de apellidos cheneros (Lara, Calderón, España, Baas, Sansores); (3) al menos un caso grave de nepotismo documentado (España Novelo 2012-2018); (4) el apellido Lara — el mismo del hacendado porfiriano — sigue en el poder municipal en 2021-2024.",
       "tags": [
@@ -564,6 +564,30 @@
           "descripcion": "[F063] Tribuna Campeche (2024). Clan Sansores: el gran aliado de Morena. URL: https://tribunacampeche.com/16/clan-sansoresel-gran-aliado-de-morena/696558/",
           "origen": "investigacion_web_2026-04-18"
         }
+      ]
+    },
+    {
+      "registro_id": "006-J",
+      "subtitulo": "Sandy Areli Baas Cauich (2018-2021): primera mujer presidenta municipal de Hopelchén",
+      "fecha_evento": "2018-2021",
+      "lugar": "Hopelchén, Campeche",
+      "descripcion": "Sandy Areli Baas Cauich fue electa presidenta municipal de Hopelchén para el periodo 2018-2021 por la coalición PRI-PVEM-Nueva Alianza ('Campeche para todos'). Es la primera mujer documentada como presidenta municipal de Hopelchén en la historia. Su elección ocurrió en el contexto en que PRI ganó 6 de 11 municipios de Campeche, mientras Morena ganó en Tenabo y Escárcega, y PAN en la capital. El apellido Baas es maya, lo que también contrasta con la genealogía criolla que dominó el municipio desde el siglo XIX.",
+      "fuente": "Alcaldes de México. 'Configuración política de Campeche 2018-2021.' Diciembre 2018. https://www.alcaldesdemexico.com/notas-principales/configuracion-politica-de-campeche-2018-2021/",
+      "tipo_dato": "Citado — fuente periodística institucional verificada",
+      "personajes": [
+        {
+          "nombre": "Sandy Areli Baas Cauich",
+          "cargo": "Presidenta Municipal de Hopelchén 2018-2021 (PRI-PVEM-NA)"
+        }
+      ],
+      "conexion_hipotesis": "La elección de una mujer con apellido maya (Baas) como presidenta municipal en 2018 puede interpretarse como una ruptura parcial del patrón de apellidos criollos que dominaron el cargo desde 1840. Sin embargo, el partido es el mismo (PRI) que ha controlado el municipio desde 1959. El apellido cambia, la estructura de poder permanece.",
+      "tags": [
+        "presidenta municipal",
+        "PRI",
+        "2018",
+        "primera mujer",
+        "Baas",
+        "continuidad poder"
       ]
     }
   ],

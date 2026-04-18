@@ -843,6 +843,96 @@
         "009",
         "010"
       ]
+    },
+    {
+      "id": "F070",
+      "tipo": "libro_academico",
+      "titulo": "Plantas medicinales de la Región de los Chenes, Hopelchén, Campeche",
+      "autor": "Leyva Trinidad, Doris Arianna (et al.)",
+      "año": "2019",
+      "editorial": "Colegio de Postgraduados Campus Campeche / COESICYDET",
+      "isbn": "",
+      "url": "https://bibliotecas.diputados.gob.mx/cgi-bin/koha/opac-detail.pl?biblionumber=318094",
+      "confiabilidad": 0.95,
+      "notas": "221 páginas. Financiado por COESICYDET y CONACYT en colaboración con el Instituto Nacional de los Pueblos Indígenas (INPI-Hopelchén). Compila plantas medicinales empleadas en la región de Los Chenes para conocimiento y divulgación. Fuente académica primaria específica para Hopelchén.",
+      "nodos_relacionados": [
+        "010",
+        "009"
+      ]
+    },
+    {
+      "id": "F071",
+      "tipo": "articulo_academico",
+      "titulo": "La medicina tradicional en Ich Ek, Hopelchén, Campeche: cuidar el cuerpo y los vínculos socio territoriales. Expresión patrimonial y resistencia social",
+      "autor": "Autores institucionales INAH / CIESAS",
+      "año": "2025",
+      "revista": "Glifos (Revista del INAH), núm. 44, pp. 21-29",
+      "url": "https://revistas.inah.gob.mx/index.php/glifos/article/view/22939",
+      "confiabilidad": 0.93,
+      "notas": "Artículo académico sobre medicina tradicional específicamente en Ich-Ek, Hopelchén. Documenta el Consejo Local de Médicos Indígenas de los Chenes (COLMICH). Conecta medicina tradicional con resistencia social y patrimonio cultural. Fuente reciente (2025) con datos de campo.",
+      "nodos_relacionados": [
+        "010",
+        "009",
+        "005"
+      ]
+    },
+    {
+      "id": "F072",
+      "tipo": "web_institucional",
+      "titulo": "Becarios indígenas de plantas medicinales — Rafael Eduardo Pérez López (Ich-Ek, Hopelchén)",
+      "autor": "Cultural Survival",
+      "año": "2023",
+      "url": "https://www.culturalsurvival.org/es/news/conoce-nuestros-jovenes-becarios-indigenas-que-estan-cuidando-de-las-plantas-tradicionales",
+      "confiabilidad": 0.85,
+      "notas": "Testimonio de Rafael Eduardo Pérez López, originario de Ich-Ek, Hopelchén, sobre medicina tradicional maya. Documenta la pérdida del conocimiento por la agroindustria y los agroquímicos. Conecta directamente con la hipótesis del proyecto.",
+      "nodos_relacionados": [
+        "010",
+        "005",
+        "009"
+      ]
+    },
+    {
+      "id": "F073",
+      "tipo": "articulo_academico",
+      "titulo": "Plantas medicinales, nativas e introducidas, usadas por las comunidades de Suc-Tuc, Ich-Ek y Hopelchén; municipio de Hopelchén, Campeche",
+      "autor": "Investigadores del Colegio de Postgraduados / UAC",
+      "año": "2018",
+      "url": "https://www.researchgate.net/publication/368684162",
+      "confiabilidad": 0.9,
+      "notas": "Estudio etnobotánico con 60 encuestas en tres comunidades del municipio de Hopelchén. Documenta uso actual de plantas medicinales nativas e introducidas. Suc-Tuc: 94.6% maya hablantes; Ich-Ek: 97.7% maya hablantes. Fuente cuantitativa sobre continuidad del conocimiento botánico maya.",
+      "nodos_relacionados": [
+        "010",
+        "008",
+        "009"
+      ]
+    },
+    {
+      "id": "F074",
+      "tipo": "recurso_musical",
+      "titulo": "Los Xtoles — análisis musicológico (VocalEssence Music Resource Guide)",
+      "autor": "Cózatl, Jorge (arreglista); VocalEssence ¡Cantaré! Series",
+      "año": "2016",
+      "url": "https://www.vocalessence.org/wp-content/uploads/2014/11/Xtoles-Music-guide2016.pdf",
+      "confiabilidad": 0.88,
+      "notas": "Análisis musicológico de Los Xtoles: confirma escala pentatónica, debate sobre antigüedad (prehispánica vs. siglo XIX). Transcripción musical disponible. Documenta dos versiones de la misma melodía. Confirma lo que Baqueiro Foster analizó en 1941 sobre la escala pentatónica maya.",
+      "nodos_relacionados": [
+        "010",
+        "004"
+      ]
+    },
+    {
+      "id": "F075",
+      "tipo": "web_institucional",
+      "titulo": "Enciclopedia Yet de Yucatán — entrada: Los Xtoles",
+      "autor": "Enciclopedia Yet de Yucatán",
+      "año": "s.f.",
+      "url": "https://enciclopediayet.com/category/enciclopedia-2/x/",
+      "confiabilidad": 0.82,
+      "notas": "Documenta Los Xtoles según el profesor Daniel Ayala: 'escala pentafónica del tipo A, sin semitonos: Sol índice 5, La, Si, Re, Mi'. Confirma autenticidad maya. También menciona X'tacumbil Xunáan (grutas de Bolonchén) y comerciantes libaneses en Hopelchén.",
+      "nodos_relacionados": [
+        "010",
+        "003"
+      ]
     }
   ]
 }

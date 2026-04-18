@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-04-18T16:12:49Z",
+  "generado_en": "2026-04-18T20:41:41Z",
   "nodos": [
     {
       "id": "001",
@@ -67,9 +67,9 @@
       "rango_temporal": "1959 — 2026",
       "año_inicio": 1959,
       "año_fin": 2026,
-      "n_registros": 9,
-      "n_con_fuente": 9,
-      "n_con_conexion": 9,
+      "n_registros": 10,
+      "n_con_fuente": 10,
+      "n_con_conexion": 10,
       "pct_fuente": 100.0,
       "pct_conexion": 100.0
     },
@@ -124,10 +124,10 @@
   ],
   "resumen": {
     "total_nodos": 10,
-    "total_registros": 97,
-    "total_con_fuente": 97,
+    "total_registros": 98,
+    "total_con_fuente": 98,
     "total_sin_fuente": 0,
-    "total_con_conexion": 97,
+    "total_con_conexion": 98,
     "total_sin_conexion": 0,
     "total_preguntas": 68,
     "pct_fuente_global": 100.0,
@@ -149,8 +149,7 @@
       },
       "005": {},
       "006": {
-        "Respondida": 10,
-        "En curso": 1
+        "Respondida": 11
       },
       "007": {
         "Respondida": 8
@@ -162,14 +161,13 @@
         "Respondida": 6
       },
       "010": {
-        "Pendiente": 5,
-        "Respondida": 1
+        "Pendiente": 3,
+        "Respondida": 3
       }
     },
     "totales": {
-      "Respondida": 62,
-      "En curso": 1,
-      "Pendiente": 5
+      "Respondida": 65,
+      "Pendiente": 3
     }
   },
   "cobertura": {
@@ -220,13 +218,14 @@
       "Citado — periodismo reciente verificado": 1,
       "Análisis estructural — síntesis del repositorio": 1,
       "Económico-ambiental — datos institucionales verificados": 1,
-      "Citado — múltiples fuentes periodísticas e institucionales verificadas": 1,
+      "Citado — fuentes primarias institucionales IEEC verificadas parcialmente": 1,
       "Genealógico — síntesis de múltiples fuentes documentales": 1,
       "Hipótesis pendiente de verificación — alta prioridad": 1,
       "Citado — pendiente verificación genealógica": 1,
       "Citado con análisis": 1,
       "Biográfico — documentado en fuente testimonial literaria y fuente periodística": 1,
       "Inferido — hipótesis pendiente de verificación": 1,
+      "Citado — fuente periodística institucional verificada": 1,
       "Citado — fuentes académicas e institucionales": 1,
       "Citado — verificable en Periódico Oficial de Campeche 1870": 1,
       "Citado — fuente primaria académica con citas directas": 1,
@@ -267,7 +266,7 @@
       "Literario-testimonial — archivos locales disponibles": 1
     },
     "tipos_agrupados": {
-      "Citado": 52,
+      "Citado": 53,
       "Análisis": 12,
       "Biográfico": 6,
       "Inferido": 6,

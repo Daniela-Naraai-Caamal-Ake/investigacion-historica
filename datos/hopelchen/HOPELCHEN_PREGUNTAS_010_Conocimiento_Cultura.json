@@ -70,9 +70,9 @@
       ],
       "prioridad": "Media",
       "conexion_hipotesis": "Los Xtoles documentados en Hopelchén en 1869 son evidencia de que el conocimiento musical maya sobrevivió 300 años después de la conquista. Encontrar grabaciones o estudios adicionales ampliaría el registro de la continuidad cultural.",
-      "estado": "PENDIENTE",
-      "hallazgos": "",
-      "registro_respuesta": ""
+      "estado": "RESPONDIDA PARCIALMENTE",
+      "hallazgos": "Los Xtoles documentados musicológicamente:\n- VocalEssence (2016) confirma escala pentatónica sin semitonos. Existen al menos dos versiones de la melodía. El musicólogo Daniel Ayala la clasifica como 'pentafónica tipo A: Sol, La, Si, Re, Mi'.\n- Mama Lisa's World (sitio de folclore infantil) tiene transcripción fonética de la letra.\n- Arreglo coral de Jorge Cózatl publicado por VocalEssence con partitura SATB disponible.\n- Debate musicológico sobre antigüedad: algunos la consideran prehispánica (danza guerrera al Sol), otros del siglo XIX.\n- Gerónimo Baqueiro Foster (nacido en Hopelchén) la analizó en su texto para El Colegio de México (1941) y documentó la escala pentatónica maya en los Xtoles.",
+      "registro_respuesta": "Los Xtoles documentados musicológicamente:\n- VocalEssence (2016) confirma escala pentatónica sin semitonos. Existen al menos dos versiones de la melodía. El musicólogo Daniel Ayala la clasifica como 'pentafónica tipo A: Sol, La, Si, Re, Mi'.\n- Mama Lisa's World (sitio de folclore infantil) tiene transcripción fonética de la letra.\n- Arreglo coral de Jorge Cózatl publicado por VocalEssence con partitura SATB disponible.\n- Debate musicológico sobre antigüedad: algunos la consideran prehispánica (danza guerrera al Sol), otros del siglo XIX.\n- Gerónimo Baqueiro Foster (nacido en Hopelchén) la analizó en su texto para El Colegio de México (1941) y documentó la escala pentatónica maya en los Xtoles."
     },
     {
       "pregunta_id": "P010-05",
@@ -104,9 +104,9 @@
       ],
       "prioridad": "Media-Alta",
       "conexion_hipotesis": "La medicina botánica tradicional es conocimiento vivo — si está documentada en Hopelchén, confirma que el tercer eje de la hipótesis (control del conocimiento) no fue total: hay conocimiento que sobrevivió 500 años de colonización.",
-      "estado": "PENDIENTE",
-      "hallazgos": "",
-      "registro_respuesta": ""
+      "estado": "RESPONDIDA PARCIALMENTE",
+      "hallazgos": "Medicina botánica tradicional maya en Hopelchén — evidencia actual:\n- Leyva Trinidad et al. (2019): libro completo sobre plantas medicinales de Los Chenes, Hopelchén. 221 págs. Colegio de Postgraduados / INPI-Hopelchén. [F070]\n- Estudio etnobotánico (2018) en Suc-Tuc, Ich-Ek y Hopelchén: 60 encuestas documentan uso actual. Suc-Tuc: 94.6% maya hablantes; Ich-Ek: 97.7% maya hablantes. [F073]\n- Glifos INAH (2025): 'La medicina tradicional en Ich-Ek, Hopelchén': documenta el Consejo Local de Médicos Indígenas de los Chenes (COLMICH). [F071]\n- Cultural Survival (2023): Rafael Eduardo Pérez López (Ich-Ek) documenta pérdida del conocimiento por agroindustria y agroquímicos. [F072]\n- Herbarios con información de plantas medicinales de Los Chenes existen en el INPI-Hopelchén.\n- SciELO (2012): menciona explícitamente Hopelchén como municipio con herbarios del COLMICH.",
+      "registro_respuesta": "Medicina botánica tradicional maya en Hopelchén — evidencia actual:\n- Leyva Trinidad et al. (2019): libro completo sobre plantas medicinales de Los Chenes, Hopelchén. 221 págs. Colegio de Postgraduados / INPI-Hopelchén. [F070]\n- Estudio etnobotánico (2018) en Suc-Tuc, Ich-Ek y Hopelchén: 60 encuestas documentan uso actual. Suc-Tuc: 94.6% maya hablantes; Ich-Ek: 97.7% maya hablantes. [F073]\n- Glifos INAH (2025): 'La medicina tradicional en Ich-Ek, Hopelchén': documenta el Consejo Local de Médicos Indígenas de los Chenes (COLMICH). [F071]\n- Cultural Survival (2023): Rafael Eduardo Pérez López (Ich-Ek) documenta pérdida del conocimiento por agroindustria y agroquímicos. [F072]\n- Herbarios con información de plantas medicinales de Los Chenes existen en el INPI-Hopelchén.\n- SciELO (2012): menciona explícitamente Hopelchén como municipio con herbarios del COLMICH."
     }
   ],
   "temas_sin_datos_aun": [
