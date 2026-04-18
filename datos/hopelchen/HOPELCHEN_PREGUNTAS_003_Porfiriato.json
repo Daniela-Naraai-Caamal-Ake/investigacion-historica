@@ -19,7 +19,8 @@
       ],
       "prioridad": "URGENTE",
       "conexion_hipotesis": "Es el caso más directo de confirmación del patrón: poder político + propiedad de tierra en la misma persona en Hopelchén.",
-      "estado": "PENDIENTE"
+      "estado": "PENDIENTE",
+      "hallazgos": "Pedro Advíncula Lara: no se han localizado referencias en fuentes digitales públicas (búsquedas en Google Scholar, Wikipedia, INAFED, periódicos históricos de Campeche). Es probable que la documentación exista solo en archivo físico. Fuentes a consultar: Registro Público de la Propiedad de Campeche (títulos Holcatzin y Santa Rita); Archivo Municipal de Hopelchén; AGEC (Archivo General del Estado de Campeche); y las propias \"Recordaciones Históricas\" de Baranda (Tomo II, 1913) que cubre la época del Porfiriato en Campeche."
     },
     {
       "pregunta_id": "P003-02",
@@ -34,7 +35,8 @@
       ],
       "prioridad": "Alta",
       "conexion_hipotesis": "Las compañías deslindadoras son el mecanismo de la globalización porfiriana para transferir tierras indígenas a capital extranjero. En Los Chenes, esta transferencia fue ejecutada por empresas como 'Mexican Exploitation'.",
-      "estado": "PENDIENTE"
+      "estado": "RESPONDIDA PARCIALMENTE",
+      "hallazgos": "Compañías deslindadoras en Los Chenes siglo XIX-XX: el proceso de concentración de tierras produjo latifundios de compañías extranjeras como \"Mexican Exploitation\" (dedicada a maderas preciosas: cedro, caoba, palo de tinte, chicle) (El Bable blog 2020, citando a Schüren 2003). Las comunidades de Los Chenes conservaron ejidos durante el porfiriato porque su geografía selvática les dio acceso a tierras sin mayor conflicto (Cantún Caamal, Secuencia 2012). Tierras específicas adquiridas por compañías en Hopelchén: pendiente de consulta en ASRAC Campeche y RAN."
     },
     {
       "pregunta_id": "P003-03",
@@ -48,7 +50,8 @@
       ],
       "prioridad": "Alta",
       "conexion_hipotesis": "La historia oficial de Campeche fue escrita por el político más poderoso de la región durante el Porfiriato. Analizar qué dice sobre los mayas de Los Chenes es analizar cómo el poder construye su propia narrativa.",
-      "estado": "PENDIENTE"
+      "estado": "RESPONDIDA PARCIALMENTE",
+      "hallazgos": "\"Recordaciones Históricas\" de Joaquín Baranda y Quijano (1840-1909): historia general de Campeche en 2 tomos. Tomo I c.1907, Tomo II terminado por su hijo Perfecto Baranda MacGregor (1913). Reeditada por CONACULTA/FCE (ISBN 9682928435 vol.1 / 9682928443 vol.2). Disponible en librerías especializadas (FCE Madrid, Amazon). Baranda fue gobernador de Campeche 1871-1877 y Secretario de Justicia e Instrucción Pública 1882-1901. Es la primera historia general de la entidad. Menciones específicas a Hopelchén: pendiente de consulta directa del texto."
     },
     {
       "pregunta_id": "P003-04",
@@ -62,7 +65,8 @@
       ],
       "prioridad": "Media-Alta",
       "conexion_hipotesis": "Si las concesiones de tierra a mercenarios extranjeros se ejecutaron en territorio de Los Chenes, habría propiedades con origen en la violencia armada de 1848 que luego pasarían a ser 'legítimas' bajo el registro porfiriano.",
-      "estado": "PENDIENTE"
+      "estado": "RESPONDIDA PARCIALMENTE",
+      "hallazgos": "Las concesiones de 320 acres para 938 soldados mercenarios de la Guerra de Castas (posiblemente confederados o yucatecos del siglo XIX): no se han localizado referencias específicas en fuentes digitales. El contexto sugiere relación con las propuestas de colonización militar durante 1848-1855. Pendiente: AGEC (Fondo Gobierno, Sección Gobernación) y Suárez Molina \"Historia de Yucatán\" para el período de posguerra de castas."
     },
     {
       "pregunta_id": "P003-05",
@@ -76,7 +80,8 @@
       ],
       "prioridad": "Media",
       "conexion_hipotesis": "La supervivencia de apellidos de líderes de resistencia en Hopelchén sería evidencia de que el linaje maya no fue eliminado — sigue presente, aunque invisibilizado por la narrativa dominante.",
-      "estado": "PENDIENTE"
+      "estado": "RESPONDIDA PARCIALMENTE",
+      "hallazgos": "Líderes mayas en zona de Chenes durante la Guerra de Castas: Juan de Dios May (atacó Hopelchén mayo 1848), Francisco Caamal, Anselmo Hau, Bonifacio Novelo, Gregorio Chin, Apolinar Tzeel, Juan Poot, Venancio Pec(h), Crescencio Poot (zona oriente de Campeche, Guía Turística México). Fuentes secundarias: Baqueiro \"Ensayo histórico sobre las revoluciones de Yucatán\" (1878); El Fénix de Campeche (1847-1850). Vínculos directos con Hopelchén vs. zona general Chenes: pendiente de consulta en hemeroteca digital y AGEC."
     },
     {
       "pregunta_id": "P003-06",
@@ -104,7 +109,8 @@
       ],
       "prioridad": "Media",
       "conexion_hipotesis": "La 'educación negada como clave de manipulación' es uno de los ejes del proyecto. Si bajo Baranda la educación llegó a Los Chenes en forma castellanizante y negadora de la identidad maya, eso es evidencia directa del mecanismo de control ideológico.",
-      "estado": "PENDIENTE"
+      "estado": "RESPONDIDA PARCIALMENTE",
+      "hallazgos": "Baranda como Secretario de Justicia e Instrucción Pública (1882-1901) creó la Escuela Normal de Profesores y la Procuraduría General. Su política educativa se enmarcó en el positivismo porfiriano. Impacto específico en Campeche-Yucatán: pendiente en Bazant \"Historia de la educación durante el porfiriato\" (COLMEX) y Archivo SEP. Relación familiar con Hopelchén indirecta: la familia Baranda era de origen campechano (padre: Pedro Sainz de Baranda)."
     }
   ],
   "hallazgos_para_nodo_004": [

@@ -35,7 +35,8 @@
       ],
       "prioridad": "Alta",
       "conexion_hipotesis": "El primer encomendero de Los Chenes es el primer eslabón documentable de la cadena de control de la tierra. Si ese apellido reaparece en haciendas del Porfiriato, se confirma la transmisión generacional del poder sobre el territorio.",
-      "estado": "PENDIENTE"
+      "estado": "RESPONDIDA PARCIALMENTE",
+      "hallazgos": "Las encomiendas en Los Chenes y Hopelchén en el siglo XVI requieren consulta directa en AGI (PARES) y AGN. El contexto general es: Los Chenes quedaron como zona de baja penetración colonial — \"las zonas selváticas como Sahcabchén, La Montaña y Los Chenes quedaron como territorios inhabitados, con interés más para los frailes que para los encomenderos\" (Ninos Kiddle, fuente secundaria). Esto sugiere que las encomiendas en Los Chenes fueron escasas o tardías en el siglo XVI. Para el primer encomendero específico: consultar AGI Audiencia de México, Encomiendas (PARES: pares.mcu.es) y Gerhard, \"La frontera sureste de la Nueva España\" (UNAM 1991)."
     },
     {
       "pregunta_id": "P001-03",
@@ -50,7 +51,8 @@
       ],
       "prioridad": "Media",
       "conexion_hipotesis": "Extender el registro hacia el Preclásico Medio (600-300 a.C.) o incluso antes reforzaría que la civilización en Hopelchén tiene raíces de 2,500+ años, no los 400 años que la narrativa colonial le concede.",
-      "estado": "PENDIENTE"
+      "estado": "RESPONDIDA PARCIALMENTE",
+      "hallazgos": "Santa Rosa Xtampak (municipio de Hopelchén): las primeras evidencias de ocupación humana documentadas son del Preclásico Tardío (300-250 a.C.), según INAH-Cultura (sic.cultura.gob.mx) y múltiples fuentes arqueológicas. El Ibero-Amerikanisches Institut Berlin (proyecto 2020-2022) realizó excavaciones estratigráficas y encontró una secuencia desde el Preclásico Medio (1000 a.C.) hasta el Clásico Terminal tardío (950 d.C.) — esto extiende la ocupación significativamente más allá de 300 a.C. La cerámica de Brainerd (1958, p.76), Stamps (1970, p.96) y Michelet/Becquelin (2001, p.219) confirma vestigios preclásicos. La estela más temprana data de 646 d.C. (Estela 5). Datación anterior a 1000 a.C.: pendiente de excavaciones más profundas."
     },
     {
       "pregunta_id": "P001-04",
@@ -113,7 +115,8 @@
       ],
       "prioridad": "Media",
       "conexion_hipotesis": "Los datos LiDAR en otras regiones mayas han revelado que las ciudades eran 10x más grandes de lo documentado. Si esto aplica a Xtampak o Hochob, la población prehispánica de Hopelchén era masivamente mayor de lo que la historia oficial registra.",
-      "estado": "PENDIENTE"
+      "estado": "RESPONDIDA PARCIALMENTE",
+      "hallazgos": "LiDAR aplicado en Campeche: sí existe y tiene implicaciones directas para Hopelchén. En octubre 2024 el INAH confirmó el descubrimiento de Valeriana (16.6 km²) mediante LiDAR iniciado en 2013. La arqueóloga responsable mencionó específicamente: \"En la comunidad de Xmejía (Hopelchén) los pobladores mencionan vestigios arqueológicos que siguen bajo tierra\" (PorEsto, oct 2024). El equipo de Tulane University ha identificado más de 6,500 estructuras en Campeche desde 2013. El Ibero-Amerikanisches Institut Berlin usó LiDAR en Santa Rosa Xtampak (2020-2022). Para el municipio de Hopelchén específicamente: pendiente de consulta directa con INAH Centro Campeche (zarqueologicas.camp@inah.gob.mx) y el proyecto de Tulane."
     },
     {
       "pregunta_id": "P001-08",
@@ -127,7 +130,8 @@
       ],
       "prioridad": "Media",
       "conexion_hipotesis": "El conocimiento científico maya (astronomía, matemáticas, medicina, agricultura) fue sistemáticamente suprimido y apropiado durante la Colonia. Recuperar qué conocimiento específico se producía en Los Chenes es parte de reconstruir la historia oculta.",
-      "estado": "PENDIENTE"
+      "estado": "RESPONDIDA PARCIALMENTE",
+      "hallazgos": "Santa Rosa Xtampak tiene evidencia de conocimiento astronómico: al menos un sacbé, alineaciones cardinales documentadas, y tapas de bóveda con representaciones de Kawiil (deidad asociada a linajes y fenómenos celestes). El estudio de Aveni, Dowd y Vining (2003) sobre \"Maya Calendar Reform? Evidence from Orientations of Specialized Architectural Assemblages\" aborda orientaciones calendáricas en Los Chenes. La arquitectura de Santa Rosa Xtampak muestra \"plazas y patios cuadrangulares regularmente distribuidos cuyos ejes siempre están alineados a los rumbos cardinales\" (INAH). Conocimiento específico astronómico de Hopelchén vs. región amplia: pendiente de consulta de Aveni et al. (2003) y del Atlas Arqueológico de Campeche."
     }
   ],
   "temas_sin_datos_aun": [

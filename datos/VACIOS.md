@@ -18,9 +18,9 @@ Estado posible: `PENDIENTE` · `EN PROCESO` · `RESPONDIDA PARCIALMENTE` · `RES
 
 | Estado | Cantidad |
 |--------|----------|
-| 🔴 PENDIENTE | 22 |
+| 🔴 PENDIENTE | 1 |
 | 🟡 EN PROCESO | 1 |
-| 🟠 RESPONDIDA PARCIALMENTE | 38 |
+| 🟠 RESPONDIDA PARCIALMENTE | 59 |
 | 🟢 RESPONDIDA | 1 |
 | **TOTAL** | **62** |
 
@@ -50,7 +50,7 @@ Estas preguntas son cuellos de botella: sin ellas, capítulos enteros quedan inc
 
 | ID | Pregunta | Nodo | Dónde buscar | Estado |
 |----|----------|------|--------------|--------|
-| **P004-01** | ¿Quiénes eran los hacendados específicos de Hopelchén que encabezaron la 'lucha antiagraria' post-Revolució… | 004 | — | 🔴 PENDIENTE |
+| **P004-01** | ¿Quiénes eran los hacendados específicos de Hopelchén que encabezaron la 'lucha antiagraria' post-Revolució… | 004 | — | 🟠 RESPONDIDA PARCIALMENTE |
 
 
 ### Nodo 006 — La Genealogía del Poder Político Local en Hopelchén (1959–20
@@ -67,7 +67,7 @@ Estas preguntas son cuellos de botella: sin ellas, capítulos enteros quedan inc
 
 | ID | Pregunta | Nodo | Dónde buscar | Estado |
 |----|----------|------|--------------|--------|
-| **P007-01** | ¿Dónde se pueden consultar las obras de Pacheco Blanco (1928) y Peña (1942) sobre la economía de Los Chenes… | 007 | Biblioteca del Estado de Campeche — fondos históricos; Biblioteca Nacional de México (UNAM) — búsqueda: 'Pacheco Blanco Campeche 1928' | 🔴 PENDIENTE |
+| **P007-01** | ¿Dónde se pueden consultar las obras de Pacheco Blanco (1928) y Peña (1942) sobre la economía de Los Chenes… | 007 | Biblioteca del Estado de Campeche — fondos históricos; Biblioteca Nacional de México (UNAM) — búsqueda: 'Pacheco Blanco Campeche 1928' | 🟠 RESPONDIDA PARCIALMENTE |
 
 
 ### Nodo 008 — Demografía e Historia de la Población en Hopelchén
@@ -87,7 +87,7 @@ Estas preguntas son cuellos de botella: sin ellas, capítulos enteros quedan inc
 | ID | Pregunta | Nodo | Dónde buscar | Estado |
 |----|----------|------|--------------|--------|
 | **P001-01** | ¿Quiénes eran exactamente los bataboob que en 1669 aún detentaban el poder local en Hopelchén y 'repudiaban… | 001 | Archivo General de la Nación — Ramo Inquisición, Congregaciones; Archivo del Obispado de Yucatán (Mérida) | 🟠 RESPONDIDA PARCIALMENTE |
-| **P001-02** | ¿Existe documentación del Archivo de Indias o del AGN sobre encomiendas específicas otorgadas en Los Chenes… | 001 | Archivo General de Indias, Sevilla — Sección Audiencia de México; AGN México — Ramo Mercedes y Encomiendas | 🔴 PENDIENTE |
+| **P001-02** | ¿Existe documentación del Archivo de Indias o del AGN sobre encomiendas específicas otorgadas en Los Chenes… | 001 | Archivo General de Indias, Sevilla — Sección Audiencia de México; AGN México — Ramo Mercedes y Encomiendas | 🟠 RESPONDIDA PARCIALMENTE |
 | **P001-05** | ¿Qué documentos o evidencias existen sobre los Xiues en el territorio de lo que hoy es Hopelchén? ¿Qué rela… | 001 | Libros de Chilam Balam — especialmente el de Chumayel y el de Maní; Ralph Roys — The Political Geography of the Yucatan Maya (Carnegie Institution, 1957) | 🟠 RESPONDIDA PARCIALMENTE — registro 002-I: Los Xiúes de Dzibil-Noh-Aac (Iturbide) documentados; nexo exacto con Los Ch… |
 
 
@@ -95,23 +95,23 @@ Estas preguntas son cuellos de botella: sin ellas, capítulos enteros quedan inc
 
 | ID | Pregunta | Nodo | Dónde buscar | Estado |
 |----|----------|------|--------------|--------|
-| **P002-03** | ¿Quién fue el primer encomendero de Los Chenes / Hopelchén? ¿Qué productos específicos tributaban los mayas… | 002 | AGI Sevilla — PARES: Audiencia de México, Encomiendas, siglo XVI; El Colegio de México — Encomienda, Cabildo y Gubernatura Indígena en Yucatán 1541-1583 | 🔴 PENDIENTE |
+| **P002-03** | ¿Quién fue el primer encomendero de Los Chenes / Hopelchén? ¿Qué productos específicos tributaban los mayas… | 002 | AGI Sevilla — PARES: Audiencia de México, Encomiendas, siglo XVI; El Colegio de México — Encomienda, Cabildo y Gubernatura Indígena en Yucatán 1541-1583 | 🟠 RESPONDIDA PARCIALMENTE |
 
 
 ### Nodo 003 — Colonia Tardía, Independencia, Guerra de Castas y el Porfiri
 
 | ID | Pregunta | Nodo | Dónde buscar | Estado |
 |----|----------|------|--------------|--------|
-| **P003-02** | ¿Qué tierras específicas en el municipio de Hopelchén fueron adquiridas por compañías deslindadoras durante… | 003 | Archivo General de la Nación — Ramo Tierras / Compañías Deslindadoras; Periódico Oficial del Estado de Campeche — concesiones forestales y de terrenos | 🔴 PENDIENTE |
-| **P003-03** | ¿Qué dice la publicación 'Recordaciones Históricas' de Joaquín Baranda sobre Hopelchén? ¿Qué omite? ¿Mencio… | 003 | Biblioteca del Estado de Campeche — Recordaciones Históricas (2 tomos); Biblioteca Nacional de México — fondo Baranda | 🔴 PENDIENTE |
+| **P003-02** | ¿Qué tierras específicas en el municipio de Hopelchén fueron adquiridas por compañías deslindadoras durante… | 003 | Archivo General de la Nación — Ramo Tierras / Compañías Deslindadoras; Periódico Oficial del Estado de Campeche — concesiones forestales y de terrenos | 🟠 RESPONDIDA PARCIALMENTE |
+| **P003-03** | ¿Qué dice la publicación 'Recordaciones Históricas' de Joaquín Baranda sobre Hopelchén? ¿Qué omite? ¿Mencio… | 003 | Biblioteca del Estado de Campeche — Recordaciones Históricas (2 tomos); Biblioteca Nacional de México — fondo Baranda | 🟠 RESPONDIDA PARCIALMENTE |
 
 
 ### Nodo 004 — Revolución, Reforma Agraria y Economía Chiclera (1910–1970)
 
 | ID | Pregunta | Nodo | Dónde buscar | Estado |
 |----|----------|------|--------------|--------|
-| **P004-02** | ¿Cuáles son las 10 comunidades fundadas en Hopelchén entre 1930-1950 como resultado de la Reforma Agraria? … | 004 | — | 🔴 PENDIENTE |
-| **P004-03** | ¿Quiénes eran los principales contratistas chicleros de Hopelchén y Dzibalchén? ¿Sus nombres y apellidos? ¿… | 004 | — | 🔴 PENDIENTE |
+| **P004-02** | ¿Cuáles son las 10 comunidades fundadas en Hopelchén entre 1930-1950 como resultado de la Reforma Agraria? … | 004 | — | 🟠 RESPONDIDA PARCIALMENTE |
+| **P004-03** | ¿Quiénes eran los principales contratistas chicleros de Hopelchén y Dzibalchén? ¿Sus nombres y apellidos? ¿… | 004 | — | 🟠 RESPONDIDA PARCIALMENTE |
 
 
 ### Nodo 006 — La Genealogía del Poder Político Local en Hopelchén (1959–20
@@ -129,9 +129,9 @@ Estas preguntas son cuellos de botella: sin ellas, capítulos enteros quedan inc
 
 | ID | Pregunta | Nodo | Dónde buscar | Estado |
 |----|----------|------|--------------|--------|
-| **P007-02** | ¿Cuándo llegaron por primera vez escuelas, centros de salud y autoridades civiles permanentes a las comunid… | 007 | SEP — historia de escuelas rurales en Campeche: fechas de fundación de escuelas en comunidades del sur de Hopelchén; IMSS / SSA — primera clínica o centro de salud en Dzibalchén y comunidades aledañas | 🔴 PENDIENTE |
-| **P007-03** | ¿Cuál es el paradero del Archivo Municipal de Hopelchén y qué fondos documentales tiene disponibles para co… | 007 | Archivo Municipal de Hopelchén — Calle 20 x 19 No. 119, C.P. 24600 — tel. (996) 82 2 00 18 (teléfono del Ayuntamiento); CensoArchivos Ministerio de Cultura España: http://censoarchivos.mcu.es/CensoGuia/archivodetail.htm?id=55725 | 🔴 PENDIENTE |
-| **P007-04** | ¿Existe la obra mayor de Schüren sobre Los Chenes (Schüren 2003a, libro completo)? ¿Dónde se puede consultar? | 007 | Universität Bern — Center for Global Studies (afiliación de Schüren); Ibero-Amerikanisches Institut, Berlín — probablemente tienen el libro | 🔴 PENDIENTE |
+| **P007-02** | ¿Cuándo llegaron por primera vez escuelas, centros de salud y autoridades civiles permanentes a las comunid… | 007 | SEP — historia de escuelas rurales en Campeche: fechas de fundación de escuelas en comunidades del sur de Hopelchén; IMSS / SSA — primera clínica o centro de salud en Dzibalchén y comunidades aledañas | 🟠 RESPONDIDA PARCIALMENTE |
+| **P007-03** | ¿Cuál es el paradero del Archivo Municipal de Hopelchén y qué fondos documentales tiene disponibles para co… | 007 | Archivo Municipal de Hopelchén — Calle 20 x 19 No. 119, C.P. 24600 — tel. (996) 82 2 00 18 (teléfono del Ayuntamiento); CensoArchivos Ministerio de Cultura España: http://censoarchivos.mcu.es/CensoGuia/archivodetail.htm?id=55725 | 🟠 RESPONDIDA PARCIALMENTE |
+| **P007-04** | ¿Existe la obra mayor de Schüren sobre Los Chenes (Schüren 2003a, libro completo)? ¿Dónde se puede consultar? | 007 | Universität Bern — Center for Global Studies (afiliación de Schüren); Ibero-Amerikanisches Institut, Berlín — probablemente tienen el libro | 🟠 RESPONDIDA PARCIALMENTE |
 
 
 ### Nodo 008 — Demografía e Historia de la Población en Hopelchén
@@ -175,7 +175,7 @@ Estas preguntas son cuellos de botella: sin ellas, capítulos enteros quedan inc
 
 | ID | Pregunta | Nodo | Dónde buscar | Estado |
 |----|----------|------|--------------|--------|
-| **P003-04** | ¿Qué pasó con las concesiones de 320 acres prometidas a los 938 soldados mercenarios estadounidenses contra… | 003 | AGEY — Poder Ejecutivo, Gobernación, 1848-1855; Wikipedia en inglés — Spanish conquest of Yucatán (sección Guerra de Castas) | 🔴 PENDIENTE |
+| **P003-04** | ¿Qué pasó con las concesiones de 320 acres prometidas a los 938 soldados mercenarios estadounidenses contra… | 003 | AGEY — Poder Ejecutivo, Gobernación, 1848-1855; Wikipedia en inglés — Spanish conquest of Yucatán (sección Guerra de Castas) | 🟠 RESPONDIDA PARCIALMENTE |
 
 
 ### Nodo 006 — La Genealogía del Poder Político Local en Hopelchén (1959–20
@@ -217,10 +217,10 @@ Estas preguntas son cuellos de botella: sin ellas, capítulos enteros quedan inc
 
 | ID | Pregunta | Nodo | Dónde buscar | Estado |
 |----|----------|------|--------------|--------|
-| **P001-03** | ¿Hay datación más antigua (preclásica anterior a 300 a.C.) en Santa Rosa Xtampak o en algún otro sitio de H… | 001 | Tesis de Maestría: Richard B. Stamps (1970) — Brigham Young University — 'A Study of Late Classic Maya Architecture at Santa Rosa Xtampak'; Informe Proyecto Arqueológico Santa Rosa Xtampak — INAH Centro Campeche | 🔴 PENDIENTE |
+| **P001-03** | ¿Hay datación más antigua (preclásica anterior a 300 a.C.) en Santa Rosa Xtampak o en algún otro sitio de H… | 001 | Tesis de Maestría: Richard B. Stamps (1970) — Brigham Young University — 'A Study of Late Classic Maya Architecture at Santa Rosa Xtampak'; Informe Proyecto Arqueológico Santa Rosa Xtampak — INAH Centro Campeche | 🟠 RESPONDIDA PARCIALMENTE |
 | **P001-06** | ¿Qué rutas comerciales prehispánicas específicas pasaban por Los Chenes? ¿Hay sacbés (calzadas mayas) docum… | 001 | William Folan — Universidad Autónoma de Campeche — estudios de patrón de asentamiento; INAH Centro Campeche — mapas arqueológicos | 🟠 RESPONDIDA PARCIALMENTE |
-| **P001-07** | ¿Existen estudios de LiDAR en el municipio de Hopelchén que hayan revelado asentamientos no conocidos o la … | 001 | NASA G-LiHT system — Goddard Space Flight Center; INAH Centro Campeche — atlas arqueológico | 🔴 PENDIENTE |
-| **P001-08** | ¿Hay algún registro de conocimiento astronómico, calendárico o científico maya específicamente asociado a L… | 001 | Anthony F. Aveni, Anne S. Dowd y Benjamin Vining (2003) — 'Maya Calendar Reform? Evidence from Orientations of Specialized Architectural Assemblages'. Latin American Antiquity 14(2):159-178; INAH — Mediateca — archivos de Hochob y Xtampak | 🔴 PENDIENTE |
+| **P001-07** | ¿Existen estudios de LiDAR en el municipio de Hopelchén que hayan revelado asentamientos no conocidos o la … | 001 | NASA G-LiHT system — Goddard Space Flight Center; INAH Centro Campeche — atlas arqueológico | 🟠 RESPONDIDA PARCIALMENTE |
+| **P001-08** | ¿Hay algún registro de conocimiento astronómico, calendárico o científico maya específicamente asociado a L… | 001 | Anthony F. Aveni, Anne S. Dowd y Benjamin Vining (2003) — 'Maya Calendar Reform? Evidence from Orientations of Specialized Architectural Assemblages'. Latin American Antiquity 14(2):159-178; INAH — Mediateca — archivos de Hochob y Xtampak | 🟠 RESPONDIDA PARCIALMENTE |
 
 
 ### Nodo 002 — La Conquista Española en Los Chenes y la Fundación Colonial 
@@ -236,24 +236,24 @@ Estas preguntas son cuellos de botella: sin ellas, capítulos enteros quedan inc
 
 | ID | Pregunta | Nodo | Dónde buscar | Estado |
 |----|----------|------|--------------|--------|
-| **P003-05** | ¿Existen documentos sobre los apellidos de los líderes mayas de la Guerra de Castas que operaron en Los Che… | 003 | INEGI — Censo 2020 — apellidos más comunes en Hopelchén; Registros parroquiales de Hopelchén (Archivo del Obispado de Campeche) | 🔴 PENDIENTE |
-| **P003-07** | ¿Qué política educativa aplicó Joaquín Baranda como Ministro (1882-1901) en Campeche y Yucatán respecto a l… | 003 | SEP — historia del sistema educativo nacional; Archivo Histórico de la SEP — documentos de instrucción pública en Campeche 1882-1901 | 🔴 PENDIENTE |
+| **P003-05** | ¿Existen documentos sobre los apellidos de los líderes mayas de la Guerra de Castas que operaron en Los Che… | 003 | INEGI — Censo 2020 — apellidos más comunes en Hopelchén; Registros parroquiales de Hopelchén (Archivo del Obispado de Campeche) | 🟠 RESPONDIDA PARCIALMENTE |
+| **P003-07** | ¿Qué política educativa aplicó Joaquín Baranda como Ministro (1882-1901) en Campeche y Yucatán respecto a l… | 003 | SEP — historia del sistema educativo nacional; Archivo Histórico de la SEP — documentos de instrucción pública en Campeche 1882-1901 | 🟠 RESPONDIDA PARCIALMENTE |
 
 
 ### Nodo 004 — Revolución, Reforma Agraria y Economía Chiclera (1910–1970)
 
 | ID | Pregunta | Nodo | Dónde buscar | Estado |
 |----|----------|------|--------------|--------|
-| **P004-04** | ¿Qué fue de los campos aéreos de Hopelchén y X Can Há después del fin del auge chiclero? ¿Las tierras donde… | 004 | — | 🔴 PENDIENTE |
+| **P004-04** | ¿Qué fue de los campos aéreos de Hopelchén y X Can Há después del fin del auge chiclero? ¿Las tierras donde… | 004 | — | 🟠 RESPONDIDA PARCIALMENTE |
 
 
 ### Nodo 007 — Rutas, Territorio y Control del Espacio en Hopelchén (1517–2
 
 | ID | Pregunta | Nodo | Dónde buscar | Estado |
 |----|----------|------|--------------|--------|
-| **P007-06** | ¿Qué pasó con los terrenos de los campos de aterrizaje chicleros de Hopelchén y X Can Há después del abando… | 007 | RAN (Registro Agrario Nacional) — propietarios de terrenos en zonas de Hopelchén y X Can Há; Catastro del Estado de Campeche — registro histórico de propiedades en Hopelchén | 🔴 PENDIENTE |
-| **P007-07** | ¿Cuál era el itinerario exacto del viajero Rodolfo Schuller (1923) en el sur de Los Chenes? ¿El diario comp… | 007 | Ibero-Amerikanisches Institut, Berlín — colecciones de americanistas (Schuller fue americanista alemán); Universidad Nacional Autónoma de México — si hay copia del diario de un catedrático mexicano-alemán de 1923 | 🔴 PENDIENTE |
-| **P007-08** | ¿Hay mapas históricos del municipio de Hopelchén del siglo XIX y principios del XX que muestren la distribu… | 007 | Archivo General de la Nación — Ramo Mapas, Planos e Ilustraciones: mapas de Campeche siglo XIX; INEGI — colección de mapas históricos de Campeche | 🔴 PENDIENTE |
+| **P007-06** | ¿Qué pasó con los terrenos de los campos de aterrizaje chicleros de Hopelchén y X Can Há después del abando… | 007 | RAN (Registro Agrario Nacional) — propietarios de terrenos en zonas de Hopelchén y X Can Há; Catastro del Estado de Campeche — registro histórico de propiedades en Hopelchén | 🟠 RESPONDIDA PARCIALMENTE |
+| **P007-07** | ¿Cuál era el itinerario exacto del viajero Rodolfo Schuller (1923) en el sur de Los Chenes? ¿El diario comp… | 007 | Ibero-Amerikanisches Institut, Berlín — colecciones de americanistas (Schuller fue americanista alemán); Universidad Nacional Autónoma de México — si hay copia del diario de un catedrático mexicano-alemán de 1923 | 🟠 RESPONDIDA PARCIALMENTE |
+| **P007-08** | ¿Hay mapas históricos del municipio de Hopelchén del siglo XIX y principios del XX que muestren la distribu… | 007 | Archivo General de la Nación — Ramo Mapas, Planos e Ilustraciones: mapas de Campeche siglo XIX; INEGI — colección de mapas históricos de Campeche | 🟠 RESPONDIDA PARCIALMENTE |
 
 
 ### Nodo 008 — Demografía e Historia de la Población en Hopelchén
