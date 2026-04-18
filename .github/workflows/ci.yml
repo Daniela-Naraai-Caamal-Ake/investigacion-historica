@@ -31,3 +31,9 @@ jobs:
 
       - name: Ejecutar pruebas
         run: python -m unittest discover -s tests -v
+
+      - name: Validar integridad de datos históricos
+        run: python tools/validar_datos.py
+
+      - name: Validar fechas y consistencia temporal
+        run: python tools/validar_fechas.py
