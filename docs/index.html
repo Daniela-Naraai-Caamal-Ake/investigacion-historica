@@ -25,11 +25,11 @@
       --shadow-warm: 0 4px 24px rgba(26,18,8,0.12);
       --shadow-deep: 0 8px 40px rgba(26,18,8,0.18);
     }
- 
+
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
- 
+
     html { scroll-behavior: smooth; }
- 
+
     body {
       font-family: 'Crimson Pro', Georgia, serif;
       background: var(--paper);
@@ -38,7 +38,7 @@
       min-height: 100vh;
       overflow-x: hidden;
     }
- 
+
     /* ── TEXTURE OVERLAY ── */
     body::before {
       content: '';
@@ -49,7 +49,7 @@
       pointer-events: none;
       z-index: 1000;
     }
- 
+
     /* ── GLYPH BACKGROUND PATTERN ── */
     .glyph-bg {
       position: fixed;
@@ -63,7 +63,7 @@
         90deg, transparent, transparent 60px, var(--stone) 60px, var(--stone) 61px
       );
     }
- 
+
     /* ── HEADER ── */
     header {
       position: relative;
@@ -72,7 +72,7 @@
       overflow: hidden;
       padding: 0;
     }
- 
+
     .header-inner {
       position: relative;
       z-index: 2;
@@ -84,7 +84,7 @@
       margin: 0 auto;
       padding: 3.5rem 2.5rem 2.5rem;
     }
- 
+
     .header-deco {
       position: absolute;
       inset: 0;
@@ -92,7 +92,7 @@
         radial-gradient(ellipse 80% 100% at 100% 50%, rgba(45,110,78,0.15) 0%, transparent 70%),
         radial-gradient(ellipse 60% 80% at 0% 100%, rgba(139,58,26,0.2) 0%, transparent 60%);
     }
- 
+
     .header-ornament {
       position: absolute;
       right: -30px;
@@ -111,7 +111,7 @@
       );
       border-radius: 50%;
     }
- 
+
     .site-label {
       font-family: 'Space Mono', monospace;
       font-size: 0.65rem;
@@ -130,7 +130,7 @@
       height: 1px;
       background: var(--gold);
     }
- 
+
     header h1 {
       font-family: 'Playfair Display', Georgia, serif;
       font-size: clamp(2rem, 5vw, 3.6rem);
@@ -143,7 +143,7 @@
       font-style: italic;
       color: var(--gold);
     }
- 
+
     .header-sub {
       font-family: 'Crimson Pro', serif;
       font-size: 1.1rem;
@@ -152,7 +152,7 @@
       color: var(--stone);
       max-width: 500px;
     }
- 
+
     .header-meta {
       text-align: right;
       flex-shrink: 0;
@@ -170,7 +170,7 @@
       margin-top: 0.4rem;
       letter-spacing: 0.05em;
     }
- 
+
     /* ── ORNAMENTAL DIVIDER ── */
     .divider {
       height: 6px;
@@ -183,7 +183,7 @@
         var(--terracota) 100%
       );
     }
- 
+
     /* ── CONTAINER ── */
     .container {
       position: relative;
@@ -192,7 +192,7 @@
       margin: 0 auto;
       padding: 3rem 2.5rem;
     }
- 
+
     /* ── SECTION HEADER ── */
     .section-head {
       display: flex;
@@ -218,7 +218,7 @@
       color: var(--stone);
       letter-spacing: 0.1em;
     }
- 
+
     /* ── SUMMARY CARDS ── */
     .cards {
       display: grid;
@@ -232,7 +232,7 @@
     }
     @media (max-width: 900px) { .cards { grid-template-columns: repeat(3, 1fr); } }
     @media (max-width: 600px) { .cards { grid-template-columns: repeat(2, 1fr); } }
- 
+
     .card {
       background: var(--parchment);
       padding: 1.8rem 1.2rem 1.5rem;
@@ -254,7 +254,7 @@
     }
     .card:hover { background: var(--dust); }
     .card:hover::after { opacity: 1; }
- 
+
     .card .number {
       font-family: 'Playfair Display', serif;
       font-size: 2.8rem;
@@ -271,12 +271,12 @@
       letter-spacing: 0.12em;
       color: var(--muted);
     }
- 
+
     @keyframes countUp {
       from { opacity: 0; transform: translateY(8px); }
       to   { opacity: 1; transform: translateY(0); }
     }
- 
+
     /* ── CHARTS GRID ── */
     .charts-grid {
       display: grid;
@@ -285,7 +285,7 @@
       margin-bottom: 2rem;
     }
     @media (max-width: 800px) { .charts-grid { grid-template-columns: 1fr; } }
- 
+
     .chart-card {
       background: var(--parchment);
       border: 1px solid var(--stone);
@@ -303,7 +303,7 @@
       background: linear-gradient(90deg, var(--jade), var(--gold));
     }
     .chart-card.wide { grid-column: 1 / -1; }
- 
+
     .chart-card h2 {
       font-family: 'Playfair Display', serif;
       font-size: 0.95rem;
@@ -327,10 +327,10 @@
       font-family: 'Space Mono', monospace;
       flex-shrink: 0;
     }
- 
+
     .chart-wrap { position: relative; height: 280px; }
     .chart-wrap.tall { height: 360px; }
- 
+
     /* ── TABLE ── */
     .table-card {
       background: var(--parchment);
@@ -361,7 +361,7 @@
       align-items: center;
       gap: 0.6rem;
     }
- 
+
     .table-wrap { overflow-x: auto; }
     table {
       width: 100%;
@@ -390,7 +390,7 @@
     }
     tbody tr:last-child td { border-bottom: none; }
     tbody tr:hover td { background: rgba(197,185,166,0.25); }
- 
+
     .id-badge {
       display: inline-block;
       font-family: 'Space Mono', monospace;
@@ -400,7 +400,7 @@
       padding: 0.15rem 0.4rem;
       letter-spacing: 0.05em;
     }
- 
+
     .pct-bar-wrap {
       display: flex;
       align-items: center;
@@ -425,7 +425,7 @@
       transition: width 0.8s ease-out;
     }
     .pct-fill.orange { background: var(--ocre); }
- 
+
     /* ── ERROR ── */
     #error-msg {
       background: #fdecea;
@@ -438,7 +438,7 @@
       font-size: 0.78rem;
       display: none;
     }
- 
+
     /* ── NAV BAR ── */
     .topnav {
       background: var(--dust);
@@ -459,7 +459,7 @@
     }
     .topnav a:hover, .topnav a.active { color: var(--terracota); }
     .topnav .separator { color: var(--stone); }
- 
+
     /* ── HYPOTHESIS BANNER ── */
     .hypothesis-banner {
       background: var(--ink);
@@ -504,7 +504,7 @@
       font-weight: 600;
       font-style: normal;
     }
- 
+
     /* ── FOOTER ── */
     footer {
       background: var(--ink);
@@ -551,7 +551,7 @@
       transition: color 0.15s;
     }
     .footer-links a:hover { color: var(--gold); }
- 
+
     /* ── LOADING STATE ── */
     .skeleton {
       background: linear-gradient(90deg, var(--dust) 25%, var(--parchment) 50%, var(--dust) 75%);
@@ -563,7 +563,7 @@
       0%   { background-position: 200% 0; }
       100% { background-position: -200% 0; }
     }
- 
+
     /* ── ANIMATIONS ── */
     .fade-in {
       animation: fadeIn 0.5s ease-out both;
@@ -581,7 +581,7 @@
 </head>
 <body>
 <div class="glyph-bg"></div>
- 
+
 <!-- TOP NAV -->
 <nav class="topnav">
   <a href="index.html" class="active">▸ Tablero</a>
@@ -590,7 +590,7 @@
   <span class="separator">·</span>
   <a href="https://github.com/Daniela-Naraai-Caamal-Ake/investigacion-historica" target="_blank">▸ GitHub</a>
 </nav>
- 
+
 <!-- HEADER -->
 <header>
   <div class="header-deco"></div>
@@ -607,27 +607,27 @@
     </div>
   </div>
 </header>
- 
+
 <div class="divider"></div>
- 
+
 <!-- MAIN -->
 <div class="container">
- 
+
   <div id="error-msg"></div>
- 
+
   <!-- HYPOTHESIS BANNER -->
   <div class="hypothesis-banner fade-in">
     <div class="label">Hipótesis central — v5</div>
     <p>En Hopelchén, entre 1200 y 2026, el control efectivo de la tierra, del conocimiento público y de la decisión política ha tendido a concentrarse en <strong>élites externas o locales articuladas con poderes externos</strong>, reproduciendo un patrón de despojo y subordinación sobre comunidades mayas.</p>
   </div>
- 
+
   <!-- CARDS -->
   <div class="section-head">
     <span class="section-num">§ 01</span>
     <h2>Estado del archivo</h2>
     <div class="rule"></div>
   </div>
- 
+
   <div class="cards" id="cards">
     <div class="card fade-in"><div class="number" id="c-nodos">—</div><div class="label">Nodos temáticos</div></div>
     <div class="card fade-in"><div class="number" id="c-regs">—</div><div class="label">Registros totales</div></div>
@@ -635,53 +635,53 @@
     <div class="card fade-in"><div class="number" id="c-pregs">—</div><div class="label">Preguntas abiertas</div></div>
     <div class="card fade-in"><div class="number" id="c-resp">—</div><div class="label">% respondidas</div></div>
   </div>
- 
+
   <!-- CHARTS -->
   <div class="section-head" style="margin-bottom:1.5rem">
     <span class="section-num">§ 02</span>
     <h2>Análisis por nodo</h2>
     <div class="rule"></div>
   </div>
- 
+
   <div class="charts-grid">
- 
+
     <div class="chart-card wide fade-in">
       <h2><span class="glyph">I</span> Registros por nodo temático</h2>
       <div class="chart-wrap">
         <canvas id="chart-nodos"></canvas>
       </div>
     </div>
- 
+
     <div class="chart-card fade-in">
       <h2><span class="glyph">II</span> Cobertura de fuentes por nodo</h2>
       <div class="chart-wrap">
         <canvas id="chart-fuentes"></canvas>
       </div>
     </div>
- 
+
     <div class="chart-card fade-in">
       <h2><span class="glyph">III</span> Estado de preguntas de investigación</h2>
       <div class="chart-wrap">
         <canvas id="chart-preguntas"></canvas>
       </div>
     </div>
- 
+
     <div class="chart-card wide fade-in">
       <h2><span class="glyph">IV</span> Distribución por tipo de dato</h2>
       <div class="chart-wrap tall">
         <canvas id="chart-tipos"></canvas>
       </div>
     </div>
- 
+
   </div>
- 
+
   <!-- TABLE -->
   <div class="section-head" style="margin-bottom:1.5rem">
     <span class="section-num">§ 03</span>
     <h2>Registro detallado por nodo</h2>
     <div class="rule"></div>
   </div>
- 
+
   <div class="table-card fade-in">
     <div class="table-head-inner">
       <h2><span class="glyph" style="background:var(--cenote)">▤</span> Tabla detallada por nodo</h2>
@@ -703,9 +703,9 @@
       </table>
     </div>
   </div>
- 
+
 </div>
- 
+
 <!-- FOOTER -->
 <footer>
   <div class="footer-inner">
@@ -719,23 +719,23 @@
     </div>
   </div>
 </footer>
- 
+
 <script>
 /* ── CONFIG ── */
 const PALETTE_WARM = ['#8b3a1a','#b5621e','#c9922a','#2d6e4e','#1e4a6b','#7a4fa0','#d4622a','#1a7a9a','#5a8a3a','#a03a2a'];
 const PALETTE_STACKED = { con: '#2d6e4e', sin: '#8b3a1a' };
- 
+
 const FONT = "'Crimson Pro', Georgia, serif";
 const FONT_MONO = "'Space Mono', monospace";
- 
+
 Chart.defaults.font.family = FONT;
 Chart.defaults.color = '#6b5c42';
- 
+
 const GRID_OPTS = {
   color: 'rgba(107,92,66,0.12)',
   drawBorder: false,
 };
- 
+
 function pctBarHtml(pct, isOrange = false) {
   return `
     <div class="pct-bar-wrap">
@@ -745,11 +745,11 @@ function pctBarHtml(pct, isOrange = false) {
       <span>${pct}%</span>
     </div>`;
 }
- 
+
 function shortTitle(t, n = 38) {
   return t.length > n ? t.slice(0, n) + '…' : t;
 }
- 
+
 async function init() {
   let data;
   try {
@@ -763,31 +763,31 @@ async function init() {
     document.getElementById('ts').textContent = 'Error al cargar datos.';
     return;
   }
- 
+
   const { resumen, nodos, preguntas, cobertura, generado_en } = data;
- 
+
   /* Timestamp */
   if (generado_en) {
     const d = new Date(generado_en);
     document.getElementById('ts').textContent =
       `Actualizado: ${d.toLocaleDateString('es-MX', { year:'numeric', month:'short', day:'numeric' })}`;
   }
- 
+
   /* Cards */
   const totalPregs = resumen.total_preguntas;
   const respondidas = preguntas?.totales?.['Respondida'] || 0;
- 
+
   document.getElementById('c-nodos').textContent = resumen.total_nodos;
   document.getElementById('c-regs').textContent = resumen.total_registros;
   document.getElementById('c-fuente').textContent = resumen.pct_fuente_global + '%';
   document.getElementById('c-pregs').textContent = totalPregs;
   document.getElementById('c-resp').textContent =
     totalPregs > 0 ? Math.round(100 * respondidas / totalPregs) + '%' : '—';
- 
+
   const labels = nodos.map(n => `N${n.id}`);
   const titlesShort = nodos.map(n => shortTitle(n.titulo));
   const fullTitles = nodos.map(n => n.titulo);
- 
+
   /* Chart I — Registros por nodo */
   new Chart(document.getElementById('chart-nodos'), {
     type: 'bar',
@@ -821,7 +821,7 @@ async function init() {
       }
     }
   });
- 
+
   /* Chart II — Cobertura fuentes */
   new Chart(document.getElementById('chart-fuentes'), {
     type: 'bar',
@@ -865,12 +865,12 @@ async function init() {
       }
     }
   });
- 
+
   /* Chart III — Preguntas donut */
   const pregLabels = Object.keys(preguntas?.totales || {});
   const pregValues = Object.values(preguntas?.totales || {});
   const pregColors = { 'Respondida': '#2d6e4e', 'En curso': '#b5621e', 'Pendiente': '#8b3a1a' };
- 
+
   new Chart(document.getElementById('chart-preguntas'), {
     type: 'doughnut',
     data: {
@@ -901,12 +901,12 @@ async function init() {
       }
     }
   });
- 
+
   /* Chart IV — Tipos horizontales */
   const tipos = cobertura?.tipos_agrupados || {};
   const tipoLabels = Object.keys(tipos);
   const tipoValues = Object.values(tipos);
- 
+
   new Chart(document.getElementById('chart-tipos'), {
     type: 'bar',
     data: {
@@ -937,7 +937,7 @@ async function init() {
       }
     }
   });
- 
+
   /* Table */
   const tbody = document.getElementById('tbody-nodos');
   nodos.forEach((n, i) => {
@@ -954,7 +954,7 @@ async function init() {
     tbody.appendChild(tr);
   });
 }
- 
+
 init();
 </script>
 </body>
