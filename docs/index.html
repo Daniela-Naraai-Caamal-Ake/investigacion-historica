@@ -3,206 +3,689 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tablero Estadístico — Dos Mil Años en Silencio</title>
+  <title>Dos Mil Años en Silencio — Hopelchén</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
   <style>
     :root {
-      --bg: #faf8f5;
-      --surface: #ffffff;
-      --border: #e0d8cc;
-      --text: #2c2416;
-      --muted: #7a6e5f;
-      --accent: #8b4513;
-      --accent2: #c47c2b;
-      --accent3: #3b6ea5;
-      --accent4: #5a9e6f;
-      --red: #c0392b;
-      --shadow: 0 2px 8px rgba(0,0,0,0.08);
+      --ink:       #1a1208;
+      --parchment: #f2ead8;
+      --paper:     #faf6ec;
+      --dust:      #e8dfc8;
+      --stone:     #c9b99a;
+      --terracota: #8b3a1a;
+      --ocre:      #b5621e;
+      --jade:      #2d6e4e;
+      --jade-lt:   #3d8f64;
+      --cenote:    #1e4a6b;
+      --gold:      #c9922a;
+      --red-glyph: #7a1f1f;
+      --muted:     #6b5c42;
+      --shadow-warm: 0 4px 24px rgba(26,18,8,0.12);
+      --shadow-deep: 0 8px 40px rgba(26,18,8,0.18);
     }
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body {
-      font-family: Georgia, 'Times New Roman', serif;
-      background: var(--bg);
-      color: var(--text);
-      line-height: 1.6;
-    }
-    header {
-      background: var(--accent);
-      color: #fff;
-      padding: 2rem 1.5rem 1.5rem;
-      text-align: center;
-    }
-    header h1 { font-size: 1.7rem; font-weight: bold; margin-bottom: .3rem; }
-    header p { font-size: .95rem; opacity: .85; }
-    header small { display: block; margin-top: .5rem; font-size: .8rem; opacity: .7; font-family: monospace; }
-    .container { max-width: 1100px; margin: 0 auto; padding: 2rem 1.2rem; }
 
-    /* Summary cards */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Crimson Pro', Georgia, serif;
+      background: var(--paper);
+      color: var(--ink);
+      line-height: 1.65;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    /* ── TEXTURE OVERLAY ── */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+      pointer-events: none;
+      z-index: 1000;
+    }
+
+    /* ── GLYPH BACKGROUND PATTERN ── */
+    .glyph-bg {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 0;
+      opacity: 0.025;
+      background-image: repeating-linear-gradient(
+        0deg, transparent, transparent 60px, var(--stone) 60px, var(--stone) 61px
+      ), repeating-linear-gradient(
+        90deg, transparent, transparent 60px, var(--stone) 60px, var(--stone) 61px
+      );
+    }
+
+    /* ── HEADER ── */
+    header {
+      position: relative;
+      background: var(--ink);
+      color: var(--parchment);
+      overflow: hidden;
+      padding: 0;
+    }
+
+    .header-inner {
+      position: relative;
+      z-index: 2;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: end;
+      gap: 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 3.5rem 2.5rem 2.5rem;
+    }
+
+    .header-deco {
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 80% 100% at 100% 50%, rgba(45,110,78,0.15) 0%, transparent 70%),
+        radial-gradient(ellipse 60% 80% at 0% 100%, rgba(139,58,26,0.2) 0%, transparent 60%);
+    }
+
+    .header-ornament {
+      position: absolute;
+      right: -30px;
+      top: -30px;
+      width: 320px;
+      height: 320px;
+      opacity: 0.06;
+      background: conic-gradient(
+        from 0deg,
+        var(--jade) 0deg 30deg, transparent 30deg 60deg,
+        var(--gold) 60deg 90deg, transparent 90deg 120deg,
+        var(--jade) 120deg 150deg, transparent 150deg 180deg,
+        var(--gold) 180deg 210deg, transparent 210deg 240deg,
+        var(--jade) 240deg 270deg, transparent 270deg 300deg,
+        var(--gold) 300deg 330deg, transparent 330deg 360deg
+      );
+      border-radius: 50%;
+    }
+
+    .site-label {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.65rem;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.8rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .site-label::before {
+      content: '';
+      display: inline-block;
+      width: 28px;
+      height: 1px;
+      background: var(--gold);
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(2rem, 5vw, 3.6rem);
+      font-weight: 900;
+      line-height: 1.05;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.6rem;
+    }
+    header h1 em {
+      font-style: italic;
+      color: var(--gold);
+    }
+
+    .header-sub {
+      font-family: 'Crimson Pro', serif;
+      font-size: 1.1rem;
+      font-weight: 300;
+      font-style: italic;
+      color: var(--stone);
+      max-width: 500px;
+    }
+
+    .header-meta {
+      text-align: right;
+      flex-shrink: 0;
+    }
+    .header-meta .author {
+      font-family: 'Playfair Display', serif;
+      font-size: 0.9rem;
+      font-style: italic;
+      color: var(--stone);
+    }
+    .header-meta .ts {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.62rem;
+      color: var(--muted);
+      margin-top: 0.4rem;
+      letter-spacing: 0.05em;
+    }
+
+    /* ── ORNAMENTAL DIVIDER ── */
+    .divider {
+      height: 6px;
+      background: linear-gradient(90deg,
+        var(--terracota) 0%,
+        var(--ocre) 20%,
+        var(--gold) 40%,
+        var(--jade) 60%,
+        var(--cenote) 80%,
+        var(--terracota) 100%
+      );
+    }
+
+    /* ── CONTAINER ── */
+    .container {
+      position: relative;
+      z-index: 1;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 3rem 2.5rem;
+    }
+
+    /* ── SECTION HEADER ── */
+    .section-head {
+      display: flex;
+      align-items: baseline;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .section-head h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.05rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      color: var(--terracota);
+    }
+    .section-head .rule {
+      flex: 1;
+      height: 1px;
+      background: linear-gradient(90deg, var(--stone), transparent);
+    }
+    .section-num {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.6rem;
+      color: var(--stone);
+      letter-spacing: 0.1em;
+    }
+
+    /* ── SUMMARY CARDS ── */
     .cards {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-      gap: 1rem;
-      margin-bottom: 2.5rem;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 0;
+      margin-bottom: 3rem;
+      border: 1px solid var(--stone);
+      border-radius: 2px;
+      overflow: hidden;
+      box-shadow: var(--shadow-warm);
     }
+    @media (max-width: 900px) { .cards { grid-template-columns: repeat(3, 1fr); } }
+    @media (max-width: 600px) { .cards { grid-template-columns: repeat(2, 1fr); } }
+
     .card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 1.2rem 1rem;
+      background: var(--parchment);
+      padding: 1.8rem 1.2rem 1.5rem;
       text-align: center;
-      box-shadow: var(--shadow);
+      border-right: 1px solid var(--stone);
+      position: relative;
+      transition: background 0.2s;
     }
+    .card:last-child { border-right: none; }
+    .card::after {
+      content: '';
+      position: absolute;
+      bottom: 0; left: 50%;
+      transform: translateX(-50%);
+      width: 32px; height: 3px;
+      background: var(--terracota);
+      opacity: 0;
+      transition: opacity 0.2s;
+    }
+    .card:hover { background: var(--dust); }
+    .card:hover::after { opacity: 1; }
+
     .card .number {
-      font-size: 2.2rem;
-      font-weight: bold;
-      color: var(--accent);
-      line-height: 1.1;
+      font-family: 'Playfair Display', serif;
+      font-size: 2.8rem;
+      font-weight: 900;
+      color: var(--terracota);
+      line-height: 1;
+      margin-bottom: 0.4rem;
+      animation: countUp 0.6s ease-out both;
     }
     .card .label {
-      font-size: .8rem;
-      color: var(--muted);
-      margin-top: .25rem;
-      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.58rem;
       text-transform: uppercase;
-      letter-spacing: .05em;
+      letter-spacing: 0.12em;
+      color: var(--muted);
     }
 
-    /* Charts grid */
+    @keyframes countUp {
+      from { opacity: 0; transform: translateY(8px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    /* ── CHARTS GRID ── */
     .charts-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 1.5rem;
       margin-bottom: 2rem;
     }
-    @media (max-width: 700px) { .charts-grid { grid-template-columns: 1fr; } }
+    @media (max-width: 800px) { .charts-grid { grid-template-columns: 1fr; } }
+
     .chart-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 1.4rem 1.2rem;
-      box-shadow: var(--shadow);
+      background: var(--parchment);
+      border: 1px solid var(--stone);
+      border-radius: 2px;
+      padding: 1.8rem 1.6rem;
+      box-shadow: var(--shadow-warm);
+      position: relative;
+      overflow: hidden;
     }
-    .chart-card h2 {
-      font-size: 1rem;
-      color: var(--text);
-      margin-bottom: 1rem;
-      font-family: 'Helvetica Neue', Arial, sans-serif;
-      border-left: 3px solid var(--accent);
-      padding-left: .6rem;
+    .chart-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 3px;
+      background: linear-gradient(90deg, var(--jade), var(--gold));
     }
     .chart-card.wide { grid-column: 1 / -1; }
-    .chart-wrap { position: relative; height: 280px; }
-    .chart-wrap.tall { height: 320px; }
 
-    /* Table */
+    .chart-card h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--ink);
+      margin-bottom: 1.2rem;
+      padding-bottom: 0.7rem;
+      border-bottom: 1px solid var(--dust);
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+    .chart-card h2 .glyph {
+      display: inline-flex;
+      width: 18px; height: 18px;
+      background: var(--terracota);
+      color: #fff;
+      font-size: 0.6rem;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Space Mono', monospace;
+      flex-shrink: 0;
+    }
+
+    .chart-wrap { position: relative; height: 280px; }
+    .chart-wrap.tall { height: 360px; }
+
+    /* ── TABLE ── */
+    .table-card {
+      background: var(--parchment);
+      border: 1px solid var(--stone);
+      border-radius: 2px;
+      box-shadow: var(--shadow-warm);
+      overflow: hidden;
+      margin-bottom: 2rem;
+      position: relative;
+    }
+    .table-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 3px;
+      background: linear-gradient(90deg, var(--cenote), var(--jade));
+    }
+    .table-head-inner {
+      padding: 1.5rem 1.6rem 1rem;
+      border-bottom: 1px solid var(--stone);
+    }
+    .table-head-inner h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--ink);
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
     .table-wrap { overflow-x: auto; }
     table {
       width: 100%;
       border-collapse: collapse;
-      font-family: 'Helvetica Neue', Arial, sans-serif;
-      font-size: .85rem;
+      font-family: 'Crimson Pro', serif;
+      font-size: 0.9rem;
+    }
+    thead tr {
+      background: var(--ink);
     }
     th {
-      background: var(--accent);
-      color: #fff;
-      padding: .5rem .7rem;
+      color: var(--parchment);
+      padding: 0.7rem 1rem;
       text-align: left;
-      font-weight: 600;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.6rem;
+      font-weight: 400;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
       white-space: nowrap;
     }
-    td { padding: .45rem .7rem; border-bottom: 1px solid var(--border); }
-    tr:hover td { background: #f5f0e8; }
-    .pct-bar {
+    td {
+      padding: 0.65rem 1rem;
+      border-bottom: 1px solid var(--dust);
+      vertical-align: middle;
+    }
+    tbody tr:last-child td { border-bottom: none; }
+    tbody tr:hover td { background: rgba(197,185,166,0.25); }
+
+    .id-badge {
       display: inline-block;
-      height: 8px;
-      background: var(--accent4);
-      border-radius: 4px;
-      min-width: 3px;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.65rem;
+      background: var(--terracota);
+      color: #fff;
+      padding: 0.15rem 0.4rem;
+      letter-spacing: 0.05em;
     }
 
-    footer {
-      text-align: center;
-      padding: 1.5rem;
-      font-size: .8rem;
+    .pct-bar-wrap {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.65rem;
       color: var(--muted);
-      font-family: 'Helvetica Neue', Arial, sans-serif;
-      border-top: 1px solid var(--border);
-      margin-top: 2rem;
     }
-    footer a { color: var(--accent3); text-decoration: none; }
-    footer a:hover { text-decoration: underline; }
+    .pct-track {
+      flex: 1;
+      height: 6px;
+      background: var(--dust);
+      border-radius: 0;
+      overflow: hidden;
+      min-width: 60px;
+      max-width: 100px;
+    }
+    .pct-fill {
+      height: 100%;
+      background: var(--jade);
+      border-radius: 0;
+      transition: width 0.8s ease-out;
+    }
+    .pct-fill.orange { background: var(--ocre); }
 
+    /* ── ERROR ── */
     #error-msg {
       background: #fdecea;
-      border: 1px solid var(--red);
-      color: var(--red);
-      padding: 1rem;
-      border-radius: 6px;
-      margin-bottom: 1.5rem;
-      font-family: monospace;
+      border-left: 4px solid var(--red-glyph);
+      color: var(--red-glyph);
+      padding: 1.2rem 1.4rem;
+      border-radius: 0;
+      margin-bottom: 2rem;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.78rem;
       display: none;
     }
+
+    /* ── NAV BAR ── */
+    .topnav {
+      background: var(--dust);
+      border-bottom: 1px solid var(--stone);
+      padding: 0.6rem 2.5rem;
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.65rem;
+      letter-spacing: 0.08em;
+    }
+    .topnav a {
+      color: var(--muted);
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: color 0.15s;
+    }
+    .topnav a:hover, .topnav a.active { color: var(--terracota); }
+    .topnav .separator { color: var(--stone); }
+
+    /* ── HYPOTHESIS BANNER ── */
+    .hypothesis-banner {
+      background: var(--ink);
+      color: var(--parchment);
+      padding: 1.6rem 2rem;
+      border-radius: 2px;
+      margin-bottom: 3rem;
+      position: relative;
+      overflow: hidden;
+      box-shadow: var(--shadow-deep);
+    }
+    .hypothesis-banner::before {
+      content: '"';
+      position: absolute;
+      font-family: 'Playfair Display', serif;
+      font-size: 14rem;
+      line-height: 1;
+      color: rgba(255,255,255,0.04);
+      top: -2rem;
+      left: 1rem;
+      pointer-events: none;
+    }
+    .hypothesis-banner .label {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.58rem;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      color: var(--gold);
+      margin-bottom: 0.7rem;
+    }
+    .hypothesis-banner p {
+      font-family: 'Crimson Pro', serif;
+      font-size: 1.05rem;
+      font-style: italic;
+      font-weight: 300;
+      line-height: 1.7;
+      color: var(--stone);
+      max-width: 880px;
+    }
+    .hypothesis-banner p strong {
+      color: var(--gold);
+      font-weight: 600;
+      font-style: normal;
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--ink);
+      color: var(--muted);
+      padding: 2.5rem 2.5rem;
+      margin-top: 2rem;
+    }
+    .footer-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+    .footer-brand {
+      font-family: 'Playfair Display', serif;
+      font-style: italic;
+      font-size: 1rem;
+      color: var(--stone);
+    }
+    .footer-brand span {
+      font-style: normal;
+      font-size: 0.75rem;
+      font-family: 'Space Mono', monospace;
+      display: block;
+      color: var(--muted);
+      margin-top: 0.2rem;
+      letter-spacing: 0.05em;
+    }
+    .footer-links {
+      display: flex;
+      gap: 1.5rem;
+      align-items: center;
+    }
+    .footer-links a {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--muted);
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+    .footer-links a:hover { color: var(--gold); }
+
+    /* ── LOADING STATE ── */
+    .skeleton {
+      background: linear-gradient(90deg, var(--dust) 25%, var(--parchment) 50%, var(--dust) 75%);
+      background-size: 200% 100%;
+      animation: shimmer 1.4s infinite;
+      border-radius: 2px;
+    }
+    @keyframes shimmer {
+      0%   { background-position: 200% 0; }
+      100% { background-position: -200% 0; }
+    }
+
+    /* ── ANIMATIONS ── */
+    .fade-in {
+      animation: fadeIn 0.5s ease-out both;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(16px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .fade-in:nth-child(1) { animation-delay: 0.05s; }
+    .fade-in:nth-child(2) { animation-delay: 0.10s; }
+    .fade-in:nth-child(3) { animation-delay: 0.15s; }
+    .fade-in:nth-child(4) { animation-delay: 0.20s; }
+    .fade-in:nth-child(5) { animation-delay: 0.25s; }
   </style>
 </head>
 <body>
+<div class="glyph-bg"></div>
+
+<!-- TOP NAV -->
+<nav class="topnav">
+  <a href="index.html" class="active">▸ Tablero</a>
+  <span class="separator">·</span>
+  <a href="busqueda.html">▸ Búsqueda</a>
+  <span class="separator">·</span>
+  <a href="https://github.com/Daniela-Naraai-Caamal-Ake/investigacion-historica" target="_blank">▸ GitHub</a>
+</nav>
+
+<!-- HEADER -->
 <header>
-  <h1>📊 Dos Mil Años en Silencio</h1>
-  <p>Tablero estadístico del proyecto de investigación histórica de Hopelchén, Campeche</p>
-  <small id="ts">Cargando datos…</small>
+  <div class="header-deco"></div>
+  <div class="header-ornament"></div>
+  <div class="header-inner">
+    <div>
+      <div class="site-label">Archivo histórico · Hopelchén, Campeche · Los Chenes</div>
+      <h1>Dos Mil Años<br><em>en Silencio</em></h1>
+      <p class="header-sub">Reconstrucción histórica del municipio de Hopelchén y el linaje Maya de Los Chenes</p>
+    </div>
+    <div class="header-meta">
+      <div class="author">Daniela Naraai Caamal Ake</div>
+      <div class="ts" id="ts">Cargando datos…</div>
+    </div>
+  </div>
 </header>
 
+<div class="divider"></div>
+
+<!-- MAIN -->
 <div class="container">
+
   <div id="error-msg"></div>
 
-  <!-- Summary Cards -->
-  <div class="cards" id="cards">
-    <div class="card"><div class="number" id="c-nodos">—</div><div class="label">Nodos temáticos</div></div>
-    <div class="card"><div class="number" id="c-regs">—</div><div class="label">Registros totales</div></div>
-    <div class="card"><div class="number" id="c-fuente">—</div><div class="label">% con fuente citada</div></div>
-    <div class="card"><div class="number" id="c-pregs">—</div><div class="label">Preguntas abiertas</div></div>
-    <div class="card"><div class="number" id="c-resp">—</div><div class="label">% respondidas</div></div>
+  <!-- HYPOTHESIS BANNER -->
+  <div class="hypothesis-banner fade-in">
+    <div class="label">Hipótesis central — v5</div>
+    <p>En Hopelchén, entre 1200 y 2026, el control efectivo de la tierra, del conocimiento público y de la decisión política ha tendido a concentrarse en <strong>élites externas o locales articuladas con poderes externos</strong>, reproduciendo un patrón de despojo y subordinación sobre comunidades mayas.</p>
   </div>
 
-  <!-- Charts -->
+  <!-- CARDS -->
+  <div class="section-head">
+    <span class="section-num">§ 01</span>
+    <h2>Estado del archivo</h2>
+    <div class="rule"></div>
+  </div>
+
+  <div class="cards" id="cards">
+    <div class="card fade-in"><div class="number" id="c-nodos">—</div><div class="label">Nodos temáticos</div></div>
+    <div class="card fade-in"><div class="number" id="c-regs">—</div><div class="label">Registros totales</div></div>
+    <div class="card fade-in"><div class="number" id="c-fuente">—</div><div class="label">% con fuente</div></div>
+    <div class="card fade-in"><div class="number" id="c-pregs">—</div><div class="label">Preguntas abiertas</div></div>
+    <div class="card fade-in"><div class="number" id="c-resp">—</div><div class="label">% respondidas</div></div>
+  </div>
+
+  <!-- CHARTS -->
+  <div class="section-head" style="margin-bottom:1.5rem">
+    <span class="section-num">§ 02</span>
+    <h2>Análisis por nodo</h2>
+    <div class="rule"></div>
+  </div>
+
   <div class="charts-grid">
 
-    <!-- Registros por nodo -->
-    <div class="chart-card wide">
-      <h2>Registros por nodo temático</h2>
+    <div class="chart-card wide fade-in">
+      <h2><span class="glyph">I</span> Registros por nodo temático</h2>
       <div class="chart-wrap">
         <canvas id="chart-nodos"></canvas>
       </div>
     </div>
 
-    <!-- Cobertura de fuentes -->
-    <div class="chart-card">
-      <h2>Cobertura de fuentes por nodo (%)</h2>
+    <div class="chart-card fade-in">
+      <h2><span class="glyph">II</span> Cobertura de fuentes por nodo</h2>
       <div class="chart-wrap">
         <canvas id="chart-fuentes"></canvas>
       </div>
     </div>
 
-    <!-- Preguntas respondidas vs pendientes -->
-    <div class="chart-card">
-      <h2>Estado de preguntas de investigación</h2>
+    <div class="chart-card fade-in">
+      <h2><span class="glyph">III</span> Estado de preguntas de investigación</h2>
       <div class="chart-wrap">
         <canvas id="chart-preguntas"></canvas>
       </div>
     </div>
 
-    <!-- Tipos de dato -->
-    <div class="chart-card wide">
-      <h2>Distribución por tipo de dato</h2>
-      <div class="chart-wrap">
+    <div class="chart-card wide fade-in">
+      <h2><span class="glyph">IV</span> Distribución por tipo de dato</h2>
+      <div class="chart-wrap tall">
         <canvas id="chart-tipos"></canvas>
       </div>
     </div>
 
   </div>
 
-  <!-- Detail Table -->
-  <div class="chart-card" style="margin-bottom:2rem;">
-    <h2>Tabla detallada por nodo</h2>
+  <!-- TABLE -->
+  <div class="section-head" style="margin-bottom:1.5rem">
+    <span class="section-num">§ 03</span>
+    <h2>Registro detallado por nodo</h2>
+    <div class="rule"></div>
+  </div>
+
+  <div class="table-card fade-in">
+    <div class="table-head-inner">
+      <h2><span class="glyph" style="background:var(--cenote)">▤</span> Tabla detallada por nodo</h2>
+    </div>
     <div class="table-wrap">
       <table id="tabla-nodos">
         <thead>
@@ -223,28 +706,48 @@
 
 </div>
 
+<!-- FOOTER -->
 <footer>
-  Proyecto <em>Dos Mil Años en Silencio</em> — Daniela Naraai Caamal Ake &nbsp;|&nbsp;
-  <a href="https://github.com/Daniela-Naraai-Caamal-Ake/investigacion-historica" target="_blank">GitHub</a>
-  &nbsp;|&nbsp;
-  <a href="busqueda.html">🔍 Búsqueda semántica</a>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      Dos Mil Años en Silencio
+      <span>Daniela Naraai Caamal Ake · Hopelchén, Campeche, México</span>
+    </div>
+    <div class="footer-links">
+      <a href="busqueda.html">🔍 Búsqueda</a>
+      <a href="https://github.com/Daniela-Naraai-Caamal-Ake/investigacion-historica" target="_blank">GitHub</a>
+    </div>
+  </div>
 </footer>
 
 <script>
-const PALETTE = [
-  '#8b4513','#c47c2b','#3b6ea5','#5a9e6f','#9b59b6',
-  '#e67e22','#2980b9','#27ae60','#e74c3c','#1abc9c',
-];
-const CHART_DEFAULTS = {
-  plugins: { legend: { labels: { font: { family: 'Helvetica Neue, Arial, sans-serif', size: 12 } } } },
+/* ── CONFIG ── */
+const PALETTE_WARM = ['#8b3a1a','#b5621e','#c9922a','#2d6e4e','#1e4a6b','#7a4fa0','#d4622a','#1a7a9a','#5a8a3a','#a03a2a'];
+const PALETTE_STACKED = { con: '#2d6e4e', sin: '#8b3a1a' };
+
+const FONT = "'Crimson Pro', Georgia, serif";
+const FONT_MONO = "'Space Mono', monospace";
+
+Chart.defaults.font.family = FONT;
+Chart.defaults.color = '#6b5c42';
+
+const GRID_OPTS = {
+  color: 'rgba(107,92,66,0.12)',
+  drawBorder: false,
 };
 
-function pctBar(pct) {
-  return `<span class="pct-bar" style="width:${Math.round(pct)}px"></span> ${pct}%`;
+function pctBarHtml(pct, isOrange = false) {
+  return `
+    <div class="pct-bar-wrap">
+      <div class="pct-track">
+        <div class="pct-fill${isOrange ? ' orange' : ''}" style="width:${pct}%"></div>
+      </div>
+      <span>${pct}%</span>
+    </div>`;
 }
 
-function shortTitle(titulo, maxLen = 40) {
-  return titulo.length > maxLen ? titulo.slice(0, maxLen) + '…' : titulo;
+function shortTitle(t, n = 38) {
+  return t.length > n ? t.slice(0, n) + '…' : t;
 }
 
 async function init() {
@@ -255,7 +758,7 @@ async function init() {
     data = await resp.json();
   } catch (e) {
     const el = document.getElementById('error-msg');
-    el.textContent = `No se pudo cargar stats.json: ${e.message}. Asegúrate de servir la página desde un servidor HTTP.`;
+    el.textContent = `Error al cargar stats.json — ${e.message}`;
     el.style.display = 'block';
     document.getElementById('ts').textContent = 'Error al cargar datos.';
     return;
@@ -263,25 +766,29 @@ async function init() {
 
   const { resumen, nodos, preguntas, cobertura, generado_en } = data;
 
-  // Timestamp
-  const d = new Date(generado_en);
-  document.getElementById('ts').textContent =
-    `Última actualización: ${d.toLocaleDateString('es-MX', { year:'numeric', month:'long', day:'numeric' })} ${d.toLocaleTimeString('es-MX', { hour:'2-digit', minute:'2-digit' })} UTC`;
+  /* Timestamp */
+  if (generado_en) {
+    const d = new Date(generado_en);
+    document.getElementById('ts').textContent =
+      `Actualizado: ${d.toLocaleDateString('es-MX', { year:'numeric', month:'short', day:'numeric' })}`;
+  }
 
-  // Cards
+  /* Cards */
+  const totalPregs = resumen.total_preguntas;
+  const respondidas = preguntas?.totales?.['Respondida'] || 0;
+
   document.getElementById('c-nodos').textContent = resumen.total_nodos;
   document.getElementById('c-regs').textContent = resumen.total_registros;
   document.getElementById('c-fuente').textContent = resumen.pct_fuente_global + '%';
-  const totalPregs = resumen.total_preguntas;
-  const respondidas = preguntas.totales['Respondida'] || 0;
   document.getElementById('c-pregs').textContent = totalPregs;
   document.getElementById('c-resp').textContent =
     totalPregs > 0 ? Math.round(100 * respondidas / totalPregs) + '%' : '—';
 
-  const labels = nodos.map(n => `Nodo ${n.id}`);
+  const labels = nodos.map(n => `N${n.id}`);
   const titlesShort = nodos.map(n => shortTitle(n.titulo));
+  const fullTitles = nodos.map(n => n.titulo);
 
-  // Chart 1: Registros por nodo
+  /* Chart I — Registros por nodo */
   new Chart(document.getElementById('chart-nodos'), {
     type: 'bar',
     data: {
@@ -289,27 +796,33 @@ async function init() {
       datasets: [{
         label: 'Registros',
         data: nodos.map(n => n.n_registros),
-        backgroundColor: PALETTE,
-        borderRadius: 4,
+        backgroundColor: PALETTE_WARM,
+        borderRadius: 0,
+        borderSkipped: false,
       }]
     },
     options: {
-      ...CHART_DEFAULTS,
       responsive: true,
       maintainAspectRatio: false,
       plugins: {
-        ...CHART_DEFAULTS.plugins,
         legend: { display: false },
-        tooltip: { callbacks: { title: (items) => nodos[items[0].dataIndex].titulo } },
+        tooltip: {
+          callbacks: {
+            title: (items) => fullTitles[items[0].dataIndex],
+            label: (ctx) => ` ${ctx.raw} registros`,
+          },
+          bodyFont: { family: FONT_MONO, size: 11 },
+          titleFont: { family: FONT, size: 13 },
+        },
       },
       scales: {
-        y: { beginAtZero: true, ticks: { stepSize: 1 } },
-        x: { ticks: { font: { size: 10 } } },
+        y: { beginAtZero: true, ticks: { stepSize: 1, font: { family: FONT_MONO, size: 10 } }, grid: GRID_OPTS },
+        x: { ticks: { font: { family: FONT, size: 11 } }, grid: { display: false } },
       }
     }
   });
 
-  // Chart 2: Cobertura fuentes
+  /* Chart II — Cobertura fuentes */
   new Chart(document.getElementById('chart-fuentes'), {
     type: 'bar',
     data: {
@@ -318,36 +831,46 @@ async function init() {
         {
           label: 'Con fuente',
           data: nodos.map(n => n.n_con_fuente),
-          backgroundColor: '#5a9e6f',
-          borderRadius: 3,
+          backgroundColor: PALETTE_STACKED.con,
+          borderRadius: 0,
         },
         {
           label: 'Sin fuente',
           data: nodos.map(n => n.n_registros - n.n_con_fuente),
-          backgroundColor: '#e74c3c',
-          borderRadius: 3,
+          backgroundColor: PALETTE_STACKED.sin,
+          borderRadius: 0,
         }
       ]
     },
     options: {
-      ...CHART_DEFAULTS,
       responsive: true,
       maintainAspectRatio: false,
       plugins: {
-        ...CHART_DEFAULTS.plugins,
-        tooltip: { callbacks: { title: (items) => nodos[items[0].dataIndex].titulo } },
+        legend: {
+          labels: {
+            font: { family: FONT_MONO, size: 10 },
+            boxWidth: 12,
+            padding: 12,
+          }
+        },
+        tooltip: {
+          callbacks: { title: (items) => fullTitles[items[0].dataIndex] },
+          bodyFont: { family: FONT_MONO, size: 11 },
+          titleFont: { family: FONT, size: 13 },
+        },
       },
       scales: {
-        x: { stacked: true, ticks: { font: { size: 10 } } },
-        y: { stacked: true, beginAtZero: true }
+        x: { stacked: true, ticks: { font: { family: FONT, size: 11 } }, grid: { display: false } },
+        y: { stacked: true, beginAtZero: true, ticks: { font: { family: FONT_MONO, size: 10 } }, grid: GRID_OPTS },
       }
     }
   });
 
-  // Chart 3: Preguntas
-  const pregLabels = Object.keys(preguntas.totales);
-  const pregValues = Object.values(preguntas.totales);
-  const pregColors = { 'Respondida': '#5a9e6f', 'En curso': '#c47c2b', 'Pendiente': '#e74c3c' };
+  /* Chart III — Preguntas donut */
+  const pregLabels = Object.keys(preguntas?.totales || {});
+  const pregValues = Object.values(preguntas?.totales || {});
+  const pregColors = { 'Respondida': '#2d6e4e', 'En curso': '#b5621e', 'Pendiente': '#8b3a1a' };
+
   new Chart(document.getElementById('chart-preguntas'), {
     type: 'doughnut',
     data: {
@@ -355,29 +878,35 @@ async function init() {
       datasets: [{
         data: pregValues,
         backgroundColor: pregLabels.map(l => pregColors[l] || '#999'),
-        borderWidth: 2,
-        borderColor: '#fff',
+        borderWidth: 3,
+        borderColor: '#f2ead8',
+        hoverOffset: 6,
       }]
     },
     options: {
-      ...CHART_DEFAULTS,
       responsive: true,
       maintainAspectRatio: false,
+      cutout: '62%',
       plugins: {
-        ...CHART_DEFAULTS.plugins,
+        legend: {
+          position: 'bottom',
+          labels: { font: { family: FONT_MONO, size: 10 }, padding: 16, boxWidth: 12 }
+        },
         tooltip: {
           callbacks: {
-            label: (ctx) => ` ${ctx.label}: ${ctx.raw} (${Math.round(100*ctx.raw/totalPregs)}%)`
-          }
+            label: (ctx) => ` ${ctx.label}: ${ctx.raw} (${Math.round(100*ctx.raw/(totalPregs||1))}%)`
+          },
+          bodyFont: { family: FONT_MONO, size: 11 },
         }
       }
     }
   });
 
-  // Chart 4: Tipos agrupados
-  const tipos = cobertura.tipos_agrupados || {};
+  /* Chart IV — Tipos horizontales */
+  const tipos = cobertura?.tipos_agrupados || {};
   const tipoLabels = Object.keys(tipos);
   const tipoValues = Object.values(tipos);
+
   new Chart(document.getElementById('chart-tipos'), {
     type: 'bar',
     data: {
@@ -385,37 +914,42 @@ async function init() {
       datasets: [{
         label: 'Registros',
         data: tipoValues,
-        backgroundColor: PALETTE.slice(0, tipoLabels.length),
-        borderRadius: 4,
+        backgroundColor: tipoLabels.map((_, i) => PALETTE_WARM[i % PALETTE_WARM.length]),
+        borderRadius: 0,
+        borderSkipped: false,
       }]
     },
     options: {
-      ...CHART_DEFAULTS,
+      indexAxis: 'y',
       responsive: true,
       maintainAspectRatio: false,
-      indexAxis: 'y',
       plugins: {
-        ...CHART_DEFAULTS.plugins,
         legend: { display: false },
+        tooltip: {
+          callbacks: { label: (ctx) => ` ${ctx.raw} registros` },
+          bodyFont: { family: FONT_MONO, size: 11 },
+          titleFont: { family: FONT, size: 13 },
+        },
       },
       scales: {
-        x: { beginAtZero: true, ticks: { stepSize: 5 } },
+        x: { beginAtZero: true, ticks: { font: { family: FONT_MONO, size: 10 } }, grid: GRID_OPTS },
+        y: { ticks: { font: { family: FONT, size: 12 } }, grid: { display: false } },
       }
     }
   });
 
-  // Table
+  /* Table */
   const tbody = document.getElementById('tbody-nodos');
-  nodos.forEach(n => {
+  nodos.forEach((n, i) => {
     const tr = document.createElement('tr');
     tr.innerHTML = `
-      <td><strong>${n.id}</strong></td>
-      <td style="max-width:320px;font-size:.82rem">${n.titulo}</td>
-      <td style="white-space:nowrap;font-size:.82rem">${n.rango_temporal || '—'}</td>
-      <td style="text-align:center">${n.n_registros}</td>
-      <td style="text-align:center">${n.n_con_fuente}</td>
-      <td>${pctBar(n.pct_fuente)}</td>
-      <td>${pctBar(n.pct_conexion)}</td>
+      <td><span class="id-badge">${n.id}</span></td>
+      <td style="font-size:.88rem;max-width:300px">${n.titulo}</td>
+      <td style="font-family:'Space Mono',monospace;font-size:.72rem;white-space:nowrap;color:var(--muted)">${n.rango_temporal || '—'}</td>
+      <td style="text-align:center;font-family:'Space Mono',monospace;font-size:.82rem">${n.n_registros}</td>
+      <td style="text-align:center;font-family:'Space Mono',monospace;font-size:.82rem">${n.n_con_fuente}</td>
+      <td>${pctBarHtml(n.pct_fuente)}</td>
+      <td>${pctBarHtml(n.pct_conexion, true)}</td>
     `;
     tbody.appendChild(tr);
   });
