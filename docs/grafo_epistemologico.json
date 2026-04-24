@@ -1,0 +1,5254 @@
+{
+  "nodos": [
+    {
+      "id": "HIPOTESIS",
+      "tipo": "HIPOTESIS",
+      "etiqueta": "Hipótesis central (v5)",
+      "grado_entrada": 135,
+      "grado_salida": 0
+    },
+    {
+      "id": "NODO:001",
+      "tipo": "NODO",
+      "etiqueta": "Ocupación Prehispánica del Territorio de Hopelchén — Los Chenes y sus Ciudades Mayas",
+      "grado_entrada": 17,
+      "grado_salida": 16
+    },
+    {
+      "id": "NODO:002",
+      "tipo": "NODO",
+      "etiqueta": "La Conquista Española en Los Chenes y la Fundación Colonial de Hopelchén (1517–1669)",
+      "grado_entrada": 23,
+      "grado_salida": 16
+    },
+    {
+      "id": "NODO:003",
+      "tipo": "NODO",
+      "etiqueta": "Colonia Tardía, Independencia, Guerra de Castas y el Porfiriato en Hopelchén (1670–1910): Tierra, Poder y Destrucción",
+      "grado_entrada": 19,
+      "grado_salida": 28
+    },
+    {
+      "id": "NODO:004",
+      "tipo": "NODO",
+      "etiqueta": "Revolución, Lucha Antiagraria, Reforma Agraria y la Economía Chiclera en Hopelchén (1910–1970): La Tierra Se Redistribuye, el Chicle Se Explota",
+      "grado_entrada": 20,
+      "grado_salida": 32
+    },
+    {
+      "id": "NODO:005",
+      "tipo": "NODO",
+      "etiqueta": "Hopelchén Contemporáneo (1970–2026): Menonitas, Agroindustria Transgénica y Resistencia Maya — El Último Ciclo Extractivo",
+      "grado_entrada": 17,
+      "grado_salida": 29
+    },
+    {
+      "id": "NODO:006",
+      "tipo": "NODO",
+      "etiqueta": "La Genealogía del Poder Político Local en Hopelchén (1959–2026): Apellidos, Nepotismo, Filiaciones y Continuidad",
+      "grado_entrada": 26,
+      "grado_salida": 3
+    },
+    {
+      "id": "NODO:007",
+      "tipo": "NODO",
+      "etiqueta": "Rutas, Territorio y Control del Espacio en Hopelchén (1517–2026): Del Camino Real al Campo de Aterrizaje Chiclero y la Carretera 261",
+      "grado_entrada": 33,
+      "grado_salida": 8
+    },
+    {
+      "id": "NODO:008",
+      "tipo": "NODO",
+      "etiqueta": "Demografía e Historia de la Población en Hopelchén (300 a.C.–2026): Censos, Colapsos, Migraciones y el Perfil del Pueblo Maya Contemporáneo",
+      "grado_entrada": 30,
+      "grado_salida": 7
+    },
+    {
+      "id": "NODO:009",
+      "tipo": "NODO",
+      "etiqueta": "Resistencia y Agencia Maya en Hopelchén (1669–2026): De los Bataboob a Leydy Pech — Los Mayas como Sujetos Activos de su Historia",
+      "grado_entrada": 57,
+      "grado_salida": 7
+    },
+    {
+      "id": "NODO:010",
+      "tipo": "NODO",
+      "etiqueta": "Conocimiento y Cultura Maya en Los Chenes (300 a.C. – 2026): Astronomía, Escritura, Destrucción y Continuidad",
+      "grado_entrada": 44,
+      "grado_salida": 2
+    },
+    {
+      "id": "REGISTRO:001-A",
+      "tipo": "REGISTRO",
+      "etiqueta": "Primer dato verificable de ocupación humana en el territorio: Santa Rosa Xtampak",
+      "grado_entrada": 0,
+      "grado_salida": 5
+    },
+    {
+      "id": "FUENTE:001-A:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Sistema de Información Cultural — Secretaría de Cultura / INAH",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:001-A:fuente_academica",
+      "tipo": "FUENTE",
+      "etiqueta": "Santa Rosa Xtampak, Campeche: su patrón de asentamiento del Preclásico al Clásic",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:001-A:fuente_secundaria",
+      "tipo": "FUENTE",
+      "etiqueta": "INAH Lugares — Zona Arqueológica Santa Rosa Xtampak",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:001-B",
+      "tipo": "REGISTRO",
+      "etiqueta": "Fecha epigráfica más antigua registrada en Los Chenes: Estela 5 de Santa Rosa Xt",
+      "grado_entrada": 0,
+      "grado_salida": 4
+    },
+    {
+      "id": "FUENTE:001-B:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Mediateca INAH — Santa Rosa Xtampak",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:001-B:fuente_academica",
+      "tipo": "FUENTE",
+      "etiqueta": "Santa Rosa Xtampak, Campeche, y sus inscripciones",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:001-C",
+      "tipo": "REGISTRO",
+      "etiqueta": "Hochob — Primer asentamiento documentado con datación INAH: 300 d.C.",
+      "grado_entrada": 0,
+      "grado_salida": 4
+    },
+    {
+      "id": "FUENTE:001-C:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "INAH — Zona Arqueológica Hochob",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:001-C:fuente_secundaria",
+      "tipo": "FUENTE",
+      "etiqueta": "Mediateca INAH — Miniguía Hochob",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:001-D",
+      "tipo": "REGISTRO",
+      "etiqueta": "Dzibilnocac — Tercer centro de poder en Hopelchén",
+      "grado_entrada": 0,
+      "grado_salida": 4
+    },
+    {
+      "id": "FUENTE:001-D:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Wikipedia — Municipio de Hopelchén",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:001-D:fuente_secundaria",
+      "tipo": "FUENTE",
+      "etiqueta": "Guía Turística México — Hopelchén",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:001-E",
+      "tipo": "REGISTRO",
+      "etiqueta": "El Estilo Chenes como sistema de identidad regional — Territorio y arquitectura ",
+      "grado_entrada": 0,
+      "grado_salida": 3
+    },
+    {
+      "id": "FUENTE:001-E:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Arqueología Mexicana — Santa Rosa Xtampak, capital en la región Chenes",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:001-F",
+      "tipo": "REGISTRO",
+      "etiqueta": "Colapso Maya en Los Chenes y su relación con estructuras de poder",
+      "grado_entrada": 0,
+      "grado_salida": 3
+    },
+    {
+      "id": "FUENTE:001-F:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "INAH — Zona Arqueológica Hochob",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:001-G",
+      "tipo": "REGISTRO",
+      "etiqueta": "Estela 2 de Santa Rosa Xtampak: epigrafía y gobernante JOL — identidad dinástica",
+      "grado_entrada": 0,
+      "grado_salida": 3
+    },
+    {
+      "id": "FUENTE:001-G:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Revista Arqueología (INAH) — SciELO México, 2004",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:001-H",
+      "tipo": "REGISTRO",
+      "etiqueta": "Ocomtún (2023): ciudad maya clásica en el borde sur de Los Chenes — el territori",
+      "grado_entrada": 0,
+      "grado_salida": 4
+    },
+    {
+      "id": "FUENTE:001-H:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "INAH — Boletín oficial Ocomtún, junio 2023",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:001-H:fuente_academica",
+      "tipo": "FUENTE",
+      "etiqueta": "Šprajc, Ivan (coord.). Proyecto 'Ampliando el panorama arqueológico de las Tierr",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:002-A",
+      "tipo": "REGISTRO",
+      "etiqueta": "Contexto político maya previo a la Conquista: Los Chenes en un mundo fragmentado",
+      "grado_entrada": 0,
+      "grado_salida": 4
+    },
+    {
+      "id": "FUENTE:002-A:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Wikipedia — Conquista de Yucatán",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:002-A:fuente_academica",
+      "tipo": "FUENTE",
+      "etiqueta": "Ralph L. Roys — The Political Geography of the Yucatan Maya",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:002-B",
+      "tipo": "REGISTRO",
+      "etiqueta": "La Conquista de Yucatán: tres intentos fallidos y el papel de Los Chenes como zo",
+      "grado_entrada": 0,
+      "grado_salida": 4
+    },
+    {
+      "id": "FUENTE:002-B:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Confabulario / El Universal — Los mayas: una larga y sinuosa conquista",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:002-B:fuente_secundaria",
+      "tipo": "FUENTE",
+      "etiqueta": "Guía Turística México — Hopelchén",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:002-C",
+      "tipo": "REGISTRO",
+      "etiqueta": "Los Tutul Xiúes y su relación con Los Chenes: alianza colonial y control territo",
+      "grado_entrada": 0,
+      "grado_salida": 3
+    },
+    {
+      "id": "FUENTE:002-C:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Wikipedia — Conquista de Yucatán / Spanish conquest of Yucatán (inglés)",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:002-D",
+      "tipo": "REGISTRO",
+      "etiqueta": "1546: La Gran Rebelión Maya y Los Chenes como espacio de resistencia",
+      "grado_entrada": 0,
+      "grado_salida": 4
+    },
+    {
+      "id": "FUENTE:002-D:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Confabulario / El Universal — Descubrimiento y conquista de Yucatán",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:002-D:fuente_secundaria",
+      "tipo": "FUENTE",
+      "etiqueta": "Wikipedia — Conquista de Yucatán",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:002-E",
+      "tipo": "REGISTRO",
+      "etiqueta": "1621: Fundación de Hopelchén como pueblo de congregación — el primer acto de con",
+      "grado_entrada": 0,
+      "grado_salida": 3
+    },
+    {
+      "id": "FUENTE:002-E:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Wikipedia — Hopelchén / INDEFOS / Archivo Municipal de Hopelchén",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:002-F",
+      "tipo": "REGISTRO",
+      "etiqueta": "1622: Primera mención documental conocida de Hopelchén — expedición hacia los It",
+      "grado_entrada": 0,
+      "grado_salida": 3
+    },
+    {
+      "id": "FUENTE:002-F:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Archivo Municipal de Hopelchén — CensoArchivos / Ministerio de Cultura España",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:002-G",
+      "tipo": "REGISTRO",
+      "etiqueta": "1669: Los Bataboob de Hopelchén — élite maya local que resiste el control españo",
+      "grado_entrada": 0,
+      "grado_salida": 4
+    },
+    {
+      "id": "FUENTE:002-G:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "INDEFOS — Hopelchén / Archivo Municipal de Hopelchén (CensoArchivos)",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:002-G:fuente_academica",
+      "tipo": "FUENTE",
+      "etiqueta": "Chávez Gómez, José Manuel A. 'Los señores del hacha y la lluvia. La organización",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:002-H",
+      "tipo": "REGISTRO",
+      "etiqueta": "Sistema de encomienda en Los Chenes: el primer mecanismo de control económico y ",
+      "grado_entrada": 0,
+      "grado_salida": 4
+    },
+    {
+      "id": "FUENTE:002-H:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Wikipedia — Encomienda / Nueva Escuela Mexicana SEP",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:002-H:fuente_academica",
+      "tipo": "FUENTE",
+      "etiqueta": "El Colegio de México — Encomienda, Cabildo y Gubernatura Indígena en Yucatán, 15",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:002-I",
+      "tipo": "REGISTRO",
+      "etiqueta": "Los Xiúes de Dzibil-Noh-Aac (hoy Iturbide): posibles vínculos con Los Chenes seg",
+      "grado_entrada": 0,
+      "grado_salida": 3
+    },
+    {
+      "id": "FUENTE:002-I:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Papeles Xiu / Códice Xiu — Sacred Texts Archive; fuentes coloniales",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:003-A",
+      "tipo": "REGISTRO",
+      "etiqueta": "1670–1821: La Colonia tardía en Los Chenes — consolidación hacendaria y economía",
+      "grado_entrada": 0,
+      "grado_salida": 4
+    },
+    {
+      "id": "FUENTE:003-A:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Guía Turística México — Hopelchén",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:003-A:fuente_secundaria",
+      "tipo": "FUENTE",
+      "etiqueta": "Pueblos América — Hopelchén (cronología histórica)",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:003-B",
+      "tipo": "REGISTRO",
+      "etiqueta": "1843–1847: La privatización de tierras mayas — el despojo que detonó la Guerra d",
+      "grado_entrada": 0,
+      "grado_salida": 4
+    },
+    {
+      "id": "FUENTE:003-B:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "SciELO México — Oponiéndose al capitalismo en Yucatán: La causa de los rebeldes ",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:003-B:fuente_secundaria",
+      "tipo": "FUENTE",
+      "etiqueta": "Revista Expresiones del Sureste — LA GUERRA DE CASTAS: 1847-1901",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:003-C",
+      "tipo": "REGISTRO",
+      "etiqueta": "1847–1857: La Guerra de Castas en Los Chenes — destrucción del emporio agrícola ",
+      "grado_entrada": 0,
+      "grado_salida": 4
+    },
+    {
+      "id": "FUENTE:003-C:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Guía Turística México — Hopelchén (datos de haciendas)",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:003-C:fuente_academica",
+      "tipo": "FUENTE",
+      "etiqueta": "Secuencia / Instituto Mora (2019). 'Guerra de castas y escasez de alimentos en l",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:003-D",
+      "tipo": "REGISTRO",
+      "etiqueta": "1857–1858: La creación del Estado de Campeche y Hopelchén como pieza política",
+      "grado_entrada": 0,
+      "grado_salida": 4
+    },
+    {
+      "id": "FUENTE:003-D:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Wikipedia — Hopelchén",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:003-D:fuente_secundaria",
+      "tipo": "FUENTE",
+      "etiqueta": "Wikipedia — Joaquín Baranda (describe el movimiento de emancipación de 1857)",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:003-E",
+      "tipo": "REGISTRO",
+      "etiqueta": "La Familia Baranda: red de poder que conecta la emancipación de Campeche con el ",
+      "grado_entrada": 0,
+      "grado_salida": 3
+    },
+    {
+      "id": "FUENTE:003-E:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Wikipedia — Joaquín Baranda",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:003-F",
+      "tipo": "REGISTRO",
+      "etiqueta": "1870–1910: El Porfiriato en Los Chenes — compañías deslindadoras, latifundios y ",
+      "grado_entrada": 0,
+      "grado_salida": 4
+    },
+    {
+      "id": "FUENTE:003-F:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "SciELO México — La reforma agraria en Campeche, ¿permanencia de una cultura indí",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:003-F:fuente_secundaria",
+      "tipo": "FUENTE",
+      "etiqueta": "El Bable — La antigua hacienda de Dzibalchén, Campeche",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:003-G",
+      "tipo": "REGISTRO",
+      "etiqueta": "Personajes intelectuales y culturales de Hopelchén — primera generación document",
+      "grado_entrada": 0,
+      "grado_salida": 3
+    },
+    {
+      "id": "FUENTE:003-G:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Pueblos América — Hopelchén (sección personajes)",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:003-H",
+      "tipo": "REGISTRO",
+      "etiqueta": "Cruce de datos: Baranda + Tierra + Telégrafo + Educación — el sistema de control",
+      "grado_entrada": 0,
+      "grado_salida": 3
+    },
+    {
+      "id": "FUENTE:003-H:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Análisis propio — cruce de datos de registros 003-D y 003-E",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:003-I",
+      "tipo": "REGISTRO",
+      "etiqueta": "Serapio Baqueiro Preve (1838–1900): El historiador nacido en Hopelchén que docum",
+      "grado_entrada": 0,
+      "grado_salida": 4
+    },
+    {
+      "id": "FUENTE:003-I:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Ferrer Muñoz, Manuel — 'La independencia de México vivida en la periferia: el ca",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:003-I:fuente_secundaria",
+      "tipo": "FUENTE",
+      "etiqueta": "AV_FUENTES.md — F008 (datos sobre Serapio Baqueiro Preve)",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:003-J",
+      "tipo": "REGISTRO",
+      "etiqueta": "Pantaleón Barrera Cámara: gobernador de Yucatán, traficante de mayas a Cuba, nov",
+      "grado_entrada": 0,
+      "grado_salida": 4
+    },
+    {
+      "id": "FUENTE:003-J:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Ferrer Muñoz, Manuel — 'La independencia de México vivida en la periferia: el ca",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:003-J:fuente_secundaria",
+      "tipo": "FUENTE",
+      "etiqueta": "AV_PERSONAS.md — PANTALEÓN BARRERA CÁMARA / AV_HILOS.md — HILO CUBA",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:003-K",
+      "tipo": "REGISTRO",
+      "etiqueta": "Olegario Molina Solís: nacido en Bolonchenticul, 'El Olegariato', Secretario de ",
+      "grado_entrada": 0,
+      "grado_salida": 3
+    },
+    {
+      "id": "FUENTE:003-K:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "AV_PERSONAS.md — OLEGARIO MOLINA SOLÍS / AV_HILOS.md — HILO CUBA",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:003-L",
+      "tipo": "REGISTRO",
+      "etiqueta": "Schüren 2013 sobre Los Chenes: economía agraria y estructura social en el porfir",
+      "grado_entrada": 0,
+      "grado_salida": 3
+    },
+    {
+      "id": "FUENTE:003-L:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Schüren, Ute (2013) — Investigaciones Sociales, UNMSM/IIHS-UNAM — Redalyc id 247",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:004-A",
+      "tipo": "REGISTRO",
+      "etiqueta": "1910–1915: La Revolución llega a Hopelchén — el municipio libre y la clase hacen",
+      "grado_entrada": 0,
+      "grado_salida": 3
+    },
+    {
+      "id": "FUENTE:004-A:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Wikipedia — Hopelchén / Revolución Mexicana",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:004-B",
+      "tipo": "REGISTRO",
+      "etiqueta": "1917–1930: Reforma Agraria en Campeche — dotación de ejidos y las haciendas que ",
+      "grado_entrada": 0,
+      "grado_salida": 4
+    },
+    {
+      "id": "FUENTE:004-B:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "El Bable — La antigua hacienda de Dzibalchén (cita resolución presidencial)",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:004-B:fuente_academica",
+      "tipo": "FUENTE",
+      "etiqueta": "SciELO — La reforma agraria en Campeche, ¿permanencia de una cultura indígena? (",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:004-C",
+      "tipo": "REGISTRO",
+      "etiqueta": "1900–1950: La economía chiclera en Los Chenes — estructura de explotación monopo",
+      "grado_entrada": 0,
+      "grado_salida": 3
+    },
+    {
+      "id": "FUENTE:004-C:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Información consolidada de fuentes secundarias sobre la economía chiclera en Cam",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:004-D",
+      "tipo": "REGISTRO",
+      "etiqueta": "1930–1947: Cárdenas, cooperativas y la expropiación chiclera — el Estado intenta",
+      "grado_entrada": 0,
+      "grado_salida": 4
+    },
+    {
+      "id": "FUENTE:004-D:fuente_1",
+      "tipo": "FUENTE",
+      "etiqueta": "SciELO — La reforma agraria en Campeche (Cantún Caamal)",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:004-D:fuente_academica",
+      "tipo": "FUENTE",
+      "etiqueta": "Schüren, Ute. \"Los Chenes en la revolución: Cambios políticos en una zona fronte",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:004-E",
+      "tipo": "REGISTRO",
+      "etiqueta": "1940–1970: El fin del chicle y el inicio de la crisis — Hopelchén en la encrucij",
+      "grado_entrada": 0,
+      "grado_salida": 5
+    },
+    {
+      "id": "FUENTE:004-E:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Ponce Jiménez, Martha Patricia. La montaña chiclera. Campeche: vida cotidiana y ",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:004-E:fuente_1",
+      "tipo": "FUENTE",
+      "etiqueta": "El Bable — Hacienda de Dzibalchén (cita Schüren 2013 y datos de producción)",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:004-E:fuente_academica",
+      "tipo": "FUENTE",
+      "etiqueta": "Schüren, Ute. \"El impacto de la política neoliberal en el campo mexicano: El cas",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:004-F",
+      "tipo": "REGISTRO",
+      "etiqueta": "Fuentes literarias y académicas de Los Chenes — el testimonio como historia",
+      "grado_entrada": 0,
+      "grado_salida": 3
+    },
+    {
+      "id": "FUENTE:004-F:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "EntreDiversidades — Bestializados y oprimidos: figuraciones del chiclero (Vadill",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:004-G",
+      "tipo": "REGISTRO",
+      "etiqueta": "CRUCE DE DATOS: El ciclo extractivo de Hopelchén — un patrón de 500 años",
+      "grado_entrada": 0,
+      "grado_salida": 3
+    },
+    {
+      "id": "FUENTE:004-G:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Análisis propio — cruce de datos de Nodos 001-004",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:004-H",
+      "tipo": "REGISTRO",
+      "etiqueta": "Cirilo 'Chan Cil' Baqueiro Preve: el trovador de Hopelchén cuya canción llegó a ",
+      "grado_entrada": 0,
+      "grado_salida": 4
+    },
+    {
+      "id": "FUENTE:004-H:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Baqueiro Foster, Gerónimo — 'Música maya'. En: *Los Mayas Antiguos*. El Colegio ",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:004-H:fuente_secundaria",
+      "tipo": "FUENTE",
+      "etiqueta": "AV_PERSONAS.md — CHAN CIL (CIRILO BAQUEIRO PREVE) / AV_HILOS.md — HILO BERLÍN, H",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:004-I",
+      "tipo": "REGISTRO",
+      "etiqueta": "1987: Llegada de los primeros menonitas a Hopelchén — el inicio del nuevo ciclo ",
+      "grado_entrada": 0,
+      "grado_salida": 3
+    },
+    {
+      "id": "FUENTE:004-I:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "menonitas_hopelchen.json — Base de datos documental del proyecto",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:004-J",
+      "tipo": "REGISTRO",
+      "etiqueta": "Jorge Carlos Hurtado Valdez: gobernador de Campeche 2003-2009 y el contexto meno",
+      "grado_entrada": 0,
+      "grado_salida": 3
+    },
+    {
+      "id": "FUENTE:004-J:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Contexto histórico del gobierno de Campeche — datos inferidos de cronología cono",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:005-A",
+      "tipo": "REGISTRO",
+      "etiqueta": "1987–2000: La llegada de los menonitas a Hopelchén — la nueva colonización",
+      "grado_entrada": 0,
+      "grado_salida": 5
+    },
+    {
+      "id": "FUENTE:005-A:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "El Financiero. \"Menonitas que huyeron de Chihuahua ahora alimentan Asia desde Ca",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:005-A:fuente_1",
+      "tipo": "FUENTE",
+      "etiqueta": "Observatorio Ciudadano — Menonitas arrasan selvas de Campeche",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:005-A:fuente_academica",
+      "tipo": "FUENTE",
+      "etiqueta": "Schüren, Ute. \"Mennonitas y ejidatarios en Campeche: una comparación de diferent",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:005-B",
+      "tipo": "REGISTRO",
+      "etiqueta": "2007–2021: La soya transgénica y el despojo silencioso — 153,809 hectáreas de se",
+      "grado_entrada": 0,
+      "grado_salida": 5
+    },
+    {
+      "id": "FUENTE:005-B:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "SADER (Secretaría de Agricultura y Desarrollo Rural). Estadísticas de producción",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:005-B:fuente_1",
+      "tipo": "FUENTE",
+      "etiqueta": "Animal Político — Soya: la agroindustria que arrasa con la selva maya",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:005-B:fuente_academica",
+      "tipo": "FUENTE",
+      "etiqueta": "La Jornada de Oriente / MATRIA. \"Expansión menonita en Campeche y QR: reporte.\" ",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:005-C",
+      "tipo": "REGISTRO",
+      "etiqueta": "2012–2017: La lucha jurídica de las comunidades mayas de Los Chenes contra Monsa",
+      "grado_entrada": 0,
+      "grado_salida": 5
+    },
+    {
+      "id": "FUENTE:005-C:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Suprema Corte de Justicia de la Nación (SCJN). Amparo en Revisión 307/2016. Comu",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:005-C:fuente_1",
+      "tipo": "FUENTE",
+      "etiqueta": "AIDA (Interamerican Association for Environmental Defense) — Apoyando la lucha d",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:005-C:fuente_academica",
+      "tipo": "FUENTE",
+      "etiqueta": "Animal Político. \"México: esto sucede cuando se tumba selva en el territorio may",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:005-D",
+      "tipo": "REGISTRO",
+      "etiqueta": "2015–2026: Crisis ambiental acumulativa — agua contaminada, abejas muertas, vest",
+      "grado_entrada": 0,
+      "grado_salida": 5
+    },
+    {
+      "id": "FUENTE:005-D:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Osten, Sylvia et al. \"Glyphosate Residues in Groundwater, Drinking Water and Uri",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:005-D:fuente_1",
+      "tipo": "FUENTE",
+      "etiqueta": "N+ — Abejas para el Futuro: 10 Años de Lucha para Proteger las Colmenas de Hopel",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:005-D:fuente_academica",
+      "tipo": "FUENTE",
+      "etiqueta": "Ka Kuxtal Much' Meyaj. Organización indígena y campesina de Hopelchén. Documenta",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:005-E",
+      "tipo": "REGISTRO",
+      "etiqueta": "2020–2026: La lucha continúa — amparo por derechos de la naturaleza y presión in",
+      "grado_entrada": 0,
+      "grado_salida": 5
+    },
+    {
+      "id": "FUENTE:005-E:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Goldman Environmental Prize. \"Leydy Pech.\" 2020. https://www.goldmanprize.org/re",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:005-E:fuente_1",
+      "tipo": "FUENTE",
+      "etiqueta": "Pie de Página — La lucha de las comunidades mayas contra los agrotóxicos (marzo ",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:005-E:fuente_academica",
+      "tipo": "FUENTE",
+      "etiqueta": "PorEsto Campeche. \"Valeriana: INAH confirma descubrimiento de sitio maya en Camp",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:005-F",
+      "tipo": "REGISTRO",
+      "etiqueta": "CRUCE DE DATOS: La continuidad del ciclo extractivo — 2026 vs 1517",
+      "grado_entrada": 0,
+      "grado_salida": 3
+    },
+    {
+      "id": "FUENTE:005-F:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Análisis cruzado — Nodos 001-005",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:005-G",
+      "tipo": "REGISTRO",
+      "etiqueta": "Meliponicultura de Xunáan Kab en Hopelchén: 3,000 años de tradición, 25,000 fami",
+      "grado_entrada": 0,
+      "grado_salida": 3
+    },
+    {
+      "id": "FUENTE:005-G:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "leydy_pech_perfil.json — 'Contexto Hopelchén: importancia de la apicultura'. Pro",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:006-A",
+      "tipo": "REGISTRO",
+      "etiqueta": "Presidentes municipales de Hopelchén identificados: cadena de poder 1959–2026",
+      "grado_entrada": 0,
+      "grado_salida": 3
+    },
+    {
+      "id": "FUENTE:006-A:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "PorEsto — 'Homenaje 67 aniversario de Hopelchén como ciudad' (febrero 2026); IEE",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:006-B",
+      "tipo": "REGISTRO",
+      "etiqueta": "El linaje familiar Lara-Calderón-Solís-Baqueiro-Barrera: el árbol genealógico de",
+      "grado_entrada": 0,
+      "grado_salida": 5
+    },
+    {
+      "id": "FUENTE:006-B:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Caamal, Daniela Naraai. Datos de legisladores_hopelchen_1861-2003.json. Proyecto",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:006-B:fuente_primaria",
+      "tipo": "FUENTE",
+      "etiqueta": "PorEsto — 'Recuerdos de Efraín Calderón Lara Charras' (11 Feb 2019)",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:006-B:fuente_secundaria",
+      "tipo": "FUENTE",
+      "etiqueta": "Yucatán Cultura — 'Efraín Calderón Lara Charras: ¡Asesinado por la reacción!' (F",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:006-C",
+      "tipo": "REGISTRO",
+      "etiqueta": "Interrogante estratégica: ¿Hay parentesco entre Julio Alberto Sansores Sansores ",
+      "grado_entrada": 0,
+      "grado_salida": 3
+    },
+    {
+      "id": "FUENTE:006-C:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "IEEC — Acuerdo CG 26/06 (2006)",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:006-D",
+      "tipo": "REGISTRO",
+      "etiqueta": "Nepotismo documentado: el caso España Novelo — el ayuntamiento como empresa fami",
+      "grado_entrada": 0,
+      "grado_salida": 3
+    },
+    {
+      "id": "FUENTE:006-D:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Tabasco HOY — 'Alcalde de Hopelchén tiene a toda su familia en nómina'",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:006-E",
+      "tipo": "REGISTRO",
+      "etiqueta": "Hiram Aranda Calderón (2024-2027): el alcalde actual y el apellido del historiad",
+      "grado_entrada": 0,
+      "grado_salida": 5
+    },
+    {
+      "id": "FUENTE:006-E:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Tribuna Campeche. \"Denuncian al alcalde Hiram Aranda por abuso de poder, manipul",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:006-E:fuente_1",
+      "tipo": "FUENTE",
+      "etiqueta": "Periódico Oficial del Estado de Campeche — Acuerdo de Destino (May 2025)",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:006-E:fuente_academica",
+      "tipo": "FUENTE",
+      "etiqueta": "IEEC — Acuerdo CG 26/06 (2006). Lista de presidentes municipales electos de Hope",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:006-F",
+      "tipo": "REGISTRO",
+      "etiqueta": "La hegemonía priista en Hopelchén (1959–2021) y su ruptura parcial con Morena",
+      "grado_entrada": 0,
+      "grado_salida": 3
+    },
+    {
+      "id": "FUENTE:006-F:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Wikipedia — Elecciones estatales de Campeche 2021",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:006-G",
+      "tipo": "REGISTRO",
+      "etiqueta": "CRUCE DE DATOS: Apellidos del poder en Hopelchén — de la Colonia al siglo XXI",
+      "grado_entrada": 0,
+      "grado_salida": 3
+    },
+    {
+      "id": "FUENTE:006-G:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "legisladores_hopelchen_1861-2003.json — Digesto Constitucional Mexicano — Campec",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:006-H",
+      "tipo": "REGISTRO",
+      "etiqueta": "Efraín 'El Charras' Calderón Lara (1947–1974): el sindicalista de Hopelchén ases",
+      "grado_entrada": 0,
+      "grado_salida": 4
+    },
+    {
+      "id": "FUENTE:006-H:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Lara Zavala, Hernán. *Charras*. 1a ed. 1990; reed. Alfaguara, 2022.",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:006-H:fuente_secundaria",
+      "tipo": "FUENTE",
+      "etiqueta": "AV_PERSONAS.md — EFRAÍN 'EL CHARRAS' CALDERÓN LARA / PorEsto — 'Recuerdos de Efr",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:006-I",
+      "tipo": "REGISTRO",
+      "etiqueta": "Layda Sansores San Román (gobernadora 2021-2027) y el apellido Sansores en Hopel",
+      "grado_entrada": 0,
+      "grado_salida": 3
+    },
+    {
+      "id": "FUENTE:006-I:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "IEEC Acuerdo CG 26/06 — Registro Wikipedia Layda Sansores (no accesible directam",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:006-J",
+      "tipo": "REGISTRO",
+      "etiqueta": "Sandy Areli Baas Cauich (2018-2021): primera mujer presidenta municipal de Hopel",
+      "grado_entrada": 0,
+      "grado_salida": 3
+    },
+    {
+      "id": "FUENTE:006-J:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Alcaldes de México. 'Configuración política de Campeche 2018-2021.' Diciembre 20",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:007-A",
+      "tipo": "REGISTRO",
+      "etiqueta": "El Camino Real colonial (siglo XVI–XIX) — Hopelchén como nodo de la ruta del pod",
+      "grado_entrada": 0,
+      "grado_salida": 5
+    },
+    {
+      "id": "FUENTE:007-A:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Schüren, Ute. \"Entre los caminos de herradura y los campos de aterrizaje: Rutas ",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:007-A:fuente_academica",
+      "tipo": "FUENTE",
+      "etiqueta": "Guía Turística México. \"Hopelchén, Campeche.\" https://guiaturisticamexico.com/mu",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:007-A:fuentes",
+      "tipo": "FUENTE",
+      "etiqueta": "fuentes (4 entradas)",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:007-B",
+      "tipo": "REGISTRO",
+      "etiqueta": "1870: El telégrafo — primera infraestructura de comunicación instantánea en Hope",
+      "grado_entrada": 0,
+      "grado_salida": 5
+    },
+    {
+      "id": "FUENTE:007-B:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Wikipedia. \"Hopelchén.\" Sección historia: \"la línea telegráfica que unió Hopelch",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:007-B:fuente_academica",
+      "tipo": "FUENTE",
+      "etiqueta": "INAFED. Enciclopedia de los Municipios de México — Hopelchén. https://www.inafed",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:007-B:fuentes",
+      "tipo": "FUENTE",
+      "etiqueta": "fuentes (2 entradas)",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:007-C",
+      "tipo": "REGISTRO",
+      "etiqueta": "1920s–1950s: El aislamiento de Hopelchén antes del auge chiclero — carretas, bol",
+      "grado_entrada": 0,
+      "grado_salida": 5
+    },
+    {
+      "id": "FUENTE:007-C:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Schüren, Ute. \"Entre los caminos de herradura y los campos de aterrizaje.\" India",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:007-C:fuente_academica",
+      "tipo": "FUENTE",
+      "etiqueta": "Schüren, Ute. Haushaltsstrategien in mexikanischen Ejidos: Das Beispiel der Chen",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:007-C:fuentes",
+      "tipo": "FUENTE",
+      "etiqueta": "fuentes (2 entradas)",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:007-D",
+      "tipo": "REGISTRO",
+      "etiqueta": "1934–1950: Los campos de aterrizaje chicleros — la aviación como instrumento de ",
+      "grado_entrada": 0,
+      "grado_salida": 4
+    },
+    {
+      "id": "FUENTE:007-D:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Schüren, Ute. \"Entre los caminos de herradura y los campos de aterrizaje.\" India",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:007-D:fuentes",
+      "tipo": "FUENTE",
+      "etiqueta": "fuentes (2 entradas)",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:007-E",
+      "tipo": "REGISTRO",
+      "etiqueta": "El surgimiento de los 'mayas pacíficos' y el comercio sur de Los Chenes — la rut",
+      "grado_entrada": 0,
+      "grado_salida": 5
+    },
+    {
+      "id": "FUENTE:007-E:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Revista Bicentenario. \"La dominación blanca sobre los territorios maya.\" https:/",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:007-E:fuente_academica",
+      "tipo": "FUENTE",
+      "etiqueta": "Schüren, Ute. \"Los Chenes en la revolución.\" In Böttcher et al. (eds.), 2005, pp",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:007-E:fuentes",
+      "tipo": "FUENTE",
+      "etiqueta": "fuentes (2 entradas)",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:007-F",
+      "tipo": "REGISTRO",
+      "etiqueta": "La 'recampesinación' post-chicle y la nueva importancia de los ejidos — el giro ",
+      "grado_entrada": 0,
+      "grado_salida": 5
+    },
+    {
+      "id": "FUENTE:007-F:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Schüren, Ute. Haushaltsstrategien in mexikanischen Ejidos: Das Beispiel der Chen",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:007-F:fuente_academica",
+      "tipo": "FUENTE",
+      "etiqueta": "Cantún Caamal. \"La reforma agraria en Campeche, ¿permanencia de una cultura indí",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:007-F:fuentes",
+      "tipo": "FUENTE",
+      "etiqueta": "fuentes (2 entradas)",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:007-G",
+      "tipo": "REGISTRO",
+      "etiqueta": "La Carretera Federal 261 — la ruta moderna que conectó Los Chenes con el sistema",
+      "grado_entrada": 0,
+      "grado_salida": 5
+    },
+    {
+      "id": "FUENTE:007-G:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "INAFED. Enciclopedia de los Municipios — Hopelchén. Descripción de carretera fed",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:007-G:fuente_academica",
+      "tipo": "FUENTE",
+      "etiqueta": "Schüren, Ute. \"Entre los caminos de herradura.\" Indiana, 2013. [F057]",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:007-G:fuentes",
+      "tipo": "FUENTE",
+      "etiqueta": "fuentes (2 entradas)",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:007-H",
+      "tipo": "REGISTRO",
+      "etiqueta": "La bibliografía de Schüren (2013) — mapa de fuentes sobre Los Chenes no consulta",
+      "grado_entrada": 0,
+      "grado_salida": 3
+    },
+    {
+      "id": "FUENTE:007-H:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Síntesis de investigación del proyecto — datos sobre rutas y territorio en Hopel",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:007-I",
+      "tipo": "REGISTRO",
+      "etiqueta": "CRUCE DE DATOS: Rutas = extracción — el patrón de 500 años en mapa",
+      "grado_entrada": 0,
+      "grado_salida": 3
+    },
+    {
+      "id": "FUENTE:007-I:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Análisis cruzado — Nodos 001-007 + Schüren (2013)",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:007-J",
+      "tipo": "REGISTRO",
+      "etiqueta": "Carretera Federal 261: ruta Mérida–Campeche por el interior — arteria histórica ",
+      "grado_entrada": 0,
+      "grado_salida": 3
+    },
+    {
+      "id": "FUENTE:007-J:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Wikipedia México — Carretera federal 261 / SCT datos generales",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:007-K",
+      "tipo": "REGISTRO",
+      "etiqueta": "Archivo Municipal de Hopelchén — inventario preliminar citado por Schüren",
+      "grado_entrada": 0,
+      "grado_salida": 5
+    },
+    {
+      "id": "FUENTE:007-K:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Schüren, Ute. Haushaltsstrategien in mexikanischen Ejidos. FU Berlin, 2002/2003.",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:007-K:fuente_academica",
+      "tipo": "FUENTE",
+      "etiqueta": "Ayuntamiento de Hopelchén. Directorio oficial. presidencia@municipiohopelchen.co",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:007-K:fuentes",
+      "tipo": "FUENTE",
+      "etiqueta": "fuentes (1 entradas)",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:008-A",
+      "tipo": "REGISTRO",
+      "etiqueta": "Demografía prehispánica estimada — el apogeo de Xtampak y Los Chenes",
+      "grado_entrada": 0,
+      "grado_salida": 5
+    },
+    {
+      "id": "FUENTE:008-A:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "IAI Berlin / INAH. \"Santa Rosa Xtampak: Cronología y vínculos de un centro supra",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:008-A:fuente_academica",
+      "tipo": "FUENTE",
+      "etiqueta": "INAH/Secretaría de Cultura. \"Santa Rosa Xtampak.\" sic.cultura.gob.mx/ficha.php?t",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:008-A:fuentes",
+      "tipo": "FUENTE",
+      "etiqueta": "fuentes (2 entradas)",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:008-B",
+      "tipo": "REGISTRO",
+      "etiqueta": "El ciclo de población colonial: congregación (20,000), expansión, colapso por Gu",
+      "grado_entrada": 0,
+      "grado_salida": 5
+    },
+    {
+      "id": "FUENTE:008-B:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "INDEFOS (Instituto de Desarrollo y Formación Social de Campeche). \"Hopelchén.\" h",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:008-B:fuente_academica",
+      "tipo": "FUENTE",
+      "etiqueta": "Guía Turística México. \"Hopelchén\": \"Antes de la guerra, en el distrito de Hopel",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:008-B:fuentes",
+      "tipo": "FUENTE",
+      "etiqueta": "fuentes (4 entradas)",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:008-C",
+      "tipo": "REGISTRO",
+      "etiqueta": "Los censos del siglo XX — la reconstrucción demográfica bajo el PRI",
+      "grado_entrada": 0,
+      "grado_salida": 5
+    },
+    {
+      "id": "FUENTE:008-C:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "INEGI. Censos de Población y Vivienda 2010 y 2020. Datos por municipio de Hopelc",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:008-C:fuente_academica",
+      "tipo": "FUENTE",
+      "etiqueta": "Wikipedia. \"Municipio de Hopelchén.\" Datos INEGI 2010: 37,777 hab. https://es.wi",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:008-C:fuentes",
+      "tipo": "FUENTE",
+      "etiqueta": "fuentes (4 entradas)",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:008-D",
+      "tipo": "REGISTRO",
+      "etiqueta": "El perfil indígena de Hopelchén en 2020 — los mayas siguen siendo mayoría, en po",
+      "grado_entrada": 0,
+      "grado_salida": 4
+    },
+    {
+      "id": "FUENTE:008-D:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "INEGI. Censo 2010: 70.93% población indígena; 46.85% habla lengua indígena. Muni",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:008-D:fuentes",
+      "tipo": "FUENTE",
+      "etiqueta": "fuentes (4 entradas)",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:008-E",
+      "tipo": "REGISTRO",
+      "etiqueta": "Geografía de la dispersión — las 170 localidades del municipio y la distribución",
+      "grado_entrada": 0,
+      "grado_salida": 5
+    },
+    {
+      "id": "FUENTE:008-E:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "INEGI. Censo 2010: 170 localidades en el municipio. Principales localidades: Hop",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:008-E:fuente_academica",
+      "tipo": "FUENTE",
+      "etiqueta": "Wikipedia. \"Municipio de Hopelchén.\" https://es.wikipedia.org/wiki/Municipio_de_",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:008-E:fuentes",
+      "tipo": "FUENTE",
+      "etiqueta": "fuentes (3 entradas)",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:008-F",
+      "tipo": "REGISTRO",
+      "etiqueta": "FamilySearch y el Censo de 1930 de Hopelchén — fuente genealógica no explorada",
+      "grado_entrada": 0,
+      "grado_salida": 4
+    },
+    {
+      "id": "FUENTE:008-F:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "FamilySearch Wiki — Hopelchén, Campeche, México — Genealogía",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:008-F:fuente_secundaria",
+      "tipo": "FUENTE",
+      "etiqueta": "INEGI — Quinto Censo de Población, 15 de mayo de 1930, Estado de Campeche",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:008-G",
+      "tipo": "REGISTRO",
+      "etiqueta": "CRUCE DE DATOS: La curva demográfica como lectura del ciclo extractivo",
+      "grado_entrada": 0,
+      "grado_salida": 3
+    },
+    {
+      "id": "FUENTE:008-G:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Análisis cruzado — Nodos 001-008",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:008-H",
+      "tipo": "REGISTRO",
+      "etiqueta": "Deforestación menonita y transformación demográfica del territorio (1987–2026): ",
+      "grado_entrada": 0,
+      "grado_salida": 5
+    },
+    {
+      "id": "FUENTE:008-H:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "MATRIA / La Jornada de Oriente. \"Expansión menonita en Campeche y QR.\" 2024: 61,",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:008-H:fuente_academica",
+      "tipo": "FUENTE",
+      "etiqueta": "SADER 2022. Estadísticas de producción: Hopelchén = mayor productor nacional de ",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:008-H:fuentes",
+      "tipo": "FUENTE",
+      "etiqueta": "fuentes (3 entradas)",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:008-I",
+      "tipo": "REGISTRO",
+      "etiqueta": "Serie censal del municipio de Hopelchén (2000-2020): síntesis de datos INEGI dis",
+      "grado_entrada": 0,
+      "grado_salida": 3
+    },
+    {
+      "id": "FUENTE:008-I:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "INEGI — Censo de Población y Vivienda 2020; Data México",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:008-J",
+      "tipo": "REGISTRO",
+      "etiqueta": "Hablantes de lengua maya en Hopelchén: perfil lingüístico 2010–2020",
+      "grado_entrada": 0,
+      "grado_salida": 3
+    },
+    {
+      "id": "FUENTE:008-J:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "INEGI — Censo de Población y Vivienda 2020; INALI; Data México",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:008-K",
+      "tipo": "REGISTRO",
+      "etiqueta": "Localidades del municipio de Hopelchén con alta concentración de población indíg",
+      "grado_entrada": 0,
+      "grado_salida": 3
+    },
+    {
+      "id": "FUENTE:008-K:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "INEGI — Censo de Población y Vivienda 2020 / Base ITER",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:009-A",
+      "tipo": "REGISTRO",
+      "etiqueta": "Los bataboob de 1669: 122 años de resistencia post-conquista — el primer caso do",
+      "grado_entrada": 0,
+      "grado_salida": 4
+    },
+    {
+      "id": "FUENTE:009-A:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "INDEFOS, Archivo Municipal de Hopelchén, Guía Turística México — citado en regis",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:009-A:fuente_academica",
+      "tipo": "FUENTE",
+      "etiqueta": "Chávez Gómez, José Manuel A. 'Los señores del hacha y la lluvia.' Academia.edu, ",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:009-B",
+      "tipo": "REGISTRO",
+      "etiqueta": "Juan de Dios May y el 'Ataque a Hopelchén' de 1848 — resistencia armada como res",
+      "grado_entrada": 0,
+      "grado_salida": 3
+    },
+    {
+      "id": "FUENTE:009-B:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Registro F001 en fuentes del Nodo 003 — múltiples fuentes históricas sobre la Gu",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:009-C",
+      "tipo": "REGISTRO",
+      "etiqueta": "La Chan Santa Cruz: el Estado maya independiente (1850–1901) y su impacto en Los",
+      "grado_entrada": 0,
+      "grado_salida": 3
+    },
+    {
+      "id": "FUENTE:009-C:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Historiografía de la Guerra de Castas — Nelson Reed (1964), Terry Rugeley — refe",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:009-D",
+      "tipo": "REGISTRO",
+      "etiqueta": "Resistencia ejidal en el siglo XX: Las organizaciones de ejidatarios como mecani",
+      "grado_entrada": 0,
+      "grado_salida": 5
+    },
+    {
+      "id": "FUENTE:009-D:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Cantún Caamal. \"La reforma agraria en Campeche, ¿permanencia de una cultura indí",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:009-D:fuente_1",
+      "tipo": "FUENTE",
+      "etiqueta": "Análisis del Nodo 004 — economía chiclera y organización de trabajadores (004-A,",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:009-D:fuente_academica",
+      "tipo": "FUENTE",
+      "etiqueta": "Schüren, Ute. Haushaltsstrategien in mexikanischen Ejidos. FU Berlin, 2002/2003.",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:009-E",
+      "tipo": "REGISTRO",
+      "etiqueta": "La meliponicultura como continuidad cultural y económica: la abeja Xunáan Kab co",
+      "grado_entrada": 0,
+      "grado_salida": 5
+    },
+    {
+      "id": "FUENTE:009-E:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Goldman Environmental Prize. \"Leydy Pech.\" 2020. Documentación de la meliponicul",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:009-E:fuente_1",
+      "tipo": "FUENTE",
+      "etiqueta": "Leydy Pech perfil — datos del repositorio: datos/hopelchen/leydy_pech_perfil.jso",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:009-E:fuente_academica",
+      "tipo": "FUENTE",
+      "etiqueta": "IAI Berlin/INAH. \"Santa Rosa Xtampak.\" 2020-2022. Secuencia arqueológica de meli",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:009-F",
+      "tipo": "REGISTRO",
+      "etiqueta": "Leydy Pech y la organización Maya Ka'an (2000–2020): la victoria jurídica como f",
+      "grado_entrada": 0,
+      "grado_salida": 3
+    },
+    {
+      "id": "FUENTE:009-F:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "datos/hopelchen/leydy_pech_perfil.json — SCJN Amparo en Revisión 441/2015 — Gold",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:009-G",
+      "tipo": "REGISTRO",
+      "etiqueta": "CRUCE TRANSVERSAL: El patrón de resistencia maya a lo largo de 500 años — formas",
+      "grado_entrada": 0,
+      "grado_salida": 3
+    },
+    {
+      "id": "FUENTE:009-G:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "leydy_pech_perfil.json — datos sobre la lucha jurídica y el Premio Goldman 2020;",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:009-H",
+      "tipo": "REGISTRO",
+      "etiqueta": "Francisco Caamal: comandante maya de Los Chenes en la Guerra de Castas — el apel",
+      "grado_entrada": 0,
+      "grado_salida": 4
+    },
+    {
+      "id": "FUENTE:009-H:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "AV_PERSONAS.md — FRANCISCO CAAMAL (síntesis de investigación previa del proyecto",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:009-H:fuente_academica",
+      "tipo": "FUENTE",
+      "etiqueta": "Carta en maya de Francisco Cimé, Capitán (Kancabchén, 25 marzo 1848). Publicada ",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:009-I",
+      "tipo": "REGISTRO",
+      "etiqueta": "Los Siete de Bolonchenticul (julio 1849): mayas de Hopelchén que pelearon del la",
+      "grado_entrada": 0,
+      "grado_salida": 3
+    },
+    {
+      "id": "FUENTE:009-I:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Kosichenko, Ivan Nikítovich — 'Voluntarios mayas en la Guardia Nacional de Yucat",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:009-J",
+      "tipo": "REGISTRO",
+      "etiqueta": "Koolel-Kab / Muuchkambal (1995): la cooperativa de mujeres mayas de Hopelchén qu",
+      "grado_entrada": 0,
+      "grado_salida": 3
+    },
+    {
+      "id": "FUENTE:009-J:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "leydy_pech_perfil.json — 'Perfil Completo de Leydy Pech Martín'. Proyecto Hopelc",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:009-K",
+      "tipo": "REGISTRO",
+      "etiqueta": "Juan de Dios May después del ataque a Hopelchén (1847): destino del líder maya d",
+      "grado_entrada": 0,
+      "grado_salida": 3
+    },
+    {
+      "id": "FUENTE:009-K:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Historiografía de la Guerra de Castas — Reed, Nelson (1964); Rugeley, Terry (199",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:009-L",
+      "tipo": "REGISTRO",
+      "etiqueta": "El Hilo Cuba (1848-hoy): deportación forzada, cimarronaje y comunidad maya en Ma",
+      "grado_entrada": 0,
+      "grado_salida": 4
+    },
+    {
+      "id": "FUENTE:009-L:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "CNDH México (2021) [FX003]; IPS Cuba (2015) [FX004]; Rodríguez Piña, Javier (199",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:009-L:fuente_academica",
+      "tipo": "FUENTE",
+      "etiqueta": "Rodríguez Piña, Javier. Guerra de Castas: La venta de indios mayas a Cuba, 1848-",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:010-A",
+      "tipo": "REGISTRO",
+      "etiqueta": "Astronomía y arquitectura en Los Chenes: los alineamientos de Santa Rosa Xtampak",
+      "grado_entrada": 0,
+      "grado_salida": 3
+    },
+    {
+      "id": "FUENTE:010-A:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "INAH Centro Campeche — Mediateca INAH — Proyecto Arqueológico Santa Rosa Xtampak",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:010-B",
+      "tipo": "REGISTRO",
+      "etiqueta": "Escritura jeroglífica en Los Chenes: la Estela 2 de Santa Rosa Xtampak y el gobe",
+      "grado_entrada": 0,
+      "grado_salida": 3
+    },
+    {
+      "id": "FUENTE:010-B:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "SciELO — artículo sobre epigrafía de Santa Rosa Xtampak; referenciado en Nodo 00",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:010-C",
+      "tipo": "REGISTRO",
+      "etiqueta": "El auto de fe de Maní (1562): la mayor destrucción documentada del conocimiento ",
+      "grado_entrada": 0,
+      "grado_salida": 3
+    },
+    {
+      "id": "FUENTE:010-C:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Landa, Diego de — Relación de las cosas de Yucatán (c.1566, ed. facsímil); refer",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:010-D",
+      "tipo": "REGISTRO",
+      "etiqueta": "El calendario maya en Los Chenes: el Tzolk'in y el Haab como sistemas de conocim",
+      "grado_entrada": 0,
+      "grado_salida": 3
+    },
+    {
+      "id": "FUENTE:010-D:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Thompson, J. Eric S. — Maya Hieroglyphic Writing (1950) y Coe, Michael D. — Brea",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:010-E",
+      "tipo": "REGISTRO",
+      "etiqueta": "La meliponicultura como biotecnología de 3,000 años: el conocimiento vivo más do",
+      "grado_entrada": 0,
+      "grado_salida": 5
+    },
+    {
+      "id": "FUENTE:010-E:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Goldman Environmental Prize. \"Leydy Pech.\" 2020. Reconocimiento internacional a ",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:010-E:fuente_1",
+      "tipo": "FUENTE",
+      "etiqueta": "Códice Madrid — sección de meliponicultura (dioses Ah Muzen Cab); fuente prehisp",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:010-E:fuente_academica",
+      "tipo": "FUENTE",
+      "etiqueta": "Castellanos Cámara, Silviana. \"Kinchí, Xunan tunich y Dignidad maya: Representac",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:010-F",
+      "tipo": "REGISTRO",
+      "etiqueta": "La lengua maya yucateca en Hopelchén: supervivencia lingüística como resistencia",
+      "grado_entrada": 0,
+      "grado_salida": 3
+    },
+    {
+      "id": "FUENTE:010-F:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "INEGI — Censo de Población y Vivienda 2020: datos de hablantes de lengua indígen",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:010-G",
+      "tipo": "REGISTRO",
+      "etiqueta": "CRUCE TRANSVERSAL: El control del conocimiento maya en Los Chenes — destrucción,",
+      "grado_entrada": 0,
+      "grado_salida": 3
+    },
+    {
+      "id": "FUENTE:010-G:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "leydy_pech_perfil.json — meliponicultura y Xunáan Kab; síntesis del proyecto Arc",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:010-H",
+      "tipo": "REGISTRO",
+      "etiqueta": "Los Xtoles de Chan Cil: 3,000 años de música maya documentados en 1869, apropiad",
+      "grado_entrada": 0,
+      "grado_salida": 4
+    },
+    {
+      "id": "FUENTE:010-H:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Baqueiro Foster, Gerónimo — 'Música maya'. En: *Los Mayas Antiguos: monografías ",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "FUENTE:010-H:fuente_secundaria",
+      "tipo": "FUENTE",
+      "etiqueta": "AV_PERSONAS.md — CHAN CIL, GERÓNIMO BAQUEIRO FOSTER, JULIÁN CARRILLO / AV_HILOS.",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "REGISTRO:010-I",
+      "tipo": "REGISTRO",
+      "etiqueta": "Hernán Lara Zavala (1947–2025): el escritor de Ciudad de México que documentó Ho",
+      "grado_entrada": 0,
+      "grado_salida": 3
+    },
+    {
+      "id": "FUENTE:010-I:fuente",
+      "tipo": "FUENTE",
+      "etiqueta": "Lara Zavala, Hernán. *De Zitilchén* (FCE, 2012), *Charras* (Alfaguara, 2022), *P",
+      "grado_entrada": 1,
+      "grado_salida": 0
+    },
+    {
+      "id": "PREGUNTA:P001-01",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Quiénes eran exactamente los bataboob que en 1669 aún detentaban el poder local",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P001-02",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Existe documentación del Archivo de Indias o del AGN sobre encomiendas específi",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P001-03",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Hay datación más antigua (preclásica anterior a 300 a.C.) en Santa Rosa Xtampak",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P001-04",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Qué dice la epigrafía de la Estela 2 de Santa Rosa Xtampak sobre el personaje '",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P001-05",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Qué documentos o evidencias existen sobre los Xiues en el territorio de lo que ",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P001-06",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Qué rutas comerciales prehispánicas específicas pasaban por Los Chenes? ¿Hay sa",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P001-07",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Existen estudios de LiDAR en el municipio de Hopelchén que hayan revelado asent",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P001-08",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Hay algún registro de conocimiento astronómico, calendárico o científico maya e",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P002-01",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Cuál es el documento colonial original que funda Hopelchén como pueblo de congr",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P002-02",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Quiénes eran los bataboob de Hopelchén en 1669? ¿Cuáles eran sus nombres y apel",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P002-03",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Quién fue el primer encomendero de Los Chenes / Hopelchén? ¿Qué productos espec",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P002-04",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Los Xiúes de Dzibil-Noh-Aac (hoy Iturbide) tenían vínculos documentados con los",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P002-05",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Quiénes formaban la expedición española de 1622 que pasó por Hopelchén rumbo a ",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P002-06",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Qué fray o frailes franciscanos fundaron y administraron la doctrina de Hopelch",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P002-07",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Hay registros de la rebelión de 1546 que mencionen específicamente a Los Chenes",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P002-08",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿El auto de fe de Maní (1562, Diego de Landa) afectó específicamente a mayas de ",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P006-01",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Existe conexión genealógica entre Hiram Aranda Calderón (alcalde 2024-2027), Ma",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P006-02",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Quiénes fueron los presidentes municipales de Hopelchén entre 1970 y 2018? ¿Sus",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P006-03",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Cuál fue el resultado de la investigación de la Fiscalía General del Estado de ",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P006-04",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Cuál es el estado actual de la denuncia de Edgar Manuel Poot Yeh contra Hiram A",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P006-05",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Quién es la persona que recibe directamente los fondos del FAIS para obra públi",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P006-06",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Qué vínculos existen entre los presidentes municipales de Hopelchén (2018-2026)",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P006-07",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Existe continuidad genealógica entre Pedro Advíncula Lara (jefe político-hacend",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P006-08",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Quién fue el presidente municipal de Hopelchén durante 1987-1992 — período en q",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P006-09",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Existe parentesco entre Julio Alberto Sansores Sansores (ex-presidente municipa",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P006-10",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Qué cambios de uso de suelo autorizó cada administración municipal de Hopelchén",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P006-11",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Quién es Efraín Calderón Lara 'Charras'? ¿Cuándo y por qué fue asesinado? ¿Cuál",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P009-01",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Quiénes eran los bataboob de Hopelchén en 1669? ¿Sus nombres, linajes y relació",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P009-02",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Qué pasó con Juan de Dios May después del ataque a Hopelchén en 1848? ¿Fue capt",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P009-03",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Cuándo exactamente comenzó la organización Maya Ka'an? ¿Qué comunidades la inte",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P009-04",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Qué ocurrió después de la victoria de Leydy Pech en 2017? ¿Las comunidades de H",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P009-05",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Existen organizaciones mayas activas en Hopelchén que no sean Maya Ka'an? ¿Rede",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P009-06",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Cómo se organiza actualmente la meliponicultura de Xunáan Kab en Hopelchén? ¿Cu",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P010-01",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Existen informes técnicos del INAH sobre los alineamientos astronómicos específ",
+      "grado_entrada": 0,
+      "grado_salida": 1
+    },
+    {
+      "id": "PREGUNTA:P010-02",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Puede identificarse el nombre completo y la posición dinástica del gobernante c",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P010-03",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Cuántos hablantes de maya yucateco en Hopelchén son bilingües plenos versus hab",
+      "grado_entrada": 0,
+      "grado_salida": 1
+    },
+    {
+      "id": "PREGUNTA:P010-04",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Existen grabaciones, transcripciones o estudios académicos de Los Xtoles de Cha",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P010-05",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Las novelas de Hernán Lara Zavala (Charras, El lugar donde crece la hierba) con",
+      "grado_entrada": 0,
+      "grado_salida": 1
+    },
+    {
+      "id": "PREGUNTA:P010-06",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Qué evidencia existe sobre el uso actual de medicina botánica tradicional maya ",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    }
+  ],
+  "aristas": [
+    {
+      "origen": "NODO:002",
+      "destino": "NODO:001",
+      "tipo": "continua_desde"
+    },
+    {
+      "origen": "NODO:003",
+      "destino": "NODO:002",
+      "tipo": "continua_desde"
+    },
+    {
+      "origen": "NODO:004",
+      "destino": "NODO:003",
+      "tipo": "continua_desde"
+    },
+    {
+      "origen": "NODO:005",
+      "destino": "NODO:004",
+      "tipo": "continua_desde"
+    },
+    {
+      "origen": "NODO:006",
+      "destino": "NODO:005",
+      "tipo": "continua_desde"
+    },
+    {
+      "origen": "NODO:007",
+      "destino": "NODO:006",
+      "tipo": "continua_desde"
+    },
+    {
+      "origen": "NODO:008",
+      "destino": "NODO:007",
+      "tipo": "continua_desde"
+    },
+    {
+      "origen": "REGISTRO:001-A",
+      "destino": "NODO:001",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:001-A",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:001-A",
+      "destino": "FUENTE:001-A:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:001-A",
+      "destino": "FUENTE:001-A:fuente_academica",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:001-A",
+      "destino": "FUENTE:001-A:fuente_secundaria",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:001-B",
+      "destino": "NODO:001",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:001-B",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:001-B",
+      "destino": "FUENTE:001-B:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:001-B",
+      "destino": "FUENTE:001-B:fuente_academica",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:001-C",
+      "destino": "NODO:001",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:001-C",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:001-C",
+      "destino": "FUENTE:001-C:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:001-C",
+      "destino": "FUENTE:001-C:fuente_secundaria",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:001-D",
+      "destino": "NODO:001",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:001-D",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:001-D",
+      "destino": "FUENTE:001-D:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:001-D",
+      "destino": "FUENTE:001-D:fuente_secundaria",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:001-E",
+      "destino": "NODO:001",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:001-E",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:001-E",
+      "destino": "FUENTE:001-E:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:001-F",
+      "destino": "NODO:001",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:001-F",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:001-F",
+      "destino": "FUENTE:001-F:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:001-G",
+      "destino": "NODO:001",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:001-G",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:001-G",
+      "destino": "FUENTE:001-G:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:001-H",
+      "destino": "NODO:001",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:001-H",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:001-H",
+      "destino": "FUENTE:001-H:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:001-H",
+      "destino": "FUENTE:001-H:fuente_academica",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:002-A",
+      "destino": "NODO:002",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:002-A",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:002-A",
+      "destino": "FUENTE:002-A:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:002-A",
+      "destino": "FUENTE:002-A:fuente_academica",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:002-B",
+      "destino": "NODO:002",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:002-B",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:002-B",
+      "destino": "FUENTE:002-B:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:002-B",
+      "destino": "FUENTE:002-B:fuente_secundaria",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:002-C",
+      "destino": "NODO:002",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:002-C",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:002-C",
+      "destino": "FUENTE:002-C:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:002-D",
+      "destino": "NODO:002",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:002-D",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:002-D",
+      "destino": "FUENTE:002-D:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:002-D",
+      "destino": "FUENTE:002-D:fuente_secundaria",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:002-E",
+      "destino": "NODO:002",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:002-E",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:002-E",
+      "destino": "FUENTE:002-E:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:002-F",
+      "destino": "NODO:002",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:002-F",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:002-F",
+      "destino": "FUENTE:002-F:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:002-G",
+      "destino": "NODO:002",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:002-G",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:002-G",
+      "destino": "FUENTE:002-G:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:002-G",
+      "destino": "FUENTE:002-G:fuente_academica",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:002-H",
+      "destino": "NODO:002",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:002-H",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:002-H",
+      "destino": "FUENTE:002-H:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:002-H",
+      "destino": "FUENTE:002-H:fuente_academica",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:002-I",
+      "destino": "NODO:002",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:002-I",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:002-I",
+      "destino": "FUENTE:002-I:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:003-A",
+      "destino": "NODO:003",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:003-A",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:003-A",
+      "destino": "FUENTE:003-A:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:003-A",
+      "destino": "FUENTE:003-A:fuente_secundaria",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:003-B",
+      "destino": "NODO:003",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:003-B",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:003-B",
+      "destino": "FUENTE:003-B:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:003-B",
+      "destino": "FUENTE:003-B:fuente_secundaria",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:003-C",
+      "destino": "NODO:003",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:003-C",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:003-C",
+      "destino": "FUENTE:003-C:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:003-C",
+      "destino": "FUENTE:003-C:fuente_academica",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:003-D",
+      "destino": "NODO:003",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:003-D",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:003-D",
+      "destino": "FUENTE:003-D:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:003-D",
+      "destino": "FUENTE:003-D:fuente_secundaria",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:003-E",
+      "destino": "NODO:003",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:003-E",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:003-E",
+      "destino": "FUENTE:003-E:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:003-F",
+      "destino": "NODO:003",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:003-F",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:003-F",
+      "destino": "FUENTE:003-F:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:003-F",
+      "destino": "FUENTE:003-F:fuente_secundaria",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:003-G",
+      "destino": "NODO:003",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:003-G",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:003-G",
+      "destino": "FUENTE:003-G:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:003-H",
+      "destino": "NODO:003",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:003-H",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:003-H",
+      "destino": "FUENTE:003-H:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:003-I",
+      "destino": "NODO:003",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:003-I",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:003-I",
+      "destino": "FUENTE:003-I:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:003-I",
+      "destino": "FUENTE:003-I:fuente_secundaria",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:003-J",
+      "destino": "NODO:003",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:003-J",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:003-J",
+      "destino": "FUENTE:003-J:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:003-J",
+      "destino": "FUENTE:003-J:fuente_secundaria",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:003-K",
+      "destino": "NODO:003",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:003-K",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:003-K",
+      "destino": "FUENTE:003-K:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:003-L",
+      "destino": "NODO:003",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:003-L",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:003-L",
+      "destino": "FUENTE:003-L:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:004-A",
+      "destino": "NODO:004",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:004-A",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:004-A",
+      "destino": "FUENTE:004-A:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:004-B",
+      "destino": "NODO:004",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:004-B",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:004-B",
+      "destino": "FUENTE:004-B:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:004-B",
+      "destino": "FUENTE:004-B:fuente_academica",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:004-C",
+      "destino": "NODO:004",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:004-C",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:004-C",
+      "destino": "FUENTE:004-C:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:004-D",
+      "destino": "NODO:004",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:004-D",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:004-D",
+      "destino": "FUENTE:004-D:fuente_1",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:004-D",
+      "destino": "FUENTE:004-D:fuente_academica",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:004-E",
+      "destino": "NODO:004",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:004-E",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:004-E",
+      "destino": "FUENTE:004-E:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:004-E",
+      "destino": "FUENTE:004-E:fuente_1",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:004-E",
+      "destino": "FUENTE:004-E:fuente_academica",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:004-F",
+      "destino": "NODO:004",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:004-F",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:004-F",
+      "destino": "FUENTE:004-F:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:004-G",
+      "destino": "NODO:004",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:004-G",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:004-G",
+      "destino": "FUENTE:004-G:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:004-H",
+      "destino": "NODO:004",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:004-H",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:004-H",
+      "destino": "FUENTE:004-H:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:004-H",
+      "destino": "FUENTE:004-H:fuente_secundaria",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:004-I",
+      "destino": "NODO:004",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:004-I",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:004-I",
+      "destino": "FUENTE:004-I:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:004-J",
+      "destino": "NODO:004",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:004-J",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:004-J",
+      "destino": "FUENTE:004-J:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:005-A",
+      "destino": "NODO:005",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:005-A",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:005-A",
+      "destino": "FUENTE:005-A:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:005-A",
+      "destino": "FUENTE:005-A:fuente_1",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:005-A",
+      "destino": "FUENTE:005-A:fuente_academica",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:005-B",
+      "destino": "NODO:005",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:005-B",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:005-B",
+      "destino": "FUENTE:005-B:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:005-B",
+      "destino": "FUENTE:005-B:fuente_1",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:005-B",
+      "destino": "FUENTE:005-B:fuente_academica",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:005-C",
+      "destino": "NODO:005",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:005-C",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:005-C",
+      "destino": "FUENTE:005-C:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:005-C",
+      "destino": "FUENTE:005-C:fuente_1",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:005-C",
+      "destino": "FUENTE:005-C:fuente_academica",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:005-D",
+      "destino": "NODO:005",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:005-D",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:005-D",
+      "destino": "FUENTE:005-D:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:005-D",
+      "destino": "FUENTE:005-D:fuente_1",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:005-D",
+      "destino": "FUENTE:005-D:fuente_academica",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:005-E",
+      "destino": "NODO:005",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:005-E",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:005-E",
+      "destino": "FUENTE:005-E:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:005-E",
+      "destino": "FUENTE:005-E:fuente_1",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:005-E",
+      "destino": "FUENTE:005-E:fuente_academica",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:005-F",
+      "destino": "NODO:005",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:005-F",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:005-F",
+      "destino": "FUENTE:005-F:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:005-G",
+      "destino": "NODO:005",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:005-G",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:005-G",
+      "destino": "FUENTE:005-G:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:006-A",
+      "destino": "NODO:006",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:006-A",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:006-A",
+      "destino": "FUENTE:006-A:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:006-B",
+      "destino": "NODO:006",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:006-B",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:006-B",
+      "destino": "FUENTE:006-B:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:006-B",
+      "destino": "FUENTE:006-B:fuente_primaria",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:006-B",
+      "destino": "FUENTE:006-B:fuente_secundaria",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:006-C",
+      "destino": "NODO:006",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:006-C",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:006-C",
+      "destino": "FUENTE:006-C:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:006-D",
+      "destino": "NODO:006",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:006-D",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:006-D",
+      "destino": "FUENTE:006-D:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:006-E",
+      "destino": "NODO:006",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:006-E",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:006-E",
+      "destino": "FUENTE:006-E:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:006-E",
+      "destino": "FUENTE:006-E:fuente_1",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:006-E",
+      "destino": "FUENTE:006-E:fuente_academica",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:006-F",
+      "destino": "NODO:006",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:006-F",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:006-F",
+      "destino": "FUENTE:006-F:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:006-G",
+      "destino": "NODO:006",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:006-G",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:006-G",
+      "destino": "FUENTE:006-G:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:006-H",
+      "destino": "NODO:006",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:006-H",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:006-H",
+      "destino": "FUENTE:006-H:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:006-H",
+      "destino": "FUENTE:006-H:fuente_secundaria",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:006-I",
+      "destino": "NODO:006",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:006-I",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:006-I",
+      "destino": "FUENTE:006-I:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:006-J",
+      "destino": "NODO:006",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:006-J",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:006-J",
+      "destino": "FUENTE:006-J:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:007-A",
+      "destino": "NODO:007",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:007-A",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:007-A",
+      "destino": "FUENTE:007-A:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:007-A",
+      "destino": "FUENTE:007-A:fuente_academica",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:007-A",
+      "destino": "FUENTE:007-A:fuentes",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:007-B",
+      "destino": "NODO:007",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:007-B",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:007-B",
+      "destino": "FUENTE:007-B:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:007-B",
+      "destino": "FUENTE:007-B:fuente_academica",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:007-B",
+      "destino": "FUENTE:007-B:fuentes",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:007-C",
+      "destino": "NODO:007",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:007-C",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:007-C",
+      "destino": "FUENTE:007-C:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:007-C",
+      "destino": "FUENTE:007-C:fuente_academica",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:007-C",
+      "destino": "FUENTE:007-C:fuentes",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:007-D",
+      "destino": "NODO:007",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:007-D",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:007-D",
+      "destino": "FUENTE:007-D:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:007-D",
+      "destino": "FUENTE:007-D:fuentes",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:007-E",
+      "destino": "NODO:007",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:007-E",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:007-E",
+      "destino": "FUENTE:007-E:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:007-E",
+      "destino": "FUENTE:007-E:fuente_academica",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:007-E",
+      "destino": "FUENTE:007-E:fuentes",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:007-F",
+      "destino": "NODO:007",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:007-F",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:007-F",
+      "destino": "FUENTE:007-F:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:007-F",
+      "destino": "FUENTE:007-F:fuente_academica",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:007-F",
+      "destino": "FUENTE:007-F:fuentes",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:007-G",
+      "destino": "NODO:007",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:007-G",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:007-G",
+      "destino": "FUENTE:007-G:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:007-G",
+      "destino": "FUENTE:007-G:fuente_academica",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:007-G",
+      "destino": "FUENTE:007-G:fuentes",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:007-H",
+      "destino": "NODO:007",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:007-H",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:007-H",
+      "destino": "FUENTE:007-H:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:007-I",
+      "destino": "NODO:007",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:007-I",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:007-I",
+      "destino": "FUENTE:007-I:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:007-J",
+      "destino": "NODO:007",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:007-J",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:007-J",
+      "destino": "FUENTE:007-J:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:007-K",
+      "destino": "NODO:007",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:007-K",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:007-K",
+      "destino": "FUENTE:007-K:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:007-K",
+      "destino": "FUENTE:007-K:fuente_academica",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:007-K",
+      "destino": "FUENTE:007-K:fuentes",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:008-A",
+      "destino": "NODO:008",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:008-A",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:008-A",
+      "destino": "FUENTE:008-A:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:008-A",
+      "destino": "FUENTE:008-A:fuente_academica",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:008-A",
+      "destino": "FUENTE:008-A:fuentes",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:008-B",
+      "destino": "NODO:008",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:008-B",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:008-B",
+      "destino": "FUENTE:008-B:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:008-B",
+      "destino": "FUENTE:008-B:fuente_academica",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:008-B",
+      "destino": "FUENTE:008-B:fuentes",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:008-C",
+      "destino": "NODO:008",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:008-C",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:008-C",
+      "destino": "FUENTE:008-C:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:008-C",
+      "destino": "FUENTE:008-C:fuente_academica",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:008-C",
+      "destino": "FUENTE:008-C:fuentes",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:008-D",
+      "destino": "NODO:008",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:008-D",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:008-D",
+      "destino": "FUENTE:008-D:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:008-D",
+      "destino": "FUENTE:008-D:fuentes",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:008-E",
+      "destino": "NODO:008",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:008-E",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:008-E",
+      "destino": "FUENTE:008-E:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:008-E",
+      "destino": "FUENTE:008-E:fuente_academica",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:008-E",
+      "destino": "FUENTE:008-E:fuentes",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:008-F",
+      "destino": "NODO:008",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:008-F",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:008-F",
+      "destino": "FUENTE:008-F:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:008-F",
+      "destino": "FUENTE:008-F:fuente_secundaria",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:008-G",
+      "destino": "NODO:008",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:008-G",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:008-G",
+      "destino": "FUENTE:008-G:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:008-H",
+      "destino": "NODO:008",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:008-H",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:008-H",
+      "destino": "FUENTE:008-H:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:008-H",
+      "destino": "FUENTE:008-H:fuente_academica",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:008-H",
+      "destino": "FUENTE:008-H:fuentes",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:008-I",
+      "destino": "NODO:008",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:008-I",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:008-I",
+      "destino": "FUENTE:008-I:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:008-J",
+      "destino": "NODO:008",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:008-J",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:008-J",
+      "destino": "FUENTE:008-J:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:008-K",
+      "destino": "NODO:008",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:008-K",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:008-K",
+      "destino": "FUENTE:008-K:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:009-A",
+      "destino": "NODO:009",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:009-A",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:009-A",
+      "destino": "FUENTE:009-A:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:009-A",
+      "destino": "FUENTE:009-A:fuente_academica",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:009-B",
+      "destino": "NODO:009",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:009-B",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:009-B",
+      "destino": "FUENTE:009-B:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:009-C",
+      "destino": "NODO:009",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:009-C",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:009-C",
+      "destino": "FUENTE:009-C:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:009-D",
+      "destino": "NODO:009",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:009-D",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:009-D",
+      "destino": "FUENTE:009-D:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:009-D",
+      "destino": "FUENTE:009-D:fuente_1",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:009-D",
+      "destino": "FUENTE:009-D:fuente_academica",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:009-E",
+      "destino": "NODO:009",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:009-E",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:009-E",
+      "destino": "FUENTE:009-E:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:009-E",
+      "destino": "FUENTE:009-E:fuente_1",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:009-E",
+      "destino": "FUENTE:009-E:fuente_academica",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:009-F",
+      "destino": "NODO:009",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:009-F",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:009-F",
+      "destino": "FUENTE:009-F:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:009-G",
+      "destino": "NODO:009",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:009-G",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:009-G",
+      "destino": "FUENTE:009-G:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:009-H",
+      "destino": "NODO:009",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:009-H",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:009-H",
+      "destino": "FUENTE:009-H:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:009-H",
+      "destino": "FUENTE:009-H:fuente_academica",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:009-I",
+      "destino": "NODO:009",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:009-I",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:009-I",
+      "destino": "FUENTE:009-I:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:009-J",
+      "destino": "NODO:009",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:009-J",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:009-J",
+      "destino": "FUENTE:009-J:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:009-K",
+      "destino": "NODO:009",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:009-K",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:009-K",
+      "destino": "FUENTE:009-K:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:009-L",
+      "destino": "NODO:009",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:009-L",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:009-L",
+      "destino": "FUENTE:009-L:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:009-L",
+      "destino": "FUENTE:009-L:fuente_academica",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:010-A",
+      "destino": "NODO:010",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:010-A",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:010-A",
+      "destino": "FUENTE:010-A:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:010-B",
+      "destino": "NODO:010",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:010-B",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:010-B",
+      "destino": "FUENTE:010-B:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:010-C",
+      "destino": "NODO:010",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:010-C",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:010-C",
+      "destino": "FUENTE:010-C:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:010-D",
+      "destino": "NODO:010",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:010-D",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:010-D",
+      "destino": "FUENTE:010-D:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:010-E",
+      "destino": "NODO:010",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:010-E",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:010-E",
+      "destino": "FUENTE:010-E:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:010-E",
+      "destino": "FUENTE:010-E:fuente_1",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:010-E",
+      "destino": "FUENTE:010-E:fuente_academica",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:010-F",
+      "destino": "NODO:010",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:010-F",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:010-F",
+      "destino": "FUENTE:010-F:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:010-G",
+      "destino": "NODO:010",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:010-G",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:010-G",
+      "destino": "FUENTE:010-G:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:010-H",
+      "destino": "NODO:010",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:010-H",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:010-H",
+      "destino": "FUENTE:010-H:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:010-H",
+      "destino": "FUENTE:010-H:fuente_secundaria",
+      "tipo": "cita"
+    },
+    {
+      "origen": "REGISTRO:010-I",
+      "destino": "NODO:010",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "REGISTRO:010-I",
+      "destino": "HIPOTESIS",
+      "tipo": "conecta_hipotesis"
+    },
+    {
+      "origen": "REGISTRO:010-I",
+      "destino": "FUENTE:010-I:fuente",
+      "tipo": "cita"
+    },
+    {
+      "origen": "NODO:001",
+      "destino": "NODO:002",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:001",
+      "destino": "NODO:002",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:001",
+      "destino": "NODO:002",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:001",
+      "destino": "NODO:002",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:001",
+      "destino": "NODO:002",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:001",
+      "destino": "NODO:003",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:001",
+      "destino": "NODO:004",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:001",
+      "destino": "NODO:005",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:001",
+      "destino": "NODO:006",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:001",
+      "destino": "NODO:007",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:001",
+      "destino": "NODO:007",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:001",
+      "destino": "NODO:009",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:001",
+      "destino": "NODO:010",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:001",
+      "destino": "NODO:010",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:001",
+      "destino": "NODO:010",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:001",
+      "destino": "NODO:010",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:002",
+      "destino": "NODO:003",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:002",
+      "destino": "NODO:004",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:002",
+      "destino": "NODO:007",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:002",
+      "destino": "NODO:007",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:002",
+      "destino": "NODO:008",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:002",
+      "destino": "NODO:009",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:002",
+      "destino": "NODO:009",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:002",
+      "destino": "NODO:009",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:002",
+      "destino": "NODO:009",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:002",
+      "destino": "NODO:009",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:002",
+      "destino": "NODO:009",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:002",
+      "destino": "NODO:010",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:002",
+      "destino": "NODO:010",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:002",
+      "destino": "NODO:010",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:002",
+      "destino": "NODO:010",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:003",
+      "destino": "NODO:004",
+      "tipo": "comparte_actor"
+    },
+    {
+      "origen": "NODO:004",
+      "destino": "NODO:003",
+      "tipo": "comparte_actor"
+    },
+    {
+      "origen": "NODO:003",
+      "destino": "NODO:004",
+      "tipo": "comparte_actor"
+    },
+    {
+      "origen": "NODO:004",
+      "destino": "NODO:003",
+      "tipo": "comparte_actor"
+    },
+    {
+      "origen": "NODO:003",
+      "destino": "NODO:004",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:003",
+      "destino": "NODO:004",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:003",
+      "destino": "NODO:004",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:003",
+      "destino": "NODO:004",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:003",
+      "destino": "NODO:006",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:003",
+      "destino": "NODO:007",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:003",
+      "destino": "NODO:007",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:003",
+      "destino": "NODO:007",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:003",
+      "destino": "NODO:007",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:003",
+      "destino": "NODO:007",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:003",
+      "destino": "NODO:007",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:003",
+      "destino": "NODO:008",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:003",
+      "destino": "NODO:008",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:003",
+      "destino": "NODO:008",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:003",
+      "destino": "NODO:009",
+      "tipo": "comparte_actor"
+    },
+    {
+      "origen": "NODO:009",
+      "destino": "NODO:003",
+      "tipo": "comparte_actor"
+    },
+    {
+      "origen": "NODO:003",
+      "destino": "NODO:009",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:003",
+      "destino": "NODO:009",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:003",
+      "destino": "NODO:009",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:003",
+      "destino": "NODO:009",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:003",
+      "destino": "NODO:009",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:003",
+      "destino": "NODO:009",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:003",
+      "destino": "NODO:009",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:003",
+      "destino": "NODO:009",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:003",
+      "destino": "NODO:010",
+      "tipo": "comparte_actor"
+    },
+    {
+      "origen": "NODO:010",
+      "destino": "NODO:003",
+      "tipo": "comparte_actor"
+    },
+    {
+      "origen": "NODO:003",
+      "destino": "NODO:010",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:004",
+      "destino": "NODO:005",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:004",
+      "destino": "NODO:005",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:004",
+      "destino": "NODO:005",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:004",
+      "destino": "NODO:005",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:004",
+      "destino": "NODO:005",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:004",
+      "destino": "NODO:005",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:004",
+      "destino": "NODO:005",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:004",
+      "destino": "NODO:006",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:004",
+      "destino": "NODO:007",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:004",
+      "destino": "NODO:007",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:004",
+      "destino": "NODO:007",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:004",
+      "destino": "NODO:007",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:004",
+      "destino": "NODO:007",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:004",
+      "destino": "NODO:007",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:004",
+      "destino": "NODO:007",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:004",
+      "destino": "NODO:008",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:004",
+      "destino": "NODO:008",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:004",
+      "destino": "NODO:008",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:004",
+      "destino": "NODO:008",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:004",
+      "destino": "NODO:009",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:004",
+      "destino": "NODO:009",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:004",
+      "destino": "NODO:009",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:004",
+      "destino": "NODO:009",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:004",
+      "destino": "NODO:009",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:004",
+      "destino": "NODO:009",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:004",
+      "destino": "NODO:010",
+      "tipo": "comparte_actor"
+    },
+    {
+      "origen": "NODO:010",
+      "destino": "NODO:004",
+      "tipo": "comparte_actor"
+    },
+    {
+      "origen": "NODO:004",
+      "destino": "NODO:010",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:004",
+      "destino": "NODO:010",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:004",
+      "destino": "NODO:010",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:005",
+      "destino": "NODO:006",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:005",
+      "destino": "NODO:007",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:005",
+      "destino": "NODO:007",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:005",
+      "destino": "NODO:007",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:005",
+      "destino": "NODO:007",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:005",
+      "destino": "NODO:008",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:005",
+      "destino": "NODO:008",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:005",
+      "destino": "NODO:008",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:005",
+      "destino": "NODO:008",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:005",
+      "destino": "NODO:008",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:005",
+      "destino": "NODO:009",
+      "tipo": "comparte_actor"
+    },
+    {
+      "origen": "NODO:009",
+      "destino": "NODO:005",
+      "tipo": "comparte_actor"
+    },
+    {
+      "origen": "NODO:005",
+      "destino": "NODO:009",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:005",
+      "destino": "NODO:009",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:005",
+      "destino": "NODO:009",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:005",
+      "destino": "NODO:009",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:005",
+      "destino": "NODO:009",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:005",
+      "destino": "NODO:009",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:005",
+      "destino": "NODO:009",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:005",
+      "destino": "NODO:009",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:005",
+      "destino": "NODO:009",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:005",
+      "destino": "NODO:009",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:005",
+      "destino": "NODO:009",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:005",
+      "destino": "NODO:010",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:005",
+      "destino": "NODO:010",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:005",
+      "destino": "NODO:010",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:005",
+      "destino": "NODO:010",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:005",
+      "destino": "NODO:010",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:005",
+      "destino": "NODO:010",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:006",
+      "destino": "NODO:008",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:006",
+      "destino": "NODO:010",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:007",
+      "destino": "NODO:008",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:007",
+      "destino": "NODO:008",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:007",
+      "destino": "NODO:008",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:007",
+      "destino": "NODO:008",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:007",
+      "destino": "NODO:008",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:007",
+      "destino": "NODO:009",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:007",
+      "destino": "NODO:009",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:008",
+      "destino": "NODO:009",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:008",
+      "destino": "NODO:009",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:008",
+      "destino": "NODO:009",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:008",
+      "destino": "NODO:010",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:008",
+      "destino": "NODO:010",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:008",
+      "destino": "NODO:010",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:009",
+      "destino": "NODO:010",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:009",
+      "destino": "NODO:010",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:009",
+      "destino": "NODO:010",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:009",
+      "destino": "NODO:010",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "NODO:009",
+      "destino": "NODO:010",
+      "tipo": "comparte_tag"
+    },
+    {
+      "origen": "PREGUNTA:P001-01",
+      "destino": "NODO:001",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P001-01",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P001-02",
+      "destino": "NODO:001",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P001-02",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P001-03",
+      "destino": "NODO:001",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P001-03",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P001-04",
+      "destino": "NODO:001",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P001-04",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P001-05",
+      "destino": "NODO:001",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P001-05",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P001-06",
+      "destino": "NODO:001",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P001-06",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P001-07",
+      "destino": "NODO:001",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P001-07",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P001-08",
+      "destino": "NODO:001",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P001-08",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P002-01",
+      "destino": "NODO:002",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P002-01",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P002-02",
+      "destino": "NODO:002",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P002-02",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P002-03",
+      "destino": "NODO:002",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P002-03",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P002-04",
+      "destino": "NODO:002",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P002-04",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P002-05",
+      "destino": "NODO:002",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P002-05",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P002-06",
+      "destino": "NODO:002",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P002-06",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P002-07",
+      "destino": "NODO:002",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P002-07",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P002-08",
+      "destino": "NODO:002",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P002-08",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P006-01",
+      "destino": "NODO:006",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P006-01",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P006-02",
+      "destino": "NODO:006",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P006-02",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P006-03",
+      "destino": "NODO:006",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P006-03",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P006-04",
+      "destino": "NODO:006",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P006-04",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P006-05",
+      "destino": "NODO:006",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P006-05",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P006-06",
+      "destino": "NODO:006",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P006-06",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P006-07",
+      "destino": "NODO:006",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P006-07",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P006-08",
+      "destino": "NODO:006",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P006-08",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P006-09",
+      "destino": "NODO:006",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P006-09",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P006-10",
+      "destino": "NODO:006",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P006-10",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P006-11",
+      "destino": "NODO:006",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P006-11",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P009-01",
+      "destino": "NODO:009",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P009-01",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P009-02",
+      "destino": "NODO:009",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P009-02",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P009-03",
+      "destino": "NODO:009",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P009-03",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P009-04",
+      "destino": "NODO:009",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P009-04",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P009-05",
+      "destino": "NODO:009",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P009-05",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P009-06",
+      "destino": "NODO:009",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P009-06",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P010-01",
+      "destino": "NODO:010",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P010-02",
+      "destino": "NODO:010",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P010-02",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P010-03",
+      "destino": "NODO:010",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P010-04",
+      "destino": "NODO:010",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P010-04",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P010-05",
+      "destino": "NODO:010",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P010-06",
+      "destino": "NODO:010",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P010-06",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    }
+  ],
+  "generado": "2026-04-24T05:01:51.947527+00:00",
+  "metricas": {
+    "total_nodos": 323,
+    "total_aristas": 595,
+    "total_nodos_historicos": 10,
+    "total_registros": 99,
+    "total_preguntas": 39,
+    "total_fuentes": 174,
+    "num_componentes": 1,
+    "cobertura_hipotesis_pct": 100.0,
+    "cobertura_fuente_pct": 100.0
+  }
+}

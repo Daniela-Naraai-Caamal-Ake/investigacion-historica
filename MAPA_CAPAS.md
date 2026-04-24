@@ -104,7 +104,7 @@ python tools/validar_citas.py
 
 ---
 
-## Capa 8 — Análisis de cruces y silencios *(nueva)*
+## Capa 8 — Análisis de cruces y silencios
 
 - `analisis/cruce_informacion.md` → actores, mecanismos y temas que atraviesan múltiples nodos
 - `analisis/contradicciones.md` → 82 tensiones entre fuentes (factuales, interpretativas, silencios)
@@ -115,4 +115,35 @@ python tools/validar_citas.py
 python tools/generar_matriz_cruces.py
 python tools/generar_contradicciones.py
 python tools/generar_mapa_silencios.py
+```
+
+---
+
+## Capa 9 — Grafo epistemológico y robustez del sistema *(nueva)*
+
+- `analisis/grafo_epistemologico.md` → análisis de conectividad del grafo de conocimiento
+- `docs/grafo_epistemologico.json` → grafo completo (nodos + aristas) en formato JSON
+
+El grafo modela la cadena epistemológica completa:
+
+```
+Hipótesis → Nodo histórico → Registro → Fuente
+```
+
+Detecta:
+- Registros sin conexión a la hipótesis central (brechas epistemológicas)
+- Registros sin fuente verificable (afirmaciones flotantes)
+- Nodos históricos aislados sin conexión al resto del grafo
+- Preguntas pendientes de investigación
+- Componentes desconectados del grafo principal
+
+```bash
+# Generar grafo y reporte de robustez
+python tools/grafo_epistemologico.py
+
+# Solo el reporte Markdown
+python tools/grafo_epistemologico.py --solo-reporte
+
+# Solo el JSON del grafo
+python tools/grafo_epistemologico.py --solo-json
 ```

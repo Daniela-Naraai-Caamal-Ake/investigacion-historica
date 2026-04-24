@@ -97,6 +97,9 @@ python tools/validar_citas.py
 
 # Rastrear fuentes en archivos digitales (PARES, AGN, FamilySearch...)
 python tools/rastrear_fuentes.py
+
+# Grafo epistemológico y análisis de robustez del sistema
+python tools/grafo_epistemologico.py
 ```
 
 ---
@@ -143,7 +146,7 @@ investigacion-historica/
 | Preguntas en proceso | 1 |
 | Preguntas pendientes | **0** |
 | Fuentes catalogadas | 64 |
-| Tests automáticos | 122 ✅ |
+| Tests automáticos | 183 ✅ |
 
 ---
 
