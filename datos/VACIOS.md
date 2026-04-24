@@ -18,11 +18,11 @@ Estado posible: `PENDIENTE` · `EN PROCESO` · `RESPONDIDA PARCIALMENTE` · `RES
 
 | Estado | Cantidad |
 |--------|----------|
-| 🔴 PENDIENTE | 3 |
+| 🔴 PENDIENTE | 9 |
 | 🟡 EN PROCESO | 0 |
 | 🟠 RESPONDIDA PARCIALMENTE | 64 |
 | 🟢 RESPONDIDA | 1 |
-| **TOTAL** | **68** |
+| **TOTAL** | **74** |
 
 
 ---
@@ -51,6 +51,13 @@ Estas preguntas son cuellos de botella: sin ellas, capítulos enteros quedan inc
 | ID | Pregunta | Nodo | Dónde buscar | Estado |
 |----|----------|------|--------------|--------|
 | **P004-01** | ¿Quiénes eran los hacendados específicos de Hopelchén que encabezaron la 'lucha antiagraria' post-Revolució… | 004 | — | 🟠 RESPONDIDA PARCIALMENTE |
+
+
+### Nodo 005 — Hopelchén Contemporáneo (1970–2026)
+
+| ID | Pregunta | Nodo | Dónde buscar | Estado |
+|----|----------|------|--------------|--------|
+| **P005-01** | ¿Quiénes son los presidentes municipales de Hopelchén desde 1970 hasta 2026? ¿Sus apellidos? ¿Filiaciones p… | 005 | — | 🔴 PENDIENTE |
 
 
 ### Nodo 006 — La Genealogía del Poder Político Local en Hopelchén (1959–20
@@ -112,6 +119,14 @@ Estas preguntas son cuellos de botella: sin ellas, capítulos enteros quedan inc
 |----|----------|------|--------------|--------|
 | **P004-02** | ¿Cuáles son las 10 comunidades fundadas en Hopelchén entre 1930-1950 como resultado de la Reforma Agraria? … | 004 | — | 🟠 RESPONDIDA PARCIALMENTE |
 | **P004-03** | ¿Quiénes eran los principales contratistas chicleros de Hopelchén y Dzibalchén? ¿Sus nombres y apellidos? ¿… | 004 | — | 🟠 RESPONDIDA PARCIALMENTE |
+
+
+### Nodo 005 — Hopelchén Contemporáneo (1970–2026)
+
+| ID | Pregunta | Nodo | Dónde buscar | Estado |
+|----|----------|------|--------------|--------|
+| **P005-02** | ¿Cuáles son los nombres exactos y extensión de las Sociedades de Producción Rural (SPR) menonitas que recib… | 005 | — | 🔴 PENDIENTE |
+| **P005-03** | ¿Cuál es el estado actual (2026) del amparo por derechos de la naturaleza y plaguicidas interpuesto por las… | 005 | — | 🔴 PENDIENTE |
 
 
 ### Nodo 006 — La Genealogía del Poder Político Local en Hopelchén (1959–20
@@ -185,6 +200,13 @@ Estas preguntas son cuellos de botella: sin ellas, capítulos enteros quedan inc
 | ID | Pregunta | Nodo | Dónde buscar | Estado |
 |----|----------|------|--------------|--------|
 | **P003-04** | ¿Qué pasó con las concesiones de 320 acres prometidas a los 938 soldados mercenarios estadounidenses contra… | 003 | AGEY — Poder Ejecutivo, Gobernación, 1848-1855; Wikipedia en inglés — Spanish conquest of Yucatán (sección Guerra de Castas) | 🟠 RESPONDIDA PARCIALMENTE |
+
+
+### Nodo 005 — Hopelchén Contemporáneo (1970–2026)
+
+| ID | Pregunta | Nodo | Dónde buscar | Estado |
+|----|----------|------|--------------|--------|
+| **P005-04** | ¿Cuántas hectáreas ha perdido Hopelchén de cobertura forestal en total acumulado desde 1987 (llegada de men… | 005 | — | 🔴 PENDIENTE |
 
 
 ### Nodo 006 — La Genealogía del Poder Político Local en Hopelchén (1959–20
@@ -322,6 +344,14 @@ Estas preguntas son cuellos de botella: sin ellas, capítulos enteros quedan inc
 |----|----------|------|--------------|--------|
 | **P004-05** | ¿Cuándo llegaron los primeros menonitas a Hopelchén y cuántas hectáreas han adquirido históricamente? ¿Cuál… | 004 | — | 🟠 RESPONDIDA PARCIALMENTE |
 | **P004-06** | ¿Quién fue Jorge Carlos Hurtado Valdez (gobernador en 2007 cuando Hopelchén fue declarada Capital del Estad… | 004 | — | 🟠 RESPONDIDA PARCIALMENTE |
+
+
+### Nodo 005 — Hopelchén Contemporáneo (1970–2026)
+
+| ID | Pregunta | Nodo | Dónde buscar | Estado |
+|----|----------|------|--------------|--------|
+| **P005-05** | ¿Qué dice el libro de Aranda González (1985) sobre la historia política de Hopelchén en el siglo XX? ¿Nombr… | 005 | — | 🔴 PENDIENTE |
+| **P005-06** | ¿Qué dice el estudio de Ute Schüren (Ibero-Amerikanisches Institut, Berlín, 2013) sobre las rutas de comuni… | 005 | — | 🔴 PENDIENTE |
 
 
 ---

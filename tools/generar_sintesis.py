@@ -245,33 +245,47 @@ def _seccion_vacios() -> str:
         d = _cargar_json(f)
         if not d:
             continue
-        key = next((k for k, v in d.items() if isinstance(v, list)), None)
-        if not key:
-            continue
         nodo_num = d.get("nodo_id", f.stem.split("_")[1] if "_" in f.stem else "?")
-        for p in d[key]:
-            est = p.get("estado", "PENDIENTE")
-            prio = p.get("prioridad", "")
-            pid = p.get("pregunta_id", "")
-            pregunta = p.get("pregunta", "")[:100]
-            where = p.get("donde_buscar", p.get("fuente_sugerida", ""))[:80]
+        # Extraer preguntas de todas las claves que empiecen con "preguntas"
+        # y contengan listas de dicts con pregunta_id (evita el primer-lista heurístico)
+        _claves_conocidas = (
+            "preguntas", "preguntas_urgentes",
+            "preguntas_alta_prioridad", "preguntas_media_prioridad",
+        )
+        _claves_extra = [k for k in d if k.startswith("preguntas") and k not in _claves_conocidas]
+        _preguntas_vistas: set[str] = set()
+        for _clave in (*_claves_conocidas, *_claves_extra):
+            _lista = d.get(_clave)
+            if not isinstance(_lista, list):
+                continue
+            for p in _lista:
+                if not isinstance(p, dict) or not p.get("pregunta_id"):
+                    continue
+                pid = p.get("pregunta_id", "")
+                if pid in _preguntas_vistas:
+                    continue
+                _preguntas_vistas.add(pid)
+                est = p.get("estado", "PENDIENTE")
+                prio = p.get("prioridad", "")
+                pregunta = p.get("pregunta", "")[:100]
+                where = p.get("donde_buscar", p.get("fuente_sugerida", ""))[:80]
 
-            for k in conteo:
-                if k in est:
-                    conteo[k] += 1
-                    break
+                for k in conteo:
+                    if k in est:
+                        conteo[k] += 1
+                        break
 
-            item = {
-                "id": pid, "pregunta": pregunta,
-                "estado": est, "prioridad": prio,
-                "donde": where, "nodo": nodo_num
-            }
-            if "URGENTE" in prio.upper():
-                urgentes.append(item)
-            elif "PENDIENTE" in est:
-                pendientes.append(item)
-            elif "PARCIALMENTE" in est:
-                parciales.append(item)
+                item = {
+                    "id": pid, "pregunta": pregunta,
+                    "estado": est, "prioridad": prio,
+                    "donde": where, "nodo": nodo_num
+                }
+                if "URGENTE" in prio.upper():
+                    urgentes.append(item)
+                elif "PENDIENTE" in est:
+                    pendientes.append(item)
+                elif "PARCIALMENTE" in est:
+                    parciales.append(item)
 
     lines.append("### Resumen\n")
     lines.append("| Estado | Cantidad |")

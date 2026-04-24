@@ -366,6 +366,45 @@ def _id_fuente(registro_id: str, campo: str) -> str:
     return f"{PREFIJO_FUENTE}:{registro_id}:{campo}"
 
 
+def _extraer_preguntas_de_archivo(data: dict) -> list[dict]:
+    """
+    Extrae todos los objetos de pregunta de un archivo PREGUNTAS_*.json.
+
+    Busca primero en las claves canónicas conocidas y luego en cualquier clave
+    que comience con ``"preguntas"`` para capturar variantes futuras como
+    ``"preguntas_urgentes_005"``.  Solo se incluyen entradas que sean dicts
+    con el campo ``pregunta_id``.
+    """
+    CLAVES_CONOCIDAS = (
+        "preguntas",
+        "preguntas_urgentes",
+        "preguntas_alta_prioridad",
+        "preguntas_media_prioridad",
+    )
+    claves_extra = [
+        k for k in data
+        if k.startswith("preguntas") and k not in CLAVES_CONOCIDAS
+    ]
+    preguntas: list[dict] = []
+    for clave in (*CLAVES_CONOCIDAS, *claves_extra):
+        val = data.get(clave)
+        if isinstance(val, list):
+            preguntas.extend(
+                v for v in val
+                if isinstance(v, dict) and v.get("pregunta_id")
+            )
+    # Deduplicar por pregunta_id
+    vistos: set[str] = set()
+    resultado: list[dict] = []
+    for p in preguntas:
+        pid = p.get("pregunta_id", "")
+        if pid in vistos:
+            continue
+        vistos.add(pid)
+        resultado.append(p)
+    return resultado
+
+
 def construir_grafo() -> GrafoEpistemologico:
     """Carga todos los datos del proyecto y construye el grafo."""
 
@@ -535,7 +574,7 @@ def construir_grafo() -> GrafoEpistemologico:
 
         nodo_origen_id = f"{PREFIJO_NODO}:{nodo_num}" if nodo_num else None
 
-        for preg in data.get("preguntas", []):
+        for preg in _extraer_preguntas_de_archivo(data):
             pid = preg.get("pregunta_id", "")
             if not pid:
                 continue

@@ -89,7 +89,13 @@ Guía corta para navegar el proyecto sin perderse.
 # Ver el estado del proyecto
 python tools/generar_estadisticas.py
 
-# Regenerar todo
+# Verificar que los archivos derivados están al día con los JSON
+python tools/verificar_sincronizacion.py
+
+# Sincronizar todo automáticamente si hay discrepancias
+python tools/verificar_sincronizacion.py --auto-fix
+
+# Regenerar todo manualmente
 python tools/generar_redaccion.py && python tools/generar_sintesis.py && python tools/actualizar_vacios.py
 
 # Validar integridad

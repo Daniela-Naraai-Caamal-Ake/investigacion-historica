@@ -1,7 +1,7 @@
 # Grafo Epistemológico — *Dos Mil Años en Silencio*
 
 > Autora: Daniela Naraai Caamal Ake  
-> Generado: 2026-04-24 05:01 UTC  
+> Generado: 2026-04-24 05:12 UTC  
 > ⚙ Generado automáticamente por `tools/grafo_epistemologico.py`
 
 Este documento analiza la **robustez epistemológica** del proyecto:
@@ -32,12 +32,12 @@ Un registro que rompe esta cadena es una **brecha epistemológica**: puede ser v
 
 | Indicador | Valor |
 |---|---|
-| Nodos totales | 323 |
-| Aristas totales | 595 |
+| Nodos totales | 358 |
+| Aristas totales | 659 |
 | Nodos históricos | 10 |
 | Registros | 99 |
 | Fuentes | 174 |
-| Preguntas | 39 |
+| Preguntas | 74 |
 | Componentes conexos | 1 |
 | Cobertura de hipótesis | **100.0%** |
 | Cobertura de fuente | **100.0%** |
@@ -90,8 +90,14 @@ Nodos históricos sin ninguna arista hacia otro nodo histórico (vía actores, t
 
 Preguntas con estado `PENDIENTE` que aún no han sido respondidas.
 
-ℹ️ **3 pregunta(s) pendiente(s)**:
+ℹ️ **9 pregunta(s) pendiente(s)**:
 
+- `P005-01` [URGENTE] — ¿Quiénes son los presidentes municipales de Hopelchén desde 1970 hasta
+- `P005-02` [Alta] — ¿Cuáles son los nombres exactos y extensión de las Sociedades de Produ
+- `P005-03` [Alta — situación activa] — ¿Cuál es el estado actual (2026) del amparo por derechos de la natural
+- `P005-04` [Media-Alta] — ¿Cuántas hectáreas ha perdido Hopelchén de cobertura forestal en total
+- `P005-05` [MÁXIMA — pendiente desde Nodo 004] — ¿Qué dice el libro de Aranda González (1985) sobre la historia polític
+- `P005-06` [Alta — acceso inmediato disponible] — ¿Qué dice el estudio de Ute Schüren (Ibero-Amerikanisches Institut, Be
 - `P010-01` [Alta] — ¿Existen informes técnicos del INAH sobre los alineamientos astronómic
 - `P010-03` [Alta] — ¿Cuántos hablantes de maya yucateco en Hopelchén son bilingües plenos 
 - `P010-05` [Media] — ¿Las novelas de Hernán Lara Zavala (Charras, El lugar donde crece la h

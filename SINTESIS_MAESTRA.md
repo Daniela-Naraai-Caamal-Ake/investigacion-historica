@@ -3,7 +3,7 @@
 > **Dos Mil Años en Silencio** — Investigación histórica sobre Hopelchén y Los Chenes  
 > Autora: **Daniela Naraai Caamal Ake**  
 > ⚙ Generado automáticamente por `tools/generar_sintesis.py`  
-> Última actualización: **2026-04-18 20:48**
+> Última actualización: **2026-04-24 05:12**
 
 ---
 
@@ -879,14 +879,14 @@ Total borradores: **25**
 | `B7.md` | 9,922 chars | **Estado:** ✅ Aprobada — 22 marzo 2026 (versión fi |
 | `B8.md` | 13,631 chars | **Estado:** ✅ Aprobada |
 | `B9_borrador.md` | 12,859 chars | **Estado:** Borrador — pendiente revisión de Dan |
-| `INDICE_LIBRO.md` | 6,417 chars | — |
+| `INDICE_LIBRO.md` | 6,740 chars | — |
 | `PRÓLOGO.md` | 6,911 chars | **Estado:** 📝 Borrador generado para revisión de D |
 
 ---
 
 ## Notas de generación
 
-- **Generado:** 2026-04-18 20:48
+- **Generado:** 2026-04-24 05:12
 - **Script:** `tools/generar_sintesis.py`
 - **Repositorio:** Daniela-Naraai-Caamal-Ake/investigacion-historica
 - **Regenerar:** `python tools/generar_sintesis.py`

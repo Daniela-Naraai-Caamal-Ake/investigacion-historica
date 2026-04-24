@@ -4,7 +4,7 @@
       "id": "HIPOTESIS",
       "tipo": "HIPOTESIS",
       "etiqueta": "Hipótesis central (v5)",
-      "grado_entrada": 135,
+      "grado_entrada": 164,
       "grado_salida": 0
     },
     {
@@ -25,21 +25,21 @@
       "id": "NODO:003",
       "tipo": "NODO",
       "etiqueta": "Colonia Tardía, Independencia, Guerra de Castas y el Porfiriato en Hopelchén (1670–1910): Tierra, Poder y Destrucción",
-      "grado_entrada": 19,
+      "grado_entrada": 26,
       "grado_salida": 28
     },
     {
       "id": "NODO:004",
       "tipo": "NODO",
       "etiqueta": "Revolución, Lucha Antiagraria, Reforma Agraria y la Economía Chiclera en Hopelchén (1910–1970): La Tierra Se Redistribuye, el Chicle Se Explota",
-      "grado_entrada": 20,
+      "grado_entrada": 26,
       "grado_salida": 32
     },
     {
       "id": "NODO:005",
       "tipo": "NODO",
       "etiqueta": "Hopelchén Contemporáneo (1970–2026): Menonitas, Agroindustria Transgénica y Resistencia Maya — El Último Ciclo Extractivo",
-      "grado_entrada": 17,
+      "grado_entrada": 23,
       "grado_salida": 29
     },
     {
@@ -53,14 +53,14 @@
       "id": "NODO:007",
       "tipo": "NODO",
       "etiqueta": "Rutas, Territorio y Control del Espacio en Hopelchén (1517–2026): Del Camino Real al Campo de Aterrizaje Chiclero y la Carretera 261",
-      "grado_entrada": 33,
+      "grado_entrada": 41,
       "grado_salida": 8
     },
     {
       "id": "NODO:008",
       "tipo": "NODO",
       "etiqueta": "Demografía e Historia de la Población en Hopelchén (300 a.C.–2026): Censos, Colapsos, Migraciones y el Perfil del Pueblo Maya Contemporáneo",
-      "grado_entrada": 30,
+      "grado_entrada": 38,
       "grado_salida": 7
     },
     {
@@ -2101,6 +2101,139 @@
       "grado_salida": 2
     },
     {
+      "id": "PREGUNTA:P003-01",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Cuándo y cómo adquirió Pedro Advíncula Lara las haciendas Holcatzin y Santa Rit",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P003-02",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Qué tierras específicas en el municipio de Hopelchén fueron adquiridas por comp",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P003-03",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Qué dice la publicación 'Recordaciones Históricas' de Joaquín Baranda sobre Hop",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P003-04",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Qué pasó con las concesiones de 320 acres prometidas a los 938 soldados mercena",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P003-05",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Existen documentos sobre los apellidos de los líderes mayas de la Guerra de Cas",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P003-06",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Qué datos específicos sobre Los Chenes contiene el estudio de Ute Schüren (2013",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P003-07",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Qué política educativa aplicó Joaquín Baranda como Ministro (1882-1901) en Camp",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P004-01",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Quiénes eran los hacendados específicos de Hopelchén que encabezaron la 'lucha ",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P004-02",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Cuáles son las 10 comunidades fundadas en Hopelchén entre 1930-1950 como result",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P004-03",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Quiénes eran los principales contratistas chicleros de Hopelchén y Dzibalchén? ",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P004-04",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Qué fue de los campos aéreos de Hopelchén y X Can Há después del fin del auge c",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P004-05",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Cuándo llegaron los primeros menonitas a Hopelchén y cuántas hectáreas han adqu",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P004-06",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Quién fue Jorge Carlos Hurtado Valdez (gobernador en 2007 cuando Hopelchén fue ",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P005-01",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Quiénes son los presidentes municipales de Hopelchén desde 1970 hasta 2026? ¿Su",
+      "grado_entrada": 0,
+      "grado_salida": 1
+    },
+    {
+      "id": "PREGUNTA:P005-02",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Cuáles son los nombres exactos y extensión de las Sociedades de Producción Rura",
+      "grado_entrada": 0,
+      "grado_salida": 1
+    },
+    {
+      "id": "PREGUNTA:P005-03",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Cuál es el estado actual (2026) del amparo por derechos de la naturaleza y plag",
+      "grado_entrada": 0,
+      "grado_salida": 1
+    },
+    {
+      "id": "PREGUNTA:P005-04",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Cuántas hectáreas ha perdido Hopelchén de cobertura forestal en total acumulado",
+      "grado_entrada": 0,
+      "grado_salida": 1
+    },
+    {
+      "id": "PREGUNTA:P005-05",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Qué dice el libro de Aranda González (1985) sobre la historia política de Hopel",
+      "grado_entrada": 0,
+      "grado_salida": 1
+    },
+    {
+      "id": "PREGUNTA:P005-06",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Qué dice el estudio de Ute Schüren (Ibero-Amerikanisches Institut, Berlín, 2013",
+      "grado_entrada": 0,
+      "grado_salida": 1
+    },
+    {
       "id": "PREGUNTA:P006-01",
       "tipo": "PREGUNTA",
       "etiqueta": "¿Existe conexión genealógica entre Hiram Aranda Calderón (alcalde 2024-2027), Ma",
@@ -2174,6 +2307,118 @@
       "id": "PREGUNTA:P006-11",
       "tipo": "PREGUNTA",
       "etiqueta": "¿Quién es Efraín Calderón Lara 'Charras'? ¿Cuándo y por qué fue asesinado? ¿Cuál",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P007-01",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Dónde se pueden consultar las obras de Pacheco Blanco (1928) y Peña (1942) sobr",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P007-02",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Cuándo llegaron por primera vez escuelas, centros de salud y autoridades civile",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P007-03",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Cuál es el paradero del Archivo Municipal de Hopelchén y qué fondos documentale",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P007-04",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Existe la obra mayor de Schüren sobre Los Chenes (Schüren 2003a, libro completo",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P007-05",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Cuándo llegó la Carretera Federal 261 a Hopelchén y Dzibalchén? ¿Bajo qué gobie",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P007-06",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Qué pasó con los terrenos de los campos de aterrizaje chicleros de Hopelchén y ",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P007-07",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Cuál era el itinerario exacto del viajero Rodolfo Schuller (1923) en el sur de ",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P007-08",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Hay mapas históricos del municipio de Hopelchén del siglo XIX y principios del ",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P008-01",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Cuál fue la población del municipio de Hopelchén en los censos de 1900, 1910, 1",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P008-02",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Qué datos nominales contiene el Censo de 1930 de Hopelchén disponible en Family",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P008-03",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Cómo ha evolucionado el porcentaje de hablantes de lengua maya en Hopelchén ent",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P008-04",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Cuál fue el impacto demográfico específico de la Guerra de Castas en Hopelchén?",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P008-05",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Cuál es la tasa de emigración de jóvenes desde Hopelchén hacia las ciudades (Ca",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P008-06",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Cuántos menonitas viven actualmente en el municipio de Hopelchén? ¿En qué colon",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P008-07",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Qué dice el escritor en lengua maya Romualdo Eleazar Méndez Huchín sobre la pér",
+      "grado_entrada": 0,
+      "grado_salida": 2
+    },
+    {
+      "id": "PREGUNTA:P008-08",
+      "tipo": "PREGUNTA",
+      "etiqueta": "¿Cuántas comunidades del municipio de Hopelchén tienen más del 90% de población ",
       "grado_entrada": 0,
       "grado_salida": 2
     },
@@ -5024,6 +5269,166 @@
       "tipo": "responde_a"
     },
     {
+      "origen": "PREGUNTA:P003-01",
+      "destino": "NODO:003",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P003-01",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P003-02",
+      "destino": "NODO:003",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P003-02",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P003-03",
+      "destino": "NODO:003",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P003-03",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P003-04",
+      "destino": "NODO:003",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P003-04",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P003-05",
+      "destino": "NODO:003",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P003-05",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P003-06",
+      "destino": "NODO:003",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P003-06",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P003-07",
+      "destino": "NODO:003",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P003-07",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P004-01",
+      "destino": "NODO:004",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P004-01",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P004-02",
+      "destino": "NODO:004",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P004-02",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P004-03",
+      "destino": "NODO:004",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P004-03",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P004-04",
+      "destino": "NODO:004",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P004-04",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P004-05",
+      "destino": "NODO:004",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P004-05",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P004-06",
+      "destino": "NODO:004",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P004-06",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P005-01",
+      "destino": "NODO:005",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P005-02",
+      "destino": "NODO:005",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P005-03",
+      "destino": "NODO:005",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P005-04",
+      "destino": "NODO:005",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P005-05",
+      "destino": "NODO:005",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P005-06",
+      "destino": "NODO:005",
+      "tipo": "pertenece_a"
+    },
+    {
       "origen": "PREGUNTA:P006-01",
       "destino": "NODO:006",
       "tipo": "pertenece_a"
@@ -5130,6 +5535,166 @@
     },
     {
       "origen": "PREGUNTA:P006-11",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P007-01",
+      "destino": "NODO:007",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P007-01",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P007-02",
+      "destino": "NODO:007",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P007-02",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P007-03",
+      "destino": "NODO:007",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P007-03",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P007-04",
+      "destino": "NODO:007",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P007-04",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P007-05",
+      "destino": "NODO:007",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P007-05",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P007-06",
+      "destino": "NODO:007",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P007-06",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P007-07",
+      "destino": "NODO:007",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P007-07",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P007-08",
+      "destino": "NODO:007",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P007-08",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P008-01",
+      "destino": "NODO:008",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P008-01",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P008-02",
+      "destino": "NODO:008",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P008-02",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P008-03",
+      "destino": "NODO:008",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P008-03",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P008-04",
+      "destino": "NODO:008",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P008-04",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P008-05",
+      "destino": "NODO:008",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P008-05",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P008-06",
+      "destino": "NODO:008",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P008-06",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P008-07",
+      "destino": "NODO:008",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P008-07",
+      "destino": "HIPOTESIS",
+      "tipo": "responde_a"
+    },
+    {
+      "origen": "PREGUNTA:P008-08",
+      "destino": "NODO:008",
+      "tipo": "pertenece_a"
+    },
+    {
+      "origen": "PREGUNTA:P008-08",
       "destino": "HIPOTESIS",
       "tipo": "responde_a"
     },
@@ -5239,13 +5804,13 @@
       "tipo": "responde_a"
     }
   ],
-  "generado": "2026-04-24T05:01:51.947527+00:00",
+  "generado": "2026-04-24T05:12:39.690881+00:00",
   "metricas": {
-    "total_nodos": 323,
-    "total_aristas": 595,
+    "total_nodos": 358,
+    "total_aristas": 659,
     "total_nodos_historicos": 10,
     "total_registros": 99,
-    "total_preguntas": 39,
+    "total_preguntas": 74,
     "total_fuentes": 174,
     "num_componentes": 1,
     "cobertura_hipotesis_pct": 100.0,

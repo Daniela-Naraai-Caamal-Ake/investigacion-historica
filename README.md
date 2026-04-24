@@ -100,6 +100,12 @@ python tools/rastrear_fuentes.py
 
 # Grafo epistemológico y análisis de robustez del sistema
 python tools/grafo_epistemologico.py
+
+# Verificar sincronización de archivos derivados con los JSON
+python tools/verificar_sincronizacion.py
+
+# Sincronizar automáticamente si hay discrepancias
+python tools/verificar_sincronizacion.py --auto-fix
 ```
 
 ---
@@ -146,7 +152,7 @@ investigacion-historica/
 | Preguntas en proceso | 1 |
 | Preguntas pendientes | **0** |
 | Fuentes catalogadas | 64 |
-| Tests automáticos | 183 ✅ |
+| Tests automáticos | 208 ✅ |
 
 ---
 

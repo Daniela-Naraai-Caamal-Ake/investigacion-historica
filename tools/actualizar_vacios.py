@@ -74,15 +74,31 @@ def _nivel_prioridad(prioridad: str) -> int:
 
 
 def _extraer_preguntas(data: dict) -> list[dict]:
-    """Extrae todas las preguntas de un archivo de preguntas."""
+    """Extrae todas las preguntas de un archivo de preguntas.
+
+    Busca primero en las claves canónicas conocidas y luego en cualquier clave
+    que comience con ``"preguntas"`` para capturar variantes como
+    ``"preguntas_urgentes_005"`` que pudieran añadirse en el futuro.
+    Solo se incluyen entradas que sean dicts con el campo ``pregunta_id``.
+    """
+    CLAVES_CONOCIDAS = (
+        "preguntas",
+        "preguntas_urgentes",
+        "preguntas_alta_prioridad",
+        "preguntas_media_prioridad",
+    )
+    claves_extra = [
+        k for k in data
+        if k.startswith("preguntas") and k not in CLAVES_CONOCIDAS
+    ]
     preguntas: list[dict] = []
-    for clave in (
-        "preguntas", "preguntas_urgentes",
-        "preguntas_alta_prioridad", "preguntas_media_prioridad",
-    ):
+    for clave in (*CLAVES_CONOCIDAS, *claves_extra):
         val = data.get(clave)
         if isinstance(val, list):
-            preguntas.extend(v for v in val if isinstance(v, dict))
+            preguntas.extend(
+                v for v in val
+                if isinstance(v, dict) and v.get("pregunta_id")
+            )
     # Deduplicar por pregunta_id
     vistos: set[str] = set()
     resultado: list[dict] = []
