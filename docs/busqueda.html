@@ -3,236 +3,672 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Búsqueda Semántica — Dos Mil Años en Silencio</title>
+  <title>Búsqueda — Dos Mil Años en Silencio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg: #faf8f5;
-      --surface: #ffffff;
-      --border: #e0d8cc;
-      --text: #2c2416;
-      --muted: #7a6e5f;
-      --accent: #8b4513;
-      --accent2: #c47c2b;
-      --accent3: #3b6ea5;
-      --accent4: #5a9e6f;
-      --red: #c0392b;
-      --shadow: 0 2px 8px rgba(0,0,0,0.08);
+      --ink:       #1a1208;
+      --parchment: #f2ead8;
+      --paper:     #faf6ec;
+      --dust:      #e8dfc8;
+      --stone:     #c9b99a;
+      --terracota: #8b3a1a;
+      --ocre:      #b5621e;
+      --jade:      #2d6e4e;
+      --jade-lt:   #3d8f64;
+      --cenote:    #1e4a6b;
+      --gold:      #c9922a;
+      --red-glyph: #7a1f1f;
+      --muted:     #6b5c42;
+      --shadow-warm: 0 4px 24px rgba(26,18,8,0.12);
+      --shadow-deep: 0 8px 40px rgba(26,18,8,0.18);
     }
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: Georgia, 'Times New Roman', serif; background: var(--bg); color: var(--text); line-height: 1.6; }
-    header { background: var(--accent); color: #fff; padding: 1.8rem 1.5rem; text-align: center; }
-    header h1 { font-size: 1.6rem; margin-bottom: .2rem; }
-    header p { font-size: .9rem; opacity: .85; }
-    .container { max-width: 900px; margin: 0 auto; padding: 2rem 1.2rem; }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Crimson Pro', Georgia, serif;
+      background: var(--paper);
+      color: var(--ink);
+      line-height: 1.65;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+      pointer-events: none;
+      z-index: 1000;
+    }
+
+    .glyph-bg {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 0;
+      opacity: 0.025;
+      background-image:
+        repeating-linear-gradient(0deg, transparent, transparent 60px, var(--stone) 60px, var(--stone) 61px),
+        repeating-linear-gradient(90deg, transparent, transparent 60px, var(--stone) 60px, var(--stone) 61px);
+    }
+
+    /* ── TOP NAV ── */
+    .topnav {
+      background: var(--dust);
+      border-bottom: 1px solid var(--stone);
+      padding: 0.6rem 2.5rem;
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.65rem;
+      letter-spacing: 0.08em;
+      position: relative;
+      z-index: 10;
+    }
+    .topnav a {
+      color: var(--muted);
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: color 0.15s;
+    }
+    .topnav a:hover, .topnav a.active { color: var(--terracota); }
+    .topnav .separator { color: var(--stone); }
+
+    /* ── HEADER ── */
+    header {
+      position: relative;
+      background: var(--ink);
+      color: var(--parchment);
+      overflow: hidden;
+    }
+    .header-deco {
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 60% 120% at 0% 50%, rgba(30,74,107,0.2) 0%, transparent 60%),
+        radial-gradient(ellipse 50% 80% at 100% 100%, rgba(45,110,78,0.12) 0%, transparent 60%);
+    }
+    .header-inner {
+      position: relative;
+      z-index: 2;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 3rem 2.5rem 2.5rem;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: end;
+      gap: 2rem;
+    }
+    .site-label {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.62rem;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.8rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .site-label::before {
+      content: '';
+      display: inline-block;
+      width: 28px; height: 1px;
+      background: var(--gold);
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.8rem, 4vw, 3rem);
+      font-weight: 900;
+      line-height: 1.05;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.5rem;
+    }
+    header h1 em { font-style: italic; color: var(--gold); }
+    .header-sub {
+      font-family: 'Crimson Pro', serif;
+      font-size: 1rem;
+      font-weight: 300;
+      font-style: italic;
+      color: var(--stone);
+    }
+    .header-stat {
+      text-align: right;
+    }
+    .header-stat .index-count {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.2rem;
+      font-weight: 900;
+      color: var(--gold);
+      line-height: 1;
+    }
+    .header-stat .index-label {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.58rem;
+      color: var(--stone);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-top: 0.3rem;
+    }
+
+    .divider {
+      height: 6px;
+      background: linear-gradient(90deg, var(--cenote) 0%, var(--jade) 30%, var(--gold) 60%, var(--terracota) 100%);
+    }
+
+    /* ── CONTAINER ── */
+    .container {
+      position: relative;
+      z-index: 1;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2.5rem 2.5rem;
+    }
+
+    /* ── SEARCH PANEL ── */
+    .search-panel {
+      background: var(--parchment);
+      border: 1px solid var(--stone);
+      border-radius: 2px;
+      box-shadow: var(--shadow-deep);
+      margin-bottom: 2rem;
+      overflow: hidden;
+      position: relative;
+    }
+    .search-panel::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 3px;
+      background: linear-gradient(90deg, var(--cenote), var(--jade), var(--gold));
+    }
+    .search-panel-inner {
+      padding: 1.8rem 2rem 1.6rem;
+    }
 
     .search-box {
-      display: flex; gap: .6rem; margin-bottom: 1rem;
-      align-items: center; flex-wrap: wrap;
-    }
-    #query {
-      flex: 1; min-width: 200px;
-      padding: .65rem 1rem;
-      border: 2px solid var(--border);
-      border-radius: 6px;
-      font-size: 1rem;
-      font-family: inherit;
-      background: var(--surface);
-      color: var(--text);
-      transition: border-color .2s;
-    }
-    #query:focus { outline: none; border-color: var(--accent); }
-    button {
-      padding: .65rem 1.3rem;
-      background: var(--accent);
-      color: #fff;
-      border: none;
-      border-radius: 6px;
-      font-size: 1rem;
-      font-family: inherit;
-      cursor: pointer;
-      transition: background .2s;
-    }
-    button:hover { background: #6d340f; }
-
-    .filters {
-      display: flex; gap: .8rem; flex-wrap: wrap;
-      margin-bottom: 1.5rem; align-items: center;
-      font-family: 'Helvetica Neue', Arial, sans-serif;
-      font-size: .85rem;
-    }
-    .filters label { color: var(--muted); }
-    .filters select, .filters input[type=number] {
-      padding: .3rem .5rem;
-      border: 1px solid var(--border);
-      border-radius: 4px;
-      font-size: .85rem;
-      background: var(--surface);
-    }
-
-    .suggestions {
-      display: flex; flex-wrap: wrap; gap: .5rem;
+      display: flex;
+      gap: 0;
       margin-bottom: 1.2rem;
+      border: 2px solid var(--stone);
+      border-radius: 0;
+      overflow: hidden;
+      transition: border-color 0.2s;
+    }
+    .search-box:focus-within { border-color: var(--cenote); }
+
+    #query {
+      flex: 1;
+      padding: 0.9rem 1.2rem;
+      border: none;
+      outline: none;
+      font-size: 1.05rem;
+      font-family: 'Crimson Pro', serif;
+      background: #fff;
+      color: var(--ink);
+    }
+    #query::placeholder {
+      color: var(--stone);
+      font-style: italic;
+    }
+
+    .search-btn {
+      padding: 0.9rem 1.6rem;
+      background: var(--cenote);
+      color: var(--parchment);
+      border: none;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: background 0.2s;
+      flex-shrink: 0;
+    }
+    .search-btn:hover { background: var(--jade); }
+
+    /* Filters */
+    .filters {
+      display: flex;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      align-items: center;
+      padding-top: 1rem;
+      border-top: 1px solid var(--dust);
+    }
+    .filter-group {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .filter-group label {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.6rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--muted);
+    }
+    .filter-group select,
+    .filter-group input[type=number] {
+      padding: 0.35rem 0.6rem;
+      border: 1px solid var(--stone);
+      border-radius: 0;
+      font-size: 0.82rem;
+      font-family: 'Crimson Pro', serif;
+      background: #fff;
+      color: var(--ink);
+      appearance: auto;
+    }
+    .filter-group input[type=number] { width: 58px; }
+
+    /* ── SUGGESTIONS ── */
+    .suggestions-wrap {
+      margin-bottom: 1.5rem;
+    }
+    .sug-label {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.58rem;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: var(--stone);
+      margin-bottom: 0.6rem;
+    }
+    .suggestions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
     }
     .chip {
-      padding: .25rem .75rem;
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 20px;
-      font-size: .8rem;
-      font-family: 'Helvetica Neue', Arial, sans-serif;
-      cursor: pointer;
-      color: var(--accent);
-      transition: background .15s, color .15s;
-    }
-    .chip:hover { background: var(--accent); color: #fff; border-color: var(--accent); }
-
-    #status {
-      font-family: 'Helvetica Neue', Arial, sans-serif;
-      font-size: .85rem;
-      color: var(--muted);
-      margin-bottom: 1rem;
-      min-height: 1.2em;
-    }
-
-    .result-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 1.2rem 1.3rem;
-      margin-bottom: 1rem;
-      box-shadow: var(--shadow);
-    }
-    .result-meta {
-      display: flex; gap: .8rem; flex-wrap: wrap;
-      font-family: 'Helvetica Neue', Arial, sans-serif;
-      font-size: .78rem;
-      color: var(--muted);
-      margin-bottom: .5rem;
-      align-items: center;
-    }
-    .result-meta .score-badge {
-      background: var(--accent);
-      color: #fff;
-      padding: .15rem .5rem;
-      border-radius: 4px;
-      font-weight: 600;
-    }
-    .result-meta .nodo-badge {
-      background: var(--accent3);
-      color: #fff;
-      padding: .15rem .5rem;
-      border-radius: 4px;
-    }
-    .result-card h3 {
-      font-size: .95rem;
-      color: var(--accent);
-      margin-bottom: .3rem;
-    }
-    .result-card .titulo-nodo {
-      font-size: .8rem;
-      color: var(--muted);
+      padding: 0.3rem 0.8rem;
+      background: var(--parchment);
+      border: 1px solid var(--stone);
+      border-radius: 0;
+      font-size: 0.78rem;
+      font-family: 'Crimson Pro', serif;
       font-style: italic;
-      margin-bottom: .6rem;
-      font-family: 'Helvetica Neue', Arial, sans-serif;
+      cursor: pointer;
+      color: var(--muted);
+      transition: all 0.15s;
+    }
+    .chip:hover {
+      background: var(--cenote);
+      color: var(--parchment);
+      border-color: var(--cenote);
+      font-style: normal;
+    }
+
+    /* ── STATUS ── */
+    #status {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.68rem;
+      color: var(--muted);
+      margin-bottom: 1.2rem;
+      letter-spacing: 0.03em;
+      min-height: 1.4em;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid var(--dust);
+    }
+
+    /* ── RESULT CARDS ── */
+    .result-card {
+      background: var(--parchment);
+      border: 1px solid var(--stone);
+      border-radius: 2px;
+      padding: 1.5rem 1.6rem;
+      margin-bottom: 1rem;
+      box-shadow: var(--shadow-warm);
+      position: relative;
+      overflow: hidden;
+      animation: slideIn 0.3s ease-out both;
+      transition: box-shadow 0.2s;
+    }
+    .result-card:hover {
+      box-shadow: var(--shadow-deep);
+    }
+
+    @keyframes slideIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .result-card::before {
+      content: '';
+      position: absolute;
+      left: 0; top: 0; bottom: 0;
+      width: 3px;
+      background: var(--cenote);
+    }
+
+    .result-rank {
+      position: absolute;
+      top: 1.2rem;
+      right: 1.4rem;
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      font-weight: 900;
+      color: var(--dust);
+      line-height: 1;
+      pointer-events: none;
+    }
+
+    .result-meta {
+      display: flex;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-bottom: 0.8rem;
+    }
+
+    .badge {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.6rem;
+      padding: 0.2rem 0.5rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+    .badge-score {
+      background: var(--terracota);
+      color: #fff;
+    }
+    .badge-score.high { background: var(--jade); }
+    .badge-score.mid  { background: var(--ocre); }
+    .badge-nodo {
+      background: var(--cenote);
+      color: #fff;
+    }
+    .badge-id {
+      background: var(--dust);
+      color: var(--muted);
+      border: 1px solid var(--stone);
+    }
+    .badge-fecha {
+      background: transparent;
+      color: var(--muted);
+      border: 1px solid var(--stone);
+    }
+    .badge-lugar {
+      background: transparent;
+      color: var(--jade);
+      border: 1px solid var(--jade);
+    }
+
+    .result-card h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--terracota);
+      margin-bottom: 0.2rem;
+      line-height: 1.3;
+      padding-right: 3rem;
+    }
+    .titulo-nodo {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.62rem;
+      color: var(--stone);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 0.8rem;
     }
     .result-card p {
-      font-size: .88rem;
-      color: var(--text);
-      margin-bottom: .4rem;
+      font-size: 0.95rem;
+      color: var(--ink);
+      margin-bottom: 0.5rem;
+      line-height: 1.6;
     }
+
     .result-hipotesis {
-      font-size: .82rem;
-      color: #3b6ea5;
-      border-left: 3px solid var(--accent3);
-      padding-left: .7rem;
-      margin-top: .5rem;
+      font-family: 'Crimson Pro', serif;
+      font-size: 0.88rem;
+      color: var(--cenote);
+      border-left: 3px solid var(--cenote);
+      padding: 0.5rem 0.8rem;
+      margin-top: 0.7rem;
       font-style: italic;
+      background: rgba(30,74,107,0.04);
     }
+    .result-hipotesis::before {
+      content: 'Conexión hipótesis — ';
+      font-family: 'Space Mono', monospace;
+      font-size: 0.58rem;
+      font-style: normal;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--stone);
+      display: block;
+      margin-bottom: 0.2rem;
+    }
+
     .result-fuente {
-      font-size: .78rem;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.62rem;
       color: var(--muted);
-      margin-top: .5rem;
-      font-family: 'Helvetica Neue', Arial, sans-serif;
+      margin-top: 0.7rem;
+      padding-top: 0.6rem;
+      border-top: 1px solid var(--dust);
+      letter-spacing: 0.02em;
     }
-    .tags { display: flex; flex-wrap: wrap; gap: .3rem; margin-top: .5rem; }
+    .result-fuente::before {
+      content: 'FUENTE ▸ ';
+      color: var(--stone);
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.3rem;
+      margin-top: 0.7rem;
+    }
     .tag {
-      font-size: .72rem;
-      padding: .1rem .45rem;
-      background: #f5f0e8;
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.6rem;
+      padding: 0.15rem 0.45rem;
+      background: var(--dust);
+      border: 1px solid var(--stone);
       color: var(--muted);
+      letter-spacing: 0.04em;
     }
-    .highlight { background: #fff3cd; border-radius: 2px; }
+
+    mark.highlight {
+      background: rgba(201,146,42,0.25);
+      border-radius: 1px;
+      padding: 0 1px;
+    }
+
+    /* ── STATES ── */
+    #loading {
+      text-align: center;
+      padding: 4rem 2rem;
+      font-family: 'Playfair Display', serif;
+      font-style: italic;
+      color: var(--muted);
+      font-size: 1.1rem;
+    }
+    .loading-dot {
+      display: inline-block;
+      animation: pulse 1.2s infinite;
+    }
+    .loading-dot:nth-child(2) { animation-delay: 0.2s; }
+    .loading-dot:nth-child(3) { animation-delay: 0.4s; }
+    @keyframes pulse { 0%,80%,100% { opacity: 0.3; } 40% { opacity: 1; } }
 
     #no-results {
-      text-align: center; padding: 2rem;
-      font-family: 'Helvetica Neue', Arial, sans-serif;
+      text-align: center;
+      padding: 3rem 2rem;
+      font-family: 'Crimson Pro', serif;
+      font-style: italic;
       color: var(--muted);
+      font-size: 1.05rem;
       display: none;
     }
-
-    footer {
-      text-align: center; padding: 1.5rem;
-      font-size: .8rem; color: var(--muted);
-      font-family: 'Helvetica Neue', Arial, sans-serif;
-      border-top: 1px solid var(--border); margin-top: 2rem;
+    #no-results::before {
+      content: '∅';
+      display: block;
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      color: var(--stone);
+      font-style: normal;
     }
-    footer a { color: var(--accent3); text-decoration: none; }
-    footer a:hover { text-decoration: underline; }
 
-    #loading {
-      text-align: center; padding: 3rem;
-      font-family: 'Helvetica Neue', Arial, sans-serif;
+    /* ── FOOTER ── */
+    footer {
+      background: var(--ink);
       color: var(--muted);
+      padding: 2.5rem;
+      margin-top: 2rem;
+      position: relative;
+      z-index: 1;
+    }
+    .footer-inner {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+    .footer-brand {
+      font-family: 'Playfair Display', serif;
+      font-style: italic;
+      font-size: 1rem;
+      color: var(--stone);
+    }
+    .footer-brand span {
+      font-style: normal;
+      font-size: 0.7rem;
+      font-family: 'Space Mono', monospace;
+      display: block;
+      color: var(--muted);
+      margin-top: 0.2rem;
+    }
+    .footer-links {
+      display: flex;
+      gap: 1.5rem;
+    }
+    .footer-links a {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.62rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--muted);
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+    .footer-links a:hover { color: var(--gold); }
+
+    @media (max-width: 640px) {
+      .header-inner { grid-template-columns: 1fr; }
+      .header-stat { text-align: left; }
+      .container { padding: 1.5rem 1.2rem; }
+      .search-panel-inner { padding: 1.2rem 1.2rem; }
     }
   </style>
 </head>
 <body>
+<div class="glyph-bg"></div>
 
+<!-- TOP NAV -->
+<nav class="topnav">
+  <a href="index.html">▸ Tablero</a>
+  <span class="separator">·</span>
+  <a href="busqueda.html" class="active">▸ Búsqueda</a>
+  <span class="separator">·</span>
+  <a href="https://github.com/Daniela-Naraai-Caamal-Ake/investigacion-historica" target="_blank">▸ GitHub</a>
+</nav>
+
+<!-- HEADER -->
 <header>
-  <h1>🔍 Búsqueda Semántica</h1>
-  <p>Explora conexiones históricas ocultas en el archivo de Hopelchén — Los Chenes</p>
+  <div class="header-deco"></div>
+  <div class="header-inner">
+    <div>
+      <div class="site-label">Archivo histórico · Hopelchén · Los Chenes</div>
+      <h1>Búsqueda<br><em>en el archivo</em></h1>
+      <p class="header-sub">Explora conexiones históricas ocultas — tierra, poder, linaje maya</p>
+    </div>
+    <div class="header-stat">
+      <div class="index-count" id="index-count">—</div>
+      <div class="index-label">registros<br>indexados</div>
+    </div>
+  </div>
 </header>
 
+<div class="divider"></div>
+
+<!-- MAIN -->
 <div class="container">
-  <div id="loading">⏳ Cargando índice de búsqueda…</div>
 
-  <div id="search-ui" style="display:none">
-    <div class="search-box">
-      <input type="text" id="query" placeholder="Busca por concepto, persona, lugar o período…"
-             autocomplete="off" autocorrect="off" spellcheck="false" />
-      <button onclick="ejecutarBusqueda()">Buscar</button>
-    </div>
-
-    <div class="filters">
-      <label>Nodo:
-        <select id="filtro-nodo">
-          <option value="">Todos</option>
-        </select>
-      </label>
-      <label>Resultados:
-        <input type="number" id="top-k" value="8" min="1" max="50" style="width:55px" />
-      </label>
-    </div>
-
-    <div class="suggestions" id="suggestions"></div>
-
-    <div id="status"></div>
-    <div id="results"></div>
-    <div id="no-results">Sin resultados para esta búsqueda. Prueba con otros términos.</div>
+  <!-- LOADING -->
+  <div id="loading">
+    Cargando índice del archivo
+    <span class="loading-dot">.</span><span class="loading-dot">.</span><span class="loading-dot">.</span>
   </div>
+
+  <!-- SEARCH UI -->
+  <div id="search-ui" style="display:none">
+
+    <!-- SEARCH PANEL -->
+    <div class="search-panel">
+      <div class="search-panel-inner">
+        <div class="search-box">
+          <input type="text" id="query"
+            placeholder="Busca por concepto, persona, lugar o período…"
+            autocomplete="off" autocorrect="off" spellcheck="false" />
+          <button class="search-btn" onclick="ejecutarBusqueda()">Buscar ▸</button>
+        </div>
+        <div class="filters">
+          <div class="filter-group">
+            <label>Nodo</label>
+            <select id="filtro-nodo">
+              <option value="">Todos los nodos</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label>Resultados</label>
+            <input type="number" id="top-k" value="8" min="1" max="50" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SUGGESTIONS -->
+    <div class="suggestions-wrap">
+      <div class="sug-label">Búsquedas sugeridas</div>
+      <div class="suggestions" id="suggestions"></div>
+    </div>
+
+    <!-- STATUS -->
+    <div id="status"></div>
+
+    <!-- RESULTS -->
+    <div id="results"></div>
+    <div id="no-results">No hay registros que coincidan con esa búsqueda.<br>Prueba con otros términos o amplía el filtro de nodo.</div>
+
+  </div>
+
 </div>
 
+<!-- FOOTER -->
 <footer>
-  Proyecto <em>Dos Mil Años en Silencio</em> — Daniela Naraai Caamal Ake &nbsp;|&nbsp;
-  <a href="index.html">📊 Tablero estadístico</a> &nbsp;|&nbsp;
-  <a href="https://github.com/Daniela-Naraai-Caamal-Ake/investigacion-historica" target="_blank">GitHub</a>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      Dos Mil Años en Silencio
+      <span>Daniela Naraai Caamal Ake · Hopelchén, Campeche, México</span>
+    </div>
+    <div class="footer-links">
+      <a href="index.html">Tablero</a>
+      <a href="https://github.com/Daniela-Naraai-Caamal-Ake/investigacion-historica" target="_blank">GitHub</a>
+    </div>
+  </div>
 </footer>
 
 <script>
-// ─── Búsqueda TF-IDF en el navegador ──────────────────────────────────────
+// ─── LÓGICA TF-IDF INTACTA ──────────────────────────────────────────────────
 
 let INDEX = [];
 let TFIDF = null;
@@ -250,17 +686,15 @@ const SUGERENCIAS = [
   "conocimiento maya meliponicultura",
 ];
 
-// ─── Tokenizer simple para español ────────────────────────────────────────
 function tokenizar(texto) {
   if (!texto) return [];
   return texto.toLowerCase()
-    .normalize('NFD').replace(/[\u0300-\u036f]/g, '')  // quitar acentos
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
     .replace(/[^a-z0-9\s]/g, ' ')
     .split(/\s+/)
     .filter(t => t.length > 2);
 }
 
-// ─── Stop words básicas en español ────────────────────────────────────────
 const STOP = new Set([
   'que','de','la','el','los','las','en','del','con','por','para','una','uno',
   'sus','les','han','fue','era','son','ser','hay','tiene','como','mas','sin',
@@ -275,12 +709,10 @@ function filtrarStop(tokens) {
   return tokens.filter(t => !STOP.has(t));
 }
 
-// ─── Constructor TF-IDF ───────────────────────────────────────────────────
 class TFIDFEngine {
   constructor(documentos) {
     this.docs = documentos;
     this.N = documentos.length;
-    // Construir vocabulario y vectores
     this.idf = {};
     this.docVecs = documentos.map(doc => {
       const tokens = filtrarStop(tokenizar(doc.texto_completo));
@@ -290,7 +722,6 @@ class TFIDFEngine {
       for (const t in tf) tf[t] = tf[t] / total;
       return tf;
     });
-    // IDF
     const df = {};
     for (const vec of this.docVecs) {
       for (const t in vec) df[t] = (df[t] || 0) + 1;
@@ -299,7 +730,6 @@ class TFIDFEngine {
       this.idf[t] = Math.log((this.N + 1) / (df[t] + 1)) + 1;
     }
   }
-
   vectorize(tokens) {
     const tf = {};
     for (const t of tokens) tf[t] = (tf[t] || 0) + 1;
@@ -308,7 +738,6 @@ class TFIDFEngine {
     for (const t in tf) vec[t] = (tf[t] / total) * (this.idf[t] || 1);
     return vec;
   }
-
   coseno(vecA, vecB) {
     let dot = 0, normA = 0, normB = 0;
     for (const t in vecA) {
@@ -319,14 +748,12 @@ class TFIDFEngine {
     const denom = Math.sqrt(normA) * Math.sqrt(normB);
     return denom > 0 ? dot / denom : 0;
   }
-
   buscar(consulta, topK = 8, nodoFiltro = '') {
     const tokens = filtrarStop(tokenizar(consulta));
     if (!tokens.length) return [];
     const vecQ = this.vectorize(tokens);
     const scores = this.docVecs.map((vec, i) => {
       if (nodoFiltro && this.docs[i].nodo_id !== nodoFiltro) return { i, score: 0 };
-      // TF-IDF doc vec weighted
       const wVec = {};
       for (const t in vec) wVec[t] = vec[t] * (this.idf[t] || 1);
       return { i, score: this.coseno(vecQ, wVec) };
@@ -339,7 +766,6 @@ class TFIDFEngine {
   }
 }
 
-// ─── Highlight ─────────────────────────────────────────────────────────────
 function highlight(texto, consulta) {
   if (!texto || !consulta) return texto || '';
   const terms = filtrarStop(tokenizar(consulta));
@@ -349,43 +775,49 @@ function highlight(texto, consulta) {
   return texto.replace(re, '<mark class="highlight">$1</mark>');
 }
 
-function truncar(texto, max = 280) {
+function truncar(texto, max = 300) {
   if (!texto) return '';
   if (texto.length <= max) return texto;
   return texto.slice(0, max).trimEnd() + '…';
 }
 
-// ─── Renderizar resultado ──────────────────────────────────────────────────
+function scoreBadgeClass(pct) {
+  if (pct >= 60) return 'badge-score high';
+  if (pct >= 30) return 'badge-score mid';
+  return 'badge-score';
+}
+
 function renderResultado(r, consulta, rank) {
   const { score, doc } = r;
   const pct = Math.round(score * 100);
-  const desc = highlight(truncar(doc.descripcion, 300), consulta);
-  const hip = highlight(truncar(doc.conexion_hipotesis, 200), consulta);
+  const desc = highlight(truncar(doc.descripcion, 320), consulta);
+  const hip = highlight(truncar(doc.conexion_hipotesis, 220), consulta);
   const subtitulo = highlight(doc.subtitulo || '', consulta);
-  const tagsHtml = (doc.tags || []).slice(0, 6).map(t =>
-    `<span class="tag">${t}</span>`).join('');
-  const fuenteCorta = (doc.fuente || '').slice(0, 100) + ((doc.fuente || '').length > 100 ? '…' : '');
+  const tagsHtml = (doc.tags || []).slice(0, 6)
+    .map(t => `<span class="tag">${t}</span>`).join('');
+  const fuenteCorta = (doc.fuente || '').slice(0, 110) +
+    ((doc.fuente || '').length > 110 ? '…' : '');
 
   return `
     <div class="result-card">
+      <div class="result-rank">${rank}</div>
       <div class="result-meta">
-        <span class="score-badge">${pct}% relevancia</span>
-        <span class="nodo-badge">Nodo ${doc.nodo_id}</span>
-        <span><strong>ID:</strong> ${doc.registro_id}</span>
-        ${doc.fecha_evento ? `<span>📅 ${doc.fecha_evento}</span>` : ''}
-        ${doc.lugar ? `<span>📍 ${doc.lugar}</span>` : ''}
+        <span class="badge ${scoreBadgeClass(pct)}">${pct}% relevancia</span>
+        <span class="badge badge-nodo">Nodo ${doc.nodo_id}</span>
+        <span class="badge badge-id">ID ${doc.registro_id}</span>
+        ${doc.fecha_evento ? `<span class="badge badge-fecha">${doc.fecha_evento}</span>` : ''}
+        ${doc.lugar ? `<span class="badge badge-lugar">${doc.lugar}</span>` : ''}
       </div>
       ${subtitulo ? `<h3>${subtitulo}</h3>` : ''}
       <div class="titulo-nodo">${doc.titulo_nodo}</div>
       ${desc ? `<p>${desc}</p>` : ''}
-      ${hip ? `<div class="result-hipotesis">🔗 ${hip}</div>` : ''}
-      ${fuenteCorta ? `<div class="result-fuente">📚 ${fuenteCorta}</div>` : ''}
+      ${hip ? `<div class="result-hipotesis">${hip}</div>` : ''}
+      ${fuenteCorta ? `<div class="result-fuente">${fuenteCorta}</div>` : ''}
       ${tagsHtml ? `<div class="tags">${tagsHtml}</div>` : ''}
     </div>
   `;
 }
 
-// ─── Ejecutar búsqueda ────────────────────────────────────────────────────
 function ejecutarBusqueda() {
   const consulta = document.getElementById('query').value.trim();
   const topK = parseInt(document.getElementById('top-k').value) || 8;
@@ -410,34 +842,38 @@ function ejecutarBusqueda() {
   }
 
   document.getElementById('status').textContent =
-    `${resultados.length} resultado(s) en ${ms} ms — consulta: "${consulta}"`;
+    `${resultados.length} resultado(s) encontrado(s) — ${ms} ms — "${consulta}"`;
 
   const html = resultados.map((r, i) => renderResultado(r, consulta, i + 1)).join('');
   document.getElementById('results').innerHTML = html;
 }
 
-// ─── Init ─────────────────────────────────────────────────────────────────
 async function init() {
   try {
     const resp = await fetch('search_index.json');
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     INDEX = await resp.json();
   } catch (e) {
-    document.getElementById('loading').textContent =
-      `❌ No se pudo cargar search_index.json: ${e.message}`;
+    document.getElementById('loading').innerHTML =
+      `<span style="color:var(--terracota);font-family:'Space Mono',monospace;font-size:.8rem">
+        ERROR — No se pudo cargar search_index.json: ${e.message}
+      </span>`;
     return;
   }
 
   TFIDF = new TFIDFEngine(INDEX);
 
-  // Poblar select de nodos
+  // Contador en header
+  document.getElementById('index-count').textContent = INDEX.length;
+
+  // Select de nodos
   const nodos = [...new Set(INDEX.map(d => d.nodo_id))].sort();
   const sel = document.getElementById('filtro-nodo');
   for (const nid of nodos) {
     const titulo = (INDEX.find(d => d.nodo_id === nid) || {}).titulo_nodo || '';
     const opt = document.createElement('option');
     opt.value = nid;
-    opt.textContent = `Nodo ${nid} — ${titulo.slice(0, 40)}${titulo.length > 40 ? '…' : ''}`;
+    opt.textContent = `Nodo ${nid} — ${titulo.slice(0, 38)}${titulo.length > 38 ? '…' : ''}`;
     sel.appendChild(opt);
   }
 
@@ -457,9 +893,8 @@ async function init() {
   document.getElementById('loading').style.display = 'none';
   document.getElementById('search-ui').style.display = 'block';
   document.getElementById('status').textContent =
-    `${INDEX.length} registros históricos indexados y listos para búsqueda.`;
+    `${INDEX.length} registros históricos indexados — escribe para explorar el archivo.`;
 
-  // Enter key
   document.getElementById('query').addEventListener('keydown', e => {
     if (e.key === 'Enter') ejecutarBusqueda();
   });
