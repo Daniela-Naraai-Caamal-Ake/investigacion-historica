@@ -3,7 +3,7 @@
 > Proyecto: *Dos Mil Años en Silencio* — Hopelchén: 2000 años de historia  
 > Autora: Daniela Naraai Caamal  
 > Fuente: Consolidado de `datos/hopelchen/HOPELCHEN_PREGUNTAS_*.json`  
-> Última actualización: 2026-04-18  
+> Última actualización: 2026-04-24  
 > ⚙ Generado automáticamente por `tools/actualizar_vacios.py`
 
 
@@ -336,4 +336,4 @@ Estas preguntas son cuellos de botella: sin ellas, capítulos enteros quedan inc
 ---
 
 *Fuente de datos: `datos/hopelchen/HOPELCHEN_PREGUNTAS_*.json`*  
-*Generado: 2026-04-18 — ver también `datos/SINTESIS.md` para resumen ejecutivo del estado del repositorio*
+*Generado: 2026-04-24 — ver también `datos/SINTESIS.md` para resumen ejecutivo del estado del repositorio*
